@@ -1,0 +1,2396 @@
+Running as unit: run-p3130514-i15710554.scope; invocation ID: c268ef45b5134756af78419d566aaec7
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded bevy_a11y v0.16.0 (registry `tuna`)
+  Downloaded bevy-tnua-physics-integration-layer v0.9.0 (registry `tuna`)
+  Downloaded bevy_state_macros v0.16.0 (registry `tuna`)
+  Downloaded bevy_state v0.16.0 (registry `tuna`)
+  Downloaded bevy_input_focus v0.16.0 (registry `tuna`)
+  Downloaded bevy_rapier2d v0.31.0 (registry `tuna`)
+  Downloaded rapier2d v0.27.0 (registry `tuna`)
+  Downloaded parry2d v0.22.1 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling autocfg v1.4.0
+   Compiling serde v1.0.219
+    Checking cfg-if v1.0.0
+   Compiling libm v0.2.15
+   Compiling libc v0.2.172
+   Compiling parking_lot_core v0.9.10
+    Checking equivalent v1.0.2
+    Checking foldhash v0.1.5
+    Checking allocator-api2 v0.2.21
+   Compiling zerocopy v0.8.25
+   Compiling cfg_aliases v0.2.1
+   Compiling crossbeam-utils v0.8.21
+   Compiling num-traits v0.2.19
+   Compiling lock_api v0.4.12
+    Checking pin-project-lite v0.2.16
+    Checking log v0.4.27
+    Checking once_cell v1.21.3
+    Checking smallvec v1.15.0
+   Compiling thiserror v2.0.12
+   Compiling quote v1.0.40
+   Compiling hashbrown v0.15.3
+   Compiling scopeguard v1.2.0
+   Compiling syn v2.0.101
+   Compiling winnow v0.7.10
+   Compiling toml_datetime v0.6.9
+   Compiling parking_lot v0.12.3
+    Checking parking v2.2.1
+    Checking concurrent-queue v2.5.0
+   Compiling indexmap v2.9.0
+   Compiling getrandom v0.3.3
+    Checking futures-core v0.3.31
+    Checking getrandom v0.2.16
+   Compiling slab v0.4.9
+    Checking rand_core v0.6.4
+    Checking futures-io v0.3.31
+    Checking spin v0.9.8
+    Checking fastrand v2.3.0
+   Compiling typeid v1.0.3
+   Compiling unicode-xid v0.2.6
+    Checking thread_local v1.1.8
+    Checking downcast-rs v2.0.1
+    Checking ppv-lite86 v0.2.21
+   Compiling uuid v1.16.0
+    Checking futures-lite v2.6.0
+    Checking atomic-waker v1.1.2
+    Checking async-task v4.7.1
+    Checking bevy_ptr v0.16.1
+    Checking disqualified v1.0.0
+   Compiling nix v0.29.0
+    Checking crossbeam-queue v0.3.12
+    Checking nonmax v0.5.5
+    Checking arrayvec v0.7.6
+    Checking rand_chacha v0.3.1
+    Checking either v1.15.0
+    Checking fixedbitset v0.5.7
+    Checking rand v0.8.5
+    Checking bumpalo v3.17.0
+    Checking event-listener v5.4.0
+    Checking tracing-core v0.1.33
+   Compiling rustversion v1.0.20
+    Checking event-listener-strategy v0.5.4
+    Checking async-executor v1.13.2
+    Checking memchr v2.7.4
+    Checking itertools v0.14.0
+    Checking regex-syntax v0.8.5
+    Checking bit-vec v0.8.0
+    Checking rand_distr v0.4.3
+    Checking aho-corasick v1.1.3
+   Compiling heck v0.5.0
+   Compiling thiserror v1.0.69
+   Compiling shlex v1.3.0
+   Compiling cc v1.2.22
+   Compiling naga v24.0.0
+    Checking termcolor v1.4.1
+   Compiling toml_edit v0.22.26
+    Checking regex-syntax v0.6.29
+    Checking unicode-width v0.1.14
+    Checking codespan-reporting v0.11.1
+    Checking bit-set v0.8.0
+    Checking async-channel v2.3.1
+    Checking piper v0.2.4
+    Checking crossbeam-channel v0.5.15
+    Checking libloading v0.8.6
+    Checking rustc-hash v1.1.0
+   Compiling khronos-egl v6.0.0
+    Checking overload v0.1.1
+    Checking regex-automata v0.4.9
+    Checking hexf-parse v0.2.1
+    Checking lazy_static v1.5.0
+   Compiling ash v0.38.0+1.3.281
+    Checking sharded-slab v0.1.7
+    Checking nu-ansi-term v0.46.0
+    Checking blocking v1.6.1
+    Checking tracing-log v0.2.0
+    Checking async-lock v3.4.0
+   Compiling wgpu-hal v24.0.4
+    Checking constant_time_eq v0.3.1
+   Compiling blake3 v1.8.2
+    Checking arrayref v0.3.9
+    Checking raw-window-handle v0.6.2
+    Checking base64 v0.21.7
+    Checking regex-automata v0.1.10
+    Checking const_panic v0.2.12
+    Checking async-fs v2.1.2
+   Compiling encase_derive_impl v0.10.0
+    Checking async-broadcast v0.7.2
+    Checking matchers v0.1.0
+    Checking euclid v0.22.11
+    Checking ordered-float v4.6.0
+   Compiling wgpu-core v24.0.2
+   Compiling bevy_macro_utils v0.16.1
+    Checking regex v1.11.1
+    Checking stackfuture v0.3.0
+    Checking byteorder-lite v0.1.0
+    Checking atomicow v1.1.0
+   Compiling litrs v0.4.1
+    Checking const_soft_float v0.1.4
+    Checking svg_fmt v0.4.5
+    Checking tinyvec_macros v0.1.1
+    Checking renderdoc-sys v1.1.0
+    Checking glow v0.16.0
+    Checking guillotiere v0.6.2
+    Checking tinyvec v1.9.0
+    Checking constgebra v0.1.4
+   Compiling wgpu v24.0.3
+    Checking half v2.6.0
+   Compiling document-features v0.2.11
+   Compiling paste v1.0.15
+    Checking bit-vec v0.6.3
+    Checking rectangle-pack v0.4.2
+    Checking bit-set v0.5.3
+   Compiling matrixmultiply v0.3.9
+   Compiling typenum v1.18.0
+    Checking data-encoding v2.9.0
+    Checking static_assertions v1.1.0
+   Compiling serde_derive v1.0.219
+   Compiling bytemuck_derive v1.9.3
+   Compiling thiserror-impl v2.0.12
+   Compiling derive_more-impl v1.0.0
+   Compiling bevy_reflect_derive v0.16.1
+   Compiling assert_type_match v0.1.1
+   Compiling variadics_please v1.1.0
+   Compiling bevy_ecs_macros v0.16.1
+   Compiling bevy_derive v0.16.1
+    Checking bytemuck v1.23.0
+   Compiling tracing-attributes v0.1.28
+   Compiling thiserror-impl v1.0.69
+   Compiling strum_macros v0.26.4
+   Compiling profiling-procmacros v1.0.16
+   Compiling encase_derive v0.10.0
+    Checking tracing v0.1.41
+   Compiling bevy_asset_macros v0.16.1
+    Checking profiling v1.0.16
+    Checking tracing-subscriber v0.3.19
+    Checking image v0.25.6
+    Checking safe_arch v0.7.4
+    Checking const-fnv1a-hash v1.1.0
+   Compiling bevy_encase_derive v0.16.1
+    Checking wide v0.7.32
+    Checking strum v0.26.3
+    Checking derive_more v1.0.0
+   Compiling bevy_render_macros v0.16.1
+    Checking offset-allocator v0.2.0
+    Checking num-integer v0.1.46
+    Checking num-complex v0.4.6
+    Checking approx v0.5.1
+    Checking rawpointer v0.2.1
+    Checking num-rational v0.4.2
+   Compiling nalgebra-macros v0.2.2
+    Checking robust v1.1.0
+   Compiling num-derive v0.4.2
+    Checking ordered-float v5.0.0
+    Checking simba v0.9.0
+    Checking ena v0.14.3
+    Checking rustc-hash v2.1.1
+    Checking bitflags v2.9.0
+    Checking glam v0.29.3
+    Checking erased-serde v0.4.6
+    Checking smol_str v0.2.2
+    Checking wgpu-types v24.0.0
+    Checking spirv v0.3.0+sdk-1.3.268.0
+    Checking gpu-descriptor-types v0.2.0
+    Checking gpu-alloc-types v0.3.0
+    Checking bevy_platform v0.16.1
+    Checking bevy_utils v0.16.1
+    Checking bevy_tasks v0.16.1
+    Checking gpu-alloc v0.6.0
+    Checking gpu-descriptor v0.3.1
+    Checking ctrlc v3.4.6
+    Checking ron v0.8.1
+    Checking spade v2.13.1
+    Checking bevy_reflect v0.16.1
+    Checking encase v0.10.0
+    Checking bevy_mikktspace v0.16.1
+    Checking hexasphere v15.1.0
+    Checking nalgebra v0.33.2
+    Checking naga_oil v0.17.0
+    Checking bevy_ecs v0.16.1
+    Checking bevy_math v0.16.1
+    Checking parry2d v0.22.1
+error[E0275]: overflow evaluating the requirement `ContextWgpuCore: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:739:21
+    |
+739 |     type Instance = ContextWgpuCore;
+    |                     ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Instance` to implement `InstanceInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:87:11
+    |
+ 87 | pub trait InstanceInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Instance`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:57:20
+    |
+ 57 |     type Instance: InstanceInterface + ComparisonTraits;
+    |                    ^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Instance`
+
+error[E0275]: overflow evaluating the requirement `CoreAdapter: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:740:20
+    |
+740 |     type Adapter = CoreAdapter;
+    |                    ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Adapter` to implement `AdapterInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:108:11
+    |
+108 | pub trait AdapterInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Adapter`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:58:19
+    |
+ 58 |     type Adapter: AdapterInterface + ComparisonTraits;
+    |                   ^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Adapter`
+
+error[E0275]: overflow evaluating the requirement `CoreDevice: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:741:19
+    |
+741 |     type Device = CoreDevice;
+    |                   ^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Device` to implement `DeviceInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:133:11
+    |
+133 | pub trait DeviceInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Device`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:59:18
+    |
+ 59 |     type Device: DeviceInterface + ComparisonTraits;
+    |                  ^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Device`
+
+error[E0275]: overflow evaluating the requirement `CoreQueue: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:742:18
+    |
+742 |     type Queue = CoreQueue;
+    |                  ^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Queue` to implement `QueueInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:203:11
+    |
+203 | pub trait QueueInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Queue`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:60:17
+    |
+ 60 |     type Queue: QueueInterface + ComparisonTraits;
+    |                 ^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Queue`
+
+error[E0275]: overflow evaluating the requirement `CoreShaderModule: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:743:25
+    |
+743 |     type ShaderModule = CoreShaderModule;
+    |                         ^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::ShaderModule` to implement `ShaderModuleInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:241:11
+    |
+241 | pub trait ShaderModuleInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::ShaderModule`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:61:24
+    |
+ 61 |     type ShaderModule: ShaderModuleInterface + ComparisonTraits;
+    |                        ^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::ShaderModule`
+
+error[E0275]: overflow evaluating the requirement `CoreBindGroupLayout: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:744:28
+    |
+744 |     type BindGroupLayout = CoreBindGroupLayout;
+    |                            ^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::BindGroupLayout` to implement `BindGroupLayoutInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:244:11
+    |
+244 | pub trait BindGroupLayoutInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::BindGroupLayout`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:62:27
+    |
+ 62 |     type BindGroupLayout: BindGroupLayoutInterface + ComparisonTraits;
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::BindGroupLayout`
+
+error[E0275]: overflow evaluating the requirement `CoreBindGroup: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:745:22
+    |
+745 |     type BindGroup = CoreBindGroup;
+    |                      ^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::BindGroup` to implement `BindGroupInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:245:11
+    |
+245 | pub trait BindGroupInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::BindGroup`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:63:21
+    |
+ 63 |     type BindGroup: BindGroupInterface + ComparisonTraits;
+    |                     ^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::BindGroup`
+
+error[E0275]: overflow evaluating the requirement `CoreTextureView: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:746:24
+    |
+746 |     type TextureView = CoreTextureView;
+    |                        ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::TextureView` to implement `TextureViewInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:246:11
+    |
+246 | pub trait TextureViewInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::TextureView`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:64:23
+    |
+ 64 |     type TextureView: TextureViewInterface + ComparisonTraits;
+    |                       ^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::TextureView`
+
+error[E0275]: overflow evaluating the requirement `CoreSampler: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:747:20
+    |
+747 |     type Sampler = CoreSampler;
+    |                    ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Sampler` to implement `SamplerInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:247:11
+    |
+247 | pub trait SamplerInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Sampler`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:65:19
+    |
+ 65 |     type Sampler: SamplerInterface + ComparisonTraits;
+    |                   ^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Sampler`
+
+error[E0275]: overflow evaluating the requirement `CoreBuffer: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:748:19
+    |
+748 |     type Buffer = CoreBuffer;
+    |                   ^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Buffer` to implement `BufferInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:248:11
+    |
+248 | pub trait BufferInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Buffer`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:66:18
+    |
+ 66 |     type Buffer: BufferInterface + ComparisonTraits;
+    |                  ^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Buffer`
+
+error[E0275]: overflow evaluating the requirement `CoreTexture: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:749:20
+    |
+749 |     type Texture = CoreTexture;
+    |                    ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Texture` to implement `TextureInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:267:11
+    |
+267 | pub trait TextureInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Texture`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:67:19
+    |
+ 67 |     type Texture: TextureInterface + ComparisonTraits;
+    |                   ^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Texture`
+
+error[E0275]: overflow evaluating the requirement `CoreBlas: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:750:17
+    |
+750 |     type Blas = CoreBlas;
+    |                 ^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Blas` to implement `BlasInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:272:11
+    |
+272 | pub trait BlasInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Blas`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:68:16
+    |
+ 68 |     type Blas: BlasInterface + ComparisonTraits;
+    |                ^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Blas`
+
+error[E0275]: overflow evaluating the requirement `CoreTlas: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:751:17
+    |
+751 |     type Tlas = CoreTlas;
+    |                 ^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Tlas` to implement `TlasInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:273:11
+    |
+273 | pub trait TlasInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Tlas`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:69:16
+    |
+ 69 |     type Tlas: TlasInterface + ComparisonTraits;
+    |                ^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Tlas`
+
+error[E0275]: overflow evaluating the requirement `CoreQuerySet: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:752:21
+    |
+752 |     type QuerySet = CoreQuerySet;
+    |                     ^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::QuerySet` to implement `QuerySetInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:274:11
+    |
+274 | pub trait QuerySetInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::QuerySet`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:70:20
+    |
+ 70 |     type QuerySet: QuerySetInterface + ComparisonTraits;
+    |                    ^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::QuerySet`
+
+error[E0275]: overflow evaluating the requirement `CorePipelineLayout: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:753:27
+    |
+753 |     type PipelineLayout = CorePipelineLayout;
+    |                           ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::PipelineLayout` to implement `PipelineLayoutInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:275:11
+    |
+275 | pub trait PipelineLayoutInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::PipelineLayout`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:71:26
+    |
+ 71 |     type PipelineLayout: PipelineLayoutInterface + ComparisonTraits;
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::PipelineLayout`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderPipeline: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:754:27
+    |
+754 |     type RenderPipeline = CoreRenderPipeline;
+    |                           ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::RenderPipeline` to implement `RenderPipelineInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:276:11
+    |
+276 | pub trait RenderPipelineInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::RenderPipeline`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:72:26
+    |
+ 72 |     type RenderPipeline: RenderPipelineInterface + ComparisonTraits;
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::RenderPipeline`
+
+error[E0275]: overflow evaluating the requirement `CoreComputePipeline: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:755:28
+    |
+755 |     type ComputePipeline = CoreComputePipeline;
+    |                            ^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::ComputePipeline` to implement `ComputePipelineInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:279:11
+    |
+279 | pub trait ComputePipelineInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::ComputePipeline`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:73:27
+    |
+ 73 |     type ComputePipeline: ComputePipelineInterface + ComparisonTraits;
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::ComputePipeline`
+
+error[E0275]: overflow evaluating the requirement `CorePipelineCache: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:756:26
+    |
+756 |     type PipelineCache = CorePipelineCache;
+    |                          ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::PipelineCache` to implement `PipelineCacheInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:282:11
+    |
+282 | pub trait PipelineCacheInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::PipelineCache`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:74:25
+    |
+ 74 |     type PipelineCache: PipelineCacheInterface + ComparisonTraits;
+    |                         ^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::PipelineCache`
+
+error[E0275]: overflow evaluating the requirement `CoreCommandEncoder: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:757:27
+    |
+757 |     type CommandEncoder = CoreCommandEncoder;
+    |                           ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::CommandEncoder` to implement `CommandEncoderInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:285:11
+    |
+285 | pub trait CommandEncoderInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::CommandEncoder`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:75:26
+    |
+ 75 |     type CommandEncoder: CommandEncoderInterface + ComparisonTraits;
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::CommandEncoder`
+
+error[E0275]: overflow evaluating the requirement `CoreComputePass: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:758:24
+    |
+758 |     type ComputePass = CoreComputePass;
+    |                        ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::ComputePass` to implement `ComputePassInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:354:11
+    |
+354 | pub trait ComputePassInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::ComputePass`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:76:23
+    |
+ 76 |     type ComputePass: ComputePassInterface + ComparisonTraits;
+    |                       ^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::ComputePass`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderPass: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:759:23
+    |
+759 |     type RenderPass = CoreRenderPass;
+    |                       ^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::RenderPass` to implement `RenderPassInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:380:11
+    |
+380 | pub trait RenderPassInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::RenderPass`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:77:22
+    |
+ 77 |     type RenderPass: RenderPassInterface + ComparisonTraits;
+    |                      ^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::RenderPass`
+
+error[E0275]: overflow evaluating the requirement `CoreCommandBuffer: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:760:26
+    |
+760 |     type CommandBuffer = CoreCommandBuffer;
+    |                          ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::CommandBuffer` to implement `CommandBufferInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:515:11
+    |
+515 | pub trait CommandBufferInterface: CommonTraits {}
+    |           ^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::CommandBuffer`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:78:25
+    |
+ 78 |     type CommandBuffer: CommandBufferInterface + ComparisonTraits;
+    |                         ^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::CommandBuffer`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderBundleEncoder: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:761:32
+    |
+761 |     type RenderBundleEncoder = CoreRenderBundleEncoder;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::RenderBundleEncoder` to implement `RenderBundleEncoderInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:473:11
+    |
+473 | pub trait RenderBundleEncoderInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::RenderBundleEncoder`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:79:31
+    |
+ 79 |     type RenderBundleEncoder: RenderBundleEncoderInterface + ComparisonTraits;
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::RenderBundleEncoder`
+
+error[E0275]: overflow evaluating the requirement `CoreSurface: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:763:20
+    |
+763 |     type Surface = CoreSurface;
+    |                    ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::Surface` to implement `SurfaceInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:518:11
+    |
+518 | pub trait SurfaceInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::Surface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:81:19
+    |
+ 81 |     type Surface: SurfaceInterface + ComparisonTraits;
+    |                   ^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::Surface`
+
+error[E0275]: overflow evaluating the requirement `CoreSurfaceOutputDetail: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:764:32
+    |
+764 |     type SurfaceOutputDetail = CoreSurfaceOutputDetail;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required for `<ContextWgpuCore as InterfaceTypes>::SurfaceOutputDetail` to implement `SurfaceOutputDetailInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:531:11
+    |
+531 | pub trait SurfaceOutputDetailInterface: CommonTraits {
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+note: required by a bound in `InterfaceTypes::SurfaceOutputDetail`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:82:31
+    |
+ 82 |     type SurfaceOutputDetail: SurfaceOutputDetailInterface + ComparisonTraits;
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `InterfaceTypes::SurfaceOutputDetail`
+
+error[E0275]: overflow evaluating the requirement `ContextWgpuCore: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:769:38
+    |
+769 | impl dispatch::InstanceInterface for ContextWgpuCore {
+    |                                      ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `InstanceInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:87:30
+    |
+ 87 | pub trait InstanceInterface: CommonTraits {
+    |                              ^^^^^^^^^^^^ required by this bound in `InstanceInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreAdapter: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:868:37
+    |
+868 | impl dispatch::AdapterInterface for CoreAdapter {
+    |                                     ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `AdapterInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:108:29
+    |
+108 | pub trait AdapterInterface: CommonTraits {
+    |                             ^^^^^^^^^^^^ required by this bound in `AdapterInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreDevice: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:949:36
+    |
+949 | impl dispatch::DeviceInterface for CoreDevice {
+    |                                    ^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `DeviceInterface`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:133:28
+    |
+133 | pub trait DeviceInterface: CommonTraits {
+    |                            ^^^^^^^^^^^^ required by this bound in `DeviceInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreQueue: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1646:35
+     |
+1646 | impl dispatch::QueueInterface for CoreQueue {
+     |                                   ^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `QueueInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:203:27
+     |
+ 203 | pub trait QueueInterface: CommonTraits {
+     |                           ^^^^^^^^^^^^ required by this bound in `QueueInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreShaderModule: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1834:42
+     |
+1834 | impl dispatch::ShaderModuleInterface for CoreShaderModule {
+     |                                          ^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `ShaderModuleInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:241:34
+     |
+ 241 | pub trait ShaderModuleInterface: CommonTraits {
+     |                                  ^^^^^^^^^^^^ required by this bound in `ShaderModuleInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreBindGroupLayout: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1846:45
+     |
+1846 | impl dispatch::BindGroupLayoutInterface for CoreBindGroupLayout {}
+     |                                             ^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `BindGroupLayoutInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:244:37
+     |
+ 244 | pub trait BindGroupLayoutInterface: CommonTraits {}
+     |                                     ^^^^^^^^^^^^ required by this bound in `BindGroupLayoutInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreBindGroup: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1854:39
+     |
+1854 | impl dispatch::BindGroupInterface for CoreBindGroup {}
+     |                                       ^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `BindGroupInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:245:31
+     |
+ 245 | pub trait BindGroupInterface: CommonTraits {}
+     |                               ^^^^^^^^^^^^ required by this bound in `BindGroupInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreTextureView: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1862:41
+     |
+1862 | impl dispatch::TextureViewInterface for CoreTextureView {}
+     |                                         ^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `TextureViewInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:246:33
+     |
+ 246 | pub trait TextureViewInterface: CommonTraits {}
+     |                                 ^^^^^^^^^^^^ required by this bound in `TextureViewInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreSampler: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1871:37
+     |
+1871 | impl dispatch::SamplerInterface for CoreSampler {}
+     |                                     ^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `SamplerInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:247:29
+     |
+ 247 | pub trait SamplerInterface: CommonTraits {}
+     |                             ^^^^^^^^^^^^ required by this bound in `SamplerInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreBuffer: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1879:36
+     |
+1879 | impl dispatch::BufferInterface for CoreBuffer {
+     |                                    ^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `BufferInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:248:28
+     |
+ 248 | pub trait BufferInterface: CommonTraits {
+     |                            ^^^^^^^^^^^^ required by this bound in `BufferInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreTexture: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:1962:37
+     |
+1962 | impl dispatch::TextureInterface for CoreTexture {
+     |                                     ^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `TextureInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:267:29
+     |
+ 267 | pub trait TextureInterface: CommonTraits {
+     |                             ^^^^^^^^^^^^ required by this bound in `TextureInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreBlas: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2007:34
+     |
+2007 | impl dispatch::BlasInterface for CoreBlas {}
+     |                                  ^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `BlasInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:272:26
+     |
+ 272 | pub trait BlasInterface: CommonTraits {}
+     |                          ^^^^^^^^^^^^ required by this bound in `BlasInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreTlas: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2015:34
+     |
+2015 | impl dispatch::TlasInterface for CoreTlas {}
+     |                                  ^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `TlasInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:273:26
+     |
+ 273 | pub trait TlasInterface: CommonTraits {}
+     |                          ^^^^^^^^^^^^ required by this bound in `TlasInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreQuerySet: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2023:38
+     |
+2023 | impl dispatch::QuerySetInterface for CoreQuerySet {}
+     |                                      ^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `QuerySetInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:274:30
+     |
+ 274 | pub trait QuerySetInterface: CommonTraits {}
+     |                              ^^^^^^^^^^^^ required by this bound in `QuerySetInterface`
+
+error[E0275]: overflow evaluating the requirement `CorePipelineLayout: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2031:44
+     |
+2031 | impl dispatch::PipelineLayoutInterface for CorePipelineLayout {}
+     |                                            ^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `PipelineLayoutInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:275:36
+     |
+ 275 | pub trait PipelineLayoutInterface: CommonTraits {}
+     |                                    ^^^^^^^^^^^^ required by this bound in `PipelineLayoutInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderPipeline: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2039:44
+     |
+2039 | impl dispatch::RenderPipelineInterface for CoreRenderPipeline {
+     |                                            ^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `RenderPipelineInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:276:36
+     |
+ 276 | pub trait RenderPipelineInterface: CommonTraits {
+     |                                    ^^^^^^^^^^^^ required by this bound in `RenderPipelineInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreComputePipeline: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2066:45
+     |
+2066 | impl dispatch::ComputePipelineInterface for CoreComputePipeline {
+     |                                             ^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `ComputePipelineInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:279:37
+     |
+ 279 | pub trait ComputePipelineInterface: CommonTraits {
+     |                                     ^^^^^^^^^^^^ required by this bound in `ComputePipelineInterface`
+
+error[E0275]: overflow evaluating the requirement `CorePipelineCache: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2093:43
+     |
+2093 | impl dispatch::PipelineCacheInterface for CorePipelineCache {
+     |                                           ^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `PipelineCacheInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:282:35
+     |
+ 282 | pub trait PipelineCacheInterface: CommonTraits {
+     |                                   ^^^^^^^^^^^^ required by this bound in `PipelineCacheInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreCommandEncoder: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2105:44
+     |
+2105 | impl dispatch::CommandEncoderInterface for CoreCommandEncoder {
+     |                                            ^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `CommandEncoderInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:285:36
+     |
+ 285 | pub trait CommandEncoderInterface: CommonTraits {
+     |                                    ^^^^^^^^^^^^ required by this bound in `CommandEncoderInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreCommandBuffer: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2555:43
+     |
+2555 | impl dispatch::CommandBufferInterface for CoreCommandBuffer {}
+     |                                           ^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `CommandBufferInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:515:35
+     |
+ 515 | pub trait CommandBufferInterface: CommonTraits {}
+     |                                   ^^^^^^^^^^^^ required by this bound in `CommandBufferInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreComputePass: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2563:41
+     |
+2563 | impl dispatch::ComputePassInterface for CoreComputePass {
+     |                                         ^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `ComputePassInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:354:33
+     |
+ 354 | pub trait ComputePassInterface: CommonTraits {
+     |                                 ^^^^^^^^^^^^ required by this bound in `ComputePassInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderPass: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2766:40
+     |
+2766 | impl dispatch::RenderPassInterface for CoreRenderPass {
+     |                                        ^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `RenderPassInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:380:32
+     |
+ 380 | pub trait RenderPassInterface: CommonTraits {
+     |                                ^^^^^^^^^^^^ required by this bound in `RenderPassInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreRenderBundleEncoder: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:3289:49
+     |
+3289 | impl dispatch::RenderBundleEncoderInterface for CoreRenderBundleEncoder {
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `RenderBundleEncoderInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:473:41
+     |
+ 473 | pub trait RenderBundleEncoderInterface: CommonTraits {
+     |                                         ^^^^^^^^^^^^ required by this bound in `RenderBundleEncoderInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreSurface: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:3416:37
+     |
+3416 | impl dispatch::SurfaceInterface for CoreSurface {
+     |                                     ^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `SurfaceInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:518:29
+     |
+ 518 | pub trait SurfaceInterface: CommonTraits {
+     |                             ^^^^^^^^^^^^ required by this bound in `SurfaceInterface`
+
+error[E0275]: overflow evaluating the requirement `CoreSurfaceOutputDetail: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:3490:49
+     |
+3490 | impl dispatch::SurfaceOutputDetailInterface for CoreSurfaceOutputDetail {
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `SurfaceOutputDetailInterface`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:531:41
+     |
+ 531 | pub trait SurfaceOutputDetailInterface: CommonTraits {
+     |                                         ^^^^^^^^^^^^ required by this bound in `SurfaceOutputDetailInterface`
+
+error[E0275]: overflow evaluating the requirement `adapter::Adapter: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:21:37
+   |
+21 | static_assertions::assert_impl_all!(Adapter: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `adapter::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:21:1
+   |
+21 | static_assertions::assert_impl_all!(Adapter: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `adapter::Adapter: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:21:37
+   |
+21 | static_assertions::assert_impl_all!(Adapter: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `adapter::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:21:1
+   |
+21 | static_assertions::assert_impl_all!(Adapter: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::RequestAdapterOptions<&surface::Surface<'_>>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:34:37
+   |
+34 | static_assertions::assert_impl_all!(RequestAdapterOptions<'_, '_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `adapter::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:34:1
+   |
+34 | static_assertions::assert_impl_all!(RequestAdapterOptions<'_, '_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::RequestAdapterOptions<&surface::Surface<'_>>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:34:37
+   |
+34 | static_assertions::assert_impl_all!(RequestAdapterOptions<'_, '_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `adapter::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/adapter.rs:34:1
+   |
+34 | static_assertions::assert_impl_all!(RequestAdapterOptions<'_, '_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroup: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:16:37
+   |
+16 | static_assertions::assert_impl_all!(BindGroup: Send, Sync);
+   |                                     ^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:16:1
+   |
+16 | static_assertions::assert_impl_all!(BindGroup: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroup: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:16:37
+   |
+16 | static_assertions::assert_impl_all!(BindGroup: Send, Sync);
+   |                                     ^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:16:1
+   |
+16 | static_assertions::assert_impl_all!(BindGroup: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindingResource<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:76:37
+   |
+76 | static_assertions::assert_impl_all!(BindingResource<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:76:1
+   |
+76 | static_assertions::assert_impl_all!(BindingResource<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindingResource<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:76:37
+   |
+76 | static_assertions::assert_impl_all!(BindingResource<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:76:1
+   |
+76 | static_assertions::assert_impl_all!(BindingResource<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BufferBinding<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:108:37
+    |
+108 | static_assertions::assert_impl_all!(BufferBinding<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:108:1
+    |
+108 | static_assertions::assert_impl_all!(BufferBinding<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BufferBinding<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:108:37
+    |
+108 | static_assertions::assert_impl_all!(BufferBinding<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:108:1
+    |
+108 | static_assertions::assert_impl_all!(BufferBinding<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroupEntry<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:124:37
+    |
+124 | static_assertions::assert_impl_all!(BindGroupEntry<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:124:1
+    |
+124 | static_assertions::assert_impl_all!(BindGroupEntry<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroupEntry<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:124:37
+    |
+124 | static_assertions::assert_impl_all!(BindGroupEntry<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:124:1
+    |
+124 | static_assertions::assert_impl_all!(BindGroupEntry<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroupDescriptor<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:142:37
+    |
+142 | static_assertions::assert_impl_all!(BindGroupDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:142:1
+    |
+142 | static_assertions::assert_impl_all!(BindGroupDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group::BindGroupDescriptor<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:142:37
+    |
+142 | static_assertions::assert_impl_all!(BindGroupDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group.rs:142:1
+    |
+142 | static_assertions::assert_impl_all!(BindGroupDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group_layout::BindGroupLayout: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group_layout.rs:19:37
+   |
+19 | static_assertions::assert_impl_all!(BindGroupLayout: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group_layout.rs:19:1
+   |
+19 | static_assertions::assert_impl_all!(BindGroupLayout: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `bind_group_layout::BindGroupLayout: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group_layout.rs:19:37
+   |
+19 | static_assertions::assert_impl_all!(BindGroupLayout: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `bind_group_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/bind_group_layout.rs:19:1
+   |
+19 | static_assertions::assert_impl_all!(BindGroupLayout: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `blas::BlasTriangleGeometry<'_>: wgpu_types::WasmNotSendSync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:111:37
+    |
+111 | static_assertions::assert_impl_all!(BlasTriangleGeometry<'_>: WasmNotSendSync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `blas::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:111:1
+    |
+111 | static_assertions::assert_impl_all!(BlasTriangleGeometry<'_>: WasmNotSendSync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `blas::BlasGeometries<'_>: wgpu_types::WasmNotSendSync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:118:37
+    |
+118 | static_assertions::assert_impl_all!(BlasGeometries<'_>: WasmNotSendSync);
+    |                                     ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `blas::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:118:1
+    |
+118 | static_assertions::assert_impl_all!(BlasGeometries<'_>: WasmNotSendSync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `blas::BlasBuildEntry<'_>: wgpu_types::WasmNotSendSync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:127:37
+    |
+127 | static_assertions::assert_impl_all!(BlasBuildEntry<'_>: WasmNotSendSync);
+    |                                     ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `blas::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:127:1
+    |
+127 | static_assertions::assert_impl_all!(BlasBuildEntry<'_>: WasmNotSendSync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `blas::Blas: wgpu_types::WasmNotSendSync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:141:37
+    |
+141 | static_assertions::assert_impl_all!(Blas: WasmNotSendSync);
+    |                                     ^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `blas::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/blas.rs:141:1
+    |
+141 | static_assertions::assert_impl_all!(Blas: WasmNotSendSync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `buffer::Buffer: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:180:37
+    |
+180 | static_assertions::assert_impl_all!(Buffer: Send, Sync);
+    |                                     ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:180:1
+    |
+180 | static_assertions::assert_impl_all!(Buffer: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `buffer::Buffer: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:180:37
+    |
+180 | static_assertions::assert_impl_all!(Buffer: Send, Sync);
+    |                                     ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:180:1
+    |
+180 | static_assertions::assert_impl_all!(Buffer: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `buffer::BufferSlice<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:317:37
+    |
+317 | static_assertions::assert_impl_all!(BufferSlice<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:317:1
+    |
+317 | static_assertions::assert_impl_all!(BufferSlice<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `buffer::BufferSlice<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:317:37
+    |
+317 | static_assertions::assert_impl_all!(BufferSlice<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:317:1
+    |
+317 | static_assertions::assert_impl_all!(BufferSlice<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `command_buffer::CommandBuffer: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_buffer.rs:19:37
+   |
+19 | static_assertions::assert_impl_all!(CommandBuffer: Send, Sync);
+   |                                     ^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_buffer::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_buffer.rs:19:1
+   |
+19 | static_assertions::assert_impl_all!(CommandBuffer: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `command_buffer::CommandBuffer: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_buffer.rs:19:37
+   |
+19 | static_assertions::assert_impl_all!(CommandBuffer: Send, Sync);
+   |                                     ^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_buffer::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_buffer.rs:19:1
+   |
+19 | static_assertions::assert_impl_all!(CommandBuffer: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `command_encoder::CommandEncoder: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:25:37
+   |
+25 | static_assertions::assert_impl_all!(CommandEncoder: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:25:1
+   |
+25 | static_assertions::assert_impl_all!(CommandEncoder: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `command_encoder::CommandEncoder: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:25:37
+   |
+25 | static_assertions::assert_impl_all!(CommandEncoder: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:25:1
+   |
+25 | static_assertions::assert_impl_all!(CommandEncoder: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::TexelCopyBufferInfo<&buffer::Buffer>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:46:37
+   |
+46 | static_assertions::assert_impl_all!(TexelCopyBufferInfo<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:46:1
+   |
+46 | static_assertions::assert_impl_all!(TexelCopyBufferInfo<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::TexelCopyBufferInfo<&buffer::Buffer>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:46:37
+   |
+46 | static_assertions::assert_impl_all!(TexelCopyBufferInfo<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:46:1
+   |
+46 | static_assertions::assert_impl_all!(TexelCopyBufferInfo<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::TexelCopyTextureInfo<&texture::Texture>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:55:37
+   |
+55 | static_assertions::assert_impl_all!(TexelCopyTextureInfo<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:55:1
+   |
+55 | static_assertions::assert_impl_all!(TexelCopyTextureInfo<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `wgpu_types::TexelCopyTextureInfo<&texture::Texture>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:55:37
+   |
+55 | static_assertions::assert_impl_all!(TexelCopyTextureInfo<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `command_encoder::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/command_encoder.rs:55:1
+   |
+55 | static_assertions::assert_impl_all!(TexelCopyTextureInfo<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pass::ComputePass<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:20:37
+   |
+20 | static_assertions::assert_impl_all!(ComputePass<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:20:1
+   |
+20 | static_assertions::assert_impl_all!(ComputePass<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pass::ComputePass<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:20:37
+   |
+20 | static_assertions::assert_impl_all!(ComputePass<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:20:1
+   |
+20 | static_assertions::assert_impl_all!(ComputePass<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `ComputePassTimestampWrites<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:160:37
+    |
+160 | static_assertions::assert_impl_all!(ComputePassTimestampWrites<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:160:1
+    |
+160 | static_assertions::assert_impl_all!(ComputePassTimestampWrites<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `ComputePassTimestampWrites<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:160:37
+    |
+160 | static_assertions::assert_impl_all!(ComputePassTimestampWrites<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:160:1
+    |
+160 | static_assertions::assert_impl_all!(ComputePassTimestampWrites<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pass::ComputePassDescriptor<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:178:37
+    |
+178 | static_assertions::assert_impl_all!(ComputePassDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:178:1
+    |
+178 | static_assertions::assert_impl_all!(ComputePassDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pass::ComputePassDescriptor<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:178:37
+    |
+178 | static_assertions::assert_impl_all!(ComputePassDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pass.rs:178:1
+    |
+178 | static_assertions::assert_impl_all!(ComputePassDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pipeline::ComputePipeline: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(ComputePipeline: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(ComputePipeline: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pipeline::ComputePipeline: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(ComputePipeline: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(ComputePipeline: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pipeline::ComputePipelineDescriptor<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:81:37
+   |
+81 | static_assertions::assert_impl_all!(ComputePipelineDescriptor<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:81:1
+   |
+81 | static_assertions::assert_impl_all!(ComputePipelineDescriptor<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `compute_pipeline::ComputePipelineDescriptor<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:81:37
+   |
+81 | static_assertions::assert_impl_all!(ComputePipelineDescriptor<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `compute_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/compute_pipeline.rs:81:1
+   |
+81 | static_assertions::assert_impl_all!(ComputePipelineDescriptor<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::device::Device: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/device.rs:22:37
+   |
+22 | static_assertions::assert_impl_all!(Device: Send, Sync);
+   |                                     ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::device::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/device.rs:22:1
+   |
+22 | static_assertions::assert_impl_all!(Device: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::device::Device: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/device.rs:22:37
+   |
+22 | static_assertions::assert_impl_all!(Device: Send, Sync);
+   |                                     ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::device::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/device.rs:22:1
+   |
+22 | static_assertions::assert_impl_all!(Device: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::instance::Instance: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/instance.rs:37:37
+   |
+37 | static_assertions::assert_impl_all!(Instance: Send, Sync);
+   |                                     ^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::instance::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/instance.rs:37:1
+   |
+37 | static_assertions::assert_impl_all!(Instance: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::instance::Instance: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/instance.rs:37:37
+   |
+37 | static_assertions::assert_impl_all!(Instance: Send, Sync);
+   |                                     ^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::instance::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/instance.rs:37:1
+   |
+37 | static_assertions::assert_impl_all!(Instance: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `ContextWgpuCore: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/instance.rs:157:24
+    |
+157 |                 inner: crate::backend::ContextWgpuCore::new(_instance_desc).into(),
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `InstanceInterface::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:87:30
+    |
+ 87 | pub trait InstanceInterface: CommonTraits {
+    |                              ^^^^^^^^^^^^ required by this bound in `InstanceInterface::new`
+ 88 |     fn new(desc: &wgt::InstanceDescriptor) -> Self
+    |        --- required by a bound in this associated function
+
+error[E0275]: overflow evaluating the requirement `pipeline_cache::PipelineCache: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_cache.rs:71:37
+   |
+71 | static_assertions::assert_impl_all!(PipelineCache: Send, Sync);
+   |                                     ^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_cache::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_cache.rs:71:1
+   |
+71 | static_assertions::assert_impl_all!(PipelineCache: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `pipeline_cache::PipelineCache: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_cache.rs:71:37
+   |
+71 | static_assertions::assert_impl_all!(PipelineCache: Send, Sync);
+   |                                     ^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_cache::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_cache.rs:71:1
+   |
+71 | static_assertions::assert_impl_all!(PipelineCache: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `pipeline_layout::PipelineLayout: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(PipelineLayout: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(PipelineLayout: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `pipeline_layout::PipelineLayout: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(PipelineLayout: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(PipelineLayout: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `pipeline_layout::PipelineLayoutDescriptor<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:39:37
+   |
+39 | static_assertions::assert_impl_all!(PipelineLayoutDescriptor<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:39:1
+   |
+39 | static_assertions::assert_impl_all!(PipelineLayoutDescriptor<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `pipeline_layout::PipelineLayoutDescriptor<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:39:37
+   |
+39 | static_assertions::assert_impl_all!(PipelineLayoutDescriptor<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `pipeline_layout::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/pipeline_layout.rs:39:1
+   |
+39 | static_assertions::assert_impl_all!(PipelineLayoutDescriptor<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `query_set::QuerySet: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/query_set.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(QuerySet: Send, Sync);
+   |                                     ^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `query_set::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/query_set.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(QuerySet: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `query_set::QuerySet: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/query_set.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(QuerySet: Send, Sync);
+   |                                     ^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `query_set::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/query_set.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(QuerySet: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::queue::Queue: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:17:37
+   |
+17 | static_assertions::assert_impl_all!(Queue: Send, Sync);
+   |                                     ^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::queue::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:17:1
+   |
+17 | static_assertions::assert_impl_all!(Queue: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `api::queue::Queue: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:17:37
+   |
+17 | static_assertions::assert_impl_all!(Queue: Send, Sync);
+   |                                     ^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::queue::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:17:1
+   |
+17 | static_assertions::assert_impl_all!(Queue: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `QueueWriteBufferView<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:60:37
+   |
+60 | static_assertions::assert_impl_all!(QueueWriteBufferView<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::queue::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:60:1
+   |
+60 | static_assertions::assert_impl_all!(QueueWriteBufferView<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `QueueWriteBufferView<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:60:37
+   |
+60 | static_assertions::assert_impl_all!(QueueWriteBufferView<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `api::queue::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/queue.rs:60:1
+   |
+60 | static_assertions::assert_impl_all!(QueueWriteBufferView<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `CoreRenderBundleEncoder: CommonTraits`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_bundle_encoder.rs:57:65
+    |
+ 57 |             dispatch::DispatchRenderBundleEncoder::Core(b) => b.finish(desc),
+    |                                                                 ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `RenderBundleEncoderInterface::finish`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:473:41
+    |
+473 | pub trait RenderBundleEncoderInterface: CommonTraits {
+    |                                         ^^^^^^^^^^^^ required by this bound in `RenderBundleEncoderInterface::finish`
+...
+510 |     fn finish(self, desc: &crate::RenderBundleDescriptor<'_>) -> DispatchRenderBundle
+    |        ------ required by a bound in this associated function
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPass<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:35:37
+   |
+35 | static_assertions::assert_impl_all!(RenderPass<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:35:1
+   |
+35 | static_assertions::assert_impl_all!(RenderPass<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPass<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:35:37
+   |
+35 | static_assertions::assert_impl_all!(RenderPass<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:35:1
+   |
+35 | static_assertions::assert_impl_all!(RenderPass<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `RenderPassTimestampWrites<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:517:37
+    |
+517 | static_assertions::assert_impl_all!(RenderPassTimestampWrites<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:517:1
+    |
+517 | static_assertions::assert_impl_all!(RenderPassTimestampWrites<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `RenderPassTimestampWrites<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:517:37
+    |
+517 | static_assertions::assert_impl_all!(RenderPassTimestampWrites<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:517:1
+    |
+517 | static_assertions::assert_impl_all!(RenderPassTimestampWrites<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassColorAttachment<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:537:37
+    |
+537 | static_assertions::assert_impl_all!(RenderPassColorAttachment<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:537:1
+    |
+537 | static_assertions::assert_impl_all!(RenderPassColorAttachment<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassColorAttachment<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:537:37
+    |
+537 | static_assertions::assert_impl_all!(RenderPassColorAttachment<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:537:1
+    |
+537 | static_assertions::assert_impl_all!(RenderPassColorAttachment<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassDepthStencilAttachment<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:555:37
+    |
+555 | static_assertions::assert_impl_all!(RenderPassDepthStencilAttachment<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:555:1
+    |
+555 | static_assertions::assert_impl_all!(RenderPassDepthStencilAttachment<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassDepthStencilAttachment<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:555:37
+    |
+555 | static_assertions::assert_impl_all!(RenderPassDepthStencilAttachment<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:555:1
+    |
+555 | static_assertions::assert_impl_all!(RenderPassDepthStencilAttachment<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassDescriptor<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:579:37
+    |
+579 | static_assertions::assert_impl_all!(RenderPassDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:579:1
+    |
+579 | static_assertions::assert_impl_all!(RenderPassDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pass::RenderPassDescriptor<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:579:37
+    |
+579 | static_assertions::assert_impl_all!(RenderPassDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pass::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pass.rs:579:1
+    |
+579 | static_assertions::assert_impl_all!(RenderPassDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::RenderPipeline: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:16:37
+   |
+16 | static_assertions::assert_impl_all!(RenderPipeline: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:16:1
+   |
+16 | static_assertions::assert_impl_all!(RenderPipeline: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::RenderPipeline: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:16:37
+   |
+16 | static_assertions::assert_impl_all!(RenderPipeline: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:16:1
+   |
+16 | static_assertions::assert_impl_all!(RenderPipeline: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::VertexState<'_>: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:76:37
+   |
+76 | static_assertions::assert_impl_all!(VertexState<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:76:1
+   |
+76 | static_assertions::assert_impl_all!(VertexState<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::VertexState<'_>: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:76:37
+   |
+76 | static_assertions::assert_impl_all!(VertexState<'_>: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:76:1
+   |
+76 | static_assertions::assert_impl_all!(VertexState<'_>: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::FragmentState<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:104:37
+    |
+104 | static_assertions::assert_impl_all!(FragmentState<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:104:1
+    |
+104 | static_assertions::assert_impl_all!(FragmentState<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::FragmentState<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:104:37
+    |
+104 | static_assertions::assert_impl_all!(FragmentState<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:104:1
+    |
+104 | static_assertions::assert_impl_all!(FragmentState<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::RenderPipelineDescriptor<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:153:37
+    |
+153 | static_assertions::assert_impl_all!(RenderPipelineDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:153:1
+    |
+153 | static_assertions::assert_impl_all!(RenderPipelineDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `render_pipeline::RenderPipelineDescriptor<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:153:37
+    |
+153 | static_assertions::assert_impl_all!(RenderPipelineDescriptor<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `render_pipeline::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/render_pipeline.rs:153:1
+    |
+153 | static_assertions::assert_impl_all!(RenderPipelineDescriptor<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `sampler::Sampler: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/sampler.rs:17:37
+   |
+17 | static_assertions::assert_impl_all!(Sampler: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `sampler::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/sampler.rs:17:1
+   |
+17 | static_assertions::assert_impl_all!(Sampler: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `sampler::Sampler: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/sampler.rs:17:37
+   |
+17 | static_assertions::assert_impl_all!(Sampler: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `sampler::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/sampler.rs:17:1
+   |
+17 | static_assertions::assert_impl_all!(Sampler: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `shader_module::ShaderModule: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/shader_module.rs:18:37
+   |
+18 | static_assertions::assert_impl_all!(ShaderModule: Send, Sync);
+   |                                     ^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `shader_module::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/shader_module.rs:18:1
+   |
+18 | static_assertions::assert_impl_all!(ShaderModule: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `shader_module::ShaderModule: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/shader_module.rs:18:37
+   |
+18 | static_assertions::assert_impl_all!(ShaderModule: Send, Sync);
+   |                                     ^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `shader_module::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/shader_module.rs:18:1
+   |
+18 | static_assertions::assert_impl_all!(ShaderModule: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `surface::Surface<'_>: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface.rs:188:37
+    |
+188 | static_assertions::assert_impl_all!(Surface<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `surface::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface.rs:188:1
+    |
+188 | static_assertions::assert_impl_all!(Surface<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `surface::Surface<'_>: Sync`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface.rs:188:37
+    |
+188 | static_assertions::assert_impl_all!(Surface<'_>: Send, Sync);
+    |                                     ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `surface::_::{closure#0}::assert_impl_all`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface.rs:188:1
+    |
+188 | static_assertions::assert_impl_all!(Surface<'_>: Send, Sync);
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+    = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `surface_texture::SurfaceTexture: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface_texture.rs:22:37
+   |
+22 | static_assertions::assert_impl_all!(SurfaceTexture: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `surface_texture::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface_texture.rs:22:1
+   |
+22 | static_assertions::assert_impl_all!(SurfaceTexture: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `surface_texture::SurfaceTexture: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface_texture.rs:22:37
+   |
+22 | static_assertions::assert_impl_all!(SurfaceTexture: Send, Sync);
+   |                                     ^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `surface_texture::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/surface_texture.rs:22:1
+   |
+22 | static_assertions::assert_impl_all!(SurfaceTexture: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `texture::Texture: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(Texture: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `texture::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(Texture: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `texture::Texture: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(Texture: Send, Sync);
+   |                                     ^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `texture::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(Texture: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `texture_view::TextureView: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture_view.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(TextureView: Send, Sync);
+   |                                     ^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `texture_view::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture_view.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(TextureView: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `texture_view::TextureView: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture_view.rs:14:37
+   |
+14 | static_assertions::assert_impl_all!(TextureView: Send, Sync);
+   |                                     ^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `texture_view::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/texture_view.rs:14:1
+   |
+14 | static_assertions::assert_impl_all!(TextureView: Send, Sync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `tlas::Tlas: wgpu_types::WasmNotSendSync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:30:37
+   |
+30 | static_assertions::assert_impl_all!(Tlas: WasmNotSendSync);
+   |                                     ^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `tlas::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:30:1
+   |
+30 | static_assertions::assert_impl_all!(Tlas: WasmNotSendSync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `tlas::TlasBuildEntry<'_>: wgpu_types::WasmNotSendSync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:45:37
+   |
+45 | static_assertions::assert_impl_all!(TlasBuildEntry<'_>: WasmNotSendSync);
+   |                                     ^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `tlas::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:45:1
+   |
+45 | static_assertions::assert_impl_all!(TlasBuildEntry<'_>: WasmNotSendSync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `tlas::TlasPackage: wgpu_types::WasmNotSendSync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:53:37
+   |
+53 | static_assertions::assert_impl_all!(TlasPackage: WasmNotSendSync);
+   |                                     ^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `tlas::_::{closure#0}::assert_impl_all`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/tlas.rs:53:1
+   |
+53 | static_assertions::assert_impl_all!(TlasPackage: WasmNotSendSync);
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `assert_impl_all`
+   = note: this error originates in the macro `static_assertions::assert_impl_all` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<std::future::Ready<std::option::Option<DispatchAdapter>>>>: CoerceUnsized<Pin<Box<...>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:845:9
+    |
+845 |         Box::pin(ready(adapter.ok()))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+    = note: required for the cast from `Pin<Box<std::future::Ready<std::option::Option<DispatchAdapter>>>>` to `Pin<Box<(dyn RequestAdapterFuture + 'static)>>`
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<std::future::Ready<std::result::Result<(DispatchDevice, DispatchQueue), ...>>>>: CoerceUnsized<...>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:887:24
+    |
+887 |                 return Box::pin(ready(Err(err.into())));
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+    = note: required for the cast from `Pin<Box<Ready<Result<(DispatchDevice, DispatchQueue), RequestDeviceError>>>>` to `Pin<Box<(dyn RequestDeviceFuture + 'static)>>`
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/bevy-tnua-rapier2d-0.14.0/target/debug/deps/wgpu-dfc9aaf670b32330.long-type-5082568470974655855.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<std::future::Ready<std::result::Result<(DispatchDevice, DispatchQueue), ...>>>>: CoerceUnsized<...>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:902:9
+    |
+902 |         Box::pin(ready(Ok((device.into(), queue.into()))))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+    = note: required for the cast from `Pin<Box<Ready<Result<(DispatchDevice, DispatchQueue), RequestDeviceError>>>>` to `Pin<Box<(dyn RequestDeviceFuture + 'static)>>`
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/bevy-tnua-rapier2d-0.14.0/target/debug/deps/wgpu-dfc9aaf670b32330.long-type-5082568470974655855.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `CoreComputePass: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:2762:45
+     |
+2762 |         dispatch::ComputePassInterface::end(self);
+     |         ----------------------------------- ^^^^
+     |         |
+     |         required by a bound introduced by this call
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `ComputePassInterface::end`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:354:33
+     |
+ 354 | pub trait ComputePassInterface: CommonTraits {
+     |                                 ^^^^^^^^^^^^ required by this bound in `ComputePassInterface::end`
+...
+ 378 |     fn end(&mut self);
+     |        --- required by a bound in this associated function
+
+error[E0275]: overflow evaluating the requirement `CoreRenderPass: CommonTraits`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/backend/wgpu_core.rs:3285:44
+     |
+3285 |         dispatch::RenderPassInterface::end(self);
+     |         ---------------------------------- ^^^^
+     |         |
+     |         required by a bound introduced by this call
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `RenderPassInterface::end`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/dispatch.rs:380:32
+     |
+ 380 | pub trait RenderPassInterface: CommonTraits {
+     |                                ^^^^^^^^^^^^ required by this bound in `RenderPassInterface::end`
+...
+ 470 |     fn end(&mut self);
+     |        --- required by a bound in this associated function
+
+error[E0275]: overflow evaluating the requirement `{closure@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/util/belt.rs:174:44: 174:52}: wgpu_types::WasmNotSend`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/util/belt.rs:174:18
+    |
+174 |                 .map_async(MapMode::Write, move |_| {
+    |                  ^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::BufferSlice::<'a>::map_async`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:332:63
+    |
+329 |     pub fn map_async(
+    |            --------- required by a bound in this associated function
+...
+332 |         callback: impl FnOnce(Result<(), BufferAsyncError>) + WasmNotSend + 'static,
+    |                                                               ^^^^^^^^^^^ required by this bound in `BufferSlice::<'a>::map_async`
+
+    Checking rapier2d v0.27.0
+error[E0275]: overflow evaluating the requirement `{closure@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/util/mod.rs:122:46: 122:59}: wgpu_types::WasmNotSend`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/util/mod.rs:122:14
+    |
+122 |             .map_async(super::MapMode::Read, move |result| {
+    |              ^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu`)
+note: required by a bound in `buffer::BufferSlice::<'a>::map_async`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-24.0.3/src/api/buffer.rs:332:63
+    |
+329 |     pub fn map_async(
+    |            --------- required by a bound in this associated function
+...
+332 |         callback: impl FnOnce(Result<(), BufferAsyncError>) + WasmNotSend + 'static,
+    |                                                               ^^^^^^^^^^^ required by this bound in `BufferSlice::<'a>::map_async`
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `wgpu` (lib) due to 150 previous errors
+warning: build failed, waiting for other jobs to finish...

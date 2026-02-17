@@ -1,0 +1,45 @@
+Running as unit: run-p2880452-i15460526.scope; invocation ID: 189067f1cdd647e9880a61ba0a9b9f0d
+    Checking polars-core v0.44.2
+error[E0282]: type annotations needed for `Option<_>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/polars-core-0.44.2/src/series/arithmetic/borrowed.rs:251:54
+    |
+251 |                 arity::binary_elementwise(lhs, rhs, |opt_l, opt_r| match (opt_l, opt_r) {
+    |                                                      ^^^^^
+252 |                     (Some(l), Some(r)) => l.checked_div(&r),
+    |                                           - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+251 |                 arity::binary_elementwise(lhs, rhs, |opt_l: Option<_>, opt_r| match (opt_l, opt_r) {
+    |                                                           +++++++++++
+
+error[E0282]: type annotations needed for `Option<_>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/polars-core-0.44.2/src/series/arithmetic/borrowed.rs:267:61
+    |
+267 |                 arity::binary_elementwise(lhs, rhs, |opt_l, opt_r| match (opt_l, opt_r) {
+    |                                                             ^^^^^
+268 |                     (Some(l), Some(r)) => {
+269 |                         if r.is_zero() {
+    |                            - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+267 |                 arity::binary_elementwise(lhs, rhs, |opt_l, opt_r: Option<_>| match (opt_l, opt_r) {
+    |                                                                  +++++++++++
+
+error[E0282]: type annotations needed for `Option<_>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/polars-core-0.44.2/src/series/arithmetic/borrowed.rs:288:61
+    |
+288 |                 arity::binary_elementwise(lhs, rhs, |opt_l, opt_r| match (opt_l, opt_r) {
+    |                                                             ^^^^^
+289 |                     (Some(l), Some(r)) => {
+290 |                         if r.is_zero() {
+    |                            - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+288 |                 arity::binary_elementwise(lhs, rhs, |opt_l, opt_r: Option<_>| match (opt_l, opt_r) {
+    |                                                                  +++++++++++
+
+For more information about this error, try `rustc --explain E0282`.
+error: could not compile `polars-core` (lib) due to 3 previous errors

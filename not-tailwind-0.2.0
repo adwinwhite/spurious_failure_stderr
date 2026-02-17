@@ -1,0 +1,472 @@
+Running as unit: run-p2326717-i2327017.scope; invocation ID: 387b6305052e4dc0a1c70ae319517f06
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded par-core v1.0.3 (registry `tuna`)
+  Downloaded bytecheck v0.6.11 (registry `tuna`)
+  Downloaded swc_plugin v1.0.0 (registry `tuna`)
+  Downloaded static-self v0.1.1 (registry `tuna`)
+  Downloaded swc_plugin_proxy v8.0.0 (registry `tuna`)
+  Downloaded munge_macro v0.4.3 (registry `tuna`)
+  Downloaded munge v0.4.3 (registry `tuna`)
+  Downloaded swc_ecma_ast v8.1.0 (registry `tuna`)
+  Downloaded swc_typescript v11.0.0 (registry `tuna`)
+  Downloaded swc_ecma_codegen v8.0.2 (registry `tuna`)
+  Downloaded swc_ecma_utils v12.0.0 (registry `tuna`)
+  Downloaded parcel_selectors v0.28.0 (registry `tuna`)
+  Downloaded swc_ecma_transforms_base v12.0.0 (registry `tuna`)
+  Downloaded swc_common v8.0.1 (registry `tuna`)
+  Downloaded rkyv v0.7.42 (registry `tuna`)
+  Downloaded tree-sitter v0.20.10 (registry `tuna`)
+  Downloaded par-iter v1.0.2 (registry `tuna`)
+  Downloaded swc_error_reporters v9.1.1 (registry `tuna`)
+  Downloaded swc_ecma_transforms_testing v12.0.0 (registry `tuna`)
+  Downloaded swc_ecma_testing v8.0.0 (registry `tuna`)
+  Downloaded testing v8.0.0 (registry `tuna`)
+  Downloaded tree-sitter-vue v0.0.1 (registry `tuna`)
+  Downloaded swc_ecma_visit v8.0.0 (registry `tuna`)
+  Downloaded swc_core v17.0.0 (registry `tuna`)
+  Downloaded lol_html v2.0.0 (registry `tuna`)
+  Downloaded lightningcss v1.0.0-alpha.60 (registry `tuna`)
+  Downloaded swc_ecma_parser v11.0.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling serde v1.0.215
+   Compiling libc v0.2.164
+   Compiling cfg-if v1.0.0
+   Compiling byteorder v1.5.0
+   Compiling siphasher v0.3.11
+   Compiling version_check v0.9.5
+    Checking once_cell v1.20.2
+    Checking stable_deref_trait v1.2.0
+   Compiling phf_shared v0.11.2
+   Compiling autocfg v1.4.0
+    Checking memchr v2.7.4
+   Compiling serde_json v1.0.140
+    Checking itoa v1.0.13
+   Compiling ahash v0.8.11
+    Checking zerocopy v0.7.35
+    Checking new_debug_unreachable v1.0.6
+    Checking writeable v0.5.5
+   Compiling lock_api v0.4.12
+   Compiling anyhow v1.0.97
+   Compiling parking_lot_core v0.9.10
+    Checking ryu v1.0.18
+    Checking litemap v0.7.4
+   Compiling quote v1.0.37
+   Compiling getrandom v0.2.15
+    Checking scopeguard v1.2.0
+    Checking hashbrown v0.15.1
+    Checking icu_locid_transform_data v1.5.0
+    Checking allocator-api2 v0.2.21
+   Compiling syn v1.0.109
+   Compiling syn v2.0.89
+   Compiling rand_core v0.6.4
+    Checking icu_properties_data v1.5.0
+    Checking outref v0.1.0
+    Checking utf8_iter v1.0.4
+    Checking rustc-hash v2.0.0
+    Checking utf16_iter v1.0.5
+    Checking either v1.13.0
+    Checking write16 v1.0.0
+    Checking icu_normalizer_data v1.5.0
+    Checking simd-abstraction v0.7.1
+   Compiling num-traits v0.2.19
+    Checking simdutf8 v0.1.5
+    Checking hashbrown v0.14.5
+   Compiling radium v0.7.0
+    Checking percent-encoding v2.3.1
+    Checking base64-simd v0.7.0
+    Checking tracing-core v0.1.32
+    Checking tap v1.0.1
+    Checking unicode-width v0.1.14
+   Compiling shlex v1.3.0
+    Checking bitflags v2.6.0
+   Compiling cc v1.2.17
+    Checking wyz v0.5.1
+    Checking form_urlencoded v1.2.1
+    Checking funty v2.0.0
+    Checking log v0.4.22
+    Checking data-encoding v2.6.0
+    Checking uuid v1.11.0
+    Checking pin-project-lite v0.2.15
+    Checking bumpalo v3.17.0
+    Checking unicode-id-start v1.3.1
+    Checking if_chain v1.0.2
+    Checking rustc-hash v1.1.0
+    Checking scoped-tls v1.0.1
+    Checking bitvec v1.0.1
+   Compiling rustversion v1.0.20
+   Compiling getrandom v0.1.16
+    Checking better_scoped_tls v1.0.0
+    Checking num-integer v0.1.46
+    Checking swc_visit v2.0.0
+    Checking termcolor v1.4.1
+   Compiling camino v1.1.9
+   Compiling semver v1.0.23
+   Compiling heck v0.5.0
+   Compiling rand_core v0.5.1
+    Checking aho-corasick v1.1.3
+    Checking regex-syntax v0.8.5
+   Compiling fnv v1.0.7
+   Compiling strsim v0.11.1
+   Compiling ident_case v1.0.1
+   Compiling thiserror v1.0.69
+    Checking dtoa v1.0.9
+    Checking dtoa-short v0.3.5
+   Compiling rand_pcg v0.2.1
+    Checking equivalent v1.0.1
+   Compiling typenum v1.17.0
+    Checking indexmap v2.6.0
+   Compiling generic-array v0.14.7
+   Compiling phf_shared v0.8.0
+    Checking precomputed-hash v0.1.1
+    Checking lazy_static v1.5.0
+   Compiling crossbeam-utils v0.8.20
+   Compiling owo-colors v4.2.0
+    Checking regex-automata v0.4.9
+   Compiling psm v0.1.24
+   Compiling phf_shared v0.10.0
+   Compiling proc-macro-hack v0.5.20+deprecated
+   Compiling thiserror v2.0.12
+    Checking static_assertions v1.1.0
+    Checking unicode-width v0.2.0
+    Checking regex-syntax v0.6.29
+    Checking unicode-linebreak v0.1.5
+    Checking textwrap v0.16.2
+   Compiling synstructure v0.13.1
+   Compiling swc_macros_common v1.0.0
+   Compiling darling_core v0.20.11
+    Checking regex v1.11.1
+    Checking regex-automata v0.1.10
+   Compiling stacker v0.1.17
+   Compiling vergen-lib v0.1.6
+   Compiling smartstring v1.0.1
+   Compiling ahash v0.7.8
+    Checking par-core v1.0.3
+    Checking matches v0.1.10
+    Checking overload v0.1.1
+    Checking nu-ansi-term v0.46.0
+    Checking matchers v0.1.0
+    Checking par-iter v1.0.2
+    Checking crossbeam-epoch v0.9.18
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking sharded-slab v0.1.7
+   Compiling vergen v9.0.4
+    Checking tracing-log v0.2.0
+   Compiling serde_derive v1.0.215
+   Compiling zerocopy-derive v0.7.35
+   Compiling zerofrom-derive v0.1.5
+   Compiling yoke-derive v0.7.5
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling icu_provider_macros v1.5.0
+   Compiling ppv-lite86 v0.2.20
+   Compiling ptr_meta_derive v0.3.0
+   Compiling bytecheck_derive v0.8.1
+   Compiling munge_macro v0.4.3
+   Compiling tracing-attributes v0.1.27
+    Checking zerofrom v0.1.5
+    Checking yoke v0.7.5
+    Checking ptr_meta v0.3.0
+   Compiling rand_chacha v0.3.1
+    Checking rancor v0.1.0
+    Checking zerovec v0.10.4
+   Compiling rkyv_derive v0.8.10
+   Compiling rand v0.8.5
+    Checking bytecheck v0.8.1
+    Checking munge v0.4.3
+   Compiling from_variant v2.0.0
+   Compiling ast_node v3.0.0
+    Checking rend v0.5.2
+   Compiling swc_eq_ignore_macros v1.0.0
+   Compiling phf_generator v0.11.2
+   Compiling rand_chacha v0.2.2
+   Compiling phf_macros v0.11.2
+    Checking tracing v0.1.40
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+   Compiling phf_codegen v0.11.2
+    Checking icu_locid v1.5.0
+   Compiling thiserror-impl v1.0.69
+   Compiling is-macro v0.3.7
+   Compiling cssparser-macros v0.6.1
+    Checking phf v0.11.2
+    Checking icu_provider v1.5.0
+   Compiling string_enum v1.0.0
+   Compiling rand v0.7.3
+   Compiling darling_macro v0.20.11
+    Checking icu_locid_transform v1.5.0
+   Compiling phf_generator v0.10.0
+   Compiling darling v0.20.11
+   Compiling derive_builder_core v0.20.2
+   Compiling thiserror-impl v2.0.12
+    Checking icu_properties v1.5.1
+   Compiling miette-derive v7.5.0
+   Compiling phf_generator v0.8.0
+   Compiling string_cache_codegen v0.5.2
+    Checking num_cpus v1.16.0
+   Compiling derive_builder_macro v0.20.2
+    Checking thread_local v1.1.8
+    Checking ryu-js v1.0.2
+   Compiling derive_builder v0.20.2
+    Checking diff v0.1.13
+   Compiling relative-path v1.9.3
+    Checking mac v0.1.1
+    Checking miette v7.5.0
+   Compiling convert_case v0.4.0
+   Compiling rustix v0.38.41
+    Checking yansi v1.0.1
+   Compiling glob v0.3.1
+    Checking unicode-id v0.3.5
+   Compiling derive_more v0.99.18
+    Checking pretty_assertions v1.4.1
+    Checking fxhash v0.2.1
+    Checking futf v0.1.5
+   Compiling markup5ever v0.14.0
+    Checking smallvec v1.13.2
+    Checking triomphe v0.1.14
+    Checking rkyv v0.8.10
+    Checking icu_normalizer v1.5.0
+    Checking hstr v1.0.0
+    Checking parking_lot v0.12.3
+    Checking debugid v0.8.0
+    Checking swc_allocator v4.0.0
+    Checking num-bigint v0.4.6
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+   Compiling cargo-platform v0.1.8
+    Checking url v2.5.4
+    Checking cargo_metadata v0.18.1
+    Checking tracing-subscriber v0.3.18
+   Compiling testing_macros v1.0.0
+    Checking sourcemap v9.1.2
+   Compiling phf_macros v0.8.0
+   Compiling cargo_metadata v0.19.2
+   Compiling phf_codegen v0.8.0
+   Compiling ptr_meta_derive v0.1.4
+   Compiling cssparser v0.27.2
+    Checking crossbeam-deque v0.8.5
+    Checking digest v0.10.7
+   Compiling serde_derive_internals v0.29.1
+    Checking castaway v0.2.3
+   Compiling rayon-core v1.12.1
+    Checking linux-raw-sys v0.4.14
+    Checking typed-arena v2.0.2
+    Checking difference v2.0.0
+    Checking utf8parse v0.2.2
+    Checking ansi_term v0.12.1
+    Checking cpufeatures v0.2.16
+   Compiling rkyv v0.7.42
+    Checking utf-8 v0.7.6
+   Compiling schemars v0.8.21
+    Checking sha2 v0.10.8
+    Checking tendril v0.4.3
+    Checking anstyle-parse v0.2.6
+    Checking phf v0.8.0
+    Checking string_cache v0.8.7
+    Checking compact_str v0.7.1
+    Checking hashbrown v0.12.3
+    Checking ptr_meta v0.1.4
+   Compiling schemars_derive v0.8.21
+   Compiling selectors v0.22.0
+    Checking swc_atoms v5.0.0
+    Checking cssparser v0.33.0
+    Checking swc_common v8.0.1
+   Compiling selectors v0.26.0
+   Compiling parcel_selectors v0.28.0
+   Compiling html5ever v0.29.0
+   Compiling swc_ecma_codegen_macros v1.0.1
+   Compiling static-self-derive v0.1.1
+   Compiling rkyv_derive v0.7.45
+   Compiling tree-sitter v0.20.10
+    Checking fixedbitset v0.5.7
+    Checking dyn-clone v1.0.17
+    Checking fastrand v2.2.0
+    Checking ascii v1.1.0
+    Checking hex v0.4.3
+    Checking anstyle v1.0.10
+    Checking seahash v4.1.0
+    Checking anstyle-query v1.1.2
+    Checking colorchoice v1.0.3
+    Checking itoa v0.4.8
+    Checking nodrop v0.1.14
+    Checking is_terminal_polyfill v1.70.1
+   Compiling unicode-segmentation v1.12.0
+   Compiling paste v1.0.15
+    Checking servo_arc v0.1.1
+    Checking anstream v0.6.18
+    Checking tempfile v3.14.0
+   Compiling convert_case v0.6.0
+    Checking petgraph v0.7.1
+    Checking static-self v0.1.1
+   Compiling swc_core v17.0.0
+    Checking cssparser v0.34.0
+    Checking toml_datetime v0.6.8
+    Checking serde_spanned v0.6.8
+   Compiling swc_trace_macro v2.0.0
+   Compiling const-str-proc-macro v0.3.2
+    Checking data-url v0.1.1
+   Compiling tree-sitter-vue v0.0.1
+    Checking bstr v1.11.3
+    Checking servo_arc v0.4.0
+    Checking swc_ecma_ast v8.1.0
+    Checking swc_error_reporters v9.1.1
+    Checking thin-slice v0.1.1
+    Checking base64 v0.22.1
+    Checking testing v8.0.0
+    Checking clap_lex v0.7.4
+    Checking winnow v0.6.20
+    Checking same-file v1.0.6
+    Checking vlq v0.5.1
+    Checking swc_ecma_testing v8.0.0
+    Checking bitflags v1.3.2
+    Checking walkdir v2.5.0
+    Checking globset v0.4.16
+    Checking clap_builder v4.5.34
+    Checking const-str v0.3.2
+    Checking rayon v1.10.0
+    Checking toml_edit v0.22.22
+    Checking parcel_sourcemap v2.1.1
+   Compiling lightningcss-derive v1.0.0-alpha.43
+    Checking cssparser-color v0.1.0
+    Checking dashmap v5.5.3
+   Compiling swc_plugin_macro v1.0.0
+   Compiling clap_derive v4.5.32
+    Checking getopts v0.2.21
+    Checking itertools v0.10.5
+    Checking hashbrown v0.13.2
+    Checking swc_plugin v1.0.0
+    Checking encoding_rs v0.8.35
+    Checking mime v0.3.17
+    Checking pathdiff v0.2.2
+    Checking self_cell v1.0.4
+    Checking ego-tree v0.9.0
+    Checking memo-map v0.3.3
+    Checking lazycell v1.3.0
+    Checking scraper v0.21.0
+    Checking toml v0.8.19
+    Checking minijinja v2.5.0
+    Checking lol_html v2.0.0
+    Checking ignore v0.4.23
+    Checking lightningcss v1.0.0-alpha.60
+    Checking clap v4.5.34
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/environment.rs:701:34
+    |
+701 |             .insert(name.into(), filters::BoxedFilter::new(f));
+    |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |                                  |
+    |                                  cannot infer type of the type parameter `Args` declared on the associated function `new`
+    |
+    = note: cannot satisfy `F: filters::Filter<Rv, _>`
+    = help: the following types implement trait `filters::Filter<Rv, Args>`:
+              `Func` implements `filters::Filter<Rv, ()>`
+              `Func` implements `filters::Filter<Rv, (A, B)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C, D)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C, D, E)>`
+              `Func` implements `filters::Filter<Rv, (A,)>`
+note: required by a bound in `BoxedFilter::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/filters.rs:238:12
+    |
+236 |     pub fn new<F, Rv, Args>(f: F) -> BoxedFilter
+    |            --- required by a bound in this associated function
+237 |     where
+238 |         F: Filter<Rv, Args> + for<'a> Filter<Rv, <Args as FunctionArgs<'a>>::Output>,
+    |            ^^^^^^^^^^^^^^^^ required by this bound in `BoxedFilter::new`
+help: consider specifying the generic arguments
+    |
+701 |             .insert(name.into(), filters::BoxedFilter::new::<F, Rv, Args>(f));
+    |                                                           +++++++++++++++
+
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/environment.rs:722:40
+    |
+722 |         self.tests.insert(name.into(), tests::BoxedTest::new(f));
+    |                                        ^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |                                        |
+    |                                        cannot infer type of the type parameter `Args` declared on the associated function `new`
+    |
+    = note: cannot satisfy `F: tests::Test<Rv, _>`
+    = help: the following types implement trait `tests::Test<Rv, Args>`:
+              `Func` implements `tests::Test<Rv, ()>`
+              `Func` implements `tests::Test<Rv, (A, B)>`
+              `Func` implements `tests::Test<Rv, (A, B, C)>`
+              `Func` implements `tests::Test<Rv, (A, B, C, D)>`
+              `Func` implements `tests::Test<Rv, (A, B, C, D, E)>`
+              `Func` implements `tests::Test<Rv, (A,)>`
+note: required by a bound in `BoxedTest::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/tests.rs:184:12
+    |
+182 |     pub fn new<F, Rv, Args>(f: F) -> BoxedTest
+    |            --- required by a bound in this associated function
+183 |     where
+184 |         F: Test<Rv, Args> + for<'a> Test<Rv, <Args as FunctionArgs<'a>>::Output>,
+    |            ^^^^^^^^^^^^^^ required by this bound in `BoxedTest::new`
+help: consider specifying the generic arguments
+    |
+722 |         self.tests.insert(name.into(), tests::BoxedTest::new::<F, Rv, Args>(f));
+    |                                                             +++++++++++++++
+
+error[E0283]: type annotations needed
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/environment.rs:745:38
+     |
+ 745 |         self.add_global(name.into(), Value::from_function(f))
+     |                                      ^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+     |                                      |
+     |                                      cannot infer type of the type parameter `Args` declared on the associated function `from_function`
+     |
+     = note: cannot satisfy `F: Function<Rv, _>`
+     = help: the following types implement trait `Function<Rv, Args>`:
+               `Func` implements `Function<Rv, ()>`
+               `Func` implements `Function<Rv, (A, B)>`
+               `Func` implements `Function<Rv, (A, B, C)>`
+               `Func` implements `Function<Rv, (A, B, C, D)>`
+               `Func` implements `Function<Rv, (A, B, C, D, E)>`
+               `Func` implements `Function<Rv, (A,)>`
+note: required by a bound in `value::Value::from_function`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/value/mod.rs:1014:12
+     |
+1011 |     pub fn from_function<F, Rv, Args>(f: F) -> Value
+     |            ------------- required by a bound in this associated function
+...
+1014 |         F: functions::Function<Rv, Args>
+     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Value::from_function`
+help: consider specifying the generic arguments
+     |
+ 745 |         self.add_global(name.into(), Value::from_function::<F, Rv, Args>(f))
+     |                                                          +++++++++++++++
+
+error[E0283]: type annotations needed
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/value/mod.rs:1019:9
+     |
+1019 |         functions::BoxedFunction::new(f).to_value()
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+     |         |
+     |         cannot infer type of the type parameter `Args` declared on the associated function `new`
+     |
+     = note: cannot satisfy `F: Function<Rv, _>`
+     = help: the following types implement trait `Function<Rv, Args>`:
+               `Func` implements `Function<Rv, ()>`
+               `Func` implements `Function<Rv, (A, B)>`
+               `Func` implements `Function<Rv, (A, B, C)>`
+               `Func` implements `Function<Rv, (A, B, C, D)>`
+               `Func` implements `Function<Rv, (A, B, C, D, E)>`
+               `Func` implements `Function<Rv, (A,)>`
+note: required by a bound in `BoxedFunction::new`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-2.5.0/src/functions.rs:213:12
+     |
+ 211 |     pub fn new<F, Rv, Args>(f: F) -> BoxedFunction
+     |            --- required by a bound in this associated function
+ 212 |     where
+ 213 |         F: Function<Rv, Args> + for<'a> Function<Rv, <Args as FunctionArgs<'a>>::Output>,
+     |            ^^^^^^^^^^^^^^^^^^ required by this bound in `BoxedFunction::new`
+help: consider specifying the generic arguments
+     |
+1019 |         functions::BoxedFunction::new::<F, Rv, Args>(f).to_value()
+     |                                      +++++++++++++++
+
+For more information about this error, try `rustc --explain E0283`.
+error: could not compile `minijinja` (lib) due to 4 previous errors
+warning: build failed, waiting for other jobs to finish...

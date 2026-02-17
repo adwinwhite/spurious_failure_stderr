@@ -1,0 +1,426 @@
+Running as unit: run-p322520-i322820.scope; invocation ID: 913ed6b377b4459d9e12bad01ce94662
+    Updating `tuna` index
+     Locking 152 packages to latest compatible versions
+      Adding prost v0.11.9 (available: v0.14.3)
+      Adding prost-build v0.11.9 (available: v0.14.3)
+      Adding tonic v0.8.3 (available: v0.14.3)
+      Adding tonic-build v0.8.4 (available: v0.14.3)
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.23
+   Compiling quote v1.0.44
+   Compiling libc v0.2.182
+    Checking pin-project-lite v0.2.16
+    Checking bytes v1.11.1
+   Compiling syn v1.0.109
+    Checking futures-core v0.3.31
+   Compiling either v1.15.0
+   Compiling anyhow v1.0.101
+   Compiling rustversion v1.0.22
+   Compiling itertools v0.10.5
+    Checking once_cell v1.21.3
+   Compiling zerocopy v0.8.39
+    Checking tracing-core v0.1.36
+    Checking itoa v1.0.17
+    Checking pin-utils v0.1.0
+   Compiling bitflags v2.10.0
+    Checking fnv v1.0.7
+    Checking futures-task v0.3.31
+    Checking http v0.2.12
+    Checking futures-util v0.3.31
+    Checking futures-sink v0.3.31
+    Checking cfg-if v1.0.4
+   Compiling rustix v1.1.3
+   Compiling syn v2.0.115
+   Compiling rustix v0.38.44
+   Compiling getrandom v0.4.1
+   Compiling httparse v1.10.1
+   Compiling prettyplease v0.1.25
+    Checking socket2 v0.6.2
+    Checking mio v1.1.1
+    Checking getrandom v0.2.17
+    Checking slab v0.4.12
+   Compiling hashbrown v0.16.1
+   Compiling regex-syntax v0.8.9
+   Compiling equivalent v1.0.2
+   Compiling linux-raw-sys v0.4.15
+    Checking tower-service v0.3.3
+   Compiling linux-raw-sys v0.11.0
+   Compiling autocfg v1.5.0
+   Compiling indexmap v1.9.3
+    Checking indexmap v2.13.0
+   Compiling regex-automata v0.4.14
+    Checking rand_core v0.6.4
+    Checking http-body v0.4.6
+   Compiling fastrand v2.3.0
+   Compiling serde_core v1.0.228
+    Checking try-lock v0.2.5
+   Compiling home v0.5.12
+   Compiling fixedbitset v0.4.2
+   Compiling tempfile v3.25.0
+   Compiling which v4.4.2
+   Compiling petgraph v0.6.5
+   Compiling regex v1.12.3
+    Checking want v0.3.1
+    Checking socket2 v0.5.10
+   Compiling axum-core v0.3.4
+    Checking ppv-lite86 v0.2.21
+    Checking futures-channel v0.3.31
+   Compiling serde v1.0.228
+   Compiling log v0.4.29
+   Compiling lazy_static v1.5.0
+   Compiling multimap v0.8.3
+    Checking hashbrown v0.12.3
+    Checking rand_chacha v0.3.1
+   Compiling heck v0.4.1
+    Checking httpdate v1.0.3
+    Checking tower-layer v0.3.3
+    Checking rand v0.8.5
+   Compiling axum v0.6.20
+    Checking mime v0.3.17
+   Compiling glob v0.3.3
+   Compiling tokio-macros v2.6.0
+   Compiling tracing-attributes v0.1.31
+   Compiling pin-project-internal v1.1.10
+   Compiling prost-derive v0.11.9
+   Compiling async-trait v0.1.89
+   Compiling async-stream-impl v0.3.6
+    Checking memchr v2.8.0
+    Checking bitflags v1.3.2
+    Checking matchit v0.7.3
+    Checking percent-encoding v2.3.2
+    Checking tokio v1.49.0
+    Checking sync_wrapper v0.1.2
+    Checking async-stream v0.3.6
+    Checking base64 v0.13.1
+    Checking pin-project v1.1.10
+    Checking tracing v0.1.44
+   Compiling prost v0.11.9
+    Checking tracing-futures v0.2.5
+   Compiling prost-types v0.11.9
+   Compiling prost-build v0.11.9
+   Compiling tonic-build v0.8.4
+   Compiling data-plane-api v0.1.1 (/getea/tmp/crater-spurious/data-plane-api-0.1.1)
+    Checking tokio-util v0.7.18
+    Checking tokio-io-timeout v1.2.1
+    Checking tokio-stream v0.1.18
+error: failed to run custom build command for `data-plane-api v0.1.1 (/getea/tmp/crater-spurious/data-plane-api-0.1.1)`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/data-plane-api-0.1.1/target/debug/build/data-plane-api-983bb1caf85fe8e5/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/certs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/clusters.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/config_dump.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/config_dump_shared.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/init_dump.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/listeners.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/memory.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/metrics.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/mutex_stats.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/server_info.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/admin/v3/tap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/accesslog/v3/accesslog.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/bootstrap/v3/bootstrap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/cluster/v3/circuit_breaker.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/cluster/v3/cluster.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/cluster/v3/filter.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/cluster/v3/outlier_detection.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/common/key_value/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/common/matcher/v3/matcher.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/common/mutation_rules/v3/mutation_rules.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/address.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/backoff.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/base.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/config_source.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/event_service_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/extension.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/grpc_method_list.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/grpc_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/health_check.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/http_uri.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/protocol.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/proxy_protocol.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/resolver.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/socket_option.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/substitution_format_string.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/core/v3/udp_socket_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/endpoint/v3/endpoint.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/endpoint/v3/endpoint_components.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/endpoint/v3/load_report.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/grpc_credential/v3/aws_iam.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/grpc_credential/v3/file_based_metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/listener/v3/api_listener.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/listener/v3/listener.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/listener/v3/listener_components.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/listener/v3/quic_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/listener/v3/udp_listener_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/metrics/v3/metrics_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/metrics/v3/stats.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/overload/v3/overload.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/ratelimit/v3/rls.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/rbac/v3/rbac.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/route/v3/route.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/route/v3/route_components.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/route/v3/scoped_route.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/tap/v3/common.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/datadog.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/dynamic_ot.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/http_tracer.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/lightstep.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/opencensus.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/opentelemetry.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/skywalking.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/trace.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/xray.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/config/trace/v3/zipkin.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/accesslog/v3/accesslog.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/cluster/v3/outlier_detection_event.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/core/v3/health_check_event.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/dns/v3/dns_table.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/tap/v3/common.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/tap/v3/http.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/tap/v3/transport.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/data/tap/v3/wrapper.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/file/v3/file.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/filters/cel/v3/cel.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/grpc/v3/als.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/open_telemetry/v3/logs_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/stream/v3/stream.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/access_loggers/wasm/v3/wasm.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/bootstrap/internal_listener/v3/internal_listener.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/cache/simple_http_cache/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/clusters/aggregate/v3/cluster.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/clusters/dynamic_forward_proxy/v3/cluster.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/clusters/redis/v3/redis_cluster.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/common/async_files/v3/async_file_manager.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/common/dynamic_forward_proxy/v3/dns_cache.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/common/matching/v3/extension_matcher.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/common/ratelimit/v3/ratelimit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/common/tap/v3/common.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/brotli/compressor/v3/brotli.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/brotli/decompressor/v3/brotli.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/gzip/compressor/v3/gzip.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/gzip/decompressor/v3/gzip.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/zstd/compressor/v3/zstd.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/compression/zstd/decompressor/v3/zstd.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/config/validators/minimum_clusters/v3/minimum_clusters.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/early_data/v3/default_early_data_policy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/common/dependency/v3/dependency.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/common/fault/v3/fault.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/common/matcher/action/v3/skip_action.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/adaptive_concurrency/v3/adaptive_concurrency.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/admission_control/v3/admission_control.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/alternate_protocols_cache/v3/alternate_protocols_cache.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/aws_lambda/v3/aws_lambda.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/aws_request_signing/v3/aws_request_signing.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/bandwidth_limit/v3/bandwidth_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/buffer/v3/buffer.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/cache/v3/cache.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/cdn_loop/v3/cdn_loop.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/composite/v3/composite.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/compressor/v3/compressor.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/cors/v3/cors.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/csrf/v3/csrf.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/decompressor/v3/decompressor.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/dynamic_forward_proxy/v3/dynamic_forward_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/ext_authz/v3/ext_authz.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/ext_proc/v3/ext_proc.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/ext_proc/v3/processing_mode.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/fault/v3/fault.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/file_system_buffer/v3/file_system_buffer.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/gcp_authn/v3/gcp_authn.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/grpc_http1_bridge/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/grpc_http1_reverse_bridge/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/grpc_json_transcoder/v3/transcoder.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/grpc_stats/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/grpc_web/v3/grpc_web.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/gzip/v3/gzip.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/header_to_metadata/v3/header_to_metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/health_check/v3/health_check.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/ip_tagging/v3/ip_tagging.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/jwt_authn/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/kill_request/v3/kill_request.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/local_ratelimit/v3/local_rate_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/lua/v3/lua.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/oauth2/v3/oauth.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/on_demand/v3/on_demand.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/original_src/v3/original_src.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/rate_limit_quota/v3/rate_limit_quota.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/ratelimit/v3/rate_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/rbac/v3/rbac.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/router/v3/router.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/set_metadata/v3/set_metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/stateful_session/v3/stateful_session.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/tap/v3/tap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/upstream_codec/v3/upstream_codec.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/http/wasm/v3/wasm.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/listener/http_inspector/v3/http_inspector.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/listener/original_dst/v3/original_dst.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/listener/original_src/v3/original_src.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/listener/proxy_protocol/v3/proxy_protocol.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/listener/tls_inspector/v3/tls_inspector.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/connection_limit/v3/connection_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/direct_response/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/dubbo_proxy/router/v3/router.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/dubbo_proxy/v3/dubbo_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/dubbo_proxy/v3/route.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/echo/v3/echo.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/ext_authz/v3/ext_authz.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/local_ratelimit/v3/local_rate_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/mongo_proxy/v3/mongo_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/ratelimit/v3/rate_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/rbac/v3/rbac.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/redis_proxy/v3/redis_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/sni_cluster/v3/sni_cluster.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/sni_dynamic_forward_proxy/v3/sni_dynamic_forward_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/tcp_proxy/v3/tcp_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/filters/header_to_metadata/v3/header_to_metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/filters/payload_to_metadata/v3/payload_to_metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/filters/ratelimit/v3/rate_limit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/router/v3/router.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/v3/route.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/thrift_proxy/v3/thrift_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/wasm/v3/wasm.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/network/zookeeper_proxy/v3/zookeeper_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/udp/dns_filter/v3/dns_filter.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/udp/udp_proxy/v3/route.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/filters/udp/udp_proxy/v3/udp_proxy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/formatter/metadata/v3/metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/formatter/req_without_query/v3/req_without_query.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/health_checkers/redis/v3/redis.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/health_checkers/thrift/v3/thrift.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/header_formatters/preserve_case/v3/preserve_case.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/header_validators/envoy_default/v3/header_validator.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/original_ip_detection/custom_header/v3/custom_header.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/original_ip_detection/xff/v3/xff.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/stateful_session/cookie/v3/cookie.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/http/stateful_session/header/v3/header.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/internal_redirect/allow_listed_routes/v3/allow_listed_routes_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/internal_redirect/previous_routes/v3/previous_routes_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/internal_redirect/safe_cross_scheme/v3/safe_cross_scheme_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/key_value/file_based/v3/config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/least_request/v3/least_request.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/maglev/v3/maglev.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/random/v3/random.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/ring_hash/v3/ring_hash.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/round_robin/v3/round_robin.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/load_balancing_policies/wrr_locality/v3/wrr_locality.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/matching/common_inputs/environment_variable/v3/input.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/matching/common_inputs/network/v3/network_inputs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/matching/common_inputs/ssl/v3/ssl_inputs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/matching/input_matchers/consistent_hashing/v3/consistent_hashing.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/matching/input_matchers/ip/v3/ip.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/network/dns_resolver/apple/v3/apple_dns_resolver.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/network/dns_resolver/cares/v3/cares_dns_resolver.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/network/dns_resolver/getaddrinfo/v3/getaddrinfo_dns_resolver.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/network/socket_interface/v3/default_socket_interface.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/path/match/uri_template/v3/uri_template_match.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/path/rewrite/uri_template/v3/uri_template_rewrite.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/quic/connection_id_generator/v3/envoy_deterministic_connection_id_generator.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/quic/crypto_stream/v3/crypto_stream.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/quic/proof_source/v3/proof_source.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/rate_limit_descriptors/expr/v3/expr.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/rbac/matchers/upstream_ip_port/v3/upstream_ip_port_matcher.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/regex_engines/v3/google_re2.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/request_id/uuid/v3/uuid.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/resource_monitors/fixed_heap/v3/fixed_heap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/resource_monitors/injected_resource/v3/injected_resource.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/retry/host/omit_canary_hosts/v3/omit_canary_hosts.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/retry/host/omit_host_metadata/v3/omit_host_metadata_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/retry/host/previous_hosts/v3/previous_hosts.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/retry/priority/previous_priorities/v3/previous_priorities_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/stat_sinks/graphite_statsd/v3/graphite_statsd.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/stat_sinks/wasm/v3/wasm.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/alts/v3/alts.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/http_11_proxy/v3/upstream_http_11_connect.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/internal_upstream/v3/internal_upstream.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/proxy_protocol/v3/upstream_proxy_protocol.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/quic/v3/quic_transport.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/raw_buffer/v3/raw_buffer.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/s2a/v3/s2a.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/starttls/v3/starttls.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tap/v3/tap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tcp_stats/v3/tcp_stats.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tls/v3/cert.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tls/v3/common.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tls/v3/secret.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tls/v3/tls.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/transport_sockets/tls/v3/tls_spiffe_validator_config.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/udp_packet_writer/v3/udp_default_writer_factory.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/udp_packet_writer/v3/udp_gso_batch_writer_factory.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/upstreams/http/generic/v3/generic_connection_pool.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/upstreams/http/http/v3/http_connection_pool.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/upstreams/http/tcp/v3/tcp_connection_pool.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/upstreams/http/v3/http_protocol_options.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/upstreams/tcp/generic/v3/generic_connection_pool.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/wasm/v3/wasm.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/extensions/watchdog/profile_action/v3/profile_action.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/accesslog/v3/als.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/auth/v3/attribute_context.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/auth/v3/external_auth.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/cluster/v3/cds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/discovery/v3/ads.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/discovery/v3/discovery.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/endpoint/v3/eds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/endpoint/v3/leds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/event_reporting/v3/event_reporting_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/ext_proc/v3/external_processor.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/extension/v3/config_discovery.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/health/v3/hds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/listener/v3/lds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/load_stats/v3/lrs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/metrics/v3/metrics_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/rate_limit_quota/v3/rlqs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/ratelimit/v3/rls.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/route/v3/rds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/route/v3/srds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/runtime/v3/rtds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/secret/v3/sds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/status/v3/csds.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/tap/v3/tap.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/service/trace/v3/trace_service.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/http/v3/cookie.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/http/v3/path_transformation.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/http_inputs.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/node.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/number.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/path.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/regex.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/string.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/struct.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/matcher/v3/value.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/metadata/v3/metadata.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/tracing/v3/custom_tag.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/hash_policy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/http.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/http_status.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/percent.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/range.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/ratelimit_strategy.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/ratelimit_unit.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/semantic_version.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/type/v3/token_bucket.proto
+  cargo:rerun-if-changed=data-plane-api/envoy/watchdog/v3/abort_action.proto
+  cargo:rerun-if-changed=data-plane-api
+  cargo:rerun-if-changed=googleapis
+  cargo:rerun-if-changed=protoc-gen-validate
+  cargo:rerun-if-changed=xds
+  cargo:rerun-if-changed=opencensus-proto/src
+  cargo:rerun-if-changed=opentelemetry-proto
+  cargo:rerun-if-changed=client_model
+
+  --- stderr
+
+  thread 'main' (324259) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/prost-build-0.11.9/src/lib.rs:1457:10:
+  Could not find `protoc` installation and this build crate cannot proceed without
+      this knowledge. If `protoc` is installed and this crate had trouble finding
+      it, you can set the `PROTOC` environment variable with the specific path to your
+      installed `protoc` binary.If you're on debian, try `apt-get install protobuf-compiler` or download it from https://github.com/protocolbuffers/protobuf/releases
+
+  For more information: https://docs.rs/prost-build/#sourcing-protoc
+
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

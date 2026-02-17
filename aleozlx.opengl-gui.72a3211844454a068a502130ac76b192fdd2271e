@@ -1,0 +1,43 @@
+Running as unit: run-p4008484-i4008784.scope; invocation ID: b0d6fe217fac46fb9313a82c49e6ba3e
+warning: no edition set: defaulting to the 2015 edition while the latest is 2024
+   Compiling pkg-config v0.3.11
+    Checking libc v0.2.42
+    Checking bitflags v1.0.3
+    Checking lazy_static v1.0.2
+   Compiling khronos_api v2.2.0
+   Compiling num-traits v0.2.5
+   Compiling cfg-if v0.1.4
+   Compiling xml-rs v0.7.0
+   Compiling log v0.4.3
+    Checking nodrop v0.1.12
+    Checking crossbeam-utils v0.2.2
+    Checking arrayvec v0.4.7
+   Compiling num-integer v0.1.39
+   Compiling rayon-core v1.4.1
+    Checking memoffset v0.2.1
+    Checking scopeguard v0.3.3
+   Compiling unicode-xid v0.1.0
+    Checking crossbeam-epoch v0.3.1
+   Compiling gio v0.4.1
+   Compiling proc-macro2 v0.4.8
+   Compiling glib-sys v0.6.0
+   Compiling gobject-sys v0.6.0
+   Compiling gio-sys v0.6.0
+   Compiling cairo-sys-rs v0.6.0
+   Compiling gdk-pixbuf-sys v0.6.0
+   Compiling pango-sys v0.6.0
+   Compiling gdk-sys v0.6.0
+   Compiling gl_generator v0.9.0
+error: failed to run custom build command for `gdk-pixbuf-sys v0.6.0`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.AaBijX/aleozlx_opengl-gui_tvai_zhk/target/debug/build/gdk-pixbuf-sys-cd33376af2815321/build-script-build` (exit status: 1)
+  --- stderr
+  `"pkg-config" "--libs" "--cflags" "gdk-pixbuf-2.0 >= 2.30"` did not exit successfully: exit status: 1
+  --- stderr
+  Package gdk-pixbuf-2.0 was not found in the pkg-config search path.
+  Perhaps you should add the directory containing `gdk-pixbuf-2.0.pc'
+  to the PKG_CONFIG_PATH environment variable
+  No package 'gdk-pixbuf-2.0' found
+
+warning: build failed, waiting for other jobs to finish...

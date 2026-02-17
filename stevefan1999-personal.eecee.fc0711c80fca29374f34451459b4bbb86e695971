@@ -1,0 +1,382 @@
+Running as unit: run-p2697593-i15277683.scope; invocation ID: cc5ddc51068e4b62b0bcb4eab15e599d
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded enum-assoc v1.2.4 (registry `tuna`)
+  Downloaded rpds v1.1.2 (registry `tuna`)
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.101
+   Compiling quote v1.0.41
+   Compiling unicode-ident v1.0.19
+    Checking allocator-api2 v0.2.21
+    Checking equivalent v1.0.2
+    Checking triomphe v0.1.15
+   Compiling unicode-xid v0.2.6
+    Checking foldhash v0.1.5
+    Checking either v1.15.0
+    Checking unicode-id-start v1.4.0
+    Checking archery v1.2.2
+    Checking itertools v0.14.0
+    Checking rpds v1.1.2
+    Checking hashbrown v0.15.5
+   Compiling syn v2.0.106
+    Checking internment v0.8.6
+   Compiling derive_more-impl v2.0.1
+   Compiling typed-builder-macro v0.22.0
+   Compiling enum-assoc v1.2.4
+    Checking typed-builder v0.22.0
+    Checking derive_more v2.0.1
+    Checking eecee v0.1.0 (/tmp/nix-shell.uUVugk/stevefan1999-personal_eecee_swz_tga8)
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:613:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+613 |         then_branch: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Option<Intern<Statement>>: PartialEq<&Option<Intern<...>>>`
+   --> src/ast.rs:614:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+614 |         else_branch: Option<Intern<Statement>>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:618:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+618 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:624:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+624 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:627:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+627 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:632:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+632 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:636:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+636 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:638:13
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+638 |     Default(Intern<Statement>),
+    |             ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `&Intern<Statement>: PartialEq<&Intern<Statement>>`
+   --> src/ast.rs:641:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                        --------- in this derive macro expansion
+...
+641 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:613:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+613 |         then_branch: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Option<Intern<Statement>>> well-formed`
+   --> src/ast.rs:614:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+614 |         else_branch: Option<Intern<Statement>>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:618:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+618 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:624:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+624 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:627:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+627 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:632:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+632 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:636:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+636 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:638:13
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+638 |     Default(Intern<Statement>),
+    |             ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `AssertParamIsEq<Intern<Statement>> well-formed`
+   --> src/ast.rs:641:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                   -- in this derive macro expansion
+...
+641 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:613:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+613 |         then_branch: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Option<Intern<Statement>>: Hash`
+   --> src/ast.rs:614:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+614 |         else_branch: Option<Intern<Statement>>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:618:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+618 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:624:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+624 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:627:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+627 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:632:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+632 |         body: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:636:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+636 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:638:13
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+638 |     Default(Intern<Statement>),
+    |             ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0275]: overflow evaluating the requirement `Intern<Statement>: Hash`
+   --> src/ast.rs:641:9
+    |
+604 | #[derive(Debug, Clone, PartialEq, Eq, Hash)]
+    |                                       ---- in this derive macro expansion
+...
+641 |         stmt: Intern<Statement>,
+    |         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`eecee`)
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:665:36
+    |
+665 |                 IndentDisplay::fmt(then_branch.as_ref(), f)?;
+    |                                    ^^^^^^^^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:668:40
+    |
+668 |                     IndentDisplay::fmt(else_branch.as_ref(), f)?;
+    |                                        ^^^^^^^^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:674:36
+    |
+674 |                 IndentDisplay::fmt(body.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:695:36
+    |
+695 |                 IndentDisplay::fmt(body.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:699:36
+    |
+699 |                 IndentDisplay::fmt(body.as_ref(), f)?;
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:704:36
+    |
+704 |                 IndentDisplay::fmt(body.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:708:36
+    |
+708 |                 IndentDisplay::fmt(stmt.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:712:36
+    |
+712 |                 IndentDisplay::fmt(stmt.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+error[E0282]: type annotations needed
+   --> src/ast.rs:716:36
+    |
+716 |                 IndentDisplay::fmt(stmt.as_ref(), f)
+    |                                    ^^^^ cannot infer type
+
+Some errors have detailed explanations: E0275, E0282.
+For more information about an error, try `rustc --explain E0275`.
+error: could not compile `eecee` (lib) due to 36 previous errors

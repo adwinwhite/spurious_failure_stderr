@@ -1,0 +1,25 @@
+    Updating `tuna` index
+ Downloading crates ...
+warning: spurious network error (3 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `iso8601 v0.6.3` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (3 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (3 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (2 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (failed to download any data for `lz4_flex v0.11.3` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `scylla-macros v1.1.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `uuid-macro-internal v1.16.0` within 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `scylla-cql v1.1.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (1 try remaining): [28] Timeout was reached (failed to download any data for `elasticsearch v9.0.0-alpha.1` within 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `rand_pcg v0.9.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (3 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (2 tries remaining): [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation timed out after 309594 milliseconds with 0 bytes received)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation timed out after 309594 milliseconds with 0 bytes received)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation timed out after 309594 milliseconds with 0 bytes received)
+error: failed to download from `https://static.crates.io/crates/elasticsearch/9.0.0-alpha.1/download`
+
+Caused by:
+  [35] SSL connect error (TLS connect error: error:00000000:lib(0)::reason(0))

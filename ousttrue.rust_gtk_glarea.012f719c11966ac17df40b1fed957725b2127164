@@ -1,0 +1,28 @@
+Running as unit: run-p2490551-i15070657.scope; invocation ID: b4506c447c294c6686acfbba8b8a56d7
+   Compiling pkg-config v0.3.14
+    Checking libc v0.2.43
+   Compiling version_check v0.1.5
+    Checking bitflags v1.0.4
+   Compiling khronos_api v2.2.0
+   Compiling cfg-if v0.1.6
+   Compiling log v0.4.5
+   Compiling xml-rs v0.7.0
+   Compiling lazy_static v1.1.0
+   Compiling gio v0.5.0
+   Compiling glib-sys v0.7.0
+   Compiling gobject-sys v0.7.0
+   Compiling gio-sys v0.7.0
+   Compiling cairo-sys-rs v0.7.0
+error: failed to run custom build command for `glib-sys v0.7.0`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/ousttrue_rust_gtk_glarea_702xdjsg/target/debug/build/glib-sys-5d87294c2a10baf2/build-script-build` (exit status: 1)
+  --- stderr
+  `"pkg-config" "--libs" "--cflags" "glib-2.0 >= 2.48"` did not exit successfully: exit status: 1
+  --- stderr
+  Package glib-2.0 was not found in the pkg-config search path.
+  Perhaps you should add the directory containing `glib-2.0.pc'
+  to the PKG_CONFIG_PATH environment variable
+  No package 'glib-2.0' found
+
+warning: build failed, waiting for other jobs to finish...

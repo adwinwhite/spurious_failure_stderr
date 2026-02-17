@@ -1,0 +1,15 @@
+Running as unit: run-p1378622-i13958758.scope; invocation ID: a83f9b7339f843b3bd7fd281434087b9
+   Compiling libc v0.2.120
+   Compiling crunchy v0.2.2
+   Compiling tiny-keccak v2.0.2
+   Compiling proc-macro-hack v0.5.19
+   Compiling cfg-if v1.0.0
+   Compiling lazy_static v1.4.0
+    Checking yansi v0.5.0
+    Checking ariadne v0.1.5
+   Compiling getrandom v0.2.5
+   Compiling const-random-macro v0.1.13
+    Checking const-random v0.1.13
+    Checking ahash v0.3.8
+    Checking chumsky v0.8.0
+    Checking imperative-parser v0.1.0 (/tmp/nix-shell.uUVugk/Vizdun_imperative_wi01jfgy/parser)

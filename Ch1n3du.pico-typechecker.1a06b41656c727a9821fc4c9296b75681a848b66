@@ -1,0 +1,33 @@
+Running as unit: run-p1039516-i13619828.scope; invocation ID: 98b8086104f5467bb0f2ad515ee01d59
+   Compiling libc v0.2.137
+   Compiling crunchy v0.2.2
+   Compiling tiny-keccak v2.0.2
+   Compiling proc-macro-hack v0.5.19
+   Compiling cfg-if v1.0.0
+   Compiling once_cell v1.16.0
+   Compiling getrandom v0.2.8
+   Compiling const-random-macro v0.1.15
+    Checking const-random v0.1.15
+    Checking ahash v0.3.8
+    Checking chumsky v0.8.0
+    Checking pico-typechecker v0.1.0 (/tmp/nix-shell.uUVugk/Ch1n3du_pico-typechecker_5ittlu8j)
+warning: unused import: `function::Function`
+ --> src/ast.rs:1:13
+  |
+1 | use crate::{function::Function, lexer::Span, tipo::Tipo, value::Value};
+  |             ^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `chumsky::primitive::todo`
+ --> src/compiler.rs:1:5
+  |
+1 | use chumsky::primitive::todo;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `function::Function`
+  --> src/parser.rs:28:5
+   |
+28 |     function::Function,
+   |     ^^^^^^^^^^^^^^^^^^
+

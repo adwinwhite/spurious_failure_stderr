@@ -1,0 +1,79 @@
+Running as unit: run-p1710406-i1710706.scope; invocation ID: ff4b83922ca640ae86b37851cd452d20
+    Updating `tuna` index
+     Locking 208 packages to latest compatible versions
+      Adding async-nats v0.37.0 (available: v0.46.0)
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding wit-bindgen-wrpc v0.9.0 (available: v0.10.0)
+      Adding wrpc-cli v0.4.0 (available: v0.7.0)
+      Adding wrpc-transport-nats v0.27.1 (available: v0.30.0)
+ Downloading crates ...
+  Downloaded wasm-tokio v0.6.0 (registry `tuna`)
+  Downloaded utf8-tokio v0.2.1 (registry `tuna`)
+  Downloaded send-future v0.1.0 (registry `tuna`)
+  Downloaded wit-bindgen-wrpc v0.9.0 (registry `tuna`)
+  Downloaded wrpc-introspect v0.6.0 (registry `tuna`)
+  Downloaded wit-bindgen-wrpc-rust v0.9.0 (registry `tuna`)
+  Downloaded wit-bindgen-core v0.34.0 (registry `tuna`)
+  Downloaded wrpc-transport v0.28.4 (registry `tuna`)
+  Downloaded wit-parser v0.219.2 (registry `tuna`)
+  Downloaded leb128-tokio v0.1.6 (registry `tuna`)
+  Downloaded wit-bindgen-wrpc-rust-macro v0.9.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.23
+   Compiling quote v1.0.44
+   Compiling serde_core v1.0.228
+   Compiling version_check v0.9.5
+    Checking pin-project-lite v0.2.16
+   Compiling zerocopy v0.8.39
+    Checking futures-core v0.3.31
+    Checking futures-sink v0.3.31
+   Compiling zmij v1.0.21
+   Compiling cfg-if v1.0.4
+   Compiling once_cell v1.21.3
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.16.1
+   Compiling serde_json v1.0.149
+   Compiling anyhow v1.0.101
+   Compiling ahash v0.8.12
+    Checking bytes v1.11.1
+   Compiling serde v1.0.228
+   Compiling bitflags v2.10.0
+   Compiling itoa v1.0.17
+   Compiling semver v1.0.27
+   Compiling memchr v2.8.0
+   Compiling prettyplease v0.2.37
+   Compiling log v0.4.29
+   Compiling unicode-xid v0.2.6
+   Compiling id-arena v2.3.0
+   Compiling syn v2.0.115
+    Checking tracing-core v0.1.36
+    Checking futures-channel v0.3.31
+   Compiling heck v0.5.0
+   Compiling wit-bindgen-wrpc-rust v0.9.0
+    Checking slab v0.4.12
+    Checking futures-io v0.3.31
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+   Compiling wit-bindgen-wrpc-rust-macro v0.9.0
+    Checking send-future v0.1.0
+    Checking futures-util v0.3.31
+   Compiling indexmap v2.13.0
+    Checking futures v0.3.31
+   Compiling hashbrown v0.14.5
+   Compiling tokio-macros v2.6.0
+   Compiling serde_derive v1.0.228
+   Compiling tracing-attributes v0.1.31
+   Compiling wasmparser v0.219.2
+    Checking tokio v1.49.0
+    Checking tracing v0.1.44
+    Checking tokio-util v0.7.18
+    Checking tokio-stream v0.1.18
+    Checking utf8-tokio v0.2.1
+    Checking leb128-tokio v0.1.6
+    Checking wasm-tokio v0.6.0
+   Compiling wit-parser v0.219.2
+    Checking wrpc-transport v0.28.4
+   Compiling wit-bindgen-core v0.34.0
+   Compiling wrpc-introspect v0.6.0
+    Checking wit-bindgen-wrpc v0.9.0
+    Checking wrpc-interface-blobstore v0.21.0 (/getea/tmp/crater-spurious/wrpc-interface-blobstore-0.21.0)

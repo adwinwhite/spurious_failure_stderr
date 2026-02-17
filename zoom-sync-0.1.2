@@ -1,0 +1,179 @@
+Running as unit: run-p1842587-i1842887.scope; invocation ID: e3a56a4bdf734be5833d9bb7a82c5314
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded zoom65v3 v0.3.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling autocfg v1.4.0
+    Checking cfg-if v1.0.0
+   Compiling libc v0.2.164
+    Checking smallvec v1.13.2
+    Checking pin-project-lite v0.2.15
+    Checking bytes v1.8.0
+    Checking memchr v2.7.4
+    Checking futures-core v0.3.31
+    Checking once_cell v1.20.2
+   Compiling parking_lot_core v0.9.10
+   Compiling shlex v1.3.0
+    Checking scopeguard v1.2.0
+   Compiling pkg-config v0.3.31
+   Compiling cc v1.2.1
+    Checking itoa v1.0.13
+   Compiling lock_api v0.4.12
+   Compiling slab v0.4.9
+    Checking futures-sink v0.3.31
+    Checking fnv v1.0.7
+    Checking stable_deref_trait v1.2.0
+    Checking futures-channel v0.3.31
+    Checking foldhash v0.1.3
+    Checking pin-utils v0.1.0
+    Checking futures-io v0.3.31
+   Compiling vcpkg v0.2.15
+    Checking allocator-api2 v0.2.20
+    Checking futures-task v0.3.31
+   Compiling quote v1.0.37
+    Checking equivalent v1.0.1
+   Compiling num-traits v0.2.19
+    Checking tracing-core v0.1.32
+   Compiling syn v2.0.89
+   Compiling crossbeam-utils v0.8.20
+    Checking litemap v0.7.4
+    Checking hashbrown v0.15.1
+    Checking log v0.4.22
+    Checking writeable v0.5.5
+    Checking tracing v0.1.40
+   Compiling httparse v1.9.5
+   Compiling openssl v0.10.68
+    Checking signal-hook-registry v1.4.2
+    Checking mio v1.0.2
+    Checking socket2 v0.5.7
+    Checking indexmap v2.6.0
+    Checking try-lock v0.2.5
+    Checking parking_lot v0.12.3
+    Checking bitflags v2.6.0
+    Checking foreign-types-shared v0.1.1
+    Checking icu_locid_transform_data v1.5.0
+    Checking foreign-types v0.3.2
+   Compiling openssl-sys v0.9.104
+    Checking want v0.3.1
+    Checking crossbeam-epoch v0.9.18
+   Compiling rayon-core v1.12.1
+   Compiling native-tls v0.2.12
+    Checking icu_properties_data v1.5.0
+   Compiling serde v1.0.215
+    Checking http v1.1.0
+    Checking icu_normalizer_data v1.5.0
+    Checking tower-service v0.3.3
+    Checking crossbeam-deque v0.8.5
+    Checking utf8_iter v1.0.4
+    Checking openssl-probe v0.1.5
+    Checking write16 v1.0.0
+    Checking simd-adler32 v0.3.7
+    Checking utf16_iter v1.0.5
+    Checking either v1.13.0
+    Checking percent-encoding v2.3.1
+   Compiling thiserror v1.0.69
+    Checking num-integer v0.1.46
+    Checking form_urlencoded v1.2.1
+    Checking http v0.2.12
+    Checking ryu v1.0.18
+    Checking atomic-waker v1.1.2
+    Checking adler2 v2.0.0
+   Compiling anyhow v1.0.93
+    Checking num-bigint v0.4.6
+    Checking miniz_oxide v0.8.0
+    Checking rayon v1.10.0
+    Checking http-body v1.0.1
+    Checking minimal-lexical v0.2.1
+   Compiling paste v1.0.15
+   Compiling strsim v0.11.1
+    Checking arrayvec v0.7.6
+   Compiling ident_case v1.0.1
+    Checking aligned-vec v0.5.0
+   Compiling built v0.7.5
+   Compiling serde_json v1.0.133
+    Checking v_frame v0.3.8
+    Checking http-body v0.4.6
+    Checking nom v7.1.3
+   Compiling memoffset v0.6.5
+    Checking crc32fast v1.4.2
+   Compiling rav1e v0.7.1
+    Checking encoding_rs v0.8.35
+    Checking mime v0.3.17
+   Compiling radium v0.7.0
+    Checking bitflags v1.3.2
+    Checking ipnet v2.10.1
+    Checking num-rational v0.4.2
+    Checking httpdate v1.0.3
+    Checking flate2 v1.0.35
+    Checking itertools v0.12.1
+   Compiling hidapi v2.6.3
+   Compiling simd_helpers v0.1.0
+    Checking imgref v1.11.0
+    Checking base64 v0.21.7
+    Checking quick-error v2.0.1
+    Checking rustls-pki-types v1.10.0
+    Checking weezl v0.1.8
+   Compiling thiserror v2.0.3
+   Compiling owo-colors v4.1.0
+    Checking bitstream-io v2.6.0
+    Checking tap v1.0.1
+   Compiling noop_proc_macro v0.3.0
+    Checking new_debug_unreachable v1.0.6
+    Checking wyz v0.5.1
+    Checking rustls-pemfile v2.2.0
+    Checking rustls-pemfile v1.0.4
+    Checking loop9 v0.1.5
+error: failed to run custom build command for `hidapi v2.6.3`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/zoom-sync-0.1.2/target/debug/build/hidapi-e314ef9c2d162a2f/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rustc-check-cfg=cfg(hidapi)
+  cargo:rustc-check-cfg=cfg(libusb)
+  cargo:rerun-if-changed=etc/hidapi/linux/hid.c
+  cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=LIBUDEV_STATIC
+  cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  thread 'main' (1844146) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/hidapi-2.6.3/build.rs:61:54:
+  Unable to find libudev: 
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libudev
+
+  The system library `libudev` required by crate `hidapi` was not found.
+  The file `libudev.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+
+  HINT: you may need to install a package such as libudev, libudev-dev or libudev-devel.
+
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

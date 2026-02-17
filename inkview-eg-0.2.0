@@ -1,0 +1,19 @@
+Running as unit: run-p818106-i818406.scope; invocation ID: b0730c3b2f674b70b0f8042cbce701dc
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded inkview v0.2.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.103
+   Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.42
+   Compiling autocfg v1.5.0
+   Compiling thiserror v1.0.69
+   Compiling az v1.2.1
+    Checking cfg-if v1.0.4
+    Checking byteorder v1.5.0
+    Checking libloading v0.8.9
+   Compiling num-traits v0.2.19
+   Compiling syn v2.0.111
+    Checking embedded-graphics-core v0.4.0
+   Compiling thiserror-impl v1.0.69
+   Compiling num-derive v0.4.2
+    Checking inkview v0.2.0

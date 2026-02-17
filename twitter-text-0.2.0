@@ -1,0 +1,38 @@
+Running as unit: run-p1526857-i1527157.scope; invocation ID: a6db54a04f3843199ba1460b4f2c19f9
+warning: no edition set: defaulting to the 2015 edition while the latest is 2024
+warning: only one of `license` or `license-file` is necessary
+`license` should be used if the package license can be expressed with a standard SPDX expression.
+`license-file` should be used if the package uses a non-standard license.
+See https://doc.rust-lang.org/cargo/reference/manifest.html#the-license-and-license-file-fields for more information.
+    Updating `tuna` index
+     Locking 35 packages to latest compatible versions
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding idna v0.1.5 (available: v1.1.0)
+ Downloading crates ...
+  Downloaded twitter_text_config v0.2.0 (registry `tuna`)
+  Downloaded twitter_text_parser v0.2.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.44
+   Compiling unicode-ident v1.0.23
+   Compiling memchr v2.8.0
+   Compiling serde_core v1.0.228
+   Compiling ucd-trie v0.1.7
+   Compiling zmij v1.0.21
+    Checking tinyvec_macros v0.1.1
+   Compiling serde v1.0.228
+   Compiling serde_json v1.0.149
+    Checking tinyvec v1.10.0
+    Checking itoa v1.0.17
+    Checking matches v0.1.10
+    Checking lazy_static v1.5.0
+    Checking pest v2.8.6
+    Checking unicode-bidi v0.3.18
+    Checking unicode-normalization v0.1.25
+   Compiling syn v2.0.115
+    Checking idna v0.1.5
+   Compiling pest_meta v2.8.6
+   Compiling pest_generator v2.8.6
+   Compiling serde_derive v1.0.228
+   Compiling pest_derive v2.8.6
+    Checking twitter_text_parser v0.2.0
+    Checking twitter_text_config v0.2.0

@@ -1,0 +1,300 @@
+Running as unit: run-p1010775-i13591088.scope; invocation ID: c67f0546691d4ec9bbdd7285a6f62840
+   Compiling proc-macro2 v1.0.86
+   Compiling unicode-ident v1.0.13
+   Compiling version_check v0.9.5
+    Checking cfg-if v1.0.0
+   Compiling autocfg v1.3.0
+   Compiling libc v0.2.158
+    Checking memchr v2.7.4
+   Compiling serde v1.0.210
+    Checking byteorder v1.5.0
+    Checking bytes v1.7.1
+    Checking once_cell v1.20.0
+    Checking itoa v1.0.11
+    Checking pin-project-lite v0.2.14
+   Compiling typenum v1.17.0
+   Compiling slab v0.4.9
+   Compiling generic-array v0.14.7
+    Checking futures-sink v0.3.30
+    Checking futures-core v0.3.30
+   Compiling thiserror v1.0.63
+    Checking futures-io v0.3.30
+    Checking futures-task v0.3.30
+    Checking futures-channel v0.3.30
+    Checking pin-utils v0.1.0
+    Checking subtle v2.6.1
+    Checking fnv v1.0.7
+   Compiling ahash v0.8.11
+    Checking cpufeatures v0.2.14
+    Checking log v0.4.22
+   Compiling quote v1.0.37
+    Checking allocator-api2 v0.2.19
+   Compiling num-conv v0.1.0
+   Compiling time-core v0.1.2
+    Checking base64 v0.22.1
+    Checking http v1.1.0
+    Checking getrandom v0.2.15
+    Checking mio v1.0.2
+   Compiling syn v2.0.77
+    Checking socket2 v0.5.7
+    Checking rand_core v0.6.4
+   Compiling tinyvec_macros v0.1.1
+    Checking smallvec v1.13.2
+   Compiling tinyvec v1.8.0
+    Checking tracing-core v0.1.32
+    Checking equivalent v1.0.1
+    Checking powerfmt v0.2.0
+   Compiling percent-encoding v2.3.1
+    Checking unicode-bidi v0.3.15
+   Compiling heck v0.4.1
+   Compiling form_urlencoded v1.2.1
+    Checking deranged v0.3.11
+   Compiling time-macros v0.2.18
+    Checking unicode-normalization v0.1.23
+   Compiling rustversion v1.0.17
+   Compiling httparse v1.9.4
+    Checking unicode-properties v0.1.2
+   Compiling idna v0.5.0
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.6
+    Checking stringprep v0.1.5
+    Checking http-body v1.0.1
+    Checking digest v0.10.7
+   Compiling num-traits v0.2.19
+    Checking fallible-iterator v0.2.0
+    Checking ryu v1.0.18
+    Checking md-5 v0.10.6
+    Checking sha2 v0.10.8
+    Checking hmac v0.12.1
+   Compiling url v2.5.2
+   Compiling crunchy v0.2.2
+    Checking tower-service v0.3.3
+   Compiling serde_json v1.0.128
+    Checking tower-layer v0.3.3
+   Compiling smartstring v1.0.1
+   Compiling lock_api v0.4.12
+    Checking time v0.3.36
+   Compiling tiny-keccak v2.0.2
+   Compiling parking_lot_core v0.9.10
+    Checking static_assertions v1.1.0
+    Checking sha1 v0.10.6
+    Checking httpdate v1.0.3
+    Checking scopeguard v1.2.0
+    Checking siphasher v0.3.11
+    Checking phf_shared v0.11.2
+   Compiling aho-corasick v1.1.3
+   Compiling regex-syntax v0.8.5
+    Checking utf-8 v0.7.6
+   Compiling heck v0.5.0
+   Compiling shlex v1.3.0
+    Checking data-encoding v2.6.0
+    Checking mime v0.3.17
+   Compiling ucd-trie v0.1.7
+    Checking base64 v0.21.7
+    Checking winnow v0.6.18
+   Compiling cc v1.1.22
+   Compiling const-random-macro v0.1.16
+    Checking phf v0.11.2
+    Checking parking_lot v0.12.3
+   Compiling proc-macro2-diagnostics v0.10.1
+    Checking sync_wrapper v0.1.2
+    Checking sync_wrapper v1.0.1
+    Checking whoami v1.5.2
+   Compiling syn v1.0.109
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling derive_utils v0.14.2
+   Compiling regex-automata v0.4.8
+   Compiling ring v0.17.8
+    Checking const-random v0.1.18
+    Checking num-integer v0.1.46
+   Compiling either v1.13.0
+   Compiling siphasher v1.0.1
+   Compiling yansi v1.0.1
+   Compiling unicode-xid v0.2.5
+    Checking utf8parse v0.2.2
+    Checking matchit v0.7.3
+   Compiling unicode-segmentation v1.12.0
+   Compiling rust_decimal v1.36.0
+    Checking anstyle-parse v0.2.6
+   Compiling heck v0.3.3
+   Compiling itertools v0.12.1
+    Checking num-bigint v0.4.6
+    Checking dlv-list v0.5.2
+   Compiling serde_derive v1.0.210
+   Compiling zerocopy-derive v0.7.35
+   Compiling futures-macro v0.3.30
+   Compiling thiserror-impl v1.0.63
+   Compiling tokio-macros v2.4.0
+    Checking zerocopy v0.7.35
+    Checking futures-util v0.3.30
+    Checking tokio v1.40.0
+    Checking ppv-lite86 v0.2.20
+   Compiling async-trait v0.1.82
+    Checking rand_chacha v0.3.1
+    Checking hashbrown v0.14.5
+    Checking rand v0.8.5
+   Compiling tracing-attributes v0.1.27
+   Compiling postgres-derive v0.4.5
+    Checking postgres-protocol v0.6.7
+   Compiling pin-project-internal v1.1.5
+   Compiling auto_enums v0.8.6
+   Compiling juniper_codegen v0.16.0
+    Checking tungstenite v0.24.0
+    Checking tracing v0.1.40
+   Compiling pest v2.7.14
+    Checking pin-project v1.1.5
+   Compiling regex v1.11.0
+    Checking futures-executor v0.3.30
+    Checking futures v0.3.30
+    Checking http-body-util v0.1.2
+   Compiling strum_macros v0.26.4
+    Checking axum-core v0.4.5
+   Compiling refinery-core v0.8.14
+   Compiling derive_more-impl v1.0.0
+   Compiling pest_meta v2.7.14
+    Checking tokio-util v0.7.12
+    Checking hyper v1.4.1
+    Checking tower v0.4.13
+    Checking tokio-tungstenite v0.24.0
+    Checking uuid v1.10.0
+    Checking indexmap v2.5.0
+    Checking postgres-types v0.2.7
+    Checking serde_spanned v0.6.7
+    Checking toml_datetime v0.6.8
+    Checking tokio-postgres v0.7.11
+    Checking hyper-util v0.1.8
+    Checking toml_edit v0.22.21
+    Checking serde_urlencoded v0.7.1
+    Checking serde_path_to_error v0.1.16
+    Checking tower v0.5.1
+    Checking bitflags v2.6.0
+   Compiling pest_generator v2.7.14
+    Checking deadpool-runtime v0.1.4
+    Checking num_cpus v1.16.0
+    Checking axum v0.7.7
+    Checking anstyle v1.0.10
+    Checking untrusted v0.9.0
+    Checking spin v0.9.8
+    Checking anstyle-query v1.1.2
+    Checking arrayvec v0.7.6
+   Compiling litrs v0.4.1
+    Checking juniper v0.16.1
+    Checking colorchoice v1.0.3
+    Checking is_terminal_polyfill v1.70.1
+    Checking anstream v0.6.18
+   Compiling pest_derive v2.7.14
+   Compiling document-features v0.2.10
+    Checking derive_more v1.0.0
+    Checking toml v0.8.19
+    Checking deadpool v0.12.1
+    Checking strum v0.26.3
+   Compiling refinery-macros v0.8.14
+    Checking ordered-multimap v0.7.3
+   Compiling sealed v0.3.0
+    Checking hashlink v0.8.4
+    Checking simple_asn1 v0.6.2
+   Compiling ouroboros_macro v0.18.4
+   Compiling derive_more v0.99.18
+    Checking headers-core v0.3.0
+    Checking pem v3.0.4
+    Checking encoding_rs v0.8.35
+    Checking overload v0.1.1
+    Checking clap_lex v0.7.2
+    Checking aliasable v0.1.3
+    Checking zeroize v1.8.1
+    Checking arraydeque v0.5.1
+    Checking nonempty v0.7.0
+    Checking strsim v0.11.1
+    Checking lazy_static v1.5.0
+    Checking minimal-lexical v0.2.1
+    Checking clap_builder v4.5.20
+    Checking nom v7.1.3
+    Checking itertools v0.13.0
+    Checking yaml-rust2 v0.8.1
+    Checking ouroboros v0.18.4
+    Checking sharded-slab v0.1.7
+    Checking convert_case v0.6.0
+    Checking forwarded-header-value v0.1.1
+    Checking tracerr v0.3.0
+    Checking secrecy v0.10.2
+    Checking refinery v0.8.14
+    Checking jsonwebtoken v9.3.0
+    Checking nu-ansi-term v0.46.0
+    Checking json5 v0.4.1
+    Checking headers v0.4.0
+    Checking rust-ini v0.20.0
+    Checking deadpool-postgres v0.14.0
+    Checking ron v0.8.1
+   Compiling clap_derive v4.5.18
+   Compiling smart-default v0.7.1
+    Checking tracing-log v0.2.0
+    Checking thread_local v1.1.8
+    Checking humantime v2.1.0
+    Checking xxhash-rust v0.8.12
+    Checking juniper_subscriptions v0.17.0
+    Checking juniper_graphql_ws v0.4.0
+    Checking common v0.0.0 (/tmp/nix-shell.uUVugk/BashSdo_real-estate-agency-backend_7xe2r88y/common)
+    Checking pathdiff v0.2.2
+    Checking humantime-serde v1.1.1
+    Checking tracing-subscriber v0.3.18
+    Checking tower-http v0.6.1
+    Checking config v0.14.1
+    Checking service v0.0.0 (/tmp/nix-shell.uUVugk/BashSdo_real-estate-agency-backend_7xe2r88y/service)
+warning: unexpected `cfg` condition value: `serde`
+   --> service/src/domain/contract/mod.rs:320:1
+    |
+320 | / define_kind! {
+321 | |     #[doc = "Kind of a [`Contract`]."]
+322 | |     enum Kind {
+323 | |         #[doc = "[`Rent`] [`Contract`]."]
+...   |
+338 | | }
+    | |_^
+    |
+    = note: expected values for `feature` are: `default` and `postgres`
+    = note: using a cfg inside a macro will use the cfgs from the destination crate and not the ones from the defining crate
+    = help: try referring to `define_kind` crate for guidance on how handle this unexpected cfg
+    = help: the macro `define_kind` may come from an old version of the `common` crate, try updating your dependency with `cargo update -p common`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: `#[warn(unexpected_cfgs)]` on by default
+    = note: this warning originates in the macro `define_kind` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `serde`
+   --> service/src/domain/realty.rs:489:1
+    |
+489 | / define_kind! {
+490 | |     #[doc = "Kind of a [`Realty`]."]
+491 | |     enum Kind {
+492 | |         #[doc = "An apartment in a building."]
+...   |
+501 | | }
+    | |_^
+    |
+    = note: expected values for `feature` are: `default` and `postgres`
+    = note: using a cfg inside a macro will use the cfgs from the destination crate and not the ones from the defining crate
+    = help: try referring to `define_kind` crate for guidance on how handle this unexpected cfg
+    = help: the macro `define_kind` may come from an old version of the `common` crate, try updating your dependency with `cargo update -p common`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the macro `define_kind` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+    Checking clap v4.5.20
+    Checking axum-client-ip v0.6.1
+    Checking juniper_axum v0.1.0
+    Checking axum-extra v0.9.4
+warning: `service` (lib) generated 2 warnings
+    Checking application v0.0.0 (/tmp/nix-shell.uUVugk/BashSdo_real-estate-agency-backend_7xe2r88y/application)
+error[E0275]: overflow evaluating the requirement `Pin<Box<futures::future::Then<impl futures::Future<Output = Result<DateTimeOf, error::Error>>, ..., ...>>>: CoerceUnsized<...>`
+   --> application/src/api/placement.rs:100:1
+    |
+100 | #[graphql_object(context = Context)]
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`application`)
+    = note: required for the cast from `Pin<Box<Then<impl Future<Output = Result<..., ...>>, ..., ...>>>` to `Pin<Box<dyn Future<Output = Result<Value<__S>, ...>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/BashSdo_real-estate-agency-backend_7xe2r88y/target/debug/deps/application-d9e0512a41faa53f.long-type-9233032593700527367.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+    = note: this error originates in the attribute macro `graphql_object` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `application` (lib) due to 1 previous error

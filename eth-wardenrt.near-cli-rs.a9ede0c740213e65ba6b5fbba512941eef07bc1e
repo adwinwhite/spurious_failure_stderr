@@ -1,0 +1,321 @@
+Running as unit: run-p1922289-i14502397.scope; invocation ID: 88f5610164eb4d7eab551c627263ecd1
+   Compiling proc-macro2 v1.0.97
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.175
+   Compiling serde v1.0.219
+    Checking cfg-if v1.0.1
+   Compiling shlex v1.3.0
+   Compiling version_check v0.9.5
+   Compiling pkg-config v0.3.32
+    Checking once_cell v1.21.3
+    Checking memchr v2.7.5
+   Compiling autocfg v1.5.0
+    Checking pin-project-lite v0.2.16
+    Checking itoa v1.0.15
+   Compiling quote v1.0.40
+   Compiling typenum v1.18.0
+   Compiling generic-array v0.14.7
+   Compiling syn v2.0.105
+    Checking smallvec v1.15.1
+    Checking log v0.4.27
+   Compiling jobserver v0.1.33
+   Compiling num-traits v0.2.19
+    Checking tracing-core v0.1.34
+   Compiling cc v1.2.32
+   Compiling cfg_aliases v0.2.1
+   Compiling vcpkg v0.2.15
+    Checking subtle v2.6.1
+   Compiling hashbrown v0.15.5
+   Compiling equivalent v1.0.2
+    Checking bitflags v2.9.1
+    Checking futures-core v0.3.31
+    Checking stable_deref_trait v1.2.0
+   Compiling winnow v0.7.12
+   Compiling toml_datetime v0.6.11
+    Checking bytes v1.10.1
+   Compiling indexmap v2.10.0
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.6
+    Checking digest v0.10.7
+   Compiling openssl-src v300.5.2+3.5.2
+    Checking ryu v1.0.20
+   Compiling zerocopy v0.8.26
+   Compiling borsh v1.5.7
+    Checking cpufeatures v0.2.17
+   Compiling openssl-sys v0.9.109
+    Checking futures-sink v0.3.31
+    Checking num-integer v0.1.46
+    Checking getrandom v0.2.16
+    Checking rand_core v0.6.4
+    Checking slab v0.4.11
+   Compiling semver v1.0.26
+   Compiling syn v1.0.109
+    Checking futures-channel v0.3.31
+    Checking sha2 v0.10.9
+    Checking pin-utils v0.1.0
+    Checking futures-io v0.3.31
+    Checking futures-task v0.3.31
+   Compiling serde_json v1.0.142
+   Compiling toml_edit v0.22.27
+    Checking mio v1.0.4
+    Checking socket2 v0.6.0
+    Checking writeable v0.6.1
+    Checking litemap v0.8.0
+   Compiling rustversion v1.0.22
+    Checking tokio v1.47.1
+    Checking ppv-lite86 v0.2.21
+   Compiling synstructure v0.13.2
+   Compiling rustc_version v0.4.1
+    Checking aho-corasick v1.1.3
+   Compiling proc-macro-crate v3.3.0
+   Compiling serde_derive v1.0.219
+   Compiling tracing-attributes v0.1.30
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+    Checking tracing v0.1.41
+   Compiling zerovec-derive v0.11.1
+    Checking zerofrom v0.1.6
+   Compiling borsh-derive v1.5.7
+    Checking yoke v0.8.0
+   Compiling displaydoc v0.2.5
+   Compiling futures-macro v0.3.31
+    Checking zerovec v0.11.4
+    Checking zerotrie v0.2.2
+    Checking futures-util v0.3.31
+    Checking regex-syntax v0.8.5
+    Checking tinystr v0.8.1
+    Checking icu_locale_core v2.0.0
+    Checking potential_utf v0.1.2
+    Checking byteorder v1.5.0
+   Compiling icu_normalizer_data v2.0.0
+    Checking fnv v1.0.7
+   Compiling thiserror v2.0.14
+   Compiling icu_properties_data v2.0.1
+    Checking regex-automata v0.4.9
+    Checking http v1.3.1
+    Checking icu_collections v2.0.0
+    Checking icu_provider v2.0.0
+   Compiling thiserror-impl v2.0.14
+   Compiling curve25519-dalek v4.1.3
+    Checking rand_chacha v0.3.1
+   Compiling lock_api v0.4.13
+   Compiling num-bigint v0.3.3
+   Compiling heck v0.4.1
+    Checking lazy_static v1.5.0
+   Compiling parking_lot_core v0.9.11
+    Checking percent-encoding v2.3.1
+   Compiling strum_macros v0.24.3
+    Checking rand v0.8.5
+   Compiling curve25519-dalek-derive v0.1.1
+    Checking hex v0.4.3
+   Compiling derive_more-impl v2.0.1
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
+   Compiling num-rational v0.3.2
+    Checking base64 v0.22.1
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+    Checking scopeguard v1.2.0
+    Checking signature v2.2.0
+    Checking near-schema-checker-core v0.31.0
+   Compiling near-schema-checker-macro v0.31.0
+   Compiling crunchy v0.2.4
+   Compiling anyhow v1.0.99
+    Checking near-schema-checker-lib v0.31.0
+   Compiling darling_core v0.20.11
+    Checking ed25519 v2.2.3
+    Checking strum v0.24.1
+    Checking near-account-id v1.1.3
+    Checking icu_properties v2.0.1
+    Checking icu_normalizer v2.0.0
+    Checking derive_more v2.0.1
+    Checking http-body v1.0.1
+   Compiling derive_arbitrary v1.4.2
+   Compiling enum-map-derive v0.17.0
+   Compiling secp256k1-sys v0.8.2
+    Checking foreign-types-shared v0.1.1
+    Checking static_assertions v1.1.0
+   Compiling openssl v0.10.73
+    Checking bs58 v0.4.0
+   Compiling httparse v1.10.1
+    Checking arbitrary v1.4.2
+   Compiling darling_macro v0.20.11
+    Checking foreign-types v0.3.2
+    Checking enum-map v2.7.3
+    Checking parking_lot v0.12.4
+    Checking idna_adapter v1.2.1
+    Checking ed25519-dalek v2.2.0
+    Checking form_urlencoded v1.2.1
+    Checking tokio-util v0.7.16
+   Compiling openssl-macros v0.1.1
+   Compiling serde_repr v0.1.20
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling heck v0.5.0
+   Compiling native-tls v0.2.14
+   Compiling radium v0.7.0
+   Compiling zstd-safe v7.2.4
+    Checking tower-service v0.3.3
+    Checking powerfmt v0.2.0
+    Checking utf8_iter v1.0.4
+    Checking try-lock v0.2.5
+    Checking utf8parse v0.2.2
+   Compiling rustix v1.0.8
+    Checking atomic-waker v1.1.2
+    Checking base64 v0.21.7
+    Checking openssl-probe v0.1.6
+    Checking h2 v0.4.12
+    Checking near-primitives-core v0.31.0
+    Checking idna v1.0.3
+    Checking deranged v0.4.0
+    Checking want v0.3.1
+    Checking uint v0.9.5
+   Compiling darling v0.20.11
+    Checking fixed-hash v0.7.0
+    Checking regex v1.11.1
+   Compiling libz-sys v1.1.22
+   Compiling proc-macro-error v1.0.4
+    Checking thread_local v1.1.9
+    Checking regex-syntax v0.6.29
+    Checking either v1.15.0
+    Checking unicode-width v0.2.1
+    Checking time-core v0.1.4
+    Checking tap v1.0.1
+    Checking num-conv v0.1.0
+    Checking json_comments v0.2.2
+    Checking linux-raw-sys v0.9.4
+    Checking unsafe-libyaml v0.2.11
+    Checking hyper v1.6.0
+    Checking regex-automata v0.1.10
+    Checking serde_yaml v0.9.34+deprecated
+    Checking secp256k1 v0.27.0
+    Checking near-config-utils v0.31.0
+    Checking time v0.3.41
+    Checking wyz v0.5.1
+    Checking primitive-types v0.10.1
+   Compiling serde_with_macros v3.14.0
+    Checking url v2.5.4
+    Checking blake2 v0.10.6
+    Checking sync_wrapper v1.0.2
+    Checking funty v2.0.0
+   Compiling thiserror v1.0.69
+    Checking iana-time-zone v0.1.63
+    Checking overload v0.1.1
+    Checking ipnet v2.11.0
+    Checking keccak v0.1.5
+   Compiling crossbeam-utils v0.8.21
+   Compiling camino v1.1.11
+   Compiling portable-atomic v1.11.1
+    Checking near-stdx v0.31.0
+   Compiling getrandom v0.3.3
+    Checking tower-layer v0.3.3
+    Checking near-crypto v0.31.0
+    Checking tower v0.5.2
+    Checking bitvec v1.0.1
+    Checking hyper-util v0.1.16
+    Checking sha3 v0.10.8
+    Checking chrono v0.4.41
+    Checking nu-ansi-term v0.46.0
+    Checking near-time v0.31.0
+    Checking serde_with v3.14.0
+    Checking near-parameters v0.31.0
+    Checking matchers v0.1.0
+    Checking itertools v0.12.1
+    Checking near-fmt v0.31.0
+   Compiling snafu-derive v0.8.6
+    Checking http-body-util v0.1.3
+    Checking bytesize v1.3.3
+    Checking ordered-float v4.6.0
+    Checking sharded-slab v0.1.7
+   Compiling thiserror-impl v1.0.69
+   Compiling smart-default v0.7.1
+   Compiling libdbus-sys v0.2.5
+   Compiling libssh2-sys v0.3.1
+    Checking tracing-log v0.2.0
+   Compiling signal-hook v0.3.18
+   Compiling easy-ext v0.2.9
+   Compiling eyre v0.6.12
+    Checking iri-string v0.7.8
+    Checking zeroize v1.8.1
+    Checking arrayvec v0.7.6
+    Checking adler2 v2.0.1
+    Checking unicode-width v0.1.14
+    Checking option-ext v0.2.0
+    Checking miniz_oxide v0.8.9
+    Checking rustls-pki-types v1.12.0
+    Checking snafu v0.8.6
+    Checking tracing-subscriber v0.3.19
+   Compiling interactive-clap-derive v0.3.2
+    Checking tower-http v0.6.6
+    Checking serde_urlencoded v0.7.1
+    Checking num-bigint v0.4.6
+   Compiling hidapi v2.6.3
+    Checking digest v0.9.0
+    Checking signal-hook-registry v1.4.6
+   Compiling vte_generate_state_changes v0.1.2
+   Compiling ahash v0.8.12
+    Checking encoding_rs v0.8.35
+   Compiling crc32fast v1.5.0
+    Checking arrayref v0.3.9
+   Compiling object v0.36.7
+    Checking fastrand v2.3.0
+   Compiling bitcoin-internals v0.2.0
+    Checking no-std-compat v0.4.1
+   Compiling owo-colors v4.2.2
+    Checking mime v0.3.17
+    Checking indenter v0.3.4
+    Checking ledger-apdu v0.11.0
+    Checking tempfile v3.20.0
+    Checking num-rational v0.4.2
+    Checking vte v0.11.1
+error: failed to run custom build command for `hidapi v2.6.3`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/eth-wardenrt_near-cli-rs_j9v7ttwu/target/debug/build/hidapi-ef32388c6d6959f6/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rustc-check-cfg=cfg(hidapi)
+  cargo:rustc-check-cfg=cfg(libusb)
+  cargo:rerun-if-changed=etc/hidapi/linux/hid.c
+  cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=LIBUDEV_STATIC
+  cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  thread 'main' (1927521) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/hidapi-2.6.3/build.rs:61:54:
+  Unable to find libudev: 
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libudev
+
+  The system library `libudev` required by crate `hidapi` was not found.
+  The file `libudev.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+
+  HINT: you may need to install a package such as libudev, libudev-dev or libudev-devel.
+
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

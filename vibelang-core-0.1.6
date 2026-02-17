@@ -1,0 +1,98 @@
+Running as unit: run-p489764-i4683460.scope; invocation ID: 95fe77b296024b749b30769ae257e85e
+   Compiling libc v0.2.177
+   Compiling version_check v0.9.5
+   Compiling memchr v2.7.6
+    Checking cfg-if v1.0.4
+   Compiling proc-macro2 v1.0.103
+   Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.42
+   Compiling bitflags v1.3.2
+   Compiling pkg-config v0.3.32
+   Compiling crunchy v0.2.4
+   Compiling glob v0.3.3
+   Compiling zerocopy v0.8.27
+    Checking bitflags v2.10.0
+   Compiling autocfg v1.5.0
+   Compiling clang-sys v1.8.1
+   Compiling aho-corasick v1.1.4
+   Compiling nom v5.1.3
+   Compiling regex-syntax v0.8.8
+   Compiling tiny-keccak v2.0.2
+   Compiling serde_core v1.0.228
+   Compiling atty v0.2.14
+   Compiling unicode-width v0.1.14
+   Compiling portable-atomic v1.11.1
+   Compiling textwrap v0.11.0
+   Compiling getrandom v0.2.16
+   Compiling syn v2.0.110
+   Compiling libloading v0.8.9
+   Compiling vec_map v0.8.2
+   Compiling strsim v0.8.0
+   Compiling ansi_term v0.12.1
+   Compiling getrandom v0.3.4
+   Compiling log v0.4.28
+   Compiling regex-automata v0.4.13
+   Compiling bindgen v0.58.1
+   Compiling shlex v1.3.0
+   Compiling once_cell v1.21.3
+   Compiling serde_json v1.0.145
+   Compiling termcolor v1.4.1
+   Compiling humantime v2.3.0
+   Compiling const-random-macro v0.1.16
+   Compiling clap v2.34.0
+   Compiling cexpr v0.4.0
+   Compiling regex v1.12.2
+   Compiling env_logger v0.8.4
+   Compiling jobserver v0.1.34
+   Compiling which v3.1.1
+   Compiling smartstring v1.0.1
+   Compiling num-traits v0.2.19
+   Compiling ahash v0.8.12
+   Compiling lazy_static v1.5.0
+   Compiling lazycell v1.3.0
+   Compiling peeking_take_while v0.1.2
+   Compiling rustc-hash v1.1.0
+   Compiling ryu v1.0.20
+   Compiling find-msvc-tools v0.1.5
+   Compiling itoa v1.0.15
+   Compiling cc v1.2.47
+    Checking const-random v0.1.18
+   Compiling alsa-sys v0.3.1
+   Compiling jack-sys v0.5.1
+   Compiling anyhow v1.0.100
+    Checking static_assertions v1.1.0
+   Compiling rustix v1.1.2
+   Compiling thiserror v1.0.69
+error: failed to run custom build command for `jack-sys v0.5.1`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/vibelang-core-0.1.6/target/debug/build/jack-sys-d08a98e0a73162af/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=JACK_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=JACK_STATIC
+  cargo:rerun-if-env-changed=JACK_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  thread 'main' (491108) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/jack-sys-0.5.1/build.rs:13:23:
+  called `Result::unwrap()` on an `Err` value: "\npkg-config exited with status code 1\n> PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags jack\n\nThe system library `jack` required by crate `jack-sys` was not found.\nThe file `jack.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.\nPKG_CONFIG_PATH_FOR_TARGET contains the following:\n    - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig\n    - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig\n    - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig\n    - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig\n    - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig\n    - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig\n    - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig\n    - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig\n    - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/lib/pkgconfig\n    - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/share/pkgconfig\n    - /nix/store/m9k83ip1yx29xs94sa5x8j70s2vfgj6i-glib-2.84.2-dev/lib/pkgconfig\n    - /nix/store/np6q2i2wz1sm47dva3hp7v5n3cjdb5df-libffi-3.4.8-dev/lib/pkgconfig\n    - /nix/store/0zv6vqm2bsq0kwavhp06v1hqzkjn9am6-dbus-1.14.10-dev/lib/pkgconfig\n    - /nix/store/ic5v8q6y5s1dklcmnih82d3a5jpv0sy2-expat-2.7.1-dev/lib/pkgconfig\n    - /nix/store/lvbd6qkc7m79l41bb1a74dv3yngaxl2g-libepoxy-1.5.10-dev/lib/pkgconfig\n    - /nix/store/aaf0xc8xw2m8hzijrx5jn6wm8vbykk41-libglvnd-1.7.0-dev/lib/pkgconfig\n    - /nix/store/qyp8pcm3xr5ww1r4rj752zpny6awvbqf-libX11-1.8.12-dev/lib/pkgconfig\n    - /nix/store/h2lzzms7vnqv9rv11wynjjd5sfnk0ijx-xorgproto-2024.1/share/pkgconfig\n    - /nix/store/5dkrbiki8nam56qqnxnm4mvbpxa1v4qb-libxcb-1.17.0-dev/lib/pkgconfig\n    - /nix/store/q53qxjrwwq1g0d2h9awhkqx51nbjjsf4-nettle-3.10.1-dev/lib/pkgconfig\n    - /nix/store/0s6rnw4aza7n97gzqx4k5vrvymcjwapi-gmp-with-cxx-6.3.0-dev/lib/pkgconfig\n    - /nix/store/fpvn1bv57qb7isln714zkld664yqbzkq-ffmpeg-headless-7.1.1-dev/lib/pkgconfig\n    - /nix/store/3bcsa8c55amqa99wb68xbkfhailkh7bj-fuse-2.9.9-dev/lib/pkgconfig\n    - /nix/store/sxpsqfzgnllrww9dfy2hhgfyw3rk9c82-fuse-3.17.2-dev/lib/pkgconfig\n    - /nix/store/j7srhraly1gf2zklj4wbdby02a1z7ckx-zstd-1.5.7-dev/lib/pkgconfig\n    - /nix/store/p8j0aj8h922v556dzr4ddzgag8n93a2r-chafa-1.16.1-dev/lib/pkgconfig\n    - /nix/store/2yj6cwgn53l1vl3bp4rpsravzhbbam7w-mpich-4.3.1/lib/pkgconfig\n    - /nix/store/kbm2zg7pvav731w334fh9s2xsifllgf5-wayland-1.23.1-dev/lib/pkgconfig\n    - /nix/store/w6fj6x75vl70ns1hpkyvx14g3yrj4893-zfs-user-2.3.3-dev/lib/pkgconfig\n    - /nix/store/xvnqhwzr5pfpws5w05b47i582q3yvy69-libgpg-error-1.51-dev/lib/pkgconfig\n    - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig\n    - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig\n    - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig\n\nHINT: you may need to install a package such as jack, jack-dev or jack-devel.\n"
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

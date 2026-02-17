@@ -1,0 +1,360 @@
+Running as unit: run-p3869078-i3869378.scope; invocation ID: 30c80b64712346c78dffde4cd29a0419
+    Updating `tuna` index
+     Locking 543 packages to latest Rust 1.94.0-nightly compatible versions
+      Adding eframe v0.32.3 (available: v0.33.3)
+      Adding egui v0.32.3 (available: v0.33.3)
+      Adding egui-notify v0.20.0 (available: v0.21.0)
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding rand v0.9.2 (available: v0.10.0)
+      Adding windows v0.61.3 (available: v0.62.2)
+ Downloading crates ...
+  Downloaded async-executor v1.14.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.44
+   Compiling unicode-ident v1.0.23
+    Checking cfg-if v1.0.4
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling libc v0.2.182
+    Checking log v0.4.29
+    Checking bitflags v2.11.0
+    Checking once_cell v1.21.3
+   Compiling autocfg v1.5.0
+   Compiling rustix v1.1.3
+    Checking linux-raw-sys v0.11.0
+   Compiling pkg-config v0.3.32
+    Checking smallvec v1.15.1
+   Compiling winnow v0.7.14
+   Compiling crossbeam-utils v0.8.21
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.16.1
+    Checking pin-project-lite v0.2.16
+   Compiling syn v2.0.116
+   Compiling memchr v2.8.0
+   Compiling indexmap v2.13.0
+    Checking libloading v0.8.9
+    Checking slab v0.4.12
+    Checking stable_deref_trait v1.2.1
+    Checking dlib v0.5.2
+   Compiling wayland-sys v0.31.8
+   Compiling toml_datetime v0.7.5+spec-1.1.0
+   Compiling shlex v1.3.0
+   Compiling find-msvc-tools v0.1.9
+   Compiling zerocopy v0.8.39
+   Compiling cc v1.2.56
+   Compiling version_check v0.9.5
+    Checking parking v2.2.1
+    Checking concurrent-queue v2.5.0
+    Checking downcast-rs v1.2.1
+    Checking scoped-tls v1.0.1
+    Checking futures-core v0.3.32
+   Compiling wayland-client v0.31.12
+    Checking fastrand v2.3.0
+   Compiling num-traits v0.2.19
+    Checking tracing-core v0.1.36
+    Checking futures-io v0.3.32
+   Compiling toml_parser v1.0.8+spec-1.1.0
+    Checking event-listener v5.4.1
+   Compiling getrandom v0.3.4
+   Compiling endi v1.1.1
+    Checking event-listener-strategy v0.5.4
+   Compiling wayland-backend v0.3.12
+    Checking futures-lite v2.6.1
+   Compiling toml_edit v0.23.10+spec-1.0.0
+    Checking arrayvec v0.7.6
+   Compiling async-io v2.6.0
+   Compiling proc-macro-crate v3.4.0
+    Checking errno v0.3.14
+    Checking crossbeam-epoch v0.9.18
+    Checking polling v3.11.0
+   Compiling rayon-core v1.13.0
+    Checking async-task v4.7.1
+    Checking ttf-parser v0.25.1
+   Compiling thiserror v1.0.69
+    Checking crossbeam-deque v0.8.6
+    Checking signal-hook-registry v1.4.8
+    Checking async-channel v2.5.0
+   Compiling ahash v0.8.12
+   Compiling khronos_api v3.1.0
+    Checking ab_glyph_rasterizer v0.1.10
+   Compiling cfg_aliases v0.2.1
+    Checking atomic-waker v1.1.2
+   Compiling target-lexicon v0.12.16
+    Checking simd-adler32 v0.3.8
+   Compiling thiserror v2.0.18
+    Checking piper v0.2.4
+    Checking async-signal v0.2.13
+    Checking num-integer v0.1.46
+    Checking async-lock v3.4.2
+   Compiling anyhow v1.0.101
+    Checking either v1.15.0
+   Compiling parking_lot_core v0.9.12
+   Compiling rustix v0.38.44
+   Compiling synstructure v0.13.2
+    Checking num-bigint v0.4.6
+    Checking async-process v2.5.0
+    Checking blocking v1.6.2
+    Checking async-executor v1.14.0
+    Checking uuid v1.21.0
+    Checking owned_ttf_parser v0.25.1
+    Checking async-broadcast v0.7.2
+    Checking ab_glyph v0.2.32
+    Checking ordered-stream v0.2.0
+    Checking adler2 v2.0.1
+    Checking writeable v0.6.2
+    Checking xcursor v0.3.10
+   Compiling xml-rs v0.8.28
+    Checking static_assertions v1.1.0
+    Checking xkeysym v0.2.1
+    Checking litemap v0.8.1
+    Checking hex v0.4.3
+   Compiling crc32fast v1.5.0
+    Checking linux-raw-sys v0.4.15
+    Checking cursor-icon v1.2.0
+    Checking accesskit v0.19.0
+    Checking scopeguard v1.2.0
+    Checking num-rational v0.4.2
+    Checking lock_api v0.4.14
+    Checking wayland-csd-frame v0.3.0
+   Compiling cfg-expr v0.15.8
+   Compiling gl_generator v0.14.0
+    Checking miniz_oxide v0.8.9
+    Checking rayon v1.11.0
+    Checking as-slice v0.2.1
+    Checking memmap2 v0.9.10
+   Compiling x11-dl v2.21.0
+   Compiling serde_derive v1.0.228
+   Compiling enumflags2_derive v0.7.12
+   Compiling zerocopy-derive v0.8.39
+   Compiling bytemuck_derive v1.10.2
+   Compiling zerofrom-derive v0.1.6
+   Compiling tracing-attributes v0.1.31
+   Compiling yoke-derive v0.8.1
+    Checking bytemuck v1.25.0
+    Checking zerofrom v0.1.6
+   Compiling zerovec-derive v0.11.2
+    Checking tracing v0.1.44
+   Compiling profiling-procmacros v1.0.17
+    Checking yoke v0.8.1
+   Compiling displaydoc v0.2.5
+   Compiling equator-macro v0.4.2
+    Checking profiling v1.0.17
+   Compiling thiserror-impl v1.0.69
+   Compiling thiserror-impl v2.0.18
+   Compiling serde_repr v0.1.20
+    Checking equator v0.4.2
+   Compiling async-trait v0.1.89
+    Checking zerovec v0.11.5
+    Checking aligned-vec v0.6.4
+    Checking zerotrie v0.2.3
+    Checking v_frame v0.3.9
+   Compiling av-scenechange v0.14.1
+    Checking percent-encoding v2.3.2
+   Compiling icu_properties_data v2.1.2
+    Checking tinystr v0.8.2
+    Checking potential_utf v0.1.4
+   Compiling icu_normalizer_data v2.1.1
+    Checking icu_locale_core v2.1.1
+   Compiling version-compare v0.2.1
+   Compiling paste v1.0.15
+   Compiling built v0.8.0
+   Compiling heck v0.5.0
+    Checking icu_collections v2.1.1
+    Checking calloop v0.13.0
+    Checking emath v0.32.3
+    Checking zvariant_utils v3.3.0
+    Checking enumflags2 v0.7.12
+   Compiling quick-xml v0.38.4
+   Compiling toml_datetime v0.6.11
+   Compiling serde_spanned v0.6.9
+    Checking icu_provider v2.1.1
+   Compiling rav1e v0.8.1
+   Compiling toml_edit v0.22.27
+   Compiling arg_enum_proc_macro v0.3.4
+    Checking aligned v0.4.3
+    Checking parking_lot v0.12.5
+   Compiling zvariant_derive v5.9.2
+    Checking core2 v0.4.0
+    Checking nom v8.0.0
+    Checking arrayref v0.3.9
+   Compiling smithay-client-toolkit v0.19.2
+    Checking y4m v0.8.0
+    Checking strict-num v0.1.1
+   Compiling typenum v1.19.0
+   Compiling pastey v0.1.1
+    Checking quick-error v2.0.1
+    Checking tiny-skia-path v0.11.4
+    Checking bitstream-io v4.9.0
+   Compiling zvariant v5.9.2
+   Compiling wayland-scanner v0.31.8
+    Checking flate2 v1.1.9
+    Checking half v2.7.1
+    Checking ecolor v0.32.3
+    Checking maybe-rayon v0.1.1
+   Compiling fax_derive v0.2.0
+   Compiling toml v0.8.23
+   Compiling num-derive v0.4.2
+   Compiling system-deps v6.2.2
+    Checking itertools v0.14.0
+    Checking zbus_names v4.3.1
+    Checking gethostname v1.1.0
+   Compiling generic-array v0.14.7
+    Checking wayland-protocols v0.32.10
+    Checking wayland-cursor v0.31.12
+    Checking calloop-wayland-source v0.3.0
+    Checking zbus_xml v5.1.0
+   Compiling simd_helpers v0.1.0
+    Checking zune-core v0.4.12
+    Checking zbus-lockstep v0.5.2
+   Compiling zbus_macros v5.13.2
+    Checking as-raw-xcb-connection v1.0.1
+   Compiling build-rs v0.1.2
+    Checking nohash-hasher v0.2.0
+    Checking foldhash v0.1.5
+    Checking imgref v1.12.0
+   Compiling noop_proc_macro v0.3.0
+    Checking weezl v0.1.12
+    Checking new_debug_unreachable v1.0.6
+    Checking epaint_default_fonts v0.32.3
+    Checking x11rb-protocol v0.13.2
+   Compiling zbus-lockstep-macros v0.5.2
+    Checking epaint v0.32.3
+    Checking loop9 v0.1.5
+   Compiling libgpg-error-sys v0.6.2
+    Checking hashbrown v0.15.5
+    Checking zune-jpeg v0.4.21
+    Checking fax v0.2.6
+    Checking icu_normalizer v2.1.1
+    Checking icu_properties v2.1.2
+    Checking tiny-skia v0.11.4
+    Checking zune-inflate v0.2.54
+    Checking fdeflate v0.3.7
+   Compiling winit v0.30.12
+    Checking pxfm v0.1.27
+    Checking zbus v5.13.2
+    Checking avif-serialize v0.8.8
+    Checking bit_field v0.10.3
+    Checking zune-core v0.5.1
+    Checking lebe v0.5.3
+    Checking color_quant v1.1.0
+    Checking rgb v0.8.52
+    Checking unicode-segmentation v1.12.0
+    Checking wayland-protocols-wlr v0.3.10
+    Checking raw-window-handle v0.6.2
+    Checking byteorder-lite v0.1.0
+    Checking egui v0.32.3
+    Checking image-webp v0.2.4
+    Checking wayland-protocols-plasma v0.3.10
+    Checking gif v0.14.1
+    Checking exr v1.74.0
+    Checking moxcms v0.7.11
+    Checking sctk-adwaita v0.10.1
+    Checking zune-jpeg v0.5.12
+    Checking png v0.18.1
+    Checking idna_adapter v1.2.1
+    Checking tiff v0.10.3
+    Checking accesskit_consumer v0.28.0
+    Checking calloop v0.14.4
+    Checking qoi v0.4.1
+   Compiling glutin_glx_sys v0.6.1
+   Compiling glutin_egl_sys v0.7.1
+   Compiling futures-macro v0.3.32
+    Checking atspi-common v0.9.0
+    Checking xkbcommon-dl v0.4.2
+    Checking dpi v0.1.2
+    Checking x11rb v0.13.2
+    Checking utf8_iter v1.0.4
+    Checking smol_str v0.2.2
+   Compiling smithay-client-toolkit v0.20.0
+    Checking futures-task v0.3.32
+    Checking idna v1.1.0
+    Checking futures-util v0.3.32
+    Checking calloop-wayland-source v0.4.1
+    Checking wayland-protocols-experimental v20250721.0.1
+    Checking wayland-protocols-misc v0.3.10
+    Checking form_urlencoded v1.2.2
+   Compiling glutin v0.32.3
+    Checking aho-corasick v1.1.4
+   Compiling memoffset v0.9.1
+    Checking regex-syntax v0.8.9
+    Checking url v2.5.8
+    Checking regex-automata v0.4.14
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+   Compiling gpgme-sys v0.11.0
+   Compiling glutin-winit v0.5.0
+   Compiling memoffset v0.7.1
+    Checking utf8parse v0.2.2
+   Compiling getrandom v0.4.1
+    Checking subtle v2.6.1
+    Checking digest v0.10.7
+    Checking anstyle-parse v0.2.7
+    Checking av1-grain v0.2.5
+error: failed to run custom build command for `gpgme-sys v0.11.0`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.AaBijX/1882COYS_fmp_sysk6pjc/target/debug/build/gpgme-sys-5b949809959bf9c8/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=GPGME_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+  Error: PkgConfig(
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags gpgme 'gpgme >= 1.13'
+
+  The system library `gpgme` required by crate `gpgme-sys` was not found.
+  The file `gpgme.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/share/pkgconfig
+      - /nix/store/m9k83ip1yx29xs94sa5x8j70s2vfgj6i-glib-2.84.2-dev/lib/pkgconfig
+      - /nix/store/np6q2i2wz1sm47dva3hp7v5n3cjdb5df-libffi-3.4.8-dev/lib/pkgconfig
+      - /nix/store/0zv6vqm2bsq0kwavhp06v1hqzkjn9am6-dbus-1.14.10-dev/lib/pkgconfig
+      - /nix/store/ic5v8q6y5s1dklcmnih82d3a5jpv0sy2-expat-2.7.1-dev/lib/pkgconfig
+      - /nix/store/lvbd6qkc7m79l41bb1a74dv3yngaxl2g-libepoxy-1.5.10-dev/lib/pkgconfig
+      - /nix/store/aaf0xc8xw2m8hzijrx5jn6wm8vbykk41-libglvnd-1.7.0-dev/lib/pkgconfig
+      - /nix/store/qyp8pcm3xr5ww1r4rj752zpny6awvbqf-libX11-1.8.12-dev/lib/pkgconfig
+      - /nix/store/h2lzzms7vnqv9rv11wynjjd5sfnk0ijx-xorgproto-2024.1/share/pkgconfig
+      - /nix/store/5dkrbiki8nam56qqnxnm4mvbpxa1v4qb-libxcb-1.17.0-dev/lib/pkgconfig
+      - /nix/store/q53qxjrwwq1g0d2h9awhkqx51nbjjsf4-nettle-3.10.1-dev/lib/pkgconfig
+      - /nix/store/0s6rnw4aza7n97gzqx4k5vrvymcjwapi-gmp-with-cxx-6.3.0-dev/lib/pkgconfig
+      - /nix/store/fpvn1bv57qb7isln714zkld664yqbzkq-ffmpeg-headless-7.1.1-dev/lib/pkgconfig
+      - /nix/store/3bcsa8c55amqa99wb68xbkfhailkh7bj-fuse-2.9.9-dev/lib/pkgconfig
+      - /nix/store/sxpsqfzgnllrww9dfy2hhgfyw3rk9c82-fuse-3.17.2-dev/lib/pkgconfig
+      - /nix/store/j7srhraly1gf2zklj4wbdby02a1z7ckx-zstd-1.5.7-dev/lib/pkgconfig
+      - /nix/store/p8j0aj8h922v556dzr4ddzgag8n93a2r-chafa-1.16.1-dev/lib/pkgconfig
+      - /nix/store/2yj6cwgn53l1vl3bp4rpsravzhbbam7w-mpich-4.3.1/lib/pkgconfig
+      - /nix/store/kbm2zg7pvav731w334fh9s2xsifllgf5-wayland-1.23.1-dev/lib/pkgconfig
+      - /nix/store/w6fj6x75vl70ns1hpkyvx14g3yrj4893-zfs-user-2.3.3-dev/lib/pkgconfig
+      - /nix/store/xvnqhwzr5pfpws5w05b47i582q3yvy69-libgpg-error-1.51-dev/lib/pkgconfig
+      - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig
+      - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig
+      - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig
+
+  HINT: you may need to install a package such as gpgme, gpgme-dev or gpgme-devel.
+  )
+warning: build failed, waiting for other jobs to finish...

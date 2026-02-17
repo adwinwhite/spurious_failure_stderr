@@ -1,0 +1,348 @@
+Running as unit: run-p2649463-i15229553.scope; invocation ID: e9efb45b30934f619a6ca3ccba0ea8bd
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.167
+   Compiling version_check v0.9.5
+   Compiling autocfg v1.4.0
+    Checking cfg-if v1.0.0
+   Compiling serde v1.0.215
+   Compiling shlex v1.3.0
+    Checking scopeguard v1.2.0
+    Checking memchr v2.7.4
+    Checking once_cell v1.20.2
+    Checking pin-project-lite v0.2.15
+   Compiling lock_api v0.4.12
+    Checking itoa v1.0.14
+    Checking bytes v1.9.0
+   Compiling quote v1.0.37
+   Compiling parking_lot_core v0.9.10
+   Compiling syn v2.0.90
+   Compiling jobserver v0.1.32
+    Checking getrandom v0.2.15
+    Checking futures-core v0.3.31
+   Compiling num-traits v0.2.19
+    Checking smallvec v1.13.2
+    Checking equivalent v1.0.1
+    Checking hashbrown v0.15.2
+   Compiling slab v0.4.9
+   Compiling cc v1.2.2
+   Compiling proc-macro2-diagnostics v0.10.1
+   Compiling httparse v1.9.5
+    Checking futures-sink v0.3.31
+    Checking parking_lot v0.12.3
+    Checking mio v1.0.3
+    Checking signal-hook-registry v1.4.2
+    Checking socket2 v0.5.8
+    Checking spin v0.9.8
+   Compiling yansi v1.0.1
+    Checking futures-channel v0.3.31
+    Checking futures-io v0.3.31
+   Compiling typenum v1.17.0
+   Compiling num-conv v0.1.0
+    Checking futures-task v0.3.31
+    Checking fnv v1.0.7
+   Compiling time-core v0.1.2
+    Checking pin-utils v0.1.0
+    Checking rand_core v0.6.4
+   Compiling generic-array v0.14.7
+   Compiling time-macros v0.2.18
+   Compiling thiserror v1.0.69
+   Compiling cookie v0.18.1
+   Compiling rust_decimal v1.36.0
+    Checking log v0.4.22
+   Compiling syn v1.0.109
+   Compiling ring v0.17.8
+    Checking http v0.2.12
+    Checking is-terminal v0.4.13
+    Checking tracing-core v0.1.33
+    Checking untrusted v0.9.0
+    Checking byteorder v1.5.0
+    Checking arrayvec v0.7.6
+    Checking iana-time-zone v0.1.61
+    Checking ryu v1.0.18
+   Compiling ref-cast v1.0.23
+   Compiling rustix v0.38.41
+    Checking powerfmt v0.2.0
+    Checking try-lock v0.2.5
+    Checking utf8parse v0.2.2
+   Compiling semver v1.0.23
+    Checking anstyle-parse v0.2.6
+    Checking want v0.3.1
+    Checking deranged v0.3.11
+    Checking crypto-common v0.1.6
+    Checking http-body v0.4.6
+    Checking aho-corasick v1.1.3
+    Checking anstyle v1.0.10
+    Checking tower-service v0.3.3
+    Checking unicode-width v0.1.14
+    Checking anstyle-query v1.1.2
+    Checking bitflags v2.6.0
+    Checking is_terminal_polyfill v1.70.1
+   Compiling rustls v0.21.12
+    Checking percent-encoding v2.3.1
+    Checking regex-syntax v0.8.5
+   Compiling pkg-config v0.3.31
+    Checking colorchoice v1.0.3
+    Checking linux-raw-sys v0.4.14
+    Checking httpdate v1.0.3
+    Checking zeroize v1.8.1
+    Checking anstream v0.6.18
+   Compiling zstd-sys v2.0.13+zstd.1.5.6
+    Checking regex-automata v0.4.9
+   Compiling serde_derive v1.0.215
+   Compiling tokio-macros v2.4.0
+   Compiling futures-macro v0.3.31
+   Compiling thiserror-impl v1.0.69
+    Checking tokio v1.41.1
+   Compiling tracing-attributes v0.1.28
+    Checking futures-util v0.3.31
+   Compiling pear_codegen v0.2.9
+    Checking tracing v0.1.41
+   Compiling typed-builder v0.7.1
+   Compiling ref-cast-impl v1.0.23
+    Checking rustls-webpki v0.101.7
+    Checking sct v0.7.1
+   Compiling zerocopy-derive v0.7.35
+    Checking futures-executor v0.3.31
+    Checking time v0.3.36
+   Compiling uncased v0.9.10
+    Checking lazy_static v1.5.0
+    Checking base64 v0.21.7
+    Checking fastrand v2.2.0
+   Compiling devise_core v0.4.2
+    Checking rustls-pemfile v1.0.4
+    Checking tempfile v3.14.0
+    Checking console v0.15.8
+    Checking tokio-util v0.7.12
+   Compiling rustc_version v0.4.1
+    Checking zerocopy v0.7.35
+    Checking futures v0.3.31
+    Checking regex v1.11.1
+    Checking indexmap v2.6.0
+    Checking chrono v0.4.38
+    Checking toml_datetime v0.6.8
+    Checking serde_spanned v0.6.8
+    Checking h2 v0.3.26
+   Compiling psm v0.1.24
+   Compiling ahash v0.7.8
+    Checking encoding_rs v0.8.35
+   Compiling inlinable_string v0.1.15
+   Compiling anyhow v1.0.93
+    Checking openssl-probe v0.1.5
+    Checking strsim v0.11.1
+    Checking clap_lex v0.7.3
+    Checking winnow v0.6.20
+   Compiling heck v0.5.0
+   Compiling serde_json v1.0.133
+    Checking hyper v0.14.31
+   Compiling stable-pattern v0.1.0
+   Compiling clap_derive v4.5.18
+    Checking pear v0.2.9
+    Checking toml_edit v0.22.22
+    Checking clap_builder v4.5.21
+    Checking rustls-native-certs v0.6.3
+    Checking tokio-rustls v0.24.1
+    Checking ppv-lite86 v0.2.20
+   Compiling devise_codegen v0.4.2
+   Compiling heapless v0.7.17
+   Compiling async-trait v0.1.83
+    Checking inout v0.1.3
+   Compiling stacker v0.1.17
+   Compiling multer v3.1.0
+   Compiling figment v0.10.19
+   Compiling zstd-safe v7.2.1
+    Checking subtle v2.6.1
+    Checking cpufeatures v0.2.16
+    Checking same-file v1.0.6
+   Compiling either v1.13.0
+   Compiling portable-atomic v1.10.0
+    Checking shell-words v1.1.0
+   Compiling paste v1.0.15
+   Compiling state v0.6.0
+    Checking dialoguer v0.11.0
+    Checking walkdir v2.5.0
+   Compiling rocket_http v0.5.1
+    Checking toml v0.8.19
+    Checking universal-hash v0.5.1
+   Compiling devise v0.4.2
+    Checking cipher v0.4.4
+    Checking clap v4.5.21
+    Checking rand_chacha v0.3.1
+    Checking hyper-rustls v0.24.2
+    Checking serde_qs v0.12.0
+   Compiling async-stream-impl v0.3.6
+    Checking hash32 v0.2.1
+    Checking http v1.1.0
+    Checking is-docker v0.2.0
+   Compiling rocket v0.5.1
+    Checking mime v0.3.17
+    Checking opaque-debug v0.3.1
+    Checking crc-catalog v2.4.0
+    Checking common_macros v0.1.1
+   Compiling glob v0.3.1
+    Checking urlencoding v2.1.3
+    Checking stable_deref_trait v1.2.0
+   Compiling unicode-xid v0.2.6
+    Checking httpclient v0.21.3
+    Checking crc v3.2.1
+    Checking poly1305 v0.8.0
+    Checking is-wsl v0.4.0
+    Checking async-stream v0.3.6
+    Checking hashbrown v0.12.3
+   Compiling rust_decimal_macros v1.36.0
+    Checking rand v0.8.5
+   Compiling rocket_codegen v0.5.1
+    Checking chacha20 v0.9.1
+    Checking beancount-core v0.2.0 (https://github.com/smessmer/beancount?rev=ace8ac51fa3ae3f6203cba41246a0005f7d04def#ace8ac51)
+    Checking beancount-core v0.2.0 (https://github.com/smessmer/beancount#3ce29069)
+    Checking env_filter v0.1.2
+    Checking ubyte v0.10.4
+    Checking tokio-stream v0.1.16
+    Checking aead v0.5.2
+    Checking num_cpus v1.16.0
+    Checking csv-core v0.1.11
+    Checking unicode-width v0.2.0
+    Checking number_prefix v0.4.0
+    Checking humantime v2.1.0
+    Checking unsafe-libyaml v0.2.11
+    Checking atomic v0.5.3
+    Checking binascii v0.1.4
+    Checking pathdiff v0.2.3
+    Checking cobs v0.2.3
+    Checking env_logger v0.11.5
+    Checking open v5.3.1
+    Checking postcard v1.1.1
+    Checking indicatif v0.17.9
+    Checking csv v1.3.1
+    Checking serde_yaml v0.9.34+deprecated
+    Checking beancount-render v0.1.0 (https://github.com/smessmer/beancount#3ce29069)
+    Checking chacha20poly1305 v0.10.1
+    Checking beancount-render v0.1.0 (https://github.com/smessmer/beancount?rev=ace8ac51fa3ae3f6203cba41246a0005f7d04def#ace8ac51)
+    Checking chumsky v0.9.2 (https://github.com/smessmer/chumsky?rev=7251cabb05b9d537f5ca92a9e1c1d64f9a8e59c0#7251cabb)
+    Checking plaid v8.0.0
+    Checking ariadne v0.5.0
+    Checking base64 v0.22.1
+    Checking zstd v0.13.2
+    Checking beancount-import-wave v0.1.0 (/tmp/nix-shell.uUVugk/smessmer_beancount-plaid_tpqp6q6n/wave)
+error[E0275]: overflow evaluating the requirement `<impl chumsky::Parser<char, (), Error = Simple<char>> as chumsky::Parser<char, ()>>::Error == <Then<chumsky::combinator::Map<Then<chumsky::combinator::Map<Then<chumsky::combinator::Map<..., ..., ...>, ...>, ..., ...>, ...>, ..., ...>, ...> as chumsky::Parser<char, ...>>::Error`
+   --> wave/src/import/parser/account.rs:681:18
+    |
+681 |                 .then_ignore(row_end())
+    |                  ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+note: required by a bound in `then_ignore`
+   --> /home/adwin/.cargo/git/checkouts/chumsky-d44404f9409bee7d/7251cab/src/lib.rs:790:25
+    |
+787 |     fn then_ignore<U, P>(self, other: P) -> ThenIgnore<Self, P, O, U>
+    |        ----------- required by a bound in this associated function
+...
+790 |         P: Parser<I, U, Error = Self::Error>,
+    |                         ^^^^^^^^^^^^^^^^^^^ required by this bound in `Parser::then_ignore`
+
+error[E0275]: overflow evaluating the requirement `chumsky::combinator::Map<Then<Then<chumsky::combinator::Map<Then<chumsky::combinator::Map<Then<..., ...>, ..., ...>, ...>, ..., ...>, ...>, ...>, ..., ...>: chumsky::Parser<char, ...>`
+   --> wave/src/import/parser/account.rs:682:18
+    |
+682 |                 .try_map(move |(
+    |                  ^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `{closure@wave/src/import/parser/account.rs:682:26: 685:25}: Fn((((ir::Amount, std::string::String), utils::amount::Amount), ...), ...)`
+   --> wave/src/import/parser/account.rs:682:18
+    |
+682 |                 .try_map(move |(
+    |                  ^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+note: required by a bound in `chumsky::Parser::try_map`
+   --> /home/adwin/.cargo/git/checkouts/chumsky-d44404f9409bee7d/7251cab/src/lib.rs:402:12
+    |
+399 |     fn try_map<U, F>(self, f: F) -> TryMap<Self, F, O>
+    |        ------- required by a bound in this associated function
+...
+402 |         F: Fn(O, <Self::Error as Error<I>>::Span) -> Result<U, Self::Error>,
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Parser::try_map`
+
+error[E0275]: overflow evaluating the requirement `<{closure@wave/src/import/parser/account.rs:682:26: 685:25} as FnOnce<((((ir::Amount, std::string::String), ...), ...), ...)>>::Output == Result<ir::Amount, <chumsky::combinator::Map<Then<Then<chumsky::combinator::Map<..., ..., ...>, ...>, ...>, ..., ...> as chumsky::Parser<char, ...>>::Error>`
+   --> wave/src/import/parser/account.rs:682:18
+    |
+682 |                 .try_map(move |(
+    |                  ^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+note: required by a bound in `chumsky::Parser::try_map`
+   --> /home/adwin/.cargo/git/checkouts/chumsky-d44404f9409bee7d/7251cab/src/lib.rs:402:54
+    |
+399 |     fn try_map<U, F>(self, f: F) -> TryMap<Self, F, O>
+    |        ------- required by a bound in this associated function
+...
+402 |         F: Fn(O, <Self::Error as Error<I>>::Span) -> Result<U, Self::Error>,
+    |                                                      ^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Parser::try_map`
+
+error[E0275]: overflow evaluating the requirement `std::ops::Range<usize> == <<chumsky::combinator::Map<Then<Then<..., ...>, ...>, ..., ...> as chumsky::Parser<char, ...>>::Error as chumsky::Error<char>>::Span`
+   --> wave/src/import/parser/account.rs:682:18
+    |
+682 |                 .try_map(move |(
+    |                  ^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `Simple<char> == <chumsky::combinator::Map<Then<Then<chumsky::combinator::Map<..., ..., ...>, ...>, ...>, ..., ...> as chumsky::Parser<char, ...>>::Error`
+   --> wave/src/import/parser/account.rs:682:18
+    |
+682 |                 .try_map(move |(
+    |                  ^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `TryMap<chumsky::combinator::Map<Then<Then<chumsky::combinator::Map<Then<chumsky::combinator::Map<..., ..., ...>, ...>, ..., ...>, ...>, ...>, ..., ...>, ..., ...>: chumsky::Parser<char, ...>`
+   --> wave/src/import/parser/account.rs:719:20
+    |
+719 |                 }).boxed()
+    |                    ^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `Simple<char> == <TryMap<chumsky::combinator::Map<Then<Then<..., ...>, ...>, ..., ...>, ..., ...> as chumsky::Parser<char, ...>>::Error`
+   --> wave/src/import/parser/account.rs:668:13
+    |
+668 | /             common_rows
+669 | |                 .then_ignore(comma())
+670 | |                 .then(any_cell())
+671 | |                 .then_ignore(comma())
+...   |
+718 | |                     })
+719 | |                 }).boxed()
+    | |__________________________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `BoxedParser<'_, char, ir::Amount, <TryMap<chumsky::combinator::Map<Then<..., ...>, ..., ...>, ..., ...> as chumsky::Parser<char, ...>>::Error> well-formed`
+   --> wave/src/import/parser/account.rs:719:20
+    |
+719 |                 }).boxed()
+    |                    ^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+error[E0275]: overflow evaluating the requirement `<TryMap<chumsky::combinator::Map<Then<Then<chumsky::combinator::Map<Then<..., ...>, ..., ...>, ...>, ...>, ..., ...>, ..., ...> as chumsky::Parser<char, ...>>::Error == _`
+   --> wave/src/import/parser/account.rs:668:13
+    |
+668 | /             common_rows
+669 | |                 .then_ignore(comma())
+670 | |                 .then(any_cell())
+671 | |                 .then_ignore(comma())
+...   |
+718 | |                     })
+719 | |                 }).boxed()
+    | |__________________________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`beancount_import_wave`)
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `beancount-import-wave` (lib) due to 10 previous errors
+warning: build failed, waiting for other jobs to finish...

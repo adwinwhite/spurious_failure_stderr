@@ -1,0 +1,18 @@
+Running as unit: run-p2137414-i14717522.scope; invocation ID: 1259c798236140698ae8b019f1a281a7
+   Compiling cc v1.0.90
+   Compiling version_check v0.9.4
+   Compiling libc v0.2.153
+    Checking cfg-if v1.0.0
+    Checking zerocopy v0.7.32
+    Checking once_cell v1.19.0
+   Compiling chumsky v1.0.0-alpha.6 (https://github.com/zesterer/chumsky#e3b91d80)
+    Checking allocator-api2 v0.2.16
+    Checking unicode-width v0.1.11
+    Checking yansi v0.5.1
+   Compiling ahash v0.8.11
+    Checking unicode-ident v1.0.12
+    Checking ariadne v0.4.0 (https://github.com/zesterer/ariadne.git#a45d8335)
+    Checking hashbrown v0.14.3
+   Compiling psm v0.1.21
+   Compiling stacker v0.1.15
+    Checking codotaku_scripting_language v0.1.0 (/tmp/nix-shell.uUVugk/ilyas-taouaou_codotaku_scripting_language_x9cav2r_)

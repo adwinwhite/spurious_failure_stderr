@@ -1,0 +1,17 @@
+Running as unit: run-p2603704-i15183794.scope; invocation ID: 7ed72e1aa97744338a802b3f946aae9f
+   Compiling proc-macro2 v1.0.89
+   Compiling unicode-ident v1.0.13
+   Compiling libc v0.2.162
+   Compiling autocfg v1.4.0
+    Checking stable_deref_trait v1.2.0
+    Checking memchr v2.7.4
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `wasm32-wasip1` target may not be installed
+  = help: consider downloading the target with `rustup target add wasm32-wasip1`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `stable_deref_trait` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `memchr` (lib) due to 1 previous error

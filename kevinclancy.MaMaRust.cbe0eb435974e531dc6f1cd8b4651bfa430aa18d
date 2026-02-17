@@ -1,0 +1,48 @@
+Running as unit: run-p2241365-i14821473.scope; invocation ID: eb315ecbb5114db9a7f9d6c7a5286036
+   Compiling find-msvc-tools v0.1.0
+   Compiling version_check v0.9.5
+   Compiling shlex v1.3.0
+   Compiling typenum v1.18.0
+   Compiling zerocopy v0.8.26
+   Compiling libc v0.2.175
+   Compiling cc v1.2.35
+    Checking cfg-if v1.0.3
+    Checking once_cell v1.21.3
+   Compiling ahash v0.8.12
+   Compiling im v15.1.0
+    Checking rand_core v0.6.4
+    Checking allocator-api2 v0.2.21
+    Checking rand_xoshiro v0.6.0
+   Compiling psm v0.1.26
+   Compiling stacker v0.1.21
+    Checking bitmaps v2.1.0
+    Checking hashbrown v0.14.5
+    Checking sized-chunks v0.6.5
+    Checking chumsky v0.9.3
+    Checking mama_rust v0.1.0 (/tmp/nix-shell.uUVugk/kevinclancy_MaMaRust_zquio2hm)
+warning: unused import: `slice`
+ --> src/heap.rs:1:22
+  |
+1 | use std::{mem::swap, slice};
+  |                      ^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `virtual_machine::VirtualMachine`
+ --> src/heap.rs:3:40
+  |
+3 | use crate::{virtual_machine::CodeAddr, virtual_machine::VirtualMachine};
+  |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `Heap`
+ --> src/virtual_machine.rs:1:19
+  |
+1 | use crate::heap::{Heap, HeapAddr};
+  |                   ^^^^
+
+warning: unused imports: `add`, `get_basic`, `sub`, and `symbolic_addr`
+ --> src/gen_code.rs:1:28
+  |
+1 | use crate::{code_builder::{add, get_basic, load_c, mk_basic, sub, symbolic_addr}, syntax::{Expr, Range, Ty}};
+  |                            ^^^  ^^^^^^^^^                    ^^^  ^^^^^^^^^^^^^
+

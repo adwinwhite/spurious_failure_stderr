@@ -1,0 +1,15 @@
+Running as unit: run-p1637160-i1637460.scope; invocation ID: 8af7f9c511924aa3a53ec91d78729f5d
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded goldenfile v1.7.1 (registry `tuna`)
+   Compiling version_check v0.9.5
+    Checking zerocopy v0.7.35
+    Checking cfg-if v1.0.0
+    Checking once_cell v1.19.0
+    Checking allocator-api2 v0.2.18
+    Checking either v1.13.0
+    Checking itertools v0.13.0
+   Compiling ahash v0.8.11
+    Checking hashbrown v0.14.5
+    Checking chumsky v0.9.3
+    Checking vimcats v1.1.0 (/getea/tmp/crater-spurious/vimcats-1.1.0)

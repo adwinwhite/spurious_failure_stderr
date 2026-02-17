@@ -1,0 +1,288 @@
+Running as unit: run-p2455185-i15035291.scope; invocation ID: 84baf3d40308400eae4a8def965976f0
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /tmp/nix-shell.uUVugk/nothingnesses_mind-map_k04yjwut/frontend/Cargo.toml
+workspace: /tmp/nix-shell.uUVugk/nothingnesses_mind-map_k04yjwut/Cargo.toml
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.42
+   Compiling unicode-ident v1.0.22
+   Compiling libc v0.2.178
+    Checking cfg-if v1.0.4
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling version_check v0.9.5
+   Compiling portable-atomic v1.11.1
+    Checking memchr v2.7.6
+    Checking pin-project-lite v0.2.16
+   Compiling typenum v1.19.0
+    Checking futures-core v0.3.31
+   Compiling generic-array v0.14.7
+   Compiling parking_lot_core v0.9.12
+   Compiling getrandom v0.3.4
+   Compiling syn v2.0.111
+   Compiling zerocopy v0.8.31
+    Checking once_cell v1.21.3
+    Checking itoa v1.0.15
+    Checking futures-sink v0.3.31
+   Compiling rustversion v1.0.22
+    Checking scopeguard v1.2.0
+    Checking futures-io v0.3.31
+    Checking lock_api v0.4.14
+    Checking futures-channel v0.3.31
+    Checking slab v0.4.11
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+    Checking equivalent v1.0.2
+    Checking hashbrown v0.16.1
+   Compiling crunchy v0.2.4
+   Compiling log v0.4.29
+   Compiling thiserror v2.0.17
+   Compiling tiny-keccak v2.0.2
+    Checking indexmap v2.12.1
+   Compiling wasm-bindgen-shared v0.2.104
+   Compiling semver v1.0.27
+   Compiling getrandom v0.2.16
+   Compiling rustc_version v0.4.1
+    Checking rand_core v0.6.4
+   Compiling const-random-macro v0.1.16
+   Compiling icu_normalizer_data v2.1.1
+    Checking stable_deref_trait v1.2.1
+   Compiling icu_properties_data v2.1.2
+    Checking percent-encoding v2.3.2
+    Checking const-random v0.1.18
+   Compiling ahash v0.8.12
+   Compiling bumpalo v3.19.0
+   Compiling serde_json v1.0.145
+   Compiling crossbeam-utils v0.8.21
+    Checking ryu v1.0.20
+    Checking base64 v0.22.1
+   Compiling thiserror v1.0.69
+   Compiling wasm-bindgen v0.2.104
+   Compiling smallvec v1.15.1
+    Checking bitflags v2.10.0
+    Checking allocator-api2 v0.2.21
+    Checking socket2 v0.6.1
+    Checking hashbrown v0.14.5
+    Checking crypto-common v0.1.7
+    Checking mio v1.1.1
+    Checking signal-hook-registry v1.4.7
+    Checking litemap v0.8.1
+    Checking writeable v0.6.2
+    Checking form_urlencoded v1.2.2
+    Checking num_cpus v1.17.0
+   Compiling shlex v1.3.0
+    Checking subtle v2.6.1
+   Compiling find-msvc-tools v0.1.5
+   Compiling proc-macro-error-attr2 v2.0.0
+    Checking aho-corasick v1.1.4
+   Compiling cc v1.2.49
+    Checking regex-syntax v0.8.8
+   Compiling ucd-trie v0.1.7
+    Checking concurrent-queue v2.5.0
+   Compiling synstructure v0.13.2
+   Compiling wasm-bindgen-backend v0.2.104
+   Compiling proc-macro-error2 v2.0.1
+   Compiling pest v2.8.4
+    Checking encoding_rs v0.8.35
+    Checking regex-automata v0.4.13
+   Compiling wasm-bindgen-macro-support v0.2.104
+   Compiling serde_derive v1.0.228
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling zerovec-derive v0.11.2
+   Compiling futures-macro v0.3.31
+   Compiling displaydoc v0.2.5
+   Compiling thiserror-impl v2.0.17
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.1
+   Compiling thiserror-impl v1.0.69
+    Checking futures-util v0.3.31
+    Checking zerovec v0.11.5
+   Compiling wasm-bindgen-macro v0.2.104
+   Compiling async-trait v0.1.89
+    Checking tinystr v0.8.2
+   Compiling tokio-macros v2.6.0
+    Checking icu_locale_core v2.1.1
+    Checking js-sys v0.3.81
+    Checking potential_utf v0.1.4
+    Checking zerotrie v0.2.3
+    Checking icu_collections v2.1.1
+    Checking icu_provider v2.1.1
+    Checking parking v2.2.1
+    Checking icu_properties v2.1.2
+    Checking utf8_iter v1.0.4
+    Checking bytes v1.11.0
+    Checking parking_lot v0.12.5
+    Checking futures-executor v0.3.31
+    Checking icu_normalizer v2.1.1
+    Checking futures v0.3.31
+    Checking event-listener v5.4.1
+    Checking regex v1.12.2
+    Checking http v1.4.0
+    Checking tokio v1.48.0
+    Checking block-buffer v0.10.4
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+   Compiling autocfg v1.5.0
+   Compiling unicode-segmentation v1.12.0
+    Checking cpufeatures v0.2.17
+    Checking url v2.5.7
+    Checking digest v0.10.7
+    Checking event-listener-strategy v0.5.4
+   Compiling convert_case v0.8.0
+   Compiling pest_meta v2.8.4
+    Checking tracing-core v0.1.35
+    Checking winnow v0.7.14
+   Compiling paste v1.0.15
+    Checking async-lock v3.4.1
+    Checking wasm-bindgen-futures v0.4.54
+    Checking web-sys v0.3.81
+   Compiling pest_generator v2.8.4
+    Checking dashmap v6.1.0
+   Compiling tracing-attributes v0.1.31
+   Compiling typeid v1.0.3
+   Compiling pest_derive v2.8.4
+    Checking ppv-lite86 v0.2.21
+    Checking throw_error v0.3.1
+   Compiling slotmap v1.1.1
+   Compiling proc-macro2-diagnostics v0.10.1
+   Compiling same-file v1.0.6
+   Compiling unicode-xid v0.2.6
+   Compiling walkdir v2.5.0
+   Compiling const_format_proc_macros v0.2.34
+   Compiling num-traits v0.2.19
+   Compiling proc-macro-utils v0.10.0
+   Compiling reactive_graph v0.2.11
+    Checking tracing v0.1.43
+    Checking send_wrapper v0.6.0
+    Checking foldhash v0.1.5
+   Compiling httparse v1.10.1
+    Checking or_poisoned v0.1.0
+   Compiling erased-serde v0.4.9
+    Checking hydration_context v0.3.0
+    Checking hashbrown v0.15.5
+    Checking any_spawner v0.3.0
+   Compiling derive-where v1.6.0
+    Checking tokio-util v0.7.17
+    Checking dlv-list v0.5.2
+   Compiling server_fn_macro v0.8.8
+   Compiling camino v1.2.1
+    Checking guardian v1.3.0
+    Checking either v1.15.0
+    Checking rustc-hash v2.1.1
+   Compiling anyhow v1.0.100
+    Checking itertools v0.14.0
+    Checking ordered-multimap v0.7.3
+    Checking hashlink v0.10.0
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/arc_async_derived.rs:673:14
+    |
+673 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+673 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/arc_async_derived.rs:674:14
+    |
+674 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+674 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/arc_async_derived.rs:691:14
+    |
+691 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+691 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/arc_async_derived.rs:692:14
+    |
+692 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+692 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/async_derived.rs:367:14
+    |
+367 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+367 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/async_derived.rs:368:14
+    |
+368 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+368 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/async_derived.rs:388:40
+    |
+388 |                 MappedMut::new(inner, |v| v.deref(), |v| v.deref_mut())
+    |                                        ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+388 |                 MappedMut::new(inner, |v: &_| v.deref(), |v| v.deref_mut())
+    |                                         ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/async_derived.rs:388:55
+    |
+388 |                 MappedMut::new(inner, |v| v.deref(), |v| v.deref_mut())
+    |                                                       ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+388 |                 MappedMut::new(inner, |v| v.deref(), |v: &mut _| v.deref_mut())
+    |                                                        ++++++++
+
+   Compiling const_format v0.2.35
+    Checking toml_parser v1.0.4
+   Compiling reactive_stores_macro v0.2.6
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.11/src/computed/async_derived/arc_async_derived.rs:648:59
+    |
+648 |             ReadGuard::new(Mapped::new_with_guard(plain, |v| v.deref()))
+    |                                                           ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+648 |             ReadGuard::new(Mapped::new_with_guard(plain, |v: &_| v.deref()))
+    |                                                            ++++
+
+   Compiling syn_derive v0.2.0
+    Checking serde_spanned v1.0.3
+    Checking toml_datetime v0.7.3
+   Compiling vcpkg v0.2.15
+   Compiling xxhash-rust v0.8.15
+   Compiling pkg-config v0.3.32
+    Checking arraydeque v0.5.1
+For more information about this error, try `rustc --explain E0282`.
+    Checking yaml-rust2 v0.10.4
+error: could not compile `reactive_graph` (lib) due to 9 previous errors
+warning: build failed, waiting for other jobs to finish...

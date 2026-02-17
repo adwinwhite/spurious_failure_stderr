@@ -1,0 +1,32 @@
+Running as unit: run-p782242-i782542.scope; invocation ID: 648d66242b0d44bd8cee98294ad8d03f
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded hemoglobin v0.10.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling shlex v1.3.0
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.174
+    Checking memchr v2.7.5
+    Checking cfg-if v1.0.1
+    Checking regex-syntax v0.8.5
+   Compiling serde v1.0.219
+   Compiling getrandom v0.3.3
+    Checking foldhash v0.1.5
+   Compiling cc v1.2.30
+   Compiling chumsky v0.10.1
+    Checking allocator-api2 v0.2.21
+    Checking equivalent v1.0.2
+    Checking unicode-segmentation v1.12.0
+    Checking rust-fuzzy-search v0.1.1
+    Checking aho-corasick v1.1.3
+    Checking hashbrown v0.15.4
+   Compiling quote v1.0.40
+   Compiling syn v2.0.104
+   Compiling psm v0.1.26
+   Compiling stacker v0.1.21
+    Checking regex-automata v0.4.9
+   Compiling serde_derive v1.0.219
+    Checking regex v1.11.1
+    Checking serde_regex v1.1.0
+    Checking hemoglobin v0.10.0
+    Checking hemoglobin-search v0.2.0 (/getea/tmp/crater-spurious/hemoglobin-search-0.2.0)

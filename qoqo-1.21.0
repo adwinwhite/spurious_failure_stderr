@@ -1,0 +1,24 @@
+Running as unit: run-p1301285-i1301585.scope; invocation ID: e90201cdacb948dcb6317059eaaf842e
+    Updating `tuna` index
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+error: failed to get `struqture-py` as a dependency of package `qoqo v1.21.0 (/getea/tmp/crater-spurious/qoqo-1.21.0)`
+
+Caused by:
+  failed to query replaced source registry `crates-io`
+
+Caused by:
+  download of st/ru/struqture-py failed
+
+Caused by:
+  failed to download from `https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/st/ru/struqture-py`
+
+Caused by:
+  [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)

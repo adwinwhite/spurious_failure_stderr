@@ -1,0 +1,225 @@
+    Updating `tuna` index
+     Locking 397 packages to latest Rust 1.94.0-dev compatible versions
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding libloading v0.8.9 (available: v0.9.0)
+      Adding matchit v0.8.6 (available: v0.9.1)
+      Adding redis v0.32.7 (available: v1.0.2)
+      Adding service-manager v0.8.0 (available: v0.10.0)
+ Downloading crates ...
+  Downloaded pingora-runtime v0.6.0 (registry `tuna`)
+  Downloaded daemonize v0.5.0 (registry `tuna`)
+  Downloaded serde_yaml_ng v0.10.0 (registry `tuna`)
+  Downloaded pingora-header-serde v0.6.0 (registry `tuna`)
+  Downloaded lru v0.14.0 (registry `tuna`)
+  Downloaded pingora-http v0.6.0 (registry `tuna`)
+  Downloaded openssl-probe v0.2.0 (registry `tuna`)
+  Downloaded pingora-openssl v0.6.0 (registry `tuna`)
+  Downloaded trackable v1.3.0 (registry `tuna`)
+  Downloaded tokio-test v0.4.5 (registry `tuna`)
+  Downloaded pingora-pool v0.6.0 (registry `tuna`)
+  Downloaded trackable_derive v1.0.0 (registry `tuna`)
+  Downloaded rustls-native-certs v0.8.3 (registry `tuna`)
+  Downloaded pingora-lru v0.6.0 (registry `tuna`)
+  Downloaded arc-swap v1.8.0 (registry `tuna`)
+  Downloaded thrift_codec v0.3.2 (registry `tuna`)
+  Downloaded cf-rustracing v1.2.1 (registry `tuna`)
+  Downloaded sfv v0.10.4 (registry `tuna`)
+  Downloaded rmp-serde v1.3.1 (registry `tuna`)
+  Downloaded lru v0.16.3 (registry `tuna`)
+  Downloaded tokio-openssl v0.6.5 (registry `tuna`)
+  Downloaded pingora-error v0.6.0 (registry `tuna`)
+  Downloaded neli-proc-macros v0.2.2 (registry `tuna`)
+  Downloaded hostname v0.4.2 (registry `tuna`)
+  Downloaded flatbuffers v25.12.19 (registry `tuna`)
+  Downloaded encoding-utils v0.1.0 (registry `tuna`)
+  Downloaded unicase v2.9.0 (registry `tuna`)
+  Downloaded rustls-pki-types v1.13.2 (registry `tuna`)
+  Downloaded rmp v0.8.15 (registry `tuna`)
+  Downloaded pingora-ketama v0.6.0 (registry `tuna`)
+  Downloaded pingora v0.6.0 (registry `tuna`)
+  Downloaded service-manager v0.8.0 (registry `tuna`)
+  Downloaded tokio-stream v0.1.18 (registry `tuna`)
+  Downloaded instant-acme v0.8.4 (registry `tuna`)
+  Downloaded rcgen v0.14.6 (registry `tuna`)
+  Downloaded local-ip-address v0.6.8 (registry `tuna`)
+  Downloaded pingora-timeout v0.6.0 (registry `tuna`)
+  Downloaded pingora-load-balancing v0.6.0 (registry `tuna`)
+  Downloaded yasna v0.5.2 (registry `tuna`)
+  Downloaded matchit v0.8.6 (registry `tuna`)
+  Downloaded clap v4.5.54 (registry `tuna`)
+  Downloaded pingora-cache v0.6.0 (registry `tuna`)
+  Downloaded neli v0.7.3 (registry `tuna`)
+  Downloaded clap_builder v4.5.54 (registry `tuna`)
+  Downloaded pingora-proxy v0.6.0 (registry `tuna`)
+  Downloaded cf-rustracing-jaeger v1.2.2 (registry `tuna`)
+  Downloaded pingora-core v0.6.0 (registry `tuna`)
+  Downloaded rust_decimal v1.39.0 (registry `tuna`)
+  Downloaded h2 v0.4.13 (registry `tuna`)
+  Downloaded nix v0.24.3 (registry `tuna`)
+  Downloaded x509-parser v0.18.0 (registry `tuna`)
+  Downloaded brotli-decompressor v2.5.1 (registry `tuna`)
+  Downloaded rustls v0.23.36 (registry `tuna`)
+  Downloaded libz-ng-sys v1.1.23 (registry `tuna`)
+  Downloaded brotli v3.5.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.105
+   Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.43
+   Compiling libc v0.2.180
+    Checking cfg-if v1.0.4
+   Compiling find-msvc-tools v0.1.7
+   Compiling shlex v1.3.0
+    Checking smallvec v1.15.1
+   Compiling parking_lot_core v0.9.12
+    Checking scopeguard v1.2.0
+    Checking pin-project-lite v0.2.16
+    Checking bytes v1.11.0
+    Checking once_cell v1.21.3
+    Checking lock_api v0.4.14
+    Checking memchr v2.7.6
+   Compiling autocfg v1.5.0
+    Checking itoa v1.0.17
+   Compiling serde_core v1.0.228
+   Compiling version_check v0.9.5
+    Checking equivalent v1.0.2
+    Checking allocator-api2 v0.2.21
+   Compiling serde v1.0.228
+    Checking futures-core v0.3.31
+   Compiling pkg-config v0.3.32
+    Checking foldhash v0.2.0
+    Checking futures-sink v0.3.31
+   Compiling zerocopy v0.8.33
+   Compiling syn v1.0.109
+    Checking hashbrown v0.16.1
+   Compiling syn v2.0.114
+    Checking bitflags v2.10.0
+   Compiling num-traits v0.2.19
+    Checking http v1.4.0
+   Compiling jobserver v0.1.34
+   Compiling cc v1.2.52
+    Checking indexmap v2.13.0
+    Checking errno v0.3.14
+    Checking signal-hook-registry v1.4.8
+    Checking parking_lot v0.12.5
+    Checking socket2 v0.6.1
+    Checking mio v1.1.1
+    Checking getrandom v0.2.17
+    Checking tracing-core v0.1.36
+    Checking slab v0.4.11
+    Checking log v0.4.29
+    Checking futures-channel v0.3.31
+   Compiling cmake v0.1.57
+   Compiling openssl-src v300.5.4+3.5.4
+    Checking ppv-lite86 v0.2.21
+    Checking pin-utils v0.1.0
+   Compiling getrandom v0.3.4
+   Compiling vcpkg v0.2.15
+    Checking futures-task v0.3.31
+   Compiling httparse v1.10.1
+   Compiling strsim v0.11.1
+    Checking base64 v0.22.1
+   Compiling ident_case v1.0.1
+    Checking futures-io v0.3.31
+   Compiling fnv v1.0.7
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+    Checking rand_core v0.6.4
+   Compiling fs_extra v1.3.0
+   Compiling openssl-sys v0.9.111
+    Checking subtle v2.6.1
+   Compiling typenum v1.19.0
+    Checking stable_deref_trait v1.2.1
+   Compiling dunce v1.0.5
+    Checking rand_chacha v0.3.1
+   Compiling aws-lc-sys v0.35.0
+   Compiling generic-array v0.14.7
+   Compiling proc-macro-error-attr v1.0.4
+    Checking thread_local v1.1.9
+   Compiling crossbeam-utils v0.8.21
+   Compiling thiserror v2.0.17
+   Compiling rustversion v1.0.22
+   Compiling heck v0.5.0
+    Checking atomic-waker v1.1.2
+    Checking rand v0.8.5
+   Compiling proc-macro-error v1.0.4
+   Compiling indexmap v1.9.3
+    Checking percent-encoding v2.3.2
+   Compiling crc32fast v1.5.0
+    Checking foreign-types-shared v0.1.1
+   Compiling openssl v0.10.75
+   Compiling zstd-safe v7.2.4
+    Checking foreign-types v0.3.2
+   Compiling libz-ng-sys v1.1.23
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling memoffset v0.6.5
+    Checking arrayvec v0.7.6
+    Checking foldhash v0.1.5
+    Checking lazy_static v1.5.0
+   Compiling rust_decimal v1.39.0
+   Compiling thiserror v1.0.69
+   Compiling object v0.37.3
+   Compiling tokio-openssl v0.6.5
+    Checking ryu v1.0.22
+    Checking hashbrown v0.12.3
+    Checking alloc-no-stdlib v2.0.4
+   Compiling aws-lc-rs v1.15.2
+   Compiling protobuf v2.28.0
+    Checking zeroize v1.8.2
+    Checking alloc-stdlib v0.2.2
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+   Compiling trackable_derive v1.0.0
+   Compiling proc-macro-error2 v2.0.1
+   Compiling tokio-macros v2.6.0
+   Compiling serde_derive v1.0.228
+   Compiling tracing-attributes v0.1.31
+    Checking tokio v1.49.0
+   Compiling futures-macro v0.3.31
+   Compiling zerofrom-derive v0.1.6
+    Checking tracing v0.1.44
+   Compiling yoke-derive v0.8.1
+    Checking futures-util v0.3.31
+   Compiling darling_macro v0.20.11
+   Compiling darling v0.20.11
+   Compiling thiserror-impl v2.0.17
+    Checking zerofrom v0.1.6
+   Compiling zerovec-derive v0.11.2
+    Checking yoke v0.8.1
+   Compiling derive_builder_core v0.20.2
+   Compiling displaydoc v0.2.5
+    Checking zerovec v0.11.5
+   Compiling openssl-macros v0.1.1
+   Compiling derive_builder_macro v0.20.2
+   Compiling thiserror-impl v1.0.69
+    Checking hashbrown v0.15.5
+error: failed to run custom build command for `libz-ng-sys v1.1.23`
+
+Caused by:
+  process didn't exit successfully: `/tmp/Aitthi_easy-proxy_vy_c6o43/target/debug/build/libz-ng-sys-8a1f0a6aa9a6d8a2/build-script-cmake` (exit status: 101)
+  --- stdout
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+  CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-unknown-linux-gnu = None
+  CMAKE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE = None
+  CMAKE = None
+
+  --- stderr
+  running: cd "/tmp/Aitthi_easy-proxy_vy_c6o43/target/debug/build/libz-ng-sys-027ee841113e2893/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/libz-ng-sys-1.1.23/src/zlib-ng" "-B" "/tmp/Aitthi_easy-proxy_vy_c6o43/target/debug/build/libz-ng-sys-027ee841113e2893/out/build" "-DBUILD_SHARED_LIBS=OFF" "-DZLIB_COMPAT=OFF" "-DZLIB_ENABLE_TESTS=OFF" "-DWITH_GZFILEOP=ON" "-DCMAKE_INSTALL_LIBDIR=lib" "-DCMAKE_INSTALL_PREFIX=/tmp/Aitthi_easy-proxy_vy_c6o43/target/debug/build/libz-ng-sys-027ee841113e2893/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_C_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_CXX_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/g++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_ASM_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_BUILD_TYPE=Debug"
+
+  thread 'main' (196935) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/cmake-0.1.57/src/lib.rs:1132:5:
+
+  failed to execute command: No such file or directory (os error 2)
+  is `cmake` not installed?
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

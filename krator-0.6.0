@@ -1,0 +1,83 @@
+Running as unit: run-p363414-i4557128.scope; invocation ID: 72163ae3fe6c4d37a26458542f2bb002
+   Compiling autocfg v1.0.1
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.2
+   Compiling syn v1.0.81
+   Compiling libc v0.2.108
+    Checking cfg-if v1.0.0
+   Compiling log v0.4.14
+    Checking pin-project-lite v0.2.7
+   Compiling futures-core v0.3.17
+    Checking once_cell v1.8.0
+   Compiling serde_derive v1.0.130
+    Checking itoa v0.4.8
+    Checking bytes v1.1.0
+   Compiling proc-macro-hack v0.5.19
+    Checking futures-sink v0.3.17
+   Compiling serde v1.0.130
+   Compiling futures-macro v0.3.17
+   Compiling tokio v1.14.0
+   Compiling futures-channel v0.3.17
+   Compiling futures-task v0.3.17
+   Compiling quote v1.0.10
+    Checking slab v0.4.5
+   Compiling memchr v2.4.1
+   Compiling proc-macro-nested v0.1.7
+    Checking signal-hook-registry v1.4.0
+    Checking mio v0.7.14
+   Compiling indexmap v1.7.0
+   Compiling futures-util v0.3.17
+   Compiling cc v1.0.72
+   Compiling pkg-config v0.3.22
+   Compiling num-traits v0.2.14
+    Checking pin-utils v0.1.0
+    Checking futures-io v0.3.17
+    Checking lazy_static v1.4.0
+   Compiling ryu v1.0.5
+    Checking hashbrown v0.11.2
+    Checking tracing-core v0.1.21
+   Compiling serde_json v1.0.71
+    Checking fnv v1.0.7
+   Compiling openssl-sys v0.9.71
+    Checking http v0.2.5
+   Compiling num-integer v0.1.44
+   Compiling httparse v1.5.1
+    Checking tower-service v0.3.1
+    Checking foreign-types-shared v0.1.1
+   Compiling openssl v0.10.38
+    Checking foreign-types v0.3.2
+   Compiling native-tls v0.2.8
+    Checking try-lock v0.2.3
+    Checking bitflags v1.3.2
+    Checking base64 v0.13.0
+    Checking want v0.3.0
+    Checking ordered-float v2.8.0
+    Checking socket2 v0.4.2
+    Checking time v0.1.44
+   Compiling k8s-openapi v0.13.1
+    Checking openssl-probe v0.1.4
+    Checking httpdate v1.0.2
+    Checking linked-hash-map v0.5.4
+    Checking regex-syntax v0.6.25
+    Checking percent-encoding v2.1.0
+error: failed to run custom build command for `k8s-openapi v0.13.1`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/krator-0.6.0/target/debug/build/k8s-openapi-661d5ff6711d65d2/build-script-build` (exit status: 101)
+  --- stderr
+
+  thread 'main' (364664) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.13.1/build.rs:9:42:
+
+  None of the v1_* features are enabled on the k8s-openapi crate.
+
+  The k8s-openapi crate requires a feature to be enabled to indicate which version of Kubernetes it should support.
+
+  If you're using k8s-openapi in a binary crate, enable the feature corresponding to the minimum version of API server that you want to support. It may be possible that your binary crate does not directly depend on k8s-openapi. In this case, add a dependency on k8s-openapi, then enable the corresponding feature.
+
+  If you're using k8s-openapi in a library crate, add a dev-dependency on k8s-openapi and enable one of the features there. This way the feature will be enabled when buildings tests and examples of your library, but not when building the library itself. It may be possible that your library crate does not directly depend on k8s-openapi. In this case, add a dev-dependency on k8s-openapi, then enable the corresponding feature.
+
+  Library crates *must not* enable any features in their direct dependency on k8s-openapi, only in their dev-dependency. The choice of Kubernetes version to support should be left to the final binary crate, so only the binary crate should enable a specific feature. If library crates also enable features, it can cause multiple features to be enabled simultaneously, which k8s-openapi does not support.
+
+  If you want to restrict your library crate to support only a single specific version or range of versions of Kubernetes, please use the k8s_* version-specific macros to emit different code based on which feature gets enabled in the end.
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,356 @@
+Running as unit: run-p1572490-i14152598.scope; invocation ID: 5745709eaf47499fa912925bf3deb73f
+   Compiling proc-macro2 v1.0.103
+   Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.42
+   Compiling libc v0.2.177
+   Compiling autocfg v1.5.0
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+    Checking cfg-if v1.0.4
+   Compiling shlex v1.3.0
+   Compiling find-msvc-tools v0.1.4
+   Compiling num-traits v0.2.19
+   Compiling zerocopy v0.8.27
+   Compiling syn v2.0.109
+   Compiling memchr v2.7.6
+   Compiling jobserver v0.1.34
+   Compiling crossbeam-utils v0.8.21
+   Compiling cc v1.2.45
+    Checking smallvec v1.15.1
+    Checking stable_deref_trait v1.2.1
+    Checking crossbeam-epoch v0.9.18
+   Compiling rayon-core v1.13.0
+    Checking crossbeam-deque v0.8.6
+    Checking num-integer v0.1.46
+    Checking getrandom v0.2.16
+    Checking either v1.15.0
+    Checking rand_core v0.6.4
+   Compiling cmake v0.1.54
+    Checking ppv-lite86 v0.2.21
+    Checking rayon v1.11.0
+   Compiling version_check v0.9.5
+    Checking rand_chacha v0.3.1
+   Compiling fs_extra v1.3.0
+    Checking allocator-api2 v0.2.21
+    Checking rand v0.8.5
+    Checking foldhash v0.2.0
+    Checking writeable v0.6.2
+    Checking equivalent v1.0.2
+    Checking litemap v0.8.1
+   Compiling getrandom v0.3.4
+   Compiling dunce v1.0.5
+   Compiling aws-lc-sys v0.32.3
+    Checking hashbrown v0.16.0
+   Compiling aho-corasick v1.1.4
+   Compiling icu_normalizer_data v2.1.1
+   Compiling regex-syntax v0.8.8
+   Compiling icu_properties_data v2.1.1
+    Checking itoa v1.0.15
+   Compiling thiserror v2.0.17
+   Compiling indexmap v2.12.0
+   Compiling hdf5-metno-src v0.9.4
+    Checking fnv v1.0.7
+   Compiling parking_lot_core v0.9.12
+    Checking zeroize v1.8.2
+   Compiling unicase v2.8.1
+   Compiling synstructure v0.13.2
+   Compiling regex-automata v0.4.13
+    Checking winnow v0.7.13
+   Compiling mime_guess v2.0.5
+   Compiling libloading v0.8.9
+   Compiling serde_derive v1.0.228
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling zerovec-derive v0.11.2
+    Checking zerofrom v0.1.6
+   Compiling displaydoc v0.2.5
+    Checking yoke v0.8.1
+   Compiling thiserror-impl v2.0.17
+    Checking zerotrie v0.2.3
+    Checking zerovec v0.11.5
+   Compiling regex v1.12.2
+    Checking tinystr v0.8.2
+    Checking icu_locale_core v2.1.1
+    Checking potential_utf v0.1.4
+    Checking icu_collections v2.1.1
+    Checking icu_provider v2.1.1
+   Compiling matrixmultiply v0.3.10
+   Compiling libm v0.2.15
+   Compiling aws-lc-rs v1.14.1
+    Checking scopeguard v1.2.0
+    Checking num-complex v0.4.6
+   Compiling minimal-lexical v0.2.1
+   Compiling typeid v1.0.3
+   Compiling pkg-config v0.3.32
+    Checking once_cell v1.21.3
+   Compiling nom v7.1.3
+    Checking lock_api v0.4.14
+    Checking log v0.4.28
+    Checking icu_normalizer v2.1.1
+    Checking icu_properties v2.1.1
+   Compiling hdf5-metno-sys v0.10.1
+    Checking rustls-pki-types v1.13.0
+    Checking approx v0.5.1
+   Compiling serde_json v1.0.145
+   Compiling erased-serde v0.4.9
+   Compiling strsim v0.11.1
+   Compiling ident_case v1.0.1
+    Checking rawpointer v0.2.1
+   Compiling mime v0.3.17
+    Checking percent-encoding v2.3.2
+    Checking ryu v1.0.20
+   Compiling darling_core v0.20.11
+    Checking idna_adapter v1.2.1
+   Compiling basic-toml v0.1.10
+   Compiling askama_parser v0.2.1
+    Checking parking_lot v0.12.5
+    Checking serde_spanned v0.6.9
+    Checking toml_datetime v0.6.11
+    Checking rand_core v0.9.3
+   Compiling proc-macro-error-attr v1.0.4
+    Checking ordered-float v2.10.1
+   Compiling num-bigint v0.2.6
+    Checking futures-sink v0.3.31
+    Checking bitflags v2.10.0
+    Checking utf8_iter v1.0.4
+    Checking futures-core v0.3.31
+    Checking toml_write v0.1.2
+   Compiling rustix v1.1.2
+   Compiling httparse v1.10.1
+   Compiling syn v1.0.109
+   Compiling paste v1.0.15
+    Checking bytes v1.10.1
+   Compiling crc32fast v1.5.0
+   Compiling darling_macro v0.20.11
+    Checking http v1.3.1
+    Checking toml_edit v0.22.27
+    Checking futures-channel v0.3.31
+    Checking idna v1.1.0
+    Checking serde-value v0.7.0
+   Compiling humansize v2.1.3
+   Compiling askama_derive v0.12.5
+   Compiling toml_parser v1.0.4
+    Checking form_urlencoded v1.2.2
+    Checking num-bigint v0.4.6
+   Compiling proc-macro-error v1.0.4
+    Checking semver v1.0.27
+    Checking num-iter v0.1.45
+   Compiling csv-core v0.1.13
+   Compiling num-complex v0.2.4
+   Compiling num-rational v0.2.4
+   Compiling winnow v0.5.40
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+   Compiling toml_datetime v0.7.3
+   Compiling camino v1.2.1
+    Checking pin-project-lite v0.2.16
+   Compiling siphasher v1.0.1
+   Compiling rustls v0.23.35
+    Checking simd-adler32 v0.3.7
+    Checking linux-raw-sys v0.11.0
+   Compiling askama_escape v0.10.3
+    Checking utf8parse v0.2.2
+    Checking slab v0.4.11
+    Checking futures-io v0.3.31
+    Checking untrusted v0.9.0
+    Checking adler2 v2.0.1
+    Checking bytemuck v1.24.0
+    Checking miniz_oxide v0.8.9
+    Checking safe_arch v0.7.4
+    Checking futures-util v0.3.31
+    Checking anstyle-parse v0.2.7
+   Compiling askama v0.12.1
+   Compiling csv v1.4.0
+   Compiling toml_edit v0.19.15
+   Compiling phf_shared v0.13.1
+   Compiling toml_edit v0.23.7
+    Checking num-rational v0.4.2
+    Checking url v2.5.7
+    Checking toml v0.8.23
+    Checking serde-untagged v0.1.9
+   Compiling darling v0.20.11
+    Checking rand_chacha v0.9.0
+    Checking ndarray v0.17.1
+   Compiling proc-macro2-diagnostics v0.10.1
+    Checking serde_spanned v1.0.3
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling typenum v1.19.0
+    Checking destructure_traitobject v0.2.0
+   Compiling heck v0.5.0
+    Checking base64 v0.22.1
+    Checking subtle v2.6.1
+   Compiling radium v0.7.0
+    Checking anstyle v1.0.13
+    Checking unicode-xid v0.2.6
+    Checking fastrand v2.3.0
+    Checking is_terminal_polyfill v1.70.2
+    Checking hamming v0.1.3
+    Checking anstyle-query v1.1.4
+    Checking colorchoice v1.0.4
+   Compiling hdf5-metno-types v0.10.1
+   Compiling anyhow v1.0.100
+    Checking primal-bit v0.3.2
+    Checking anstream v0.6.21
+   Compiling derive_more-impl v2.0.1
+    Checking tempfile v3.23.0
+   Compiling proc-macro-crate v1.3.1
+   Compiling phf_generator v0.13.1
+    Checking cargo-util-schemas v0.8.2
+    Checking ureq-proto v0.5.2
+    Checking unsafe-any-ors v1.0.0
+   Compiling proc-macro-error2 v2.0.1
+    Checking toml v0.9.8
+    Checking rand v0.9.2
+    Checking flate2 v1.1.5
+   Compiling derive_builder_core v0.20.2
+    Checking futures-executor v0.3.31
+   Compiling proc-macro-crate v3.4.0
+   Compiling periodic_table v0.5.0
+    Checking wide v0.7.33
+    Checking webpki-roots v1.0.4
+    Checking rustls-pemfile v2.2.0
+    Checking cauchy v0.4.0
+    Checking hex v0.4.3
+    Checking cargo-platform v0.3.1
+   Compiling katexit v0.1.5
+    Checking smol_str v0.3.4
+    Checking wait-timeout v0.2.1
+    Checking is-terminal v0.4.17
+    Checking lapack-sys v0.15.0
+    Checking unsafe-libyaml v0.2.11
+    Checking primal-estimate v0.3.3
+    Checking iana-time-zone v0.1.64
+    Checking rustc-hash v2.1.1
+    Checking quick-error v1.2.3
+    Checking home v0.5.12
+    Checking sdd v3.0.10
+    Checking ascii v1.1.0
+    Checking lazy_static v1.5.0
+    Checking utf-8 v0.7.6
+    Checking unicode-width v0.2.2
+   Compiling xflags-macros v0.3.2
+   Compiling virtue v0.0.18
+    Checking bit-vec v0.8.0
+    Checking rustc-stable-hash v0.1.2
+    Checking tap v1.0.1
+   Compiling hdf5-metno v0.10.2
+    Checking clap_lex v0.7.6
+    Checking clap_builder v4.5.51
+    Checking wyz v0.5.1
+    Checking bit-set v0.8.0
+    Checking crates-index v3.11.0
+   Compiling bincode_derive v2.0.1
+    Checking xflags v0.3.2
+    Checking simba v0.9.1
+    Checking tabwriter v1.4.1
+    Checking serde_yaml v0.9.34+deprecated
+    Checking scc v2.4.0
+    Checking rusty-fork v0.3.1
+    Checking lax v0.18.0
+    Checking chrono v0.4.42
+    Checking primal-sieve v0.3.7
+    Checking yansi v1.0.1
+    Checking cargo_metadata v0.22.0
+   Compiling hdf5-metno-derive v0.9.2
+    Checking num v0.2.1
+   Compiling derive_builder_macro v0.20.2
+    Checking futures v0.3.31
+   Compiling mark-flaky-tests-macro v1.0.2
+    Checking derive_more v2.0.1
+    Checking typemap-ors v1.0.0
+   Compiling phf_macros v0.13.1
+   Compiling clap_derive v4.5.49
+    Checking num v0.4.3
+    Checking rand_xorshift v0.4.0
+   Compiling nalgebra-macros v0.3.0
+   Compiling serial_test_derive v3.2.0
+    Checking thread-id v5.0.0
+    Checking funty v2.0.0
+    Checking unty v0.0.4
+    Checking quick-error v2.0.1
+    Checking unarray v0.1.4
+    Checking mock_instant v0.6.0
+    Checking unicode-segmentation v1.12.0
+    Checking humantime v2.3.0
+    Checking arc-swap v1.7.1
+    Checking log-mdc v0.1.0
+    Checking proptest v1.9.0
+    Checking bitvec v1.0.1
+    Checking log4rs v1.4.0
+    Checking clap v4.5.51
+    Checking nalgebra v0.34.1
+    Checking bincode v2.0.1
+    Checking serial_test v3.2.0
+    Checking phf v0.13.1
+    Checking fraction v0.15.3
+   Compiling duplicate v2.0.1
+    Checking mark-flaky-tests v1.0.2
+    Checking ndarray-einsum v0.9.0
+    Checking derive_builder v0.20.2
+    Checking divisors v0.2.1
+    Checking factorial v0.4.0
+    Checking ndarray-linalg v0.18.0
+    Checking itertools v0.14.0
+    Checking counter v0.7.0
+    Checking ordered-float v5.1.0
+    Checking num-modular v0.6.1
+    Checking numeric-sort v0.1.5
+    Checking byteorder v1.5.0
+    Checking primes v0.4.0
+    Checking num-ord v0.1.0
+    Checking rustls-webpki v0.103.8
+    Checking ureq v3.1.2
+    Checking cargo-upgrades v2.2.4
+    Checking qsym2 v0.13.0 (/tmp/nix-shell.uUVugk/bangconghuynh_qsym2_lbw4z47h)
+warning: unused macro definition: `count_exprs`
+   --> src/lib.rs:128:14
+    |
+128 | macro_rules! count_exprs {
+    |              ^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_macros)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused macro definition: `replace_expr`
+   --> src/lib.rs:134:14
+    |
+134 | macro_rules! replace_expr {
+    |              ^^^^^^^^^^^^
+
+warning: unused macro definition: `qsym2_error`
+  --> src/io/format.rs:10:14
+   |
+10 | macro_rules! qsym2_error {
+   |              ^^^^^^^^^^^
+
+warning: unused import: `qsym2_error`
+  --> src/io/format.rs:27:17
+   |
+27 | pub(crate) use {qsym2_error, qsym2_output, qsym2_warn};
+   |                 ^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+error[E0271]: type mismatch resolving `<... as CharacterProperties>::RowSymbol == ...`
+   --> src/chartab/chartab_group.rs:868:61
+    |
+868 |                         acc + unitary_chartab.get_character(irrep, uni_cc)
+    |                                                             ^^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/bangconghuynh_qsym2_lbw4z47h/target/debug/deps/qsym2-8ff1dd64c0c5e7a5.long-type-8288933963303590197.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<G as CharacterProperties>::RowSymbol == &<G as CharacterProperties>::RowSymbol`
+    --> src/symmetry/symmetry_symbols.rs:1454:73
+     |
+1454 |                     let id_char = group.character_table().get_character(irrep, &id_cc);
+     |                                                                         ^^^^^ types differ
+
+error[E0271]: type mismatch resolving `<G as CharacterProperties>::RowSymbol == &<G as CharacterProperties>::RowSymbol`
+    --> src/symmetry/symmetry_symbols.rs:1455:70
+     |
+1455 |                     let char = group.character_table().get_character(irrep, sigma_cc);
+     |                                                                      ^^^^^ types differ
+
+For more information about this error, try `rustc --explain E0271`.
+warning: `qsym2` (lib) generated 4 warnings
+error: could not compile `qsym2` (lib) due to 3 previous errors; 4 warnings emitted

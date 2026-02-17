@@ -1,0 +1,97 @@
+Running as unit: run-p2265769-i14845877.scope; invocation ID: 828568ecd0974e07a2add0df7c78c12b
+   Compiling proc-macro2 v1.0.94
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.171
+   Compiling anyhow v1.0.97
+   Compiling hashbrown v0.15.2
+   Compiling equivalent v1.0.2
+   Compiling either v1.15.0
+   Compiling heck v0.5.0
+   Compiling itertools v0.13.0
+   Compiling getrandom v0.3.2
+   Compiling rustix v1.0.5
+   Compiling bytes v1.10.1
+   Compiling indexmap v2.8.0
+   Compiling quote v1.0.40
+   Compiling linux-raw-sys v0.9.3
+   Compiling syn v2.0.100
+   Compiling cfg-if v1.0.0
+   Compiling bitflags v2.9.0
+   Compiling regex-syntax v0.8.5
+   Compiling serde v1.0.219
+   Compiling prettyplease v0.2.31
+   Compiling fixedbitset v0.4.2
+   Compiling log v0.4.27
+   Compiling once_cell v1.21.3
+   Compiling fastrand v2.3.0
+   Compiling petgraph v0.6.5
+   Compiling multimap v0.10.0
+   Compiling jobserver v0.1.33
+   Compiling shlex v1.3.0
+    Checking memchr v2.7.4
+   Compiling regex-automata v0.4.9
+   Compiling tempfile v3.19.1
+   Compiling cc v1.2.17
+    Checking itoa v1.0.15
+    Checking ryu v1.0.20
+   Compiling pkg-config v0.3.32
+    Checking base64 v0.21.7
+   Compiling serde_json v1.0.140
+   Compiling autocfg v1.4.0
+    Checking utf8parse v0.2.2
+   Compiling syn v1.0.109
+   Compiling num-traits v0.2.19
+    Checking adler2 v2.0.0
+    Checking miniz_oxide v0.8.7
+    Checking crc32fast v1.4.2
+    Checking anstyle-parse v0.2.6
+    Checking colorchoice v1.0.3
+    Checking anstyle-query v1.1.2
+   Compiling regex v1.11.1
+    Checking anstyle v1.0.10
+    Checking is_terminal_polyfill v1.70.1
+    Checking anstream v0.6.18
+    Checking flate2 v1.1.1
+   Compiling liblzma-sys v0.3.13
+    Checking csv-core v0.1.12
+    Checking percent-encoding v2.3.1
+    Checking clap_lex v0.7.4
+    Checking xml-rs v0.8.25
+    Checking strsim v0.11.1
+    Checking iana-time-zone v0.1.63
+    Checking yaserde v0.11.2
+    Checking chrono v0.4.40
+    Checking clap_builder v4.5.35
+    Checking url-escape v0.1.1
+    Checking base64 v0.22.1
+   Compiling prost-derive v0.13.4 (https://github.com/koxx12-dev/prost.git?branch=latest-stable#985a6f8e)
+   Compiling serde_derive v1.0.219
+   Compiling clap_derive v4.5.32
+   Compiling yaserde_derive v0.11.2
+   Compiling prost v0.13.4 (https://github.com/koxx12-dev/prost.git?branch=latest-stable#985a6f8e)
+   Compiling prost-types v0.13.4 (https://github.com/koxx12-dev/prost.git?branch=latest-stable#985a6f8e)
+    Checking clap v4.5.35
+   Compiling pbjson-build v0.7.0
+   Compiling prost-build v0.13.4 (https://github.com/koxx12-dev/prost.git?branch=latest-stable#985a6f8e)
+   Compiling epic_locale v0.1.0 (/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_locale)
+   Compiling epic_balance v0.1.0 (/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_balance)
+   Compiling epic_prefs v0.1.0 (/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_prefs)
+error: failed to run custom build command for `epic_balance v0.1.0 (/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_balance)`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/target/debug/build/epic_balance-008d286b17e98e68/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_balance/proto/balancing.proto
+
+  --- stderr
+  Error: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on Debian, run `apt-get install protobuf-compiler`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
+warning: build failed, waiting for other jobs to finish...
+error: failed to run custom build command for `epic_locale v0.1.0 (/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_locale)`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/target/debug/build/epic_locale-5cc1e27d6a62006b/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=/tmp/nix-shell.uUVugk/koxx12-dev_abe-tools_mij37v73/libs/epic_locale/proto/locale.proto
+
+  --- stderr
+  Error: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on Debian, run `apt-get install protobuf-compiler`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }

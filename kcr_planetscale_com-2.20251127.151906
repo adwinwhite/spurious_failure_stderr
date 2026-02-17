@@ -1,0 +1,51 @@
+Running as unit: run-p384469-i4578183.scope; invocation ID: 9ef0b00f8c2f4d928305e620a9909dd8
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.42
+   Compiling unicode-ident v1.0.22
+   Compiling serde_core v1.0.228
+   Compiling autocfg v1.5.0
+   Compiling serde v1.0.228
+   Compiling serde_json v1.0.145
+    Checking itoa v1.0.15
+    Checking ryu v1.0.20
+   Compiling strsim v0.11.1
+   Compiling fnv v1.0.7
+   Compiling num-traits v0.2.19
+   Compiling ref-cast v1.0.25
+   Compiling ident_case v1.0.1
+    Checking memchr v2.7.6
+   Compiling thiserror v2.0.17
+   Compiling k8s-openapi v0.26.0
+   Compiling syn v2.0.111
+    Checking ordered-float v2.10.1
+error: failed to run custom build command for `k8s-openapi v0.26.0`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/kcr_planetscale_com-2.20251127.151906/target/debug/build/k8s-openapi-b1cc747713138067/build-script-build` (exit status: 101)
+  --- stdout
+  cargo::rerun-if-env-changed=K8S_OPENAPI_ENABLED_VERSION
+
+  --- stderr
+
+  thread 'main' (384994) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.26.0/build.rs:17:42:
+
+  None of the v1_* features are enabled on the k8s-openapi crate.
+
+  The k8s-openapi crate requires a feature to be enabled to indicate which version of Kubernetes it should support.
+
+  If you're using k8s-openapi in a binary crate, enable the feature corresponding to the minimum version of API server that you want to support. In case your binary crate does not directly depend on k8s-openapi, add a dependency on k8s-openapi and enable the corresponding feature in it.
+
+  If you're using k8s-openapi in a library crate, add a dev-dependency on k8s-openapi and enable one of the features there. This way the feature will be enabled when buildings tests and examples of your library, but not when building the library itself. In case your library crate does not directly depend on k8s-openapi, add a dev-dependency on k8s-openapi and enable the corresponding feature in it.
+
+  Alternatively, when running commands that do not build dev dependencies such as `cargo check` and `cargo doc`, you can set the `K8S_OPENAPI_ENABLED_VERSION` environment variable, such as `K8S_OPENAPI_ENABLED_VERSION=1.50`.
+
+  Library crates *must not* enable any features in their direct dependency on k8s-openapi, only in their dev-dependency. The choice of which Kubernetes version to support should be left to the final binary crate, so only binary crates should enable a specific feature. If library crates also enabled features, it could cause multiple features to be enabled simultaneously, which k8s-openapi does not support.
+
+  If your library crate only supports a single specific version or a specific range of versions of Kubernetes, please use the `k8s_if_*` version-specific macros or a build script to emit different code based on which feature gets enabled in the end.
+
+  If you believe you *have* enabled a version feature and should not be seeing this error, check your Cargo.lock or run `cargo tree -i k8s-openapi` to ensure that this version of k8s-openapi is the only one being used in your project.
+
+  See the k8s-openapi docs for more details.
+          
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

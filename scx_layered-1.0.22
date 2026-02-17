@@ -1,0 +1,214 @@
+Running as unit: run-p3033710-i3034010.scope; invocation ID: 8982680247ae47f4934c3aa3ee5afb5d
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded fb_procfs v0.7.1 (registry `tuna`)
+  Downloaded scx_bpf_compat v1.0.19 (registry `tuna`)
+  Downloaded openat v0.1.21 (registry `tuna`)
+  Downloaded procfs v0.15.1 (registry `tuna`)
+  Downloaded scx_raw_pmu v0.1.3 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling libc v0.2.175
+   Compiling unicode-ident v1.0.18
+   Compiling autocfg v1.5.0
+   Compiling cfg-if v1.0.1
+   Compiling rustix v1.0.8
+   Compiling bitflags v2.9.1
+   Compiling cfg_aliases v0.2.1
+   Compiling shlex v1.3.0
+   Compiling memchr v2.7.5
+   Compiling serde_core v1.0.228
+   Compiling cc v1.2.29
+   Compiling serde_json v1.0.145
+   Compiling serde v1.0.228
+   Compiling num-traits v0.2.19
+   Compiling nix v0.30.1
+   Compiling linux-raw-sys v0.9.4
+   Compiling quote v1.0.40
+   Compiling syn v2.0.104
+   Compiling getrandom v0.3.3
+   Compiling camino v1.1.10
+   Compiling anyhow v1.0.98
+   Compiling crossbeam-utils v0.8.21
+   Compiling semver v1.0.26
+   Compiling itoa v1.0.15
+   Compiling strsim v0.11.1
+   Compiling pkg-config v0.3.32
+   Compiling once_cell v1.21.3
+   Compiling vsprintf v2.0.0
+   Compiling ryu v1.0.20
+   Compiling thiserror v2.0.12
+   Compiling glob v0.3.2
+   Compiling prettyplease v0.2.35
+   Compiling log v0.4.27
+   Compiling aho-corasick v1.1.3
+   Compiling clang-sys v1.8.1
+   Compiling unicode-xid v0.2.6
+   Compiling heck v0.5.0
+   Compiling regex-syntax v0.8.5
+   Compiling utf8parse v0.2.2
+   Compiling const_format_proc_macros v0.2.34
+   Compiling anstyle-parse v0.2.7
+   Compiling libbpf-sys v1.6.1+v1.6.1
+   Compiling tracing-core v0.1.34
+error: failed to run custom build command for `libbpf-sys v1.6.1+v1.6.1`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fadc3015af064f39/build-script-build` (exit status: 101)
+  --- stdout
+  Using feature vendored-libbpf=true
+  Using feature vendored-libelf=false
+  Using feature vendored-zlib=false
+  Using feature static-libbpf=true
+  Using feature static-libelf=false
+  Using feature static-zlib=false
+  OPT_LEVEL = Some(0)
+  OUT_DIR = Some(/getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out)
+  TARGET = Some(x86_64-unknown-linux-gnu)
+  HOST = Some(x86_64-unknown-linux-gnu)
+  cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+  CC_x86_64-unknown-linux-gnu = None
+  cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+  CC_x86_64_unknown_linux_gnu = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = Some(gcc)
+  cargo:rerun-if-env-changed=CC_KNOWN_WRAPPER_CUSTOM
+  CC_KNOWN_WRAPPER_CUSTOM = None
+  RUSTC_WRAPPER = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  DEBUG = Some(false)
+  CARGO_CFG_TARGET_FEATURE = Some(fxsr,sse,sse2,x87)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+  CFLAGS_x86_64_unknown_linux_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+  CFLAGS_x86_64-unknown-linux-gnu = None
+  CARGO_ENCODED_RUSTFLAGS = Some(-Znext-solver)
+  cargo:rerun-if-env-changed=LIBBPF_SYS_EXTRA_CFLAGS
+    INSTALL  bpf.h libbpf.h btf.h libbpf_common.h libbpf_legacy.h bpf_helpers.h bpf_helper_defs.h bpf_tracing.h bpf_endian.h bpf_core_read.h skel_internal.h libbpf_version.h usdt.bpf.h
+    MKDIR    /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/bpf.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf_errno.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/btf.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/nlattr.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/netlink.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf_probes.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/str_error.o
+    CC       /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/bpf_prog_linfo.o
+
+  --- stderr
+  Package libelf was not found in the pkg-config search path.
+  Perhaps you should add the directory containing `libelf.pc'
+  to the PKG_CONFIG_PATH environment variable
+  No package 'libelf' found
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/stdio.h:28,
+                   from libbpf_errno.c:11:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/errno.h:25,
+                   from nlattr.c:9:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/byteswap.h:22,
+                   from btf.c:4:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/stdlib.h:26,
+                   from libbpf.c:16:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/stdlib.h:26,
+                   from bpf.c:24:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/string.h:26,
+                   from str_error.c:3:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/stdlib.h:26,
+                   from netlink.c:4:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/errno.h:25,
+                   from libbpf_probes.c:4:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  cc1: note: unrecognized command-line option ‘-Wno-unknown-warning-option’ may have been intended to silence earlier diagnostics
+  In file included from nlattr.c:14:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:136: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/nlattr.o] Error 1
+  make: *** Waiting for unfinished jobs....
+  In file included from libbpf_errno.c:15:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf_errno.o] Error 1
+  In file included from bpf.c:37:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/bpf.o] Error 1
+  btf.c:19:10: fatal error: gelf.h: No such file or directory
+     19 | #include <gelf.h>
+        |          ^~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/btf.o] Error 1
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/string.h:26,
+                   from bpf_prog_linfo.c:4:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  libbpf.c:46:10: fatal error: libelf.h: No such file or directory
+     46 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf.o] Error 1
+  In file included from libbpf_probes.c:19:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/libbpf_probes.o] Error 1
+  In file included from netlink.c:19:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/netlink.o] Error 1
+  In file included from bpf_prog_linfo.c:9:
+  libbpf_internal.h:20:10: fatal error: libelf.h: No such file or directory
+     20 | #include <libelf.h>
+        |          ^~~~~~~~~~
+  compilation terminated.
+  make: *** [Makefile:137: /getea/tmp/crater-spurious/scx_layered-1.0.22/target/debug/build/libbpf-sys-fa87a7da9518fa92/out/obj/staticobjs/bpf_prog_linfo.o] Error 1
+
+  thread 'main' (3034827) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/libbpf-sys-1.6.1+v1.6.1/build.rs:407:5:
+  make failed
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

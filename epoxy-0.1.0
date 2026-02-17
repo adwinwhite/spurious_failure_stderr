@@ -1,0 +1,205 @@
+Running as unit: run-p483443-i483743.scope; invocation ID: 57784db48acb454aaaa5883bde9afea0
+warning: no edition set: defaulting to the 2015 edition while the latest is 2024
+    Updating `tuna` index
+     Locking 9 packages to latest compatible versions
+      Adding gl_generator v0.9.0 (available: v0.14.0)
+   Compiling khronos_api v2.2.0
+   Compiling bitflags v1.3.2
+   Compiling log v0.4.29
+   Compiling libc v0.2.182
+   Compiling pkg-config v0.3.32
+    Checking lazy_static v1.5.0
+   Compiling xml-rs v0.7.0
+   Compiling gl_generator v0.9.0
+   Compiling epoxy v0.1.0 (/getea/tmp/crater-spurious/epoxy-0.1.0)
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:27:9
+   |
+27 |         try!(write_header(dest));
+   |         ^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:28:9
+   |
+28 |         try!(write_metaloadfn(dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:29:9
+   |
+29 |         try!(write_type_aliases(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:30:9
+   |
+30 |         try!(write_enums(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:31:9
+   |
+31 |         try!(write_fns(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:32:9
+   |
+32 |         try!(write_fnptr_struct_def(dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:33:9
+   |
+33 |         try!(write_ptrs(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:34:9
+   |
+34 |         try!(write_fn_mods(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:35:9
+   |
+35 |         try!(write_error_fns(dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:36:9
+   |
+36 |         try!(write_load_fn(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:37:9
+   |
+37 |         try!(write_get_proc_addr(registry, dest));
+   |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:84:5
+   |
+84 |     try!(writeln!(dest,
+   |     ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+  --> build/epoxy_gen.rs:90:5
+   |
+90 |     try!(gen_types(registry.api, dest));
+   |     ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:103:9
+    |
+103 |         try!(gen_enum_item(enm, "types::", dest));
+    |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:119:9
+    |
+119 |         try!(writeln!(dest, r#"
+    |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:116:13
+    |
+116 |             try!(writeln!(dest, "/// Fallbacks: {}", v.join(", ")));
+    |             ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:176:5
+    |
+176 |     try!(writeln!(dest,
+    |     ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:183:9
+    |
+183 |         try!(writeln!(dest,
+    |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:213:9
+    |
+213 |         try!(writeln!(dest, r#"
+    |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:257:5
+    |
+257 |     try!(writeln!(dest, r#"
+    |     ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:263:9
+    |
+263 |         try!(writeln!(dest, "{name}::load_with(|s| loadfn(s));",
+    |         ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:276:5
+    |
+276 |     try!(writeln!(dest, r#"
+    |     ^^^
+
+warning: use of deprecated macro `try`: use the `?` operator instead
+   --> build/epoxy_gen.rs:283:9
+    |
+283 |         try!(writeln!(dest, r#"
+    |         ^^^
+
+    Checking shared_library v0.1.9
+warning: `epoxy` (build script) generated 23 warnings
+error: failed to run custom build command for `epoxy v0.1.0 (/getea/tmp/crater-spurious/epoxy-0.1.0)`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/epoxy-0.1.0/target/debug/build/epoxy-db3cb46522f1c348/build-script-main` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=EPOXY_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=EPOXY_STATIC
+  cargo:rerun-if-env-changed=EPOXY_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  thread 'main' (483755) panicked at build/main.rs:24:54:
+  called `Result::unwrap()` on an `Err` value: 
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags epoxy
+
+  The system library `epoxy` required by crate `epoxy` was not found.
+  The file `epoxy.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+
+  HINT: you may need to install a package such as epoxy, epoxy-dev or epoxy-devel.
+
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

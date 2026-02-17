@@ -1,0 +1,108 @@
+Running as unit: run-p1695928-i14276036.scope; invocation ID: 4428c7fc942647f5b8131cb040894339
+   Compiling proc-macro2 v1.0.86
+   Compiling unicode-ident v1.0.13
+   Compiling libc v0.2.159
+   Compiling godot-bindings v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+   Compiling regex-syntax v0.8.4
+   Compiling gdextension-api v0.2.0 (https://github.com/godot-rust/godot4-prebuilt?branch=releases#6d902e8a)
+   Compiling serde v1.0.210
+   Compiling heck v0.5.0
+   Compiling thiserror v1.0.64
+   Compiling crossbeam-utils v0.8.20
+   Compiling lazy_static v1.5.0
+    Checking memchr v2.7.4
+   Compiling nanoserde-derive v0.1.22
+   Compiling quote v1.0.37
+   Compiling syn v2.0.79
+   Compiling anyhow v1.0.89
+    Checking cfg-if v1.0.0
+   Compiling semver v1.0.23
+    Checking hashbrown v0.14.5
+   Compiling shlex v1.3.0
+   Compiling ucd-trie v0.1.6
+   Compiling godot-codegen v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+   Compiling nanoserde v0.1.37
+    Checking equivalent v1.0.1
+   Compiling regex-automata v0.4.7
+   Compiling pkg-config v0.3.31
+   Compiling cc v1.1.22
+   Compiling alsa-sys v0.3.1
+    Checking crossbeam-epoch v0.9.18
+    Checking log v0.4.22
+   Compiling once_cell v1.19.0
+   Compiling beef v0.5.2
+    Checking utf8parse v0.2.2
+   Compiling paste v1.0.15
+   Compiling regex-lite v0.1.6
+   Compiling fnv v1.0.7
+    Checking anstyle-parse v0.2.5
+    Checking crossbeam-deque v0.8.5
+    Checking aho-corasick v1.1.3
+    Checking anstyle v1.0.8
+   Compiling serde_json v1.0.128
+   Compiling regex v1.10.6
+    Checking anstyle-query v1.1.1
+    Checking byteorder v1.5.0
+    Checking winnow v0.6.20
+    Checking colorchoice v1.0.2
+   Compiling llvm-sys v170.2.0
+    Checking is_terminal_polyfill v1.70.1
+   Compiling rayon-core v1.12.1
+    Checking anstream v0.6.15
+   Compiling godot-macros v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+    Checking getrandom v0.2.15
+    Checking itoa v1.0.11
+    Checking fixedbitset v0.4.2
+    Checking bitflags v2.6.0
+    Checking ryu v1.0.18
+    Checking either v1.13.0
+   Compiling logos-codegen v0.14.2
+    Checking alsa v0.9.1
+    Checking rand_core v0.6.4
+   Compiling venial v0.6.0
+   Compiling inkwell v0.5.0
+    Checking strsim v0.11.1
+   Compiling serde_derive v1.0.210
+   Compiling thiserror-impl v1.0.64
+   Compiling godot-ffi v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+   Compiling zerocopy-derive v0.7.35
+   Compiling logos-derive v0.14.2
+   Compiling godot-core v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+    Checking logos v0.14.2
+   Compiling cpal v0.15.3
+    Checking godot-cell v0.1.3 (https://github.com/godot-rust/gdext#8ad9cb0e)
+    Checking clap_lex v0.7.2
+    Checking glam v0.28.0
+    Checking zerocopy v0.7.35
+   Compiling pest v2.7.13
+   Compiling pest_meta v2.7.13
+    Checking ppv-lite86 v0.2.20
+    Checking rand_chacha v0.3.1
+    Checking clap_builder v4.5.18
+   Compiling pest_generator v2.7.13
+    Checking env_filter v0.1.2
+   Compiling inkwell_internals v0.10.0
+   Compiling pest_derive v2.7.13
+   Compiling clap_derive v4.5.18
+    Checking rayon v1.10.0
+error: No suitable version of LLVM was found system-wide or pointed
+              to by LLVM_SYS_170_PREFIX.
+       
+              Consider using `llvmenv` to compile an appropriate copy of LLVM, and
+              refer to the llvm-sys documentation for more information.
+       
+              llvm-sys: https://crates.io/crates/llvm-sys
+              llvmenv: https://crates.io/crates/llvmenv
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/llvm-sys-170.2.0/src/lib.rs:479:1
+    |
+479 | / std::compile_error!(concat!(
+480 | |     "No suitable version of LLVM was found system-wide or pointed
+481 | |        to by LLVM_SYS_",
+482 | |     env!("CARGO_PKG_VERSION_MAJOR"),
+...   |
+489 | |        llvmenv: https://crates.io/crates/llvmenv"
+490 | | ));
+    | |__^
+
+error: could not compile `llvm-sys` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

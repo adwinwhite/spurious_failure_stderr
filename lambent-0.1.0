@@ -1,0 +1,174 @@
+Running as unit: run-p1964983-i1965283.scope; invocation ID: 9afdf2173204499bb0c4e74d3b5b63a8
+    Updating `tuna` index
+   Compiling autocfg v1.4.0
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.172
+   Compiling parking_lot_core v0.9.10
+   Compiling libm v0.2.11
+   Compiling version_check v0.9.5
+   Compiling typenum v1.19.0
+   Compiling regex-syntax v0.8.5
+   Compiling rustversion v1.0.20
+   Compiling memchr v2.7.4
+   Compiling generic-array v0.14.9
+   Compiling lock_api v0.4.12
+   Compiling num-traits v0.2.19
+    Checking cfg-if v1.0.0
+   Compiling thiserror v2.0.12
+   Compiling unicode-xid v0.2.6
+   Compiling scopeguard v1.2.0
+   Compiling either v1.15.0
+   Compiling smallvec v1.15.0
+   Compiling quote v1.0.40
+   Compiling aho-corasick v1.1.3
+   Compiling itertools v0.14.0
+   Compiling syn v2.0.100
+   Compiling siphasher v1.0.1
+   Compiling hashbrown v0.15.2
+   Compiling equivalent v1.0.2
+   Compiling semver v1.0.27
+   Compiling phf_shared v0.11.3
+   Compiling rustc_version v0.4.1
+   Compiling parking_lot v0.12.3
+   Compiling term v1.2.0
+   Compiling regex-automata v0.4.9
+   Compiling indexmap v2.9.0
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling cfg_aliases v0.2.1
+   Compiling fixedbitset v0.5.7
+   Compiling same-file v1.0.6
+   Compiling bit-vec v0.8.0
+   Compiling keccak v0.1.5
+   Compiling precomputed-hash v0.1.1
+   Compiling new_debug_unreachable v1.0.6
+   Compiling log v0.4.27
+   Compiling string_cache v0.8.9
+   Compiling bit-set v0.8.0
+   Compiling sha3 v0.10.8
+   Compiling petgraph v0.7.1
+   Compiling walkdir v2.5.0
+   Compiling ena v0.14.3
+   Compiling ascii-canvas v4.0.0
+   Compiling logos-codegen v0.15.1
+   Compiling lexical-util v1.0.7
+   Compiling unicode-segmentation v1.12.0
+   Compiling beef v0.5.2
+   Compiling fnv v1.0.7
+    Checking bitflags v2.9.0
+   Compiling lazy_static v1.5.0
+    Checking unicode-width v0.2.0
+    Checking foldhash v0.1.5
+   Compiling convert_case v0.7.1
+   Compiling lalrpop-util v0.22.2
+   Compiling regex v1.11.1
+   Compiling lexical-write-integer v1.0.6
+   Compiling lexical-parse-integer v1.0.6
+   Compiling anstyle v1.0.10
+   Compiling lalrpop v0.22.2
+   Compiling lexical-parse-float v1.0.6
+   Compiling lexical-write-float v1.0.6
+    Checking half v2.6.0
+   Compiling naga v27.0.3
+   Compiling annotate-snippets v0.11.5
+    Checking libloading v0.8.6
+   Compiling khronos-egl v6.0.0
+   Compiling lexical-core v1.0.6
+    Checking foldhash v0.2.0
+   Compiling ash v0.38.0+1.3.281
+   Compiling lexical v7.0.5
+    Checking hashbrown v0.16.0
+    Checking codespan-reporting v0.12.0
+    Checking gpu-descriptor-types v0.2.0
+    Checking spirv v0.3.0+sdk-1.3.268.0
+    Checking gpu-alloc-types v0.3.0
+   Compiling wgpu-hal v27.0.3
+   Compiling slab v0.4.9
+    Checking hexf-parse v0.2.1
+    Checking once_cell v1.21.3
+    Checking rustc-hash v1.1.0
+    Checking simd-adler32 v0.3.7
+    Checking arrayvec v0.7.6
+    Checking gpu-alloc v0.6.0
+    Checking gpu-descriptor v0.3.2
+    Checking ordered-float v4.6.0
+    Checking glow v0.16.0
+    Checking adler2 v2.0.0
+    Checking raw-window-handle v0.6.2
+    Checking futures-core v0.3.31
+    Checking renderdoc-sys v1.1.0
+    Checking profiling v1.0.16
+    Checking futures-sink v0.3.31
+    Checking futures-channel v0.3.31
+   Compiling thiserror-impl v2.0.12
+   Compiling derive_more-impl v2.0.1
+   Compiling logos-derive v0.15.1
+   Compiling bytemuck_derive v1.9.3
+   Compiling tokrepr-derive v0.1.0
+   Compiling tokrepr v0.1.1
+   Compiling logos v0.15.1
+   Compiling futures-macro v0.3.31
+    Checking miniz_oxide v0.8.8
+    Checking bytemuck v1.22.0
+    Checking wgpu-types v27.0.1
+   Compiling wgpu-core v27.0.3
+    Checking crc32fast v1.4.2
+   Compiling litrs v0.4.1
+    Checking futures-task v0.3.31
+    Checking futures-io v0.3.31
+    Checking pin-project-lite v0.2.16
+    Checking pin-utils v0.1.0
+    Checking futures-util v0.3.31
+   Compiling document-features v0.2.11
+    Checking flate2 v1.1.1
+   Compiling derive_more v2.0.1
+    Checking fdeflate v0.3.7
+   Compiling wgpu v27.0.1
+   Compiling cgmath v0.18.0
+    Checking zune-core v0.4.12
+    Checking bitflags v1.3.2
+    Checking png v0.17.16
+    Checking zune-jpeg v0.4.14
+    Checking approx v0.4.0
+    Checking byteorder-lite v0.1.0
+    Checking static_assertions v1.1.0
+    Checking image v0.25.6
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+   Compiling wgsl-parse v0.2.0
+    Checking wgpu-core-deps-windows-linux-android v27.0.0
+error[E0275]: overflow evaluating the requirement `&global::Global: Send`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-core-27.0.3/src/global.rs:99:19
+   |
+99 |     test_internal(global)
+   |     ------------- ^^^^^^
+   |     |
+   |     required by a bound introduced by this call
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu_core`)
+note: required by a bound in `test_internal`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-core-27.0.3/src/global.rs:98:25
+   |
+98 |     fn test_internal<T: Send + Sync>(_: T) {}
+   |                         ^^^^ required by this bound in `test_internal`
+
+error[E0275]: overflow evaluating the requirement `&global::Global: Sync`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-core-27.0.3/src/global.rs:99:19
+   |
+99 |     test_internal(global)
+   |     ------------- ^^^^^^
+   |     |
+   |     required by a bound introduced by this call
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`wgpu_core`)
+note: required by a bound in `test_internal`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/wgpu-core-27.0.3/src/global.rs:98:32
+   |
+98 |     fn test_internal<T: Send + Sync>(_: T) {}
+   |                                ^^^^ required by this bound in `test_internal`
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `wgpu-core` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...

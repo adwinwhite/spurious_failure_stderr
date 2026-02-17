@@ -1,0 +1,56 @@
+Running as unit: run-p1176736-i13757043.scope; invocation ID: 45e515a5af364a318aeca67183eaac80
+   Compiling cc v1.0.90
+   Compiling proc-macro2 v1.0.79
+   Compiling anyhow v1.0.82
+   Compiling semver v1.0.22
+   Compiling unicode-ident v1.0.12
+   Compiling version_check v0.9.4
+    Checking cfg-if v1.0.0
+   Compiling libc v0.2.153
+    Checking once_cell v1.19.0
+    Checking zerocopy v0.7.32
+   Compiling regex-lite v0.1.5
+   Compiling ahash v0.8.11
+   Compiling lazy_static v1.4.0
+   Compiling thiserror v1.0.59
+    Checking either v1.11.0
+    Checking static_assertions v1.1.0
+    Checking triomphe v0.1.11
+   Compiling chumsky v1.0.0-alpha.7
+    Checking allocator-api2 v0.2.16
+   Compiling quote v1.0.35
+   Compiling inkwell v0.4.0 (https://github.com/TheDan64/inkwell?branch=master#5d5a531c)
+    Checking archery v1.2.0
+    Checking hashbrown v0.13.2
+   Compiling syn v2.0.58
+    Checking unicode-width v0.1.11
+    Checking yansi v0.5.1
+    Checking hashbrown v0.14.3
+    Checking rpds v1.1.0
+    Checking itertools v0.12.1
+    Checking ariadne v0.4.0
+   Compiling llvm-sys v180.0.0
+   Compiling psm v0.1.21
+   Compiling stacker v0.1.15
+    Checking lasso v0.7.2
+error: No suitable version of LLVM was found system-wide or pointed
+              to by LLVM_SYS_180_PREFIX.
+       
+              Consider using `llvmenv` to compile an appropriate copy of LLVM, and
+              refer to the llvm-sys documentation for more information.
+       
+              llvm-sys: https://crates.io/crates/llvm-sys
+              llvmenv: https://crates.io/crates/llvmenv
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/llvm-sys-180.0.0/src/lib.rs:515:1
+    |
+515 | / std::compile_error!(concat!(
+516 | |     "No suitable version of LLVM was found system-wide or pointed
+517 | |        to by LLVM_SYS_",
+518 | |     env!("CARGO_PKG_VERSION_MAJOR"),
+...   |
+525 | |        llvmenv: https://crates.io/crates/llvmenv"
+526 | | ));
+    | |__^
+
+error: could not compile `llvm-sys` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

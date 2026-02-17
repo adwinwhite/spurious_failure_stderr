@@ -1,0 +1,19 @@
+    Updating `tuna` index
+error: failed to get `axum-valid` as a dependency of package `rust-sky v0.1.0 (/tmp/HuaGu-Dragon_rust-sky_mf1cjaol)`
+
+Caused by:
+  failed to query replaced source registry `crates-io`
+
+Caused by:
+  download of ax/um/axum-valid failed
+
+Caused by:
+  failed to get successful HTTP response from `https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/ax/um/axum-valid` (101.6.15.130), got 403
+  body:
+  <!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"></head><body><main><div class="language-section"><h1>
+  <span lang="zh">抱歉，您目前无法访问此页面</span><br>
+  <span lang="en">Sorry, you've been denied access to this page</span><br>
+  <span lang="fr">Désolé, l'accès à cette page vous a été refusé</span><br>
+  <span lang="de">Entschuldigung, Ihnen wurde der Zugang zu dieser Seite verweigert</span><br>
+  <span lang="es">Lo sentimos, se le ha denegado el acceso a esta página</span><br>
+  <span lang="ja">申し訳ございませんが、このページ…

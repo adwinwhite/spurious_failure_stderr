@@ -1,0 +1,1339 @@
+Running as unit: run-p2812007-i15392081.scope; invocation ID: a5b44ff842af4410accc5d2ec67ba021
+   Compiling proc-macro2 v1.0.97
+   Compiling unicode-ident v1.0.18
+   Compiling typenum v1.18.0
+   Compiling quote v1.0.40
+   Compiling syn v2.0.105
+    Checking generic-array v1.2.0
+   Compiling exhaustive-map-macros v0.3.0 (/tmp/nix-shell.uUVugk/tyilo_exhaustive-map_tcwt1qto/exhaustive-map-macros)
+    Checking exhaustive-map v0.3.0 (/tmp/nix-shell.uUVugk/tyilo_exhaustive-map_tcwt1qto)
+error[E0275]: overflow evaluating the requirement `U: Sealed`
+  --> src/finite.rs:61:34
+   |
+61 |     impl<U: Unsigned> Sealed for U where U: IsLessOrEqual<UsizeMax, Output = B1> {}
+   |                                  ^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...> as Pow<...>>::Output as Sub<...>>::Output: Sized`
+   --> src/finite.rs:61:69
+    |
+ 61 |     impl<U: Unsigned> Sealed for U where U: IsLessOrEqual<UsizeMax, Output = B1> {}
+    |                                                                     ^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by an implicit `Sized` bound in `IsLessOrEqual`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/typenum-1.18.0/src/type_operators.rs:443:25
+    |
+443 | pub trait IsLessOrEqual<Rhs = Self> {
+    |                         ^^^^^^^^^^ required by the implicit `Sized` requirement on this type parameter in `IsLessOrEqual`
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...> as Pow<...>>::Output as Sub<...>>::Output: Sized`
+   --> src/finite.rs:61:45
+    |
+ 61 |     impl<U: Unsigned> Sealed for U where U: IsLessOrEqual<UsizeMax, Output = B1> {}
+    |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by an implicit `Sized` bound in `IsLessOrEqual`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/typenum-1.18.0/src/type_operators.rs:443:25
+    |
+443 | pub trait IsLessOrEqual<Rhs = Self> {
+    |                         ^^^^^^^^^^ required by the implicit `Sized` requirement on this type parameter in `IsLessOrEqual`
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+  --> src/finite.rs:61:69
+   |
+61 |     impl<U: Unsigned> Sealed for U where U: IsLessOrEqual<UsizeMax, Output = B1> {}
+   |                                                                     ^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+  --> src/finite.rs:61:45
+   |
+61 |     impl<U: Unsigned> Sealed for U where U: IsLessOrEqual<UsizeMax, Output = B1> {}
+   |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+  --> src/finite_impls/core.rs:21:24
+   |
+21 |     type INHABITANTS = U1;
+   |                        ^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+  --> src/finite_impls/core.rs:36:24
+   |
+36 |     type INHABITANTS = U1;
+   |                        ^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B0>: FitsInUsize`
+  --> src/finite_impls/core.rs:51:24
+   |
+51 |     type INHABITANTS = U2;
+   |                        ^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+  --> src/finite_impls/core.rs:69:32
+   |
+69 |             type INHABITANTS = U<{ <$type>::MAX as usize + 1 }>;
+   |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+82 | impl_uprim!(u8);
+   | --------------- in this macro invocation
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the macro `impl_uprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+  --> src/finite_impls/core.rs:69:32
+   |
+69 |             type INHABITANTS = U<{ <$type>::MAX as usize + 1 }>;
+   |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+83 | impl_uprim!(u16);
+   | ---------------- in this macro invocation
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the macro `impl_uprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+  --> src/finite_impls/core.rs:69:32
+   |
+69 |             type INHABITANTS = U<{ <$type>::MAX as usize + 1 }>;
+   |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+85 | impl_uprim!(u32);
+   | ---------------- in this macro invocation
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the macro `impl_uprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:90:32
+    |
+ 90 |             type INHABITANTS = <$utype as Finite>::INHABITANTS;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+105 | impl_iprim!(i8, u8);
+    | ------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_iprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:90:32
+    |
+ 90 |             type INHABITANTS = <$utype as Finite>::INHABITANTS;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+106 | impl_iprim!(i16, u16);
+    | --------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_iprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:90:32
+    |
+ 90 |             type INHABITANTS = <$utype as Finite>::INHABITANTS;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+108 | impl_iprim!(i32, u32);
+    | --------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_iprim` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:113:32
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+126 | impl_unonzero!(NonZeroU8);
+    | ------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:113:32
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+127 | impl_unonzero!(NonZeroU16);
+    | -------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:113:32
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+128 | impl_unonzero!(NonZeroU32);
+    | -------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::num::NonZero<u64> as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:113:32
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+130 | impl_unonzero!(NonZeroU64);
+    | -------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::num::NonZero<usize> as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:113:32
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+131 | impl_unonzero!(NonZeroUsize);
+    | ---------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:136:32
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+155 | impl_inonzero!(NonZeroI8, i8, u8);
+    | --------------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:136:32
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+156 | impl_inonzero!(NonZeroI16, i16, u16);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:136:32
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+157 | impl_inonzero!(NonZeroI32, i32, u32);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::num::NonZero<i64> as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:136:32
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+159 | impl_inonzero!(NonZeroI64, i64, u64);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::num::NonZero<isize> as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:136:32
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+160 | impl_inonzero!(NonZeroIsize, isize, usize);
+    | ------------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:166:24
+    |
+166 |     type INHABITANTS = __uint!(1112064); //U<{char::MAX as usize + 1 - CHAR_GAP_SIZE}>;
+    |                        ^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `__uint` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:193:24
+    |
+193 |     type INHABITANTS = <u32 as Finite>::INHABITANTS;
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UInt<UInt<UInt<UInt<UInt<..., ...>, ...>, ...>, ...>, ...>, ...>, ...>: FitsInUsize`
+   --> src/finite_impls/core.rs:208:32
+    |
+208 |             type INHABITANTS = <$from as Finite>::INHABITANTS;
+    |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+222 | impl_from!(core::net::Ipv4Addr, u32);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the macro `impl_from` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UTerm: FitsInUsize`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `Infallible: finite::Finite`
+   --> src/finite_impls/core.rs:291:20
+    |
+291 | #[__finite_foreign(core::convert::Infallible)]
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `UTerm: FitsInUsize`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `UTerm: FitsInUsize`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `PhantomPinned: finite::Finite`
+   --> src/finite_impls/core.rs:295:20
+    |
+295 | #[__finite_foreign(core::marker::PhantomPinned)]
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `core::cmp::Ordering: finite::Finite`
+   --> src/finite_impls/core.rs:299:20
+    |
+299 | #[__finite_foreign(core::cmp::Ordering)]
+    |                    ^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<FpCategory as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<<UInt<UTerm, B1> as Add>::Output as Add<...>>::Output as Add<...>>::Output as Add<...>>::Output == _`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `FpCategory: finite::Finite`
+   --> src/finite_impls/core.rs:307:20
+    |
+307 | #[__finite_foreign(core::num::FpCategory)]
+    |                    ^^^^^^^^^^^^^^^^^^^^^
+
+error[E0275]: overflow evaluating the requirement `<<<<UInt<UTerm, B1> as Add>::Output as Add<...>>::Output as Add<...>>::Output as Add<...>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: Add<...>`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<UInt<UTerm, B1> as Add>::Output as Add<UInt<..., ...>>>::Output as Add<...>>::Output: Add<...>`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<<UInt<UTerm, B1> as Add>::Output as Add<...>>::Output as Add<...>>::Output as Add<...>>::Output: ArrayLength`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<<UInt<UTerm, B1> as Add>::Output as Add<...>>::Output as Add<...>>::Output as Add<...>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<UInt<UTerm, B1> as Add>::Output as Add<UInt<..., ...>>>::Output as Add<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<<<UInt<UTerm, B1> as Add>::Output as Add<...>>::Output as Add<...>>::Output as Add<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `core::fmt::Alignment: finite::Finite`
+   --> src/finite_impls/core.rs:317:20
+    |
+317 | #[__finite_foreign(core::fmt::Alignment)]
+    |                    ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+   --> src/finite.rs:35:37
+    |
+ 35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+    |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `RangeFull: finite::Finite`
+   --> src/finite_impls/core.rs:386:20
+    |
+386 | #[__finite_foreign(core::ops::RangeFull)]
+    |                    ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = help: see issue #48214
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+   --> src/lib.rs:30:1
+    |
+ 30 + #![feature(trivial_bounds)]
+    |
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+  --> src/finite_impls/std.rs:3:10
+   |
+ 3 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `System: finite::Finite`
+ --> src/finite_impls/std.rs:4:20
+  |
+4 | #[__finite_foreign(std::alloc::System)]
+  |                    ^^^^^^^^^^^^^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+  --> src/finite_impls/std.rs:3:10
+   |
+ 3 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = help: see issue #48214
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+  --> src/lib.rs:30:1
+   |
+30 + #![feature(trivial_bounds)]
+   |
+
+error[E0275]: overflow evaluating the requirement `UInt<UTerm, B1>: FitsInUsize`
+ --> src/finite_impls/std.rs:3:10
+  |
+3 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B0>: FitsInUsize`
+  --> src/finite_impls/std.rs:7:10
+   |
+ 7 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `std::sync::mpmc::RecvTimeoutError: finite::Finite`
+ --> src/finite_impls/std.rs:8:20
+  |
+8 | #[__finite_foreign(std::sync::mpsc::RecvTimeoutError)]
+  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<UInt<UTerm, B1> as Add>::Output: FitsInUsize`
+  --> src/finite_impls/std.rs:7:10
+   |
+ 7 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = help: see issue #48214
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+  --> src/lib.rs:30:1
+   |
+30 + #![feature(trivial_bounds)]
+   |
+
+error[E0275]: overflow evaluating the requirement `<UInt<UTerm, B1> as Add>::Output: FitsInUsize`
+ --> src/finite_impls/std.rs:7:10
+  |
+7 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B0>: FitsInUsize`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `std::sync::mpmc::TryRecvError: finite::Finite`
+  --> src/finite_impls/std.rs:15:20
+   |
+15 | #[__finite_foreign(std::sync::mpsc::TryRecvError)]
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<UInt<UTerm, B1> as Add>::Output: FitsInUsize`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = help: see issue #48214
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+  --> src/lib.rs:30:1
+   |
+30 + #![feature(trivial_bounds)]
+   |
+
+error[E0275]: overflow evaluating the requirement `<UInt<UTerm, B1> as Add>::Output: FitsInUsize`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `UInt<UInt<UTerm, B1>, B1>: FitsInUsize`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+note: required by a bound in `finite::Finite::INHABITANTS`
+  --> src/finite.rs:35:37
+   |
+35 |     type INHABITANTS: ArrayLength + FitsInUsize;
+   |                                     ^^^^^^^^^^^ required by this bound in `Finite::INHABITANTS`
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `Shutdown: finite::Finite`
+  --> src/finite_impls/std.rs:22:20
+   |
+22 | #[__finite_foreign(std::net::Shutdown)]
+   |                    ^^^^^^^^^^^^^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = help: see issue #48214
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: add `#![feature(trivial_bounds)]` to the crate attributes to enable
+  --> src/lib.rs:30:1
+   |
+30 + #![feature(trivial_bounds)]
+   |
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UTerm, B1> as Add>::Output as Add<UInt<UTerm, ...>>>::Output: FitsInUsize`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output == _`
+   --> src/finite_impls/core.rs:113:13
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+130 | impl_unonzero!(NonZeroU64);
+    | -------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:113:13
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+130 | impl_unonzero!(NonZeroU64);
+    | -------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output == _`
+   --> src/finite_impls/core.rs:113:13
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+131 | impl_unonzero!(NonZeroUsize);
+    | ---------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:113:13
+    |
+113 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+131 | impl_unonzero!(NonZeroUsize);
+    | ---------------------------- in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_unonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output == _`
+   --> src/finite_impls/core.rs:136:13
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+159 | impl_inonzero!(NonZeroI64, i64, u64);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:136:13
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+159 | impl_inonzero!(NonZeroI64, i64, u64);
+    | ------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output == _`
+   --> src/finite_impls/core.rs:136:13
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+160 | impl_inonzero!(NonZeroIsize, isize, usize);
+    | ------------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<<UInt<UInt<UTerm, B1>, B0> as Pow<...>>::Output as Sub<...>>::Output well-formed`
+   --> src/finite_impls/core.rs:136:13
+    |
+136 |             type INHABITANTS = Sub1<<U2 as Pow<U<{ size_of::<$nonzero_type>() * 8 }>>>::Output>;
+    |             ^^^^^^^^^^^^^^^^
+...
+160 | impl_inonzero!(NonZeroIsize, isize, usize);
+    | ------------------------------------------ in this macro invocation
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the macro `impl_inonzero` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `Infallible: finite::Finite`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Infallible as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Infallible as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Infallible as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:290:10
+    |
+290 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `PhantomPinned: finite::Finite`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<PhantomPinned as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<PhantomPinned as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<PhantomPinned as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:294:10
+    |
+294 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `core::cmp::Ordering: finite::Finite`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::cmp::Ordering as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::cmp::Ordering as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::cmp::Ordering as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:298:10
+    |
+298 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `FpCategory: finite::Finite`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<FpCategory as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<FpCategory as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:306:10
+    |
+306 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `core::fmt::Alignment: finite::Finite`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::fmt::Alignment as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::fmt::Alignment as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<core::fmt::Alignment as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:316:10
+    |
+316 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `RangeFull: finite::Finite`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RangeFull as finite::Finite>::INHABITANTS == _`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RangeFull as finite::Finite>::INHABITANTS: Unsigned`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RangeFull as finite::Finite>::INHABITANTS well-formed`
+   --> src/finite_impls/core.rs:385:10
+    |
+385 | #[derive(Finite)]
+    |          ^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+    = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `System: finite::Finite`
+ --> src/finite_impls/std.rs:3:10
+  |
+3 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<System as finite::Finite>::INHABITANTS == _`
+ --> src/finite_impls/std.rs:3:10
+  |
+3 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<System as finite::Finite>::INHABITANTS: Unsigned`
+ --> src/finite_impls/std.rs:3:10
+  |
+3 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<System as finite::Finite>::INHABITANTS well-formed`
+ --> src/finite_impls/std.rs:3:10
+  |
+3 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `std::sync::mpmc::RecvTimeoutError: finite::Finite`
+ --> src/finite_impls/std.rs:7:10
+  |
+7 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::RecvTimeoutError as finite::Finite>::INHABITANTS == _`
+ --> src/finite_impls/std.rs:7:10
+  |
+7 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::RecvTimeoutError as finite::Finite>::INHABITANTS: Unsigned`
+ --> src/finite_impls/std.rs:7:10
+  |
+7 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::RecvTimeoutError as finite::Finite>::INHABITANTS well-formed`
+ --> src/finite_impls/std.rs:7:10
+  |
+7 | #[derive(Finite)]
+  |          ^^^^^^
+  |
+  = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+  = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `std::sync::mpmc::TryRecvError: finite::Finite`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::TryRecvError as finite::Finite>::INHABITANTS == _`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::TryRecvError as finite::Finite>::INHABITANTS: Unsigned`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<std::sync::mpmc::TryRecvError as finite::Finite>::INHABITANTS well-formed`
+  --> src/finite_impls/std.rs:14:10
+   |
+14 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `Shutdown: finite::Finite`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Shutdown as finite::Finite>::INHABITANTS == _`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Shutdown as finite::Finite>::INHABITANTS: Unsigned`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Shutdown as finite::Finite>::INHABITANTS well-formed`
+  --> src/finite_impls/std.rs:21:10
+   |
+21 | #[derive(Finite)]
+   |          ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`exhaustive_map`)
+   = note: this error originates in the derive macro `Finite` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `exhaustive-map` (lib) due to 124 previous errors

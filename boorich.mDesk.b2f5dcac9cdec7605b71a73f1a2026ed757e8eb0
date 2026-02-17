@@ -1,0 +1,233 @@
+Running as unit: run-p152727-i4346472.scope; invocation ID: c6a06f260b814194aca5a5d55e800114
+   Compiling proc-macro2 v1.0.94
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.171
+   Compiling pkg-config v0.3.32
+   Compiling serde v1.0.219
+   Compiling autocfg v1.4.0
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.15.2
+   Compiling winnow v0.5.40
+   Compiling target-lexicon v0.12.16
+   Compiling heck v0.5.0
+   Compiling indexmap v2.8.0
+    Checking cfg-if v1.0.0
+   Compiling quote v1.0.40
+   Compiling syn v2.0.100
+   Compiling smallvec v1.14.0
+    Checking once_cell v1.21.1
+   Compiling cfg-expr v0.15.8
+   Compiling version-compare v0.2.0
+   Compiling version_check v0.9.5
+    Checking pin-project-lite v0.2.16
+    Checking memchr v2.7.4
+   Compiling slab v0.4.9
+    Checking futures-core v0.3.31
+    Checking futures-sink v0.3.31
+    Checking futures-io v0.3.31
+    Checking futures-channel v0.3.31
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+    Checking log v0.4.26
+   Compiling lock_api v0.4.12
+   Compiling parking_lot_core v0.9.10
+    Checking scopeguard v1.2.0
+    Checking tracing-core v0.1.33
+   Compiling syn v1.0.109
+    Checking itoa v1.0.15
+   Compiling thiserror v1.0.69
+    Checking stable_deref_trait v1.2.0
+    Checking bytes v1.10.1
+    Checking parking_lot v0.12.3
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling proc-macro-error v1.0.4
+   Compiling shlex v1.3.0
+   Compiling cc v1.2.16
+    Checking litemap v0.7.5
+    Checking writeable v0.5.5
+    Checking getrandom v0.2.15
+    Checking signal-hook-registry v1.4.2
+   Compiling num-traits v0.2.19
+   Compiling heck v0.4.1
+    Checking socket2 v0.5.8
+    Checking mio v1.0.3
+    Checking icu_locid_transform_data v1.5.0
+    Checking icu_properties_data v1.5.0
+    Checking fnv v1.0.7
+    Checking icu_normalizer_data v1.5.0
+    Checking write16 v1.0.0
+   Compiling crossbeam-utils v0.8.21
+    Checking utf16_iter v1.0.5
+    Checking utf8_iter v1.0.4
+    Checking ryu v1.0.20
+    Checking percent-encoding v2.3.1
+   Compiling serde_json v1.0.140
+   Compiling memoffset v0.9.1
+   Compiling gio v0.18.4
+    Checking form_urlencoded v1.2.1
+   Compiling semver v1.0.26
+   Compiling slotmap v1.0.7
+    Checking dioxus-core-types v0.6.2
+   Compiling unicode-xid v0.2.6
+   Compiling rustversion v1.0.20
+   Compiling const_format_proc_macros v0.2.34
+   Compiling zerocopy v0.8.23
+   Compiling typenum v1.18.0
+    Checking rustc-hash v1.1.0
+   Compiling httparse v1.10.1
+   Compiling rustc_version v0.4.1
+   Compiling proc-macro2-diagnostics v0.10.1
+    Checking const_format v0.2.34
+   Compiling generic-array v0.14.7
+   Compiling x11 v2.21.0
+    Checking longest-increasing-subsequence v0.1.0
+   Compiling field-offset v0.3.6
+   Compiling ring v0.17.14
+   Compiling ident_case v1.0.1
+   Compiling vcpkg v0.2.15
+   Compiling synstructure v0.13.1
+    Checking unicode-segmentation v1.12.0
+   Compiling lazy-js-bundle v0.6.2
+   Compiling openssl-sys v0.9.106
+    Checking ppv-lite86 v0.2.21
+   Compiling darling_core v0.20.10
+    Checking rand_core v0.6.4
+   Compiling serde_derive v1.0.219
+   Compiling futures-macro v0.3.31
+   Compiling tracing-attributes v0.1.28
+    Checking futures-util v0.3.31
+   Compiling zerofrom-derive v0.1.6
+    Checking tracing v0.1.41
+   Compiling thiserror-impl v1.0.69
+   Compiling yoke-derive v0.7.5
+    Checking zerofrom v0.1.6
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling icu_provider_macros v1.5.0
+    Checking yoke v0.7.5
+    Checking futures-executor v0.3.31
+   Compiling tokio-macros v2.5.0
+   Compiling pin-project-internal v1.1.10
+   Compiling warnings-macro v0.2.0
+    Checking zerovec v0.10.4
+    Checking generational-box v0.6.2
+    Checking tokio v1.44.1
+   Compiling async-trait v0.1.88
+    Checking pin-project v1.1.10
+    Checking warnings v0.2.1
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+    Checking icu_locid v1.5.0
+   Compiling gtk v0.18.2
+   Compiling darling_macro v0.20.10
+    Checking rand_chacha v0.3.1
+    Checking icu_provider v1.5.0
+   Compiling serde_repr v0.1.20
+    Checking icu_locid_transform v1.5.0
+    Checking http v0.2.12
+    Checking bitflags v2.9.0
+    Checking icu_properties v1.5.1
+   Compiling toml_datetime v0.6.3
+   Compiling serde_spanned v0.6.8
+    Checking keyboard-types v0.7.0
+   Compiling toml_edit v0.20.2
+   Compiling toml_edit v0.19.15
+    Checking dioxus-core v0.6.3
+    Checking lazy_static v1.5.0
+    Checking untrusted v0.9.0
+    Checking icu_normalizer v1.5.0
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+    Checking url v2.5.4
+    Checking dioxus-signals v0.6.3
+   Compiling convert_case v0.6.0
+    Checking tokio-util v0.7.14
+   Compiling proc-macro-crate v1.3.1
+    Checking rand v0.8.5
+   Compiling toml v0.8.2
+   Compiling proc-macro-crate v2.0.2
+   Compiling system-deps v6.2.2
+   Compiling darling v0.20.10
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+   Compiling zvariant_utils v1.1.0
+    Checking aho-corasick v1.1.3
+   Compiling gtk3-macros v0.18.2
+    Checking tower-service v0.3.3
+    Checking regex-syntax v0.8.5
+   Compiling glib-macros v0.18.5
+   Compiling glib-sys v0.18.1
+   Compiling gobject-sys v0.18.0
+   Compiling gio-sys v0.18.1
+   Compiling gdk-sys v0.18.2
+   Compiling cairo-sys-rs v0.18.2
+   Compiling pango-sys v0.18.0
+   Compiling gdk-pixbuf-sys v0.18.0
+error: failed to run custom build command for `gdk-sys v0.18.2`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.AaBijX/boorich_mDesk_16v4p6yz/target/debug/build/gdk-sys-3a7482ac099b22bd/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=GDK_3.0_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags gdk-3.0 'gdk-3.0 >= 3.22'
+
+  The system library `gdk-3.0` required by crate `gdk-sys` was not found.
+  The file `gdk-3.0.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/share/pkgconfig
+      - /nix/store/m9k83ip1yx29xs94sa5x8j70s2vfgj6i-glib-2.84.2-dev/lib/pkgconfig
+      - /nix/store/np6q2i2wz1sm47dva3hp7v5n3cjdb5df-libffi-3.4.8-dev/lib/pkgconfig
+      - /nix/store/0zv6vqm2bsq0kwavhp06v1hqzkjn9am6-dbus-1.14.10-dev/lib/pkgconfig
+      - /nix/store/ic5v8q6y5s1dklcmnih82d3a5jpv0sy2-expat-2.7.1-dev/lib/pkgconfig
+      - /nix/store/lvbd6qkc7m79l41bb1a74dv3yngaxl2g-libepoxy-1.5.10-dev/lib/pkgconfig
+      - /nix/store/aaf0xc8xw2m8hzijrx5jn6wm8vbykk41-libglvnd-1.7.0-dev/lib/pkgconfig
+      - /nix/store/qyp8pcm3xr5ww1r4rj752zpny6awvbqf-libX11-1.8.12-dev/lib/pkgconfig
+      - /nix/store/h2lzzms7vnqv9rv11wynjjd5sfnk0ijx-xorgproto-2024.1/share/pkgconfig
+      - /nix/store/5dkrbiki8nam56qqnxnm4mvbpxa1v4qb-libxcb-1.17.0-dev/lib/pkgconfig
+      - /nix/store/q53qxjrwwq1g0d2h9awhkqx51nbjjsf4-nettle-3.10.1-dev/lib/pkgconfig
+      - /nix/store/0s6rnw4aza7n97gzqx4k5vrvymcjwapi-gmp-with-cxx-6.3.0-dev/lib/pkgconfig
+      - /nix/store/fpvn1bv57qb7isln714zkld664yqbzkq-ffmpeg-headless-7.1.1-dev/lib/pkgconfig
+      - /nix/store/3bcsa8c55amqa99wb68xbkfhailkh7bj-fuse-2.9.9-dev/lib/pkgconfig
+      - /nix/store/sxpsqfzgnllrww9dfy2hhgfyw3rk9c82-fuse-3.17.2-dev/lib/pkgconfig
+      - /nix/store/j7srhraly1gf2zklj4wbdby02a1z7ckx-zstd-1.5.7-dev/lib/pkgconfig
+      - /nix/store/p8j0aj8h922v556dzr4ddzgag8n93a2r-chafa-1.16.1-dev/lib/pkgconfig
+      - /nix/store/2yj6cwgn53l1vl3bp4rpsravzhbbam7w-mpich-4.3.1/lib/pkgconfig
+      - /nix/store/kbm2zg7pvav731w334fh9s2xsifllgf5-wayland-1.23.1-dev/lib/pkgconfig
+      - /nix/store/w6fj6x75vl70ns1hpkyvx14g3yrj4893-zfs-user-2.3.3-dev/lib/pkgconfig
+      - /nix/store/xvnqhwzr5pfpws5w05b47i582q3yvy69-libgpg-error-1.51-dev/lib/pkgconfig
+      - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig
+      - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig
+      - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig
+
+  HINT: you may need to install a package such as gdk-3.0, gdk-3.0-dev or gdk-3.0-devel.
+
+warning: build failed, waiting for other jobs to finish...

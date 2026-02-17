@@ -1,0 +1,770 @@
+    Updating git repository `https://github.com/3box/goose.git`
+    Updating `tuna` index
+    Updating git repository `https://github.com/ceramicnetwork/rust-ceramic.git`
+    Updating git repository `https://github.com/3box/ceramic-http-client-rs.git`
+ Downloading crates ...
+  Downloaded addr2line v0.22.0 (registry `tuna`)
+  Downloaded arrayref v0.3.8 (registry `tuna`)
+  Downloaded cid v0.8.6 (registry `tuna`)
+  Downloaded base-x v0.2.11 (registry `tuna`)
+  Downloaded async-stream-impl v0.3.5 (registry `tuna`)
+  Downloaded bech32 v0.8.1 (registry `tuna`)
+  Downloaded async-stream v0.3.5 (registry `tuna`)
+  Downloaded ctrlc v3.4.4 (registry `tuna`)
+  Downloaded combination v0.1.5 (registry `tuna`)
+  Downloaded darling_macro v0.13.4 (registry `tuna`)
+  Downloaded contextual v0.1.6 (registry `tuna`)
+  Downloaded data-encoding-macro-internal v0.1.13 (registry `tuna`)
+  Downloaded decoded-char v0.1.1 (registry `tuna`)
+  Downloaded constant_time_eq v0.3.0 (registry `tuna`)
+  Downloaded const-oid v0.7.1 (registry `tuna`)
+  Downloaded expect-test v1.5.0 (registry `tuna`)
+  Downloaded did-method-key v0.2.2 (registry `tuna`)
+  Downloaded data-encoding-macro v0.1.15 (registry `tuna`)
+  Downloaded darling_macro v0.10.2 (registry `tuna`)
+  Downloaded clear_on_drop v0.2.5 (registry `tuna`)
+  Downloaded funty v1.1.0 (registry `tuna`)
+  Downloaded json-number v0.4.8 (registry `tuna`)
+  Downloaded integer-encoding v3.0.4 (registry `tuna`)
+  Downloaded fixed-hash v0.7.0 (registry `tuna`)
+  Downloaded gumdrop_derive v0.8.1 (registry `tuna`)
+  Downloaded int-enum-impl v0.5.0 (registry `tuna`)
+  Downloaded int-enum v0.5.0 (registry `tuna`)
+  Downloaded keccak-hash v0.7.0 (registry `tuna`)
+  Downloaded async-executor v1.13.0 (registry `tuna`)
+  Downloaded cbor4ii v0.2.14 (registry `tuna`)
+  Downloaded bs58 v0.4.0 (registry `tuna`)
+  Downloaded cid v0.11.1 (registry `tuna`)
+  Downloaded cmake v0.1.50 (registry `tuna`)
+  Downloaded derive_builder_core v0.9.0 (registry `tuna`)
+  Downloaded darling v0.10.2 (registry `tuna`)
+  Downloaded did-pkh v0.2.1 (registry `tuna`)
+  Downloaded console-api v0.6.0 (registry `tuna`)
+  Downloaded gumdrop v0.8.1 (registry `tuna`)
+  Downloaded json-patch v2.0.0 (registry `tuna`)
+  Downloaded lexical-core v0.8.5 (registry `tuna`)
+  Downloaded ipnet v2.9.0 (registry `tuna`)
+  Downloaded dissimilar v1.0.9 (registry `tuna`)
+  Downloaded lexical v6.1.1 (registry `tuna`)
+  Downloaded ipld-core v0.4.1 (registry `tuna`)
+  Downloaded langtag v0.3.4 (registry `tuna`)
+  Downloaded blake2b_simd v1.0.2 (registry `tuna`)
+  Downloaded blake2s_simd v1.0.2 (registry `tuna`)
+  Downloaded tdigest v0.2.3 (registry `tuna`)
+  Downloaded async-io v2.3.3 (registry `tuna`)
+  Downloaded grdf v0.16.3 (registry `tuna`)
+  Downloaded darling_core v0.10.2 (registry `tuna`)
+  Downloaded fluent-uri v0.1.4 (registry `tuna`)
+  Downloaded json-ld-syntax v0.12.1 (registry `tuna`)
+  Downloaded lexical-parse-integer v0.8.6 (registry `tuna`)
+  Downloaded cached v0.30.0 (registry `tuna`)
+  Downloaded jsonptr v0.4.7 (registry `tuna`)
+  Downloaded cookie_store v0.20.0 (registry `tuna`)
+  Downloaded clap v4.5.11 (registry `tuna`)
+  Downloaded der v0.5.1 (registry `tuna`)
+  Downloaded tokio-macros v2.4.0 (registry `tuna`)
+  Downloaded libipld v0.14.0 (registry `tuna`)
+  Downloaded wyz v0.2.0 (registry `tuna`)
+  Downloaded unicase v2.7.0 (registry `tuna`)
+  Downloaded time-macros v0.2.18 (registry `tuna`)
+  Downloaded lexical-write-float v0.8.5 (registry `tuna`)
+  Downloaded blake3 v1.5.3 (registry `tuna`)
+  Downloaded multibase v0.8.0 (registry `tuna`)
+  Downloaded bitvec v0.20.4 (registry `tuna`)
+  Downloaded hyper v0.14.30 (registry `tuna`)
+  Downloaded minicbor-derive v0.13.0 (registry `tuna`)
+  Downloaded idna v0.3.0 (registry `tuna`)
+  Downloaded hdrhistogram v7.5.4 (registry `tuna`)
+  Downloaded gimli v0.29.0 (registry `tuna`)
+  Downloaded k256 v0.11.6 (registry `tuna`)
+  Downloaded libp2p-identity v0.2.9 (registry `tuna`)
+  Downloaded lexical-parse-float v0.8.5 (registry `tuna`)
+  Downloaded clap_builder v4.5.11 (registry `tuna`)
+  Downloaded async-std v1.12.0 (registry `tuna`)
+  Downloaded lexical-util v0.8.5 (registry `tuna`)
+  Downloaded k256 v0.13.3 (registry `tuna`)
+  Downloaded json-ld-core v0.12.1 (registry `tuna`)
+  Downloaded iri-string v0.6.0 (registry `tuna`)
+  Downloaded hashbrown v0.11.2 (registry `tuna`)
+  Downloaded flume v0.10.14 (registry `tuna`)
+  Downloaded spki v0.5.4 (registry `tuna`)
+  Downloaded console-subscriber v0.2.0 (registry `tuna`)
+  Downloaded cc v1.1.7 (registry `tuna`)
+  Downloaded backtrace v0.3.73 (registry `tuna`)
+  Downloaded async-compression v0.4.12 (registry `tuna`)
+  Downloaded half v1.8.3 (registry `tuna`)
+  Downloaded darling_core v0.13.4 (registry `tuna`)
+  Downloaded httparse v1.9.4 (registry `tuna`)
+  Downloaded bytes v1.6.1 (registry `tuna`)
+  Downloaded clap_derive v4.5.11 (registry `tuna`)
+  Downloaded strsim v0.9.3 (registry `tuna`)
+  Downloaded serde_derive v1.0.204 (registry `tuna`)
+  Downloaded serde_ipld_dagcbor v0.6.1 (registry `tuna`)
+  Downloaded time v0.3.36 (registry `tuna`)
+  Downloaded serde_jcs v0.1.0 (registry `tuna`)
+  Downloaded tokio v1.39.2 (registry `tuna`)
+  Downloaded toml_datetime v0.6.3 (registry `tuna`)
+  Downloaded libipld-macro v0.14.0 (registry `tuna`)
+  Downloaded simple_asn1 v0.5.4 (registry `tuna`)
+  Downloaded opentelemetry_sdk v0.21.2 (registry `tuna`)
+  Downloaded lexical-write-integer v0.8.5 (registry `tuna`)
+  Downloaded openssl v0.10.66 (registry `tuna`)
+  Downloaded prometheus v0.13.4 (registry `tuna`)
+  Downloaded libipld-cbor v0.14.0 (registry `tuna`)
+  Downloaded protobuf v2.28.0 (registry `tuna`)
+  Downloaded serde_with v1.14.0 (registry `tuna`)
+  Downloaded multihash-derive-impl v0.1.1 (registry `tuna`)
+  Downloaded serde_json v1.0.121 (registry `tuna`)
+  Downloaded locspan v0.7.16 (registry `tuna`)
+  Downloaded libipld-json v0.14.0 (registry `tuna`)
+  Downloaded libipld-cbor-derive v0.14.0 (registry `tuna`)
+  Downloaded num-derive v0.3.3 (registry `tuna`)
+  Downloaded json-ld v0.12.1 (registry `tuna`)
+  Downloaded permutohedron v0.2.4 (registry `tuna`)
+  Downloaded static-iref v2.0.0 (registry `tuna`)
+  Downloaded utf8-decode v1.0.1 (registry `tuna`)
+  Downloaded object v0.36.2 (registry `tuna`)
+  Downloaded serde-big-array v0.3.3 (registry `tuna`)
+  Downloaded radium v0.6.2 (registry `tuna`)
+  Downloaded primitive-types v0.9.1 (registry `tuna`)
+  Downloaded multibase v0.9.1 (registry `tuna`)
+  Downloaded ripemd160 v0.9.1 (registry `tuna`)
+  Downloaded ipld-dagpb v0.2.1 (registry `tuna`)
+  Downloaded proc-macro-crate v2.0.2 (registry `tuna`)
+  Downloaded iref v2.2.3 (registry `tuna`)
+  Downloaded thiserror-impl v1.0.63 (registry `tuna`)
+  Downloaded ssi-zcap-ld v0.1.2 (registry `tuna`)
+  Downloaded ssi-ssh v0.1.0 (registry `tuna`)
+  Downloaded sha-1 v0.9.8 (registry `tuna`)
+  Downloaded json-ld-compaction v0.12.1 (registry `tuna`)
+  Downloaded json-syntax v0.9.6 (registry `tuna`)
+  Downloaded pretty_dtoa v0.3.0 (registry `tuna`)
+  Downloaded ssi-json-ld v0.2.2 (registry `tuna`)
+  Downloaded thiserror v1.0.63 (registry `tuna`)
+  Downloaded termcolor v1.1.3 (registry `tuna`)
+  Downloaded sshkeys v0.3.3 (registry `tuna`)
+  Downloaded simplelog v0.10.2 (registry `tuna`)
+  Downloaded serde_with_macros v1.5.2 (registry `tuna`)
+  Downloaded multiaddr v0.18.1 (registry `tuna`)
+  Downloaded schemars_derive v0.8.21 (registry `tuna`)
+  Downloaded opentelemetry-semantic-conventions v0.13.0 (registry `tuna`)
+  Downloaded multihash v0.19.1 (registry `tuna`)
+  Downloaded opentelemetry-otlp v0.14.0 (registry `tuna`)
+  Downloaded ryu_floating_decimal v0.1.0 (registry `tuna`)
+  Downloaded opentelemetry-prometheus v0.14.1 (registry `tuna`)
+  Downloaded tracing-serde v0.1.3 (registry `tuna`)
+  Downloaded rdf-types v0.12.19 (registry `tuna`)
+  Downloaded nanorand v0.7.0 (registry `tuna`)
+  Downloaded multihash v0.16.3 (registry `tuna`)
+  Downloaded pkcs1 v0.3.3 (registry `tuna`)
+  Downloaded libipld-core v0.14.0 (registry `tuna`)
+  Downloaded serde_with_macros v2.3.3 (registry `tuna`)
+  Downloaded pest_generator v2.7.11 (registry `tuna`)
+  Downloaded minicbor v0.19.1 (registry `tuna`)
+  Downloaded unsigned-varint v0.7.2 (registry `tuna`)
+  Downloaded pem-rfc7468 v0.3.1 (registry `tuna`)
+  Downloaded pest_meta v2.7.11 (registry `tuna`)
+  Downloaded value-bag v1.9.0 (registry `tuna`)
+  Downloaded ryu-js v0.2.2 (registry `tuna`)
+  Downloaded uuid v1.10.0 (registry `tuna`)
+  Downloaded tokio-tungstenite v0.15.0 (registry `tuna`)
+  Downloaded pest_derive v2.7.11 (registry `tuna`)
+  Downloaded strobe-rs v0.8.1 (registry `tuna`)
+  Downloaded tungstenite v0.14.0 (registry `tuna`)
+  Downloaded ppv-lite86 v0.2.19 (registry `tuna`)
+  Downloaded nng v1.0.1 (registry `tuna`)
+  Downloaded tokio-stream v0.1.15 (registry `tuna`)
+  Downloaded pct-str v1.2.0 (registry `tuna`)
+  Downloaded mown v0.2.2 (registry `tuna`)
+  Downloaded locspan-derive v0.6.0 (registry `tuna`)
+  Downloaded unsigned-varint v0.8.0 (registry `tuna`)
+  Downloaded schemars v0.8.21 (registry `tuna`)
+  Downloaded rsa v0.6.1 (registry `tuna`)
+  Downloaded json-ld-context-processing v0.12.1 (registry `tuna`)
+  Downloaded cacaos v0.5.1 (registry `tuna`)
+  Downloaded siwe v0.5.2 (registry `tuna`)
+  Downloaded serde_cbor v0.11.2 (registry `tuna`)
+  Downloaded serde_with v2.3.3 (registry `tuna`)
+  Downloaded serde_ipld_dagjson v0.2.0 (registry `tuna`)
+  Downloaded syn v2.0.72 (registry `tuna`)
+  Downloaded ssi-ldp v0.3.2 (registry `tuna`)
+  Downloaded ssi-vc v0.2.1 (registry `tuna`)
+  Downloaded ssi-contexts v0.1.6 (registry `tuna`)
+  Downloaded opentelemetry v0.21.0 (registry `tuna`)
+  Downloaded openssl-sys v0.9.103 (registry `tuna`)
+  Downloaded ssi-ucan v0.1.1 (registry `tuna`)
+  Downloaded ssi-dids v0.1.1 (registry `tuna`)
+  Downloaded ssi-crypto v0.1.1 (registry `tuna`)
+  Downloaded ssi-caips v0.1.0 (registry `tuna`)
+  Downloaded serde v1.0.204 (registry `tuna`)
+  Downloaded tonic v0.10.2 (registry `tuna`)
+  Downloaded publicsuffix v2.2.3 (registry `tuna`)
+  Downloaded toml_edit v0.20.2 (registry `tuna`)
+  Downloaded mio v1.0.1 (registry `tuna`)
+  Downloaded pest v2.7.11 (registry `tuna`)
+  Downloaded libm v0.2.8 (registry `tuna`)
+  Downloaded opentelemetry-proto v0.4.0 (registry `tuna`)
+  Downloaded tracing-opentelemetry v0.22.0 (registry `tuna`)
+  Downloaded redis v0.24.0 (registry `tuna`)
+  Downloaded tonic v0.9.2 (registry `tuna`)
+  Downloaded ssi-jwk v0.1.2 (registry `tuna`)
+  Downloaded nix v0.28.0 (registry `tuna`)
+  Downloaded ssi-tzkey v0.1.1 (registry `tuna`)
+  Downloaded ssi-jwt v0.1.1 (registry `tuna`)
+  Downloaded ssi-jws v0.1.1 (registry `tuna`)
+  Downloaded ssi-core v0.1.0 (registry `tuna`)
+  Downloaded ssi v0.7.0 (registry `tuna`)
+  Downloaded serde_bytes v0.11.15 (registry `tuna`)
+  Downloaded rustversion v1.0.17 (registry `tuna`)
+  Downloaded rustc_version v0.4.0 (registry `tuna`)
+  Downloaded pkcs8 v0.8.0 (registry `tuna`)
+  Downloaded ordered-float v4.2.2 (registry `tuna`)
+  Downloaded multihash-derive v0.9.0 (registry `tuna`)
+  Downloaded nng-sys v1.4.0-rc.0 (registry `tuna`)
+  Downloaded multihash-derive v0.8.0 (registry `tuna`)
+  Downloaded tungstenite v0.15.0 (registry `tuna`)
+  Downloaded multihash-codetable v0.1.3 (registry `tuna`)
+  Downloaded encoding_rs v0.8.34 (registry `tuna`)
+  Downloaded smallstr v0.3.0 (registry `tuna`)
+  Downloaded siwe-recap v0.1.0 (registry `tuna`)
+  Downloaded diffy v0.3.0 (registry `tuna`)
+  Downloaded derive_builder v0.9.0 (registry `tuna`)
+  Downloaded darling v0.13.4 (registry `tuna`)
+  Downloaded crypto-bigint v0.3.2 (registry `tuna`)
+  Downloaded cookie v0.17.0 (registry `tuna`)
+  Downloaded blake2b_simd v0.5.11 (registry `tuna`)
+  Downloaded async-trait v0.1.81 (registry `tuna`)
+  Downloaded json-ld-expansion v0.12.1 (registry `tuna`)
+ Downloading crates ...
+  Downloaded mockall v0.12.1 (registry `tuna`)
+ Downloading crates ...
+  Downloaded tower-test v0.4.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.86
+   Compiling unicode-ident v1.0.12
+    Checking cfg-if v1.0.0
+   Compiling version_check v0.9.5
+   Compiling libc v0.2.155
+   Compiling autocfg v1.3.0
+    Checking memchr v2.7.4
+   Compiling serde v1.0.204
+    Checking once_cell v1.19.0
+   Compiling syn v1.0.109
+    Checking byteorder v1.5.0
+   Compiling typenum v1.17.0
+    Checking pin-project-lite v0.2.14
+    Checking smallvec v1.13.2
+   Compiling generic-array v0.14.7
+   Compiling lock_api v0.4.12
+    Checking scopeguard v1.2.0
+    Checking futures-core v0.3.30
+    Checking zerocopy v0.7.35
+    Checking subtle v2.6.1
+   Compiling thiserror v1.0.63
+   Compiling cc v1.1.7
+    Checking itoa v1.0.11
+    Checking value-bag v1.9.0
+    Checking const-oid v0.9.6
+   Compiling slab v0.4.9
+    Checking futures-io v0.3.30
+    Checking bytes v1.6.1
+   Compiling quote v1.0.36
+    Checking log v0.4.22
+    Checking futures-sink v0.3.30
+   Compiling ahash v0.8.11
+   Compiling syn v2.0.72
+    Checking pin-utils v0.1.0
+    Checking futures-channel v0.3.30
+    Checking futures-task v0.3.30
+   Compiling parking_lot_core v0.9.10
+    Checking cpufeatures v0.2.12
+   Compiling libm v0.2.8
+   Compiling num-traits v0.2.19
+    Checking tracing-core v0.1.32
+    Checking base64ct v1.6.0
+    Checking ryu v1.0.18
+    Checking getrandom v0.2.15
+    Checking mio v1.0.1
+    Checking signal-hook-registry v1.4.2
+    Checking rand_core v0.6.4
+    Checking parking_lot v0.12.3
+    Checking socket2 v0.5.7
+   Compiling serde_json v1.0.121
+    Checking fnv v1.0.7
+    Checking percent-encoding v2.3.1
+    Checking static_assertions v1.1.0
+    Checking spin v0.9.8
+    Checking unsigned-varint v0.7.2
+   Compiling ahash v0.7.8
+   Compiling data-encoding v2.6.0
+    Checking http v0.2.12
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling crossbeam-utils v0.8.20
+   Compiling indexmap v1.9.3
+   Compiling proc-macro-error v1.0.4
+    Checking base-x v0.2.11
+    Checking mime v0.3.17
+    Checking hashbrown v0.12.3
+    Checking allocator-api2 v0.2.18
+    Checking equivalent v1.0.1
+    Checking bitflags v2.6.0
+    Checking arrayref v0.3.8
+   Compiling ident_case v1.0.1
+   Compiling semver v1.0.23
+    Checking lazy_static v1.5.0
+   Compiling httparse v1.9.4
+    Checking hashbrown v0.14.5
+    Checking adler v1.0.2
+    Checking miniz_oxide v0.7.4
+   Compiling rustc_version v0.4.0
+    Checking form_urlencoded v1.2.1
+    Checking iana-time-zone v0.1.60
+    Checking tower-service v0.3.2
+    Checking http-body v0.4.6
+    Checking pem-rfc7468 v0.7.0
+    Checking core2 v0.4.0
+    Checking hex v0.4.3
+    Checking try-lock v0.2.5
+    Checking opaque-debug v0.3.1
+    Checking lexical-util v0.8.5
+    Checking want v0.3.1
+    Checking indexmap v2.2.6
+   Compiling vcpkg v0.2.15
+    Checking bitflags v1.3.2
+   Compiling pkg-config v0.3.30
+    Checking httpdate v1.0.3
+   Compiling curve25519-dalek v4.1.3
+    Checking ff v0.13.0
+   Compiling toml_datetime v0.6.3
+   Compiling openssl-sys v0.9.103
+    Checking base16ct v0.2.0
+    Checking base64 v0.21.7
+   Compiling winnow v0.5.40
+   Compiling crunchy v0.2.2
+    Checking group v0.13.0
+   Compiling backtrace v0.3.73
+    Checking parking v2.2.0
+    Checking gimli v0.29.0
+    Checking keccak v0.1.5
+    Checking concurrent-queue v2.5.0
+    Checking hashbrown v0.13.2
+    Checking object v0.36.2
+    Checking lexical-write-integer v0.8.5
+    Checking lexical-parse-integer v0.8.6
+    Checking tinyvec_macros v0.1.1
+   Compiling anyhow v1.0.86
+    Checking rustc-demangle v0.1.24
+    Checking lexical-parse-float v0.8.5
+    Checking tinyvec v1.8.0
+    Checking lexical-write-float v0.8.5
+    Checking num-integer v0.1.46
+    Checking pem-rfc7468 v0.3.1
+    Checking utf8-decode v1.0.1
+    Checking const-oid v0.7.1
+    Checking contextual v0.1.6
+   Compiling tiny-keccak v2.0.2
+    Checking locspan v0.7.16
+    Checking pct-str v1.2.0
+    Checking lexical-core v0.8.5
+    Checking uint v0.9.5
+    Checking unicode-normalization v0.1.23
+    Checking fixed-hash v0.7.0
+    Checking ryu-js v0.2.2
+    Checking unicode-bidi v0.3.15
+    Checking primitive-types v0.9.1
+    Checking lexical v6.1.1
+    Checking foreign-types-shared v0.1.1
+   Compiling num-bigint-dig v0.8.4
+   Compiling ryu_floating_decimal v0.1.0
+   Compiling rustversion v1.0.17
+   Compiling openssl v0.10.66
+    Checking langtag v0.3.4
+    Checking addr2line v0.22.0
+    Checking foreign-types v0.3.2
+    Checking num-iter v0.1.45
+    Checking event-listener v5.3.1
+    Checking keccak-hash v0.7.0
+   Compiling data-encoding-macro-internal v0.1.13
+   Compiling derivative v2.2.0
+   Compiling serde_derive v1.0.204
+   Compiling zeroize_derive v1.4.2
+   Compiling thiserror-impl v1.0.63
+   Compiling futures-macro v0.3.30
+   Compiling zerocopy-derive v0.7.35
+   Compiling tracing-attributes v0.1.27
+    Checking zeroize v1.8.1
+    Checking futures-util v0.3.30
+    Checking ppv-lite86 v0.2.19
+   Compiling tokio-macros v2.4.0
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.6
+    Checking digest v0.10.7
+    Checking rand_chacha v0.3.1
+    Checking tokio v1.39.2
+    Checking tracing v0.1.40
+    Checking data-encoding-macro v0.1.15
+    Checking rand v0.8.5
+   Compiling async-trait v0.1.81
+    Checking sha2 v0.10.8
+    Checking hmac v0.12.1
+    Checking multibase v0.9.1
+    Checking signature v2.2.0
+    Checking digest v0.9.0
+    Checking block-buffer v0.9.0
+    Checking der v0.7.9
+    Checking crypto-bigint v0.5.5
+   Compiling curve25519-dalek-derive v0.1.1
+    Checking ed25519 v2.2.3
+    Checking sha3 v0.10.8
+    Checking rfc6979 v0.4.0
+    Checking crypto-bigint v0.3.2
+    Checking spki v0.7.3
+   Compiling locspan-derive v0.6.0
+    Checking pkcs8 v0.10.2
+    Checking sec1 v0.7.3
+    Checking der v0.5.1
+    Checking ed25519-dalek v2.1.1
+    Checking sha2 v0.9.9
+    Checking ripemd160 v0.9.1
+    Checking bs58 v0.4.0
+   Compiling toml_edit v0.19.15
+   Compiling openssl-macros v0.1.1
+    Checking elliptic-curve v0.13.8
+   Compiling pin-project-internal v1.1.5
+    Checking spki v0.5.4
+    Checking pkcs8 v0.8.0
+    Checking futures-executor v0.3.30
+    Checking smallstr v0.3.0
+    Checking ecdsa v0.16.9
+    Checking futures v0.3.30
+    Checking fastrand v2.1.0
+    Checking arrayvec v0.7.4
+    Checking decoded-char v0.1.1
+    Checking primeorder v0.13.6
+   Compiling iref v2.2.3
+    Checking pin-project v1.1.5
+    Checking pkcs1 v0.3.3
+    Checking event-listener-strategy v0.5.2
+    Checking k256 v0.13.3
+    Checking idna v0.5.0
+    Checking num-bigint v0.4.6
+    Checking ssi-crypto v0.1.1
+   Compiling ring v0.17.8
+    Checking tower-layer v0.3.2
+   Compiling rustix v0.38.34
+    Checking arrayvec v0.5.2
+   Compiling strsim v0.11.1
+    Checking sync_wrapper v0.1.2
+    Checking constant_time_eq v0.1.5
+    Checking base64 v0.12.3
+   Compiling darling_core v0.20.10
+    Checking blake2b_simd v0.5.11
+    Checking rsa v0.6.1
+    Checking url v2.5.2
+    Checking tokio-util v0.7.11
+   Compiling proc-macro-crate v1.3.1
+   Compiling static-iref v2.0.0
+    Checking pretty_dtoa v0.3.0
+    Checking chrono v0.4.38
+    Checking json-number v0.4.8
+    Checking h2 v0.3.26
+    Checking serde_bytes v0.11.15
+    Checking json-syntax v0.9.6
+    Checking p256 v0.13.2
+    Checking rdf-types v0.12.19
+    Checking futures-lite v2.3.0
+   Compiling num-derive v0.3.3
+    Checking aho-corasick v1.1.3
+    Checking regex-syntax v0.8.4
+    Checking simple_asn1 v0.5.4
+    Checking json-ld-syntax v0.12.1
+    Checking constant_time_eq v0.3.0
+    Checking powerfmt v0.2.0
+   Compiling io-lifetimes v1.0.11
+   Compiling num-conv v0.1.0
+   Compiling time-core v0.1.2
+    Checking permutohedron v0.2.4
+    Checking mown v0.2.2
+   Compiling unicode-xid v0.2.4
+   Compiling either v1.13.0
+    Checking linux-raw-sys v0.4.14
+   Compiling synstructure v0.12.6
+   Compiling time-macros v0.2.18
+   Compiling darling_macro v0.20.10
+    Checking deranged v0.3.11
+    Checking ssi-jwk v0.1.2
+    Checking serde_urlencoded v0.7.1
+    Checking json-ld-core v0.12.1
+    Checking multihash v0.19.1
+   Compiling blake3 v1.5.3
+   Compiling polling v2.8.0
+   Compiling unicase v2.7.0
+    Checking untrusted v0.9.0
+   Compiling strsim v0.9.3
+   Compiling rustix v0.37.27
+    Checking event-listener v2.5.3
+    Checking async-task v4.7.1
+    Checking atomic-waker v1.1.2
+   Compiling darling_core v0.10.2
+    Checking piper v0.2.3
+    Checking time v0.3.36
+    Checking regex-automata v0.4.7
+   Compiling darling v0.20.10
+    Checking async-channel v2.3.1
+    Checking async-lock v3.4.0
+    Checking socket2 v0.4.10
+   Compiling async-io v1.13.0
+    Checking crc32fast v1.4.2
+    Checking hyper v0.14.30
+    Checking waker-fn v1.2.0
+    Checking fastrand v1.9.0
+    Checking linux-raw-sys v0.3.8
+    Checking json-ld-context-processing v0.12.1
+    Checking futures-lite v1.13.0
+    Checking flate2 v1.0.30
+   Compiling darling_macro v0.10.2
+    Checking blocking v1.6.1
+    Checking json-ld-expansion v0.12.1
+    Checking regex v1.10.5
+    Checking async-executor v1.13.0
+    Checking async-lock v2.8.0
+   Compiling multihash-derive v0.8.0
+    Checking blake2b_simd v1.0.2
+    Checking blake2s_simd v1.0.2
+    Checking tower v0.4.13
+    Checking serde-big-array v0.3.3
+    Checking tokio-io-timeout v1.2.0
+    Checking der v0.6.1
+   Compiling rustls v0.21.12
+   Compiling native-tls v0.2.12
+    Checking json-ld-compaction v0.12.1
+    Checking multihash v0.16.3
+   Compiling darling v0.10.2
+    Checking rustls-webpki v0.101.7
+    Checking sct v0.7.1
+    Checking async-channel v1.9.0
+    Checking tokio-stream v0.1.15
+   Compiling axum-core v0.3.4
+   Compiling async-attributes v1.1.2
+   Compiling clear_on_drop v0.2.5
+    Checking kv-log-macro v1.0.7
+    Checking spki v0.6.0
+   Compiling cookie v0.17.0
+    Checking openssl-probe v0.1.5
+    Checking polling v3.7.2
+   Compiling derive_builder v0.9.0
+    Checking base64 v0.22.1
+    Checking pkcs8 v0.9.0
+   Compiling mime_guess v2.0.5
+    Checking json-ld v0.12.1
+    Checking async-io v2.3.3
+    Checking cid v0.8.6
+   Compiling derive_builder_core v0.9.0
+    Checking grdf v0.16.3
+   Compiling axum v0.6.20
+    Checking crypto-bigint v0.4.9
+    Checking idna v0.3.0
+   Compiling serde_derive_internals v0.29.1
+    Checking ff v0.12.1
+    Checking async-global-executor v2.4.1
+    Checking async-std v1.12.0
+    Checking combination v0.1.5
+    Checking ssi-contexts v0.1.6
+    Checking psl-types v2.0.11
+    Checking base16ct v0.1.1
+   Compiling schemars v0.8.21
+    Checking sec1 v0.3.0
+    Checking publicsuffix v2.2.3
+    Checking group v0.12.1
+    Checking libipld-core v0.14.0
+    Checking tokio-native-tls v0.3.1
+   Compiling schemars_derive v0.8.21
+    Checking ssi-caips v0.1.0
+    Checking ssi-core v0.1.0
+    Checking ordered-float v2.10.1
+    Checking blake2 v0.10.6
+    Checking multibase v0.8.0
+    Checking tokio-rustls v0.24.1
+    Checking dyn-clone v1.0.17
+    Checking urlencoding v2.1.3
+    Checking matchit v0.7.3
+    Checking opentelemetry v0.21.0
+    Checking ssi-jws v0.1.1
+    Checking cookie_store v0.20.0
+    Checking hyper-timeout v0.4.1
+    Checking hyper-rustls v0.24.2
+    Checking hyper-tls v0.5.0
+    Checking elliptic-curve v0.12.3
+    Checking rfc6979 v0.3.1
+    Checking async-compression v0.4.12
+   Compiling itertools v0.12.1
+    Checking signature v1.6.4
+    Checking ssi-json-ld v0.2.2
+    Checking rustls-pemfile v1.0.4
+    Checking crossbeam-channel v0.5.13
+    Checking encoding_rs v0.8.34
+    Checking base64 v0.13.1
+    Checking ipnet v2.9.0
+    Checking webpki-roots v0.25.4
+    Checking ssi-dids v0.1.1
+   Compiling strsim v0.10.0
+   Compiling ucd-trie v0.1.6
+    Checking overload v0.1.1
+    Checking nu-ansi-term v0.46.0
+   Compiling pest v2.7.11
+   Compiling darling_core v0.13.4
+    Checking ecdsa v0.14.8
+   Compiling serde_with_macros v2.3.3
+   Compiling itertools v0.10.5
+    Checking reqwest v0.11.27
+    Checking ordered-float v4.2.2
+    Checking quick-protobuf v0.8.1
+    Checking glob v0.3.1
+    Checking unsigned-varint v0.8.0
+    Checking regex-syntax v0.6.29
+    Checking hashbrown v0.11.2
+    Checking opentelemetry_sdk v0.21.2
+    Checking cid v0.11.1
+   Compiling pest_meta v2.7.11
+   Compiling prost-derive v0.12.6
+    Checking cached v0.30.0
+   Compiling darling_macro v0.13.4
+    Checking serde_with v2.3.3
+    Checking k256 v0.11.6
+   Compiling prost-derive v0.11.9
+    Checking libipld-json v0.14.0
+    Checking libipld-macro v0.14.0
+    Checking libipld-cbor v0.14.0
+   Compiling libipld-cbor-derive v0.14.0
+    Checking iri-string v0.6.0
+    Checking prost v0.12.6
+    Checking regex-automata v0.1.10
+    Checking hkdf v0.12.4
+   Compiling async-stream-impl v0.3.5
+   Compiling radium v0.6.2
+   Compiling protobuf v2.28.0
+   Compiling k8s-openapi v0.21.1
+    Checking bs58 v0.5.1
+   Compiling tokio-openssl v0.6.4
+    Checking async-stream v0.3.5
+    Checking prost v0.11.9
+    Checking libp2p-identity v0.2.9
+    Checking libipld v0.14.0
+   Compiling pest_generator v2.7.11
+    Checking matchers v0.1.0
+   Compiling darling v0.13.4
+    Checking ipld-core v0.4.1
+    Checking ssi-tzkey v0.1.1
+    Checking serde-value v0.7.0
+    Checking serde_jcs v0.1.0
+    Checking tracing-serde v0.1.3
+   Compiling toml_edit v0.20.2
+    Checking sharded-slab v0.1.7
+    Checking tracing-log v0.2.0
+    Checking thread_local v1.1.8
+    Checking linked-hash-map v0.5.6
+    Checking siwe v0.5.2
+    Checking minimal-lexical v0.2.1
+    Checking utf8parse v0.2.2
+   Compiling hyper-openssl v0.9.2
+   Compiling prometheus v0.13.4
+    Checking anstyle-parse v0.2.5
+    Checking linked_hash_set v0.1.4
+    Checking nom v7.1.3
+   Compiling pest_derive v2.7.11
+    Checking tracing-subscriber v0.3.18
+    Checking ssi-ldp v0.3.2
+    Checking ssi-jwt v0.1.1
+   Compiling serde_with_macros v1.5.2
+    Checking prost-types v0.12.6
+    Checking json-patch v1.4.0
+   Compiling synstructure v0.13.1
+    Checking anstyle v1.0.8
+    Checking half v1.8.3
+   Compiling proc-macro-crate v2.0.2
+    Checking colorchoice v1.0.2
+    Checking funty v1.1.0
+    Checking tap v1.0.1
+    Checking anstyle-query v1.1.1
+    Checking wyz v0.2.0
+    Checking http-range-header v0.3.1
+    Checking is_terminal_polyfill v1.70.1
+    Checking unsafe-libyaml v0.2.11
+    Checking anstream v0.6.15
+    Checking tower-http v0.4.4
+   Compiling multihash-derive-impl v0.1.1
+    Checking hdrhistogram v7.5.4
+    Checking bitvec v0.20.4
+    Checking jsonpath-rust v0.4.0
+    Checking serde_with v1.14.0
+    Checking serde_yaml v0.9.34+deprecated
+    Checking cacaos v0.5.1
+    Checking siwe-recap v0.1.0
+    Checking opentelemetry-semantic-conventions v0.13.0
+    Checking sshkeys v0.3.3
+    Checking pem v3.0.4
+    Checking secrecy v0.8.0
+    Checking cbor4ii v0.2.14
+   Compiling cmake v0.1.50
+    Checking instant v0.1.13
+   Compiling heck v0.5.0
+    Checking humantime v2.1.0
+   Compiling minicbor v0.19.1
+    Checking home v0.5.9
+   Compiling cfg_aliases v0.1.1
+    Checking clap_lex v0.7.2
+   Compiling nix v0.28.0
+   Compiling clap_derive v4.5.11
+    Checking clap_builder v4.5.11
+    Checking serde_ipld_dagcbor v0.6.1
+   Compiling nng-sys v1.4.0-rc.0
+    Checking backoff v0.4.0
+    Checking ssi-ssh v0.1.0
+    Checking ssi-ucan v0.1.1
+    Checking opentelemetry-prometheus v0.14.1
+    Checking multihash-derive v0.9.0
+    Checking ssi-zcap-ld v0.1.2
+    Checking ssi-vc v0.2.1
+    Checking tracing-opentelemetry v0.22.0
+   Compiling int-enum-impl v0.5.0
+    Checking sha-1 v0.9.8
+   Compiling minicbor-derive v0.13.0
+    Checking gethostname v0.4.3
+    Checking bech32 v0.8.1
+    Checking utf-8 v0.7.6
+    Checking int-enum v0.5.0
+    Checking multihash-codetable v0.1.3
+    Checking did-pkh v0.2.1
+error: failed to run custom build command for `nng-sys v1.4.0-rc.0`
+
+Caused by:
+  process didn't exit successfully: `/tmp/3box_keramik_x2ks4cye/target/debug/build/nng-sys-9c02207b56996a24/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rustc-cfg=try_from
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+  CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-unknown-linux-gnu = None
+  CMAKE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE = None
+  CMAKE = None
+  running: cd "/tmp/3box_keramik_x2ks4cye/target/debug/build/nng-sys-12f04057d4df499c/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/nng-sys-1.4.0-rc.0/nng" "-DNNG_TESTS=OFF" "-DNNG_TOOLS=OFF" "-DNNG_ENABLE_STATS=OFF" "-DNNG_ENABLE_TLS=OFF" "-DCMAKE_INSTALL_PREFIX=/tmp/3box_keramik_x2ks4cye/target/debug/build/nng-sys-12f04057d4df499c/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/g++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_ASM_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_BUILD_TYPE=Debug"
+
+  --- stderr
+
+  thread 'main' (91780) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/cmake-0.1.50/src/lib.rs:1098:5:
+
+  failed to execute command: No such file or directory (os error 2)
+  is `cmake` not installed?
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

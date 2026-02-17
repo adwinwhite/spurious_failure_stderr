@@ -1,0 +1,440 @@
+Running as unit: run-p1973560-i14553668.scope; invocation ID: 2c714b2fd52b4dfe84c88dbaf687a00e
+   Compiling proc-macro2 v1.0.89
+   Compiling unicode-ident v1.0.14
+   Compiling serde v1.0.215
+    Checking cfg-if v1.0.0
+    Checking once_cell v1.20.2
+   Compiling libc v0.2.164
+   Compiling shlex v1.3.0
+    Checking itoa v1.0.13
+    Checking value-bag v1.10.0
+    Checking pin-project-lite v0.2.15
+    Checking bitflags v2.6.0
+   Compiling autocfg v1.4.0
+    Checking foldhash v0.1.3
+    Checking log v0.4.22
+    Checking hashbrown v0.15.1
+    Checking equivalent v1.0.1
+   Compiling crossbeam-utils v0.8.20
+    Checking memchr v2.7.4
+   Compiling quote v1.0.37
+   Compiling jobserver v0.1.32
+   Compiling syn v2.0.87
+   Compiling cc v1.2.1
+   Compiling rustix v0.38.41
+    Checking linux-raw-sys v0.4.14
+    Checking tracing-core v0.1.32
+   Compiling version_check v0.9.5
+    Checking futures-core v0.3.31
+   Compiling anyhow v1.0.93
+    Checking futures-io v0.3.31
+   Compiling slab v0.4.9
+    Checking concurrent-queue v2.5.0
+   Compiling pkg-config v0.3.31
+    Checking parking v2.2.1
+   Compiling thiserror v1.0.69
+    Checking event-listener v5.3.1
+    Checking bytes v1.8.0
+   Compiling ahash v0.8.11
+    Checking byteorder v1.5.0
+   Compiling semver v1.0.23
+    Checking fastrand v2.2.0
+   Compiling serde_json v1.0.133
+    Checking event-listener-strategy v0.5.2
+    Checking socket2 v0.5.7
+    Checking mio v1.0.2
+    Checking futures-sink v0.3.31
+    Checking pin-utils v0.1.0
+    Checking futures-channel v0.3.31
+   Compiling zstd-sys v2.0.13+zstd.1.5.6
+    Checking futures-lite v2.5.0
+    Checking ryu v1.0.18
+    Checking futures-task v0.3.31
+    Checking async-lock v3.4.0
+    Checking crc32fast v1.4.2
+    Checking winnow v0.6.20
+   Compiling zstd-safe v7.2.1
+    Checking async-task v4.7.1
+    Checking async-channel v2.3.1
+   Compiling openssl-src v300.4.1+3.4.0
+    Checking getrandom v0.2.15
+    Checking atomic-waker v1.1.2
+   Compiling vcpkg v0.2.15
+   Compiling syn v1.0.109
+    Checking piper v0.2.4
+    Checking blocking v1.6.1
+   Compiling openssl-sys v0.9.104
+    Checking signal-hook-registry v1.4.2
+   Compiling cranelift-isle v0.113.1
+    Checking regex-syntax v0.6.29
+   Compiling synstructure v0.13.1
+    Checking regex-syntax v0.8.5
+   Compiling typenum v1.17.0
+    Checking regex-automata v0.1.10
+   Compiling serde_derive v1.0.215
+   Compiling tracing-attributes v0.1.27
+   Compiling thiserror-impl v1.0.69
+    Checking tracing v0.1.40
+   Compiling zerocopy-derive v0.7.35
+   Compiling tokio-macros v2.4.0
+   Compiling futures-macro v0.3.31
+    Checking tokio v1.41.1
+    Checking zerocopy v0.7.35
+    Checking futures-util v0.3.31
+    Checking polling v3.7.4
+    Checking async-io v2.4.0
+   Compiling async-trait v0.1.83
+   Compiling zerofrom-derive v0.1.4
+    Checking async-signal v0.2.10
+    Checking regex-automata v0.4.9
+    Checking tokio-util v0.7.12
+    Checking zerofrom v0.1.4
+   Compiling yoke-derive v0.7.4
+   Compiling wasmtime-versioned-export-macros v26.0.1
+    Checking async-executor v1.13.1
+    Checking indexmap v2.6.0
+    Checking smallvec v1.13.2
+    Checking toml_datetime v0.6.8
+    Checking serde_spanned v0.6.8
+    Checking hashbrown v0.14.5
+    Checking toml_edit v0.22.22
+    Checking cranelift-bitset v0.113.1
+   Compiling generic-array v0.14.7
+   Compiling io-lifetimes v2.0.3
+   Compiling openssl v0.10.68
+    Checking overload v0.1.1
+   Compiling target-lexicon v0.12.16
+    Checking lazy_static v1.5.0
+    Checking event-listener v2.5.3
+   Compiling cranelift-codegen-shared v0.113.1
+   Compiling libm v0.2.11
+    Checking stable_deref_trait v1.2.0
+    Checking foreign-types-shared v0.1.1
+    Checking foreign-types v0.3.2
+    Checking yoke v0.7.4
+    Checking async-channel v1.9.0
+   Compiling cranelift-codegen-meta v0.113.1
+    Checking sharded-slab v0.1.7
+    Checking nu-ansi-term v0.46.0
+    Checking zstd v0.13.2
+    Checking cranelift-entity v0.113.1
+    Checking gimli v0.31.1
+    Checking async-global-executor v2.4.1
+    Checking toml v0.8.19
+    Checking regex v1.11.1
+    Checking async-process v2.3.0
+   Compiling async-attributes v1.1.2
+    Checking matchers v0.1.0
+   Compiling pin-project-internal v1.1.7
+   Compiling zerovec-derive v0.10.3
+   Compiling openssl-macros v0.1.1
+   Compiling rustc_version v0.4.1
+    Checking tracing-log v0.2.0
+    Checking kv-log-macro v1.0.7
+    Checking thread_local v1.1.8
+    Checking bumpalo v3.16.0
+   Compiling fnv v1.0.7
+   Compiling snap v1.1.1
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+    Checking adler2 v2.0.0
+    Checking static_assertions v1.1.0
+    Checking leb128 v0.2.5
+   Compiling darling_core v0.20.10
+    Checking twox-hash v1.6.3
+    Checking miniz_oxide v0.8.0
+    Checking tracing-subscriber v0.3.18
+    Checking zerovec v0.10.4
+    Checking async-std v1.13.0
+    Checking pin-project v1.1.7
+   Compiling crc32c v0.6.8
+   Compiling cranelift-codegen v0.113.1
+    Checking fluvio-types v0.5.2 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+    Checking async-net v2.0.0
+   Compiling displaydoc v0.2.5
+    Checking ipnet v2.10.1
+   Compiling eyre v0.6.12
+   Compiling io-extras v0.18.3
+    Checking slice-group-by v0.3.1
+    Checking rustc-hash v2.0.0
+    Checking arbitrary v1.4.1
+    Checking regalloc2 v0.10.2
+   Compiling darling_macro v0.20.10
+    Checking cranelift-control v0.113.1
+    Checking flate2 v1.0.35
+    Checking lz4_flex v0.11.3
+    Checking cranelift-bforest v0.113.1
+   Compiling cpp_demangle v0.4.4
+    Checking indenter v0.3.3
+    Checking cobs v0.2.3
+   Compiling cap-primitives v3.4.1
+    Checking base64 v0.21.7
+   Compiling heck v0.5.0
+    Checking ambient-authority v0.0.2
+    Checking postcard v1.0.10
+   Compiling wasmparser v0.218.0
+    Checking fluvio-compression v0.3.4 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+   Compiling fluvio-protocol-derive v0.5.4 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+   Compiling darling v0.20.10
+    Checking tinystr v0.7.6
+    Checking fs-set-times v0.20.1
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking object v0.36.5
+    Checking flv-util v0.5.2
+   Compiling ittapi-sys v0.4.0
+   Compiling ring v0.17.8
+    Checking crossbeam-epoch v0.9.18
+    Checking content_inspector v0.2.4
+   Compiling dirs-sys v0.3.7
+    Checking termcolor v1.4.1
+   Compiling id-arena v2.2.1
+   Compiling unicode-xid v0.2.6
+   Compiling paste v1.0.15
+    Checking writeable v0.5.5
+   Compiling rayon-core v1.12.1
+    Checking maybe-owned v0.3.4
+    Checking either v1.13.0
+    Checking litemap v0.7.3
+    Checking icu_locid v1.5.0
+   Compiling wast v35.0.2
+    Checking wasmprinter v0.218.0
+   Compiling dirs v4.0.0
+    Checking crossbeam-deque v0.8.5
+   Compiling wit-parser v0.218.0
+    Checking digest v0.10.7
+   Compiling derive_builder_core v0.20.2
+    Checking wasm-encoder v0.218.0
+    Checking wasm-encoder v0.220.0
+   Compiling wasmtime-fiber v26.0.1
+   Compiling icu_provider_macros v1.5.0
+    Checking dirs-sys-next v0.1.2
+    Checking encoding_rs v0.8.35
+    Checking wasmtime-component-util v26.0.1
+    Checking rustc-demangle v0.1.24
+    Checking cpufeatures v0.2.15
+    Checking uuid v1.11.0
+   Compiling cap-std v3.4.1
+   Compiling wasmtime-component-macro v26.0.1
+   Compiling wasmtime-cache v26.0.1
+    Checking unicode-width v0.2.0
+    Checking wast v220.0.0
+    Checking debugid v0.8.0
+    Checking sha2 v0.10.8
+    Checking wasmtime-environ v26.0.1
+    Checking directories-next v2.0.0
+    Checking icu_provider v1.5.0
+   Compiling witx v0.9.1
+   Compiling wasmtime-wit-bindgen v26.0.1
+   Compiling derive_builder_macro v0.20.2
+   Compiling shellexpand v2.1.2
+    Checking itertools v0.12.1
+   Compiling wasmtime v26.0.1
+    Checking ppv-lite86 v0.2.20
+    Checking rand_core v0.6.4
+    Checking fxhash v0.2.1
+   Compiling num-traits v0.2.19
+    Checking wasmtime-asm-macros v26.0.1
+    Checking untrusted v0.9.0
+    Checking cranelift-frontend v0.113.1
+    Checking cranelift-native v0.113.1
+    Checking icu_locid_transform_data v1.5.0
+    Checking unsafe-libyaml v0.2.11
+    Checking spin v0.9.8
+   Compiling wiggle-macro v26.0.1
+    Checking wasmtime-cranelift v26.0.1
+    Checking serde_yaml v0.9.34+deprecated
+    Checking icu_locid_transform v1.5.0
+    Checking fxprof-processed-profile v0.6.0
+    Checking rand_chacha v0.3.1
+    Checking rayon v1.10.0
+   Compiling wiggle-generate v26.0.1
+    Checking ittapi v0.4.0
+    Checking derive_builder v0.20.2
+    Checking wasmtime-jit-debug v26.0.1
+    Checking icu_collections v1.5.0
+    Checking addr2line v0.24.2
+    Checking k8-types v0.8.7
+    Checking lenient_semver_version_builder v0.4.2
+    Checking memfd v0.6.4
+    Checking wasmtime-jit-icache-coherence v26.0.1
+    Checking humantime v2.1.0
+    Checking sptr v0.3.2
+    Checking wasmtime-slab v26.0.1
+   Compiling cfg_aliases v0.2.1
+   Compiling system-interface v0.27.2
+    Checking iana-time-zone v0.1.61
+   Compiling cap-fs-ext v3.4.1
+    Checking icu_properties_data v1.5.0
+    Checking icu_properties v1.5.1
+   Compiling nix v0.29.0
+    Checking wat v1.220.0
+    Checking humantime-serde v1.1.1
+    Checking http v0.2.12
+    Checking lenient_semver_parser v0.4.2
+    Checking rand v0.8.5
+    Checking fluvio-stream-model v0.11.4 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+    Checking bytesize v1.3.0
+   Compiling fluvio-smartmodule-derive v0.6.4 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+   Compiling lock_api v0.4.12
+   Compiling rustls v0.21.12
+   Compiling httparse v1.9.5
+    Checking icu_normalizer_data v1.5.0
+   Compiling parking_lot_core v0.9.10
+    Checking utf8_iter v1.0.4
+   Compiling built v0.7.5
+    Checking utf16_iter v1.0.5
+    Checking write16 v1.0.0
+    Checking icu_normalizer v1.5.0
+    Checking cap-rand v3.4.1
+    Checking lenient_semver v0.4.2
+   Compiling fluvio-socket v0.15.0 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+    Checking cap-time-ext v3.4.1
+    Checking rustls-webpki v0.101.7
+    Checking sct v0.7.1
+   Compiling enum-ordinalize-derive v4.3.1
+    Checking base64 v0.22.1
+    Checking percent-encoding v2.3.1
+    Checking try-lock v0.2.5
+    Checking scopeguard v1.2.0
+    Checking want v0.3.1
+    Checking form_urlencoded v1.2.1
+    Checking idna_adapter v1.2.0
+   Compiling enum-ordinalize v4.3.0
+    Checking h2 v0.3.26
+    Checking http-body v0.4.6
+    Checking option-ext v0.2.0
+    Checking tower-service v0.3.3
+    Checking httpdate v1.0.3
+    Checking dirs-sys v0.4.1
+    Checking parking_lot v0.12.3
+   Compiling educe v0.6.0
+    Checking idna v1.0.3
+    Checking tempfile v3.14.0
+   Compiling fluvio v0.24.0 (https://github.com/infinyon/fluvio?rev=v0.13.0#8bf23799)
+    Checking aho-corasick v1.1.3
+    Checking tokio-rustls v0.24.1
+    Checking url v2.5.3
+    Checking minijinja v1.0.21
+    Checking dirs v5.0.1
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/environment.rs:686:34
+    |
+686 |             .insert(name.into(), filters::BoxedFilter::new(f));
+    |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |                                  |
+    |                                  cannot infer type of the type parameter `Args` declared on the associated function `new`
+    |
+    = note: cannot satisfy `F: filters::Filter<Rv, _>`
+    = help: the following types implement trait `filters::Filter<Rv, Args>`:
+              `Func` implements `filters::Filter<Rv, ()>`
+              `Func` implements `filters::Filter<Rv, (A, B)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C, D)>`
+              `Func` implements `filters::Filter<Rv, (A, B, C, D, E)>`
+              `Func` implements `filters::Filter<Rv, (A,)>`
+note: required by a bound in `BoxedFilter::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/filters.rs:238:12
+    |
+236 |     pub fn new<F, Rv, Args>(f: F) -> BoxedFilter
+    |            --- required by a bound in this associated function
+237 |     where
+238 |         F: Filter<Rv, Args> + for<'a> Filter<Rv, <Args as FunctionArgs<'a>>::Output>,
+    |            ^^^^^^^^^^^^^^^^ required by this bound in `BoxedFilter::new`
+help: consider specifying the generic arguments
+    |
+686 |             .insert(name.into(), filters::BoxedFilter::new::<F, Rv, Args>(f));
+    |                                                           +++++++++++++++
+
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/environment.rs:707:40
+    |
+707 |         self.tests.insert(name.into(), tests::BoxedTest::new(f));
+    |                                        ^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |                                        |
+    |                                        cannot infer type of the type parameter `Args` declared on the associated function `new`
+    |
+    = note: cannot satisfy `F: tests::Test<Rv, _>`
+    = help: the following types implement trait `tests::Test<Rv, Args>`:
+              `Func` implements `tests::Test<Rv, ()>`
+              `Func` implements `tests::Test<Rv, (A, B)>`
+              `Func` implements `tests::Test<Rv, (A, B, C)>`
+              `Func` implements `tests::Test<Rv, (A, B, C, D)>`
+              `Func` implements `tests::Test<Rv, (A, B, C, D, E)>`
+              `Func` implements `tests::Test<Rv, (A,)>`
+note: required by a bound in `BoxedTest::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/tests.rs:184:12
+    |
+182 |     pub fn new<F, Rv, Args>(f: F) -> BoxedTest
+    |            --- required by a bound in this associated function
+183 |     where
+184 |         F: Test<Rv, Args> + for<'a> Test<Rv, <Args as FunctionArgs<'a>>::Output>,
+    |            ^^^^^^^^^^^^^^ required by this bound in `BoxedTest::new`
+help: consider specifying the generic arguments
+    |
+707 |         self.tests.insert(name.into(), tests::BoxedTest::new::<F, Rv, Args>(f));
+    |                                                             +++++++++++++++
+
+    Checking serde_urlencoded v0.7.1
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/environment.rs:730:38
+    |
+730 |         self.add_global(name.into(), Value::from_function(f))
+    |                                      ^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |                                      |
+    |                                      cannot infer type of the type parameter `Args` declared on the associated function `from_function`
+    |
+    = note: cannot satisfy `F: Function<Rv, _>`
+    = help: the following types implement trait `Function<Rv, Args>`:
+              `Func` implements `Function<Rv, ()>`
+              `Func` implements `Function<Rv, (A, B)>`
+              `Func` implements `Function<Rv, (A, B, C)>`
+              `Func` implements `Function<Rv, (A, B, C, D)>`
+              `Func` implements `Function<Rv, (A, B, C, D, E)>`
+              `Func` implements `Function<Rv, (A,)>`
+note: required by a bound in `Value::from_function`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/value/mod.rs:750:12
+    |
+747 |     pub fn from_function<F, Rv, Args>(f: F) -> Value
+    |            ------------- required by a bound in this associated function
+...
+750 |         F: functions::Function<Rv, Args>
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Value::from_function`
+help: consider specifying the generic arguments
+    |
+730 |         self.add_global(name.into(), Value::from_function::<F, Rv, Args>(f))
+    |                                                          +++++++++++++++
+
+    Checking chrono v0.4.38
+error[E0283]: type annotations needed
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/value/mod.rs:755:9
+    |
+755 |         functions::BoxedFunction::new(f).to_value()
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ - type must be known at this point
+    |         |
+    |         cannot infer type of the type parameter `Args` declared on the associated function `new`
+    |
+    = note: cannot satisfy `F: Function<Rv, _>`
+    = help: the following types implement trait `Function<Rv, Args>`:
+              `Func` implements `Function<Rv, ()>`
+              `Func` implements `Function<Rv, (A, B)>`
+              `Func` implements `Function<Rv, (A, B, C)>`
+              `Func` implements `Function<Rv, (A, B, C, D)>`
+              `Func` implements `Function<Rv, (A, B, C, D, E)>`
+              `Func` implements `Function<Rv, (A,)>`
+note: required by a bound in `BoxedFunction::new`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/minijinja-1.0.21/src/functions.rs:213:12
+    |
+211 |     pub fn new<F, Rv, Args>(f: F) -> BoxedFunction
+    |            --- required by a bound in this associated function
+212 |     where
+213 |         F: Function<Rv, Args> + for<'a> Function<Rv, <Args as FunctionArgs<'a>>::Output>,
+    |            ^^^^^^^^^^^^^^^^^^ required by this bound in `BoxedFunction::new`
+help: consider specifying the generic arguments
+    |
+755 |         functions::BoxedFunction::new::<F, Rv, Args>(f).to_value()
+    |                                      +++++++++++++++
+
+For more information about this error, try `rustc --explain E0283`.
+error: could not compile `minijinja` (lib) due to 4 previous errors
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,20 @@
+    Updating `tuna` index
+error: failed to get `polars-lazy` as a dependency of package `polars v0.43.1`
+    ... which satisfies dependency `polars = "^0.43.1"` (locked to 0.43.1) of package `google_search_rs v0.1.0 (/tmp/ChiragChauhan4579_google_search_rs_0dd6chkz)`
+
+Caused by:
+  failed to query replaced source registry `crates-io`
+
+Caused by:
+  download of po/la/polars-lazy failed
+
+Caused by:
+  failed to get successful HTTP response from `https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/po/la/polars-lazy` (101.6.15.130), got 403
+  body:
+  <!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"></head><body><main><div class="language-section"><h1>
+  <span lang="zh">抱歉，您目前无法访问此页面</span><br>
+  <span lang="en">Sorry, you've been denied access to this page</span><br>
+  <span lang="fr">Désolé, l'accès à cette page vous a été refusé</span><br>
+  <span lang="de">Entschuldigung, Ihnen wurde der Zugang zu dieser Seite verweigert</span><br>
+  <span lang="es">Lo sentimos, se le ha denegado el acceso a esta página</span><br>
+  <span lang="ja">申し訳ございませんが、このページ…

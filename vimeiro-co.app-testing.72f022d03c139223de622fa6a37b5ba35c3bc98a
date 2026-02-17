@@ -1,0 +1,879 @@
+Running as unit: run-p2829679-i15409753.scope; invocation ID: 8321f46c7c4d46108acc65e4e61de4d2
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.165
+    Checking cfg-if v1.0.0
+   Compiling serde v1.0.215
+   Compiling version_check v0.9.5
+    Checking pin-project-lite v0.2.15
+    Checking once_cell v1.20.2
+   Compiling autocfg v1.4.0
+    Checking log v0.4.22
+    Checking bytes v1.8.0
+   Compiling typenum v1.17.0
+   Compiling generic-array v0.14.7
+    Checking smallvec v1.13.2
+    Checking byteorder v1.5.0
+    Checking futures-core v0.3.31
+    Checking itoa v1.0.14
+   Compiling quote v1.0.37
+    Checking getrandom v0.2.15
+   Compiling syn v2.0.89
+    Checking rand_core v0.6.4
+    Checking mio v1.0.2
+    Checking stable_deref_trait v1.2.0
+    Checking socket2 v0.5.7
+   Compiling siphasher v0.3.11
+    Checking tracing-core v0.1.32
+    Checking memchr v2.7.4
+    Checking writeable v0.5.5
+   Compiling shlex v1.3.0
+    Checking litemap v0.7.4
+   Compiling cc v1.2.1
+   Compiling phf_shared v0.11.2
+   Compiling pkg-config v0.3.31
+   Compiling vcpkg v0.2.15
+   Compiling hashbrown v0.15.2
+   Compiling equivalent v1.0.1
+   Compiling thiserror v1.0.69
+    Checking crypto-common v0.1.6
+    Checking subtle v2.6.1
+   Compiling lock_api v0.4.12
+   Compiling indexmap v2.6.0
+   Compiling parking_lot_core v0.9.10
+   Compiling winnow v0.6.20
+    Checking ryu v1.0.18
+    Checking icu_locid_transform_data v1.5.0
+    Checking fnv v1.0.7
+    Checking http v1.1.0
+   Compiling phf_shared v0.10.0
+    Checking icu_properties_data v1.5.0
+    Checking scopeguard v1.2.0
+    Checking block-buffer v0.10.4
+    Checking icu_normalizer_data v1.5.0
+    Checking new_debug_unreachable v1.0.6
+    Checking utf8_iter v1.0.4
+    Checking utf16_iter v1.0.5
+    Checking percent-encoding v2.3.1
+    Checking write16 v1.0.0
+    Checking cpufeatures v0.2.16
+    Checking parking_lot v0.12.3
+    Checking digest v0.10.7
+    Checking block-padding v0.3.3
+    Checking form_urlencoded v1.2.1
+    Checking aho-corasick v1.1.3
+   Compiling slab v0.4.9
+   Compiling semver v1.0.23
+    Checking regex-syntax v0.8.5
+   Compiling serde_json v1.0.133
+    Checking mac v0.1.1
+    Checking futf v0.1.5
+    Checking inout v0.1.3
+    Checking precomputed-hash v0.1.1
+    Checking base64 v0.22.1
+   Compiling typewit_proc_macros v1.8.1
+    Checking utf-8 v0.7.6
+    Checking tendril v0.4.3
+    Checking typewit v1.9.0
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+   Compiling js_int v0.2.2
+    Checking powerfmt v0.2.0
+    Checking konst_kernel v0.3.12
+    Checking deranged v0.3.11
+   Compiling rustc_version v0.4.1
+   Compiling openssl-sys v0.9.104
+    Checking regex-automata v0.4.9
+   Compiling num-traits v0.2.19
+    Checking const_panic v0.2.10
+   Compiling paste v1.0.15
+    Checking wildmatch v2.4.0
+   Compiling either v1.13.0
+    Checking as_variant v1.2.0
+    Checking time-core v0.1.2
+    Checking num-conv v0.1.0
+   Compiling anyhow v1.0.93
+    Checking konst v0.3.14
+    Checking time v0.3.36
+   Compiling curve25519-dalek v4.1.3
+   Compiling proc-macro-error-attr2 v2.0.0
+    Checking uuid v1.11.0
+    Checking bitmaps v3.2.1
+    Checking web-time v1.1.0
+   Compiling proc-macro-error2 v2.0.1
+   Compiling synstructure v0.13.1
+    Checking regex v1.11.1
+    Checking imbl-sized-chunks v0.1.2
+    Checking hmac v0.12.1
+    Checking universal-hash v0.5.1
+    Checking rand_xoshiro v0.6.0
+   Compiling ahash v0.8.11
+    Checking opaque-debug v0.3.1
+   Compiling thiserror v2.0.4
+    Checking poly1305 v0.8.0
+   Compiling itertools v0.13.0
+    Checking sha2 v0.10.8
+    Checking aead v0.5.2
+    Checking futures-sink v0.3.31
+   Compiling crossbeam-utils v0.8.20
+   Compiling httparse v1.9.5
+    Checking signature v2.2.0
+   Compiling openssl v0.10.68
+    Checking maplit v1.0.2
+    Checking date_header v1.0.5
+    Checking foreign-types-shared v0.1.1
+    Checking assign v1.1.1
+    Checking foreign-types v0.3.2
+    Checking rmp v0.8.14
+    Checking http-body v1.0.1
+   Compiling blake3 v1.5.5
+   Compiling libsqlite3-sys v0.30.1
+   Compiling include_dir_macros v0.7.4
+    Checking try-lock v0.2.5
+   Compiling matrix-sdk-common v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk-common)
+    Checking lazy_static v1.5.0
+   Compiling native-tls v0.2.12
+    Checking want v0.3.1
+   Compiling include_dir v0.7.4
+   Compiling serde_derive v1.0.215
+   Compiling zerocopy-derive v0.7.35
+   Compiling zerofrom-derive v0.1.5
+   Compiling yoke-derive v0.7.5
+   Compiling tokio-macros v2.4.0
+   Compiling zerovec-derive v0.10.3
+   Compiling zerocopy v0.7.35
+   Compiling ppv-lite86 v0.2.20
+    Checking tokio v1.41.1
+   Compiling displaydoc v0.2.5
+   Compiling rand_chacha v0.3.1
+   Compiling tracing-attributes v0.1.27
+    Checking zerofrom v0.1.5
+    Checking yoke v0.7.5
+   Compiling rand v0.8.5
+   Compiling icu_provider_macros v1.5.0
+    Checking zerovec v0.10.4
+   Compiling zeroize_derive v1.4.2
+    Checking tracing v0.1.40
+   Compiling phf_generator v0.11.2
+   Compiling thiserror-impl v1.0.69
+    Checking zeroize v1.8.1
+   Compiling phf_generator v0.10.0
+    Checking tinystr v0.7.6
+    Checking icu_locid v1.5.0
+    Checking icu_collections v1.5.0
+    Checking icu_provider v1.5.0
+   Compiling string_cache_codegen v0.5.2
+    Checking icu_locid_transform v1.5.0
+   Compiling phf_codegen v0.11.2
+   Compiling markup5ever v0.14.0
+   Compiling phf_macros v0.11.2
+    Checking icu_properties v1.5.1
+    Checking phf v0.11.2
+    Checking cipher v0.4.4
+   Compiling html5ever v0.29.0
+   Compiling futures-macro v0.3.31
+   Compiling ruma-identifiers-validation v0.10.0
+   Compiling curve25519-dalek-derive v0.1.1
+    Checking bitflags v2.6.0
+   Compiling toml_datetime v0.6.8
+   Compiling serde_spanned v0.6.8
+    Checking icu_normalizer v1.5.0
+    Checking string_cache v0.8.7
+   Compiling toml_edit v0.22.22
+    Checking futures-util v0.3.31
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+    Checking serde_html_form v0.2.6
+    Checking arrayvec v0.7.6
+    Checking url v2.5.4
+    Checking js_option v0.1.1
+    Checking imbl v3.0.0
+    Checking chacha20 v0.9.1
+   Compiling thiserror-impl v2.0.4
+    Checking ruma-html v0.3.0
+    Checking chacha20poly1305 v0.10.1
+    Checking ed25519 v2.2.3
+    Checking serde_bytes v0.11.15
+    Checking tokio-util v0.7.12
+   Compiling prost-derive v0.13.3
+    Checking eyeball-im v0.5.1
+   Compiling openssl-macros v0.1.1
+    Checking hashbrown v0.14.5
+    Checking ed25519-dalek v2.1.1
+    Checking x25519-dalek v2.0.1
+    Checking rmp-serde v1.3.0
+    Checking deadpool-runtime v0.1.4
+   Compiling proc-macro-crate v3.2.0
+   Compiling toml v0.8.19
+    Checking cbc v0.1.2
+    Checking aes v0.8.4
+   Compiling async-trait v0.1.83
+    Checking hkdf v0.12.4
+    Checking pbkdf2 v0.12.2
+   Compiling itertools v0.10.5
+    Checking futures-channel v0.3.31
+    Checking prost v0.13.3
+    Checking constant_time_eq v0.3.1
+    Checking base64ct v1.6.0
+    Checking readlock v0.1.8
+   Compiling rustix v0.38.41
+    Checking arrayref v0.3.9
+   Compiling decancer v3.2.8
+    Checking adler2 v2.0.0
+    Checking tinyvec_macros v0.1.1
+    Checking openssl-probe v0.1.5
+   Compiling ruma-macros v0.14.0
+   Compiling matrix-pickle-derive v0.2.1
+    Checking tinyvec v1.8.0
+    Checking matrix-pickle v0.2.1
+    Checking vodozemac v0.8.1
+   Compiling aquamarine v0.6.0
+    Checking miniz_oxide v0.8.0
+    Checking eyeball v0.8.8
+    Checking hyper v1.5.1
+    Checking concurrent-queue v2.5.0
+    Checking hashlink v0.9.1
+    Checking tokio-stream v0.1.16
+    Checking ctr v0.9.2
+    Checking ulid v1.1.3
+    Checking num_cpus v1.16.0
+    Checking crc32fast v1.4.2
+    Checking tower-service v0.3.3
+    Checking linux-raw-sys v0.4.14
+    Checking fallible-streaming-iterator v0.1.9
+    Checking bs58 v0.5.1
+    Checking fallible-iterator v0.3.0
+    Checking parking v2.2.1
+    Checking xxhash-rust v0.8.12
+    Checking event-listener v5.3.1
+    Checking deadpool v0.12.1
+    Checking growable-bloom-filter v2.1.1
+    Checking flate2 v1.0.35
+    Checking rusqlite v0.32.1
+    Checking hyper-util v0.1.10
+    Checking matrix-sdk-store-encryption v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk-store-encryption)
+    Checking tokio-native-tls v0.3.1
+    Checking unicode-normalization v0.1.24
+    Checking deadpool-sync v0.1.4
+    Checking http-body-util v0.1.2
+   Compiling signal-hook v0.3.17
+    Checking rustls-pki-types v1.10.0
+    Checking deadpool-sqlite v0.9.0
+    Checking async-compression v0.4.18
+    Checking event-listener-strategy v0.5.2
+    Checking hyper-tls v0.6.0
+    Checking rustls-pemfile v2.2.0
+    Checking serde_urlencoded v0.7.1
+   Compiling async-stream-impl v0.3.6
+    Checking signal-hook-registry v1.4.2
+    Checking sync_wrapper v1.0.2
+    Checking thread_local v1.1.8
+    Checking instant v0.1.13
+    Checking ipnet v2.10.1
+   Compiling matrix-sdk v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk)
+    Checking mime v0.3.17
+    Checking fastrand v2.2.0
+    Checking regex-syntax v0.6.29
+    Checking reqwest v0.12.9
+    Checking async-stream v0.3.6
+    Checking backoff v0.4.0
+    Checking async-channel v2.3.1
+    Checking tempfile v3.14.0
+    Checking iana-time-zone v0.1.61
+    Checking anymap2 v0.13.0
+    Checking overload v0.1.1
+    Checking urlencoding v2.1.3
+    Checking mime2ext v0.1.53
+    Checking bytesize v1.3.0
+    Checking nu-ansi-term v0.46.0
+    Checking chrono v0.4.38
+    Checking signal-hook-mio v0.2.4
+    Checking fuzzy-matcher v0.3.7
+    Checking eyeball-im-util v0.7.0
+    Checking ruma-common v0.14.1
+    Checking sharded-slab v0.1.7
+    Checking tracing-log v0.2.0
+    Checking async-rx v0.1.3
+    Checking async_cell v0.2.2
+    Checking async-once-cell v0.5.4
+    Checking unsafe-libyaml v0.2.11
+    Checking crossterm v0.28.1
+    Checking regex-automata v0.1.10
+    Checking serde_yaml v0.9.34+deprecated
+    Checking matchers v0.1.0
+    Checking tracing-subscriber v0.3.18
+    Checking ruma-events v0.29.1
+    Checking ruma-client-api v0.19.0
+    Checking ruma v0.11.1
+warning: unused import: `tracing::error`
+  --> matrix-rust-sdk/crates/matrix-sdk-common/src/linked_chunk/builder.rs:20:5
+   |
+20 | use tracing::error;
+   |     ^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `matrix-sdk-common` (lib) generated 1 warning (run `cargo fix --lib -p matrix-sdk-common` to apply 1 suggestion)
+    Checking matrix-sdk-crypto v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk-crypto)
+warning: value assigned to `storage_key_info` is never read
+   --> matrix-rust-sdk/crates/matrix-sdk-crypto/src/secret_storage.rs:143:5
+    |
+143 |     storage_key_info: SecretStorageKeyEventContent,
+    |     ^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `storage_key_info` is never read
+   --> matrix-rust-sdk/crates/matrix-sdk-crypto/src/secret_storage.rs:143:5
+    |
+143 |     storage_key_info: SecretStorageKeyEventContent,
+    |     ^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: struct `OutboundGroupSessionPickle` is never constructed
+   --> matrix-rust-sdk/crates/matrix-sdk-crypto/src/olm/group_sessions/outbound.rs:727:12
+    |
+727 | pub struct OutboundGroupSessionPickle(String);
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `matrix-sdk-crypto` (lib) generated 3 warnings
+    Checking matrix-sdk-base v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk-base)
+warning: unexpected `cfg` condition value: `unstable-exhaustive-types`
+   --> matrix-rust-sdk/crates/matrix-sdk-base/src/rooms/mod.rs:423:48
+    |
+423 | #[derive(Clone, Debug, Deserialize, Serialize, EventContent)]
+    |                                                ^^^^^^^^^^^^
+    |
+    = note: expected values for `feature` are: `automatic-room-key-forwarding`, `default`, `e2e-encryption`, `experimental-sliding-sync`, `js`, `message-ids`, `qrcode`, `test-send-sync`, `testing`, and `uniffi`
+    = note: using a cfg inside a derive macro will use the cfgs from the destination crate and not the ones from the defining crate
+    = help: try referring to `EventContent` crate for guidance on how handle this unexpected cfg
+    = help: the derive macro `EventContent` may come from an old version of the `ruma_macros` crate, try updating your dependency with `cargo update -p ruma_macros`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: requested on the command line with `-W unexpected-cfgs`
+    = note: this warning originates in the derive macro `EventContent` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: `matrix-sdk-base` (lib) generated 1 warning
+    Checking matrix-sdk-sqlite v0.8.0 (/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/matrix-rust-sdk/crates/matrix-sdk-sqlite)
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<EventWithContextResponse, PaginatorError>>: SendOutsideWasm`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/paginator.rs:500:10
+    |
+500 |     ) -> Result<EventWithContextResponse, PaginatorError> {
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `PaginableRoom::event_with_context::{anon_assoc#0}`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/paginator.rs:485:83
+    |
+485 |     ) -> impl Future<Output = Result<EventWithContextResponse, PaginatorError>> + SendOutsideWasm;
+    |                                                                                   ^^^^^^^^^^^^^^^ required by this bound in `PaginableRoom::event_with_context::{anon_assoc#0}`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<messages::Messages, PaginatorError>>: SendOutsideWasm`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/paginator.rs:524:56
+    |
+524 |     async fn messages(&self, opts: MessagesOptions) -> Result<Messages, PaginatorError> {
+    |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `PaginableRoom::messages::{anon_assoc#0}`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/paginator.rs:491:67
+    |
+491 |     ) -> impl Future<Output = Result<Messages, PaginatorError>> + SendOutsideWasm;
+    |                                                                   ^^^^^^^^^^^^^^^ required by this bound in `PaginableRoom::messages::{anon_assoc#0}`
+
+error[E0283]: type annotations needed
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/backups/mod.rs:728:21
+    |
+728 |         self.client.add_event_handler(Self::secret_send_event_handler);
+    |                     ^^^^^^^^^^^^^^^^^ cannot infer type of the type parameter `Ev` declared on the method `add_event_handler`
+    |
+    = note: cannot satisfy `_: SyncEvent`
+    = help: the following types implement trait `SyncEvent`:
+              AnyGlobalAccountDataEvent
+              AnyRoomAccountDataEvent
+              AnyStrippedStateEvent
+              AnySyncEphemeralRoomEvent
+              AnySyncMessageLikeEvent
+              AnySyncStateEvent
+              AnySyncTimelineEvent
+              AnyToDeviceEvent
+            and 16 others
+note: required by a bound in `client::Client::add_event_handler`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/mod.rs:771:13
+    |
+769 |     pub fn add_event_handler<Ev, Ctx, H>(&self, handler: H) -> EventHandlerHandle
+    |            ----------------- required by a bound in this associated function
+770 |     where
+771 |         Ev: SyncEvent + DeserializeOwned + SendOutsideWasm + 'static,
+    |             ^^^^^^^^^ required by this bound in `Client::add_event_handler`
+help: consider specifying the generic arguments
+    |
+728 |         self.client.add_event_handler::<Ev, Ctx, _>(Self::secret_send_event_handler);
+    |                                      ++++++++++++++
+
+error[E0275]: overflow evaluating the requirement `fn(ruma::ruma_events::ToDeviceEvent<ToDeviceSecretSendEventContent>, client::Client) -> impl futures_core::Future<Output = ()> {Backups::secret_send_event_handler}: EventHandler<_, _>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/backups/mod.rs:728:21
+    |
+728 |         self.client.add_event_handler(Self::secret_send_event_handler);
+    |                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `client::Client::add_event_handler`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/mod.rs:772:12
+    |
+769 |     pub fn add_event_handler<Ev, Ctx, H>(&self, handler: H) -> EventHandlerHandle
+    |            ----------------- required by a bound in this associated function
+...
+772 |         H: EventHandler<Ev, Ctx>,
+    |            ^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Client::add_event_handler`
+
+error[E0283]: type annotations needed
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/mod.rs:513:21
+    |
+513 |         self.client.add_event_handler(Self::default_key_event_handler);
+    |                     ^^^^^^^^^^^^^^^^^ cannot infer type of the type parameter `Ev` declared on the method `add_event_handler`
+    |
+    = note: cannot satisfy `_: SyncEvent`
+    = help: the following types implement trait `SyncEvent`:
+              AnyGlobalAccountDataEvent
+              AnyRoomAccountDataEvent
+              AnyStrippedStateEvent
+              AnySyncEphemeralRoomEvent
+              AnySyncMessageLikeEvent
+              AnySyncStateEvent
+              AnySyncTimelineEvent
+              AnyToDeviceEvent
+            and 16 others
+note: required by a bound in `client::Client::add_event_handler`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/mod.rs:771:13
+    |
+769 |     pub fn add_event_handler<Ev, Ctx, H>(&self, handler: H) -> EventHandlerHandle
+    |            ----------------- required by a bound in this associated function
+770 |     where
+771 |         Ev: SyncEvent + DeserializeOwned + SendOutsideWasm + 'static,
+    |             ^^^^^^^^^ required by this bound in `Client::add_event_handler`
+help: consider specifying the generic arguments
+    |
+513 |         self.client.add_event_handler::<Ev, Ctx, _>(Self::default_key_event_handler);
+    |                                      ++++++++++++++
+
+error[E0275]: overflow evaluating the requirement `fn(GlobalAccountDataEvent<SecretStorageDefaultKeyEventContent>, client::Client) -> impl futures_core::Future<Output = ()> {Recovery::default_key_event_handler}: EventHandler<_, _>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/mod.rs:513:21
+    |
+513 |         self.client.add_event_handler(Self::default_key_event_handler);
+    |                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `client::Client::add_event_handler`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/mod.rs:772:12
+    |
+769 |     pub fn add_event_handler<Ev, Ctx, H>(&self, handler: H) -> EventHandlerHandle
+    |            ----------------- required by a bound in this associated function
+...
+772 |         H: EventHandler<Ev, Ctx>,
+    |            ^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Client::add_event_handler`
+
+error[E0275]: overflow evaluating the requirement `fn(ruma::ruma_events::ToDeviceEvent<ToDeviceSecretSendEventContent>, client::Client) -> impl futures_core::Future<Output = ()> {Recovery::secret_send_event_handler}: EventHandler<_, _>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/mod.rs:514:21
+    |
+514 |         self.client.add_event_handler(Self::secret_send_event_handler);
+    |                     ^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `client::Client::add_event_handler`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/mod.rs:772:12
+    |
+769 |     pub fn add_event_handler<Ev, Ctx, H>(&self, handler: H) -> EventHandlerHandle
+    |            ----------------- required by a bound in this associated function
+...
+772 |         H: EventHandler<Ev, Ctx>,
+    |            ^^^^^^^^^^^^^^^^^^^^^ required by this bound in `Client::add_event_handler`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<SyncTimelineEvent, EditError>>: SendOutsideWasm`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/room/edit.rs:132:54
+    |
+132 |     async fn get_event(&self, event_id: &EventId) -> Result<SyncTimelineEvent, EditError> {
+    |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `EventSource::get_event::{anon_assoc#0}`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/room/edit.rs:128:71
+    |
+128 |     ) -> impl Future<Output = Result<SyncTimelineEvent, EditError>> + SendOutsideWasm;
+    |                                                                       ^^^^^^^^^^^^^^^ required by this bound in `EventSource::get_event::{anon_assoc#0}`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/mod.rs:148:33
+    |
+148 |         let join_handle = spawn(future);
+    |                           ----- ^^^^^^
+    |                           |
+    |                           required by a bound introduced by this call
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/mod.rs:187:45
+    |
+187 |               let listen_updates_task = spawn(Self::listen_task(
+    |  _______________________________________-----_^
+    | |                                       |
+    | |                                       required by a bound introduced by this call
+188 | |                 self.inner.clone(),
+189 | |                 client.subscribe_to_all_room_updates(),
+190 | |             ));
+    | |_____________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/event_cache/mod.rs:192:54
+    |
+192 |               let ignore_user_list_update_task = spawn(Self::ignore_user_list_update_task(
+    |  ________________________________________________-----_^
+    | |                                                |
+    | |                                                required by a bound introduced by this call
+193 | |                 self.inner.clone(),
+194 | |                 client.subscribe_to_ignore_user_list_changes(),
+195 | |             ));
+    | |_____________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<impl futures_core::Future<Output = std::result::Result<ruma::api::ruma_client_api::session::login::v3::Response, error::Error>>>>: CoerceUnsized<std::pin::Pin<...>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/matrix_auth/login_builder.rs:203:9
+    |
+203 |         Box::pin(self.send())
+    |         ^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<impl Future<Output = Result<Response, Error>>>>` to `Pin<Box<dyn Future<Output = Result<Response, Error>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-2894999808805246275.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/send_queue.rs:397:26
+    |
+397 |           let task = spawn(Self::sending_task(
+    |  ____________________-----_^
+    | |                    |
+    | |                    required by a bound introduced by this call
+398 | |             weak_room.clone(),
+399 | |             queue.clone(),
+400 | |             notifier.clone(),
+...   |
+404 | |             is_dropping,
+405 | |         ));
+    | |_________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@matrix-rust-sdk/crates/matrix-sdk/src/client/futures.rs:100:18: 100:28}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = std::result::Result<..., ...>> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/client/futures.rs:100:9
+    |
+100 | /         Box::pin(async move {
+101 | |             let res = Box::pin(client.send_inner(
+102 | |                 request.clone(),
+103 | |                 config,
+...   |
+179 | |             res
+180 | |         })
+    | |__________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = Result<..., ...>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-7288249825452630244.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:89:22: 89:32}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:154:9
+    |
+154 |         Box::pin(future.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<String, RecoveryError>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-15543073301451484284.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:188:22: 188:32}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:203:9
+    |
+203 |         Box::pin(future.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<String, RecoveryError>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-12607959889262402182.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:238:22: 238:32}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/recovery/futures.rs:250:9
+    |
+250 |         Box::pin(future.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<String, RecoveryError>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-7584168078526040530.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/secret_storage/futures.rs:52:18: 52:28}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = std::result::Result<..., ...>> + std::marker::Send>>>`
+  --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/secret_storage/futures.rs:52:9
+   |
+52 | /         Box::pin(async move {
+...  |
+78 | |             Ok(store)
+79 | |         })
+   | |__________^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+   = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = Result<SecretStore, ...>> + Send>>`
+   = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-10185614990194153048.txt'
+   = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/tasks.rs:70:33: 70:43}: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/tasks.rs:70:27
+    |
+ 70 |           let join_handle = spawn(async move {
+    |  ___________________________^
+ 71 | |             Self::listen(client, receiver).await;
+ 72 | |         });
+    | |__________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `{async block@matrix-rust-sdk/crates/matrix-sdk/src/encryption/mod.rs:1606:39: 1606:49}: std::marker::Send`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/encryption/mod.rs:1606:33
+     |
+1606 |           tasks.setup_e2ee = Some(spawn(async move {
+     |  _________________________________^
+1607 | |             // Update the current state first, so we don't have to wait for the result of
+1608 | |             // network requests
+1609 | |             this.update_verification_state().await;
+...    |
+1623 | |         }));
+     | |__________^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+     |
+ 166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+     |            ----- required by a bound in this function
+ 167 |     where
+ 168 |         F: Future + Send + 'static,
+     |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/room/futures.rs:171:19: 171:29}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/room/futures.rs:235:9
+    |
+235 |         Box::pin(fut.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<Response, Error>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-14736703921600465040.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/room/futures.rs:308:19: 308:29}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/room/futures.rs:320:9
+    |
+320 |         Box::pin(fut.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<Response, Error>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-620765431031099134.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `{async block@matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1643:45: 1643:55}: SendOutsideWasm`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1643:14
+     |
+1643 |             .run(self.room_id().to_owned(), async move {
+     |              ^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `DeduplicatingHandler::<Key>::run`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/deduplicating_handler.rs:69:59
+     |
+  69 |     pub async fn run<'a, F: Future<Output = Result<()>> + SendOutsideWasm + 'a>(
+     |                                                           ^^^^^^^^^^^^^^^ required by this bound in `DeduplicatingHandler::<Key>::run`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<(), error::Error>> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1640:9
+     |
+1640 | /         self.client
+1641 | |             .locks()
+1642 | |             .group_session_deduplicated_handler
+1643 | |             .run(self.room_id().to_owned(), async move {
+...    |
+1666 | |                 Ok(())
+1667 | |             })
+     | |______________^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<(), error::Error>> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1643:14
+     |
+1643 |             .run(self.room_id().to_owned(), async move {
+     |              ^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `<impl futures_core::Future<Output = std::result::Result<(), error::Error>> as std::future::IntoFuture>::IntoFuture well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1668:14
+     |
+1668 |             .await
+     |              ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<(), error::Error>> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1668:14
+     |
+1668 |             .await
+     |              ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<&mut impl futures_core::Future<Output = std::result::Result<(), error::Error>>> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1668:14
+     |
+1668 |             .await
+     |              ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `&mut impl futures_core::Future<Output = std::result::Result<(), error::Error>> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1668:14
+     |
+1668 |             .await
+     |              ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `Poll<<impl futures_core::Future<Output = std::result::Result<(), error::Error>> as futures_core::Future>::Output> well-formed`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:1668:14
+     |
+1668 |             .await
+     |              ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:3197:57: 3199:6}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = bool> + std::marker::Send>>>`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:3197:57
+     |
+3197 |       async fn is_member(&self, user_id: &UserId) -> bool {
+     |  _________________________________________________________^
+3198 | |         self.get_member(user_id).await.unwrap_or(None).is_some()
+3199 | |     }
+     | |_____^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+     = note: required for the cast from `Pin<Box<...>>` to `std::pin::Pin<Box<dyn futures_core::Future<Output = bool> + std::marker::Send>>`
+     = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-11623683883929917579.txt'
+     = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:3201:60: 3214:6}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = Vec<...>> + std::marker::Send>>>`
+    --> matrix-rust-sdk/crates/matrix-sdk/src/room/mod.rs:3201:60
+     |
+3201 |       async fn member_identities(&self) -> Vec<UserIdentity> {
+     |  ____________________________________________________________^
+3202 | |         let members = self
+3203 | |             .members(RoomMemberships::JOIN | RoomMemberships::INVITE)
+3204 | |             .await
+...    |
+3213 | |         ret
+3214 | |     }
+     | |_____^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+     = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = Vec<UserIdentity>> + Send>>`
+     = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/vimeiro-co_app-testing_j9sl01u5/target/debug/deps/matrix_sdk-b5256932967da385.long-type-1748419655060270830.txt'
+     = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `{async block@matrix-rust-sdk/crates/matrix-sdk/src/sliding_sync/mod.rs:612:42: 612:52}: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/sliding_sync/mod.rs:612:36
+    |
+612 |                   let e2ee_uploads = spawn(async move {
+    |  ____________________________________^
+613 | |                     if let Err(error) = client.send_outgoing_requests().await {
+614 | |                         error!(?error, "Error while sending outgoing E2EE requests");
+615 | |                     }
+616 | |                 })
+    | |__________________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `Instrumented<{async block@matrix-rust-sdk/crates/matrix-sdk/src/sliding_sync/mod.rs:663:22: 663:32}>: std::marker::Send`
+   --> matrix-rust-sdk/crates/matrix-sdk/src/sliding_sync/mod.rs:684:9
+    |
+684 |         spawn(future.instrument(Span::current())).await.unwrap()
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.41.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+Some errors have detailed explanations: E0275, E0283.
+For more information about an error, try `rustc --explain E0275`.
+error: could not compile `matrix-sdk` (lib) due to 34 previous errors

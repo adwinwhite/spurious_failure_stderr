@@ -1,0 +1,15 @@
+Running as unit: run-p1527424-i1527724.scope; invocation ID: f5c15b12eca444dc89c1a00e0afcb470
+    Updating `tuna` index
+     Locking 20 packages to latest compatible versions
+      Adding generic-array v0.14.7 (available: v0.14.9)
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.44
+   Compiling unicode-ident v1.0.23
+   Compiling ucd-trie v0.1.7
+   Compiling memchr v2.8.0
+    Checking pest v2.8.6
+   Compiling syn v2.0.115
+   Compiling pest_meta v2.8.6
+   Compiling pest_generator v2.8.6
+   Compiling pest_derive v2.8.6
+    Checking twitter_text_parser v0.2.0 (/getea/tmp/crater-spurious/twitter_text_parser-0.2.0)

@@ -1,0 +1,353 @@
+Running as unit: run-p3110860-i15690900.scope; invocation ID: b85358f4a5a044dbbf7be4252f2ea9b6
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded gix-glob v0.18.0 (registry `tuna`)
+  Downloaded gix-command v0.4.1 (registry `tuna`)
+  Downloaded gix-actor v0.33.2 (registry `tuna`)
+  Downloaded gix-ignore v0.13.0 (registry `tuna`)
+  Downloaded gix-mailmap v0.25.2 (registry `tuna`)
+  Downloaded gix-config-value v0.14.11 (registry `tuna`)
+  Downloaded gix-hash v0.16.0 (registry `tuna`)
+  Downloaded gix-worktree-state v0.17.0 (registry `tuna`)
+  Downloaded gix-validate v0.9.3 (registry `tuna`)
+  Downloaded gix-submodule v0.17.0 (registry `tuna`)
+  Downloaded gix-lock v16.0.0 (registry `tuna`)
+  Downloaded gix-prompt v0.9.1 (registry `tuna`)
+  Downloaded gix-discover v0.38.0 (registry `tuna`)
+  Downloaded gix-negotiate v0.18.0 (registry `tuna`)
+  Downloaded gix-hashtable v0.7.0 (registry `tuna`)
+  Downloaded gix-date v0.9.3 (registry `tuna`)
+  Downloaded gix-worktree-stream v0.19.0 (registry `tuna`)
+  Downloaded gix-revwalk v0.18.0 (registry `tuna`)
+  Downloaded gix-sec v0.10.11 (registry `tuna`)
+  Downloaded gix-shallow v0.2.0 (registry `tuna`)
+  Downloaded gix-quote v0.4.15 (registry `tuna`)
+  Downloaded gix-commitgraph v0.26.0 (registry `tuna`)
+  Downloaded gix-url v0.29.0 (registry `tuna`)
+  Downloaded gix-packetline-blocking v0.18.2 (registry `tuna`)
+  Downloaded gix-packetline v0.18.3 (registry `tuna`)
+  Downloaded gix-features v0.40.0 (registry `tuna`)
+  Downloaded gix-traverse v0.44.0 (registry `tuna`)
+  Downloaded gix-revision v0.32.0 (registry `tuna`)
+  Downloaded gix-worktree v0.39.0 (registry `tuna`)
+  Downloaded gix-index v0.38.0 (registry `tuna`)
+  Downloaded gix-object v0.47.0 (registry `tuna`)
+  Downloaded gix-protocol v0.48.0 (registry `tuna`)
+  Downloaded gix-odb v0.67.0 (registry `tuna`)
+  Downloaded gix-transport v0.45.0 (registry `tuna`)
+  Downloaded buffered-reader v1.3.2 (registry `tuna`)
+  Downloaded gix-ref v0.50.0 (registry `tuna`)
+  Downloaded gix-dir v0.12.0 (registry `tuna`)
+  Downloaded gix-diff v0.50.0 (registry `tuna`)
+  Downloaded prodash v29.0.1 (registry `tuna`)
+  Downloaded gix-pack v0.57.0 (registry `tuna`)
+  Downloaded gix-config v0.43.0 (registry `tuna`)
+  Downloaded gix-filter v0.17.0 (registry `tuna`)
+  Downloaded gix-credentials v0.27.0 (registry `tuna`)
+  Downloaded gix-status v0.17.0 (registry `tuna`)
+  Downloaded gix-refspec v0.28.0 (registry `tuna`)
+  Downloaded gix-fs v0.13.0 (registry `tuna`)
+  Downloaded gix-tempfile v16.0.0 (registry `tuna`)
+  Downloaded gix-pathspec v0.9.0 (registry `tuna`)
+  Downloaded gix-path v0.10.14 (registry `tuna`)
+  Downloaded gix v0.70.0 (registry `tuna`)
+  Downloaded jiff v0.1.29 (registry `tuna`)
+  Downloaded sequoia-openpgp v1.22.0 (registry `tuna`)
+  Downloaded gix-archive v0.19.0 (registry `tuna`)
+  Downloaded gix-attributes v0.24.0 (registry `tuna`)
+  Downloaded baza_core v2.8.0 (registry `tuna`)
+   Compiling libc v0.2.169
+   Compiling proc-macro2 v1.0.93
+   Compiling unicode-ident v1.0.16
+    Checking cfg-if v1.0.0
+   Compiling autocfg v1.4.0
+    Checking memchr v2.7.4
+   Compiling thiserror v2.0.11
+    Checking regex-syntax v0.8.5
+    Checking once_cell v1.20.2
+   Compiling parking_lot_core v0.9.10
+   Compiling serde v1.0.217
+    Checking smallvec v1.13.2
+   Compiling version_check v0.9.5
+   Compiling lock_api v0.4.12
+    Checking simd-adler32 v0.3.7
+    Checking aho-corasick v1.1.3
+    Checking scopeguard v1.2.0
+    Checking adler2 v2.0.0
+    Checking crc32fast v1.4.2
+    Checking miniz_oxide v0.8.3
+    Checking tinyvec_macros v0.1.1
+    Checking gix-trace v0.1.12
+    Checking tinyvec v1.9.0
+    Checking log v0.4.25
+   Compiling quote v1.0.38
+    Checking fastrand v2.3.0
+   Compiling syn v2.0.98
+   Compiling crossbeam-utils v0.8.21
+    Checking flate2 v1.0.35
+    Checking parking_lot v0.12.3
+    Checking bytesize v1.3.2
+    Checking same-file v1.0.6
+    Checking human_format v1.1.0
+    Checking bitflags v2.8.0
+    Checking walkdir v2.5.0
+    Checking prodash v29.0.1
+    Checking unicode-normalization v0.1.24
+    Checking sha1_smol v1.0.1
+    Checking bytes v1.10.1
+    Checking crossbeam-channel v0.5.14
+    Checking home v0.5.11
+    Checking byteorder v1.5.0
+   Compiling ahash v0.8.11
+    Checking regex-automata v0.4.9
+    Checking allocator-api2 v0.2.21
+    Checking itoa v1.0.14
+   Compiling getrandom v0.3.1
+    Checking jiff v0.1.29
+    Checking winnow v0.6.26
+   Compiling shlex v1.3.0
+   Compiling jobserver v0.1.32
+   Compiling rustix v0.38.44
+   Compiling pkg-config v0.3.31
+    Checking memmap2 v0.9.5
+   Compiling cc v1.2.12
+    Checking linux-raw-sys v0.4.15
+    Checking stable_deref_trait v1.2.0
+   Compiling typenum v1.17.0
+   Compiling signal-hook v0.3.17
+    Checking getrandom v0.2.15
+    Checking signal-hook-registry v1.4.2
+    Checking litemap v0.7.4
+    Checking writeable v0.5.5
+   Compiling generic-array v0.14.7
+    Checking unicode-bom v2.0.3
+    Checking icu_locid_transform_data v1.5.0
+    Checking rand_core v0.6.4
+    Checking static_assertions v1.1.0
+    Checking bstr v1.11.3
+    Checking icu_properties_data v1.5.0
+    Checking kstring v2.0.2
+    Checking shell-words v1.1.0
+    Checking utf8_iter v1.0.4
+    Checking write16 v1.0.0
+    Checking icu_normalizer_data v1.5.0
+    Checking utf16_iter v1.0.5
+   Compiling either v1.13.0
+   Compiling vcpkg v0.2.15
+    Checking gix-utils v0.1.14
+   Compiling glob v0.3.2
+    Checking gix-sec v0.10.11
+    Checking percent-encoding v2.3.1
+    Checking form_urlencoded v1.2.1
+    Checking foldhash v0.1.5
+   Compiling clang-sys v1.8.1
+    Checking crypto-common v0.1.6
+   Compiling minimal-lexical v0.2.1
+   Compiling libz-sys v1.1.21
+   Compiling openssl-sys v0.9.105
+    Checking hashbrown v0.15.2
+   Compiling libloading v0.8.6
+   Compiling dirs-sys-next v0.1.2
+    Checking filetime v0.2.25
+   Compiling nom v7.1.3
+    Checking encoding_rs v0.8.35
+    Checking fnv v1.0.7
+   Compiling crunchy v0.2.3
+   Compiling bindgen v0.70.1
+    Checking tempfile v3.16.0
+   Compiling synstructure v0.13.1
+   Compiling dirs-next v2.0.0
+   Compiling itertools v0.13.0
+   Compiling siphasher v1.0.1
+   Compiling equivalent v1.0.1
+   Compiling regex v1.11.1
+   Compiling rustc-hash v1.1.0
+   Compiling tiny-keccak v2.0.2
+   Compiling indexmap v2.7.1
+   Compiling phf_shared v0.11.3
+   Compiling term v0.7.0
+   Compiling cexpr v0.6.0
+   Compiling thiserror-impl v2.0.11
+   Compiling serde_derive v1.0.217
+   Compiling zerocopy-derive v0.7.35
+   Compiling zerofrom-derive v0.1.5
+   Compiling yoke-derive v0.7.5
+   Compiling zerovec-derive v0.10.3
+    Checking zerocopy v0.7.35
+   Compiling displaydoc v0.2.5
+   Compiling icu_provider_macros v1.5.0
+    Checking gix-path v0.10.14
+    Checking gix-date v0.9.3
+    Checking gix-validate v0.9.3
+    Checking hashbrown v0.14.5
+    Checking gix-actor v0.33.2
+    Checking gix-chunk v0.4.11
+    Checking gix-quote v0.4.15
+    Checking gix-command v0.4.1
+    Checking gix-config-value v0.14.11
+    Checking gix-bitmap v0.2.14
+    Checking zerofrom v0.1.5
+   Compiling bzip2-sys v0.1.11+1.0.8
+    Checking yoke v0.7.5
+   Compiling libssh2-sys v0.3.1
+   Compiling bit-vec v0.6.3
+    Checking zerovec v0.10.4
+    Checking dashmap v6.1.0
+   Compiling precomputed-hash v0.1.1
+    Checking lazy_static v1.5.0
+    Checking cpufeatures v0.2.17
+   Compiling new_debug_unreachable v1.0.6
+   Compiling fixedbitset v0.4.2
+   Compiling petgraph v0.6.5
+   Compiling ena v0.14.3
+   Compiling string_cache v0.8.8
+   Compiling bit-set v0.5.3
+   Compiling ascii-canvas v3.0.0
+    Checking inout v0.1.3
+   Compiling itertools v0.11.0
+   Compiling num-traits v0.2.19
+    Checking tracing-core v0.1.33
+   Compiling thiserror v1.0.69
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+   Compiling unicode-xid v0.2.6
+    Checking arrayvec v0.7.6
+    Checking icu_locid v1.5.0
+   Compiling lalrpop-util v0.20.2
+    Checking subtle v2.6.1
+    Checking uluru v3.1.0
+    Checking universal-hash v0.5.1
+    Checking cipher v0.4.4
+   Compiling thiserror-impl v1.0.69
+    Checking icu_provider v1.5.0
+    Checking imara-diff v0.1.8
+    Checking icu_locid_transform v1.5.0
+   Compiling libgit2-sys v0.18.0+1.9.0
+   Compiling lalrpop v0.20.2
+    Checking icu_properties v1.5.1
+    Checking fdeflate v0.3.7
+   Compiling anyhow v1.0.95
+   Compiling sha1collisiondetection v0.3.4
+    Checking clru v0.6.2
+    Checking bitflags v1.3.2
+    Checking pin-project-lite v0.2.16
+    Checking utf8parse v0.2.2
+    Checking opaque-debug v0.3.1
+    Checking anstyle-parse v0.2.6
+    Checking polyval v0.6.2
+    Checking png v0.17.16
+    Checking bzip2 v0.5.0
+    Checking gix-prompt v0.9.1
+    Checking ppv-lite86 v0.2.20
+   Compiling maybe-async v0.2.10
+   Compiling tracing-attributes v0.1.28
+    Checking block-buffer v0.10.4
+    Checking generic-array v1.2.0
+    Checking icu_normalizer v1.5.0
+    Checking faster-hex v0.9.0
+    Checking gix-hash v0.16.0
+    Checking gix-packetline-blocking v0.18.2
+    Checking gix-packetline v0.18.3
+    Checking gix-features v0.40.0
+    Checking gix-hashtable v0.7.0
+    Checking toml_datetime v0.6.8
+    Checking idna_adapter v1.2.0
+    Checking serde_spanned v0.6.8
+    Checking idna v1.0.3
+    Checking io-close v0.3.7
+    Checking arc-swap v1.7.1
+    Checking colorchoice v1.0.3
+    Checking gix-object v0.47.0
+    Checking gix-fs v0.13.0
+    Checking gix-commitgraph v0.26.0
+    Checking gix-glob v0.18.0
+    Checking gix-tempfile v16.0.0
+    Checking gix-lock v16.0.0
+    Checking url v2.5.4
+    Checking gix-shallow v0.2.0
+    Checking gix-attributes v0.24.0
+    Checking gix-ignore v0.13.0
+    Checking regex-syntax v0.6.29
+   Compiling serde_json v1.0.138
+    Checking gix-url v0.29.0
+    Checking gix-pathspec v0.9.0
+    Checking anstyle v1.0.10
+   Compiling nettle-sys v2.3.1
+    Checking gix-transport v0.45.0
+    Checking is_terminal_polyfill v1.70.1
+    Checking bytemuck v1.21.0
+    Checking winnow v0.7.2
+    Checking byteorder-lite v0.1.0
+    Checking x11rb-protocol v0.13.1
+    Checking gix-revwalk v0.18.0
+    Checking gix-ref v0.50.0
+    Checking gix-filter v0.17.0
+    Checking gix-traverse v0.44.0
+    Checking gix-index v0.38.0
+    Checking gix-revision v0.32.0
+error: failed to run custom build command for `nettle-sys v2.3.1`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/baza-2.8.0/target/debug/build/nettle-sys-e7be27275015a9a6/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=NETTLE_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=NETTLE_STATIC
+  cargo:rerun-if-env-changed=NETTLE_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+  Building nettle-sys failed.
+  Because: 
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags nettle
+
+  The system library `nettle` required by crate `nettle-sys` was not found.
+  The file `nettle.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+
+  HINT: you may need to install a package such as nettle, nettle-dev or nettle-devel.
+
+
+  Please make sure the necessary build dependencies are installed.
+
+  If you are using Debian (or a derivative), try:
+
+      $ sudo apt install clang llvm pkg-config nettle-dev
+
+  If you are using Arch (or a derivative), try:
+
+      $ sudo pacman -S clang pkg-config nettle --needed
+
+  If you are using Fedora (or a derivative), try:
+
+      $ sudo dnf install clang pkg-config nettle-devel
+
+  See https://gitlab.com/sequoia-pgp/nettle-sys#building for more information.
+
+  Error: "Building nettle-sys failed."
+warning: build failed, waiting for other jobs to finish...

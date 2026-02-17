@@ -1,0 +1,23 @@
+Running as unit: run-p2570532-i2570832.scope; invocation ID: 8486cc3c0868494781b0a578a694bff8
+    Updating `tuna` index
+     Locking 79 packages to latest compatible versions
+      Adding chumsky v1.0.0-alpha.6 (available: v1.0.0-alpha.8)
+   Compiling find-msvc-tools v0.1.9
+   Compiling shlex v1.3.0
+   Compiling object v0.37.3
+   Compiling memchr v2.8.0
+   Compiling version_check v0.9.5
+   Compiling zerocopy v0.8.39
+   Compiling libc v0.2.182
+    Checking cfg-if v1.0.4
+    Checking once_cell v1.21.3
+   Compiling chumsky v1.0.0-alpha.6
+   Compiling cc v1.2.56
+    Checking allocator-api2 v0.2.21
+    Checking unicode-ident v1.0.23
+   Compiling ahash v0.8.12
+   Compiling stacker v0.1.23
+   Compiling ar_archive_writer v0.5.1
+    Checking hashbrown v0.14.5
+   Compiling psm v0.1.30
+    Checking pep-508 v0.4.0 (/getea/tmp/crater-spurious/pep-508-0.4.0)

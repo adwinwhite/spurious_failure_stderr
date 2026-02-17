@@ -1,0 +1,26 @@
+Running as unit: run-p1196423-i13776729.scope; invocation ID: 88e90667959e4d8493277865770f17fe
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling quote v1.0.41
+   Compiling siphasher v1.0.1
+   Compiling fastrand v2.3.0
+   Compiling heck v0.5.0
+   Compiling unicode-xid v0.2.6
+    Checking equivalent v1.0.2
+    Checking replace_with v0.1.8
+    Checking hashbrown v0.16.0
+    Checking iter-scan v0.4.0
+    Checking phf_shared v0.12.1
+    Checking lines-inclusive v0.0.0
+    Checking pipe-trait v0.4.0
+    Checking typebool v0.1.0
+   Compiling phf_generator v0.12.1
+    Checking indexmap v2.12.0
+   Compiling syn v2.0.107
+   Compiling phf_macros v0.12.1
+   Compiling derive_more-impl v2.0.1
+   Compiling strum_macros v0.27.2
+    Checking phf v0.12.1
+    Checking strum v0.27.2
+    Checking derive_more v2.0.1
+    Checking arch-pkg-text v0.9.5 (/tmp/nix-shell.uUVugk/KSXGitHub_parse-arch-pkg-desc_j_tya82c)

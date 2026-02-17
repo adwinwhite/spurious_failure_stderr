@@ -1,0 +1,622 @@
+Running as unit: run-p1560713-i14140821.scope; invocation ID: 459881be35e14d5a8156a67a8d723c22
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+    Checking stable_deref_trait v1.2.0
+   Compiling zerocopy v0.8.25
+   Compiling version_check v0.9.5
+   Compiling autocfg v1.4.0
+   Compiling icu_properties_data v2.0.1
+   Compiling icu_normalizer_data v2.0.0
+    Checking cfg-if v1.0.0
+   Compiling siphasher v1.0.1
+   Compiling ahash v0.8.12
+   Compiling rand_core v0.6.4
+   Compiling libc v0.2.172
+   Compiling phf_shared v0.11.3
+   Compiling rand v0.8.5
+   Compiling num-traits v0.2.19
+   Compiling serde v1.0.219
+   Compiling quote v1.0.40
+    Checking smallvec v1.15.0
+   Compiling syn v2.0.101
+   Compiling lock_api v0.4.12
+    Checking litemap v0.8.0
+    Checking writeable v0.6.1
+   Compiling phf_generator v0.11.3
+   Compiling parking_lot_core v0.9.10
+    Checking allocator-api2 v0.2.21
+   Compiling anyhow v1.0.98
+   Compiling portable-atomic v1.11.0
+    Checking utf8_iter v1.0.4
+   Compiling heck v0.5.0
+    Checking critical-section v1.2.0
+    Checking rustc-hash v2.1.1
+   Compiling shlex v1.3.0
+    Checking percent-encoding v2.3.1
+   Compiling cc v1.2.24
+   Compiling once_cell v1.21.3
+    Checking new_debug_unreachable v1.0.6
+    Checking form_urlencoded v1.2.1
+    Checking scopeguard v1.2.0
+    Checking either v1.15.0
+    Checking bumpalo v3.17.0
+   Compiling radium v0.7.0
+    Checking pin-project-lite v0.2.16
+   Compiling serde_json v1.0.140
+    Checking scoped-tls v1.0.1
+    Checking bitflags v2.9.1
+    Checking memchr v2.7.4
+    Checking better_scoped_tls v1.0.0
+    Checking parking_lot v0.12.3
+    Checking swc_visit v2.0.0
+    Checking hashbrown v0.14.5
+   Compiling smartstring v1.0.1
+    Checking unicode-id-start v1.3.1
+    Checking static_assertions v1.1.0
+   Compiling rustversion v1.0.21
+    Checking siphasher v0.3.11
+    Checking unicode-width v0.1.14
+    Checking itoa v1.0.15
+    Checking ryu v1.0.20
+   Compiling psm v0.1.26
+   Compiling stacker v0.1.21
+    Checking num-integer v0.1.46
+    Checking tap v1.0.1
+   Compiling syn v1.0.109
+   Compiling tracing-core v0.1.33
+    Checking uuid v1.17.0
+    Checking wyz v0.5.1
+    Checking funty v2.0.0
+    Checking cobs v0.2.3
+    Checking vsimd v0.8.0
+    Checking outref v0.5.2
+    Checking writeable v0.5.5
+    Checking litemap v0.7.5
+   Compiling synstructure v0.13.2
+   Compiling swc_macros_common v1.0.0
+    Checking base64-simd v0.8.0
+    Checking bitvec v1.0.1
+    Checking aho-corasick v1.1.3
+    Checking regex-syntax v0.8.5
+    Checking typed-arena v2.0.2
+    Checking arrayvec v0.7.6
+    Checking data-encoding v2.9.0
+    Checking if_chain v1.0.2
+    Checking castaway v0.2.3
+   Compiling zerofrom-derive v0.1.6
+   Compiling displaydoc v0.2.5
+   Compiling serde_derive v1.0.219
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling phf_macros v0.11.3
+   Compiling ptr_meta_derive v0.3.0
+    Checking zerofrom v0.1.6
+   Compiling tracing-attributes v0.1.28
+   Compiling from_variant v2.0.0
+   Compiling swc_eq_ignore_macros v1.0.0
+   Compiling ast_node v3.0.0
+    Checking phf v0.11.3
+   Compiling string_enum v1.0.0
+   Compiling yoke v0.8.0
+   Compiling is-macro v0.3.7
+   Compiling zerovec v0.11.2
+    Checking ptr_meta v0.3.0
+   Compiling zerotrie v0.2.2
+   Compiling yoke-derive v0.7.5
+   Compiling zerovec-derive v0.9.7
+    Checking tinystr v0.8.1
+   Compiling potential_utf v0.1.2
+   Compiling icu_locale_core v2.0.0
+   Compiling icu_collections v2.0.0
+   Compiling icu_provider v2.0.0
+   Compiling icu_normalizer v2.0.0
+   Compiling icu_properties v2.0.1
+    Checking yoke v0.7.5
+    Checking zerovec v0.9.7
+   Compiling triomphe v0.1.14
+   Compiling idna_adapter v1.2.1
+   Compiling idna v1.0.3
+    Checking num-bigint v0.4.6
+   Compiling hstr v1.0.0
+   Compiling url v2.5.4
+   Compiling swc_ecma_codegen_macros v2.0.0
+   Compiling swc_allocator v4.0.0
+    Checking tinystr v0.7.2
+   Compiling swc_atoms v5.0.0
+   Compiling tracing v0.1.41
+    Checking icu_locid v1.2.0
+    Checking postcard v1.1.1
+   Compiling icu_provider_macros v1.2.0
+    Checking swc_common v11.0.0
+    Checking regex-automata v0.4.9
+    Checking icu_provider v1.2.0
+    Checking compact_str v0.7.1
+    Checking swc_ecma_ast v11.0.0
+   Compiling hashbrown v0.15.3
+    Checking regex v1.11.1
+    Checking ryu-js v1.0.2
+    Checking ascii v1.1.0
+   Compiling equivalent v1.0.2
+   Compiling indexmap v2.9.0
+   Compiling debugid v0.8.0
+    Checking icu_collections v1.2.0
+   Compiling boa_macros v0.17.3
+   Compiling winnow v0.5.40
+    Checking boa_profiler v0.17.3
+   Compiling toml_datetime v0.6.9
+    Checking thin-vec v0.2.14
+   Compiling swc_ecma_lexer v14.0.2
+    Checking boa_gc v0.17.3
+   Compiling sourcemap v9.2.1
+    Checking icu_properties v1.2.0
+    Checking getrandom v0.2.16
+    Checking write16 v1.0.0
+   Compiling linkme-impl v0.3.33
+    Checking utf8parse v0.2.2
+    Checking rustc-hash v1.1.0
+    Checking utf16_iter v1.0.5
+    Checking boa_interner v0.17.3
+   Compiling toml_edit v0.19.15
+   Compiling swc_ecma_codegen v13.1.0
+    Checking anstyle-parse v0.2.6
+    Checking icu_normalizer v1.2.0
+   Compiling swc_ecma_visit v11.0.0
+    Checking icu_provider_blob v1.2.0
+    Checking icu_provider_adapters v1.2.0
+    Checking hashbrown v0.13.2
+   Compiling proc-macro-crate v1.3.1
+    Checking ppv-lite86 v0.2.21
+   Compiling thiserror v1.0.69
+    Checking colorchoice v1.0.3
+    Checking anstyle v1.0.10
+    Checking is_terminal_polyfill v1.70.1
+    Checking anstyle-query v1.1.2
+   Compiling num_enum_derive v0.6.1
+    Checking anstream v0.6.18
+    Checking rand_chacha v0.3.1
+    Checking regress v0.6.0
+    Checking boa_icu_provider v0.17.3
+   Compiling swc_ecma_parser v14.0.1
+    Checking boa_ast v0.17.3
+   Compiling thiserror-impl v1.0.69
+    Checking clap_lex v0.7.4
+    Checking strsim v0.11.1
+    Checking iana-time-zone v0.1.63
+    Checking fast-float v0.2.0
+    Checking boa_parser v0.17.3
+    Checking chrono v0.4.41
+    Checking clap_builder v4.5.39
+    Checking linkme v0.3.33
+    Checking num_enum v0.6.1
+   Compiling clap_derive v4.5.32
+    Checking dashmap v5.5.3
+    Checking itertools v0.11.0
+    Checking lazy_static v1.5.0
+    Checking ryu-js v0.2.2
+    Checking pollster v0.3.0
+    Checking sptr v0.3.2
+    Checking clap v4.5.39
+   Compiling mojes-mojo v0.1.0 (/tmp/nix-shell.uUVugk/ayourtch_mojes_txxz3sch/mojes-mojo)
+    Checking boa_engine v0.17.3
+warning: unreachable expression
+    --> mojes-mojo/src/lib.rs:5876:13
+     |
+5875 |               panic!("Infinite or complex ranges not fully supported: {:?}", x);
+     |               ----------------------------------------------------------------- any code following this expression is unreachable
+5876 | /             Ok(js::Expr::Array(js::ArrayLit {
+5877 | |                 span: DUMMY_SP,
+5878 | |                 elems: vec![],
+5879 | |             }))
+     | |_______________^ unreachable expression
+     |
+     = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+   --> mojes-mojo/src/lib.rs:396:13
+    |
+396 |         let mut final_exprs = exprs;
+    |             ----^^^^^^^^^^^
+    |             |
+    |             help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1274:13
+     |
+1274 |             _ => {
+     |             ^ no value can reach this
+     |
+note: multiple earlier patterns match some of the same values
+    --> mojes-mojo/src/lib.rs:1274:13
+     |
+1192 |             Stmt::Local(local) => {
+     |             ------------------ matches some of the same values
+...
+1197 |             Stmt::Item(item) => match item {
+     |             ---------------- matches some of the same values
+...
+1215 |             Stmt::Expr(expr, semi) => {
+     |             ---------------------- matches some of the same values
+...
+1270 |             Stmt::Macro(mac_stmt) => {
+     |             --------------------- matches some of the same values
+...
+1274 |             _ => {
+     |             ^ collectively making this unreachable
+     = note: `#[warn(unreachable_patterns)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `item_struct`
+    --> mojes-mojo/src/lib.rs:1202:35
+     |
+1202 |                 syn::Item::Struct(item_struct) => {
+     |                                   ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_item_struct`
+     |
+     = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `item_enum`
+    --> mojes-mojo/src/lib.rs:1208:33
+     |
+1208 |                 syn::Item::Enum(item_enum) => {
+     |                                 ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_item_enum`
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1400:13
+     |
+1400 |             _ => {
+     |             ^ no value can reach this
+     |
+note: multiple earlier patterns match some of the same values
+    --> mojes-mojo/src/lib.rs:1400:13
+     |
+1305 |             Stmt::Local(local) => {
+     |             ------------------ matches some of the same values
+...
+1310 |             Stmt::Item(item) => match item {
+     |             ---------------- matches some of the same values
+...
+1328 |             Stmt::Expr(expr, semi) => {
+     |             ---------------------- matches some of the same values
+...
+1396 |             Stmt::Macro(mac_stmt) => {
+     |             --------------------- matches some of the same values
+...
+1400 |             _ => {
+     |             ^ collectively making this unreachable
+
+warning: unused variable: `item_struct`
+    --> mojes-mojo/src/lib.rs:1315:35
+     |
+1315 |                 syn::Item::Struct(item_struct) => {
+     |                                   ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_item_struct`
+
+warning: unused variable: `item_enum`
+    --> mojes-mojo/src/lib.rs:1321:33
+     |
+1321 |                 syn::Item::Enum(item_enum) => {
+     |                                 ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_item_enum`
+
+warning: unused variable: `block_action`
+    --> mojes-mojo/src/lib.rs:1506:5
+     |
+1506 |     block_action: BlockAction,
+     |     ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_block_action`
+
+warning: unused variable: `expr`
+    --> mojes-mojo/src/lib.rs:1507:5
+     |
+1507 |     expr: &Expr,
+     |     ^^^^ help: if this is intentional, prefix it with an underscore: `_expr`
+
+warning: unused variable: `state`
+    --> mojes-mojo/src/lib.rs:1508:5
+     |
+1508 |     state: &mut TranspilerState,
+     |     ^^^^^ help: if this is intentional, prefix it with an underscore: `_state`
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1869:9
+     |
+1811 |         Expr::ForLoop(for_expr) => handle_for_expr(for_expr, state),
+     |         ----------------------- matches all the relevant values
+...
+1869 |         Expr::ForLoop(for_expr) => handle_for_expr(for_expr, state),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1872:9
+     |
+1814 |         Expr::Match(match_expr) => handle_match_expr(match_expr, state),
+     |         ----------------------- matches all the relevant values
+...
+1872 |         Expr::Match(match_expr) => handle_match_expr(match_expr, state),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1873:9
+     |
+1818 |         Expr::Closure(closure) => handle_closure_expr(closure, state),
+     |         ---------------------- matches all the relevant values
+...
+1873 |         Expr::Closure(closure) => handle_closure_expr(closure, state),
+     |         ^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1874:9
+     |
+1808 |         Expr::Struct(struct_expr) => handle_struct_expr(struct_expr, state),
+     |         ------------------------- matches all the relevant values
+...
+1874 |         Expr::Struct(struct_expr) => handle_struct_expr(struct_expr, state),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1877:9
+     |
+1816 |         Expr::Paren(paren) => handle_paren_expr(paren, state),
+     |         ------------------ matches all the relevant values
+...
+1877 |         Expr::Paren(paren) => handle_paren_expr(paren, state),
+     |         ^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unreachable pattern
+    --> mojes-mojo/src/lib.rs:1919:9
+     |
+1816 |         Expr::Paren(paren) => handle_paren_expr(paren, state),
+     |         ------------------ matches all the relevant values
+...
+1919 |         Expr::Paren(paren) => handle_paren_expr(paren, state),
+     |         ^^^^^^^^^^^^^^^^^^ no value can reach this
+
+warning: unused variable: `current_struct`
+    --> mojes-mojo/src/lib.rs:2852:41
+     |
+2852 | ...                   if let Some(current_struct) = state.get_current_struct_name() {
+     |                                   ^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_current_struct`
+
+warning: variable does not need to be mutable
+    --> mojes-mojo/src/lib.rs:4291:21
+     |
+4291 |     let (condition, mut binding_stmts) =
+     |                     ----^^^^^^^^^^^^^
+     |                     |
+     |                     help: remove this `mut`
+
+warning: unused variable: `param`
+    --> mojes-mojo/src/lib.rs:4618:21
+     |
+4618 |                 let param = js::Param {
+     |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: variable does not need to be mutable
+    --> mojes-mojo/src/lib.rs:4770:17
+     |
+4770 |             let mut stmts = vec![
+     |                 ----^^^^^
+     |                 |
+     |                 help: remove this `mut`
+
+warning: unused variable: `enum_name`
+    --> mojes-mojo/src/lib.rs:5599:13
+     |
+5599 |         let enum_name = struct_expr.path.segments.first().unwrap().ident.to_string();
+     |             ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_enum_name`
+
+warning: variable does not need to be mutable
+    --> mojes-mojo/src/lib.rs:5947:9
+     |
+5947 |     let mut state = TranspilerState::new();
+     |         ----^^^^^
+     |         |
+     |         help: remove this `mut`
+
+warning: unused variable: `state`
+    --> mojes-mojo/src/lib.rs:5947:9
+     |
+5947 |     let mut state = TranspilerState::new();
+     |         ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_state`
+
+warning: function `can_be_statement` is never used
+   --> mojes-mojo/src/lib.rs:588:4
+    |
+588 | fn can_be_statement(expr: &Expr) -> bool {
+    |    ^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `create_match_condition` is never used
+    --> mojes-mojo/src/lib.rs:5287:4
+     |
+5287 | fn create_match_condition(
+     |    ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `create_enum_to_json_method` is never used
+    --> mojes-mojo/src/lib.rs:6081:4
+     |
+6081 | fn create_enum_to_json_method(
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `create_enum_to_json_standalone_function` is never used
+    --> mojes-mojo/src/lib.rs:6383:4
+     |
+6383 | fn create_enum_to_json_standalone_function(
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `mojes-mojo` (lib) generated 28 warnings (run `cargo fix --lib -p mojes-mojo` to apply 15 suggestions)
+   Compiling mojes-derive v0.1.0 (/tmp/nix-shell.uUVugk/ayourtch_mojes_txxz3sch/mojes-derive)
+warning: unused import: `Ident`
+  --> mojes-derive/src/lib.rs:11:19
+   |
+11 | use syn::{Fields, Ident};
+   |                   ^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+error[E0271]: type mismatch resolving `&[u16] == &Vec<u16>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/boa_engine-0.17.3/src/builtins/json/mod.rs:682:25
+    |
+682 |                         &separator,
+    |                         ^^^^^^^^^^ types differ
+
+error[E0271]: type mismatch resolving `&[u16] == &Vec<u16>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/boa_engine-0.17.3/src/builtins/json/mod.rs:795:25
+    |
+795 |                         &separator,
+    |                         ^^^^^^^^^^ types differ
+
+warning: `mojes-derive` (lib) generated 1 warning (run `cargo fix --lib -p mojes-derive` to apply 1 suggestion)
+    Checking mojes-dom-api v0.1.0 (/tmp/nix-shell.uUVugk/ayourtch_mojes_txxz3sch/mojes-dom-api)
+warning: unexpected `cfg` condition name: `test_not_needed_now`
+    --> mojes-dom-api/src/lib.rs:1350:7
+     |
+1350 | #[cfg(test_not_needed_now)]
+     |       ^^^^^^^^^^^^^^^^^^^
+     |
+     = help: expected names are: `docsrs`, `feature`, and `test` and 31 more
+     = help: consider using a Cargo feature instead
+     = help: or consider adding in `Cargo.toml` the `check-cfg` lint config for the lint:
+              [lints.rust]
+              unexpected_cfgs = { level = "warn", check-cfg = ['cfg(test_not_needed_now)'] }
+     = help: or consider adding `println!("cargo::rustc-check-cfg=cfg(test_not_needed_now)");` to the top of the `build.rs`
+     = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+     = note: `#[warn(unexpected_cfgs)]` on by default
+
+warning: unexpected `cfg` condition name: `test_not_needed_now`
+    --> mojes-dom-api/src/lib.rs:1906:7
+     |
+1906 | #[cfg(test_not_needed_now)]
+     |       ^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider using a Cargo feature instead
+     = help: or consider adding in `Cargo.toml` the `check-cfg` lint config for the lint:
+              [lints.rust]
+              unexpected_cfgs = { level = "warn", check-cfg = ['cfg(test_not_needed_now)'] }
+     = help: or consider adding `println!("cargo::rustc-check-cfg=cfg(test_not_needed_now)");` to the top of the `build.rs`
+     = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unused variable: `value`
+  --> mojes-dom-api/src/lib.rs:39:20
+   |
+39 |     pub fn resolve(value: T) -> Self {
+   |                    ^^^^^ help: if this is intentional, prefix it with an underscore: `_value`
+   |
+   = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `callback`
+  --> mojes-dom-api/src/lib.rs:55:30
+   |
+55 |     pub fn then<F, U>(&self, callback: F) -> Promise<U>
+   |                              ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_callback`
+
+warning: unused variable: `callback`
+  --> mojes-dom-api/src/lib.rs:63:28
+   |
+63 |     pub fn catch<F>(&self, callback: F) -> Promise<T>
+   |                            ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_callback`
+
+warning: unused variable: `s`
+  --> mojes-dom-api/src/lib.rs:75:15
+   |
+75 | pub fn Number(s: &str) -> f64 {
+   |               ^ help: if this is intentional, prefix it with an underscore: `_s`
+
+warning: unused variable: `stream`
+   --> mojes-dom-api/src/lib.rs:390:37
+    |
+390 |     pub fn set_srcObject(&mut self, stream: Option<MediaStream>) {
+    |                                     ^^^^^^ help: if this is intentional, prefix it with an underscore: `_stream`
+
+warning: unused variable: `name`
+   --> mojes-dom-api/src/lib.rs:458:37
+    |
+458 |     pub fn getElementsByName(&self, name: &str) -> Vec<Element> {
+    |                                     ^^^^ help: if this is intentional, prefix it with an underscore: `_name`
+
+warning: unused variable: `callback`
+   --> mojes-dom-api/src/lib.rs:641:33
+    |
+641 |     pub fn setTimeout<F>(&self, callback: F, delay: u32) -> u32
+    |                                 ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_callback`
+
+warning: unused variable: `callback`
+   --> mojes-dom-api/src/lib.rs:649:34
+    |
+649 |     pub fn setInterval<F>(&self, callback: F, delay: u32) -> u32
+    |                                  ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_callback`
+
+warning: unused variable: `callback`
+   --> mojes-dom-api/src/lib.rs:674:44
+    |
+674 |     pub fn requestAnimationFrame<F>(&self, callback: F) -> u32
+    |                                            ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_callback`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:1723:61
+     |
+1723 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: unused variable: `event_type`
+    --> mojes-dom-api/src/lib.rs:1983:43
+     |
+1983 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                           ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_event_type`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:1983:61
+     |
+1983 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:2195:61
+     |
+2195 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:2245:61
+     |
+2245 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: unused variable: `constraints`
+    --> mojes-dom-api/src/lib.rs:2327:32
+     |
+2327 |     pub fn getUserMedia(&self, constraints: &MediaStreamConstraints) -> Promise<MediaStream> {
+     |                                ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_constraints`
+
+warning: unused variable: `constraints`
+    --> mojes-dom-api/src/lib.rs:2333:35
+     |
+2333 |     pub fn getDisplayMedia(&self, constraints: &MediaStreamConstraints) -> Result<MediaStream, String> {
+     |                                   ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_constraints`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:2554:61
+     |
+2554 |     pub fn addEventListener<F>(&mut self, event_type: &str, listener: F)
+     |                                                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: unused variable: `sender`
+    --> mojes-dom-api/src/lib.rs:2652:35
+     |
+2652 |     pub fn removeTrack(&mut self, sender: &RTCRtpSender) -> Result<(), String> {
+     |                                   ^^^^^^ help: if this is intentional, prefix it with an underscore: `_sender`
+
+warning: unused variable: `listener`
+    --> mojes-dom-api/src/lib.rs:2669:57
+     |
+2669 |     pub fn addEventListener<F>(&self, event_type: &str, listener: F)
+     |                                                         ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_listener`
+
+warning: `mojes-dom-api` (lib) generated 21 warnings (run `cargo fix --lib -p mojes-dom-api` to apply 19 suggestions)
+For more information about this error, try `rustc --explain E0271`.
+warning: `mojes-mojo` (lib) generated 28 warnings (28 duplicates)
+    Checking mojes v0.1.0 (/tmp/nix-shell.uUVugk/ayourtch_mojes_txxz3sch/mojes)
+error: could not compile `boa_engine` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,487 @@
+Running as unit: run-p2465798-i15045904.scope; invocation ID: dd05347e2cb0444d8eb2fbe17b1b8c25
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+    Checking cfg-if v1.0.3
+   Compiling libc v0.2.176
+   Compiling serde_core v1.0.228
+   Compiling version_check v0.9.5
+   Compiling serde v1.0.228
+    Checking pin-project-lite v0.2.16
+   Compiling typenum v1.18.0
+    Checking smallvec v1.15.1
+   Compiling generic-array v0.14.7
+    Checking bytes v1.10.1
+   Compiling autocfg v1.5.0
+   Compiling quote v1.0.40
+    Checking memchr v2.7.6
+    Checking once_cell v1.21.3
+   Compiling syn v2.0.106
+    Checking itoa v1.0.15
+    Checking subtle v2.6.1
+    Checking getrandom v0.2.16
+   Compiling shlex v1.3.0
+    Checking rand_core v0.6.4
+    Checking futures-core v0.3.31
+    Checking stable_deref_trait v1.2.0
+   Compiling find-msvc-tools v0.1.2
+   Compiling lock_api v0.4.13
+   Compiling parking_lot_core v0.9.11
+   Compiling cc v1.2.39
+    Checking scopeguard v1.2.0
+   Compiling zerocopy v0.8.27
+    Checking fnv v1.0.7
+    Checking parking_lot v0.12.4
+    Checking http v1.3.1
+    Checking crypto-common v0.1.6
+    Checking mio v1.0.4
+    Checking signal-hook-registry v1.4.6
+    Checking socket2 v0.6.0
+    Checking tracing-core v0.1.34
+    Checking block-buffer v0.10.4
+   Compiling getrandom v0.3.3
+    Checking cpufeatures v0.2.17
+    Checking digest v0.10.7
+    Checking writeable v0.6.1
+   Compiling winnow v0.7.13
+    Checking litemap v0.8.0
+    Checking futures-sink v0.3.31
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.16.0
+   Compiling thiserror v2.0.16
+   Compiling icu_properties_data v2.0.1
+    Checking percent-encoding v2.3.2
+   Compiling icu_normalizer_data v2.0.0
+    Checking ppv-lite86 v0.2.21
+   Compiling indexmap v2.11.4
+    Checking ryu v1.0.20
+    Checking base64 v0.22.1
+   Compiling toml_datetime v0.7.2
+    Checking form_urlencoded v1.2.2
+   Compiling serde_json v1.0.145
+    Checking slab v0.4.11
+    Checking rand_chacha v0.3.1
+    Checking futures-channel v0.3.31
+   Compiling typewit_proc_macros v1.8.1
+    Checking pin-utils v0.1.0
+    Checking utf8_iter v1.0.4
+    Checking rand v0.8.5
+    Checking typewit v1.14.2
+    Checking aho-corasick v1.1.3
+    Checking regex-syntax v0.8.6
+   Compiling toml_parser v1.0.3
+    Checking futures-io v0.3.31
+   Compiling httparse v1.10.1
+   Compiling semver v1.0.27
+    Checking futures-task v0.3.31
+   Compiling synstructure v0.13.2
+   Compiling toml_edit v0.23.6
+   Compiling rustc_version v0.4.1
+   Compiling js_int v0.2.2
+    Checking const-oid v0.9.6
+    Checking powerfmt v0.2.0
+   Compiling curve25519-dalek v4.1.3
+    Checking deranged v0.5.4
+   Compiling proc-macro-crate v3.4.0
+    Checking regex-automata v0.4.11
+    Checking konst_kernel v0.3.15
+    Checking const_panic v0.2.15
+   Compiling ring v0.17.14
+    Checking block-padding v0.3.3
+    Checking time-core v0.1.6
+    Checking num-conv v0.1.0
+   Compiling ruma-common v0.16.0
+    Checking konst v0.3.16
+    Checking inout v0.1.4
+    Checking serde_html_form v0.2.8
+   Compiling serde_derive v1.0.228
+   Compiling zeroize_derive v1.4.2
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+    Checking zeroize v1.8.1
+   Compiling zerovec-derive v0.11.1
+   Compiling displaydoc v0.2.5
+   Compiling tokio-macros v2.5.0
+   Compiling tracing-attributes v0.1.30
+   Compiling thiserror-impl v2.0.16
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.0
+    Checking tokio v1.47.1
+    Checking zerovec v0.11.4
+    Checking tracing v0.1.41
+    Checking zerotrie v0.2.2
+   Compiling futures-macro v0.3.31
+    Checking tinystr v0.8.1
+    Checking potential_utf v0.1.3
+    Checking icu_locale_core v2.0.0
+    Checking icu_collections v2.0.0
+   Compiling ruma-identifiers-validation v0.11.0
+    Checking icu_provider v2.0.0
+    Checking der v0.7.10
+    Checking futures-util v0.3.31
+    Checking icu_normalizer v2.0.0
+    Checking icu_properties v2.0.1
+   Compiling toml_datetime v0.6.11
+   Compiling serde_spanned v0.6.9
+   Compiling toml_edit v0.22.27
+    Checking regex v1.11.3
+    Checking spki v0.7.3
+    Checking time v0.3.44
+   Compiling curve25519-dalek-derive v0.1.1
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+    Checking uuid v1.18.1
+    Checking url v2.5.7
+    Checking sha2 v0.10.9
+   Compiling num-traits v0.2.19
+    Checking wildmatch v2.5.0
+    Checking web-time v1.1.0
+    Checking as_variant v1.3.0
+    Checking pkcs8 v0.10.2
+    Checking rustls-pki-types v1.12.0
+    Checking cipher v0.4.4
+    Checking rand_core v0.9.3
+    Checking http-body v1.0.1
+    Checking signature v2.2.0
+   Compiling ruma-events v0.31.0
+    Checking untrusted v0.9.0
+   Compiling crc32fast v1.5.0
+    Checking ed25519 v2.2.3
+    Checking js_option v0.1.1
+    Checking bitflags v2.9.4
+    Checking tower-service v0.3.3
+    Checking tokio-util v0.7.16
+    Checking adler2 v2.0.1
+   Compiling anyhow v1.0.100
+    Checking try-lock v0.2.5
+   Compiling toml v0.8.23
+    Checking atomic-waker v1.1.2
+   Compiling either v1.15.0
+   Compiling rustls v0.23.32
+   Compiling crossbeam-utils v0.8.21
+   Compiling paste v1.0.15
+    Checking h2 v0.4.12
+    Checking want v0.3.1
+    Checking ed25519-dalek v2.2.0
+    Checking miniz_oxide v0.8.9
+    Checking hmac v0.12.1
+    Checking rustls-webpki v0.103.6
+    Checking sha1 v0.10.6
+    Checking headers-core v0.3.0
+    Checking universal-hash v0.5.1
+   Compiling proc-macro-error-attr2 v2.0.0
+    Checking opaque-debug v0.3.1
+   Compiling ruma-signatures v0.18.0
+   Compiling ruma-client-api v0.21.0
+   Compiling ruma-federation-api v0.12.0
+   Compiling thiserror v1.0.69
+    Checking httpdate v1.0.3
+    Checking bitmaps v3.2.1
+    Checking mime v0.3.17
+   Compiling proc-macro-error2 v2.0.1
+    Checking headers v0.4.1
+   Compiling ruma-macros v0.16.0
+    Checking poly1305 v0.8.0
+    Checking flate2 v1.1.2
+    Checking imbl-sized-chunks v0.1.3
+    Checking rand_xoshiro v0.7.0
+    Checking chacha20 v0.9.1
+    Checking arrayvec v0.7.6
+   Compiling thiserror-impl v1.0.69
+   Compiling blake3 v1.8.2
+    Checking aead v0.5.2
+    Checking hyper v1.7.0
+    Checking sync_wrapper v1.0.2
+    Checking http-auth v0.1.10
+    Checking maplit v1.0.2
+    Checking date_header v1.0.5
+    Checking archery v1.2.1
+    Checking assign v1.1.1
+    Checking compression-core v0.4.29
+    Checking ipnet v2.11.0
+    Checking byteorder v1.5.0
+    Checking log v0.4.28
+    Checking lazy_static v1.5.0
+    Checking tower-layer v0.3.3
+    Checking rmp v0.8.14
+    Checking tower v0.5.2
+    Checking compression-codecs v0.4.31
+    Checking imbl v5.0.0
+    Checking hyper-util v0.1.17
+    Checking tokio-rustls v0.26.4
+    Checking chacha20poly1305 v0.10.1
+    Checking concurrent-queue v2.5.0
+   Compiling itertools v0.14.0
+    Checking webpki-roots v1.0.2
+   Compiling psm v0.1.26
+    Checking serde_bytes v0.11.19
+   Compiling ahash v0.8.12
+    Checking constant_time_eq v0.3.1
+    Checking iri-string v0.7.8
+   Compiling decancer v3.3.3
+    Checking arrayref v0.3.9
+   Compiling rustix v1.1.2
+    Checking parking v2.2.1
+   Compiling matrix-sdk-common v0.14.0
+    Checking tinyvec_macros v0.1.1
+    Checking tinyvec v1.10.0
+    Checking event-listener v5.4.1
+    Checking hyper-rustls v0.27.7
+    Checking eyeball-im v0.7.0
+    Checking async-compression v0.4.32
+    Checking rmp-serde v1.3.0
+   Compiling matrix-pickle-derive v0.2.1
+    Checking pbkdf2 v0.12.2
+    Checking readlock-tokio v0.1.4
+    Checking tower-http v0.6.6
+    Checking http-body-util v0.1.3
+    Checking serde_urlencoded v0.7.1
+   Compiling prost-derive v0.13.5
+   Compiling stacker v0.1.21
+   Compiling include_dir_macros v0.7.4
+    Checking linux-raw-sys v0.11.0
+    Checking xxhash-rust v0.8.15
+    Checking readlock v0.1.9
+    Checking fastrand v2.3.0
+    Checking iana-time-zone v0.1.64
+    Checking chrono v0.4.42
+    Checking eyeball v0.8.8
+   Compiling include_dir v0.7.4
+    Checking growable-bloom-filter v2.1.1
+    Checking matrix-pickle v0.2.1
+    Checking reqwest v0.12.23
+    Checking matrix-sdk-store-encryption v0.14.0
+    Checking unicode-normalization v0.1.24
+    Checking event-listener-strategy v0.5.4
+    Checking hkdf v0.12.4
+   Compiling itertools v0.10.5
+    Checking x25519-dalek v2.0.1
+    Checking aes v0.8.4
+    Checking prost v0.13.5
+    Checking cbc v0.1.2
+   Compiling async-trait v0.1.89
+   Compiling async-stream-impl v0.3.6
+    Checking serde_path_to_error v0.1.20
+    Checking base64ct v1.8.0
+   Compiling argh_shared v0.1.13
+    Checking allocator-api2 v0.2.21
+   Compiling matrix-sdk v0.14.0
+   Compiling argh_derive v0.1.13
+    Checking vodozemac v0.9.0
+    Checking hashbrown v0.14.5
+   Compiling aquamarine v0.6.0
+    Checking oauth2 v5.0.0
+    Checking async-stream v0.3.6
+    Checking tempfile v3.23.0
+    Checking async-channel v2.5.0
+    Checking backon v1.5.2
+    Checking tracing-log v0.2.0
+    Checking sharded-slab v0.1.7
+    Checking tokio-stream v0.1.17
+    Checking futures-executor v0.3.31
+    Checking rand_chacha v0.9.0
+    Checking serde_spanned v1.0.2
+    Checking thread_local v1.1.9
+    Checking urlencoding v2.1.3
+    Checking rust-fuzzy-search v0.1.1
+    Checking anymap2 v0.13.0
+    Checking language-tags v0.3.2
+    Checking nu-ansi-term v0.50.1
+    Checking mime2ext v0.1.54
+    Checking toml_writer v1.0.3
+    Checking bytesize v2.1.0
+    Checking argh v0.1.13
+    Checking tracing-subscriber v0.3.20
+    Checking rand v0.9.2
+    Checking futures v0.3.31
+    Checking toml v0.9.7
+    Checking chumsky v0.9.3
+    Checking ruma v0.13.0
+    Checking matrix-sdk-base v0.14.1
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<messages::Messages, PaginatorError>>: SendOutsideWasm`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/paginators/room.rs:407:56
+    |
+407 |     async fn messages(&self, opts: MessagesOptions) -> Result<Messages, PaginatorError> {
+    |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `PaginableRoom::messages::{anon_assoc#0}`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/paginators/room.rs:374:67
+    |
+374 |     ) -> impl Future<Output = Result<Messages, PaginatorError>> + SendOutsideWasm;
+    |                                                                   ^^^^^^^^^^^^^^^ required by this bound in `PaginableRoom::messages::{anon_assoc#0}`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = std::result::Result<TimelineEvent, error::Error>>: SendOutsideWasm`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/room/mod.rs:4649:54
+     |
+4649 |     async fn get_event(&self, event_id: &EventId) -> Result<TimelineEvent, Error> {
+     |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `EventSource::get_event::{anon_assoc#0}`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/room/mod.rs:4645:63
+     |
+4645 |     ) -> impl Future<Output = Result<TimelineEvent, Error>> + SendOutsideWasm;
+     |                                                               ^^^^^^^^^^^^^^^ required by this bound in `EventSource::get_event::{anon_assoc#0}`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/event_cache/mod.rs:191:61
+    |
+191 |           let thread_subscriber_task = AbortOnDrop::new(spawn(Self::thread_subscriber_task(
+    |  _______________________________________________________-----_^
+    | |                                                       |
+    | |                                                       required by a bound introduced by this call
+192 | |             client.clone(),
+193 | |             linked_chunk_update_sender.clone(),
+194 | |             thread_subscriber_sender,
+195 | |         )));
+    | |_________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/event_cache/mod.rs:240:45
+    |
+240 |               let listen_updates_task = spawn(Self::listen_task(
+    |  _______________________________________-----_^
+    | |                                       |
+    | |                                       required by a bound introduced by this call
+241 | |                 self.inner.clone(),
+242 | |                 client.subscribe_to_all_room_updates(),
+243 | |             ));
+    | |_____________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/event_cache/mod.rs:245:54
+    |
+245 |               let ignore_user_list_update_task = spawn(Self::ignore_user_list_update_task(
+    |  ________________________________________________-----_^
+    | |                                                |
+    | |                                                required by a bound introduced by this call
+246 | |                 self.inner.clone(),
+247 | |                 client.subscribe_to_ignore_user_list_changes(),
+248 | |             ));
+    | |_____________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/latest_events/mod.rs:112:40
+    |
+112 |           let listen_task_handle = spawn(listen_to_event_cache_and_send_queue_updates_task(
+    |  __________________________________-----_^
+    | |                                  |
+    | |                                  required by a bound introduced by this call
+113 | |             registered_rooms.clone(),
+114 | |             room_registration_receiver,
+115 | |             event_cache,
+116 | |             send_queue,
+117 | |             latest_event_queue_sender,
+118 | |         ))
+    | |_________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `impl futures_core::Future<Output = ()>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/send_queue/mod.rs:453:26
+    |
+453 |           let task = spawn(Self::sending_task(
+    |  ____________________-----_^
+    | |                    |
+    | |                    required by a bound introduced by this call
+454 | |             weak_room.clone(),
+455 | |             queue.clone(),
+456 | |             notifier.clone(),
+...   |
+462 | |             report_media_upload_progress,
+463 | |         ));
+    | |_________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/client/futures.rs:89:18: 89:28}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = std::result::Result<..., ...>> + std::marker::Send>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/client/futures.rs:89:9
+    |
+ 89 | /         Box::pin(async move {
+ 90 | |             let res =
+ 91 | |                 Box::pin(client.send_inner(request.clone(), config, send_progress.clone())).await;
+...   |
+154 | |             res
+155 | |         })
+    | |__________^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = Result<..., ...>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/oherrala_puskapupu_sraq02gx/target/debug/deps/matrix_sdk-dc2cb8a1030dce0d.long-type-14759310446629136010.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<Instrumented<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/room/futures.rs:305:19: 305:29}>>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = ...> + std::marker::Send>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/room/futures.rs:317:9
+    |
+317 |         Box::pin(fut.instrument(tracing_span))
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+    = note: required for the cast from `Pin<Box<Instrumented<...>>>` to `Pin<Box<dyn Future<Output = Result<Response, Error>> + Send>>`
+    = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/oherrala_puskapupu_sraq02gx/target/debug/deps/matrix_sdk-dc2cb8a1030dce0d.long-type-15786999323651561670.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `Instrumented<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/sliding_sync/mod.rs:610:22: 610:32}>: std::marker::Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-0.14.0/src/sliding_sync/mod.rs:633:9
+    |
+633 |         spawn(future.instrument(Span::current())).await.unwrap()
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk`)
+note: required by a bound in `tokio::spawn`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.47.1/src/task/spawn.rs:168:21
+    |
+166 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
+    |            ----- required by a bound in this function
+167 |     where
+168 |         F: Future + Send + 'static,
+    |                     ^^^^ required by this bound in `spawn`
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `matrix-sdk` (lib) due to 10 previous errors

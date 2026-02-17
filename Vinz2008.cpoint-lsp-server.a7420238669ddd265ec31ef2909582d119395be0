@@ -1,0 +1,14 @@
+ Downloading crates ...
+  Downloaded async-trait v0.1.76 (registry `tuna`)
+  Downloaded serde_derive v1.0.193 (registry `tuna`)
+  Downloaded tower-lsp-macros v0.8.0 (registry `tuna`)
+  Downloaded auto_impl v1.1.0 (registry `tuna`)
+  Downloaded serde_repr v0.1.17 (registry `tuna`)
+  Downloaded str_indices v0.4.3 (registry `tuna`)
+  Downloaded tower-lsp v0.19.0 (registry `tuna`)
+  Downloaded proc-macro2 v1.0.72 (registry `tuna`)
+  Downloaded serde v1.0.193 (registry `tuna`)
+  Downloaded serde_json v1.0.108 (registry `tuna`)
+  Downloaded syn v2.0.43 (registry `tuna`)
+error: extra arguments to `rustc` can only be passed to one target, consider filtering
+the package by passing, e.g., `--lib` or `--bin NAME` to specify a single target

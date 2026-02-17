@@ -1,0 +1,379 @@
+Running as unit: run-p2560506-i2560806.scope; invocation ID: 3008ee4a7ba04193842dcb596cfe1d22
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded enser v0.1.4 (registry `tuna`)
+  Downloaded enser_derive v0.1.4 (registry `tuna`)
+  Downloaded dot_ix_static_check_macros v0.10.0 (registry `tuna`)
+  Downloaded peace_data v0.0.15 (registry `tuna`)
+  Downloaded peace_value_traits v0.0.15 (registry `tuna`)
+  Downloaded peace_profile_model v0.0.15 (registry `tuna`)
+  Downloaded peace_core v0.0.15 (registry `tuna`)
+  Downloaded own v0.1.3 (registry `tuna`)
+  Downloaded peace_fmt v0.0.15 (registry `tuna`)
+  Downloaded peace_flow_model v0.0.15 (registry `tuna`)
+  Downloaded peace_static_check_macros v0.0.15 (registry `tuna`)
+  Downloaded rt_map v0.6.0 (registry `tuna`)
+  Downloaded leptos_config v0.8.0-rc1 (registry `tuna`)
+  Downloaded peace_webi_components v0.0.15 (registry `tuna`)
+  Downloaded leptos_meta v0.8.0-rc1 (registry `tuna`)
+  Downloaded dot_ix_rt v0.10.0 (registry `tuna`)
+  Downloaded const-str v0.5.7 (registry `tuna`)
+  Downloaded peace_rt_model v0.0.15 (registry `tuna`)
+  Downloaded leptos_server v0.8.0-rc1 (registry `tuna`)
+  Downloaded daggy v0.9.0 (registry `tuna`)
+  Downloaded peace_rt_model_core v0.0.15 (registry `tuna`)
+  Downloaded peace_webi_model v0.0.15 (registry `tuna`)
+  Downloaded peace_resource_rt v0.0.15 (registry `tuna`)
+  Downloaded peace_params v0.0.15 (registry `tuna`)
+  Downloaded proc_macro_roids v0.8.0 (registry `tuna`)
+  Downloaded peace_rt_model_native v0.0.15 (registry `tuna`)
+  Downloaded peace_cfg v0.0.15 (registry `tuna`)
+  Downloaded peace_flow_rt v0.0.15 (registry `tuna`)
+  Downloaded interruptible v0.2.4 (registry `tuna`)
+  Downloaded serde_tagged v0.4.0 (registry `tuna`)
+  Downloaded server_fn v0.8.0-rc1 (registry `tuna`)
+  Downloaded reactive_graph v0.2.0-rc1 (registry `tuna`)
+  Downloaded dot_ix v0.10.0 (registry `tuna`)
+  Downloaded leptos_macro v0.8.0-rc1 (registry `tuna`)
+  Downloaded fn_graph v0.18.0 (registry `tuna`)
+  Downloaded leptos_dom v0.8.0-rc1 (registry `tuna`)
+  Downloaded dot_ix_web_components v0.10.0 (registry `tuna`)
+  Downloaded any_spawner v0.3.0-rc1 (registry `tuna`)
+  Downloaded dot_ix_model v0.10.0 (registry `tuna`)
+  Downloaded id_newtype v0.1.0 (registry `tuna`)
+  Downloaded server_fn_macro v0.8.0-rc1 (registry `tuna`)
+  Downloaded leptos_hot_reload v0.8.0-rc1 (registry `tuna`)
+  Downloaded rt_ref v0.3.0 (registry `tuna`)
+  Downloaded leptos_integration_utils v0.8.0-rc1 (registry `tuna`)
+  Downloaded type_reg v0.9.0 (registry `tuna`)
+  Downloaded resman v0.19.0 (registry `tuna`)
+  Downloaded reactive_stores_macro v0.2.0-rc1 (registry `tuna`)
+  Downloaded peace_params_derive v0.0.15 (registry `tuna`)
+  Downloaded server_fn_macro_default v0.8.0-rc1 (registry `tuna`)
+  Downloaded reactive_stores v0.2.0-rc1 (registry `tuna`)
+  Downloaded peace_item_model v0.0.15 (registry `tuna`)
+  Downloaded peace_item_interaction_model v0.0.15 (registry `tuna`)
+  Downloaded peace_cmd_model v0.0.15 (registry `tuna`)
+  Downloaded peace_data_derive v0.0.15 (registry `tuna`)
+  Downloaded leptos_router_macro v0.8.0-rc1 (registry `tuna`)
+  Downloaded leptos_axum v0.8.0-rc1 (registry `tuna`)
+  Downloaded leptos v0.8.0-rc1 (registry `tuna`)
+  Downloaded tachys v0.2.0-rc1 (registry `tuna`)
+  Downloaded leptos_router v0.8.0-rc1 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.172
+   Compiling serde v1.0.219
+    Checking cfg-if v1.0.0
+   Compiling autocfg v1.4.0
+    Checking memchr v2.7.4
+    Checking pin-project-lite v0.2.16
+   Compiling version_check v0.9.5
+    Checking futures-core v0.3.31
+    Checking bytes v1.10.1
+    Checking futures-sink v0.3.31
+    Checking futures-channel v0.3.31
+    Checking once_cell v1.21.3
+    Checking futures-io v0.3.31
+   Compiling slab v0.4.9
+   Compiling semver v1.0.26
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+   Compiling thiserror v2.0.12
+   Compiling wasm-bindgen-shared v0.2.100
+   Compiling rustversion v1.0.20
+    Checking itoa v1.0.15
+    Checking allocator-api2 v0.2.21
+    Checking foldhash v0.1.5
+    Checking smallvec v1.15.0
+    Checking equivalent v1.0.2
+   Compiling log v0.4.27
+   Compiling rustc_version v0.4.1
+   Compiling bumpalo v3.17.0
+   Compiling quote v1.0.40
+   Compiling wasm-bindgen v0.2.100
+    Checking hashbrown v0.15.2
+    Checking socket2 v0.5.9
+    Checking mio v1.0.3
+    Checking num_cpus v1.16.0
+   Compiling syn v2.0.100
+    Checking stable_deref_trait v1.2.0
+    Checking fnv v1.0.7
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling lock_api v0.4.12
+    Checking http v1.3.1
+   Compiling parking_lot_core v0.9.10
+   Compiling crossbeam-utils v0.8.21
+   Compiling typenum v1.18.0
+   Compiling zerocopy v0.8.24
+   Compiling generic-array v0.14.7
+   Compiling unicode-segmentation v1.12.0
+   Compiling icu_locid_transform_data v1.5.1
+    Checking writeable v0.5.5
+    Checking litemap v0.7.5
+   Compiling httparse v1.10.1
+   Compiling getrandom v0.3.2
+   Compiling icu_properties_data v1.5.1
+   Compiling thiserror v1.0.69
+    Checking ryu v1.0.20
+    Checking percent-encoding v2.3.1
+   Compiling icu_normalizer_data v1.5.1
+    Checking http-body v1.0.1
+    Checking concurrent-queue v2.5.0
+   Compiling proc-macro2-diagnostics v0.10.1
+    Checking parking v2.2.1
+   Compiling unicode-xid v0.2.6
+    Checking scopeguard v1.2.0
+   Compiling serde_json v1.0.140
+   Compiling const_format_proc_macros v0.2.34
+    Checking event-listener v5.4.0
+    Checking rand_core v0.9.3
+   Compiling proc-macro-utils v0.10.0
+    Checking tracing-core v0.1.33
+   Compiling slotmap v1.0.7
+    Checking throw_error v0.3.0
+    Checking write16 v1.0.0
+    Checking utf16_iter v1.0.5
+   Compiling paste v1.0.15
+    Checking tower-service v0.3.3
+    Checking utf8_iter v1.0.4
+    Checking mime v0.3.17
+    Checking tracing v0.1.41
+    Checking event-listener-strategy v0.5.4
+    Checking form_urlencoded v1.2.1
+   Compiling convert_case v0.7.1
+   Compiling reactive_graph v0.2.0-rc1
+   Compiling server_fn_macro v0.8.0-rc1
+    Checking send_wrapper v0.6.0
+    Checking cpufeatures v0.2.17
+    Checking ppv-lite86 v0.2.21
+    Checking httpdate v1.0.3
+    Checking tower-layer v0.3.3
+    Checking or_poisoned v0.1.0
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.6
+   Compiling anyhow v1.0.98
+   Compiling camino v1.1.9
+    Checking digest v0.10.7
+   Compiling const_format v0.2.34
+    Checking sha1 v0.10.6
+    Checking rand_chacha v0.9.0
+    Checking async-lock v3.4.0
+    Checking rand v0.9.1
+    Checking http-body-util v0.1.3
+   Compiling convert_case v0.6.0
+   Compiling multer v3.1.0
+    Checking data-encoding v2.9.0
+    Checking winnow v0.7.6
+    Checking either v1.15.0
+    Checking sync_wrapper v1.0.2
+   Compiling xxhash-rust v0.8.15
+    Checking guardian v1.3.0
+    Checking utf-8 v0.7.6
+    Checking rustc-hash v2.1.1
+   Compiling manyhow-macros v0.11.4
+    Checking parking_lot v0.12.3
+    Checking itertools v0.14.0
+   Compiling tachys v0.2.0-rc1
+    Checking aho-corasick v1.1.3
+    Checking encoding_rs v0.8.35
+   Compiling prettyplease v0.2.32
+    Checking regex-syntax v0.8.5
+    Checking utf8-width v0.1.7
+   Compiling yansi v1.0.1
+    Checking spin v0.9.8
+    Checking html-escape v0.2.13
+    Checking axum-core v0.5.2
+    Checking either_of v0.1.6
+    Checking getrandom v0.2.15
+   Compiling collection_literals v1.0.1
+    Checking regex-automata v0.4.9
+    Checking pathdiff v0.2.3
+    Checking next_tuple v0.1.0
+    Checking hashbrown v0.14.5
+   Compiling same-file v1.0.6
+   Compiling synstructure v0.13.1
+   Compiling wasm-bindgen-backend v0.2.100
+   Compiling proc-macro-error2 v2.0.1
+   Compiling manyhow v0.11.4
+    Checking drain_filter_polyfill v0.1.3
+    Checking const_str_slice_concat v0.1.0
+   Compiling interpolator v0.5.0
+    Checking id_newtype v0.1.0
+    Checking matchit v0.8.4
+   Compiling wasm-bindgen-macro-support v0.2.100
+    Checking base64 v0.22.1
+    Checking erased v0.1.2
+    Checking linear-map v1.2.0
+    Checking regex v1.11.1
+    Checking dashmap v6.1.0
+   Compiling indexmap v2.9.0
+   Compiling walkdir v2.5.0
+   Compiling serde_derive v1.0.219
+   Compiling futures-macro v0.3.31
+   Compiling tokio-macros v2.5.0
+   Compiling thiserror-impl v2.0.12
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.7.5
+    Checking tokio v1.44.2
+    Checking futures-util v0.3.31
+   Compiling wasm-bindgen-macro v0.2.100
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling icu_provider_macros v1.5.0
+    Checking zerofrom v0.1.6
+    Checking yoke v0.7.5
+    Checking js-sys v0.3.77
+   Compiling async-trait v0.1.88
+   Compiling thiserror-impl v1.0.69
+   Compiling derive-where v1.2.7
+    Checking zerovec v0.10.4
+   Compiling syn_derive v0.2.0
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+    Checking tungstenite v0.26.2
+   Compiling reactive_stores_macro v0.2.0-rc1
+   Compiling quote-use-macros v0.8.4
+    Checking tinystr v0.7.6
+    Checking icu_locid v1.5.0
+    Checking icu_collections v1.5.0
+   Compiling pin-project-internal v1.1.10
+   Compiling quote-use v0.8.4
+    Checking icu_provider v1.5.0
+   Compiling typed-builder-macro v0.20.1
+   Compiling rstml v0.12.1
+   Compiling attribute-derive-macro v0.10.3
+    Checking icu_locid_transform v1.5.0
+    Checking hyper v1.6.0
+    Checking wasm-bindgen-futures v0.4.50
+    Checking web-sys v0.3.77
+    Checking icu_properties v1.5.1
+    Checking any_spawner v0.3.0-rc1
+    Checking pin-project v1.1.10
+    Checking tower v0.5.2
+    Checking tokio-tungstenite v0.26.2
+    Checking hyper-util v0.1.11
+   Compiling server_fn_macro_default v0.8.0-rc1
+    Checking rand_core v0.6.4
+    Checking typed-builder v0.20.1
+   Compiling leptos_macro v0.8.0-rc1
+    Checking hydration_context v0.3.0
+    Checking toml_datetime v0.6.8
+    Checking serde_spanned v0.6.8
+    Checking serde_urlencoded v0.7.1
+    Checking oco_ref v0.2.0
+    Checking serde_path_to_error v0.1.17
+    Checking serde_qs v0.13.0
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/arc_async_derived.rs:646:14
+    |
+646 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+646 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/arc_async_derived.rs:647:14
+    |
+647 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+647 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/arc_async_derived.rs:656:14
+    |
+656 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+656 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/arc_async_derived.rs:657:14
+    |
+657 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+657 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/async_derived.rs:354:14
+    |
+354 |             |v| v.deref(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+354 |             |v: &_| v.deref(),
+    |               ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/async_derived.rs:355:14
+    |
+355 |             |v| v.deref_mut(),
+    |              ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+355 |             |v: &mut _| v.deref_mut(),
+    |               ++++++++
+
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/async_derived.rs:365:40
+    |
+365 |                 MappedMut::new(inner, |v| v.deref(), |v| v.deref_mut())
+    |                                        ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+365 |                 MappedMut::new(inner, |v: &_| v.deref(), |v| v.deref_mut())
+    |                                         ++++
+
+error[E0282]: type annotations needed for `&mut _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/async_derived.rs:365:55
+    |
+365 |                 MappedMut::new(inner, |v| v.deref(), |v| v.deref_mut())
+    |                                                       ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+365 |                 MappedMut::new(inner, |v| v.deref(), |v: &mut _| v.deref_mut())
+    |                                                        ++++++++
+
+    Checking inventory v0.3.20
+    Checking toml_edit v0.22.24
+    Checking const-str v0.5.7
+    Checking icu_normalizer v1.5.0
+    Checking axum v0.8.3
+    Checking codee v0.3.0
+    Checking idna_adapter v1.2.0
+error[E0282]: type annotations needed for `&_`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/reactive_graph-0.2.0-rc1/src/computed/async_derived/arc_async_derived.rs:629:59
+    |
+629 |             ReadGuard::new(Mapped::new_with_guard(plain, |v| v.deref()))
+    |                                                           ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type, where the placeholders `_` are specified
+    |
+629 |             ReadGuard::new(Mapped::new_with_guard(plain, |v: &_| v.deref()))
+    |                                                            ++++
+
+    Checking idna v1.0.3
+    Checking url v2.5.4
+   Compiling uuid v1.16.0
+    Checking rand_chacha v0.3.1
+For more information about this error, try `rustc --explain E0282`.
+error: could not compile `reactive_graph` (lib) due to 9 previous errors
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,264 @@
+Running as unit: run-p1411310-i1411610.scope; invocation ID: 8b2382507dd7459ba885b329e218290f
+    Updating `tuna` index
+     Locking 186 packages to latest compatible versions
+      Adding async-hash v0.5.4 (available: v0.6.0)
+      Adding destream v0.7.3 (available: v0.10.1)
+      Adding ds-ext v0.1.7 (available: v0.4.0)
+      Adding freqfs v0.9.1 (available: v0.12.0)
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding rjwt v0.5.0 (available: v0.6.1)
+      Adding tbon v0.5.2 (available: v0.9.0)
+      Adding tc-chain v0.4.0 (available: v0.5.0)
+      Adding tc-collection v0.4.0 (available: v0.5.0)
+      Adding tc-error v0.11.0 (available: v0.13.1)
+      Adding tc-scalar v0.4.0 (available: v0.5.0)
+      Adding tc-transact v0.20.0 (available: v0.21.1)
+      Adding tc-value v0.12.0 (available: v0.13.1)
+      Adding tcgeneric v0.10.0 (available: v0.11.0)
+ Downloading crates ...
+  Downloaded collate v0.4.2 (registry `tuna`)
+  Downloaded async-hash v0.5.4 (registry `tuna`)
+  Downloaded safecast v0.2.3 (registry `tuna`)
+  Downloaded tc-value v0.12.0 (registry `tuna`)
+  Downloaded txn_lock v0.9.0 (registry `tuna`)
+  Downloaded tcgeneric v0.10.0 (registry `tuna`)
+  Downloaded tbon v0.5.2 (registry `tuna`)
+  Downloaded rjwt v0.5.0 (registry `tuna`)
+  Downloaded email-address-parser v2.0.0 (registry `tuna`)
+  Downloaded destream v0.7.3 (registry `tuna`)
+  Downloaded b-tree v0.3.1 (registry `tuna`)
+  Downloaded ha-ndarray v0.3.1 (registry `tuna`)
+  Downloaded txfs v0.3.0 (registry `tuna`)
+  Downloaded tc-transact v0.20.0 (registry `tuna`)
+  Downloaded ds-ext v0.1.7 (registry `tuna`)
+  Downloaded tc-chain v0.4.0 (registry `tuna`)
+  Downloaded b-table v0.2.1 (registry `tuna`)
+  Downloaded freqfs v0.9.1 (registry `tuna`)
+  Downloaded tc-scalar v0.4.0 (registry `tuna`)
+  Downloaded tc-error v0.11.0 (registry `tuna`)
+  Downloaded pathlink v0.2.2 (registry `tuna`)
+  Downloaded number-general v0.11.1 (registry `tuna`)
+  Downloaded hr-id v0.5.1 (registry `tuna`)
+  Downloaded tc-collection v0.4.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.23
+   Compiling quote v1.0.44
+   Compiling version_check v0.9.5
+   Compiling libc v0.2.182
+    Checking memchr v2.8.0
+   Compiling serde_core v1.0.228
+    Checking cfg-if v1.0.4
+   Compiling serde v1.0.228
+   Compiling typenum v1.19.0
+    Checking futures-core v0.3.31
+    Checking pin-project-lite v0.2.16
+   Compiling generic-array v0.14.7
+    Checking futures-sink v0.3.31
+    Checking futures-task v0.3.31
+    Checking futures-channel v0.3.31
+    Checking pin-utils v0.1.0
+    Checking futures-io v0.3.31
+   Compiling autocfg v1.5.0
+    Checking slab v0.4.12
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling syn v1.0.109
+   Compiling proc-macro-error v1.0.4
+    Checking cpufeatures v0.2.17
+    Checking stable_deref_trait v1.2.1
+   Compiling getrandom v0.3.4
+   Compiling num-traits v0.2.19
+   Compiling syn v2.0.115
+   Compiling smallvec v1.15.1
+    Checking bytes v1.11.1
+   Compiling proc-macro-utils v0.8.0
+   Compiling interpolator v0.5.0
+   Compiling collection_literals v1.0.3
+    Checking base64 v0.21.7
+    Checking uuid v1.20.0
+    Checking errno v0.3.14
+    Checking num_cpus v1.17.0
+    Checking aho-corasick v1.1.4
+    Checking safecast v0.2.3
+    Checking hex v0.4.3
+    Checking get-size v0.1.4
+   Compiling convert_case v0.4.0
+    Checking regex-syntax v0.8.9
+    Checking signal-hook-registry v1.4.8
+    Checking mio v1.1.1
+    Checking litemap v0.8.1
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking writeable v0.6.2
+    Checking digest v0.10.7
+    Checking num-integer v0.1.46
+    Checking tokio v1.49.0
+   Compiling icu_normalizer_data v2.1.1
+    Checking sha2 v0.10.9
+    Checking log v0.4.29
+   Compiling crossbeam-utils v0.8.21
+   Compiling icu_properties_data v2.1.2
+   Compiling zerocopy v0.8.39
+    Checking getrandom v0.2.17
+   Compiling semver v1.0.27
+    Checking rand_core v0.6.4
+   Compiling rustc_version v0.4.1
+   Compiling zmij v1.0.21
+    Checking crossbeam-epoch v0.9.18
+   Compiling curve25519-dalek v4.1.3
+   Compiling ucd-trie v0.1.7
+   Compiling serde_json v1.0.149
+   Compiling rayon-core v1.13.0
+    Checking crossbeam-deque v0.8.6
+   Compiling pest v2.8.6
+    Checking regex-automata v0.4.14
+    Checking zeroize v1.8.2
+    Checking signature v2.2.0
+    Checking utf8_iter v1.0.4
+    Checking subtle v2.6.1
+    Checking either v1.15.0
+    Checking percent-encoding v2.3.2
+    Checking itoa v1.0.17
+    Checking form_urlencoded v1.2.2
+    Checking ed25519 v2.2.3
+    Checking strength_reduce v0.2.4
+    Checking transpose v0.2.3
+    Checking num-bigint v0.4.6
+    Checking rayon v1.11.0
+   Compiling thiserror v1.0.69
+   Compiling pest_meta v2.8.6
+    Checking lazy_static v1.5.0
+    Checking regex v1.12.3
+    Checking num-rational v0.4.2
+    Checking num-iter v0.1.45
+    Checking num-complex v0.4.6
+    Checking itertools v0.12.1
+    Checking tokio-util v0.7.18
+    Checking num v0.4.3
+   Compiling synstructure v0.13.2
+   Compiling pest_generator v2.8.6
+   Compiling serde_derive v1.0.228
+   Compiling futures-macro v0.3.31
+   Compiling zerofrom-derive v0.1.6
+   Compiling derive-where v1.6.0
+   Compiling yoke-derive v0.8.1
+   Compiling async-trait v0.1.89
+   Compiling zerovec-derive v0.11.2
+   Compiling displaydoc v0.2.5
+    Checking futures-util v0.3.31
+   Compiling pin-project-internal v1.1.10
+   Compiling derive_more v0.99.20
+   Compiling num-derive v0.4.2
+    Checking ppv-lite86 v0.2.21
+   Compiling quote-use-macros v0.7.2
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.1
+    Checking rand_chacha v0.3.1
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+   Compiling quote-use v0.7.2
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling attribute-derive-macro v0.6.1
+    Checking rand v0.8.5
+    Checking pin-project v1.1.10
+   Compiling thiserror-impl v1.0.69
+    Checking tinystr v0.8.2
+    Checking icu_locale_core v2.1.1
+    Checking potential_utf v0.1.4
+    Checking icu_collections v2.1.1
+   Compiling pest_derive v2.8.6
+   Compiling attribute-derive v0.6.1
+    Checking icu_provider v2.1.1
+    Checking email-address-parser v2.0.0
+    Checking icu_properties v2.1.2
+   Compiling get-size-derive v0.1.3
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+    Checking collate v0.4.2
+    Checking ds-ext v0.1.7
+    Checking ed25519-dalek v2.2.0
+    Checking handlebars v4.5.0
+    Checking rjwt v0.5.0
+    Checking destream v0.7.3
+    Checking async-hash v0.5.4
+    Checking icu_normalizer v2.1.1
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+    Checking url v2.5.8
+    Checking hr-id v0.5.1
+    Checking tbon v0.5.2
+    Checking number-general v0.11.1
+    Checking txn_lock v0.9.0
+    Checking pathlink v0.2.2
+    Checking freqfs v0.9.1
+error[E0277]: can't compare `Uuid` with `()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/freqfs-0.9.1/src/dir.rs:130:51
+    |
+130 |                 std::cmp::PartialOrd::partial_cmp(self, &key)
+    |                 --------------------------------- ^^^^ no implementation for `Uuid < ()` and `Uuid > ()`
+    |                 |
+    |                 required by a bound introduced by this call
+...
+147 | name_from_str!(uuid::Uuid);
+    | -------------------------- in this macro invocation
+    |
+    = help: the trait `PartialOrd<()>` is not implemented for `Uuid`
+help: the following other types implement trait `PartialOrd<Rhs>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/uuid-1.20.0/src/lib.rs:431:43
+    |
+431 | #[derive(Clone, Copy, Eq, Ord, PartialEq, PartialOrd)]
+    |                                           ^^^^^^^^^^ `Uuid` implements `PartialOrd`
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/uuid-1.20.0/src/non_nil.rs:68:1
+    |
+ 68 | impl PartialOrd<NonNilUuid> for Uuid {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ `Uuid` implements `PartialOrd<NonNilUuid>`
+
+error[E0277]: the trait bound `(): FromStr` is not satisfied
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/freqfs-0.9.1/src/dir.rs:129:27
+    |
+129 |                 let key = key.parse().ok()?;
+    |                           ^^^^^^^^^^^ the trait `FromStr` is not implemented for `()`
+...
+147 | name_from_str!(uuid::Uuid);
+    | -------------------------- in this macro invocation
+    |
+    = help: the following other types implement trait `FromStr`:
+              Braced
+              ByteString
+              CString
+              Hyphenated
+              IpAddr
+              Ipv4Addr
+              Ipv6Addr
+              Level
+            and 42 others
+    = note: this error originates in the macro `name_from_str` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0277]: the trait bound `(): FromStr` is not satisfied
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/freqfs-0.9.1/src/dir.rs:129:31
+     |
+ 129 |                 let key = key.parse().ok()?;
+     |                               ^^^^^ the trait `FromStr` is not implemented for `()`
+...
+ 147 | name_from_str!(uuid::Uuid);
+     | -------------------------- in this macro invocation
+     |
+     = help: the following other types implement trait `FromStr`:
+               Braced
+               ByteString
+               CString
+               Hyphenated
+               IpAddr
+               Ipv4Addr
+               Ipv6Addr
+               Level
+             and 42 others
+note: required by a bound in `core::str::<impl str>::parse`
+    --> /home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/str/mod.rs:2749:21
+     |
+2749 |     pub fn parse<F: FromStr>(&self) -> Result<F, F::Err> {
+     |                     ^^^^^^^ required by this bound in `core::str::<impl str>::parse`
+     = note: this error originates in the macro `name_from_str` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `freqfs` (lib) due to 3 previous errors

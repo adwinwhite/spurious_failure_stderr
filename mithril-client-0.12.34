@@ -1,0 +1,463 @@
+Running as unit: run-p321766-i4515480.scope; invocation ID: 0661b9df9e2643958283b0058b913d39
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling quote v1.0.41
+   Compiling libc v0.2.177
+    Checking cfg-if v1.0.4
+   Compiling find-msvc-tools v0.1.4
+   Compiling shlex v1.3.0
+   Compiling serde_core v1.0.228
+   Compiling pkg-config v0.3.32
+   Compiling typenum v1.19.0
+    Checking pin-project-lite v0.2.16
+   Compiling version_check v0.9.5
+   Compiling generic-array v0.14.9
+   Compiling serde v1.0.228
+   Compiling syn v2.0.106
+   Compiling jobserver v0.1.34
+    Checking bytes v1.10.1
+    Checking futures-core v0.3.31
+    Checking memchr v2.7.6
+   Compiling cc v1.2.41
+    Checking stable_deref_trait v1.2.1
+    Checking mio v1.0.4
+    Checking socket2 v0.6.1
+    Checking once_cell v1.21.3
+   Compiling ident_case v1.0.1
+    Checking itoa v1.0.15
+   Compiling strsim v0.11.1
+   Compiling fnv v1.0.7
+    Checking tokio v1.48.0
+    Checking futures-sink v0.3.31
+   Compiling autocfg v1.5.0
+    Checking subtle v2.6.1
+   Compiling semver v1.0.27
+   Compiling num-traits v0.2.19
+   Compiling zerocopy v0.8.27
+   Compiling vcpkg v0.2.15
+    Checking slab v0.4.11
+    Checking futures-channel v0.3.31
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking pin-utils v0.1.0
+   Compiling serde_json v1.0.145
+   Compiling foldhash v0.1.5
+   Compiling crossbeam-utils v0.8.21
+   Compiling hashbrown v0.15.5
+    Checking http v1.3.1
+   Compiling openssl-sys v0.9.110
+    Checking digest v0.10.7
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+    Checking futures-io v0.3.31
+    Checking smallvec v1.15.1
+    Checking litemap v0.8.0
+    Checking writeable v0.6.1
+    Checking futures-task v0.3.31
+   Compiling hashlink v0.10.0
+   Compiling rustc_version v0.4.1
+    Checking getrandom v0.2.16
+   Compiling az v1.2.1
+   Compiling arraydeque v0.5.1
+   Compiling icu_normalizer_data v2.0.0
+   Compiling gmp-mpfr-sys v1.6.8
+   Compiling icu_properties_data v2.0.1
+   Compiling ordered-float v5.1.0
+   Compiling encoding_rs v0.8.35
+   Compiling saphyr-parser v0.0.6
+   Compiling curve25519-dalek v4.1.3
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+   Compiling darling_core v0.21.3
+    Checking rand_core v0.6.4
+    Checking crossbeam-epoch v0.9.18
+   Compiling zerofrom-derive v0.1.6
+   Compiling serde_derive v1.0.228
+    Checking zerofrom v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling displaydoc v0.2.5
+   Compiling zeroize_derive v1.4.2
+   Compiling zerocopy-derive v0.8.27
+    Checking yoke v0.8.0
+    Checking zerovec v0.11.4
+    Checking zeroize v1.8.2
+   Compiling futures-macro v0.3.31
+    Checking futures-util v0.3.31
+    Checking tinystr v0.8.1
+    Checking icu_locale_core v2.0.0
+    Checking potential_utf v0.1.3
+    Checking zerotrie v0.2.2
+    Checking icu_provider v2.0.0
+    Checking icu_collections v2.0.0
+   Compiling darling_macro v0.20.11
+    Checking http-body v1.0.1
+    Checking tracing-core v0.1.34
+    Checking alloc-no-stdlib v2.0.4
+    Checking equivalent v1.0.2
+   Compiling httparse v1.10.1
+    Checking percent-encoding v2.3.2
+    Checking hashbrown v0.16.0
+    Checking cpufeatures v0.2.17
+   Compiling crc32fast v1.5.0
+    Checking foreign-types-shared v0.1.1
+   Compiling typeid v1.0.3
+    Checking bitflags v2.9.4
+   Compiling rayon-core v1.13.0
+   Compiling openssl v0.10.74
+   Compiling libm v0.2.15
+   Compiling ryu v1.0.20
+   Compiling zstd-safe v7.2.4
+    Checking indexmap v2.11.4
+    Checking foreign-types v0.3.2
+    Checking alloc-stdlib v0.2.2
+    Checking half v2.7.1
+    Checking tracing v0.1.41
+   Compiling darling v0.20.11
+   Compiling darling_macro v0.21.3
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling openssl-macros v0.1.1
+    Checking crossbeam-deque v0.8.6
+    Checking tokio-util v0.7.16
+   Compiling saphyr v0.0.6
+   Compiling blst v0.3.16
+    Checking num_cpus v1.17.0
+   Compiling rug v1.28.0
+    Checking tower-service v0.3.3
+    Checking adler2 v2.0.1
+    Checking atomic-waker v1.1.2
+   Compiling thiserror v2.0.17
+   Compiling erased-serde v0.4.8
+    Checking signature v2.2.0
+    Checking try-lock v0.2.5
+   Compiling native-tls v0.2.14
+    Checking simd-adler32 v0.3.7
+    Checking want v0.3.1
+    Checking ed25519 v2.2.3
+    Checking h2 v0.4.12
+    Checking miniz_oxide v0.8.9
+    Checking threadpool v1.8.1
+   Compiling mithril-build-script v0.2.28
+    Checking icu_properties v2.0.1
+    Checking icu_normalizer v2.0.0
+   Compiling darling v0.21.3
+   Compiling serde_with_macros v2.3.3
+    Checking brotli-decompressor v5.0.0
+    Checking sha2 v0.10.9
+   Compiling thiserror-impl v2.0.17
+    Checking crypto-mac v0.8.0
+    Checking digest v0.9.0
+    Checking either v1.15.0
+   Compiling fixed v1.29.0
+   Compiling slog v2.7.0
+    Checking log v0.4.28
+   Compiling virtue v0.0.18
+   Compiling typetag v0.2.21
+    Checking opaque-debug v0.3.1
+   Compiling heck v0.5.0
+    Checking openssl-probe v0.1.6
+    Checking ciborium-io v0.2.2
+   Compiling anyhow v1.0.100
+    Checking ciborium-ll v0.2.2
+   Compiling strum_macros v0.27.2
+    Checking blake2 v0.9.2
+    Checking rayon v1.11.0
+    Checking serde_with v2.3.3
+   Compiling bincode_derive v2.0.1
+    Checking ed25519-dalek v2.2.0
+    Checking brotli v8.0.2
+    Checking flate2 v1.1.4
+    Checking hyper v1.7.0
+    Checking idna_adapter v1.2.1
+   Compiling serde_with_macros v3.15.0
+    Checking zstd v0.13.3
+   Compiling mithril-common v0.6.25
+    Checking form_urlencoded v1.2.2
+    Checking ppv-lite86 v0.2.21
+   Compiling typetag-impl v0.2.21
+    Checking blake2 v0.10.6
+    Checking sync_wrapper v1.0.2
+    Checking ipnet v2.11.0
+    Checking tower-layer v0.3.3
+    Checking rand_core v0.5.1
+    Checking compression-core v0.4.29
+    Checking iana-time-zone v0.1.64
+    Checking base64 v0.22.1
+    Checking bytemuck v1.24.0
+    Checking unty v0.0.4
+    Checking inventory v0.3.21
+    Checking same-file v1.0.6
+   Compiling getrandom v0.3.4
+    Checking utf8_iter v1.0.4
+    Checking tower v0.5.2
+    Checking idna v1.1.0
+    Checking hyper-util v0.1.17
+    Checking walkdir v2.5.0
+    Checking chrono v0.4.42
+    Checking bincode v2.0.1
+    Checking kes-summed-ed25519 v0.2.1
+    Checking compression-codecs v0.4.31
+    Checking rand_chacha v0.3.1
+    Checking serde_with v3.15.0
+    Checking strum v0.27.2
+    Checking tokio-native-tls v0.3.1
+    Checking ciborium v0.2.2
+    Checking http-body-util v0.1.3
+   Compiling async-trait v0.1.89
+    Checking serde_bytes v0.11.19
+    Checking nom v8.0.0
+    Checking ckb-merkle-mountain-range v0.6.1
+    Checking iri-string v0.7.8
+    Checking hex v0.4.3
+    Checking bech32 v0.11.0
+    Checking hyper-tls v0.6.0
+    Checking async-compression v0.4.32
+    Checking tower-http v0.6.6
+    Checking url v2.5.7
+    Checking serde_urlencoded v0.7.1
+    Checking futures-executor v0.3.31
+    Checking rustls-pki-types v1.12.0
+    Checking mime v0.3.17
+    Checking futures v0.3.31
+    Checking uuid v1.18.1
+   Compiling async-recursion v1.1.1
+    Checking reqwest v0.12.24
+error: failed to run custom build command for `gmp-mpfr-sys v1.6.8`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-5c1cf7d104d97db5/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=GMP_MPFR_SYS_CACHE
+  $ mkdir -p "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/lib"
+  $ mkdir -p "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/include"
+  $ mkdir -p "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build"
+  $ ln -s "/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gmp-mpfr-sys-1.6.8/gmp-6.3.0-c" "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build/gmp-src"
+  $ mkdir -p "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build/gmp-build"
+  $ cd "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build/gmp-build"
+  $ cd "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build/gmp-build" && "sh" "-c" "../gmp-src/configure --enable-fat --disable-shared --with-pic"
+  checking build system type... kabylake-pc-linux-gnu
+  checking host system type... kabylake-pc-linux-gnu
+  checking for a BSD-compatible install... /nix/store/psy9v2asypgl9ylg8cnzkixc7fv0snj0-coreutils-9.7/bin/install -c
+  checking whether build environment is sane... yes
+  checking for a thread-safe mkdir -p... /nix/store/psy9v2asypgl9ylg8cnzkixc7fv0snj0-coreutils-9.7/bin/mkdir -p
+  checking for gawk... gawk
+  checking whether make sets $(MAKE)... yes
+  checking whether make supports nested variables... yes
+  checking whether to enable maintainer-specific portions of Makefiles... no
+  checking ABI=64
+  checking compiler gcc -O2 -pedantic -fomit-frame-pointer -m64 ... yes
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables... 
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking whether gcc understands -c and -o together... yes
+  checking for gcc option to accept ISO C99... none needed
+  checking how to run the C preprocessor... gcc -E
+  checking build system compiler gcc... yes
+  checking for build system preprocessor... gcc -E
+  checking for build system executable suffix... 
+  checking whether build system compiler is ANSI... yes
+  checking for build system compiler math library... -lm
+  checking for grep that handles long lines and -e... /nix/store/bc6zxzjnkjp4r9nhz5imy3cypvdh6r4n-gnugrep-3.12/bin/grep
+  checking for egrep... /nix/store/bc6zxzjnkjp4r9nhz5imy3cypvdh6r4n-gnugrep-3.12/bin/grep -E
+  using ABI="64"
+        CC="gcc"
+        CFLAGS="-O2 -pedantic -fomit-frame-pointer -m64"
+        CPPFLAGS=""
+        MPN_PATH=" x86_64/fat x86_64 generic"
+  checking whether assembler supports --noexecstack option... yes
+  checking for ar... ar
+  checking for BSD- or MS-compatible name lister (nm)... nm
+  checking the name lister (nm) interface... BSD nm
+  checking how to print strings... printf
+  checking for a sed that does not truncate output... /nix/store/pr318zsl44jdwpk9wk0sdrn19b6in7ah-gnused-4.9/bin/sed
+  checking for fgrep... /nix/store/bc6zxzjnkjp4r9nhz5imy3cypvdh6r4n-gnugrep-3.12/bin/grep -F
+  checking for ld used by gcc... ld
+  checking if the linker (ld) is GNU ld... yes
+  checking whether ln -s works... yes
+  checking the maximum length of command line arguments... 1572864
+  checking how to convert kabylake-pc-linux-gnu file names to kabylake-pc-linux-gnu format... func_convert_file_noop
+  checking how to convert kabylake-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+  checking for ld option to reload object files... -r
+  checking for objdump... objdump
+  checking how to recognize dependent libraries... pass_all
+  checking for dlltool... dlltool
+  checking how to associate runtime and link libraries... printf %s\n
+  checking for archiver @FILE support... @
+  checking for strip... strip
+  checking for ranlib... ranlib
+  checking command to parse nm output from gcc object... ok
+  checking for sysroot... no
+  checking for a working dd... /nix/store/psy9v2asypgl9ylg8cnzkixc7fv0snj0-coreutils-9.7/bin/dd
+  checking how to truncate binary pipes... /nix/store/psy9v2asypgl9ylg8cnzkixc7fv0snj0-coreutils-9.7/bin/dd bs=4096 count=1
+  checking for mt... no
+  checking if : is a manifest tool... no
+  checking for ANSI C header files... yes
+  checking for sys/types.h... yes
+  checking for sys/stat.h... yes
+  checking for stdlib.h... yes
+  checking for string.h... yes
+  checking for memory.h... yes
+  checking for strings.h... yes
+  checking for inttypes.h... yes
+  checking for stdint.h... yes
+  checking for unistd.h... yes
+  checking for dlfcn.h... yes
+  checking for objdir... .libs
+  checking if gcc supports -fno-rtti -fno-exceptions... no
+  checking for gcc option to produce PIC... -fPIC -DPIC
+  checking if gcc PIC flag -fPIC -DPIC works... yes
+  checking if gcc static flag -static works... no
+  checking if gcc supports -c -o file.o... yes
+  checking if gcc supports -c -o file.o... (cached) yes
+  checking whether the gcc linker (ld) supports shared libraries... yes
+  checking dynamic linker characteristics... GNU/Linux ld.so
+  checking how to hardcode library paths into programs... immediate
+  checking whether stripping libraries is possible... yes
+  checking if libtool supports shared libraries... yes
+  checking whether to build shared libraries... no
+  checking whether to build static libraries... yes
+  checking how to run the C++ preprocessor... g++ -E
+  checking whether the g++ linker (ld) supports shared libraries... yes
+  checking for g++ option to produce PIC...  -DPIC
+  checking if g++ PIC flag  -DPIC works... yes
+  checking if g++ static flag  works... yes
+  checking if g++ supports -c -o file.o... yes
+  checking if g++ supports -c -o file.o... (cached) yes
+  checking whether the g++ linker (ld) supports shared libraries... yes
+  checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+  checking how to hardcode library paths into programs... unsupported
+  checking for ANSI C header files... (cached) yes
+  checking whether time.h and sys/time.h may both be included... yes
+  checking fcntl.h usability... yes
+  checking fcntl.h presence... yes
+  checking for fcntl.h... yes
+  checking float.h usability... yes
+  checking float.h presence... yes
+  checking for float.h... yes
+  checking invent.h usability... no
+  checking invent.h presence... no
+  checking for invent.h... no
+  checking langinfo.h usability... yes
+  checking langinfo.h presence... yes
+  checking for langinfo.h... yes
+  checking locale.h usability... yes
+  checking locale.h presence... yes
+  checking for locale.h... yes
+  checking nl_types.h usability... yes
+  checking nl_types.h presence... yes
+  checking for nl_types.h... yes
+  checking sys/attributes.h usability... no
+  checking sys/attributes.h presence... no
+  checking for sys/attributes.h... no
+  checking sys/iograph.h usability... no
+  checking sys/iograph.h presence... no
+  checking for sys/iograph.h... no
+  checking sys/mman.h usability... yes
+  checking sys/mman.h presence... yes
+  checking for sys/mman.h... yes
+  checking sys/param.h usability... yes
+  checking sys/param.h presence... yes
+  checking for sys/param.h... yes
+  checking sys/processor.h usability... no
+  checking sys/processor.h presence... no
+  checking for sys/processor.h... no
+  checking sys/pstat.h usability... no
+  checking sys/pstat.h presence... no
+  checking for sys/pstat.h... no
+  checking sys/sysinfo.h usability... yes
+  checking sys/sysinfo.h presence... yes
+  checking for sys/sysinfo.h... yes
+  checking sys/syssgi.h usability... no
+  checking sys/syssgi.h presence... no
+  checking for sys/syssgi.h... no
+  checking sys/systemcfg.h usability... no
+  checking sys/systemcfg.h presence... no
+  checking for sys/systemcfg.h... no
+  checking sys/time.h usability... yes
+  checking sys/time.h presence... yes
+  checking for sys/time.h... yes
+  checking sys/times.h usability... yes
+  checking sys/times.h presence... yes
+  checking for sys/times.h... yes
+  checking for sys/resource.h... yes
+  checking for sys/sysctl.h... no
+  checking for machine/hal_sysinfo.h... no
+  checking whether fgetc is declared... yes
+  checking whether fscanf is declared... yes
+  checking whether optarg is declared... yes
+  checking whether ungetc is declared... yes
+  checking whether vfprintf is declared... yes
+  checking whether sys_errlist is declared... no
+  checking whether sys_nerr is declared... no
+  checking return type of signal handlers... void
+  checking for intmax_t... yes
+  checking for long double... yes
+  checking for long long... yes
+  checking for ptrdiff_t... yes
+  checking for quad_t... yes
+  checking for uint_least32_t... yes
+  checking for intptr_t... yes
+  checking for working volatile... yes
+  checking for C/C++ restrict keyword... __restrict
+  checking whether gcc __attribute__ ((const)) works... yes
+  checking whether gcc __attribute__ ((malloc)) works... yes
+  checking whether gcc __attribute__ ((mode (XX))) works... yes
+  checking whether gcc __attribute__ ((noreturn)) works... yes
+  checking whether gcc hidden aliases work... yes
+  checking for inline... inline
+  checking for cos in -lm... yes
+  checking for working alloca.h... yes
+  checking for alloca (via gmp-impl.h)... yes
+  checking how to allocate temporary memory... alloca
+  checking whether byte ordering is bigendian... no
+  checking format of `double' floating point... IEEE little endian
+  checking for alarm... yes
+  checking for attr_get... no
+  checking for clock... yes
+  checking for cputime... no
+  checking for getpagesize... yes
+  checking for getrusage... yes
+  checking for gettimeofday... yes
+  checking for getsysinfo... no
+  checking for localeconv... yes
+  checking for memset... yes
+  checking for mmap... yes
+  checking for mprotect... yes
+  checking for nl_langinfo... yes
+  checking for obstack_vprintf... yes
+  checking for popen... yes
+  checking for processor_info... no
+  checking for pstat_getprocessor... no
+  checking for raise... yes
+  checking for read_real_time... no
+  checking for sigaction... yes
+  checking for sigaltstack... yes
+  checking for sigstack... yes
+  checking for syssgi... no
+  checking for strchr... yes
+  checking for strerror... yes
+  checking for strnlen... yes
+  checking for strtol... yes
+  checking for strtoul... yes
+  checking for sysconf... yes
+  checking for sysctl... no
+  checking for sysctlbyname... no
+  checking for times... yes
+  checking for library containing clock_gettime... none required
+  checking for vsnprintf... yes
+  checking whether vsnprintf works... yes
+  checking whether sscanf needs writable input... no
+  checking for struct pst_processor.psp_iticksperclktick... no
+  checking for suitable m4... 
+  --- stderr
+  configure: error: No usable m4 in $PATH or /usr/5bin (see config.log for reasons).
+
+  thread 'main' (323278) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gmp-mpfr-sys-1.6.8/build.rs:1221:13:
+  Program failed with code 1: cd "/getea/tmp/crater-spurious/mithril-client-0.12.34/target/debug/build/gmp-mpfr-sys-2d5b860953e3a4ba/out/build/gmp-build" && "sh" "-c" "../gmp-src/configure --enable-fat --disable-shared --with-pic"
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

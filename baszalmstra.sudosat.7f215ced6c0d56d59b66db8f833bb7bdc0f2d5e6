@@ -1,0 +1,39 @@
+Running as unit: run-p1589463-i14169571.scope; invocation ID: 306def542dc3437aa33ebc0a2e09ba6c
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.69
+   Compiling unicode-ident v1.0.12
+   Compiling anyhow v1.0.75
+   Compiling syn v1.0.109
+   Compiling memchr v2.6.4
+   Compiling autocfg v1.1.0
+   Compiling thiserror v1.0.50
+    Checking varisat-formula v0.2.2
+   Compiling num-traits v0.2.17
+   Compiling regex-syntax v0.8.2
+    Checking itoa v0.4.8
+   Compiling aho-corasick v1.1.2
+   Compiling quote v1.0.33
+   Compiling serde v1.0.191
+   Compiling unicode-xid v0.2.4
+   Compiling varisat v0.2.2
+   Compiling syn v2.0.39
+    Checking varisat-internal-proof v0.2.2
+    Checking log v0.4.20
+    Checking rustc-hash v1.1.0
+    Checking smallvec v1.11.1
+    Checking ordered-float v2.10.1
+    Checking vec_mut_scan v0.3.0
+    Checking leb128 v0.2.5
+   Compiling regex-automata v0.4.3
+   Compiling thiserror-impl v1.0.50
+   Compiling serde_derive v1.0.191
+   Compiling synstructure v0.12.6
+   Compiling partial_ref_derive v0.3.3
+    Checking varisat-dimacs v0.2.2
+    Checking partial_ref v0.3.3
+    Checking varisat-checker v0.2.2
+   Compiling regex v1.10.2
+   Compiling varisat-internal-macros v0.2.2

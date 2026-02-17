@@ -1,0 +1,786 @@
+Running as unit: run-p2475934-i15056040.scope; invocation ID: 0b2811219e684e97a0e075170210de59
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.174
+   Compiling serde v1.0.219
+    Checking cfg-if v1.0.1
+   Compiling autocfg v1.5.0
+    Checking pin-project-lite v0.2.16
+   Compiling version_check v0.9.5
+    Checking memchr v2.7.5
+   Compiling typenum v1.18.0
+   Compiling generic-array v0.14.7
+    Checking futures-core v0.3.31
+    Checking log v0.4.27
+    Checking itoa v1.0.15
+   Compiling shlex v1.3.0
+   Compiling lock_api v0.4.13
+   Compiling quote v1.0.40
+   Compiling parking_lot_core v0.9.11
+   Compiling syn v2.0.104
+   Compiling jobserver v0.1.33
+    Checking scopeguard v1.2.0
+    Checking futures-io v0.3.31
+    Checking bytes v1.10.1
+    Checking subtle v2.6.1
+   Compiling thiserror v2.0.12
+   Compiling cc v1.2.31
+   Compiling icu_properties_data v2.0.1
+   Compiling icu_normalizer_data v2.0.0
+    Checking slab v0.4.10
+    Checking once_cell v1.21.3
+    Checking futures-sink v0.3.31
+   Compiling crossbeam-utils v0.8.21
+    Checking zeroize v1.8.1
+    Checking stable_deref_trait v1.2.0
+    Checking signal-hook-registry v1.4.5
+    Checking socket2 v0.6.0
+    Checking mio v1.0.4
+   Compiling num-traits v0.2.19
+   Compiling zerocopy v0.8.26
+    Checking tracing-core v0.1.34
+   Compiling serde_json v1.0.142
+    Checking writeable v0.6.1
+    Checking percent-encoding v2.3.1
+    Checking litemap v0.8.0
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking getrandom v0.2.16
+   Compiling getrandom v0.3.3
+    Checking digest v0.10.7
+    Checking ryu v1.0.20
+   Compiling cmake v0.1.54
+    Checking cpufeatures v0.2.17
+   Compiling fs_extra v1.3.0
+   Compiling dunce v1.0.5
+    Checking block-padding v0.3.3
+    Checking rustls-pki-types v1.12.0
+   Compiling aws-lc-sys v0.30.0
+   Compiling time-core v0.1.4
+    Checking parking v2.2.1
+   Compiling num-conv v0.1.0
+    Checking powerfmt v0.2.0
+   Compiling time-macros v0.2.22
+   Compiling ring v0.17.14
+    Checking inout v0.1.4
+    Checking deranged v0.4.0
+    Checking futures-channel v0.3.31
+    Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+    Checking cipher v0.4.4
+    Checking concurrent-queue v2.5.0
+    Checking form_urlencoded v1.2.1
+    Checking foldhash v0.1.5
+    Checking time v0.3.41
+    Checking utf8_iter v1.0.4
+    Checking base64ct v1.8.0
+    Checking equivalent v1.0.2
+    Checking allocator-api2 v0.2.21
+    Checking ppv-lite86 v0.2.21
+   Compiling aws-lc-rs v1.13.3
+    Checking hashbrown v0.15.4
+    Checking num-integer v0.1.46
+    Checking minimal-lexical v0.2.1
+    Checking untrusted v0.9.0
+    Checking nom v7.1.3
+    Checking num-bigint v0.4.6
+   Compiling synstructure v0.13.2
+    Checking pem-rfc7468 v0.7.0
+    Checking hmac v0.12.1
+    Checking fnv v1.0.7
+   Compiling rustls v0.23.31
+    Checking const-oid v0.9.6
+    Checking flagset v0.4.7
+    Checking event-listener v5.4.0
+    Checking rand_core v0.9.3
+    Checking sha2 v0.10.9
+    Checking rand_chacha v0.9.0
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling displaydoc v0.2.5
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling tracing-attributes v0.1.30
+   Compiling thiserror-impl v2.0.12
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.0
+   Compiling tokio-macros v2.5.0
+    Checking zerovec v0.11.2
+    Checking tracing v0.1.41
+    Checking zerotrie v0.2.2
+   Compiling futures-macro v0.3.31
+   Compiling der_derive v0.7.3
+    Checking tinystr v0.8.1
+    Checking potential_utf v0.1.2
+    Checking icu_collections v2.0.0
+    Checking icu_locale_core v2.0.0
+    Checking icu_provider v2.0.0
+    Checking futures-util v0.3.31
+    Checking icu_properties v2.0.1
+    Checking der v0.7.10
+    Checking spki v0.7.3
+    Checking rusticata-macros v4.1.0
+   Compiling asn1-rs-impl v0.2.0
+   Compiling asn1-rs-derive v0.6.0
+    Checking smallvec v1.15.1
+    Checking bitflags v2.9.1
+    Checking indexmap v2.10.0
+    Checking parking_lot v0.12.4
+    Checking tokio v1.47.1
+    Checking icu_normalizer v2.0.0
+    Checking asn1-rs v0.7.1
+    Checking idna_adapter v1.2.1
+    Checking rand v0.9.2
+    Checking idna v1.0.3
+   Compiling async-trait v0.1.88
+    Checking url v2.5.4
+    Checking sha1 v0.10.6
+    Checking openssl-probe v0.1.6
+   Compiling oid-registry v0.8.1
+    Checking x509-cert v0.2.5
+    Checking pbkdf2 v0.12.2
+    Checking salsa20 v0.10.2
+    Checking atomic-waker v1.1.2
+    Checking hex v0.4.3
+    Checking fastrand v2.3.0
+    Checking cms v0.2.3
+    Checking scrypt v0.11.0
+    Checking der-parser v10.0.0
+    Checking event-listener-strategy v0.5.4
+    Checking aes v0.8.4
+    Checking cbc v0.1.2
+    Checking rustls-pemfile v2.2.0
+    Checking lazy_static v1.5.0
+    Checking data-encoding v2.9.0
+    Checking cookie-factory v0.3.3
+   Compiling rustix v1.0.8
+    Checking x509-parser v0.17.0
+    Checking pkcs5 v0.7.1
+    Checking pkcs12 v0.1.0
+    Checking futures-lite v2.6.1
+    Checking des v0.8.1
+    Checking rc2 v0.8.1
+    Checking tokio-util v0.7.15
+    Checking linux-raw-sys v0.9.4
+    Checking base64 v0.22.1
+   Compiling rust_decimal v1.37.2
+    Checking p12-keystore v0.1.5
+   Compiling pkg-config v0.3.32
+   Compiling crunchy v0.2.4
+   Compiling httparse v1.10.1
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
+    Checking async-lock v3.4.1
+   Compiling either v1.15.0
+    Checking http v1.3.1
+   Compiling tiny-keccak v2.0.2
+    Checking polling v3.10.0
+    Checking async-io v2.5.0
+    Checking aho-corasick v1.1.3
+    Checking regex-syntax v0.8.5
+    Checking async-task v4.7.1
+   Compiling io-lifetimes v1.0.11
+   Compiling tinyvec_macros v0.1.1
+    Checking httpdate v1.0.3
+   Compiling tinyvec v1.9.0
+    Checking regex-automata v0.4.9
+   Compiling rustls-webpki v0.103.4
+    Checking http-body v1.0.1
+   Compiling webpki-roots v1.0.2
+    Checking tokio-stream v0.1.17
+    Checking rustls-native-certs v0.7.3
+    Checking async-channel v2.5.0
+    Checking piper v0.2.4
+   Compiling rand_core v0.6.4
+   Compiling polling v2.8.0
+    Checking alloc-no-stdlib v2.0.4
+    Checking local-waker v0.1.4
+   Compiling ucd-trie v0.1.7
+    Checking waker-fn v1.2.0
+    Checking mime v0.3.17
+   Compiling iana-time-zone v0.1.63
+   Compiling crc-catalog v2.4.0
+   Compiling zstd-safe v7.2.4
+   Compiling rustix v0.37.28
+   Compiling crc32fast v1.5.0
+   Compiling arrayvec v0.7.6
+   Compiling crc v3.3.0
+   Compiling chrono v0.4.41
+   Compiling pest v2.8.1
+    Checking alloc-stdlib v0.2.2
+   Compiling rand_chacha v0.3.1
+    Checking blocking v1.6.2
+    Checking regex v1.11.1
+   Compiling webpki-roots v0.26.11
+   Compiling const-random-macro v0.1.16
+   Compiling futures-intrusive v0.5.0
+   Compiling unicode-normalization v0.1.24
+    Checking async-executor v1.13.2
+   Compiling hashlink v0.10.0
+   Compiling crossbeam-queue v0.3.12
+    Checking amq-protocol-types v7.2.3
+    Checking rustls-native-certs v0.8.1
+    Checking executor-trait v2.1.2
+    Checking http v0.2.12
+    Checking spin v0.9.8
+    Checking nom v8.0.0
+   Compiling async-io v1.13.0
+    Checking encoding_rs v0.8.35
+    Checking adler2 v2.0.1
+    Checking tower-service v0.3.3
+    Checking bitflags v1.3.2
+    Checking fastrand v1.9.0
+   Compiling unicode-xid v0.2.6
+   Compiling anyhow v1.0.98
+    Checking event-listener v2.5.3
+    Checking linux-raw-sys v0.3.8
+   Compiling doc-comment v0.3.3
+   Compiling unicode-properties v0.1.3
+   Compiling unicode-bidi v0.3.18
+   Compiling uuid v1.17.0
+   Compiling sqlx-core v0.8.6
+   Compiling stringprep v0.1.5
+    Checking async-lock v2.8.0
+   Compiling derive_more-impl v2.0.1
+    Checking futures-lite v1.13.0
+    Checking miniz_oxide v0.8.9
+    Checking amq-protocol-uri v7.2.3
+    Checking flume v0.11.1
+   Compiling hkdf v0.12.4
+    Checking async-global-executor v3.1.0
+    Checking const-random v0.1.18
+   Compiling rand v0.8.5
+    Checking brotli-decompressor v5.0.0
+   Compiling pest_meta v2.8.1
+    Checking actix-utils v3.0.1
+   Compiling atoi v2.0.0
+   Compiling md-5 v0.10.6
+    Checking actix-rt v2.10.0
+   Compiling bytestring v1.4.0
+    Checking reactor-trait v1.1.0
+    Checking socket2 v0.4.10
+    Checking actix-service v2.0.3
+   Compiling cookie v0.16.2
+   Compiling byteorder v1.5.0
+   Compiling amq-protocol v7.2.3
+   Compiling regex-lite v0.1.6
+   Compiling dotenvy v0.15.7
+    Checking try-lock v0.2.5
+   Compiling rustversion v1.0.21
+   Compiling whoami v1.6.0
+   Compiling home v0.5.11
+   Compiling sqlx-postgres v0.8.6
+   Compiling actix-router v0.5.3
+    Checking want v0.3.1
+   Compiling pest_generator v2.8.1
+    Checking zstd v0.13.3
+    Checking flate2 v1.1.2
+    Checking derive_more v2.0.1
+    Checking brotli v8.0.1
+    Checking async-global-executor-trait v2.2.0
+    Checking dlv-list v0.5.2
+    Checking h2 v0.3.27
+    Checking local-channel v0.1.5
+    Checking h2 v0.4.11
+    Checking combine v4.6.7
+    Checking actix-codec v0.5.2
+    Checking socket2 v0.5.10
+   Compiling lapin v2.5.4
+    Checking hashbrown v0.14.5
+    Checking sync_wrapper v1.0.2
+   Compiling heck v0.5.0
+   Compiling amq-protocol v8.1.2
+    Checking winnow v0.7.12
+    Checking tower-layer v0.3.3
+    Checking language-tags v0.3.2
+    Checking amq-protocol-types v8.1.2
+   Compiling sqlx-macros-core v0.8.6
+    Checking actix-http v3.11.0
+    Checking amq-protocol-uri v8.1.2
+    Checking ordered-multimap v0.7.3
+    Checking toml_parser v1.0.1
+    Checking actix-server v2.6.0
+    Checking hyper v1.6.0
+    Checking pinky-swear v6.2.0
+   Compiling pest_derive v2.8.1
+    Checking async-reactor-trait v1.1.0
+   Compiling actix-web-codegen v4.3.0
+    Checking http-body-util v0.1.3
+    Checking reactor-trait v2.0.0
+    Checking deadpool-runtime v0.1.4
+    Checking serde_urlencoded v0.7.1
+    Checking toml_datetime v0.7.0
+    Checking serde_spanned v1.0.0
+   Compiling actix-macros v0.2.4
+    Checking num_cpus v1.17.0
+    Checking base64 v0.21.7
+    Checking arraydeque v0.5.1
+    Checking impl-more v0.1.9
+    Checking unicode-segmentation v1.12.0
+    Checking utf8parse v0.2.2
+   Compiling lapin v3.1.0
+    Checking anstyle-parse v0.2.7
+    Checking yaml-rust2 v0.10.3
+    Checking ron v0.8.1
+    Checking actix-web v4.11.0
+    Checking convert_case v0.6.0
+    Checking deadpool v0.12.2
+    Checking toml v0.9.4
+    Checking axum-core v0.5.2
+    Checking async-reactor-trait v2.0.0
+    Checking redis v0.32.4
+    Checking hyper-util v0.1.16
+    Checking json5 v0.4.1
+   Compiling sqlx-macros v0.8.6
+    Checking rust-ini v0.21.2
+    Checking tower v0.5.2
+    Checking tokio-reactor-trait v1.1.0
+    Checking tokio-executor-trait v2.1.3
+    Checking password-hash v0.5.0
+    Checking pem v3.0.5
+    Checking futures-executor v0.3.31
+    Checking simple_asn1 v0.6.3
+   Compiling pin-project-internal v1.1.10
+    Checking blake2 v0.10.6
+    Checking sha1_smol v1.0.1
+    Checking matchit v0.8.4
+    Checking anstyle v1.0.11
+    Checking anstyle-query v1.1.3
+    Checking colorchoice v1.0.4
+    Checking is_terminal_polyfill v1.70.1
+    Checking arcstr v1.2.0
+    Checking pathdiff v0.2.3
+    Checking config v0.15.13
+    Checking redis v1.0.0-alpha
+    Checking pin-project v1.1.10
+    Checking anstream v0.6.19
+    Checking argon2 v0.5.3
+    Checking jsonwebtoken v9.3.1
+    Checking futures v0.3.31
+    Checking hyper-timeout v0.5.2
+    Checking env_filter v0.1.3
+    Checking axum v0.8.4
+   Compiling itertools v0.14.0
+    Checking jiff v0.2.15
+   Compiling prost-derive v0.14.1
+    Checking env_logger v0.11.8
+    Checking dotenv v0.15.0
+    Checking actix-cors v0.7.1
+    Checking prost v0.14.1
+    Checking blowfish v0.9.1
+    Checking bcrypt v0.17.0
+    Checking tonic v0.14.0
+    Checking rustls-connector v0.20.2
+    Checking rustls-connector v0.21.7
+    Checking tcp-stream v0.28.0
+    Checking tcp-stream v0.30.1
+    Checking amq-protocol-tcp v7.2.3
+    Checking amq-protocol-tcp v8.1.2
+    Checking deadpool-redis v0.22.0
+error[E0275]: overflow evaluating the requirement `Box<Pinky<std::result::Result<channel::Channel, error::Error>>>: CoerceUnsized<Box<dyn Cancellable<...> + Send>>`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/generated.rs:1250:17
+     |
+1250 |                 Box::new(resolver),
+     |                 ^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+     = note: required for the cast from `Box<Pinky<std::result::Result<channel::Channel, error::Error>>>` to `Box<(dyn Cancellable<error::Error> + Send + 'static)>`
+
+error[E0275]: overflow evaluating the requirement `PinkySwear<std::result::Result<channel::Channel, error::Error>>: IntoFuture`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/generated.rs:1254:17
+     |
+1254 |         promise.await
+     |                 ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+
+error[E0275]: overflow evaluating the requirement `<PinkySwear<std::result::Result<channel::Channel, error::Error>> as IntoFuture>::IntoFuture == _`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/generated.rs:1254:17
+     |
+1254 |         promise.await
+     |                 ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+
+error[E0275]: overflow evaluating the requirement `<PinkySwear<std::result::Result<channel::Channel, error::Error>> as IntoFuture>::IntoFuture <: _`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/generated.rs:1254:17
+     |
+1254 |         promise.await
+     |                 ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+
+error[E0275]: overflow evaluating the requirement `<PinkySwear<std::result::Result<channel::Channel, error::Error>> as IntoFuture>::IntoFuture well-formed`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/generated.rs:1254:17
+     |
+1254 |         promise.await
+     |                 ^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+
+error[E0275]: overflow evaluating the requirement `Box<PromiseResolver<Consumer>>: CoerceUnsized<Box<dyn Cancelable + Send>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/generated.rs:442:17
+    |
+442 |                 Box::new(resolver),
+    |                 ^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+    = note: required for the cast from `Box<PromiseResolver<Consumer>>` to `Box<(dyn Cancelable + Send + 'static)>`
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<impl Future<Output = ()>>>: CoerceUnsized<Pin<Box<dyn Future<Output = ()> + Send>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/connection.rs:405:24
+    |
+405 |         executor.spawn(Box::pin(internal_rpc.run(channels.clone())));
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+    = note: required for the cast from `Pin<Box<impl Future<Output = ()>>>` to `Pin<Box<(dyn Future<Output = ()> + Send + 'static)>>`
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<impl Future<Output = ()>>>: CoerceUnsized<Pin<Box<dyn Future<Output = ()> + Send>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:271:38
+    |
+271 |         self.handle().executor.spawn(Box::pin(self.run(channels)));
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+    = note: required for the cast from `Pin<Box<impl Future<Output = ()>>>` to `Pin<Box<(dyn Future<Output = ()> + Send + 'static)>>`
+
+error[E0275]: overflow evaluating the requirement `{closure@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/io_loop.rs:166:24: 166:31}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/io_loop.rs:166:18
+    |
+166 |                 .spawn(move || {
+    |                  ^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `Builder::spawn`
+   --> /home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/thread/builder.rs:188:12
+    |
+185 |     pub fn spawn<F, T>(self, f: F) -> io::Result<JoinHandle<T>>
+    |            ----- required by a bound in this associated function
+...
+188 |         F: Send + 'static,
+    |            ^^^^ required by this bound in `Builder::spawn`
+
+error[E0275]: overflow evaluating the requirement `Pin<Box<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/heartbeat.rs:50:38: 50:48}>>: CoerceUnsized<Pin<Box<dyn Future<Output = ()> + Send>>>`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/heartbeat.rs:50:29
+   |
+50 |           self.executor.spawn(Box::pin(async move {
+   |  _____________________________^
+51 | |             while let Some(dur) = heartbeat.poll_timeout() {
+52 | |                 heartbeat.reactor.sleep(dur).await;
+53 | |             }
+54 | |         }));
+   | |__________^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+   = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = ()> + Send>>`
+   = note: the full name for the type has been written to '/tmp/nix-shell.uUVugk/olumiluadivine_borough-rust_yb8qo0x6/target/debug/deps/lapin-93b157b62e0ac813.long-type-1854248400253770952.txt'
+   = note: consider using `--verbose` to print the full type name to the console
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/channel.rs:989:52: 989:62}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/channel.rs:989:27
+    |
+989 |         self.internal_rpc.register_internal_future(async move {
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:176:47
+    |
+174 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+175 |         &self,
+176 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:525:52: 525:62}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:525:27
+    |
+525 |         self.internal_rpc.register_internal_future(async move {
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:704:56: 704:66}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:704:31
+    |
+704 |             self.internal_rpc.register_internal_future(async move {
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:735:56: 735:66}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:735:31
+    |
+735 |             self.internal_rpc.register_internal_future(async move {
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:768:56: 768:66}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:768:31
+    |
+768 |             self.internal_rpc.register_internal_future(async move {
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:868:52: 868:62}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:868:27
+    |
+868 |         self.internal_rpc.register_internal_future(async move {
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:900:39: 900:49}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:900:14
+    |
+900 |             .register_internal_future(async move { channel.channel_close_ok(error).await });
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:1130:56: 1130:66}: Send`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channel.rs:1130:31
+     |
+1130 |             self.internal_rpc.register_internal_future(async move {
+     |                               ^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+     |
+ 148 |     pub(crate) fn register_internal_future(
+     |                   ------------------------ required by a bound in this associated function
+ 149 |         &self,
+ 150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+     |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:354:53: 354:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:354:28
+    |
+354 |                     handle.register_internal_future(async move {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:176:47
+    |
+174 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+175 |         &self,
+176 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:393:53: 393:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:393:28
+    |
+393 |                     handle.register_internal_future(async move { channels.start_recovery().await })
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-3.1.0/src/internal_rpc.rs:176:47
+    |
+174 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+175 |         &self,
+176 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channels.rs:211:68: 211:78}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channels.rs:211:43
+    |
+211 |                         self.internal_rpc.register_internal_future(async move {
+    |                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channels.rs:234:68: 234:78}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/channels.rs:234:43
+    |
+234 |                         self.internal_rpc.register_internal_future(async move {
+    |                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `lapin` (lib) due to 5 previous errors
+warning: build failed, waiting for other jobs to finish...
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:241:25: 241:35}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:240:33
+    |
+240 |                     self.handle.register_internal_future_with_resolver(
+    |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future_with_resolver`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:162:47
+    |
+160 |     fn register_internal_future_with_resolver(
+    |        -------------------------------------- required by a bound in this associated function
+161 |         &self,
+162 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future_with_resolver`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:253:25: 253:35}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:252:33
+    |
+252 |                     self.handle.register_internal_future_with_resolver(
+    |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future_with_resolver`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:162:47
+    |
+160 |     fn register_internal_future_with_resolver(
+    |        -------------------------------------- required by a bound in this associated function
+161 |         &self,
+162 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future_with_resolver`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:265:25: 265:35}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:264:33
+    |
+264 |                     self.handle.register_internal_future_with_resolver(
+    |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future_with_resolver`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:162:47
+    |
+160 |     fn register_internal_future_with_resolver(
+    |        -------------------------------------- required by a bound in this associated function
+161 |         &self,
+162 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future_with_resolver`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:276:53: 276:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:276:28
+    |
+276 |                     handle.register_internal_future(async move {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:289:53: 289:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:289:28
+    |
+289 |                     handle.register_internal_future(async move {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:295:53: 295:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:295:28
+    |
+295 |                     handle.register_internal_future(async move {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:303:53: 303:63}: Send`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:303:28
+    |
+303 |                     handle.register_internal_future(async move {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`lapin`)
+note: required by a bound in `InternalRPCHandle::register_internal_future`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/lapin-2.5.4/src/internal_rpc.rs:150:47
+    |
+148 |     pub(crate) fn register_internal_future(
+    |                   ------------------------ required by a bound in this associated function
+149 |         &self,
+150 |         f: impl Future<Output = Result<()>> + Send + 'static,
+    |                                               ^^^^ required by this bound in `InternalRPCHandle::register_internal_future`
+
+error: could not compile `lapin` (lib) due to 24 previous errors

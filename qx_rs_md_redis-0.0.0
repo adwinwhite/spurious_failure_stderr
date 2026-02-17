@@ -1,0 +1,29 @@
+Running as unit: run-p1306815-i1307115.scope; invocation ID: bec7d63ab4664dde97d432c46491f727
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded qx_rs_env v0.0.0 (registry `tuna`)
+  Downloaded qx_rs_err v0.0.0 (registry `tuna`)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `qx_rs_md_env v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_file v0.0.0` within 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `qx_rs_regex v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_md_log v0.0.0` within 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `qx_rs_time v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_str v0.0.0` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `qx_rs_md_env v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_val v0.0.0` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `qx_rs_regex v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_file v0.0.0` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `qx_rs_time v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_md_log v0.0.0` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `qx_rs_val v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (failed to download any data for `qx_rs_str v0.0.0` within 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (download of `qx_rs_regex v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (failed to download any data for `qx_rs_md_env v0.0.0` within 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (download of `qx_rs_time v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (failed to download any data for `qx_rs_file v0.0.0` within 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (download of `qx_rs_val v0.0.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (failed to download any data for `qx_rs_md_log v0.0.0` within 30s)
+error: failed to download from `https://static.crates.io/crates/qx_rs_regex/0.0.0/download`
+
+Caused by:
+  [28] Timeout was reached (download of `qx_rs_regex v0.0.0` failed to transfer more than 10 bytes in 30s)

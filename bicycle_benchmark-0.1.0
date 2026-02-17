@@ -1,0 +1,73 @@
+Running as unit: run-p3152951-i15732991.scope; invocation ID: d2152d76789f4d80922e4f537cdb0912
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded bicycle_cliffords v0.1.0 (registry `tuna`)
+  Downloaded bitcode_derive v0.6.5 (registry `tuna`)
+  Downloaded bicycle_common v0.1.0 (registry `tuna`)
+  Downloaded bitcode v0.6.6 (registry `tuna`)
+  Downloaded bicycle_compiler v0.1.0 (registry `tuna`)
+  Downloaded fixed v1.29.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling autocfg v1.5.0
+   Compiling libc v0.2.174
+    Checking cfg-if v1.0.1
+    Checking memchr v2.7.5
+    Checking bytemuck v1.23.1
+   Compiling getrandom v0.3.3
+   Compiling serde v1.0.219
+   Compiling zerocopy v0.8.26
+    Checking utf8parse v0.2.2
+    Checking anstyle-parse v0.2.7
+    Checking is_terminal_polyfill v1.70.1
+    Checking regex-syntax v0.8.5
+    Checking anstyle v1.0.11
+   Compiling paste v1.0.15
+   Compiling num-traits v0.2.19
+    Checking anstyle-query v1.1.3
+   Compiling typenum v1.18.0
+    Checking aho-corasick v1.1.3
+    Checking colorchoice v1.0.4
+    Checking anstream v0.6.19
+   Compiling quote v1.0.40
+   Compiling matrixmultiply v0.3.10
+   Compiling syn v2.0.104
+    Checking safe_arch v0.7.4
+    Checking rand_core v0.9.3
+    Checking approx v0.5.1
+    Checking wide v0.7.33
+    Checking num-complex v0.4.6
+    Checking num-integer v0.1.46
+    Checking clap_lex v0.7.5
+   Compiling az v1.2.1
+    Checking log v0.4.27
+   Compiling heck v0.5.0
+    Checking strsim v0.11.1
+    Checking rawpointer v0.2.1
+    Checking clap_builder v4.5.42
+    Checking num-rational v0.4.2
+    Checking regex-automata v0.4.9
+   Compiling fixed v1.29.0
+    Checking ppv-lite86 v0.2.21
+    Checking jiff v0.2.15
+   Compiling serde_json v1.0.141
+    Checking half v2.6.0
+    Checking rand_chacha v0.9.0
+    Checking rand v0.9.2
+    Checking ryu v1.0.20
+    Checking itoa v1.0.15
+    Checking simba v0.9.0
+    Checking regex v1.11.1
+    Checking env_filter v0.1.3
+    Checking env_logger v0.11.8
+   Compiling serde_derive v1.0.219
+   Compiling nalgebra-macros v0.2.2
+   Compiling clap_derive v4.5.41
+   Compiling bitcode_derive v0.6.5
+    Checking nalgebra v0.33.2
+    Checking clap v4.5.42
+    Checking bicycle_common v0.1.0
+    Checking bitcode v0.6.6
+    Checking bicycle_cliffords v0.1.0
+    Checking bicycle_compiler v0.1.0
+    Checking bicycle_benchmark v0.1.0 (/getea/tmp/crater-spurious/bicycle_benchmark-0.1.0)

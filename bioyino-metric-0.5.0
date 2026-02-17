@@ -1,0 +1,38 @@
+Running as unit: run-p353400-i4547114.scope; invocation ID: ddbab39c8ff942ab8cd7dc2e0b42471c
+    Updating `tuna` index
+     Locking 24 packages to latest compatible versions
+      Adding capnp v0.14.11 (available: v0.25.1)
+      Adding capnpc v0.14.9 (available: v0.25.0)
+      Adding lexical-core v0.8.5 (available: v1.0.6)
+      Adding thiserror v1.0.69 (available: v2.0.18)
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.44
+    Checking static_assertions v1.1.0
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+    Checking lexical-util v0.8.5
+   Compiling autocfg v1.5.0
+   Compiling capnp v0.14.11
+   Compiling thiserror v1.0.69
+    Checking lexical-parse-integer v0.8.6
+   Compiling num-traits v0.2.19
+    Checking lexical-write-integer v0.8.5
+    Checking lexical-parse-float v0.8.5
+    Checking memchr v2.8.0
+    Checking lexical-write-float v0.8.5
+   Compiling capnpc v0.14.9
+    Checking lexical-core v0.8.5
+    Checking lazysort v0.2.1
+   Compiling syn v2.0.116
+   Compiling bioyino-metric v0.5.0 (/getea/tmp/crater-spurious/bioyino-metric-0.5.0)
+error: failed to run custom build command for `bioyino-metric v0.5.0 (/getea/tmp/crater-spurious/bioyino-metric-0.5.0)`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/bioyino-metric-0.5.0/target/debug/build/bioyino-metric-a2671ef4182a7b80/build-script-build` (exit status: 101)
+  --- stderr
+
+  thread 'main' (353822) panicked at build.rs:8:10:
+  Failed compiling messages schema: Error { kind: Failed, description: "Error while trying to execute `capnp compile`: Failed: No such file or directory (os error 2).  Please verify that version 0.5.2 or higher of the capnp executable is installed on your system. See https://capnproto.org/install.html" }
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

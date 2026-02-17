@@ -1,0 +1,150 @@
+Running as unit: run-p1143496-i13723808.scope; invocation ID: 076613c062b542f3bbab06e77fd37ed6
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.164
+    Checking cfg-if v1.0.0
+    Checking byteorder v1.5.0
+   Compiling radium v0.7.0
+    Checking tap v1.0.1
+   Compiling version_check v0.9.5
+   Compiling typenum v1.17.0
+    Checking wyz v0.5.1
+   Compiling crossbeam-utils v0.8.20
+    Checking funty v2.0.0
+    Checking subtle v2.6.1
+   Compiling generic-array v0.14.7
+   Compiling serde v1.0.215
+   Compiling autocfg v1.4.0
+    Checking static_assertions v1.1.0
+    Checking spin v0.9.8
+    Checking lazy_static v1.5.0
+   Compiling rayon-core v1.12.1
+    Checking arrayref v0.3.9
+    Checking bitvec v1.0.1
+    Checking arrayvec v0.7.6
+    Checking crossbeam-epoch v0.9.18
+    Checking constant_time_eq v0.3.1
+   Compiling quote v1.0.37
+   Compiling num-traits v0.2.19
+    Checking getrandom v0.2.15
+    Checking blake2b_simd v1.0.2
+   Compiling syn v2.0.89
+    Checking rand_core v0.6.4
+    Checking crossbeam-deque v0.8.5
+    Checking either v1.13.0
+   Compiling shlex v1.3.0
+    Checking memchr v2.7.4
+   Compiling cc v1.2.1
+    Checking keccak v0.1.5
+    Checking rayon v1.10.0
+    Checking once_cell v1.20.2
+    Checking num-integer v0.1.46
+   Compiling paste v1.0.15
+    Checking tracing-core v0.1.32
+    Checking cpufeatures v0.2.16
+   Compiling halo2curves-axiom v0.5.3
+    Checking pin-project-lite v0.2.15
+   Compiling thiserror v1.0.69
+   Compiling proc-macro-error-attr2 v2.0.0
+    Checking crossbeam-channel v0.5.13
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking crossbeam-queue v0.3.11
+   Compiling crunchy v0.2.2
+    Checking sha2 v0.10.8
+   Compiling serde_json v1.0.133
+    Checking log v0.4.22
+    Checking crossbeam v0.8.4
+    Checking sha3 v0.10.8
+    Checking itertools v0.11.0
+    Checking rand_xorshift v0.3.0
+    Checking colored v2.1.0
+   Compiling jemalloc-sys v0.5.4+5.3.0-patched
+    Checking rustc-hash v1.1.0
+    Checking itoa v1.0.13
+    Checking ryu v1.0.18
+    Checking ff v0.13.0
+    Checking ff v0.12.1
+    Checking utf8parse v0.2.2
+    Checking group v0.13.0
+    Checking rustc-hex v2.1.0
+    Checking group v0.12.1
+    Checking anstyle-parse v0.2.6
+    Checking aho-corasick v1.1.3
+    Checking pairing v0.23.0
+    Checking colorchoice v1.0.3
+    Checking anstyle v1.0.10
+    Checking regex-syntax v0.8.5
+   Compiling ruint-macro v1.2.1
+    Checking block-padding v0.2.1
+    Checking anstyle-query v1.1.2
+    Checking is_terminal_polyfill v1.70.1
+   Compiling halo2curves v0.3.1 (https://github.com/privacy-scaling-explorations/halo2curves.git?tag=0.3.1#9b67e19b)
+    Checking ruint v1.12.1
+    Checking anstream v0.6.18
+    Checking block-buffer v0.9.0
+    Checking digest v0.9.0
+    Checking opaque-debug v0.3.1
+   Compiling heck v0.5.0
+    Checking clap_lex v0.7.3
+    Checking strsim v0.11.1
+    Checking sha3 v0.9.1
+    Checking is-terminal v0.4.13
+    Checking termcolor v1.4.1
+    Checking humantime v2.1.0
+    Checking clap_builder v4.5.21
+    Checking regex-automata v0.4.9
+    Checking clap-num v1.0.2
+    Checking halton v0.2.1
+    Checking maybe-rayon v0.1.1
+   Compiling proc-macro-error2 v2.0.1
+   Compiling test-case-core v3.3.1
+   Compiling zerocopy-derive v0.7.35
+   Compiling serde_derive v1.0.215
+   Compiling tracing-attributes v0.1.27
+   Compiling thiserror-impl v1.0.69
+   Compiling getset v0.1.3
+    Checking regex v1.11.1
+   Compiling test-case-macros v3.3.1
+   Compiling clap_derive v4.5.18
+    Checking env_logger v0.10.2
+    Checking test-case v3.3.1
+    Checking zerocopy v0.7.35
+    Checking tracing v0.1.40
+    Checking ppv-lite86 v0.2.20
+    Checking rand_chacha v0.3.1
+    Checking clap v4.5.21
+    Checking rand v0.8.5
+    Checking num-bigint v0.4.6
+    Checking pasta_curves v0.5.1
+    Checking ark-std v0.3.0
+    Checking poseidon-primitives v0.1.1
+    Checking fixed-hash v0.8.0
+    Checking pasta_curves v0.4.1
+    Checking halo2_proofs v0.2.0 (https://github.com/privacy-scaling-explorations/halo2.git?tag=v2023_02_02#0a8646b7)
+    Checking hex v0.4.3
+    Checking serde_arrays v0.1.0
+    Checking bincode v1.3.3
+    Checking uint v0.9.5
+    Checking primitive-types v0.12.2
+    Checking ethereum-types v0.14.1
+    Checking halo2-axiom v0.4.4
+    Checking jemallocator v0.5.4
+    Checking halo2-base v0.4.1 (https://github.com/axiom-crypto/halo2-lib?branch=community-edition#a2a548b2)
+error: `-Znext-solver=globally` and `generic_const_exprs` are incompatible, using them at the same time is not allowed
+ --> /home/adwin/.cargo/git/checkouts/halo2-lib-255f84622e4d2880/a2a548b/halo2-base/src/lib.rs:2:12
+  |
+2 | #![feature(generic_const_exprs)]
+  |            ^^^^^^^^^^^^^^^^^^^
+  |
+  = help: remove one of these features
+
+error[E0282]: type annotations needed
+   --> /home/adwin/.cargo/git/checkouts/halo2-lib-255f84622e4d2880/a2a548b/halo2-base/src/safe_types/bytes.rs:185:21
+    |
+185 |         let bytes = bytes.bytes.into_iter().map(|b| b.0).collect::<Vec<_>>();
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^ cannot infer type
+
+For more information about this error, try `rustc --explain E0282`.
+error: could not compile `halo2-base` (lib) due to 2 previous errors

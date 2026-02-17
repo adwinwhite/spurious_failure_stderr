@@ -1,0 +1,181 @@
+Running as unit: run-p1585618-i14165726.scope; invocation ID: 1aace34bf127465c8d8bb37eae8c67eb
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.87
+   Compiling unicode-ident v1.0.13
+   Compiling autocfg v1.4.0
+   Compiling libc v0.2.159
+    Checking bytes v1.7.2
+    Checking cfg-if v1.0.0
+   Compiling libm v0.2.8
+    Checking once_cell v1.20.2
+    Checking byteorder v1.5.0
+   Compiling num-traits v0.2.19
+   Compiling rustversion v1.0.18
+    Checking pin-project-lite v0.2.14
+   Compiling version_check v0.9.5
+    Checking itoa v1.0.11
+   Compiling heck v0.5.0
+   Compiling ahash v0.8.11
+   Compiling quote v1.0.37
+    Checking getrandom v0.2.15
+    Checking futures-core v0.3.31
+    Checking iana-time-zone v0.1.61
+   Compiling syn v2.0.79
+   Compiling anyhow v1.0.89
+    Checking arrow-schema v51.0.0
+    Checking memchr v2.7.4
+   Compiling either v1.13.0
+    Checking num-integer v0.1.46
+    Checking num-complex v0.4.6
+    Checking half v2.4.1
+    Checking chrono v0.4.38
+    Checking static_assertions v1.1.0
+    Checking hashbrown v0.14.5
+    Checking num-bigint v0.4.6
+    Checking num-iter v0.1.45
+    Checking lexical-util v0.8.5
+   Compiling itertools v0.12.1
+    Checking socket2 v0.5.7
+    Checking mio v1.0.2
+   Compiling serde v1.0.210
+   Compiling slab v0.4.9
+    Checking hashbrown v0.15.0
+    Checking pin-utils v0.1.0
+    Checking num-rational v0.4.2
+    Checking equivalent v1.0.1
+   Compiling semver v1.0.23
+    Checking fnv v1.0.7
+    Checking futures-task v0.3.31
+    Checking futures-util v0.3.31
+    Checking num v0.4.3
+    Checking http v0.2.12
+    Checking arrow-buffer v51.0.0
+    Checking indexmap v2.6.0
+    Checking arrow-data v51.0.0
+    Checking lexical-parse-integer v0.8.6
+    Checking lexical-write-integer v0.8.5
+    Checking tracing-core v0.1.32
+    Checking ryu v1.0.18
+   Compiling rustix v0.38.37
+    Checking futures-sink v0.3.31
+    Checking lexical-write-float v0.8.5
+    Checking lexical-parse-float v0.8.5
+    Checking unicode-width v0.1.14
+   Compiling httparse v1.9.5
+   Compiling regex-syntax v0.8.5
+   Compiling prettyplease v0.2.22
+    Checking tower-service v0.3.3
+   Compiling bitflags v2.6.0
+    Checking strum v0.26.3
+   Compiling linux-raw-sys v0.4.14
+   Compiling rustc_version v0.4.1
+    Checking lexical-core v0.8.5
+    Checking http-body v0.4.6
+    Checking aho-corasick v1.1.3
+    Checking atoi v2.0.0
+   Compiling regex-automata v0.4.8
+    Checking rand_core v0.6.4
+   Compiling indexmap v1.9.3
+   Compiling fastrand v2.1.1
+    Checking base64 v0.22.1
+   Compiling fixedbitset v0.4.2
+    Checking bitflags v1.3.2
+    Checking try-lock v0.2.5
+    Checking want v0.3.1
+   Compiling petgraph v0.6.5
+   Compiling zerocopy-derive v0.7.35
+   Compiling tokio-macros v2.4.0
+   Compiling prost-derive v0.12.6
+    Checking tokio v1.40.0
+    Checking zerocopy v0.7.35
+   Compiling tracing-attributes v0.1.27
+   Compiling strum_macros v0.26.4
+    Checking arrow-array v51.0.0
+   Compiling prost v0.12.6
+    Checking ppv-lite86 v0.2.20
+    Checking rand_chacha v0.3.1
+    Checking tracing v0.1.40
+   Compiling prost-types v0.12.6
+   Compiling regex v1.11.0
+   Compiling tempfile v3.13.0
+   Compiling pin-project-internal v1.1.6
+    Checking arrow-select v51.0.0
+    Checking comfy-table v7.1.1
+   Compiling flatbuffers v23.5.26
+    Checking arrow-cast v51.0.0
+   Compiling axum-core v0.3.4
+    Checking futures-channel v0.3.31
+    Checking httpdate v1.0.3
+   Compiling log v0.4.22
+    Checking tower-layer v0.3.3
+   Compiling serde_json v1.0.128
+   Compiling multimap v0.10.0
+    Checking percent-encoding v2.3.1
+    Checking tinyvec_macros v0.1.1
+    Checking hashbrown v0.12.3
+   Compiling crossbeam-utils v0.8.21
+    Checking tinyvec v1.8.0
+   Compiling prost-build v0.12.6
+    Checking tokio-util v0.7.12
+    Checking pin-project v1.1.6
+    Checking rand v0.8.5
+   Compiling async-trait v0.1.83
+    Checking h2 v0.3.26
+    Checking csv-core v0.1.11
+   Compiling axum v0.6.20
+    Checking mime v0.3.17
+    Checking csv v1.3.0
+    Checking unicode-normalization v0.1.24
+    Checking tower v0.4.13
+   Compiling tonic-build v0.11.0
+    Checking tokio-io-timeout v1.2.0
+   Compiling async-stream-impl v0.3.6
+    Checking matchit v0.7.3
+    Checking lazy_static v1.5.0
+    Checking unicode-bidi v0.3.17
+    Checking sync_wrapper v0.1.2
+    Checking utf8parse v0.2.2
+    Checking async-stream v0.3.6
+    Checking anstyle-parse v0.2.5
+    Checking arrow-csv v51.0.0
+   Compiling spark-connect-core v0.0.1-beta.5
+    Checking arrow-json v51.0.0
+    Checking crossbeam-epoch v0.9.18
+    Checking idna v0.5.0
+    Checking hyper v0.14.31
+    Checking arrow-ipc v51.0.0
+    Checking arrow-string v51.0.0
+    Checking tokio-stream v0.1.16
+    Checking form_urlencoded v1.2.1
+    Checking arrow-ord v51.0.0
+    Checking arrow-arith v51.0.0
+    Checking arrow-row v51.0.0
+    Checking anstyle-query v1.1.1
+    Checking base64 v0.21.7
+    Checking anstyle v1.0.8
+    Checking colorchoice v1.0.2
+    Checking is_terminal_polyfill v1.70.1
+   Compiling rayon-core v1.12.1
+    Checking url v2.5.2
+    Checking anstream v0.6.15
+error: failed to run custom build command for `spark-connect-core v0.0.1-beta.5`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/bartlomiejkrawczyk_PORR-24Z_5nyfj8h5/target/debug/build/spark-connect-core-84ffbf77b1f6aa83/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/catalog.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/types.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/relations.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/base.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/common.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/example_plugins.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/commands.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf/spark/connect/expressions.proto
+  cargo:rerun-if-changed=./spark/connector/connect/common/src/main/protobuf
+
+  --- stderr
+  Error: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on Debian, run `apt-get install protobuf-compiler`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
+warning: build failed, waiting for other jobs to finish...

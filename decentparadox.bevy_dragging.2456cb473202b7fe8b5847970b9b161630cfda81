@@ -1,0 +1,178 @@
+Running as unit: run-p1778654-i14358762.scope; invocation ID: 5e72f1d64adf42c995820fe925008851
+   Compiling proc-macro2 v1.0.94
+   Compiling unicode-ident v1.0.12
+   Compiling serde v1.0.210
+    Checking cfg-if v1.0.0
+   Compiling libc v0.2.171
+   Compiling autocfg v1.3.0
+    Checking once_cell v1.21.3
+   Compiling version_check v0.9.5
+    Checking pin-project-lite v0.2.14
+    Checking zerocopy v0.7.35
+   Compiling crossbeam-utils v0.8.20
+    Checking allocator-api2 v0.2.18
+   Compiling thiserror v1.0.69
+   Compiling quote v1.0.37
+   Compiling ahash v0.8.11
+    Checking log v0.4.22
+    Checking tracing-core v0.1.32
+   Compiling syn v2.0.100
+   Compiling equivalent v1.0.1
+   Compiling hashbrown v0.14.5
+   Compiling winnow v0.5.40
+   Compiling toml_datetime v0.6.8
+    Checking getrandom v0.2.15
+   Compiling indexmap v2.5.0
+   Compiling slab v0.4.9
+   Compiling libm v0.2.8
+   Compiling rustc-hash v1.1.0
+    Checking parking v2.2.1
+   Compiling num-traits v0.2.19
+    Checking concurrent-queue v2.5.0
+    Checking futures-core v0.3.30
+    Checking event-listener v5.3.1
+    Checking fastrand v2.1.1
+    Checking futures-io v0.3.30
+    Checking event-listener-strategy v0.5.2
+    Checking futures-lite v2.3.0
+   Compiling typeid v1.0.2
+    Checking async-task v4.7.1
+    Checking async-channel v2.3.1
+    Checking downcast-rs v1.2.1
+    Checking smol_str v0.2.2
+    Checking fixedbitset v0.4.2
+    Checking nonmax v0.5.5
+    Checking web-time v0.2.4
+    Checking async-executor v1.13.1
+    Checking thread_local v1.1.8
+    Checking bevy_ptr v0.13.2
+    Checking memchr v2.7.4
+    Checking bevy_tasks v0.13.2
+   Compiling cfg_aliases v0.1.1
+    Checking regex-syntax v0.8.4
+   Compiling toml_edit v0.21.1
+   Compiling uuid v1.12.1
+    Checking aho-corasick v1.1.3
+   Compiling lock_api v0.4.12
+    Checking lazy_static v1.5.0
+    Checking regex-syntax v0.6.29
+   Compiling parking_lot_core v0.9.10
+    Checking libloading v0.8.5
+    Checking scopeguard v1.2.0
+    Checking bitflags v1.3.2
+    Checking overload v0.1.1
+    Checking nu-ansi-term v0.46.0
+    Checking sharded-slab v0.1.7
+    Checking regex-automata v0.4.7
+    Checking tracing-log v0.2.0
+    Checking tracing-log v0.1.4
+    Checking arrayvec v0.7.6
+    Checking crossbeam-channel v0.5.13
+    Checking regex-automata v0.1.10
+    Checking raw-window-handle v0.6.2
+    Checking bit-vec v0.6.3
+   Compiling pkg-config v0.3.30
+    Checking byteorder v1.5.0
+    Checking adler2 v2.0.0
+   Compiling bevy_macro_utils v0.13.2
+    Checking matchers v0.1.0
+   Compiling shlex v1.3.0
+    Checking unicode-width v0.1.13
+    Checking simd-adler32 v0.3.7
+    Checking termcolor v1.4.1
+    Checking codespan-reporting v0.11.1
+    Checking regex v1.10.6
+   Compiling cc v1.1.18
+    Checking miniz_oxide v0.8.0
+    Checking bit-set v0.5.3
+    Checking crc32fast v1.4.2
+    Checking hexf-parse v0.2.1
+   Compiling ash v0.37.3+1.3.251
+    Checking adler v1.0.2
+    Checking unicode-xid v0.2.6
+   Compiling khronos-egl v6.0.0
+    Checking atomic-waker v1.1.2
+    Checking piper v0.2.4
+    Checking miniz_oxide v0.7.4
+    Checking flate2 v1.0.33
+    Checking fdeflate v0.3.4
+   Compiling wgpu-hal v0.19.5
+    Checking libloading v0.7.4
+    Checking accesskit v0.12.3
+    Checking png v0.17.13
+    Checking blocking v1.6.1
+   Compiling encase_derive_impl v0.7.0
+   Compiling wgpu-core v0.19.4
+    Checking async-lock v3.4.0
+    Checking constant_time_eq v0.3.1
+    Checking glow v0.13.1
+    Checking renderdoc-sys v1.1.0
+   Compiling blake3 v1.5.4
+    Checking base64 v0.21.7
+    Checking arrayref v0.3.8
+    Checking event-listener v2.5.3
+    Checking profiling v1.0.16
+    Checking static_assertions v1.1.0
+    Checking async-broadcast v0.5.1
+    Checking async-fs v2.1.2
+   Compiling wgpu v0.19.4
+    Checking const_soft_float v0.1.4
+    Checking twox-hash v1.6.3
+    Checking constgebra v0.1.4
+    Checking data-encoding v2.6.0
+    Checking const_panic v0.2.9
+    Checking color_quant v1.1.0
+    Checking ktx2 v0.3.0
+   Compiling synstructure v0.13.1
+   Compiling rustix v0.38.44
+    Checking approx v0.5.1
+    Checking linux-raw-sys v0.4.14
+    Checking radsort v0.1.1
+    Checking percent-encoding v2.3.1
+    Checking stable_deref_trait v1.2.0
+    Checking ttf-parser v0.24.1
+   Compiling alsa-sys v0.3.1
+   Compiling cfg_aliases v0.2.1
+    Checking ab_glyph_rasterizer v0.1.8
+   Compiling nix v0.29.0
+   Compiling x11-dl v2.21.0
+   Compiling libudev-sys v0.1.4
+    Checking euclid v0.22.11
+    Checking as-raw-xcb-connection v1.0.1
+    Checking x11rb-protocol v0.13.1
+   Compiling serde_json v1.0.128
+    Checking svg_fmt v0.4.3
+    Checking guillotiere v0.6.2
+error: failed to run custom build command for `libudev-sys v0.1.4`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/decentparadox_bevy_dragging_6zub9ejg/target/debug/build/libudev-sys-ded112d41cdae6ea/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=LIBUDEV_STATIC
+  cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  thread 'main' (1780983) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/libudev-sys-0.1.4/build.rs:38:41:
+  called `Result::unwrap()` on an `Err` value: "\npkg-config exited with status code 1\n> PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libudev\n\nThe system library `libudev` required by crate `libudev-sys` was not found.\nThe file `libudev.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.\nPKG_CONFIG_PATH_FOR_TARGET contains the following:\n    - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig\n    - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig\n    - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig\n    - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig\n    - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig\n    - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig\n    - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig\n    - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig\n\nHINT: you may need to install a package such as libudev, libudev-dev or libudev-devel.\n"
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

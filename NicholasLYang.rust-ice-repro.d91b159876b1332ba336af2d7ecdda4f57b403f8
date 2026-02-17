@@ -1,0 +1,33 @@
+Running as unit: run-p1281919-i13862084.scope; invocation ID: aa51700c7cc24edc95bab50d5e65d18d
+   Compiling libc v0.2.152
+   Compiling proc-macro2 v1.0.76
+   Compiling unicode-ident v1.0.12
+   Compiling version_check v0.9.4
+    Checking once_cell v1.19.0
+    Checking cfg-if v1.0.0
+   Compiling thiserror v1.0.56
+    Checking zerocopy v0.7.32
+   Compiling ahash v0.8.7
+   Compiling serde v1.0.195
+    Checking allocator-api2 v0.2.16
+    Checking unicode-width v0.1.11
+   Compiling quote v1.0.35
+    Checking hashbrown v0.14.3
+   Compiling cc v1.0.83
+   Compiling syn v2.0.48
+   Compiling psm v0.1.21
+   Compiling stacker v0.1.15
+    Checking chumsky v0.9.3
+   Compiling thiserror-impl v1.0.56
+   Compiling miette-derive v5.10.0
+   Compiling serde_derive v1.0.195
+    Checking miette v5.10.0
+    Checking ice-repro v0.1.0 (/tmp/nix-shell.uUVugk/NicholasLYang_rust-ice-repro_b90izns8)
+warning: unused import: `Function`
+ --> src/lib.rs:4:44
+  |
+4 |     BinaryOp, Expr, ExprBlock, ExprFields, Function, ImportType, MatchBindings, MatchCase, PostFix,
+  |                                            ^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+

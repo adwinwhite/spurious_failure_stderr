@@ -1,0 +1,99 @@
+Running as unit: run-p832940-i833240.scope; invocation ID: 5fdb8055ce374f14a46c7165a1e161dc
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded zvariant_derive v5.2.0 (registry `tuna`)
+  Downloaded zvariant_utils v3.1.0 (registry `tuna`)
+  Downloaded single-instance v0.3.3 (registry `tuna`)
+  Downloaded dbus-codegen v0.9.1 (registry `tuna`)
+  Downloaded tray-item v0.10.0 (registry `tuna`)
+  Downloaded zbus_names v4.1.1 (registry `tuna`)
+  Downloaded dbus-tree v0.9.2 (registry `tuna`)
+  Downloaded zbus_macros v5.3.0 (registry `tuna`)
+  Downloaded zvariant v5.2.0 (registry `tuna`)
+  Downloaded ksni v0.2.2 (registry `tuna`)
+  Downloaded zbus v5.3.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.169
+   Compiling autocfg v1.4.0
+    Checking pin-project-lite v0.2.15
+   Compiling crossbeam-utils v0.8.21
+   Compiling serde v1.0.225
+    Checking parking v2.2.1
+    Checking futures-core v0.3.31
+   Compiling serde_core v1.0.225
+    Checking bitflags v2.7.0
+    Checking fastrand v2.3.0
+   Compiling pkg-config v0.3.31
+   Compiling equivalent v1.0.1
+    Checking futures-io v0.3.31
+   Compiling hashbrown v0.15.2
+    Checking cfg-if v1.0.0
+    Checking concurrent-queue v2.5.0
+    Checking event-listener v5.3.1
+   Compiling toml_write v0.1.2
+   Compiling quote v1.0.38
+   Compiling libdbus-sys v0.2.5
+    Checking event-listener-strategy v0.5.3
+   Compiling syn v2.0.93
+   Compiling winnow v0.7.10
+error: failed to run custom build command for `libdbus-sys v0.2.5`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/janitor-service-0.1.40/target/debug/build/libdbus-sys-5c7df14cd7fa43d8/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-changed=build.rs
+  cargo:rerun-if-changed=build_vendored.rs
+  cargo:rerun-if-env-changed=DBUS_1_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=DBUS_1_STATIC
+  cargo:rerun-if-env-changed=DBUS_1_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+  pkg_config failed: 
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags dbus-1 dbus-1 >= 1.6
+
+  The system library `dbus-1` required by crate `libdbus-sys` was not found.
+  The file `dbus-1.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+
+  HINT: you may need to install a package such as dbus-1, dbus-1-dev or dbus-1-devel.
+
+  One possible solution is to check whether packages
+  'libdbus-1-dev' and 'pkg-config' are installed:
+  On Ubuntu:
+  sudo apt install libdbus-1-dev pkg-config
+  On Fedora:
+  sudo dnf install dbus-devel pkgconf-pkg-config
+
+
+  thread 'main' (833395) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/libdbus-sys-0.2.5/build.rs:25:9:
+  explicit panic
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

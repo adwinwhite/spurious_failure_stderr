@@ -1,0 +1,55 @@
+Running as unit: run-p2872933-i2873233.scope; invocation ID: 303d18b49b86468abb73adea8b056a09
+   Compiling libc v0.2.126
+   Compiling crunchy v0.2.2
+   Compiling tiny-keccak v2.0.2
+   Compiling proc-macro2 v1.0.36
+   Compiling proc-macro-hack v0.5.19
+   Compiling unicode-xid v0.2.2
+   Compiling cfg-if v1.0.0
+   Compiling syn v1.0.88
+   Compiling lazy_static v1.4.0
+   Compiling fnv v1.0.7
+   Compiling utf8-ranges v1.0.4
+   Compiling beef v0.5.1
+   Compiling regex-syntax v0.6.25
+    Checking unicode-width v0.1.8
+    Checking yansi v0.5.1
+    Checking textwrap v0.11.0
+    Checking strsim v0.8.0
+    Checking vec_map v0.8.2
+    Checking bitflags v1.3.2
+    Checking ansi_term v0.11.0
+    Checking ariadne v0.1.5
+   Compiling getrandom v0.2.6
+   Compiling quote v1.0.15
+    Checking atty v0.2.14
+    Checking clap v2.33.3
+   Compiling const-random-macro v0.1.13
+    Checking const-random v0.1.13
+    Checking ahash v0.3.8
+    Checking chumsky v0.8.0
+   Compiling logos-derive v0.12.0
+    Checking logos v0.12.0
+    Checking rm1masm v1.0.3 (/getea/tmp/crater-spurious/rm1masm-1.0.3)
+error[E0282]: type annotations needed
+   --> src/parser.rs:284:36
+    |
+284 |     let label = string.then_ignore(just(Token::Colon)).or_not();
+    |                                    ^^^^ cannot infer type of the type parameter `E` declared on the function `just`
+    |
+help: consider specifying the generic arguments
+    |
+284 |     let label = string.then_ignore(just::<Token<'_>, Token<'_>, E>(Token::Colon)).or_not();
+    |                                        +++++++++++++++++++++++++++
+
+error[E0275]: overflow evaluating the requirement `impl chumsky::Parser<Token<'a>, Ast<'a>, Error = chumsky::error::Simple<Token<'a>>> == _`
+   --> src/parser.rs:281:1
+    |
+281 | fn parser<'a>() -> impl Parser<Token<'a>, Ast<'a>, Error = Simple<Token<'a>>> {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`rm1masm`)
+
+Some errors have detailed explanations: E0275, E0282.
+For more information about an error, try `rustc --explain E0275`.
+error: could not compile `rm1masm` (bin "rm1masm") due to 2 previous errors

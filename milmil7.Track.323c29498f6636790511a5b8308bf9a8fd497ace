@@ -1,0 +1,470 @@
+Running as unit: run-p2378169-i14958275.scope; invocation ID: a33648b3be3044eba8fd034146099562
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.174
+    Checking cfg-if v1.0.1
+   Compiling shlex v1.3.0
+   Compiling serde v1.0.219
+    Checking log v0.4.27
+    Checking smallvec v1.15.1
+   Compiling cc v1.2.27
+    Checking once_cell v1.21.3
+   Compiling memchr v2.7.5
+   Compiling autocfg v1.4.0
+   Compiling rustix v0.38.44
+    Checking linux-raw-sys v0.4.15
+   Compiling quote v1.0.40
+   Compiling pkg-config v0.3.32
+   Compiling fnv v1.0.7
+   Compiling syn v2.0.104
+   Compiling syn v1.0.109
+    Checking slab v0.4.10
+    Checking stable_deref_trait v1.2.0
+    Checking pin-project-lite v0.2.16
+    Checking bytes v1.10.1
+   Compiling crossbeam-utils v0.8.21
+    Checking mio v1.0.4
+   Compiling ident_case v1.0.1
+   Compiling thiserror v1.0.69
+   Compiling wayland-sys v0.31.6
+    Checking libloading v0.8.8
+    Checking pin-utils v0.1.0
+    Checking futures-core v0.3.31
+    Checking itoa v1.0.15
+    Checking dlib v0.5.2
+   Compiling wayland-backend v0.3.10
+   Compiling rustix v1.0.7
+    Checking getrandom v0.2.16
+    Checking linux-raw-sys v0.9.4
+    Checking bitflags v1.3.2
+    Checking downcast-rs v1.2.1
+    Checking futures-sink v0.3.31
+    Checking scoped-tls v1.0.1
+    Checking socket2 v0.5.10
+   Compiling aho-corasick v1.1.3
+    Checking futures-channel v0.3.31
+   Compiling quick-xml v0.37.5
+   Compiling lock_api v0.4.13
+   Compiling num-traits v0.2.19
+   Compiling wayland-client v0.31.10
+   Compiling regex-syntax v0.8.5
+   Compiling zerocopy v0.8.26
+    Checking futures-task v0.3.31
+    Checking futures-io v0.3.31
+   Compiling wayland-scanner v0.31.6
+   Compiling ring v0.17.14
+    Checking scopeguard v1.2.0
+    Checking writeable v0.6.1
+    Checking allocator-api2 v0.2.21
+    Checking litemap v0.8.0
+   Compiling strsim v0.10.0
+    Checking either v1.15.0
+   Compiling regex-automata v0.4.9
+   Compiling glob v0.3.2
+   Compiling rustversion v1.0.21
+   Compiling clang-sys v1.8.1
+    Checking http v1.3.1
+   Compiling darling_core v0.14.4
+   Compiling synstructure v0.13.2
+   Compiling regex v1.11.1
+    Checking crossbeam-epoch v0.9.18
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling thiserror-impl v1.0.69
+   Compiling displaydoc v0.2.5
+   Compiling tokio-macros v2.5.0
+   Compiling futures-macro v0.3.31
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.0
+    Checking zerovec v0.11.2
+    Checking tokio v1.45.1
+    Checking zerotrie v0.2.2
+    Checking futures-util v0.3.31
+    Checking percent-encoding v2.3.1
+   Compiling signal-hook v0.3.18
+   Compiling paste v1.0.15
+   Compiling parking_lot_core v0.9.11
+   Compiling prettyplease v0.2.35
+   Compiling icu_properties_data v2.0.1
+    Checking zeroize v1.8.1
+    Checking utf8parse v0.2.2
+   Compiling icu_normalizer_data v2.0.0
+    Checking rustls-pki-types v1.12.0
+    Checking tinystr v0.8.1
+    Checking potential_utf v0.1.2
+    Checking icu_collections v2.0.0
+    Checking icu_locale_core v2.0.0
+    Checking crossbeam-deque v0.8.6
+   Compiling darling_macro v0.14.4
+    Checking http-body v1.0.1
+    Checking icu_provider v2.0.0
+    Checking signal-hook-registry v1.4.5
+    Checking unicode-width v0.1.14
+   Compiling httparse v1.10.1
+    Checking simd-adler32 v0.3.7
+    Checking untrusted v0.9.0
+   Compiling heck v0.5.0
+    Checking foldhash v0.1.5
+   Compiling rayon-core v1.12.1
+   Compiling crc32fast v1.5.0
+   Compiling minimal-lexical v0.2.1
+    Checking equivalent v1.0.2
+   Compiling anyhow v1.0.98
+    Checking hashbrown v0.15.4
+   Compiling nom v7.1.3
+   Compiling darling v0.14.4
+    Checking dirs-sys-next v0.1.2
+   Compiling memoffset v0.6.5
+   Compiling bindgen v0.71.1
+   Compiling strsim v0.11.1
+    Checking try-lock v0.2.5
+    Checking bitflags v2.9.1
+   Compiling vcpkg v0.2.15
+    Checking adler2 v2.0.1
+    Checking iana-time-zone v0.1.63
+    Checking ryu v1.0.20
+   Compiling version_check v0.9.5
+    Checking tower-service v0.3.3
+   Compiling cfg_aliases v0.2.1
+   Compiling rustls v0.23.28
+   Compiling ahash v0.8.12
+   Compiling nix v0.30.1
+   Compiling libsqlite3-sys v0.34.0
+   Compiling cexpr v0.6.0
+    Checking chrono v0.4.41
+    Checking miniz_oxide v0.8.9
+   Compiling itertools v0.13.0
+   Compiling darling_core v0.20.11
+    Checking want v0.3.1
+    Checking rustls-webpki v0.103.3
+    Checking dirs-next v2.0.0
+    Checking icu_properties v2.0.1
+    Checking parking_lot v0.12.4
+    Checking icu_normalizer v2.0.0
+   Compiling derive_builder_core v0.11.2
+    Checking polling v3.9.0
+    Checking crossbeam-channel v0.5.15
+    Checking calloop v0.13.0
+   Compiling psm v0.1.26
+    Checking tracing-core v0.1.34
+    Checking x11rb-protocol v0.13.1
+    Checking subtle v2.6.1
+    Checking lazy_static v1.5.0
+    Checking unicode-segmentation v1.12.0
+   Compiling parking_lot_core v0.8.6
+    Checking powerfmt v0.2.0
+    Checking cursor-icon v1.2.0
+    Checking xcursor v0.3.10
+   Compiling smithay-client-toolkit v0.19.2
+   Compiling rustc-hash v2.1.1
+   Compiling thiserror v2.0.12
+    Checking byteorder v1.5.0
+    Checking netlink-packet-utils v0.5.2
+    Checking wayland-protocols v0.32.8
+    Checking wayland-cursor v0.31.10
+    Checking calloop-wayland-source v0.3.0
+    Checking wayland-csd-frame v0.3.0
+    Checking deranged v0.4.0
+    Checking tracing v0.1.41
+   Compiling darling_macro v0.20.11
+   Compiling derive_builder_macro v0.11.2
+    Checking rayon v1.10.0
+    Checking x11rb v0.13.1
+    Checking flate2 v1.1.2
+    Checking hyper v1.6.0
+    Checking idna_adapter v1.2.1
+    Checking term v0.7.0
+    Checking signal-hook-mio v0.2.4
+   Compiling strum_macros v0.26.4
+    Checking fdeflate v0.3.7
+    Checking anstyle-parse v0.2.7
+    Checking form_urlencoded v1.2.1
+    Checking ppv-lite86 v0.2.21
+    Checking wayland-protocols-wlr v0.3.8
+   Compiling thiserror-impl v2.0.12
+    Checking nix v0.24.3
+    Checking crossbeam-queue v0.3.12
+    Checking rand_core v0.6.4
+    Checking sync_wrapper v1.0.2
+   Compiling stacker v0.1.21
+    Checking memmap2 v0.9.7
+   Compiling vte_generate_state_changes v0.1.2
+    Checking thread_local v1.1.9
+    Checking instant v0.1.13
+    Checking anstyle v1.0.11
+    Checking tower-layer v0.3.3
+    Checking anstyle-query v1.1.3
+    Checking num-conv v0.1.0
+    Checking base64 v0.22.1
+    Checking pnet_base v0.29.0
+    Checking utf8_iter v1.0.4
+    Checking colorchoice v1.0.4
+    Checking arrayvec v0.7.6
+    Checking xkeysym v0.2.1
+    Checking unicode-width v0.2.0
+    Checking time-core v0.1.4
+    Checking is_terminal_polyfill v1.70.1
+    Checking ipnet v2.11.0
+    Checking anstream v0.6.19
+    Checking time v0.3.41
+    Checking vte v0.11.1
+    Checking hyper-util v0.1.15
+    Checking idna v1.0.3
+   Compiling netstat2 v0.11.1
+    Checking tuikit v0.5.0
+    Checking pnet_macros_support v0.29.0
+    Checking tower v0.5.2
+    Checking fuzzy-matcher v0.3.7
+    Checking rand_chacha v0.3.1
+    Checking crossbeam v0.8.4
+    Checking strum v0.26.3
+    Checking png v0.17.16
+    Checking crossterm v0.28.1
+    Checking nix v0.25.1
+    Checking tokio-rustls v0.26.2
+    Checking derive_builder v0.11.2
+   Compiling darling v0.20.11
+    Checking netlink-packet-core v0.7.0
+    Checking defer-drop v1.3.0
+    Checking fd-lock v4.0.4
+    Checking timer v0.2.0
+    Checking hashlink v0.10.0
+    Checking castaway v0.2.3
+    Checking webpki-roots v1.0.1
+   Compiling pnet_macros v0.29.0
+    Checking vte v0.14.1
+    Checking nibble_vec v0.1.0
+    Checking fallible-streaming-iterator v0.1.9
+    Checking fallible-iterator v0.3.0
+   Compiling beef v0.5.2
+   Compiling regex-syntax v0.6.29
+   Compiling indoc v2.0.6
+    Checking byteorder-lite v0.1.0
+    Checking clap_lex v0.7.5
+    Checking endian-type v0.1.2
+    Checking option-ext v0.2.0
+    Checking iri-string v0.7.8
+    Checking bytemuck v1.23.1
+    Checking static_assertions v1.1.0
+   Compiling serde_json v1.0.140
+    Checking image v0.25.6
+    Checking compact_str v0.8.1
+    Checking clap_builder v4.5.40
+    Checking skim v0.10.4
+    Checking tower-http v0.6.6
+    Checking dirs-sys v0.4.1
+    Checking radix_trie v0.2.1
+   Compiling instability v0.3.7
+    Checking pnet_packet v0.29.0
+    Checking strip-ansi-escapes v0.2.1
+    Checking hyper-rustls v0.27.7
+   Compiling logos-derive v0.12.1
+    Checking netlink-packet-sock-diag v0.4.2
+    Checking smithay-clipboard v0.7.2
+    Checking hashbrown v0.14.5
+    Checking rand v0.8.5
+    Checking parking_lot v0.11.2
+    Checking url v2.5.4
+    Checking unicode-truncate v1.1.0
+    Checking serde_urlencoded v0.7.1
+    Checking x11-clipboard v0.9.3
+    Checking lru v0.12.5
+    Checking futures-executor v0.3.31
+   Compiling clap_derive v4.5.40
+    Checking http-body-util v0.1.3
+   Compiling rustyline-derive v0.11.1
+    Checking netlink-sys v0.8.7
+    Checking socket2 v0.4.10
+    Checking termios v0.3.3
+    Checking buffer-redux v1.0.2
+    Checking nu-ansi-term v0.50.1
+    Checking home v0.5.11
+    Checking c_linked_list v1.1.1
+    Checking concolor v0.1.1
+    Checking same-file v1.0.6
+    Checking yansi v1.0.1
+    Checking cassowary v0.3.0
+    Checking bitflags v0.4.0
+   Compiling shell-rust v0.1.0 (/tmp/nix-shell.uUVugk/milmil7_Track_a6yjjwzs)
+    Checking surge-ping v0.4.1
+    Checking ratatui v0.29.0
+    Checking nix v0.5.1
+    Checking ariadne v0.5.1
+    Checking walkdir v2.5.0
+    Checking rusqlite v0.36.0
+    Checking reedline v0.41.0
+    Checking get_if_addrs v0.5.3
+    Checking logos v0.12.1
+    Checking reqwest v0.12.22
+    Checking futures v0.3.31
+    Checking copypasta v0.10.2
+    Checking rustyline v16.0.0
+    Checking chumsky v0.9.3
+    Checking clap v4.5.40
+    Checking dirs v5.0.1
+    Checking arboard v3.6.0
+    Checking ctrlc v3.4.7
+    Checking sysinfo v0.28.4
+    Checking colored v2.2.0
+    Checking uptime_lib v0.3.1
+    Checking hostname v0.4.1
+    Checking users v0.11.0
+    Checking filetime v0.2.25
+    Checking fs2 v0.4.3
+    Checking humansize v1.1.1
+    Checking whoami v1.6.0
+    Checking shell-escape v0.1.5
+warning: unused import: `rustyline::completion::unescape`
+ --> src/lexer.rs:1:5
+  |
+1 | use rustyline::completion::unescape;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `logos::Span`
+ --> src/parser.rs:6:5
+  |
+6 | use logos::Span;
+  |     ^^^^^^^^^^^
+
+warning: unused import: `chumsky::text::ident`
+ --> src/parser.rs:9:5
+  |
+9 | use chumsky::text::ident;
+  |     ^^^^^^^^^^^^^^^^^^^^
+
+warning: variant `Command_Def` should have an upper camel case name
+   --> src/parser.rs:159:5
+    |
+159 |     Command_Def {
+    |     ^^^^^^^^^^^ help: convert the identifier to upper camel case: `CommandDef`
+    |
+    = note: `#[warn(non_camel_case_types)]` (part of `#[warn(nonstandard_style)]`) on by default
+
+warning: unnecessary parentheses around pattern
+    --> src/parser.rs:1025:26
+     |
+1025 |         .map_with_span(|((name), body,),span| Stmt::Command_Def { name, body, span });
+     |                          ^    ^
+     |
+     = note: `#[warn(unused_parens)]` (part of `#[warn(unused)]`) on by default
+help: remove these parentheses
+     |
+1025 -         .map_with_span(|((name), body,),span| Stmt::Command_Def { name, body, span });
+1025 +         .map_with_span(|(name , body,),span| Stmt::Command_Def { name, body, span });
+     |
+
+warning: unused import: `rayon::iter::MinLen`
+ --> src/environment.rs:3:5
+  |
+3 | use rayon::iter::MinLen;
+  |     ^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `serde::de`
+ --> src/environment.rs:4:5
+  |
+4 | use serde::de;
+  |     ^^^^^^^^^
+
+warning: unnecessary parentheses around pattern
+  --> src/environment.rs:40:34
+   |
+40 |             Some(Value::Function((x))) => {
+   |                                  ^ ^
+   |
+help: remove these parentheses
+   |
+40 -             Some(Value::Function((x))) => {
+40 +             Some(Value::Function(x )) => {
+   |
+
+warning: unused import: `reqwest::Error`
+    --> src/environment.rs:1269:25
+     |
+1269 |                     use reqwest::Error;
+     |                         ^^^^^^^^^^^^^^
+
+warning: unused import: `SystemTime`
+    --> src/environment.rs:1653:49
+     |
+1653 |                     use std::time::{UNIX_EPOCH, SystemTime};
+     |                                                 ^^^^^^^^^^
+
+warning: unused imports: `ArgDef` and `lex`
+  --> src/interptreter.rs:12:5
+   |
+12 |     lex, parser, ArgDef, BinOp, ExportSpec, Expr, ImportSpec, PatternParser, Redirect, RedirectKind, Stmt, UnOp, BUILTIN_FUNCTIONS_
+   |     ^^^          ^^^^^^
+
+warning: unused imports: `collections::HashMap` and `ops::Range`
+    --> src/interptreter.rs:2900:13
+     |
+2900 |             collections::HashMap,
+     |             ^^^^^^^^^^^^^^^^^^^^
+2901 |             ops::Range,
+     |             ^^^^^^^^^^
+
+warning: unused import: `crossterm::event::KeyEvent`
+ --> src/main.rs:8:5
+  |
+8 | use crossterm::event::KeyEvent;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `DefaultPrompt`, `EditMode`, `Emacs`, and `default_emacs_keybindings`
+  --> src/main.rs:17:16
+   |
+17 | ...::{DefaultPrompt, Reedline, Signal, Completer, Prompt, PromptEditMode, Suggestion, Span, PromptHistorySearch, FileBackedHistory, Emacs, ReedlineEvent, KeyModifiers, KeyCode, default_emacs_keybindings, EditMode, D...
+   |       ^^^^^^^^^^^^^                                                                                                                 ^^^^^                                        ^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^
+
+warning: unused import: `Stdin`
+  --> src/main.rs:23:24
+   |
+23 | use std::io::{BufRead, Stdin, Write};
+   |                        ^^^^^
+
+warning: unused import: `std::ops::Deref`
+  --> src/main.rs:24:5
+   |
+24 | use std::ops::Deref;
+   |     ^^^^^^^^^^^^^^^
+
+warning: unused imports: `Color` and `Style`
+  --> src/main.rs:28:20
+   |
+28 | use nu_ansi_term::{Color, Style};
+   |                    ^^^^^  ^^^^^
+
+warning: unused import: `whoami::username`
+   --> src/main.rs:110:9
+    |
+110 |     use whoami::username;
+    |         ^^^^^^^^^^^^^^^^
+
+warning: unused import: `arboard::Clipboard`
+   --> src/main.rs:147:5
+    |
+147 | use arboard::Clipboard;
+    |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::time::Duration`
+   --> src/main.rs:225:9
+    |
+225 |     use std::time::Duration; 
+    |         ^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `copypasta::ClipboardProvider`
+   --> src/main.rs:421:5
+    |
+421 | use copypasta::ClipboardProvider;
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crossterm::cursor::position`
+   --> src/main.rs:422:5
+    |
+422 | use crossterm::cursor::position;
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+

@@ -1,0 +1,167 @@
+Running as unit: run-p2021703-i14601811.scope; invocation ID: bf239b89a4ed4243987b01cf1a6757a7
+   Compiling compiler_builtins v0.1.160 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/compiler-builtins/compiler-builtins)
+   Compiling core v0.0.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core)
+   Compiling libc v0.2.178
+   Compiling std v0.0.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std)
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.172
+   Compiling autocfg v1.4.0
+   Compiling serde_core v1.0.228
+   Compiling crossbeam-utils v0.8.21
+   Compiling slab v0.4.9
+   Compiling version_check v0.9.5
+   Compiling serde v1.0.228
+   Compiling rustversion v1.0.22
+   Compiling quote v1.0.40
+   Compiling thiserror v2.0.17
+   Compiling wasm-bindgen-shared v0.2.105
+   Compiling syn v2.0.106
+   Compiling semver v1.0.26
+   Compiling jobserver v0.1.32
+   Compiling find-msvc-tools v0.1.4
+   Compiling shlex v1.3.0
+   Compiling cc v1.2.41
+   Compiling rustc_version v0.4.1
+   Compiling wasm-bindgen v0.2.105
+   Compiling bumpalo v3.16.0
+   Compiling parking_lot_core v0.9.12
+   Compiling anyhow v1.0.99
+   Compiling unicode-segmentation v1.12.0
+   Compiling paste v1.0.15
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling hashbrown v0.16.0
+   Compiling equivalent v1.0.1
+   Compiling once_cell v1.21.3
+   Compiling serde_json v1.0.143
+   Compiling indexmap v2.12.0
+   Compiling smallvec v1.13.2
+   Compiling num-traits v0.2.19
+   Compiling cfg-if v1.0.4
+   Compiling vcpkg v0.2.15
+   Compiling thiserror v1.0.69
+   Compiling pkg-config v0.3.31
+   Compiling convert_case v0.8.0
+   Compiling proc-macro2-diagnostics v0.10.1
+   Compiling typenum v1.17.0
+   Compiling generic-array v0.14.7
+   Compiling unicode-xid v0.2.6
+   Compiling openssl-sys v0.9.104
+   Compiling rayon-core v1.12.1
+   Compiling httparse v1.9.5
+   Compiling const_format_proc_macros v0.2.34
+   Compiling proc-macro-utils v0.10.0
+   Compiling slotmap v1.0.7
+   Compiling toml_datetime v0.6.8
+   Compiling camino v1.2.1
+   Compiling winnow v0.5.40
+   Compiling reactive_graph v0.2.8 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling server_fn_macro v0.8.7 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling openssl v0.10.68
+   Compiling const_format v0.2.35
+   Compiling ring v0.17.8
+   Compiling native-tls v0.2.12
+   Compiling xxhash-rust v0.8.15
+   Compiling manyhow-macros v0.11.4
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling synstructure v0.13.1
+   Compiling wasm-bindgen-macro-support v0.2.105
+   Compiling proc-macro-error2 v2.0.1
+   Compiling toml_edit v0.19.15
+   Compiling tachys v0.2.9 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling yansi v1.0.1
+   Compiling serde_derive v1.0.228
+   Compiling futures-macro v0.3.31
+   Compiling thiserror-impl v2.0.17
+   Compiling zerofrom-derive v0.1.5
+   Compiling yoke-derive v0.7.5
+   Compiling wasm-bindgen-macro v0.2.105
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling tokio-macros v2.5.0
+   Compiling icu_provider_macros v1.5.0
+   Compiling thiserror-impl v1.0.69
+   Compiling bitcode_derive v0.6.7
+   Compiling derive-where v1.2.7
+   Compiling proc-macro-crate v1.3.1
+   Compiling openssl-macros v0.1.1
+   Compiling syn_derive v0.2.0
+   Compiling quote-use-macros v0.8.4
+   Compiling pin-project-internal v1.1.7
+   Compiling reactive_stores_macro v0.2.6 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling scopeguard v1.2.0
+   Compiling prettyplease v0.2.37
+   Compiling heck v0.5.0
+   Compiling getrandom v0.3.3
+   Compiling lock_api v0.4.14
+   Compiling quote-use v0.8.4
+   Compiling async-trait v0.1.89
+   Compiling arg_enum_proc_macro v0.3.4
+   Compiling profiling-procmacros v1.0.16
+   Compiling manyhow v0.11.4
+   Compiling digest v0.10.7
+   Compiling server_fn v0.8.7 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling syn v1.0.109
+   Compiling collection_literals v1.0.1
+   Compiling cpufeatures v0.2.16
+   Compiling interpolator v0.5.0
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling sha2 v0.10.8
+   Compiling attribute-derive-macro v0.10.5
+   Compiling parking_lot v0.12.5
+   Compiling rstml v0.12.1
+   Compiling num-derive v0.4.2
+   Compiling server_fn_macro_default v0.8.5 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling typed-builder-macro v0.21.2
+   Compiling leptos_macro v0.8.9 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling simd_helpers v0.1.0
+   Compiling rustls v0.23.33
+   Compiling utf8-width v0.1.7
+   Compiling built v0.7.5
+   Compiling base16 v0.2.1
+   Compiling noop_proc_macro v0.3.0
+   Compiling either v1.13.0
+   Compiling rav1e v0.7.1
+   Compiling wasm_split_macros v0.1.3 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling itertools v0.14.0
+   Compiling html-escape v0.2.13
+   Compiling attribute-derive v0.10.5
+   Compiling uuid v1.18.0
+   Compiling leptos_hot_reload v0.8.5 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling strum_macros v0.27.2
+   Compiling rustc-std-workspace-core v1.99.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/rustc-std-workspace-core)
+   Compiling alloc v0.0.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc)
+   Compiling rustc-demangle v0.1.26
+   Compiling panic_abort v0.0.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/panic_abort)
+   Compiling rustc-literal-escaper v0.0.7
+   Compiling num_enum_derive v0.7.5
+   Compiling unwind v0.0.0 (/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/unwind)
+   Compiling equator-macro v0.4.2
+   Compiling leptos v0.8.10 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling nasm-rs v0.3.0
+   Compiling built v0.8.0
+   Compiling av-scenechange v0.14.1
+   Compiling pastey v0.1.1
+   Compiling heck v0.3.3
+   Compiling leptos_router v0.8.8 (https://github.com/gqsnt/leptos-bitcode?rev=2edb3af4d5e885fc3a4c14efe5a94fb3b1022b8c#2edb3af4)
+   Compiling rav1e v0.8.1
+   Compiling clap_derive v4.5.18
+   Compiling serde_repr v0.1.19
+error: failed to run custom build command for `rav1e v0.8.1`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.uUVugk/gqsnt_leptos-broken-gg_ge51a68x/target/debug/build/rav1e-423ed0eea4a13a0b/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rustc-cfg=nasm_x86_64
+
+  --- stderr
+
+  thread 'main' (2025716) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/rav1e-0.8.1/build.rs:144:9:
+  NASM build failed. Make sure you have nasm installed or disable the "asm" feature.
+  You can get NASM from https://nasm.us or your system's package manager.
+
+  error: Unable to run nasm: No such file or directory (os error 2)
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

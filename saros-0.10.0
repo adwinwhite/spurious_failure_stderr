@@ -1,0 +1,67 @@
+Running as unit: run-p3006566-i3006866.scope; invocation ID: 1313cef849d0489983dce223efb4a438
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded arrrg_derive v0.8.0 (registry `tuna`)
+  Downloaded shvar v0.8.0 (registry `tuna`)
+  Downloaded tag_index v0.8.0 (registry `tuna`)
+  Downloaded zerror v0.8.0 (registry `tuna`)
+  Downloaded prototk_derive v0.13.0 (registry `tuna`)
+  Downloaded derive_util v0.5.0 (registry `tuna`)
+  Downloaded one_two_eight v0.10.0 (registry `tuna`)
+  Downloaded utf8path v0.9.0 (registry `tuna`)
+  Downloaded indicio v0.12.0 (registry `tuna`)
+  Downloaded zerror_core v0.13.0 (registry `tuna`)
+  Downloaded tatl v0.13.0 (registry `tuna`)
+  Downloaded prototk v0.13.0 (registry `tuna`)
+  Downloaded sig_fig_histogram v0.6.0 (registry `tuna`)
+  Downloaded guacamole v0.14.0 (registry `tuna`)
+  Downloaded arrrg v0.8.0 (registry `tuna`)
+  Downloaded buffertk v0.13.0 (registry `tuna`)
+  Downloaded biometrics v0.12.0 (registry `tuna`)
+  Downloaded rpc_pb v0.14.0 (registry `tuna`)
+  Downloaded listfree v0.7.0 (registry `tuna`)
+  Downloaded zerror_derive v0.7.0 (registry `tuna`)
+  Downloaded utilz v0.7.0 (registry `tuna`)
+  Downloaded scrunch v0.9.0 (registry `tuna`)
+ Downloading crates ...
+  Downloaded biometrics_prometheus v0.9.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling syn v1.0.109
+   Compiling buffertk v0.13.0
+    Checking zerror v0.8.0
+   Compiling semver v1.0.26
+   Compiling libc v0.2.174
+    Checking sig_fig_histogram v0.6.0
+   Compiling autocfg v1.5.0
+    Checking biometrics v0.12.0
+    Checking unicode-width v0.2.1
+    Checking listfree v0.7.0
+    Checking memchr v2.7.5
+   Compiling rustc_version v0.4.1
+    Checking getopts v0.2.23
+   Compiling num-traits v0.2.19
+    Checking minimal-lexical v0.2.1
+   Compiling quote v1.0.40
+   Compiling crc32c v0.6.8
+    Checking iana-time-zone v0.1.63
+    Checking nom v7.1.3
+    Checking utf8path v0.9.0
+    Checking utilz v0.7.0
+    Checking shvar v0.8.0
+    Checking chrono v0.4.41
+   Compiling derive_util v0.5.0
+   Compiling prototk_derive v0.13.0
+   Compiling arrrg_derive v0.8.0
+   Compiling zerror_derive v0.7.0
+    Checking arrrg v0.8.0
+    Checking guacamole v0.14.0
+    Checking prototk v0.13.0
+    Checking one_two_eight v0.10.0
+    Checking scrunch v0.9.0
+    Checking tatl v0.13.0
+    Checking zerror_core v0.13.0
+    Checking indicio v0.12.0
+    Checking rpc_pb v0.14.0
+    Checking tag_index v0.8.0
+    Checking saros v0.10.0 (/getea/tmp/crater-spurious/saros-0.10.0)

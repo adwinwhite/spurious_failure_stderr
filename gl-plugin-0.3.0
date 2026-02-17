@@ -1,0 +1,327 @@
+Running as unit: run-p697615-i697915.scope; invocation ID: 688c17e47d1245649a475690081d1180
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded as-any v0.3.1 (registry `tuna`)
+  Downloaded chunked-buffer v0.2.0 (registry `tuna`)
+  Downloaded clightningrpc v0.2.0 (registry `tuna`)
+  Downloaded bolt-derive v0.3.1 (registry `tuna`)
+  Downloaded oid v0.2.1 (registry `tuna`)
+  Downloaded picky-asn1 v0.3.3 (registry `tuna`)
+  Downloaded predicates-tree v1.0.9 (registry `tuna`)
+  Downloaded predicates-core v1.0.6 (registry `tuna`)
+  Downloaded serde_bolt v0.3.5 (registry `tuna`)
+  Downloaded bitcoin-push-decoder v0.2.2 (registry `tuna`)
+  Downloaded picky-asn1-der v0.2.5 (registry `tuna`)
+  Downloaded ctr v0.7.0 (registry `tuna`)
+  Downloaded crypto v0.5.1 (registry `tuna`)
+  Downloaded vls-protocol-signer v0.12.0 (registry `tuna`)
+  Downloaded vls-protocol v0.12.0 (registry `tuna`)
+  Downloaded picky-asn1-der v0.4.1 (registry `tuna`)
+  Downloaded linemux v0.2.4 (registry `tuna`)
+  Downloaded picky-asn1 v0.8.0 (registry `tuna`)
+  Downloaded runeauth v0.1.4 (registry `tuna`)
+  Downloaded lightning-invoice v0.26.0 (registry `tuna`)
+  Downloaded cln-rpc v0.1.8 (registry `tuna`)
+  Downloaded notify v5.0.0-pre.16 (registry `tuna`)
+  Downloaded cln-grpc v0.1.8 (registry `tuna`)
+  Downloaded bitcoin-consensus-derive v0.1.0 (registry `tuna`)
+  Downloaded picky v6.3.0 (registry `tuna`)
+  Downloaded hashbrown v0.8.2 (registry `tuna`)
+  Downloaded gl-client v0.3.0 (registry `tuna`)
+  Downloaded picky-asn1-x509 v0.12.0 (registry `tuna`)
+  Downloaded num-bigint-dig v0.7.1 (registry `tuna`)
+  Downloaded governor v0.5.1 (registry `tuna`)
+  Downloaded aes-gcm v0.9.2 (registry `tuna`)
+  Downloaded cln-plugin v0.1.8 (registry `tuna`)
+  Downloaded bitcoinconsensus v0.20.2-0.5.0 (registry `tuna`)
+  Downloaded vls-persist v0.12.0 (registry `tuna`)
+  Downloaded rsa v0.4.0 (registry `tuna`)
+  Downloaded txoo v0.7.1 (registry `tuna`)
+  Downloaded picky-asn1-x509 v0.6.1 (registry `tuna`)
+  Downloaded vls-core v0.12.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.84
+   Compiling unicode-ident v1.0.12
+   Compiling libc v0.2.155
+    Checking cfg-if v1.0.0
+   Compiling autocfg v1.3.0
+   Compiling serde v1.0.203
+   Compiling cc v1.0.98
+    Checking memchr v2.7.2
+    Checking log v0.4.21
+   Compiling syn v1.0.109
+    Checking pin-project-lite v0.2.14
+   Compiling version_check v0.9.4
+    Checking smallvec v1.13.2
+   Compiling typenum v1.17.0
+    Checking once_cell v1.19.0
+    Checking scopeguard v1.2.0
+   Compiling libm v0.2.8
+   Compiling generic-array v0.14.7
+   Compiling lock_api v0.4.12
+   Compiling num-traits v0.2.19
+    Checking itoa v1.0.11
+   Compiling anyhow v1.0.86
+   Compiling parking_lot_core v0.9.10
+   Compiling quote v1.0.36
+    Checking ppv-lite86 v0.2.17
+    Checking futures-core v0.3.30
+   Compiling syn v2.0.66
+    Checking aho-corasick v1.1.3
+   Compiling slab v0.4.9
+    Checking futures-sink v0.3.30
+    Checking regex-syntax v0.8.3
+    Checking tracing-core v0.1.32
+    Checking getrandom v0.2.15
+    Checking rand_core v0.6.4
+    Checking mio v0.8.11
+    Checking rand_chacha v0.3.1
+    Checking parking_lot v0.12.3
+    Checking socket2 v0.5.7
+    Checking rand v0.8.5
+    Checking num_cpus v1.16.0
+    Checking signal-hook-registry v1.4.2
+    Checking futures-channel v0.3.30
+    Checking pin-utils v0.1.0
+    Checking futures-io v0.3.30
+    Checking futures-task v0.3.30
+    Checking spin v0.5.2
+   Compiling either v1.12.0
+   Compiling rustix v0.38.34
+   Compiling ring v0.17.8
+   Compiling itertools v0.10.5
+    Checking hex v0.4.3
+   Compiling secp256k1-sys v0.6.1
+    Checking spin v0.9.8
+    Checking cpufeatures v0.2.12
+    Checking untrusted v0.9.0
+    Checking bech32 v0.9.1
+   Compiling bitcoinconsensus v0.20.2-0.5.0
+   Compiling bitflags v2.5.0
+   Compiling thiserror v1.0.61
+    Checking fnv v1.0.7
+   Compiling linux-raw-sys v0.4.14
+    Checking regex-automata v0.4.6
+    Checking crypto-common v0.1.6
+    Checking regex v1.10.4
+   Compiling equivalent v1.0.1
+   Compiling prettyplease v0.1.25
+   Compiling bytes v1.6.0
+   Compiling hashbrown v0.14.5
+   Compiling indexmap v2.2.6
+    Checking lazy_static v1.4.0
+    Checking num-integer v0.1.46
+   Compiling ring v0.16.20
+   Compiling fixedbitset v0.4.2
+   Compiling fastrand v2.1.0
+    Checking opaque-debug v0.3.1
+   Compiling rustversion v1.0.17
+   Compiling home v0.5.9
+   Compiling tempfile v3.10.1
+   Compiling which v4.4.2
+   Compiling petgraph v0.6.5
+   Compiling prost-derive v0.11.9
+   Compiling serde_derive v1.0.203
+   Compiling tokio-macros v2.2.0
+   Compiling tracing-attributes v0.1.27
+   Compiling futures-macro v0.3.30
+   Compiling zeroize_derive v1.4.2
+   Compiling thiserror-impl v1.0.61
+   Compiling prost v0.11.9
+    Checking zeroize v1.8.1
+    Checking futures-util v0.3.30
+   Compiling prost-types v0.11.9
+    Checking tracing v0.1.40
+   Compiling heck v0.4.1
+   Compiling serde_json v1.0.117
+   Compiling multimap v0.8.3
+    Checking base64 v0.13.1
+    Checking ryu v1.0.18
+    Checking subtle v2.5.0
+   Compiling strsim v0.11.1
+   Compiling ident_case v1.0.1
+    Checking tower-service v0.3.2
+   Compiling httparse v1.8.0
+   Compiling prost-build v0.11.9
+   Compiling darling_core v0.20.9
+    Checking sct v0.7.1
+   Compiling time-core v0.1.2
+    Checking termcolor v1.4.1
+    Checking powerfmt v0.2.0
+   Compiling num-conv v0.1.0
+    Checking try-lock v0.2.5
+   Compiling time-macros v0.2.18
+    Checking want v0.3.1
+    Checking deranged v0.3.11
+   Compiling tonic-build v0.8.4
+   Compiling secp256k1-sys v0.8.1
+   Compiling bitcoin-private v0.1.0
+   Compiling unicode-xid v0.2.4
+    Checking humantime v2.1.0
+    Checking minimal-lexical v0.2.1
+    Checking percent-encoding v2.3.1
+    Checking untrusted v0.7.1
+    Checking httpdate v1.0.3
+    Checking base64 v0.21.7
+    Checking nom v7.1.3
+    Checking time v0.3.36
+   Compiling synstructure v0.12.6
+   Compiling pin-project-internal v1.1.5
+   Compiling darling_macro v0.20.9
+   Compiling darling v0.20.9
+   Compiling bitcoin-consensus-derive v0.1.0
+    Checking num-bigint v0.4.5
+    Checking atty v0.2.14
+   Compiling backtrace v0.3.72
+   Compiling hashbrown v0.8.2
+   Compiling indexmap v1.9.3
+    Checking adler v1.0.2
+   Compiling crossbeam-utils v0.8.20
+    Checking byteorder v1.5.0
+    Checking gimli v0.29.0
+    Checking bitcoin_hashes v0.11.0
+    Checking serde_bytes v0.11.14
+    Checking oid v0.2.1
+    Checking bitflags v1.3.2
+    Checking chunked-buffer v0.2.0
+    Checking pin-project v1.1.5
+    Checking rusticata-macros v4.1.0
+    Checking tokio v1.37.0
+    Checking http v0.2.12
+    Checking miniz_oxide v0.7.3
+   Compiling serde_with_macros v3.8.1
+   Compiling asn1-rs-derive v0.4.0
+    Checking http-body v0.4.6
+   Compiling axum-core v0.3.4
+   Compiling displaydoc v0.2.4
+    Checking secp256k1 v0.24.3
+   Compiling async-trait v0.1.80
+   Compiling asn1-rs-impl v0.1.0
+    Checking bitcoin v0.29.2
+    Checking digest v0.9.0
+    Checking object v0.35.0
+    Checking mime v0.3.17
+    Checking iana-time-zone v0.1.60
+    Checking rustc-demangle v0.1.24
+    Checking ahash v0.3.8
+    Checking addr2line v0.22.0
+   Compiling num-bigint-dig v0.7.1
+    Checking tower-layer v0.3.2
+   Compiling hex_lit v0.1.1
+    Checking hashbrown v0.12.3
+   Compiling rustls v0.20.9
+    Checking tinyvec_macros v0.1.1
+   Compiling rustls v0.21.12
+    Checking block-padding v0.2.1
+    Checking block-buffer v0.9.0
+    Checking tinyvec v1.6.0
+    Checking chrono v0.4.38
+    Checking asn1-rs v0.5.2
+    Checking serde_with v3.8.1
+    Checking bitcoin_hashes v0.12.0
+    Checking env_logger v0.9.3
+    Checking rustls-pemfile v1.0.4
+   Compiling axum v0.6.20
+    Checking universal-hash v0.4.0
+   Compiling bolt-derive v0.3.1
+    Checking webpki v0.22.4
+    Checking rustls-webpki v0.101.7
+    Checking num-iter v0.1.45
+    Checking block-buffer v0.10.4
+    Checking cipher v0.3.0
+   Compiling bitcoin v0.30.2
+    Checking sync_wrapper v0.1.2
+   Compiling oid-registry v0.6.1
+    Checking secp256k1 v0.27.0
+    Checking digest v0.10.7
+    Checking tokio-util v0.7.11
+    Checking tokio-stream v0.1.15
+    Checking lightning v0.0.118
+    Checking serde_bolt v0.3.5
+    Checking txoo v0.7.1
+    Checking bitcoin-push-decoder v0.2.2
+    Checking tokio-io-timeout v1.2.0
+    Checking h2 v0.3.26
+    Checking tower v0.4.13
+    Checking polyval v0.5.3
+    Checking unicode-normalization v0.1.22
+    Checking picky-asn1 v0.3.3
+    Checking form_urlencoded v1.2.1
+    Checking futures-executor v0.3.30
+   Compiling async-stream-impl v0.3.5
+    Checking inout v0.1.3
+    Checking regex-syntax v0.6.29
+    Checking predicates-core v1.0.6
+    Checking const-oid v0.9.6
+   Compiling parking_lot_core v0.8.6
+    Checking matchit v0.7.3
+    Checking unicode-bidi v0.3.15
+    Checking der v0.7.9
+    Checking tokio-rustls v0.23.4
+    Checking idna v0.5.0
+    Checking async-stream v0.3.5
+    Checking picky-asn1-der v0.2.5
+    Checking cipher v0.4.4
+    Checking tokio-rustls v0.24.1
+    Checking futures v0.3.30
+    Checking ghash v0.4.4
+    Checking sha2 v0.10.8
+    Checking regex-automata v0.1.10
+    Checking aes v0.7.5
+    Checking ctr v0.7.0
+    Checking der-parser v8.2.0
+    Checking simple_asn1 v0.5.4
+    Checking tracing-futures v0.2.5
+    Checking picky-asn1 v0.8.0
+   Compiling cln-grpc v0.1.8
+    Checking hyper v0.14.28
+    Checking pem v0.8.3
+    Checking universal-hash v0.5.1
+    Checking aead v0.4.3
+    Checking float-cmp v0.9.0
+    Checking inotify-sys v0.1.5
+    Checking is-terminal v0.4.12
+    Checking instant v0.1.13
+    Checking difflib v0.4.0
+    Checking same-file v1.0.6
+    Checking overload v0.1.1
+    Checking data-encoding v2.6.0
+    Checking base64 v0.22.1
+    Checking openssl-probe v0.1.5
+    Checking termtree v0.4.1
+   Compiling runeauth v0.1.4
+   Compiling cfg_aliases v0.2.1
+    Checking as-any v0.3.1
+    Checking keccak v0.1.5
+    Checking normalize-line-endings v0.3.0
+   Compiling nix v0.29.0
+    Checking predicates v2.1.5
+    Checking sha3 v0.9.1
+    Checking predicates-tree v1.0.9
+    Checking x509-parser v0.14.0
+    Checking pem v3.0.4
+    Checking rustls-native-certs v0.6.3
+    Checking walkdir v2.5.0
+    Checking nu-ansi-term v0.46.0
+    Checking picky-asn1-der v0.4.1
+    Checking env_logger v0.10.2
+    Checking inotify v0.9.6
+error: failed to run custom build command for `cln-grpc v0.1.8`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/gl-plugin-0.3.0/target/debug/build/cln-grpc-2c193227555d3b5b/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-changed=proto/node.proto
+  cargo:rerun-if-changed=proto
+
+  --- stderr
+
+  thread 'main' (701752) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/prost-build-0.11.9/src/lib.rs:1457:10:
+  Could not find `protoc` installation and this build crate cannot proceed without
+      this knowledge. If `protoc` is installed and this crate had trouble finding
+      it, you can set the `PROTOC` environment variable with the specific path to your
+      installed `protoc` binary.If you're on debian, try `apt-get install protobuf-compiler` or download it from https://github.com/protocolbuffers/protobuf/releases
+
+  For more information: https://docs.rs/prost-build/#sourcing-protoc
+
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...

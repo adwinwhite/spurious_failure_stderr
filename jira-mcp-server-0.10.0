@@ -1,0 +1,28 @@
+Running as unit: run-p840270-i840570.scope; invocation ID: 7a6cf9ea4e2c40d7930da93936280d82
+    Updating `tuna` index
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)
+error: failed to get `pulseengine-mcp-auth` as a dependency of package `pulseengine-mcp-server v0.13.0`
+    ... which satisfies dependency `pulseengine-mcp-server = "^0.13.0"` (locked to 0.13.0) of package `jira-mcp-server v0.10.0 (/getea/tmp/crater-spurious/jira-mcp-server-0.10.0)`
+
+Caused by:
+  failed to query replaced source registry `crates-io`
+
+Caused by:
+  download of pu/ls/pulseengine-mcp-auth failed
+
+Caused by:
+  failed to download from `https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/pu/ls/pulseengine-mcp-auth`
+
+Caused by:
+  [28] Timeout was reached (Operation too slow. Less than 10 bytes/sec transferred the last 30 seconds)

@@ -1,0 +1,253 @@
+Running as unit: run-p4193922-i4194222.scope; invocation ID: de551949cb3e4573bd7f5cebd6eebff0
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.172
+   Compiling autocfg v1.4.0
+   Compiling version_check v0.9.5
+   Compiling typenum v1.18.0
+    Checking cfg-if v1.0.0
+   Compiling zerocopy v0.8.24
+   Compiling generic-array v0.14.7
+   Compiling num-traits v0.2.19
+   Compiling radium v0.7.0
+   Compiling crossbeam-utils v0.8.21
+   Compiling syn v1.0.109
+   Compiling serde v1.0.219
+   Compiling quote v1.0.40
+   Compiling thiserror v1.0.69
+   Compiling rayon-core v1.12.1
+   Compiling paste v1.0.15
+   Compiling syn v2.0.100
+   Compiling either v1.15.0
+   Compiling serde_json v1.0.140
+    Checking subtle v2.6.1
+    Checking getrandom v0.2.16
+   Compiling memchr v2.7.4
+   Compiling halo2curves v0.6.1 (https://github.com/PolyhedraZK/halo2curves#33ebdf4a)
+    Checking rand_core v0.6.4
+   Compiling spin v0.9.8
+   Compiling lazy_static v1.5.0
+   Compiling minimal-lexical v0.2.1
+    Checking itoa v1.0.15
+   Compiling regex-syntax v0.8.5
+   Compiling nom v7.1.3
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking ppv-lite86 v0.2.21
+   Compiling regex-automata v0.4.9
+    Checking rand_chacha v0.3.1
+    Checking rand v0.8.5
+    Checking once_cell v1.21.3
+   Compiling log v0.4.27
+   Compiling shlex v1.3.0
+    Checking num-integer v0.1.46
+   Compiling bitflags v2.9.0
+   Compiling regex v1.11.1
+   Compiling cc v1.2.19
+    Checking cpufeatures v0.2.17
+    Checking tap v1.0.1
+    Checking wyz v0.5.1
+    Checking num-bigint v0.4.6
+    Checking funty v2.0.0
+   Compiling glob v0.3.2
+   Compiling clang-sys v1.8.1
+    Checking bitvec v1.0.1
+    Checking crossbeam-epoch v0.9.18
+    Checking itertools v0.10.5
+   Compiling unroll v0.1.5
+   Compiling prettyplease v0.2.32
+   Compiling crunchy v0.2.3
+   Compiling rustix v0.38.44
+   Compiling serde_derive v1.0.219
+   Compiling thiserror-impl v1.0.69
+    Checking utf8parse v0.2.2
+    Checking anstyle-parse v0.2.6
+    Checking crossbeam-deque v0.8.6
+    Checking ark-std v0.4.0
+    Checking aho-corasick v1.1.3
+    Checking ff v0.13.1
+    Checking smallvec v1.15.0
+    Checking is_terminal_polyfill v1.70.1
+    Checking colorchoice v1.0.3
+   Compiling linux-raw-sys v0.4.15
+    Checking anstyle-query v1.1.2
+    Checking ryu v1.0.20
+    Checking anstyle v1.0.10
+    Checking anstream v0.6.18
+    Checking group v0.13.0
+   Compiling libloading v0.8.6
+   Compiling shell-words v1.1.0
+   Compiling pkg-config v0.3.32
+   Compiling tiny-keccak v2.0.2
+    Checking arrayref v0.3.9
+   Compiling home v0.5.11
+    Checking constant_time_eq v0.3.1
+    Checking arrayvec v0.7.6
+   Compiling bindgen v0.69.5
+    Checking blake2b_simd v1.0.3
+   Compiling which v4.4.2
+   Compiling build-probe-mpi v0.1.4
+    Checking rayon v1.10.0
+   Compiling synstructure v0.13.1
+   Compiling cexpr v0.6.0
+   Compiling itertools v0.12.1
+    Checking half v2.6.0
+   Compiling heck v0.5.0
+    Checking ciborium-io v0.2.2
+   Compiling rustc-hash v1.1.0
+    Checking strsim v0.11.1
+   Compiling lazycell v1.3.0
+    Checking static_assertions v1.1.0
+    Checking clap_lex v0.7.4
+    Checking plotters-backend v0.3.7
+    Checking clap_builder v4.5.37
+    Checking plotters-svg v0.3.7
+    Checking pasta_curves v0.5.1
+   Compiling clap_derive v4.5.32
+    Checking ciborium-ll v0.2.2
+    Checking pairing v0.23.0
+   Compiling libffi-sys v2.3.0
+    Checking sha2 v0.10.8
+    Checking blake2 v0.10.6
+    Checking cast v0.3.0
+    Checking same-file v1.0.6
+    Checking criterion-plot v0.5.0
+    Checking walkdir v2.5.0
+    Checking clap v4.5.37
+    Checking ciborium v0.2.2
+    Checking tinytemplate v1.2.1
+    Checking plotters v0.3.7
+   Compiling zerofrom-derive v0.1.6
+    Checking is-terminal v0.4.16
+    Checking bytes v1.10.1
+    Checking anes v0.1.6
+    Checking ethnum v1.5.1
+    Checking oorandom v11.1.5
+    Checking criterion v0.5.1
+    Checking zerofrom v0.1.6
+   Compiling mpi-sys v0.2.2
+    Checking serdes v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking tynm v0.1.10
+   Compiling yoke-derive v0.7.5
+    Checking itertools v0.13.0
+    Checking stable_deref_trait v1.2.0
+    Checking arith v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking yoke v0.7.5
+   Compiling zerovec-derive v0.10.3
+    Checking zerovec v0.10.4
+   Compiling mpi v0.8.0
+   Compiling displaydoc v0.2.5
+    Checking tinystr v0.7.6
+    Checking fnv v1.0.7
+    Checking litemap v0.7.5
+   Compiling icu_locid_transform_data v1.5.1
+    Checking writeable v0.5.5
+   Compiling icu_provider_macros v1.5.0
+    Checking icu_locid v1.5.0
+    Checking pin-project-lite v0.2.16
+   Compiling icu_properties_data v1.5.1
+    Checking raw-cpuid v11.5.0
+    Checking icu_provider v1.5.0
+   Compiling lock_api v0.4.12
+   Compiling parking_lot_core v0.9.10
+   Compiling icu_normalizer_data v1.5.1
+    Checking icu_locid_transform v1.5.0
+    Checking icu_collections v1.5.0
+   Compiling slab v0.4.9
+    Checking scopeguard v1.2.0
+    Checking futures-core v0.3.31
+    Checking custom_derive v0.1.7
+    Checking futures-sink v0.3.31
+    Checking conv v0.3.3
+    Checking icu_properties v1.5.1
+    Checking gf2 v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking gkr_hashers v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking http v0.2.12
+   Compiling derivative v2.2.0
+    Checking libffi v3.2.0
+    Checking utf8_iter v1.0.4
+    Checking utf16_iter v1.0.5
+   Compiling httparse v1.10.1
+    Checking write16 v1.0.0
+    Checking mersenne31 v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking parking_lot v0.12.3
+    Checking gf2_128 v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking goldilocks v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking icu_normalizer v1.5.0
+    Checking polynomials v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+    Checking babybear v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+   Compiling tokio-macros v2.5.0
+    Checking signal-hook-registry v1.4.5
+    Checking mio v1.0.3
+    Checking socket2 v0.5.9
+    Checking futures-task v0.3.31
+    Checking percent-encoding v2.3.1
+    Checking pin-utils v0.1.0
+    Checking futures-util v0.3.31
+    Checking form_urlencoded v1.2.1
+    Checking idna_adapter v1.2.0
+    Checking gkr_engine v0.1.0 (https://github.com/PolyhedraZK/Expander?branch=main#09019f8f)
+error[E0432]: unresolved import `mpi::ffi::ompi_win_t`
+ --> /home/adwin/.cargo/git/checkouts/expander-36eae8354fb622fa/09019f8/gkr_engine/src/mpi_engine/definition.rs:3:11
+  |
+3 |     ffi::{ompi_win_t, MPI_Win_free},
+  |           ^^^^^^^^^^ no `ompi_win_t` in `ffi`
+
+error[E0425]: cannot find type `ompi_win_t` in this scope
+   --> /home/adwin/.cargo/git/checkouts/expander-36eae8354fb622fa/09019f8/gkr_engine/src/mpi_engine/engine.rs:379:67
+    |
+379 |     fn create_shared_mem(&self, n_bytes: usize) -> (*mut u8, *mut ompi_win_t) {
+    |                                                                   ^^^^^^^^^^ not found in this scope
+
+    Checking tokio v1.44.2
+error[E0308]: arguments to this function are incorrect
+    --> /home/adwin/.cargo/git/checkouts/expander-36eae8354fb622fa/09019f8/gkr_engine/src/mpi_engine/engine.rs:384:13
+     |
+ 384 |             MPI_Win_allocate_shared(
+     |             ^^^^^^^^^^^^^^^^^^^^^^^
+ 385 |                 window_size as isize,
+     |                 -------------------- expected `i64`, found `isize`
+     |
+note: expected `*mut i32`, found `&mut *mut _`
+    --> /home/adwin/.cargo/git/checkouts/expander-36eae8354fb622fa/09019f8/gkr_engine/src/mpi_engine/engine.rs:390:17
+     |
+ 390 |                 &mut window,
+     |                 ^^^^^^^^^^^
+     = note:    expected raw pointer `*mut i32`
+             found mutable reference `&mut *mut _`
+note: function defined here
+    --> /tmp/nix-shell.AaBijX/duguorong009_sha256_expander_benchmark_5eivioao/target/debug/build/mpi-sys-087e609dc21f3c61/out/functions_and_types.rs:4229:12
+     |
+4229 |     pub fn MPI_Win_allocate_shared(
+     |            ^^^^^^^^^^^^^^^^^^^^^^^
+help: you can convert an `isize` to an `i64` and panic if the converted value doesn't fit
+     |
+ 385 |                 (window_size as isize).try_into().unwrap(),
+     |                 +                    +++++++++++++++++++++
+help: consider removing the borrow
+     |
+ 390 -                 &mut window,
+ 390 +                 window,
+     |
+
+error[E0308]: mismatched types
+    --> /home/adwin/.cargo/git/checkouts/expander-36eae8354fb622fa/09019f8/gkr_engine/src/mpi_engine/engine.rs:399:21
+     |
+ 398 |                 MPI_Win_shared_query(
+     |                 -------------------- arguments to this function are incorrect
+ 399 |                     window,
+     |                     ^^^^^^ expected `i32`, found `*mut _`
+     |
+     = note:     expected type `i32`
+             found raw pointer `*mut _`
+note: function defined here
+    --> /tmp/nix-shell.AaBijX/duguorong009_sha256_expander_benchmark_5eivioao/target/debug/build/mpi-sys-087e609dc21f3c61/out/functions_and_types.rs:4330:12
+     |
+4330 |     pub fn MPI_Win_shared_query(
+     |            ^^^^^^^^^^^^^^^^^^^^
+
+Some errors have detailed explanations: E0308, E0425, E0432.
+For more information about an error, try `rustc --explain E0308`.
+error: could not compile `gkr_engine` (lib) due to 4 previous errors
+warning: build failed, waiting for other jobs to finish...

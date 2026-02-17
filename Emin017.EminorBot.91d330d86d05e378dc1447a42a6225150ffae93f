@@ -1,0 +1,297 @@
+    Updating `tuna` index
+ Downloading crates ...
+  Downloaded is-terminal v0.4.13 (registry `tuna`)
+  Downloaded dptree v0.5.1 (registry `tuna`)
+  Downloaded vecrem v0.1.0 (registry `tuna`)
+  Downloaded teloxide-macros v0.10.0 (registry `tuna`)
+  Downloaded cron v0.15.0 (registry `tuna`)
+  Downloaded pin-project-internal v1.1.7 (registry `tuna`)
+  Downloaded quinn-udp v0.5.11 (registry `tuna`)
+  Downloaded pin-project v1.1.7 (registry `tuna`)
+  Downloaded quinn v0.11.7 (registry `tuna`)
+  Downloaded cc v1.2.5 (registry `tuna`)
+  Downloaded teloxide v0.17.0 (registry `tuna`)
+  Downloaded quinn-proto v0.11.10 (registry `tuna`)
+  Downloaded teloxide-core v0.13.0 (registry `tuna`)
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling autocfg v1.4.0
+   Compiling libc v0.2.174
+   Compiling shlex v1.3.0
+   Compiling serde_core v1.0.228
+    Checking cfg-if v1.0.0
+   Compiling serde v1.0.228
+   Compiling parking_lot_core v0.9.10
+    Checking scopeguard v1.2.0
+    Checking pin-project-lite v0.2.15
+   Compiling cc v1.2.5
+    Checking futures-core v0.3.31
+    Checking bytes v1.9.0
+   Compiling typenum v1.17.0
+    Checking memchr v2.7.4
+   Compiling lock_api v0.4.12
+   Compiling slab v0.4.9
+   Compiling pkg-config v0.3.31
+   Compiling vcpkg v0.2.15
+   Compiling version_check v0.9.5
+   Compiling quote v1.0.37
+    Checking futures-sink v0.3.31
+    Checking once_cell v1.20.2
+    Checking itoa v1.0.14
+   Compiling generic-array v0.14.7
+    Checking mio v1.0.3
+   Compiling syn v2.0.100
+    Checking socket2 v0.6.0
+    Checking signal-hook-registry v1.4.2
+    Checking futures-channel v0.3.31
+    Checking log v0.4.29
+    Checking stable_deref_trait v1.2.0
+    Checking futures-task v0.3.31
+    Checking futures-io v0.3.31
+    Checking pin-utils v0.1.0
+   Compiling openssl-sys v0.9.104
+   Compiling crossbeam-utils v0.8.21
+   Compiling openssl v0.10.68
+   Compiling zmij v1.0.2
+    Checking tracing-core v0.1.33
+    Checking writeable v0.5.5
+   Compiling native-tls v0.2.12
+    Checking litemap v0.7.4
+    Checking allocator-api2 v0.2.21
+    Checking foldhash v0.1.5
+   Compiling serde_json v1.0.148
+    Checking equivalent v1.0.1
+    Checking subtle v2.6.1
+    Checking icu_locid_transform_data v1.5.0
+    Checking getrandom v0.2.15
+    Checking hashbrown v0.15.2
+   Compiling num-traits v0.2.19
+    Checking icu_properties_data v1.5.0
+    Checking fnv v1.0.7
+   Compiling thiserror v2.0.12
+    Checking http v1.2.0
+    Checking percent-encoding v2.3.1
+    Checking utf16_iter v1.0.5
+    Checking icu_normalizer_data v1.5.0
+    Checking write16 v1.0.0
+    Checking utf8_iter v1.0.4
+    Checking form_urlencoded v1.2.1
+    Checking indexmap v2.7.0
+    Checking foreign-types-shared v0.1.1
+    Checking bitflags v2.6.0
+    Checking foreign-types v0.3.2
+    Checking http-body v1.0.1
+    Checking spin v0.9.8
+   Compiling ring v0.17.8
+   Compiling httparse v1.9.5
+    Checking openssl-probe v0.1.5
+    Checking tower-service v0.3.3
+   Compiling libsqlite3-sys v0.30.1
+    Checking socket2 v0.5.8
+    Checking atomic-waker v1.1.2
+   Compiling byteorder v1.5.0
+    Checking rustls-pki-types v1.11.0
+    Checking try-lock v0.2.5
+    Checking ryu v1.0.18
+   Compiling futures-util v0.3.31
+    Checking want v0.3.1
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling tokio v1.48.0
+   Compiling digest v0.10.7
+   Compiling concurrent-queue v2.5.0
+   Compiling tinyvec_macros v0.1.1
+   Compiling crc-catalog v2.4.0
+   Compiling parking v2.2.1
+    Checking untrusted v0.9.0
+    Checking httpdate v1.0.3
+   Compiling cpufeatures v0.2.16
+   Compiling sha2 v0.10.8
+   Compiling event-listener v5.4.0
+   Compiling crc v3.2.1
+   Compiling tinyvec v1.8.1
+   Compiling rand_core v0.6.4
+   Compiling synstructure v0.13.1
+   Compiling serde_derive v1.0.228
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling zerofrom-derive v0.1.5
+   Compiling yoke-derive v0.7.5
+   Compiling icu_provider_macros v1.5.0
+   Compiling tokio-macros v2.6.0
+   Compiling tracing-attributes v0.1.28
+   Compiling futures-macro v0.3.31
+   Compiling openssl-macros v0.1.1
+   Compiling zerocopy-derive v0.7.35
+   Compiling thiserror-impl v2.0.12
+    Checking zerofrom v0.1.5
+    Checking yoke v0.7.5
+    Checking zerovec v0.10.4
+    Checking tracing v0.1.41
+   Compiling zerocopy v0.7.35
+   Compiling ppv-lite86 v0.2.20
+    Checking tinystr v0.7.6
+    Checking icu_locid v1.5.0
+    Checking smallvec v1.13.2
+    Checking icu_provider v1.5.0
+    Checking parking_lot v0.12.3
+    Checking icu_collections v1.5.0
+    Checking icu_locid_transform v1.5.0
+   Compiling either v1.13.0
+   Compiling tokio-stream v0.1.17
+    Checking icu_properties v1.5.1
+   Compiling futures-intrusive v0.5.0
+   Compiling hashlink v0.10.0
+   Compiling crossbeam-queue v0.3.12
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+   Compiling rustix v0.38.42
+   Compiling rustls v0.23.25
+    Checking tower-layer v0.3.3
+   Compiling darling_core v0.20.11
+    Checking futures-executor v0.3.31
+    Checking http-body-util v0.1.2
+    Checking serde_urlencoded v0.7.1
+   Compiling rand_chacha v0.3.1
+   Compiling atoi v2.0.0
+   Compiling unicode-normalization v0.1.24
+    Checking rustls-webpki v0.103.1
+   Compiling hmac v0.12.1
+    Checking sync_wrapper v1.0.2
+   Compiling unicode-bidi v0.3.18
+   Compiling unicode-properties v0.1.3
+   Compiling linux-raw-sys v0.4.14
+    Checking zeroize v1.8.1
+   Compiling unicase v2.8.0
+    Checking mime v0.3.17
+    Checking icu_normalizer v1.5.0
+   Compiling mime_guess v2.0.5
+   Compiling stringprep v0.1.5
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+    Checking url v2.5.4
+   Compiling flume v0.11.1
+   Compiling darling_macro v0.20.11
+   Compiling hkdf v0.12.4
+   Compiling rand v0.8.5
+   Compiling md-5 v0.10.6
+   Compiling psm v0.1.25
+   Compiling erasable v1.2.1
+   Compiling heck v0.5.0
+   Compiling dotenvy v0.15.7
+   Compiling fastrand v2.3.0
+   Compiling base64 v0.22.1
+   Compiling home v0.5.11
+   Compiling rustversion v1.0.18
+   Compiling hex v0.4.3
+   Compiling whoami v1.5.2
+   Compiling tempfile v3.14.0
+    Checking tokio-util v0.7.17
+    Checking tokio-native-tls v0.3.1
+    Checking tower v0.5.2
+   Compiling darling v0.20.11
+    Checking webpki-roots v0.26.8
+   Compiling sqlx-core v0.8.3
+    Checking num-integer v0.1.46
+   Compiling stacker v0.1.20
+    Checking aho-corasick v1.1.3
+    Checking iana-time-zone v0.1.61
+    Checking h2 v0.4.8
+    Checking tokio-rustls v0.26.2
+   Compiling proc-macro-hack v0.5.20+deprecated
+   Compiling syn v1.0.109
+    Checking regex-syntax v0.8.5
+   Compiling unicode-xid v0.2.6
+   Compiling derive_more-impl v1.0.0
+    Checking chrono v0.4.42
+    Checking combine v4.6.7
+    Checking num-bigint v0.4.6
+    Checking regex-automata v0.4.9
+   Compiling serde_with_macros v3.12.0
+    Checking deadpool-runtime v0.1.4
+    Checking futures v0.3.31
+   Compiling pin-project-internal v1.1.7
+    Checking rustls-pemfile v2.2.0
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling include_dir_macros v0.7.4
+    Checking num_cpus v1.16.0
+    Checking encoding_rs v0.8.35
+    Checking ipnet v2.10.1
+    Checking bytemuck v1.22.0
+    Checking arc-swap v1.7.1
+    Checking rgb v0.8.50
+    Checking pin-project v1.1.7
+   Compiling include_dir v0.7.4
+    Checking deadpool v0.12.2
+    Checking sqlx-sqlite v0.8.3
+    Checking sqlx-postgres v0.8.3
+    Checking hyper v1.5.2
+   Compiling proc-macro-error2 v2.0.1
+    Checking regex v1.11.1
+    Checking axum-core v0.5.2
+    Checking rc-box v1.2.0
+    Checking serde_with v3.12.0
+    Checking derive_more v1.0.0
+    Checking hyper-util v0.1.10
+   Compiling itertools v0.10.5
+    Checking serde_path_to_error v0.1.16
+    Checking uuid v1.11.0
+    Checking hyper-rustls v0.27.5
+    Checking hyper-tls v0.6.0
+    Checking is-terminal v0.4.13
+    Checking matchit v0.8.4
+    Checking reqwest v0.12.15
+    Checking take_mut v0.2.2
+    Checking vecrem v0.1.0
+   Compiling dotenv v0.15.0
+    Checking colored v3.0.0
+    Checking humantime v2.1.0
+    Checking half v1.8.3
+    Checking takecell v0.1.1
+    Checking termcolor v1.4.1
+    Checking dptree v0.5.1
+    Checking serde_cbor v0.11.2
+    Checking env_logger v0.10.2
+   Compiling dotenv_codegen_implementation v0.15.0
+   Compiling teloxide-macros v0.10.0
+   Compiling sqlx-macros-core v0.8.3
+    Checking teloxide-core v0.13.0
+    Checking tower-http v0.6.2
+   Compiling aquamarine v0.6.0
+    Checking bincode v1.3.3
+    Checking winnow v0.6.20
+    Checking dotenv_codegen v0.15.0
+    Checking pretty_env_logger v0.5.0
+   Compiling sqlx-macros v0.8.3
+    Checking axum v0.8.3
+    Checking redis v0.29.2
+    Checking sqlx v0.8.3
+error: /tmp/Emin017_EminorBot_lpzjfbp8/target/debug/deps/libsqlx_macros-2b1447b35b8791f2.so: libssl.so.3: cannot open shared object file: No such file or directory
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sqlx-0.8.3/src/lib.rs:64:1
+   |
+64 | pub extern crate sqlx_macros;
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error[E0432]: unresolved imports `self::encode::Encode`, `self::decode::Decode`, `super::Decode`, `super::Encode`, `super::FromRow`, `super::Type`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sqlx-0.8.3/src/lib.rs:133:9
+    |
+133 | pub use self::encode::Encode;
+    |         ^^^^^^^^^^^^^^^^^^^^
+...
+144 | pub use self::decode::Decode;
+    |         ^^^^^^^^^^^^^^^^^^^^
+...
+158 |     pub use super::Decode;
+    |             ^^^^^^^^^^^^^
+159 |     pub use super::Encode;
+    |             ^^^^^^^^^^^^^
+160 |     pub use super::Executor;
+161 |     pub use super::FromRow;
+    |             ^^^^^^^^^^^^^^
+...
+165 |     pub use super::Type;
+    |             ^^^^^^^^^^^
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `sqlx` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...

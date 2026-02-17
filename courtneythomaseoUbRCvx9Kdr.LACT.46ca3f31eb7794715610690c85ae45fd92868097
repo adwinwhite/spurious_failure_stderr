@@ -1,0 +1,222 @@
+Running as unit: run-p4173644-i4173944.scope; invocation ID: bff49153cba84286992d43134b993bfe
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling serde v1.0.219
+   Compiling winnow v0.7.13
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.15.5
+   Compiling smallvec v1.15.1
+   Compiling libc v0.2.175
+   Compiling heck v0.5.0
+   Compiling target-lexicon v0.13.2
+   Compiling pkg-config v0.3.32
+   Compiling indexmap v2.11.1
+   Compiling quote v1.0.40
+   Compiling syn v2.0.106
+   Compiling version-compare v0.2.0
+   Compiling cfg-expr v0.20.2
+    Checking cfg-if v1.0.3
+   Compiling version_check v0.9.5
+   Compiling autocfg v1.5.0
+    Checking pin-project-lite v0.2.16
+    Checking memchr v2.7.5
+   Compiling typenum v1.18.0
+    Checking futures-core v0.3.31
+    Checking bitflags v2.9.4
+   Compiling generic-array v0.14.7
+    Checking futures-io v0.3.31
+    Checking futures-sink v0.3.31
+    Checking futures-task v0.3.31
+    Checking futures-channel v0.3.31
+    Checking slab v0.4.11
+    Checking pin-utils v0.1.0
+   Compiling thiserror v2.0.16
+   Compiling lock_api v0.4.13
+   Compiling rustc-hash v2.1.1
+    Checking once_cell v1.21.3
+    Checking log v0.4.28
+   Compiling thiserror v1.0.69
+   Compiling same-file v1.0.6
+   Compiling strsim v0.11.1
+   Compiling rustversion v1.0.22
+   Compiling cpufeatures v0.2.17
+   Compiling parking_lot_core v0.9.11
+   Compiling walkdir v2.5.0
+   Compiling memoffset v0.9.1
+    Checking scopeguard v1.2.0
+   Compiling glob v0.3.3
+   Compiling anyhow v1.0.99
+   Compiling ident_case v1.0.1
+   Compiling fnv v1.0.7
+   Compiling clang-sys v1.8.1
+   Compiling prettyplease v0.2.37
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling digest v0.10.7
+    Checking tracing-core v0.1.34
+   Compiling type-map v0.5.1
+   Compiling sha2 v0.10.9
+   Compiling powerfmt v0.2.0
+   Compiling minimal-lexical v0.2.1
+   Compiling regex-syntax v0.8.6
+   Compiling rust-embed-utils v8.7.2
+   Compiling serde_json v1.0.143
+   Compiling semver v1.0.26
+   Compiling gio v0.21.1
+   Compiling nom v7.1.3
+   Compiling deranged v0.5.3
+   Compiling vergen v8.3.2
+    Checking mio v1.0.4
+   Compiling libloading v0.8.8
+   Compiling either v1.15.0
+   Compiling bindgen v0.71.1
+   Compiling num_threads v0.1.7
+   Compiling time-core v0.1.6
+   Compiling self_cell v1.2.0
+    Checking utf8parse v0.2.2
+   Compiling crossbeam-utils v0.8.21
+   Compiling num-conv v0.1.0
+   Compiling regex-automata v0.4.10
+    Checking anstyle-parse v0.2.7
+   Compiling time v0.3.43
+   Compiling darling_core v0.20.11
+   Compiling cexpr v0.6.0
+   Compiling serde_derive v1.0.219
+   Compiling displaydoc v0.2.5
+   Compiling futures-macro v0.3.31
+   Compiling thiserror-impl v2.0.16
+   Compiling thiserror-impl v1.0.69
+   Compiling tinystr v0.8.1
+    Checking futures-util v0.3.31
+    Checking unic-langid-impl v0.9.6
+    Checking unic-langid v0.9.6
+   Compiling darling_macro v0.20.11
+   Compiling rust-embed-impl v8.7.2
+   Compiling enumflags2_derive v0.7.12
+   Compiling fluent-syntax v0.12.0
+   Compiling darling v0.20.11
+   Compiling tracing-attributes v0.1.30
+    Checking fluent-langneg v0.13.0
+    Checking intl-memoizer v0.5.3
+    Checking intl_pluralrules v7.0.2
+   Compiling tokio-macros v2.5.0
+   Compiling regex v1.11.2
+   Compiling itertools v0.13.0
+    Checking tracing v0.1.41
+    Checking futures-executor v0.3.31
+    Checking socket2 v0.6.0
+    Checking signal-hook-registry v1.4.6
+    Checking anstyle-query v1.1.4
+    Checking is_terminal_polyfill v1.70.1
+   Compiling shlex v1.3.0
+    Checking anstyle v1.0.11
+   Compiling cfg_aliases v0.2.1
+    Checking colorchoice v1.0.4
+    Checking bytes v1.10.1
+   Compiling zerocopy v0.8.27
+    Checking anstream v0.6.20
+   Compiling nix v0.30.1
+    Checking tokio v1.47.1
+    Checking fluent-bundle v0.16.0
+   Compiling parking_lot v0.12.4
+   Compiling rustc_version v0.4.1
+   Compiling rust-embed v8.7.2
+   Compiling ahash v0.8.12
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling toml_edit v0.22.27
+   Compiling basic-toml v0.1.10
+   Compiling toml v0.5.11
+   Compiling i18n-config v0.4.8
+   Compiling find-crate v0.6.3
+   Compiling zvariant_utils v3.2.1
+   Compiling i18n-embed-impl v0.8.4
+   Compiling fluent v0.17.0
+    Checking parking v2.2.1
+   Compiling arc-swap v1.7.1
+    Checking clap_lex v0.7.5
+    Checking itoa v1.0.15
+    Checking ryu v1.0.20
+   Compiling enum_dispatch v0.3.13
+    Checking clap_builder v4.5.47
+   Compiling i18n-embed v0.16.0
+   Compiling toml v0.8.23
+   Compiling system-deps v7.0.5
+   Compiling proc-macro-crate v3.3.0
+   Compiling proc-macro-error2 v2.0.1
+   Compiling glib-sys v0.21.1
+   Compiling gobject-sys v0.21.1
+   Compiling gio-sys v0.21.1
+   Compiling glib-macros v0.21.0
+   Compiling cairo-sys-rs v0.21.1
+   Compiling gdk-pixbuf-sys v0.21.1
+   Compiling pango-sys v0.21.1
+warning: cairo-sys-rs@0.21.1: 
+error: failed to run custom build command for `cairo-sys-rs v0.21.1`
+
+Caused by:
+  process didn't exit successfully: `/tmp/nix-shell.AaBijX/courtneythomaseoUbRCvx9Kdr_LACT_79jexn6k/target/debug/build/cairo-sys-rs-1dd42c1930d60970/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/cairo-sys-rs-0.21.1/Cargo.toml
+  cargo:rerun-if-env-changed=CAIRO_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+  cargo:warning=
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags cairo 'cairo >= 1.14'
+
+  The system library `cairo` required by crate `cairo-sys-rs` was not found.
+  The file `cairo.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  PKG_CONFIG_PATH_FOR_TARGET contains the following:
+      - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
+      - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
+      - /nix/store/zccpd1jxy4rw0hmdjgj50ahdm4zm8c6w-fontconfig-2.16.2-dev/lib/pkgconfig
+      - /nix/store/flmcg6dw9xcx7kpngrdxi08hy4q3ls3c-freetype-2.13.3-dev/lib/pkgconfig
+      - /nix/store/99mambdfxnpm6rkdjbf1hhgdg87caxa3-zlib-1.3.1-dev/lib/pkgconfig
+      - /nix/store/b6k07i5hpjilwfkmmpvi5p1zsf7zrdfl-bzip2-1.0.8-dev/lib/pkgconfig
+      - /nix/store/v35431pqdgjr19lr8qi977kg0v41viyn-brotli-1.1.0-dev/lib/pkgconfig
+      - /nix/store/kv0i90h1aiz2l95dkg3nwywsz79nm097-libpng-apng-1.6.47-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/lib/pkgconfig
+      - /nix/store/cxy5q3kn7aq9dp3bffznb37gzflanfk5-systemd-minimal-libs-257.6-dev/share/pkgconfig
+      - /nix/store/m9k83ip1yx29xs94sa5x8j70s2vfgj6i-glib-2.84.2-dev/lib/pkgconfig
+      - /nix/store/np6q2i2wz1sm47dva3hp7v5n3cjdb5df-libffi-3.4.8-dev/lib/pkgconfig
+      - /nix/store/0zv6vqm2bsq0kwavhp06v1hqzkjn9am6-dbus-1.14.10-dev/lib/pkgconfig
+      - /nix/store/ic5v8q6y5s1dklcmnih82d3a5jpv0sy2-expat-2.7.1-dev/lib/pkgconfig
+      - /nix/store/lvbd6qkc7m79l41bb1a74dv3yngaxl2g-libepoxy-1.5.10-dev/lib/pkgconfig
+      - /nix/store/aaf0xc8xw2m8hzijrx5jn6wm8vbykk41-libglvnd-1.7.0-dev/lib/pkgconfig
+      - /nix/store/qyp8pcm3xr5ww1r4rj752zpny6awvbqf-libX11-1.8.12-dev/lib/pkgconfig
+      - /nix/store/h2lzzms7vnqv9rv11wynjjd5sfnk0ijx-xorgproto-2024.1/share/pkgconfig
+      - /nix/store/5dkrbiki8nam56qqnxnm4mvbpxa1v4qb-libxcb-1.17.0-dev/lib/pkgconfig
+      - /nix/store/q53qxjrwwq1g0d2h9awhkqx51nbjjsf4-nettle-3.10.1-dev/lib/pkgconfig
+      - /nix/store/0s6rnw4aza7n97gzqx4k5vrvymcjwapi-gmp-with-cxx-6.3.0-dev/lib/pkgconfig
+      - /nix/store/fpvn1bv57qb7isln714zkld664yqbzkq-ffmpeg-headless-7.1.1-dev/lib/pkgconfig
+      - /nix/store/3bcsa8c55amqa99wb68xbkfhailkh7bj-fuse-2.9.9-dev/lib/pkgconfig
+      - /nix/store/sxpsqfzgnllrww9dfy2hhgfyw3rk9c82-fuse-3.17.2-dev/lib/pkgconfig
+      - /nix/store/j7srhraly1gf2zklj4wbdby02a1z7ckx-zstd-1.5.7-dev/lib/pkgconfig
+      - /nix/store/p8j0aj8h922v556dzr4ddzgag8n93a2r-chafa-1.16.1-dev/lib/pkgconfig
+      - /nix/store/2yj6cwgn53l1vl3bp4rpsravzhbbam7w-mpich-4.3.1/lib/pkgconfig
+      - /nix/store/kbm2zg7pvav731w334fh9s2xsifllgf5-wayland-1.23.1-dev/lib/pkgconfig
+      - /nix/store/w6fj6x75vl70ns1hpkyvx14g3yrj4893-zfs-user-2.3.3-dev/lib/pkgconfig
+      - /nix/store/xvnqhwzr5pfpws5w05b47i582q3yvy69-libgpg-error-1.51-dev/lib/pkgconfig
+      - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig
+      - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig
+      - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig
+
+  HINT: you may need to install a package such as cairo, cairo-dev or cairo-devel.
+
+warning: build failed, waiting for other jobs to finish...

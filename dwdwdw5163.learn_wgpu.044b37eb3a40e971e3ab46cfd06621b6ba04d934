@@ -1,0 +1,18 @@
+Running as unit: run-p1471741-i9858793.scope; invocation ID: 10c7016211ab4aa6b6ecc93b6a437c94
+ Downloading crates ...
+  Downloaded tobj v4.0.0 (registry `tuna`)
+  Downloaded proc-macro2 v1.0.75 (registry `tuna`)
+  Downloaded wgpu-types v0.18.0 (registry `tuna`)
+  Downloaded wgpu-hal v0.18.1 (registry `tuna`)
+  Downloaded wgpu-core v0.18.1 (registry `tuna`)
+  Downloaded syn v2.0.47 (registry `tuna`)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (download of `wgpu v0.18.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (3 tries remaining): [28] Timeout was reached (failed to download any data for `naga v0.14.2` within 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (download of `wgpu v0.18.0` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (2 tries remaining): [28] Timeout was reached (failed to download any data for `naga v0.14.2` within 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (download of `naga v0.14.2` failed to transfer more than 10 bytes in 30s)
+warning: spurious network error (1 try remaining): [28] Timeout was reached (failed to download any data for `wgpu v0.18.0` within 30s)
+error: failed to download from `https://static.crates.io/crates/wgpu/0.18.0/download`
+
+Caused by:
+  [28] Timeout was reached (download of `wgpu v0.18.0` failed to transfer more than 10 bytes in 30s)

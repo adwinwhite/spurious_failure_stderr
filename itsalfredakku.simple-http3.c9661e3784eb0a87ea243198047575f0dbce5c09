@@ -1,0 +1,822 @@
+Running as unit: run-p2165254-i14745362.scope; invocation ID: b5703d9cd0444443a5520b7287a8f6b1
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.42
+   Compiling unicode-ident v1.0.22
+   Compiling libc v0.2.178
+    Checking cfg-if v1.0.4
+    Checking once_cell v1.21.3
+    Checking pin-project-lite v0.2.16
+    Checking memchr v2.7.6
+   Compiling version_check v0.9.5
+   Compiling thiserror v2.0.17
+   Compiling serde_core v1.0.228
+    Checking futures-core v0.3.31
+   Compiling wasm-bindgen-shared v0.2.106
+    Checking futures-sink v0.3.31
+   Compiling parking_lot_core v0.9.12
+    Checking smallvec v1.15.1
+    Checking futures-channel v0.3.31
+   Compiling rustversion v1.0.22
+    Checking slab v0.4.11
+   Compiling find-msvc-tools v0.1.5
+   Compiling syn v2.0.111
+    Checking futures-io v0.3.31
+   Compiling shlex v1.3.0
+   Compiling jobserver v0.1.34
+   Compiling bumpalo v3.19.0
+   Compiling cc v1.2.49
+    Checking futures-task v0.3.31
+    Checking pin-utils v0.1.0
+   Compiling serde v1.0.228
+    Checking scopeguard v1.2.0
+    Checking lock_api v0.4.14
+   Compiling wasm-bindgen v0.2.106
+    Checking stable_deref_trait v1.2.1
+    Checking bytes v1.11.0
+    Checking parking_lot v0.12.5
+    Checking num_cpus v1.17.0
+   Compiling fs_extra v1.3.0
+   Compiling dunce v1.0.5
+   Compiling crossbeam-utils v0.8.21
+    Checking itoa v1.0.15
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling cmake v0.1.54
+    Checking log v0.4.29
+    Checking zeroize v1.8.2
+   Compiling unicode-segmentation v1.12.0
+   Compiling aws-lc-rs v1.15.1
+    Checking rustc-hash v2.1.1
+    Checking rustls-pki-types v1.13.1
+    Checking http v1.4.0
+   Compiling aws-lc-sys v0.34.0
+   Compiling ring v0.17.14
+    Checking getrandom v0.2.16
+    Checking tracing-core v0.1.35
+   Compiling getrandom v0.3.4
+   Compiling anyhow v1.0.100
+    Checking writeable v0.6.2
+   Compiling zerocopy v0.8.31
+    Checking litemap v0.8.1
+    Checking untrusted v0.9.0
+    Checking concurrent-queue v2.5.0
+    Checking socket2 v0.6.1
+   Compiling proc-macro2-diagnostics v0.10.1
+   Compiling unicode-xid v0.2.6
+   Compiling icu_normalizer_data v2.1.1
+    Checking parking v2.2.1
+   Compiling icu_properties_data v2.1.2
+    Checking event-listener v5.4.1
+   Compiling const_format_proc_macros v0.2.34
+   Compiling proc-macro-utils v0.10.0
+    Checking mio v1.1.1
+    Checking signal-hook-registry v1.4.7
+   Compiling slotmap v1.1.1
+    Checking throw_error v0.2.0
+   Compiling paste v1.0.15
+   Compiling serde_json v1.0.145
+   Compiling cfg_aliases v0.2.1
+   Compiling rustls v0.23.35
+    Checking rand_core v0.9.3
+    Checking event-listener-strategy v0.5.4
+   Compiling convert_case v0.7.1
+    Checking send_wrapper v0.6.0
+   Compiling libm v0.2.15
+    Checking ppv-lite86 v0.2.21
+   Compiling synstructure v0.13.2
+   Compiling wasm-bindgen-macro-support v0.2.106
+   Compiling proc-macro-error2 v2.0.1
+    Checking base64 v0.22.1
+    Checking or_poisoned v0.1.0
+   Compiling thiserror v1.0.69
+   Compiling typenum v1.19.0
+    Checking subtle v2.6.1
+   Compiling camino v1.2.1
+    Checking ryu v1.0.20
+    Checking rand_chacha v0.9.0
+    Checking async-lock v3.4.1
+   Compiling thiserror-impl v2.0.17
+   Compiling serde_derive v1.0.228
+   Compiling futures-macro v0.3.31
+   Compiling zerofrom-derive v0.1.6
+    Checking futures-util v0.3.31
+   Compiling yoke-derive v0.8.1
+   Compiling wasm-bindgen-macro v0.2.106
+    Checking zerofrom v0.1.6
+   Compiling zerovec-derive v0.11.2
+    Checking yoke v0.8.1
+    Checking js-sys v0.3.83
+   Compiling displaydoc v0.2.5
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+    Checking tinystr v0.8.2
+    Checking potential_utf v0.1.4
+    Checking icu_locale_core v2.1.1
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+    Checking icu_collections v2.1.1
+   Compiling tracing-attributes v0.1.31
+    Checking icu_provider v2.1.1
+   Compiling tokio-macros v2.6.0
+   Compiling derive-where v1.6.0
+    Checking icu_normalizer v2.1.1
+    Checking tokio v1.48.0
+    Checking icu_properties v2.1.2
+    Checking tracing v0.1.43
+    Checking hydration_context v0.2.1
+   Compiling syn_derive v0.2.0
+   Compiling thiserror-impl v1.0.69
+    Checking wasm-bindgen-futures v0.4.56
+    Checking web-sys v0.3.83
+    Checking any_spawner v0.2.0
+   Compiling const_format v0.2.35
+   Compiling convert_case v0.6.0
+   Compiling generic-array v0.14.7
+    Checking either v1.15.0
+    Checking percent-encoding v2.3.2
+    Checking openssl-probe v0.1.6
+    Checking equivalent v1.0.2
+    Checking powerfmt v0.2.0
+    Checking hashbrown v0.16.1
+   Compiling xxhash-rust v0.8.15
+    Checking guardian v1.3.0
+   Compiling server_fn_macro v0.7.8
+    Checking reactive_graph v0.1.8
+    Checking indexmap v2.12.1
+    Checking deranged v0.5.5
+    Checking itertools v0.14.0
+    Checking rustls-native-certs v0.8.2
+    Checking idna_adapter v1.2.1
+   Compiling quote-use-macros v0.8.4
+   Compiling reactive_stores_macro v0.1.8
+   Compiling pin-project-internal v1.1.10
+    Checking rand v0.9.2
+   Compiling quinn-udp v0.5.14
+   Compiling manyhow-macros v0.11.4
+    Checking num-conv v0.1.0
+    Checking fastrand v2.3.0
+    Checking utf8_iter v1.0.4
+   Compiling yansi v1.0.1
+    Checking tinyvec_macros v0.1.1
+    Checking siphasher v1.0.1
+    Checking utf8-width v0.1.8
+    Checking winnow v0.7.14
+    Checking time-core v0.1.6
+    Checking time v0.3.44
+    Checking html-escape v0.2.13
+    Checking fastbloom v0.14.0
+    Checking h3 v0.0.8
+    Checking tinyvec v1.10.0
+    Checking idna v1.1.0
+   Compiling manyhow v0.11.4
+    Checking pin-project v1.1.10
+    Checking reactive_stores v0.1.8
+   Compiling quote-use v0.8.4
+    Checking form_urlencoded v1.2.2
+    Checking either_of v0.1.6
+    Checking toml_parser v1.0.4
+    Checking oco_ref v0.2.1
+   Compiling async-trait v0.1.89
+   Compiling quinn v0.11.9
+    Checking serde_spanned v1.0.3
+    Checking toml_datetime v0.7.3
+    Checking aho-corasick v1.1.4
+    Checking drain_filter_polyfill v0.1.3
+   Compiling autocfg v1.5.0
+    Checking linear-map v1.2.0
+    Checking const_str_slice_concat v0.1.0
+   Compiling collection_literals v1.0.3
+    Checking lru-slab v0.1.2
+    Checking hashbrown v0.14.5
+    Checking next_tuple v0.1.0
+    Checking regex-syntax v0.8.8
+   Compiling prettyplease v0.2.37
+   Compiling same-file v1.0.6
+    Checking dyn-clone v1.0.20
+   Compiling interpolator v0.5.0
+   Compiling walkdir v2.5.0
+    Checking dashmap v6.1.0
+   Compiling attribute-derive-macro v0.10.5
+   Compiling num-traits v0.2.19
+    Checking toml v0.9.8
+    Checking regex-automata v0.4.13
+   Compiling rstml v0.12.1
+    Checking gloo-utils v0.2.0
+    Checking gloo-net v0.6.0
+    Checking wasm-streams v0.4.2
+    Checking tachys v0.1.9
+    Checking url v2.5.7
+    Checking h3-datagram v0.0.2
+    Checking yasna v0.5.2
+    Checking serde_qs v0.13.0
+   Compiling server_fn_macro_default v0.7.8
+   Compiling typed-builder-macro v0.20.1
+    Checking pem v3.0.6
+    Checking pathdiff v0.2.3
+    Checking lazy_static v1.5.0
+    Checking sharded-slab v0.1.7
+   Compiling leptos_hot_reload v0.7.8
+    Checking config v0.15.19
+    Checking typed-builder v0.20.1
+    Checking server_fn v0.7.8
+    Checking regex v1.12.2
+    Checking rcgen v0.13.2
+   Compiling uuid v1.19.0
+   Compiling attribute-derive v0.10.5
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.7
+    Checking tokio-util v0.7.17
+    Checking codee v0.3.4
+    Checking tracing-log v0.2.0
+    Checking thread_local v1.1.9
+    Checking nu-ansi-term v0.50.3
+    Checking tracing-subscriber v0.3.22
+    Checking digest v0.10.7
+   Compiling leptos_macro v0.7.9
+    Checking leptos_config v0.7.8
+    Checking cpufeatures v0.2.17
+    Checking iana-time-zone v0.1.64
+    Checking sha2 v0.10.9
+    Checking chrono v0.4.42
+    Checking h3-webtransport v0.1.2
+    Checking gloo-timers v0.3.0
+    Checking console_error_panic_hook v0.1.7
+error[E0275]: overflow evaluating the requirement `<&'a str as AddAnyAttr>::Output<NewAttr> == _`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:32:13
+   |
+32 | /             fn add_any_attr<NewAttr: $crate::html::attribute::Attribute>(
+33 | |                 self,
+34 | |                 _attr: NewAttr,
+35 | |             ) -> Self::Output<NewAttr> {
+   | |______________________________________^
+   |
+  ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/strings.rs:11:1
+   |
+11 |   no_attrs!(&'a str);
+   |   ------------------ in this macro invocation
+   |
+   = note: this error originates in the macro `no_attrs` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Cow<'a, str> as AddAnyAttr>::Output<NewAttr> == _`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:32:13
+   |
+32 | /             fn add_any_attr<NewAttr: $crate::html::attribute::Attribute>(
+33 | |                 self,
+34 | |                 _attr: NewAttr,
+35 | |             ) -> Self::Output<NewAttr> {
+   | |______________________________________^
+   |
+  ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/strings.rs:14:1
+   |
+14 |   no_attrs!(Cow<'a, str>);
+   |   ----------------------- in this macro invocation
+   |
+   = note: this error originates in the macro `no_attrs` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<ViewTemplate<V> as AddAnyAttr>::Output<NewAttr> == _`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/template.rs:58:5
+   |
+58 | /     fn add_any_attr<NewAttr: Attribute>(
+59 | |         self,
+60 | |         _attr: NewAttr,
+61 | |     ) -> Self::Output<NewAttr> {
+   | |______________________________^
+
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:729:17
+    |
+729 | /                 fn add_any_attr<NewAttr: Attribute>(
+730 | |                     self,
+731 | |                     _attr: NewAttr,
+732 | |                 ) -> Self::Output<NewAttr>
+733 | |                 where
+734 | |                     Self::Output<NewAttr>: RenderHtml,
+    | |______________________________________________________^
+...
+868 |       signal_impl_arena!(RwSignal false);
+    |       ---------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+868 |     signal_impl_arena!(RwSignal false);
+    |     ---------------------------------- in this macro invocation
+    |
+note: the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml` appears on the `impl`'s method `add_any_attr` but not on the corresponding trait's method
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:16:8
+    |
+ 11 | pub trait AddAnyAttr {
+    |           ---------- in this trait
+...
+ 16 |     fn add_any_attr<NewAttr: Attribute>(
+    |        ^^^^^^^^^^^^ this trait's method doesn't have the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:729:17
+    |
+729 | /                 fn add_any_attr<NewAttr: Attribute>(
+730 | |                     self,
+731 | |                     _attr: NewAttr,
+732 | |                 ) -> Self::Output<NewAttr>
+733 | |                 where
+734 | |                     Self::Output<NewAttr>: RenderHtml,
+    | |______________________________________________________^
+...
+869 |       signal_impl_arena!(ReadSignal false);
+    |       ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+869 |     signal_impl_arena!(ReadSignal false);
+    |     ------------------------------------ in this macro invocation
+    |
+note: the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml` appears on the `impl`'s method `add_any_attr` but not on the corresponding trait's method
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:16:8
+    |
+ 11 | pub trait AddAnyAttr {
+    |           ---------- in this trait
+...
+ 16 |     fn add_any_attr<NewAttr: Attribute>(
+    |        ^^^^^^^^^^^^ this trait's method doesn't have the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:729:17
+    |
+729 | /                 fn add_any_attr<NewAttr: Attribute>(
+730 | |                     self,
+731 | |                     _attr: NewAttr,
+732 | |                 ) -> Self::Output<NewAttr>
+733 | |                 where
+734 | |                     Self::Output<NewAttr>: RenderHtml,
+    | |______________________________________________________^
+...
+870 |       signal_impl_arena!(Memo true);
+    |       ----------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+870 |     signal_impl_arena!(Memo true);
+    |     ----------------------------- in this macro invocation
+    |
+note: the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml` appears on the `impl`'s method `add_any_attr` but not on the corresponding trait's method
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:16:8
+    |
+ 11 | pub trait AddAnyAttr {
+    |           ---------- in this trait
+...
+ 16 |     fn add_any_attr<NewAttr: Attribute>(
+    |        ^^^^^^^^^^^^ this trait's method doesn't have the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:729:17
+    |
+729 | /                 fn add_any_attr<NewAttr: Attribute>(
+730 | |                     self,
+731 | |                     _attr: NewAttr,
+732 | |                 ) -> Self::Output<NewAttr>
+733 | |                 where
+734 | |                     Self::Output<NewAttr>: RenderHtml,
+    | |______________________________________________________^
+...
+871 |       signal_impl_arena!(Signal true);
+    |       ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+871 |     signal_impl_arena!(Signal true);
+    |     ------------------------------- in this macro invocation
+    |
+note: the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml` appears on the `impl`'s method `add_any_attr` but not on the corresponding trait's method
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:16:8
+    |
+ 11 | pub trait AddAnyAttr {
+    |           ---------- in this trait
+...
+ 16 |     fn add_any_attr<NewAttr: Attribute>(
+    |        ^^^^^^^^^^^^ this trait's method doesn't have the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:729:17
+    |
+729 | /                 fn add_any_attr<NewAttr: Attribute>(
+730 | |                     self,
+731 | |                     _attr: NewAttr,
+732 | |                 ) -> Self::Output<NewAttr>
+733 | |                 where
+734 | |                     Self::Output<NewAttr>: RenderHtml,
+    | |______________________________________________________^
+...
+872 |       signal_impl_arena!(MaybeSignal true);
+    |       ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+872 |     signal_impl_arena!(MaybeSignal true);
+    |     ------------------------------------ in this macro invocation
+    |
+note: the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml` appears on the `impl`'s method `add_any_attr` but not on the corresponding trait's method
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/view/add_attr.rs:16:8
+    |
+ 11 | pub trait AddAnyAttr {
+    |           ---------- in this trait
+...
+ 16 |     fn add_any_attr<NewAttr: Attribute>(
+    |        ^^^^^^^^^^^^ this trait's method doesn't have the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<ArcRwSignal<V> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:561:17
+    |
+561 | /                 fn add_any_attr<NewAttr: Attribute>(
+562 | |                     self,
+563 | |                     _attr: NewAttr,
+564 | |                 ) -> Self::Output<NewAttr> {
+    | |__________________________________________^
+...
+873 |       signal_impl!(ArcRwSignal false);
+    |       ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<ArcReadSignal<V> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:561:17
+    |
+561 | /                 fn add_any_attr<NewAttr: Attribute>(
+562 | |                     self,
+563 | |                     _attr: NewAttr,
+564 | |                 ) -> Self::Output<NewAttr> {
+    | |__________________________________________^
+...
+874 |       signal_impl!(ArcReadSignal false);
+    |       --------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<ArcMemo<V> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:561:17
+    |
+561 | /                 fn add_any_attr<NewAttr: Attribute>(
+562 | |                     self,
+563 | |                     _attr: NewAttr,
+564 | |                 ) -> Self::Output<NewAttr> {
+    | |__________________________________________^
+...
+875 |       signal_impl!(ArcMemo false);
+    |       --------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<ArcSignal<V> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:561:17
+    |
+561 | /                 fn add_any_attr<NewAttr: Attribute>(
+562 | |                     self,
+563 | |                     _attr: NewAttr,
+564 | |                 ) -> Self::Output<NewAttr> {
+    | |__________________________________________^
+...
+876 |       signal_impl!(ArcSignal true);
+    |       ---------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+    Checking rustls-webpki v0.103.8
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+868 |     signal_impl_arena!(RwSignal false);
+    |     ---------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+868 |     signal_impl_arena!(RwSignal false);
+    |     ---------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>: Sized`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+868 |     signal_impl_arena!(RwSignal false);
+    |     ---------------------------------- in this macro invocation
+    |
+    = note: the return type of a function must have a statically known size
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+869 |     signal_impl_arena!(ReadSignal false);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+869 |     signal_impl_arena!(ReadSignal false);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>: Sized`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+869 |     signal_impl_arena!(ReadSignal false);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: the return type of a function must have a statically known size
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+870 |     signal_impl_arena!(Memo true);
+    |     ----------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+870 |     signal_impl_arena!(Memo true);
+    |     ----------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>: Sized`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+870 |     signal_impl_arena!(Memo true);
+    |     ----------------------------- in this macro invocation
+    |
+    = note: the return type of a function must have a statically known size
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+871 |     signal_impl_arena!(Signal true);
+    |     ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+871 |     signal_impl_arena!(Signal true);
+    |     ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr>: Sized`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+871 |     signal_impl_arena!(Signal true);
+    |     ------------------------------- in this macro invocation
+    |
+    = note: the return type of a function must have a statically known size
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr> == _`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+872 |     signal_impl_arena!(MaybeSignal true);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>: RenderHtml`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:734:44
+    |
+734 |                     Self::Output<NewAttr>: RenderHtml,
+    |                                            ^^^^^^^^^^
+...
+872 |     signal_impl_arena!(MaybeSignal true);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>: Sized`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:732:22
+    |
+732 |                 ) -> Self::Output<NewAttr>
+    |                      ^^^^^^^^^^^^^^^^^^^^^
+...
+872 |     signal_impl_arena!(MaybeSignal true);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: the return type of a function must have a statically known size
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+    Checking rustls-platform-verifier v0.6.2
+    Checking common v0.1.0 (/tmp/nix-shell.uUVugk/itsalfredakku_simple-http3_b9czfq1b/crates/common)
+warning: unused import: `std::time::Duration`
+ --> crates/common/src/tls.rs:5:5
+  |
+5 | use std::time::Duration;
+  |     ^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+    Checking quinn-proto v0.11.13
+warning: `common` (lib) generated 1 warning (run `cargo fix --lib -p common` to apply 1 suggestion)
+error[E0275]: overflow evaluating the requirement `<RwSignal<V, S> as AddAnyAttr>::Output<NewAttr> == ()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:736:21
+    |
+736 |                     todo!()
+    |                     ^^^^^^^
+...
+868 |     signal_impl_arena!(RwSignal false);
+    |     ---------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `todo` which comes from the expansion of the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `() <: <RwSignal<V, S> as AddAnyAttr>::Output<NewAttr>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:735:17
+    |
+735 | /                 {
+736 | |                     todo!()
+737 | |                 }
+    | |_________________^
+...
+868 |       signal_impl_arena!(RwSignal false);
+    |       ---------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr> == ()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:736:21
+    |
+736 |                     todo!()
+    |                     ^^^^^^^
+...
+869 |     signal_impl_arena!(ReadSignal false);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `todo` which comes from the expansion of the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `() <: <reactive_graph::signal::ReadSignal<V, S> as AddAnyAttr>::Output<NewAttr>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:735:17
+    |
+735 | /                 {
+736 | |                     todo!()
+737 | |                 }
+    | |_________________^
+...
+869 |       signal_impl_arena!(ReadSignal false);
+    |       ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr> == ()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:736:21
+    |
+736 |                     todo!()
+    |                     ^^^^^^^
+...
+870 |     signal_impl_arena!(Memo true);
+    |     ----------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `todo` which comes from the expansion of the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `() <: <reactive_graph::computed::Memo<V, S> as AddAnyAttr>::Output<NewAttr>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:735:17
+    |
+735 | /                 {
+736 | |                     todo!()
+737 | |                 }
+    | |_________________^
+...
+870 |       signal_impl_arena!(Memo true);
+    |       ----------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<Signal<V, S> as AddAnyAttr>::Output<NewAttr> == ()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:736:21
+    |
+736 |                     todo!()
+    |                     ^^^^^^^
+...
+871 |     signal_impl_arena!(Signal true);
+    |     ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `todo` which comes from the expansion of the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `() <: <Signal<V, S> as AddAnyAttr>::Output<NewAttr>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:735:17
+    |
+735 | /                 {
+736 | |                     todo!()
+737 | |                 }
+    | |_________________^
+...
+871 |       signal_impl_arena!(Signal true);
+    |       ------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `<MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr> == ()`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:736:21
+    |
+736 |                     todo!()
+    |                     ^^^^^^^
+...
+872 |     signal_impl_arena!(MaybeSignal true);
+    |     ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `todo` which comes from the expansion of the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0275]: overflow evaluating the requirement `() <: <MaybeSignal<V, S> as AddAnyAttr>::Output<NewAttr>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tachys-0.1.9/src/reactive_graph/mod.rs:735:17
+    |
+735 | /                 {
+736 | |                     todo!()
+737 | |                 }
+    | |_________________^
+...
+872 |       signal_impl_arena!(MaybeSignal true);
+    |       ------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `signal_impl_arena` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+    Checking h3-quinn v0.0.10
+    Checking client v0.1.0 (/tmp/nix-shell.uUVugk/itsalfredakku_simple-http3_b9czfq1b/crates/client)
+    Checking server v0.1.0 (/tmp/nix-shell.uUVugk/itsalfredakku_simple-http3_b9czfq1b/crates/server)
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `tachys` (lib) due to 42 previous errors

@@ -1,0 +1,79 @@
+Running as unit: run-p2691172-i15271262.scope; invocation ID: c8e852634d6a4988945b83ac4ddbaf09
+   Compiling proc-macro2 v1.0.93
+   Compiling unicode-ident v1.0.17
+   Compiling autocfg v1.4.0
+   Compiling anyhow v1.0.96
+   Compiling libc v0.2.169
+   Compiling syn v1.0.109
+    Checking memchr v2.7.4
+    Checking either v1.13.0
+   Compiling crossbeam-utils v0.8.21
+    Checking smallvec v1.14.0
+   Compiling thiserror v1.0.69
+    Checking log v0.4.26
+   Compiling serde v1.0.218
+    Checking aho-corasick v1.1.3
+   Compiling quote v1.0.38
+   Compiling lock_api v0.4.12
+   Compiling syn v2.0.98
+   Compiling num-traits v0.2.19
+    Checking varisat-formula v0.2.2
+   Compiling regex-syntax v0.8.5
+   Compiling signal-hook v0.3.17
+   Compiling parking_lot_core v0.9.10
+    Checking crossbeam-epoch v0.9.18
+    Checking signal-hook-registry v1.4.2
+   Compiling unicode-xid v0.2.6
+    Checking itoa v0.4.8
+   Compiling rayon-core v1.12.1
+    Checking cfg-if v1.0.0
+   Compiling rustix v0.38.44
+    Checking solver v0.1.0 (/tmp/nix-shell.uUVugk/stepanbenes_advent-of-code_0o5ilyuw/crates/solver)
+    Checking scopeguard v1.2.0
+   Compiling synstructure v0.12.6
+    Checking regex-automata v0.4.9
+   Compiling serde_derive v1.0.218
+   Compiling thiserror-impl v1.0.69
+   Compiling varisat v0.2.2
+   Compiling partial_ref_derive v0.3.3
+    Checking partial_ref v0.3.3
+    Checking crossbeam-deque v0.8.6
+    Checking varisat-internal-proof v0.2.2
+    Checking regex v1.11.1
+    Checking mio v1.0.3
+    Checking varisat-dimacs v0.2.2
+    Checking itertools v0.14.0
+   Compiling serde_json v1.0.139
+    Checking rustc-hash v1.1.0
+    Checking linux-raw-sys v0.4.15
+    Checking bitflags v2.8.0
+    Checking signal-hook-mio v0.2.4
+    Checking varisat-checker v0.2.2
+    Checking ordered-float v2.10.1
+    Checking parking_lot v0.12.3
+    Checking itoa v1.0.14
+    Checking ryu v1.0.19
+    Checking md5 v0.7.0
+    Checking vec_mut_scan v0.3.0
+    Checking leb128 v0.2.5
+    Checking crossterm v0.28.1
+    Checking itertools v0.13.0
+    Checking rayon v1.10.0
+   Compiling varisat-internal-macros v0.2.2
+    Checking aoc_2017 v0.1.0 (/tmp/nix-shell.uUVugk/stepanbenes_advent-of-code_0o5ilyuw/binaries/aoc_2017)
+    Checking aoc_2016 v0.1.0 (/tmp/nix-shell.uUVugk/stepanbenes_advent-of-code_0o5ilyuw/binaries/aoc_2016)
+    Checking aoc_2025 v0.1.0 (/tmp/nix-shell.uUVugk/stepanbenes_advent-of-code_0o5ilyuw/binaries/aoc_2025)
+warning: field `joltages` is never read
+  --> binaries/aoc_2025/src/day10.rs:13:5
+   |
+10 | pub struct Light {
+   |            ----- field in this struct
+...
+13 |     joltages: Vec<u32>,
+   |     ^^^^^^^^
+   |
+   = note: `Light` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `aoc_2025` (bin "aoc_2025") generated 1 warning
+    Checking aoc_2015 v0.1.0 (/tmp/nix-shell.uUVugk/stepanbenes_advent-of-code_0o5ilyuw/binaries/aoc_2015)

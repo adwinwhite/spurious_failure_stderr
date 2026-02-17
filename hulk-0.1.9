@@ -1,0 +1,239 @@
+Running as unit: run-p445958-i4639654.scope; invocation ID: 2c707c7a14eb4c33837e6c7c89b20f35
+   Compiling autocfg v1.0.1
+   Compiling cc v1.0.71
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.2
+   Compiling libc v0.2.106
+   Compiling syn v1.0.81
+   Compiling serde v1.0.130
+   Compiling num-traits v0.2.14
+   Compiling num-integer v0.1.44
+    Checking bitflags v1.3.2
+   Compiling memchr v2.4.1
+   Compiling cmake v0.1.46
+   Compiling pkg-config v0.3.22
+   Compiling quote v1.0.10
+   Compiling fltk-sys v1.2.20
+   Compiling onig_sys v69.7.1
+   Compiling indexmap v1.7.0
+   Compiling miniz_oxide v0.4.4
+   Compiling ucd-trie v0.1.3
+   Compiling ryu v1.0.5
+   Compiling crc32fast v1.2.1
+   Compiling pest v2.1.3
+    Checking cfg-if v1.0.0
+    Checking hashbrown v0.11.2
+   Compiling serde_derive v1.0.130
+   Compiling maplit v1.0.2
+    Checking adler v1.0.2
+    Checking safemem v0.3.3
+   Compiling serde_json v1.0.68
+    Checking line-wrap v0.1.1
+   Compiling pest_meta v2.1.3
+    Checking chrono v0.4.19
+    Checking dirs-sys v0.3.6
+   Compiling fltk-build v0.1.1
+    Checking linked-hash-map v0.5.4
+    Checking same-file v1.0.6
+    Checking lazy_static v1.4.0
+    Checking regex-syntax v0.6.25
+    Checking base64 v0.13.0
+    Checking unicode-width v0.1.9
+    Checking xml-rs v0.8.4
+    Checking itoa v0.4.8
+    Checking plist v1.2.1
+    Checking textwrap v0.11.0
+   Compiling pest_generator v2.1.3
+    Checking yaml-rust v0.4.5
+    Checking walkdir v2.3.2
+    Checking bincode v1.3.3
+    Checking dirs v3.0.2
+    Checking flate2 v1.0.22
+   Compiling thiserror-impl v1.0.30
+    Checking aho-corasick v0.7.18
+    Checking atty v0.2.14
+    Checking fnv v1.0.7
+    Checking lazycell v1.3.0
+    Checking unchecked-index v0.2.2
+    Checking strsim v0.8.0
+   Compiling paste v1.0.6
+    Checking vec_map v0.8.2
+    Checking ansi_term v0.11.0
+    Checking clap v2.33.3
+    Checking regex v1.5.4
+    Checking thiserror v1.0.30
+    Checking twoway v0.2.2
+   Compiling pest_derive v2.1.0
+    Checking xdg v2.4.0
+    Checking shell-words v1.0.0
+    Checking typed-arena v1.7.0
+    Checking qndr v0.1.7
+    Checking unicode_categories v0.1.1
+    Checking entities v1.0.1
+    Checking brown v0.2.0
+    Checking yansi v0.5.0
+    Checking onig v6.3.1
+    Checking syntect v4.6.0
+    Checking comrak v0.12.1
+error: failed to run custom build command for `fltk-sys v1.2.20`
+
+Caused by:
+  process didn't exit successfully: `/getea/tmp/crater-spurious/hulk-0.1.9/target/debug/build/fltk-sys-70a92fdd7e00bfe0/build-script-main` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-changed=build/android.rs
+  cargo:rerun-if-changed=build/bundled.rs
+  cargo:rerun-if-changed=build/link.rs
+  cargo:rerun-if-changed=build/main.rs
+  cargo:rerun-if-changed=build/source.rs
+  cargo:rerun-if-changed=build/utils.rs
+  cargo:rerun-if-env-changed=CC
+  cargo:rerun-if-env-changed=CXX
+  cargo:rerun-if-changed=cfltk/CMakeLists.txt
+  cargo:rerun-if-changed=cfltk/include/cfl.h
+  cargo:rerun-if-changed=cfltk/include/cfl_widget.h
+  cargo:rerun-if-changed=cfltk/include/cfl_group.h
+  cargo:rerun-if-changed=cfltk/include/cfl_input.h
+  cargo:rerun-if-changed=cfltk/include/cfl_window.h
+  cargo:rerun-if-changed=cfltk/include/cfl_button.h
+  cargo:rerun-if-changed=cfltk/include/cfl_box.h
+  cargo:rerun-if-changed=cfltk/include/cfl_menu.h
+  cargo:rerun-if-changed=cfltk/include/cfl_dialog.h
+  cargo:rerun-if-changed=cfltk/include/cfl_valuator.h
+  cargo:rerun-if-changed=cfltk/include/cfl_browser.h
+  cargo:rerun-if-changed=cfltk/include/cfl_misc.h
+  cargo:rerun-if-changed=cfltk/include/cfl_text.h
+  cargo:rerun-if-changed=cfltk/include/cfl_image.h
+  cargo:rerun-if-changed=cfltk/include/cfl_draw.h
+  cargo:rerun-if-changed=cfltk/include/cfl_table.h
+  cargo:rerun-if-changed=cfltk/include/cfl_surface.h
+  cargo:rerun-if-changed=cfltk/include/cfl_printer.h
+  cargo:rerun-if-changed=cfltk/include/cfl_utils.h
+  cargo:rerun-if-changed=cfltk/include/cfl_macros.h
+  cargo:rerun-if-changed=cfltk/include/cfl_lock.h
+  cargo:rerun-if-changed=cfltk/src/cfl_lock.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_new.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_widget.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_group.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_window.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_button.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_box.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_menu.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_dialog.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_valuator.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_browser.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_misc.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_text.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_image.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_input.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_draw.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_table.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_tree.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_surface.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_printer.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_font.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_utils.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_nswindow.m
+  cargo:rerun-if-changed=cfltk/FL_FLex/FL_Flex.H
+  cargo:rerun-if-changed=cfltk/FL_FLex/FL_Flex.cpp
+  cargo:rerun-if-changed=cfltk/src/cfl_vec.hpp
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+  CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-unknown-linux-gnu = None
+  CMAKE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE = None
+  CMAKE = None
+  running: cd "/getea/tmp/crater-spurious/hulk-0.1.9/target/debug/build/fltk-sys-d905204ac3ba0fac/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/fltk-sys-1.2.20/cfltk" "-DOPTION_USE_SYSTEM_LIBPNG=OFF" "-DOPTION_USE_SYSTEM_LIBJPEG=OFF" "-DOPTION_USE_SYSTEM_ZLIB=OFF" "-DCFLTK_LINK_IMAGES=ON" "-DOpenGL_GL_PREFERENCE=GLVND" "-DOPTION_USE_GL=OFF" "-DCFLTK_USE_OPENGL=OFF" "-DOPTION_USE_PANGO=ON" "-DCFLTK_SINGLE_THREADED=OFF" "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" "-DCFLTK_CARGO_BUILD=ON" "-DFLTK_BUILD_EXAMPLES=OFF" "-DFLTK_BUILD_TEST=OFF" "-DOPTION_LARGE_FILE=ON" "-DOPTION_USE_THREADS=ON" "-DOPTION_BUILD_HTML_DOCUMENTATION=OFF" "-DOPTION_BUILD_PDF_DOCUMENTATION=OFF" "-DCMAKE_INSTALL_PREFIX=/getea/tmp/crater-spurious/hulk-0.1.9/target/debug/build/fltk-sys-d905204ac3ba0fac/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/g++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_ASM_COMPILER=/nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc" "-DCMAKE_BUILD_TYPE=Release"
+  -- The C compiler identification is GNU 14.3.0
+  -- The CXX compiler identification is GNU 14.3.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/gcc - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /nix/store/pbqah1qk4b5y14fqinr1h8zvhqy71v81-gcc-wrapper-14.3.0/bin/g++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of short
+  -- Check size of short - done
+  -- Check size of int
+  -- Check size of int - done
+  -- Check size of long
+  -- Check size of long - done
+  -- Check size of long long
+  -- Check size of long long - done
+  -- Found PkgConfig: /nix/store/h5khrpnjj3fb182sc32fx1z75w0lhksy-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2")
+  -- Looking for POSIX compatible scandir
+  -- POSIX compatible scandir - found
+  -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+  -- Found X11: /nix/store/h2lzzms7vnqv9rv11wynjjd5sfnk0ijx-xorgproto-2024.1/include
+  -- Looking for XOpenDisplay in /nix/store/26c0x3gh2g5dpczvjxgjzn0mc22zxpjz-libX11-1.8.12/lib/libX11.so
+  -- Looking for XOpenDisplay in /nix/store/26c0x3gh2g5dpczvjxgjzn0mc22zxpjz-libX11-1.8.12/lib/libX11.so - found
+  -- Looking for gethostbyname
+  -- Looking for gethostbyname - found
+  -- Looking for connect
+  -- Looking for connect - found
+  -- Looking for remove
+  -- Looking for remove - found
+  -- Looking for shmat
+  -- Looking for shmat - found
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+  -- Found Threads: TRUE
+  -- Pango requires Xft but Xft library or headers could not be found.
+  -- Please install Xft development files and try again or disable OPTION_USE_PANGO.
+  -- Configuring incomplete, errors occurred!
+
+  --- stderr
+  fatal: not a git repository (or any parent up to mount point /)
+  Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+  CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+
+  CMake Deprecation Warning at fltk/CMakeLists.txt:29 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+
+  CMake Error at fltk/CMake/options.cmake:499 (message):
+    *** Aborting ***
+  Call Stack (most recent call first):
+    fltk/CMakeLists.txt:81 (include)
+
+
+
+  thread 'main' (446475) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/cmake-0.1.46/src/lib.rs:974:5:
+
+  command did not execute successfully, got: exit status: 1
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...
