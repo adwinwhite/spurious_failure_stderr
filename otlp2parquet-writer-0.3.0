@@ -1,14 +1,7 @@
-Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa1771e373ae88e
-    Updating `tuna` index
- Downloading crates ...
-  Downloaded apache-avro v0.21.0 (registry `tuna`)
-  Downloaded opendal v0.54.1 (registry `tuna`)
-  Downloaded otlp2parquet-proto v0.3.0 (registry `tuna`)
-  Downloaded icepick v0.2.0 (registry `tuna`)
-  Downloaded otlp2parquet-core v0.3.0 (registry `tuna`)
+Running as unit: run-p723979-i4917670.scope; invocation ID: 0bfb21bcf27f4fefa84229a9e792b345
    Compiling proc-macro2 v1.0.103
-   Compiling quote v1.0.42
    Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.42
    Compiling libc v0.2.177
     Checking bytes v1.11.0
     Checking cfg-if v1.0.4
@@ -17,11 +10,11 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
    Compiling serde_core v1.0.228
    Compiling num-traits v0.2.19
     Checking pin-project-lite v0.2.16
+   Compiling serde v1.0.228
     Checking once_cell v1.21.3
    Compiling syn v2.0.110
-   Compiling serde v1.0.228
-    Checking memchr v2.7.6
     Checking futures-core v0.3.31
+    Checking memchr v2.7.6
     Checking socket2 v0.6.1
     Checking mio v1.1.0
     Checking futures-sink v0.3.31
@@ -29,16 +22,16 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
    Compiling jobserver v0.1.34
    Compiling shlex v1.3.0
    Compiling find-msvc-tools v0.1.5
-   Compiling version_check v0.9.5
-    Checking num-integer v0.1.46
-   Compiling cc v1.2.47
     Checking pin-utils v0.1.0
+   Compiling version_check v0.9.5
     Checking fnv v1.0.7
+   Compiling cc v1.2.47
+    Checking num-integer v0.1.46
     Checking hashbrown v0.16.1
     Checking slab v0.4.11
     Checking futures-channel v0.3.31
-    Checking futures-task v0.3.31
     Checking futures-io v0.3.31
+    Checking futures-task v0.3.31
    Compiling zerocopy v0.8.28
     Checking http v1.3.1
     Checking ryu v1.0.20
@@ -48,53 +41,65 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
     Checking http-body v1.0.1
     Checking getrandom v0.2.16
     Checking equivalent v1.0.2
-    Checking indexmap v2.12.1
    Compiling cmake v0.1.54
     Checking http v0.2.12
+    Checking indexmap v2.12.1
    Compiling fs_extra v1.3.0
-   Compiling semver v1.0.27
-   Compiling ring v0.17.14
-    Checking subtle v2.6.1
     Checking untrusted v0.9.0
     Checking smallvec v1.15.1
    Compiling dunce v1.0.5
-   Compiling rustc_version v0.4.1
-   Compiling aws-lc-sys v0.34.0
+   Compiling semver v1.0.27
+    Checking subtle v2.6.1
     Checking http-body-util v0.1.3
-   Compiling typenum v1.19.0
+   Compiling ring v0.17.14
+   Compiling aws-lc-sys v0.34.0
+   Compiling rustc_version v0.4.1
     Checking stable_deref_trait v1.2.1
+   Compiling typenum v1.19.0
     Checking http-body v0.4.6
    Compiling generic-array v0.14.7
     Checking powerfmt v0.2.0
     Checking deranged v0.5.5
-   Compiling httparse v1.10.1
-    Checking percent-encoding v2.3.2
-    Checking time-core v0.1.6
    Compiling anyhow v1.0.100
-   Compiling aws-lc-rs v1.15.1
-    Checking outref v0.5.2
-    Checking num-conv v0.1.0
-    Checking either v1.15.0
+    Checking time-core v0.1.6
+    Checking percent-encoding v2.3.2
     Checking vsimd v0.8.0
-    Checking bytes-utils v0.1.4
-    Checking time v0.3.44
-   Compiling synstructure v0.13.2
+    Checking either v1.15.0
+   Compiling aws-lc-rs v1.15.1
+    Checking num-conv v0.1.0
+   Compiling httparse v1.10.1
+    Checking outref v0.5.2
     Checking base64-simd v0.8.0
+    Checking time v0.3.44
+    Checking bytes-utils v0.1.4
     Checking rustls-pki-types v1.13.0
     Checking num-iter v0.1.45
     Checking num-complex v0.4.6
+   Compiling synstructure v0.13.2
+    Checking tower-service v0.3.3
     Checking base64 v0.22.1
     Checking try-lock v0.2.5
-    Checking tower-service v0.3.3
     Checking iana-time-zone v0.1.64
     Checking want v0.3.1
    Compiling ahash v0.8.12
-    Checking block-buffer v0.10.4
     Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking atomic-waker v1.1.2
+    Checking openssl-probe v0.1.6
     Checking arrow-schema v56.2.0
    Compiling heck v0.5.0
-    Checking openssl-probe v0.1.6
+    Checking const-oid v0.9.6
+    Checking log v0.4.28
    Compiling rustls v0.23.35
+    Checking digest v0.10.7
+    Checking writeable v0.6.2
+   Compiling rustversion v1.0.22
+    Checking litemap v0.8.1
+    Checking sync_wrapper v1.0.2
+    Checking ipnet v2.11.0
+   Compiling icu_normalizer_data v2.1.1
+   Compiling icu_properties_data v2.1.1
+   Compiling prettyplease v0.2.37
    Compiling serde_derive v1.0.228
    Compiling tokio-macros v2.6.0
    Compiling futures-macro v0.3.31
@@ -102,74 +107,62 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
     Checking tokio v1.48.0
     Checking futures-util v0.3.31
    Compiling tracing-attributes v0.1.30
-   Compiling zerofrom-derive v0.1.6
-    Checking num-bigint v0.4.6
     Checking tracing v0.1.41
+   Compiling zerofrom-derive v0.1.6
    Compiling yoke-derive v0.8.1
+    Checking num-bigint v0.4.6
     Checking zerofrom v0.1.6
    Compiling zerovec-derive v0.11.2
    Compiling displaydoc v0.2.5
-    Checking num-rational v0.4.2
-    Checking tokio-util v0.7.17
-    Checking num v0.4.3
-    Checking chrono v0.4.42
     Checking yoke v0.8.1
-    Checking aws-smithy-types v1.3.4
+    Checking chrono v0.4.42
+    Checking tokio-util v0.7.17
+    Checking num-rational v0.4.2
     Checking half v2.7.1
-    Checking atomic-waker v1.1.2
-    Checking log v0.4.28
-    Checking const-oid v0.9.6
     Checking zerovec v0.11.5
-    Checking arrow-buffer v56.2.0
-    Checking digest v0.10.7
-    Checking h2 v0.4.12
+    Checking num v0.4.3
     Checking aws-smithy-async v1.2.6
-    Checking writeable v0.6.2
-    Checking arrow-data v56.2.0
+    Checking aws-smithy-types v1.3.4
+    Checking arrow-buffer v56.2.0
+    Checking h2 v0.4.12
     Checking tinystr v0.8.2
-    Checking litemap v0.8.1
-   Compiling rustversion v1.0.22
-    Checking potential_utf v0.1.4
-    Checking aws-smithy-runtime-api v1.9.2
     Checking icu_locale_core v2.1.1
+    Checking aws-smithy-runtime-api v1.9.2
+    Checking arrow-data v56.2.0
+    Checking potential_utf v0.1.4
     Checking zerotrie v0.2.3
-    Checking arrow-array v56.2.0
-    Checking sync_wrapper v1.0.2
-    Checking tower-layer v0.3.3
-   Compiling icu_properties_data v2.1.1
-   Compiling icu_normalizer_data v2.1.1
-   Compiling prettyplease v0.2.37
-    Checking ipnet v2.11.0
    Compiling crunchy v0.2.4
-    Checking tower v0.5.2
-   Compiling itertools v0.14.0
+    Checking arrow-array v56.2.0
+    Checking tower-layer v0.3.3
     Checking icu_provider v2.1.1
-    Checking hyper v1.8.1
+    Checking tower v0.5.2
     Checking icu_collections v2.1.1
+   Compiling itertools v0.14.0
     Checking rustls-native-certs v0.8.2
     Checking webpki-roots v1.0.4
     Checking form_urlencoded v1.2.2
     Checking lexical-util v1.0.7
-    Checking bitflags v2.10.0
    Compiling tiny-keccak v2.0.2
+    Checking hyper v1.8.1
    Compiling rustls v0.21.12
+    Checking bitflags v2.10.0
     Checking sct v0.7.1
     Checking rustls-webpki v0.101.7
     Checking base64 v0.21.7
-    Checking hyper-util v0.1.18
+   Compiling prost-derive v0.13.5
     Checking cpufeatures v0.2.17
     Checking rustls-pemfile v1.0.4
-    Checking icu_normalizer v2.1.1
-   Compiling prost-derive v0.13.5
-    Checking icu_properties v2.1.1
     Checking arrow-select v56.2.0
+    Checking hyper-util v0.1.18
+    Checking icu_properties v2.1.1
+    Checking icu_normalizer v2.1.1
     Checking h2 v0.3.27
     Checking ppv-lite86 v0.2.21
     Checking socket2 v0.5.10
-    Checking httpdate v1.0.3
+   Compiling rustix v1.1.2
     Checking hex v0.4.3
    Compiling serde_json v1.0.145
-   Compiling rustix v1.1.2
+    Checking httpdate v1.0.3
    Compiling const-random-macro v0.1.16
     Checking tokio-rustls v0.24.1
     Checking idna_adapter v1.2.1
@@ -179,18 +172,18 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
     Checking lexical-write-integer v1.0.6
     Checking hmac v0.12.1
    Compiling flatbuffers v25.9.23
-    Checking utf8_iter v1.0.4
     Checking fastrand v2.3.0
-   Compiling strsim v0.11.1
-   Compiling linux-raw-sys v0.11.0
    Compiling ident_case v1.0.1
    Compiling regex-syntax v0.8.8
-   Compiling prost v0.13.5
+   Compiling linux-raw-sys v0.11.0
+   Compiling strsim v0.11.1
+    Checking utf8_iter v1.0.4
    Compiling darling_core v0.21.3
+    Checking idna v1.1.0
+   Compiling prost v0.13.5
     Checking hyper v0.14.32
    Compiling regex-automata v0.4.13
     Checking lexical-write-float v1.0.6
-    Checking idna v1.1.0
     Checking lexical-parse-float v1.0.6
     Checking const-random v0.1.18
    Compiling strum_macros v0.26.4
@@ -198,33 +191,33 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
     Checking aws-smithy-http v0.62.5
     Checking uuid v1.18.1
    Compiling aws-types v1.3.10
-    Checking hyper-rustls v0.24.2
     Checking aho-corasick v1.1.4
-    Checking unicode-width v0.2.2
     Checking strum v0.26.3
+    Checking unicode-width v0.2.2
    Compiling fixedbitset v0.5.7
-   Compiling tempfile v3.23.0
+    Checking hyper-rustls v0.24.2
    Compiling petgraph v0.7.1
+   Compiling tempfile v3.23.0
    Compiling darling_macro v0.21.3
-    Checking comfy-table v7.1.2
    Compiling regex v1.12.2
-    Checking lexical-core v1.0.6
     Checking dlv-list v0.5.2
-    Checking url v2.5.7
+    Checking comfy-table v7.1.2
+    Checking lexical-core v1.0.6
    Compiling prost-types v0.13.5
+    Checking url v2.5.7
     Checking aws-smithy-observability v0.1.4
     Checking futures-executor v0.3.31
     Checking rand_core v0.6.4
     Checking atoi v2.0.0
-   Compiling snap v1.1.1
-   Compiling multimap v0.10.1
-   Compiling paste v1.0.15
-    Checking hashbrown v0.14.5
    Compiling thiserror v2.0.17
+   Compiling snap v1.1.1
+   Compiling paste v1.0.15
     Checking iri-string v0.7.9
-    Checking ordered-multimap v0.7.3
+   Compiling multimap v0.10.1
+    Checking hashbrown v0.14.5
    Compiling prost-build v0.13.5
     Checking arrow-cast v56.2.0
+    Checking ordered-multimap v0.7.3
     Checking rand_chacha v0.3.1
     Checking futures v0.3.31
     Checking arrow-ipc v56.2.0
@@ -237,53 +230,55 @@ Running as unit: run-p2443810-i2444110.scope; invocation ID: 5ada34dd425346ae9fa
     Checking rand_core v0.9.3
     Checking ordered-float v2.10.1
    Compiling bigdecimal v0.4.9
-    Checking xmlparser v0.13.6
-    Checking regex-lite v0.1.8
-    Checking urlencoding v2.1.3
-    Checking adler2 v2.0.1
     Checking integer-encoding v3.0.4
-    Checking simd-adler32 v0.3.7
-   Compiling crc32fast v1.5.0
+    Checking xmlparser v0.13.6
+    Checking adler2 v2.0.1
     Checking byteorder v1.5.0
+   Compiling crc32fast v1.5.0
+    Checking simd-adler32 v0.3.7
+    Checking urlencoding v2.1.3
    Compiling parking_lot_core v0.9.12
+    Checking regex-lite v0.1.8
     Checking miniz_oxide v0.8.9
-    Checking aws-smithy-xml v0.60.12
-    Checking thrift v0.17.0
     Checking aws-smithy-query v0.60.8
+    Checking thrift v0.17.0
+    Checking aws-smithy-xml v0.60.12
     Checking rand_chacha v0.9.0
+   Compiling otlp2parquet-proto v0.3.0
    Compiling bon-macros v3.8.1
     Checking arrow-string v56.2.0
-   Compiling otlp2parquet-proto v0.3.0
     Checking rand v0.8.5
     Checking rust-ini v0.21.3
     Checking arrow-ord v56.2.0
     Checking sha1 v0.10.6
-    Checking arrow-arith v56.2.0
     Checking arrow-row v56.2.0
+    Checking arrow-arith v56.2.0
     Checking aws-smithy-json v0.61.7
-    Checking toml_datetime v0.6.11
     Checking serde_spanned v0.6.9
+    Checking toml_datetime v0.6.11
     Checking quick-xml v0.37.5
    Compiling async-trait v0.1.89
    Compiling blake3 v1.8.2
-    Checking scopeguard v1.2.0
-    Checking home v0.5.12
     Checking twox-hash v2.1.2
+    Checking home v0.5.12
     Checking winnow v0.7.13
+    Checking scopeguard v1.2.0
    Compiling seq-macro v0.3.6
-    Checking parquet v56.2.0
-    Checking arrow v56.2.0
     Checking lock_api v0.4.14
-error: failed to run custom build command for `otlp2parquet-proto v0.3.0`
-
-Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/otlp2parquet-writer-0.3.0/target/debug/build/otlp2parquet-proto-f5fbf9a719c8e205/build-script-build` (exit status: 101)
-  --- stderr
-
-  thread 'main' (2450073) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/otlp2parquet-proto-0.3.0/build.rs:26:10:
-  called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on Debian, run `apt-get install protobuf-compiler`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
-  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-warning: build failed, waiting for other jobs to finish...
+    Checking arrow v56.2.0
+    Checking parquet v56.2.0
+    Checking rand v0.9.2
+    Checking backon v1.6.0
+    Checking toml_edit v0.22.27
+    Checking quick-xml v0.38.4
+    Checking bon v3.8.1
+   Compiling strum_macros v0.27.2
+    Checking md-5 v0.10.6
+    Checking serde_bytes v0.11.19
+    Checking strum v0.27.2
+    Checking arrayvec v0.7.6
+    Checking arrayref v0.3.9
+    Checking constant_time_eq v0.3.1
 error[E0271]: type mismatch resolving `[i32] == ScalarBuffer<i32>`
     --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/parquet-56.2.0/src/arrow/arrow_writer/mod.rs:1121:44
      |
@@ -422,5 +417,10 @@ error[E0271]: type mismatch resolving `[f64] == ScalarBuffer<f64>`
 1290 |             write_primitive(typed, array.values(), levels)
      |                                    ^^^^^^^^^^^^^^ types differ
 
+    Checking flate2 v1.1.5
+    Checking parking_lot v0.12.5
+    Checking toml v0.8.23
+    Checking apache-avro v0.21.0
 For more information about this error, try `rustc --explain E0271`.
 error: could not compile `parquet` (lib) due to 23 previous errors
+warning: build failed, waiting for other jobs to finish...

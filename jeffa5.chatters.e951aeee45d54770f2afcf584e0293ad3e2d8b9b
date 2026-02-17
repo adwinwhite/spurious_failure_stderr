@@ -1,6 +1,4 @@
-Running as unit: run-p2186110-i14766218.scope; invocation ID: 57cec80b2bc845739ca28c996997cf8d
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
+Running as unit: run-p678699-i4872390.scope; invocation ID: 477f926e4b6148678438443671b3935e
    Compiling proc-macro2 v1.0.95
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.172
@@ -11,369 +9,371 @@ Running as unit: run-p2186110-i14766218.scope; invocation ID: 57cec80b2bc845739c
    Compiling typenum v1.18.0
     Checking pin-project-lite v0.2.16
    Compiling autocfg v1.4.0
-   Compiling generic-array v0.14.7
     Checking memchr v2.7.4
+   Compiling generic-array v0.14.7
     Checking once_cell v1.21.3
-   Compiling quote v1.0.40
-    Checking subtle v2.6.1
    Compiling shlex v1.3.0
-    Checking getrandom v0.2.15
-   Compiling syn v2.0.100
-   Compiling jobserver v0.1.33
-    Checking rand_core v0.6.4
+    Checking subtle v2.6.1
     Checking itoa v1.0.15
-    Checking mio v1.0.3
     Checking smallvec v1.15.0
     Checking futures-core v0.3.31
-   Compiling cc v1.2.19
-   Compiling hashbrown v0.15.2
    Compiling equivalent v1.0.2
+   Compiling hashbrown v0.15.2
    Compiling zerocopy v0.8.24
-    Checking socket2 v0.5.9
     Checking cpufeatures v0.2.17
     Checking stable_deref_trait v1.2.0
-   Compiling getrandom v0.3.2
-   Compiling indexmap v2.9.0
     Checking ryu v1.0.20
+   Compiling quote v1.0.40
+   Compiling getrandom v0.3.2
+   Compiling syn v2.0.100
+    Checking getrandom v0.2.15
+   Compiling jobserver v0.1.33
+    Checking mio v1.0.3
+    Checking rand_core v0.6.4
+   Compiling indexmap v2.9.0
+    Checking socket2 v0.5.9
     Checking futures-sink v0.3.31
+   Compiling cc v1.2.19
+    Checking futures-io v0.3.31
+   Compiling anyhow v1.0.98
+   Compiling icu_locid_transform_data v1.5.1
+    Checking litemap v0.7.5
+    Checking writeable v0.5.5
+   Compiling slab v0.4.9
+   Compiling icu_properties_data v1.5.1
+    Checking fnv v1.0.7
+    Checking allocator-api2 v0.2.21
+    Checking foldhash v0.1.5
+   Compiling winnow v0.7.6
+   Compiling icu_normalizer_data v1.5.1
+   Compiling thiserror v2.0.12
     Checking crypto-common v0.1.6
     Checking block-buffer v0.10.4
-   Compiling icu_locid_transform_data v1.5.1
-    Checking digest v0.10.7
-   Compiling anyhow v1.0.98
-    Checking futures-io v0.3.31
-    Checking writeable v0.5.5
-    Checking litemap v0.7.5
-   Compiling slab v0.4.9
-   Compiling winnow v0.7.6
-    Checking allocator-api2 v0.2.21
-    Checking fnv v1.0.7
-    Checking foldhash v0.1.5
-   Compiling icu_properties_data v1.5.1
-   Compiling thiserror v2.0.12
-    Checking ppv-lite86 v0.2.21
-   Compiling thiserror v1.0.69
-   Compiling icu_normalizer_data v1.5.1
    Compiling either v1.15.0
-    Checking rand_chacha v0.3.1
-    Checking futures-channel v0.3.31
+    Checking digest v0.10.7
+   Compiling thiserror v1.0.69
+    Checking ppv-lite86 v0.2.21
     Checking block-padding v0.3.3
+    Checking futures-channel v0.3.31
     Checking aho-corasick v1.1.3
+    Checking futures-task v0.3.31
     Checking pin-utils v0.1.0
     Checking regex-syntax v0.8.5
-    Checking futures-task v0.3.31
     Checking inout v0.1.4
-    Checking rand v0.8.5
+    Checking rand_chacha v0.3.1
     Checking tracing-core v0.1.33
-   Compiling vcpkg v0.2.15
-    Checking percent-encoding v2.3.1
-    Checking utf16_iter v1.0.5
-    Checking utf8_iter v1.0.4
-   Compiling heck v0.5.0
     Checking write16 v1.0.0
+   Compiling vcpkg v0.2.15
+    Checking rand v0.8.5
+    Checking utf8_iter v1.0.4
+    Checking utf16_iter v1.0.5
    Compiling pkg-config v0.3.32
+   Compiling heck v0.5.0
+    Checking percent-encoding v2.3.1
     Checking form_urlencoded v1.2.1
    Compiling itertools v0.14.0
    Compiling semver v1.0.26
    Compiling rustix v1.0.5
-    Checking regex-automata v0.4.9
     Checking universal-hash v0.5.1
    Compiling serde_json v1.0.140
     Checking opaque-debug v0.3.1
    Compiling num-traits v0.2.19
    Compiling crossbeam-utils v0.8.21
-   Compiling rustc_version v0.4.1
     Checking hmac v0.12.1
-   Compiling synstructure v0.13.1
-   Compiling curve25519-dalek v4.1.3 (https://github.com/signalapp/curve25519-dalek?tag=signal-curve25519-4.1.3#7c6d3475)
+   Compiling rustc_version v0.4.1
     Checking sha2 v0.10.8
+    Checking regex-automata v0.4.9
+   Compiling curve25519-dalek v4.1.3 (https://github.com/signalapp/curve25519-dalek?tag=signal-curve25519-4.1.3#7c6d3475)
     Checking base64 v0.22.1
     Checking aead v0.5.2
    Compiling paste v1.0.15
     Checking byteorder v1.5.0
    Compiling rustversion v1.0.20
-    Checking regex v1.11.1
     Checking itertools v0.13.0
    Compiling openssl-sys v0.9.107
    Compiling httparse v1.10.1
+   Compiling ring v0.17.14
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+    Checking regex v1.11.1
+   Compiling synstructure v0.13.1
+   Compiling darling_core v0.20.11
+   Compiling lock_api v0.4.12
+    Checking rustls-pki-types v1.11.0
+   Compiling prettyplease v0.2.32
+   Compiling openssl v0.10.72
+   Compiling bitflags v2.9.0
+    Checking scopeguard v1.2.0
+    Checking try-lock v0.2.5
+    Checking untrusted v0.9.0
+   Compiling bytes v1.10.1
+   Compiling linux-raw-sys v0.9.4
+    Checking foreign-types-shared v0.1.1
+    Checking foreign-types v0.3.2
+    Checking want v0.3.1
+    Checking hkdf v0.12.4
+    Checking rand_core v0.9.3
+    Checking tower-service v0.3.3
+   Compiling rustls v0.23.26
+   Compiling fastrand v2.3.0
    Compiling serde_derive v1.0.219
    Compiling zeroize_derive v1.4.2
    Compiling tokio-macros v2.5.0
-    Checking zeroize v1.8.1
    Compiling displaydoc v0.2.5
+    Checking zeroize v1.8.1
    Compiling zerofrom-derive v0.1.6
    Compiling yoke-derive v0.7.5
    Compiling zerovec-derive v0.10.3
    Compiling icu_provider_macros v1.5.0
    Compiling thiserror-impl v2.0.12
-   Compiling futures-macro v0.3.31
    Compiling thiserror-impl v1.0.69
+   Compiling futures-macro v0.3.31
    Compiling tracing-attributes v0.1.28
+    Checking cipher v0.4.4
     Checking zerofrom v0.1.6
     Checking yoke v0.7.5
-    Checking zerovec v0.10.4
-    Checking futures-util v0.3.31
-    Checking cipher v0.4.4
    Compiling prost-derive v0.13.5
+    Checking zerovec v0.10.4
    Compiling curve25519-dalek-derive v0.1.1 (https://github.com/signalapp/curve25519-dalek?tag=signal-curve25519-4.1.3#7c6d3475)
-    Checking tracing v0.1.41
-    Checking tinystr v0.7.6
-    Checking icu_locid v1.5.0
-    Checking icu_collections v1.5.0
     Checking aes v0.8.4
-    Checking icu_provider v1.5.0
-    Checking icu_locid_transform v1.5.0
-   Compiling ring v0.17.14
-    Checking icu_properties v1.5.1
-   Compiling strsim v0.11.1
-   Compiling ident_case v1.0.1
-   Compiling darling_core v0.20.11
-    Checking bytes v1.10.1
-    Checking tokio v1.44.2
-   Compiling serde_spanned v0.6.8
-   Compiling toml_datetime v0.6.8
-    Checking bitflags v2.9.0
-   Compiling toml_edit v0.22.24
-    Checking http v1.3.1
-    Checking icu_normalizer v1.5.0
-    Checking idna_adapter v1.2.0
-    Checking idna v1.0.3
-    Checking url v2.5.4
-    Checking uuid v1.16.0
+    Checking futures-util v0.3.31
     Checking ctr v0.9.2
-   Compiling lock_api v0.4.12
-   Compiling darling_macro v0.20.11
-   Compiling proc-macro-crate v3.3.0
-    Checking http-body v1.0.1
     Checking cbc v0.1.2
-    Checking rustls-pki-types v1.11.0
-   Compiling openssl v0.10.72
-   Compiling prettyplease v0.2.32
-    Checking foreign-types-shared v0.1.1
-    Checking try-lock v0.2.5
-    Checking untrusted v0.9.0
-    Checking scopeguard v1.2.0
-   Compiling linux-raw-sys v0.9.4
-   Compiling prost v0.13.5
-    Checking want v0.3.1
-    Checking foreign-types v0.3.2
+   Compiling darling_macro v0.20.11
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+    Checking tracing v0.1.41
+    Checking icu_locid v1.5.0
    Compiling darling v0.20.11
-    Checking tokio-util v0.7.14
    Compiling strum_macros v0.26.4
    Compiling openssl-macros v0.1.1
-    Checking hkdf v0.12.4
-    Checking rand_core v0.9.3
-   Compiling rustls v0.23.26
-   Compiling typewit_proc_macros v1.8.1
-    Checking tower-service v0.3.3
-    Checking arrayref v0.3.9
-   Compiling fastrand v2.3.0
-   Compiling fixedbitset v0.5.7
+    Checking icu_provider v1.5.0
    Compiling native-tls v0.2.14
+   Compiling prost v0.13.5
+    Checking arrayref v0.3.9
+   Compiling typewit_proc_macros v1.8.1
+   Compiling fixedbitset v0.5.7
+    Checking icu_locid_transform v1.5.0
     Checking typewit v1.11.0
+   Compiling tempfile v3.19.1
    Compiling petgraph v0.7.1
     Checking rustls-webpki v0.103.1
-   Compiling tempfile v3.19.1
-    Checking rand_chacha v0.9.0
    Compiling prost-types v0.13.5
-    Checking hyper v1.6.0
-    Checking strum v0.26.3
-    Checking x25519-dalek v2.0.1
-    Checking arrayvec v0.7.6
+    Checking icu_properties v1.5.1
     Checking chacha20 v0.9.1
    Compiling async-trait v0.1.88
+    Checking rand_chacha v0.9.0
+    Checking strum v0.26.3
     Checking poly1305 v0.8.0
     Checking crc32fast v1.4.2
    Compiling parking_lot_core v0.9.10
-    Checking simd-adler32 v0.3.7
-    Checking powerfmt v0.2.0
+    Checking uuid v1.16.0
+   Compiling toml_datetime v0.6.8
+    Checking tokio v1.44.2
+   Compiling serde_spanned v0.6.8
+   Compiling toml_edit v0.22.24
+    Checking http v1.3.1
+    Checking icu_normalizer v1.5.0
+    Checking arrayvec v0.7.6
+    Checking idna_adapter v1.2.0
    Compiling unicase v2.8.1
+    Checking idna v1.0.3
+    Checking lazy_static v1.5.0
+   Compiling signal-hook v0.3.17
+    Checking openssl-probe v0.1.6
+    Checking http-body v1.0.1
+    Checking powerfmt v0.2.0
+    Checking url v2.5.4
    Compiling js_int v0.2.2
    Compiling multimap v0.10.0
-    Checking lazy_static v1.5.0
-    Checking openssl-probe v0.1.6
-   Compiling signal-hook v0.3.17
-   Compiling mime_guess v2.0.5
+    Checking simd-adler32 v0.3.7
+    Checking x25519-dalek v2.0.1
    Compiling ruma-identifiers-validation v0.10.1
-   Compiling prost-build v0.13.5
     Checking deranged v0.4.0
+   Compiling prost-build v0.13.5
+   Compiling mime_guess v2.0.5
     Checking chacha20poly1305 v0.10.1
-    Checking hyper-util v0.1.11
     Checking rand v0.9.1
     Checking konst_kernel v0.3.15
-   Compiling toml v0.8.20
     Checking crossbeam-epoch v0.9.18
    Compiling blake3 v1.8.1
     Checking signal-hook-registry v1.4.5
-    Checking utf8parse v0.2.2
-    Checking const_panic v0.2.12
     Checking hex v0.4.3
+    Checking num-conv v0.1.0
     Checking adler2 v2.0.0
    Compiling rustix v0.38.44
-    Checking num-conv v0.1.0
+    Checking const_panic v0.2.12
+    Checking utf8parse v0.2.2
    Compiling ruma-common v0.15.2
     Checking time-core v0.1.4
-    Checking konst v0.3.16
-    Checking miniz_oxide v0.8.8
     Checking time v0.3.41
+    Checking konst v0.3.16
     Checking anstyle-parse v0.2.6
-   Compiling ruma-macros v0.15.1
-    Checking tokio-native-tls v0.3.1
+    Checking miniz_oxide v0.8.8
+   Compiling proc-macro-crate v3.3.0
+   Compiling toml v0.8.20
     Checking http-body-util v0.1.3
     Checking serde_html_form v0.2.7
     Checking futures-executor v0.3.31
     Checking pbkdf2 v0.12.2
     Checking polyval v0.6.2
     Checking sha1 v0.10.6
-    Checking sync_wrapper v1.0.2
    Compiling proc-macro-error-attr2 v2.0.0
-   Compiling ruma-events v0.30.2
-    Checking anstyle v1.0.10
-    Checking as_variant v1.3.0
-    Checking tower-layer v0.3.3
-    Checking iana-time-zone v0.1.63
-    Checking is_terminal_polyfill v1.70.1
+    Checking sync_wrapper v1.0.2
     Checking mime v0.3.17
-   Compiling dunce v1.0.5
-    Checking wildmatch v2.4.0
-   Compiling rayon-core v1.12.1
-    Checking tokio-rustls v0.26.2
+    Checking tower-layer v0.3.3
     Checking web-time v1.1.0
-    Checking anstyle-query v1.1.2
     Checking linux-raw-sys v0.4.15
     Checking constant_time_eq v0.3.1
+    Checking as_variant v1.3.0
+   Compiling ruma-events v0.30.2
+    Checking is_terminal_polyfill v1.70.1
+    Checking wildmatch v2.4.0
+    Checking anstyle-query v1.1.2
     Checking colorchoice v1.0.3
-    Checking anstream v0.6.18
-    Checking hyper-rustls v0.27.5
+   Compiling rayon-core v1.12.1
+    Checking iana-time-zone v0.1.63
+    Checking anstyle v1.0.10
+   Compiling dunce v1.0.5
    Compiling pqcrypto-internals v0.2.10
-   Compiling proc-macro-error2 v2.0.1
-    Checking tower v0.5.2
     Checking chrono v0.4.40
+    Checking anstream v0.6.18
+   Compiling proc-macro-error2 v2.0.1
+    Checking tokio-util v0.7.14
+    Checking hyper v1.6.0
+   Compiling ruma-macros v0.15.1
+    Checking tokio-native-tls v0.3.1
+    Checking tokio-rustls v0.26.2
+    Checking tower v0.5.2
     Checking futures v0.3.31
-    Checking hyper-tls v0.6.0
     Checking parking_lot v0.12.3
-    Checking signal-hook-mio v0.2.4
     Checking flate2 v1.1.1
+    Checking signal-hook-mio v0.2.4
     Checking crossbeam-deque v0.8.6
     Checking fdeflate v0.3.7
-    Checking rustls-pemfile v2.2.0
-    Checking js_option v0.1.1
     Checking serde_urlencoded v0.7.1
+    Checking js_option v0.1.1
+    Checking rustls-pemfile v2.2.0
     Checking castaway v0.2.3
    Compiling ahash v0.8.11
     Checking instant v0.1.13
-    Checking unicode-width v0.2.0
-    Checking unicode-width v0.1.14
-    Checking unicode-segmentation v1.12.0
-    Checking static_assertions v1.1.0
    Compiling indoc v2.0.6
     Checking siphasher v1.0.1
-    Checking ipnet v2.11.0
-   Compiling ruma-client-api v0.20.2
-    Checking bitmaps v3.2.1
     Checking bitflags v1.3.2
+    Checking ipnet v2.11.0
+    Checking static_assertions v1.1.0
+    Checking hyper-util v0.1.11
+    Checking unicode-width v0.2.0
+    Checking unicode-width v0.1.14
+    Checking bitmaps v3.2.1
+   Compiling ruma-client-api v0.20.2
+    Checking unicode-segmentation v1.12.0
+    Checking phf_shared v0.11.3
+   Compiling instability v0.3.7
+    Checking compact_str v0.8.1
     Checking png v0.17.16
     Checking unicode-truncate v1.1.0
-    Checking reqwest v0.12.15
-   Compiling instability v0.3.7
-    Checking phf_shared v0.11.3
     Checking imbl-sized-chunks v0.1.3
-    Checking compact_str v0.8.1
     Checking crossterm v0.28.1
-    Checking ghash v0.5.1
    Compiling num_enum_derive v0.7.3
+    Checking ghash v0.5.1
     Checking lru v0.12.5
     Checking rand_xoshiro v0.6.0
     Checking is-docker v0.2.0
-    Checking utf8-width v0.1.7
-    Checking cassowary v0.3.0
-    Checking maplit v1.0.2
-    Checking assign v1.1.1
-    Checking zerocopy v0.7.35
-    Checking date_header v1.0.5
    Compiling glob v0.3.2
-    Checking byteorder-lite v0.1.0
-   Compiling syn v1.0.109
+    Checking cassowary v0.3.0
+    Checking hyper-tls v0.6.0
+    Checking hyper-rustls v0.27.5
     Checking signature v2.2.0
-    Checking clap_lex v0.7.4
     Checking bytemuck v1.22.0
+    Checking date_header v1.0.5
+    Checking reqwest v0.12.15
+    Checking assign v1.1.1
+    Checking utf8-width v0.1.7
+   Compiling syn v1.0.109
+    Checking byteorder-lite v0.1.0
+    Checking clap_lex v0.7.4
+    Checking maplit v1.0.2
+    Checking zerocopy v0.7.35
     Checking clap_builder v4.5.37
-    Checking ed25519 v2.2.3
     Checking image v0.25.6
-   Compiling pqcrypto-kyber v0.7.9
     Checking num_enum v0.7.3
+    Checking html-escape v0.2.13
+   Compiling pqcrypto-kyber v0.7.9
+    Checking ed25519 v2.2.3
     Checking ratatui v0.29.0
     Checking imbl v3.0.0
-    Checking html-escape v0.2.13
     Checking is-wsl v0.4.0
     Checking rayon v1.10.0
     Checking phf v0.11.3
    Compiling matrix-pickle-derive v0.2.1
    Compiling bincode v1.3.3
     Checking serde_bytes v0.11.17
-    Checking rmp v0.8.14
-   Compiling clap_derive v4.5.32
    Compiling partial-default-derive v0.1.0
    Compiling derive-where v1.2.7
+   Compiling clap_derive v4.5.32
     Checking env_filter v0.1.3
+    Checking rmp v0.8.14
    Compiling quick-xml v0.37.4
    Compiling libsqlite3-sys v0.30.1
    Compiling include_dir_macros v0.7.4
-   Compiling matrix-sdk-common v0.9.0
-    Checking data-encoding v2.9.0
-    Checking unicode-linebreak v0.1.5
     Checking utf-8 v0.7.6
-    Checking option-ext v0.2.0
-    Checking pathdiff v0.2.3
     Checking smawk v0.3.2
-    Checking jiff v0.2.9
-    Checking qrcodegen v1.8.0
+    Checking pathdiff v0.2.3
+    Checking option-ext v0.2.0
     Checking linked-hash-map v0.5.6
-    Checking clap v4.5.37
-    Checking lru-cache v0.1.2
+    Checking unicode-linebreak v0.1.5
+    Checking jiff v0.2.9
+   Compiling matrix-sdk-common v0.9.0
+    Checking qrcodegen v1.8.0
+    Checking data-encoding v2.9.0
     Checking qrcode-generator v5.0.0
     Checking textwrap v0.16.2
-    Checking dirs-sys v0.4.1
-    Checking open v5.3.2
+    Checking lru-cache v0.1.2
     Checking tungstenite v0.24.0
-   Compiling phonenumber v0.3.7+8.13.52
+    Checking open v5.3.2
    Compiling include_dir v0.7.4
-    Checking partial-default v0.1.0
+    Checking dirs-sys v0.4.1
+    Checking clap v4.5.37
+   Compiling phonenumber v0.3.7+8.13.52
     Checking rmp-serde v1.3.0
+    Checking tui-textarea v0.7.0
+    Checking partial-default v0.1.0
+    Checking eyeball-im v0.5.1
     Checking matrix-pickle v0.2.1
     Checking emojis v0.6.4
-    Checking eyeball-im v0.5.1
-    Checking tui-textarea v0.7.0
+    Checking ed25519-dalek v2.1.1
     Checking hashbrown v0.14.5
     Checking libsignal-core v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
-    Checking ed25519-dalek v2.1.1
     Checking signal-crypto v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
-    Checking aes-gcm-siv v0.11.1
-   Compiling libsignal-protocol v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
     Checking readlock-tokio v0.1.4
     Checking deadpool-runtime v0.1.4
+    Checking aes-gcm-siv v0.11.1
+   Compiling libsignal-protocol v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
     Checking poksho v0.7.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
    Compiling pin-project-internal v1.1.10
    Compiling itertools v0.10.5
-    Checking env_logger v0.11.8
    Compiling parking_lot_core v0.8.6
+    Checking shell-words v1.1.0
+    Checking pico-args v0.5.0
+    Checking readlock v0.1.9
+    Checking pqcrypto-traits v0.3.5
     Checking tinyvec_macros v0.1.1
     Checking regex-syntax v0.6.29
-    Checking pico-args v0.5.0
-   Compiling decancer v3.2.8
-    Checking base64ct v1.7.3
-    Checking pqcrypto-traits v0.3.5
-    Checking oncemutex v0.1.1
-    Checking atomic-waker v1.1.2
-    Checking readlock v0.1.9
     Checking minimal-lexical v0.2.1
-    Checking shell-words v1.1.0
-    Checking eyeball v0.8.8
-    Checking chatters-lib v0.1.0 (/tmp/nix-shell.uUVugk/jeffa5_chatters_hy9n0hgn/crates/chatters-lib)
-    Checking nom v7.1.3
-   Compiling aquamarine v0.6.0
-    Checking regex-cache v0.2.1
+    Checking base64ct v1.7.3
+    Checking atomic-waker v1.1.2
+    Checking env_logger v0.11.8
+   Compiling decancer v3.2.8
+    Checking oncemutex v0.1.1
+    Checking pin-project v1.1.10
     Checking async-tungstenite v0.28.2
+    Checking chatters-lib v0.1.0 (/tmp/nix-shell.AaBijX/jeffa5_chatters__8cs7vlr/crates/chatters-lib)
+    Checking vodozemac v0.8.1
+    Checking nom v7.1.3
+    Checking regex-cache v0.2.1
+   Compiling aquamarine v0.6.0
+    Checking tinyvec v1.9.0
 warning: hiding a lifetime that's elided elsewhere is confusing
    --> crates/chatters-lib/src/tui.rs:344:17
     |
@@ -418,16 +418,74 @@ help: use `'_` for type paths
     |                                                                  ++++
 
 warning: `chatters-lib` (lib) generated 3 warnings (run `cargo fix --lib -p chatters-lib` to apply 3 suggestions)
-    Checking vodozemac v0.8.1
-    Checking pin-project v1.1.10
-    Checking tinyvec v1.9.0
-error: failed to run custom build command for `libsignal-protocol v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)`
+    Checking eyeball v0.8.8
+    Checking zkcredential v0.1.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
+    Checking hashlink v0.9.1
+    Checking directories v5.0.1
+    Checking tokio-stream v0.1.17
+   Compiling libsignal-service v0.1.0 (https://github.com/whisperfish/libsignal-service-rs?rev=f94d55bf8d742699024c26ca3965e85fc9946e23#f94d55bf)
+    Checking ulid v1.2.1
+    Checking concurrent-queue v2.5.0
+    Checking num_cpus v1.16.0
+    Checking xxhash-rust v0.8.15
+    Checking hex-literal v0.4.1
+    Checking fallible-iterator v0.3.0
+    Checking bs58 v0.5.1
+    Checking parking v2.2.1
+    Checking fallible-streaming-iterator v0.1.9
+    Checking event-listener v5.4.0
+    Checking growable-bloom-filter v2.1.1
+    Checking zkgroup v0.9.0 (https://github.com/signalapp/libsignal?tag=v0.56.1#e46841ea)
+    Checking deadpool v0.12.2
+    Checking unicode-normalization v0.1.24
+    Checking rusqlite v0.32.1
+    Checking reqwest-websocket v0.4.4
+    Checking tracing-futures v0.2.5
+    Checking deadpool-sync v0.1.4
+    Checking matrix-sdk-store-encryption v0.9.0
+    Checking aes-gcm v0.10.3
+   Compiling serde_with_macros v3.12.0
+    Checking deadpool-sqlite v0.9.0
+    Checking parking_lot v0.11.2
+    Checking event-listener-strategy v0.5.4
+   Compiling presage-store-sled v0.6.0-dev (https://github.com/whisperfish/presage#0da7b577)
+   Compiling async-stream-impl v0.3.6
+    Checking fxhash v0.2.1
+    Checking fs2 v0.4.3
+   Compiling matrix-sdk v0.9.0
+    Checking sled v0.34.7
+    Checking async-stream v0.3.6
+    Checking async-channel v2.3.1
+    Checking backoff v0.4.0
+    Checking presage-store-cipher v0.1.0 (https://github.com/whisperfish/presage#0da7b577)
+    Checking urlencoding v2.1.3
+    Checking bytesize v1.3.3
+    Checking mime2ext v0.1.54
+   Compiling derivative v2.2.0
+   Compiling quickcheck_macros v1.0.0
+    Checking serde_with v3.12.0
+    Checking fs_extra v1.3.0
+    Checking anymap2 v0.13.0
+    Checking chatters-local v0.1.0 (/tmp/nix-shell.AaBijX/jeffa5_chatters__8cs7vlr/crates/chatters-local)
+    Checking presage v0.7.0-dev (https://github.com/whisperfish/presage#0da7b577)
+    Checking chatters-signal v0.1.0 (/tmp/nix-shell.AaBijX/jeffa5_chatters__8cs7vlr/crates/chatters-signal)
+    Checking ruma v0.12.2
+    Checking matrix-sdk-crypto v0.9.0
+error[E0275]: overflow evaluating the requirement `std::pin::Pin<Box<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-crypto-0.9.0/src/machine/mod.rs:1916:18: 1916:28}>>: CoerceUnsized<std::pin::Pin<Box<dyn futures_core::Future<Output = std::option::Option<...>> + std::marker::Send>>>`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/matrix-sdk-crypto-0.9.0/src/machine/mod.rs:1916:9
+     |
+1916 | /         Box::pin(async move {
+1917 | |             let event = event?;
+1918 | |
+1919 | |             let is_encrypted = event
+...    |
+1946 | |         })
+     | |__________^
+     |
+     = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`matrix_sdk_crypto`)
+     = note: required for the cast from `Pin<Box<...>>` to `Pin<Box<dyn Future<Output = Option<UnsignedDecryptionResult>> + Send>>`
+     = note: the full name for the type has been written to '/tmp/nix-shell.AaBijX/jeffa5_chatters__8cs7vlr/target/debug/deps/matrix_sdk_crypto-e873584935acf85e.long-type-9343337809527340931.txt'
+     = note: consider using `--verbose` to print the full type name to the console
 
-Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.uUVugk/jeffa5_chatters_hy9n0hgn/target/debug/build/libsignal-protocol-f4b7f0236461d3c5/build-script-build` (exit status: 101)
-  --- stderr
-
-  thread 'main' (2198834) panicked at /home/adwin/.cargo/git/checkouts/libsignal-2a193a9867decbc4/e46841e/rust/protocol/build.rs:18:10:
-  Protobufs in src are valid: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on Debian, run `apt-get install protobuf-compiler`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
-  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-warning: build failed, waiting for other jobs to finish...
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `matrix-sdk-crypto` (lib) due to 1 previous error

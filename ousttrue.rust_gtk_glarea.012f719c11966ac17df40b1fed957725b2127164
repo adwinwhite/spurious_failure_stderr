@@ -1,28 +1,32 @@
-Running as unit: run-p2490551-i15070657.scope; invocation ID: b4506c447c294c6686acfbba8b8a56d7
+Running as unit: run-p716838-i4910529.scope; invocation ID: 837ba44e178340b2953aaddd092093e8
    Compiling pkg-config v0.3.14
     Checking libc v0.2.43
    Compiling version_check v0.1.5
     Checking bitflags v1.0.4
    Compiling khronos_api v2.2.0
    Compiling cfg-if v0.1.6
-   Compiling log v0.4.5
    Compiling xml-rs v0.7.0
+   Compiling log v0.4.5
    Compiling lazy_static v1.1.0
-   Compiling gio v0.5.0
    Compiling glib-sys v0.7.0
    Compiling gobject-sys v0.7.0
    Compiling gio-sys v0.7.0
    Compiling cairo-sys-rs v0.7.0
-error: failed to run custom build command for `glib-sys v0.7.0`
+   Compiling gdk-pixbuf-sys v0.7.0
+   Compiling pango-sys v0.7.0
+   Compiling gdk-sys v0.7.0
+   Compiling gl_generator v0.9.0
+   Compiling atk-sys v0.7.0
+error: failed to run custom build command for `gdk-pixbuf-sys v0.7.0`
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.uUVugk/ousttrue_rust_gtk_glarea_702xdjsg/target/debug/build/glib-sys-5d87294c2a10baf2/build-script-build` (exit status: 1)
+  process didn't exit successfully: `/tmp/nix-shell.AaBijX/ousttrue_rust_gtk_glarea_mfkjb9_p/target/debug/build/gdk-pixbuf-sys-3931553030c22cba/build-script-build` (exit status: 1)
   --- stderr
-  `"pkg-config" "--libs" "--cflags" "glib-2.0 >= 2.48"` did not exit successfully: exit status: 1
+  `"pkg-config" "--libs" "--cflags" "gdk-pixbuf-2.0 >= 2.30"` did not exit successfully: exit status: 1
   --- stderr
-  Package glib-2.0 was not found in the pkg-config search path.
-  Perhaps you should add the directory containing `glib-2.0.pc'
+  Package gdk-pixbuf-2.0 was not found in the pkg-config search path.
+  Perhaps you should add the directory containing `gdk-pixbuf-2.0.pc'
   to the PKG_CONFIG_PATH environment variable
-  No package 'glib-2.0' found
+  No package 'gdk-pixbuf-2.0' found
 
 warning: build failed, waiting for other jobs to finish...
