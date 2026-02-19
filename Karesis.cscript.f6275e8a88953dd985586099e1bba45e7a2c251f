@@ -1,58 +1,59 @@
-Running as unit: run-p1196833-i13777139.scope; invocation ID: d9351f7b2e714e3d9633d6fd1c03454f
+Running as unit: run-p1579763-i5773454.scope; invocation ID: 7764c1caffba4836923aee092430809f
    Compiling proc-macro2 v1.0.101
    Compiling unicode-ident v1.0.19
-   Compiling shlex v1.3.0
    Compiling semver v1.0.26
    Compiling find-msvc-tools v0.1.1
+   Compiling shlex v1.3.0
    Compiling libc v0.2.175
    Compiling lazy_static v1.5.0
    Compiling anyhow v1.0.99
-   Compiling regex-lite v0.1.7
     Checking cfg-if v1.0.3
+   Compiling regex-lite v0.1.7
    Compiling object v0.36.7
    Compiling cc v1.2.37
-   Compiling rustix v1.1.2
-    Checking gimli v0.31.1
-   Compiling rustc_version v0.4.1
-    Checking utf8parse v0.2.2
-    Checking adler2 v2.0.1
     Checking memchr v2.7.5
+   Compiling rustix v1.1.2
+   Compiling rustc_version v0.4.1
+    Checking adler2 v2.0.1
+    Checking utf8parse v0.2.2
+    Checking gimli v0.31.1
+    Checking anstyle-parse v0.2.7
+   Compiling logos-codegen v0.15.1
     Checking miniz_oxide v0.8.9
    Compiling quote v1.0.40
-   Compiling logos-codegen v0.15.1
-    Checking anstyle-parse v0.2.7
+   Compiling owo-colors v4.2.2
+   Compiling beef v0.5.2
    Compiling syn v2.0.106
-    Checking is_terminal_polyfill v1.70.1
-   Compiling thiserror v1.0.69
-   Compiling regex-syntax v0.8.6
-    Checking linux-raw-sys v0.11.0
    Compiling fnv v1.0.7
-    Checking anstyle-query v1.1.4
+    Checking is_terminal_polyfill v1.70.1
     Checking colorchoice v1.0.4
     Checking anstyle v1.0.11
-   Compiling beef v0.5.2
     Checking rustc-demangle v0.1.26
-   Compiling owo-colors v4.2.2
+   Compiling regex-syntax v0.8.6
+   Compiling thiserror v1.0.69
+    Checking linux-raw-sys v0.11.0
     Checking bitflags v2.9.4
+    Checking anstyle-query v1.1.4
     Checking anstream v0.6.20
    Compiling heck v0.5.0
+    Checking allocator-api2 v0.2.21
+    Checking equivalent v1.0.2
    Compiling psm v0.1.26
    Compiling llvm-sys v181.2.0
    Compiling stacker v0.1.21
-    Checking foldhash v0.1.5
-   Compiling thiserror v2.0.16
+    Checking strsim v0.11.1
+    Checking unicode-linebreak v0.1.5
    Compiling inkwell v0.6.0
+   Compiling thiserror v2.0.16
+    Checking foldhash v0.1.5
+    Checking clap_lex v0.7.5
     Checking is_ci v1.2.0
     Checking unicode-width v0.2.1
-    Checking equivalent v1.0.2
-    Checking strsim v0.11.1
-    Checking clap_lex v0.7.5
-    Checking unicode-linebreak v0.1.5
-    Checking addr2line v0.24.2
-    Checking allocator-api2 v0.2.21
-    Checking clap_builder v4.5.47
-    Checking textwrap v0.16.2
     Checking supports-color v3.0.2
+    Checking clap_builder v4.5.47
+    Checking hashbrown v0.15.5
+    Checking textwrap v0.16.2
+    Checking terminal_size v0.4.3
 error: No suitable version of LLVM was found system-wide or pointed
               to by LLVM_SYS_181_PREFIX.
        
@@ -72,7 +73,5 @@ error: No suitable version of LLVM was found system-wide or pointed
 526 | | ));
     | |__^
 
-    Checking terminal_size v0.4.3
-    Checking hashbrown v0.15.5
 error: could not compile `llvm-sys` (lib) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...

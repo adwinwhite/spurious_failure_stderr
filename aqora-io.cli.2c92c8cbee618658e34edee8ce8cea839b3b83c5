@@ -1,4 +1,4 @@
-Running as unit: run-p4118328-i4118628.scope; invocation ID: 8a38745c661f49108b4d626191404c76
+Running as unit: run-p1626537-i5820228.scope; invocation ID: d5a2e347a0f64b1f92a857b7c71a98cc
    Compiling proc-macro2 v1.0.94
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.171
@@ -14,89 +14,330 @@ Running as unit: run-p4118328-i4118628.scope; invocation ID: 8a38745c661f49108b4
     Checking pin-project-lite v0.2.16
     Checking smallvec v1.14.0
    Compiling typenum v1.18.0
-   Compiling quote v1.0.40
    Compiling libm v0.2.11
-   Compiling generic-array v0.14.7
-   Compiling jobserver v0.1.33
    Compiling num-traits v0.2.19
-    Checking equivalent v1.0.2
-   Compiling syn v2.0.100
+   Compiling generic-array v0.14.7
     Checking hashbrown v0.15.2
-   Compiling cc v1.2.16
+    Checking equivalent v1.0.2
     Checking stable_deref_trait v1.2.0
-    Checking getrandom v0.2.15
     Checking log v0.4.26
    Compiling pkg-config v0.3.32
     Checking futures-core v0.3.31
+   Compiling quote v1.0.40
+    Checking ryu v1.0.20
     Checking writeable v0.5.5
     Checking litemap v0.7.5
-    Checking ryu v1.0.20
+    Checking getrandom v0.2.15
+   Compiling jobserver v0.1.33
+   Compiling syn v2.0.100
     Checking icu_locid_transform_data v1.5.0
     Checking aho-corasick v1.1.3
     Checking icu_properties_data v1.5.0
     Checking regex-syntax v0.8.5
-    Checking icu_normalizer_data v1.5.0
-    Checking subtle v2.6.1
+    Checking percent-encoding v2.3.1
+   Compiling cc v1.2.16
     Checking utf8_iter v1.0.4
+    Checking icu_normalizer_data v1.5.0
+   Compiling serde_json v1.0.141
+    Checking futures-sink v0.3.31
+   Compiling zerocopy v0.8.23
+    Checking subtle v2.6.1
     Checking write16 v1.0.0
     Checking utf16_iter v1.0.5
-   Compiling zerocopy v0.8.23
-    Checking futures-sink v0.3.31
-    Checking percent-encoding v2.3.1
-   Compiling serde_json v1.0.141
     Checking form_urlencoded v1.2.1
    Compiling slab v0.4.9
-   Compiling thiserror v2.0.12
     Checking futures-io v0.3.31
+   Compiling thiserror v2.0.12
     Checking num-integer v0.1.46
-    Checking signal-hook-registry v1.4.2
     Checking socket2 v0.5.8
     Checking mio v1.0.3
+    Checking signal-hook-registry v1.4.2
    Compiling thiserror v1.0.69
    Compiling getrandom v0.3.2
-    Checking crypto-common v0.1.6
     Checking futures-channel v0.3.31
-    Checking regex-automata v0.4.9
-    Checking pin-utils v0.1.0
     Checking futures-task v0.3.31
+    Checking pin-utils v0.1.0
     Checking num-bigint v0.4.6
     Checking tracing-core v0.1.33
     Checking fnv v1.0.7
    Compiling target-lexicon v0.13.2
     Checking http v1.3.1
-    Checking ppv-lite86 v0.2.21
+    Checking regex-automata v0.4.9
     Checking num-iter v0.1.45
-    Checking block-buffer v0.10.4
     Checking num-complex v0.4.6
-    Checking digest v0.10.7
-    Checking num-rational v0.4.2
    Compiling ahash v0.8.11
    Compiling crossbeam-utils v0.8.21
-   Compiling ring v0.17.14
    Compiling pyo3-build-config v0.24.1
-    Checking iana-time-zone v0.1.61
-    Checking num v0.4.3
-    Checking arrow-schema v56.1.0 (https://github.com/aqora-io/arrow-rs?branch=dataset#b989c133)
-    Checking regex v1.11.1
-    Checking zerocopy v0.7.35
+   Compiling ring v0.17.14
     Checking powerfmt v0.2.0
    Compiling semver v1.0.26
+    Checking ppv-lite86 v0.2.21
+    Checking arrow-schema v56.1.0 (https://github.com/aqora-io/arrow-rs?branch=dataset#b989c133)
+    Checking iana-time-zone v0.1.61
     Checking cpufeatures v0.2.17
+    Checking zerocopy v0.7.35
+    Checking num-rational v0.4.2
     Checking deranged v0.4.0
+   Compiling httparse v1.10.1
+    Checking num v0.4.3
     Checking time-core v0.1.4
-error: failed to run custom build command for `pyo3-build-config v0.24.1`
+    Checking static_assertions v1.1.0
+    Checking num-conv v0.1.0
+    Checking rustls-pki-types v1.11.0
+    Checking hashbrown v0.16.0
+    Checking regex v1.11.1
+    Checking rand_core v0.9.3
+    Checking time v0.3.41
+    Checking byteorder v1.5.0
+    Checking untrusted v0.9.0
+    Checking rand_chacha v0.9.0
+   Compiling rustc_version v0.4.1
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking http-body v1.0.1
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
+   Compiling rustls v0.23.25
+    Checking digest v0.10.7
+    Checking adler2 v2.0.0
+    Checking tower-service v0.3.3
+    Checking miniz_oxide v0.8.5
+    Checking rand v0.9.1
+    Checking unicode-width v0.2.0
+    Checking base64 v0.22.1
+    Checking lexical-util v1.0.6
+    Checking tower-layer v0.3.3
+    Checking hex v0.4.3
+    Checking try-lock v0.2.5
+   Compiling zstd-safe v7.2.4
+    Checking want v0.3.1
+   Compiling cmake v0.1.54
+    Checking lazy_static v1.5.0
+   Compiling strsim v0.11.1
+   Compiling syn v1.0.109
+   Compiling ident_case v1.0.1
+    Checking httpdate v1.0.3
+   Compiling libz-ng-sys v1.1.22
+    Checking sha1 v0.10.6
+    Checking rand_core v0.6.4
+    Checking sync_wrapper v1.0.2
+    Checking bstr v1.11.3
+    Checking crc32fast v1.4.2
+   Compiling synstructure v0.13.1
+   Compiling combine v4.6.7
+    Checking rustls-webpki v0.103.1
+   Compiling darling_core v0.20.11
+   Compiling heck v0.5.0
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.7.5
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+    Checking zerofrom v0.1.6
+   Compiling icu_provider_macros v1.5.0
+    Checking yoke v0.7.5
+   Compiling tokio-macros v2.5.0
+   Compiling thiserror-impl v2.0.12
+    Checking zerovec v0.10.4
+   Compiling futures-macro v0.3.31
+    Checking tokio v1.45.1
+   Compiling thiserror-impl v1.0.69
+    Checking futures-util v0.3.31
+   Compiling bytemuck_derive v1.9.3
+    Checking tinystr v0.7.6
+    Checking icu_locid v1.5.0
+    Checking icu_collections v1.5.0
+   Compiling tracing-attributes v0.1.28
+    Checking icu_provider v1.5.0
+    Checking bytemuck v1.22.0
+    Checking half v2.6.0
+   Compiling zeroize_derive v1.4.2
+    Checking icu_locid_transform v1.5.0
+    Checking arrow-buffer v56.1.0 (https://github.com/aqora-io/arrow-rs?branch=dataset#b989c133)
+    Checking zeroize v1.8.1
+    Checking icu_properties v1.5.1
+    Checking tracing v0.1.41
+    Checking arrow-data v56.1.0 (https://github.com/aqora-io/arrow-rs?branch=dataset#b989c133)
+    Checking same-file v1.0.6
+    Checking parking v2.2.1
+    Checking futures-executor v0.3.31
+    Checking fastrand v2.3.0
+   Compiling rustix v1.0.3
+   Compiling object v0.36.7
+    Checking futures v0.3.31
+    Checking walkdir v2.5.0
+    Checking zstd v0.13.3
+   Compiling darling_macro v0.20.11
+    Checking icu_normalizer v1.5.0
+   Compiling pin-project-internal v1.1.10
+    Checking indexmap v2.9.0
+    Checking bitflags v2.9.0
+    Checking idna_adapter v1.2.0
+    Checking chrono v0.4.40
+    Checking idna v1.0.3
+    Checking uuid v1.16.0
+    Checking url v2.5.4
+    Checking hyper v1.6.0
+    Checking debugid v0.8.0
+    Checking tokio-rustls v0.26.2
+    Checking serde_spanned v0.6.8
+    Checking toml_datetime v0.6.8
+    Checking globset v0.4.16
+    Checking rand_chacha v0.3.1
+    Checking arrow-array v56.1.0 (https://github.com/aqora-io/arrow-rs?branch=dataset#b989c133)
+    Checking hyper-util v0.1.10
+    Checking sentry-types v0.38.1
+    Checking lexical-parse-integer v1.0.5
+    Checking lexical-write-integer v1.0.5
+   Compiling graphql-parser v0.4.1
+   Compiling graphql-introspection-query v0.2.0
+   Compiling pyo3-ffi v0.24.1
+   Compiling pyo3-macros-backend v0.24.1
+    Checking http-body-util v0.1.3
+   Compiling flatbuffers v25.2.10
+    Checking webpki-roots v0.26.8
+    Checking concurrent-queue v2.5.0
+    Checking thread_local v1.1.8
+error: internal compiler error: compiler/rustc_middle/src/middle/privacy.rs:187:21: DefId(0:49 ~ arrow_array[269e]::array::{use#0}): reachable Public > nominal Restricted(DefId(0:3 ~ arrow_array[269e]::array))
+  --> /home/adwin/.cargo/git/checkouts/arrow-rs-727071c66d2942b3/b989c13/arrow-array/src/array/mod.rs:22:5
+   |
+22 | use crate::types::*;
+   |     ^^^^^^^^^^^^
+
+
+thread 'rustc' (1629300) panicked at compiler/rustc_middle/src/middle/privacy.rs:187:21:
+Box<dyn Any>
+stack backtrace:
+   0: std::panicking::begin_panic::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:761:5
+   1: std::panic::panic_any::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:260:5
+   2: <rustc_errors::diagnostic::BugAbort as rustc_errors::diagnostic::EmissionGuarantee>::emit_producing_guarantee
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:62:9
+   3: <rustc_errors::diagnostic::Diag<rustc_errors::diagnostic::BugAbort>>::emit
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:1359:9
+   4: <rustc_errors::DiagCtxtHandle>::span_bug::<rustc_span::span_encoding::Span, alloc::string::String>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/lib.rs:962:48
+   5: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:38:54
+   6: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:136:23
+   7: rustc_middle::ty::context::tls::with_context_opt::<rustc_middle::ty::context::tls::with_opt<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:79:18
+   8: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:134:5
+   9: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:33:5
+  10: rustc_middle::util::bug::span_bug_fmt::<rustc_span::span_encoding::Span>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:24:5
+  11: <rustc_middle::middle::privacy::EffectiveVisibilities>::check_invariants
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/macros.rs:34:9
+  12: rustc_privacy::effective_visibilities
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_privacy/src/lib.rs:1790:36
+      [... omitted 20 frames ...]
+  13: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  14: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::effective_visibilities
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  15: rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1161:33
+  16: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  17: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  18: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  19: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  20: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  21: rustc_interface::passes::analysis::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:87:27
+  22: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_interface::passes::analysis::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  23: rustc_interface::passes::analysis::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1159:9
+  24: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_interface::passes::analysis::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+  25: <rustc_session::session::Session>::time::<(), rustc_interface::passes::analysis::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+  26: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1158:10
+      [... omitted 20 frames ...]
+  27: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  28: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  29: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  30: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  31: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  32: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  33: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  34: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+  35: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+  36: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+  37: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+  38: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+  39: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+  40: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+  41: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+  42: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+  43: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+  44: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  45: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  46: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  47: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  48: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+  49: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+  50: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+  51: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+  52: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+  53: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/git/checkouts/arrow-rs-727071c66d2942b3/b989c13/arrow-array/rustc-ice-2026-02-18T17_03_36-1629296.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [effective_visibilities] checking effective visibilities
+#1 [analysis] running analysis passes on crate `arrow_array`
+end of query stack
+    Checking linux-raw-sys v0.9.3
+error: could not compile `arrow-array` (lib)
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/aqora-io_cli_4xfdprgu/target/debug/build/pyo3-build-config-47676b766838b854/build-script-build` (exit status: 1)
-  --- stdout
-  cargo:rerun-if-env-changed=PYO3_CONFIG_FILE
-  cargo:rerun-if-env-changed=PYO3_NO_PYTHON
-  cargo:rerun-if-env-changed=PYO3_ENVIRONMENT_SIGNATURE
-  cargo:rerun-if-env-changed=PYO3_PYTHON
-  cargo:rerun-if-env-changed=VIRTUAL_ENV
-  cargo:rerun-if-env-changed=CONDA_PREFIX
-  cargo:rerun-if-env-changed=PATH
-
-  --- stderr
-  error: no Python 3.x interpreter found
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc --crate-name arrow_array --edition=2021 /home/adwin/.cargo/git/checkouts/arrow-rs-727071c66d2942b3/b989c13/arrow-array/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("chrono-tz", "ffi", "force_validate"))' -C metadata=3b6bce3db4024f26 -C extra-filename=-b29a94dbc30251f8 --out-dir /tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps --extern ahash=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libahash-3dce727ba911fc3b.rmeta --extern arrow_buffer=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libarrow_buffer-1a969b5c9d3c0902.rmeta --extern arrow_data=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libarrow_data-19439960e2ce4f81.rmeta --extern arrow_schema=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libarrow_schema-991c8d08ab02f470.rmeta --extern chrono=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libchrono-49169128a9f452c2.rmeta --extern half=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libhalf-a5ceed96a84d375c.rmeta --extern hashbrown=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libhashbrown-d5b306ee9029e507.rmeta --extern num=/tmp/nix-shell.cigUv1/aqora-io_cli_bbsf9034/target/debug/deps/libnum-58ffc12a9dc38b6e.rmeta --cap-lints allow -Znext-solver` (exit status: 101)
 warning: build failed, waiting for other jobs to finish...

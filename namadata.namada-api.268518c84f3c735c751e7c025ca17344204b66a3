@@ -1,4 +1,4 @@
-Running as unit: run-p138423-i4332168.scope; invocation ID: f6cc6b9b6ee54e3ca7ec462cee01d699
+Running as unit: run-p1157174-i5350865.scope; invocation ID: f2a0c07674804cf6b64f6bd2bc9a6fa0
    Compiling proc-macro2 v1.0.95
    Compiling unicode-ident v1.0.18
    Compiling serde v1.0.219
@@ -8,336 +8,332 @@ Running as unit: run-p138423-i4332168.scope; invocation ID: f6cc6b9b6ee54e3ca7ec
    Compiling typenum v1.18.0
    Compiling autocfg v1.4.0
     Checking subtle v2.6.1
-   Compiling generic-array v0.14.7
     Checking once_cell v1.21.3
     Checking const-oid v0.9.6
-   Compiling equivalent v1.0.2
    Compiling hashbrown v0.15.3
+   Compiling equivalent v1.0.2
     Checking memchr v2.7.4
-   Compiling winnow v0.7.10
-   Compiling quote v1.0.40
    Compiling toml_write v0.1.1
-    Checking getrandom v0.2.16
-   Compiling syn v2.0.101
-   Compiling indexmap v2.9.0
-    Checking rand_core v0.6.4
+   Compiling generic-array v0.14.7
+   Compiling winnow v0.7.10
     Checking itoa v1.0.15
    Compiling rustversion v1.0.20
     Checking cpufeatures v0.2.17
     Checking arrayvec v0.7.6
    Compiling unicode-xid v0.2.6
+   Compiling quote v1.0.40
    Compiling shlex v1.3.0
-   Compiling const_format_proc_macros v0.2.34
-   Compiling cc v1.2.22
-   Compiling zerocopy v0.8.25
     Checking pin-project-lite v0.2.16
+   Compiling zerocopy v0.8.25
+   Compiling cc v1.2.22
+   Compiling syn v2.0.101
+    Checking getrandom v0.2.16
+   Compiling indexmap v2.9.0
+   Compiling const_format_proc_macros v0.2.34
+    Checking rand_core v0.6.4
     Checking hex v0.4.3
    Compiling num-traits v0.2.19
     Checking byteorder v1.5.0
-    Checking futures-core v0.3.31
-   Compiling thiserror v1.0.69
    Compiling radium v0.7.0
+   Compiling thiserror v1.0.69
+    Checking futures-core v0.3.31
     Checking tap v1.0.1
     Checking wyz v0.5.1
     Checking futures-sink v0.3.31
     Checking funty v2.0.0
     Checking memuse v0.2.2
-   Compiling slab v0.4.9
     Checking futures-channel v0.3.31
-   Compiling serde_json v1.0.140
+   Compiling slab v0.4.9
     Checking ryu v1.0.20
+   Compiling serde_json v1.0.140
    Compiling parity-scale-codec v3.7.4
     Checking futures-task v0.3.31
     Checking const_format v0.2.34
+    Checking byte-slice-cast v1.2.3
+    Checking pin-utils v0.1.0
     Checking futures-io v0.3.31
     Checking bitvec v1.0.1
-    Checking pin-utils v0.1.0
-    Checking byte-slice-cast v1.2.3
     Checking base64 v0.21.7
-    Checking keccak v0.1.5
     Checking base16ct v0.2.0
-   Compiling eyre v0.6.12
+    Checking keccak v0.1.5
    Compiling anyhow v1.0.98
+   Compiling eyre v0.6.12
     Checking powerfmt v0.2.0
-   Compiling time-core v0.1.2
    Compiling either v1.15.0
+   Compiling time-core v0.1.2
    Compiling num-conv v0.1.0
+    Checking deranged v0.3.11
    Compiling time-macros v0.2.19
    Compiling itertools v0.14.0
-    Checking deranged v0.3.11
-    Checking ppv-lite86 v0.2.21
    Compiling cfg_aliases v0.2.1
     Checking indenter v0.3.3
    Compiling borsh v1.5.7
-    Checking rand_chacha v0.3.1
     Checking time v0.3.37
-    Checking rand v0.8.5
    Compiling crunchy v0.2.3
-    Checking ff v0.13.1
-    Checking group v0.13.0
    Compiling paste v1.0.15
     Checking constant_time_eq v0.3.1
     Checking arrayref v0.3.9
-   Compiling serde_derive_internals v0.29.1
    Compiling schemars v0.8.22
     Checking opaque-debug v0.3.1
     Checking smallvec v1.15.0
     Checking dyn-clone v1.0.19
+    Checking ppv-lite86 v0.2.21
     Checking log v0.4.27
     Checking fnv v1.0.7
    Compiling blake3 v1.8.2
     Checking flex-error v0.4.4
-   Compiling syn v1.0.109
     Checking static_assertions v1.1.0
+   Compiling syn v1.0.109
    Compiling lock_api v0.4.12
-   Compiling synstructure v0.13.2
+    Checking rand_chacha v0.3.1
+    Checking rand v0.8.5
     Checking scopeguard v1.2.0
     Checking subtle-ng v2.5.0
     Checking base64 v0.22.1
-   Compiling parking_lot_core v0.9.10
+    Checking ff v0.13.1
+    Checking group v0.13.0
     Checking rustc-hex v2.1.0
+   Compiling parking_lot_core v0.9.10
     Checking allocator-api2 v0.2.21
     Checking stable_deref_trait v1.2.0
+    Checking mio v1.0.3
+    Checking signal-hook-registry v1.4.5
     Checking fixed-hash v0.8.0
     Checking socket2 v0.5.9
+    Checking tracing-core v0.1.33
+    Checking parking_lot v0.12.3
+   Compiling zeroize v1.8.1
+   Compiling tiny-keccak v2.0.2
+   Compiling getrandom v0.3.3
+   Compiling httparse v1.10.1
+   Compiling heck v0.5.0
+    Checking litemap v0.8.0
+    Checking writeable v0.6.1
+   Compiling icu_normalizer_data v2.0.0
+   Compiling icu_properties_data v2.0.0
+   Compiling thiserror v2.0.12
+   Compiling semver v1.0.26
+    Checking num-integer v0.1.46
+   Compiling pkg-config v0.3.32
+   Compiling vcpkg v0.2.15
+   Compiling ring v0.17.14
+    Checking percent-encoding v2.3.1
+   Compiling camino v1.1.9
+    Checking form_urlencoded v1.2.1
+    Checking tower-service v0.3.3
+    Checking utf8_iter v1.0.4
+    Checking try-lock v0.2.5
+    Checking mime v0.3.17
+   Compiling openssl-sys v0.9.108
+   Compiling serde_derive_internals v0.29.1
+   Compiling synstructure v0.13.2
+    Checking want v0.3.1
+    Checking num-bigint v0.4.6
+   Compiling rlp-derive v0.1.0
+    Checking untrusted v0.9.0
+   Compiling aho-corasick v1.1.3
    Compiling serde_derive v1.0.219
    Compiling zeroize_derive v1.4.2
    Compiling impl-trait-for-tuples v0.2.3
    Compiling derive_more-impl v1.0.0
    Compiling thiserror-impl v1.0.69
-    Checking zeroize v1.8.1
     Checking crypto-common v0.1.6
     Checking block-buffer v0.10.4
     Checking digest v0.10.7
+   Compiling displaydoc v0.2.5
    Compiling futures-macro v0.3.31
     Checking sha2 v0.10.9
     Checking hmac v0.12.1
-   Compiling displaydoc v0.2.5
     Checking der v0.7.10
     Checking sha3 v0.10.8
-    Checking futures-util v0.3.31
     Checking signature v2.2.0
     Checking crypto-bigint v0.5.5
     Checking rfc6979 v0.4.0
    Compiling prost-derive v0.13.5
-    Checking spki v0.7.3
-    Checking pkcs8 v0.10.2
     Checking ripemd v0.1.3
    Compiling schemars_derive v0.8.22
-    Checking derive_more v1.0.0
+    Checking futures-util v0.3.31
     Checking subtle-encoding v0.5.1
     Checking digest v0.9.0
+    Checking spki v0.7.3
     Checking blake2 v0.10.6
+    Checking pkcs8 v0.10.2
     Checking block-buffer v0.9.0
     Checking curve25519-dalek-ng v4.1.1
     Checking sha2 v0.9.9
     Checking ed25519 v2.2.3
    Compiling zerofrom-derive v0.1.6
    Compiling serde_repr v0.1.20
-    Checking futures-executor v0.3.31
-    Checking futures v0.3.31
-   Compiling rlp-derive v0.1.0
    Compiling yoke-derive v0.8.0
-    Checking parking_lot v0.12.3
    Compiling zerovec-derive v0.11.1
    Compiling tokio-macros v2.5.0
-    Checking bytes v1.10.1
-    Checking serdect v0.2.0
-    Checking sec1 v0.7.3
-    Checking prost v0.13.5
-    Checking serde_bytes v0.11.17
-    Checking elliptic-curve v0.13.8
-   Compiling serde_spanned v0.6.8
-   Compiling toml_datetime v0.6.9
-    Checking informalsystems-pbjson v0.7.0
-    Checking ed25519-consensus v2.1.0
-   Compiling toml_edit v0.22.26
-    Checking ics23 v0.12.0
-    Checking ecdsa v0.16.9
+    Checking derive_more v1.0.0
+   Compiling tracing-attributes v0.1.28
     Checking zerofrom v0.1.6
+   Compiling thiserror-impl v2.0.12
+    Checking inout v0.1.4
+    Checking cipher v0.4.4
     Checking yoke v0.8.0
     Checking zerovec v0.11.2
-    Checking k256 v0.13.4
-    Checking mio v1.0.3
-    Checking signal-hook-registry v1.4.5
-    Checking tracing-core v0.1.33
-    Checking tokio v1.45.0
-    Checking bitflags v2.9.1
-   Compiling tracing-attributes v0.1.28
-   Compiling tiny-keccak v2.0.2
-   Compiling getrandom v0.3.3
-   Compiling httparse v1.10.1
-    Checking tinystr v0.8.1
-    Checking writeable v0.6.1
-    Checking tracing v0.1.41
-   Compiling heck v0.5.0
-    Checking litemap v0.8.0
-    Checking potential_utf v0.1.2
-   Compiling proc-macro-crate v3.3.0
     Checking zerotrie v0.2.2
-    Checking icu_locale_core v2.0.0
-   Compiling icu_properties_data v2.0.0
-   Compiling icu_normalizer_data v2.0.0
-   Compiling thiserror v2.0.12
-    Checking icu_collections v2.0.0
-   Compiling thiserror-impl v2.0.12
-    Checking icu_provider v2.0.0
-   Compiling semver v1.0.26
-    Checking http v0.2.12
-    Checking num-integer v0.1.46
-   Compiling vcpkg v0.2.15
-   Compiling parity-scale-codec-derive v3.7.4
-   Compiling scale-info-derive v2.11.6
-   Compiling borsh-derive v1.5.7
-   Compiling pkg-config v0.3.32
-    Checking icu_properties v2.0.0
-    Checking icu_normalizer v2.0.0
-   Compiling openssl-sys v0.9.108
-    Checking tokio-util v0.7.15
-   Compiling ring v0.17.14
-    Checking percent-encoding v2.3.1
-   Compiling camino v1.1.9
-    Checking idna_adapter v1.2.1
-    Checking form_urlencoded v1.2.1
-    Checking rlp v0.5.2
-    Checking inout v0.1.4
-    Checking mime v0.3.17
-    Checking tower-service v0.3.3
-    Checking utf8_iter v1.0.4
-    Checking try-lock v0.2.5
-    Checking want v0.3.1
-    Checking idna v1.0.3
-    Checking cipher v0.4.4
-    Checking num-bigint v0.4.6
-    Checking scale-info v2.11.6
-    Checking untrusted v0.9.0
-    Checking url v2.5.4
-    Checking impl-codec v0.6.0
-    Checking tendermint-proto v0.40.4
-    Checking impl-rlp v0.3.0
-   Compiling num_enum_derive v0.7.3
-   Compiling strum_macros v0.26.4
-   Compiling aho-corasick v1.1.3
-   Compiling open-fastrlp-derive v0.1.1
-    Checking impl-serde v0.4.0
+    Checking tracing v0.1.41
    Compiling auto_impl v1.3.0
-   Compiling openssl v0.10.72
-   Compiling wasm-bindgen-shared v0.2.100
+   Compiling strum_macros v0.26.4
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+    Checking foreign-types-shared v0.1.1
    Compiling regex-syntax v0.8.5
    Compiling rustix v1.0.7
-    Checking foreign-types-shared v0.1.1
+    Checking tinystr v0.8.1
+    Checking potential_utf v0.1.2
+    Checking icu_locale_core v2.0.0
+    Checking icu_collections v2.0.0
+   Compiling wasm-bindgen-shared v0.2.100
+   Compiling openssl v0.10.72
+    Checking bytes v1.10.1
+    Checking serdect v0.2.0
+    Checking serde_bytes v0.11.17
+    Checking sec1 v0.7.3
+    Checking informalsystems-pbjson v0.7.0
+    Checking ed25519-consensus v2.1.0
+    Checking bitflags v2.9.1
+    Checking elliptic-curve v0.13.8
+    Checking icu_provider v2.0.0
+   Compiling serde_spanned v0.6.8
+   Compiling toml_datetime v0.6.9
+    Checking prost v0.13.5
+   Compiling toml_edit v0.22.26
+    Checking tokio v1.45.0
+    Checking ecdsa v0.16.9
+    Checking ics23 v0.12.0
+    Checking http v0.2.12
+    Checking k256 v0.13.4
+    Checking icu_normalizer v2.0.0
+    Checking icu_properties v2.0.0
+    Checking rlp v0.5.2
+    Checking impl-rlp v0.3.0
+   Compiling open-fastrlp-derive v0.1.1
+    Checking impl-serde v0.4.0
+    Checking regex-automata v0.4.9
     Checking foreign-types v0.3.2
    Compiling openssl-macros v0.1.1
     Checking uint v0.9.5
-   Compiling native-tls v0.2.14
-    Checking regex-automata v0.4.9
-    Checking linux-raw-sys v0.9.4
     Checking openssl-probe v0.1.6
-   Compiling prettyplease v0.2.32
    Compiling rustls v0.21.12
-    Checking primitive-types v0.12.2
+   Compiling prettyplease v0.2.32
+   Compiling native-tls v0.2.14
+    Checking linux-raw-sys v0.9.4
+    Checking idna_adapter v1.2.1
+    Checking idna v1.0.3
+    Checking url v2.5.4
     Checking regex v1.11.1
+   Compiling proc-macro-crate v3.3.0
     Checking sct v0.7.1
     Checking rustls-webpki v0.101.7
-    Checking ethbloom v0.13.0
-    Checking httpdate v1.0.3
    Compiling bumpalo v3.17.0
+    Checking httpdate v1.0.3
+   Compiling parity-scale-codec-derive v3.7.4
+   Compiling scale-info-derive v2.11.6
+   Compiling borsh-derive v1.5.7
+   Compiling num_enum_derive v0.7.3
    Compiling wasm-bindgen-backend v0.2.100
-    Checking ethereum-types v0.14.1
-    Checking h2 v0.3.26
+    Checking tokio-util v0.7.15
     Checking http-body v0.4.6
     Checking http v1.3.1
+    Checking h2 v0.3.26
+    Checking scale-info v2.11.6
+    Checking impl-codec v0.6.0
    Compiling fastrand v2.3.0
     Checking iana-time-zone v0.1.63
-    Checking chrono v0.4.41
-   Compiling tempfile v3.20.0
    Compiling wasm-bindgen-macro-support v0.2.100
+    Checking chrono v0.4.41
+    Checking tendermint-proto v0.40.4
+    Checking primitive-types v0.12.2
+    Checking ethbloom v0.13.0
+   Compiling tempfile v3.20.0
     Checking tokio-native-tls v0.3.1
     Checking cargo-platform v0.1.9
     Checking sha1 v0.10.6
     Checking encoding_rs v0.8.35
-    Checking lazy_static v1.5.0
-   Compiling wasm-bindgen v0.2.100
+    Checking ethereum-types v0.14.1
     Checking base64ct v1.7.3
-    Checking hyper v0.14.32
-   Compiling wasm-bindgen-macro v0.2.100
+   Compiling wasm-bindgen v0.2.100
+    Checking lazy_static v1.5.0
     Checking password-hash v0.5.0
-    Checking cargo_metadata v0.18.1
-    Checking cosmos-sdk-proto v0.26.1
-    Checking tendermint v0.40.4
-    Checking tokio-rustls v0.24.1
+   Compiling wasm-bindgen-macro v0.2.100
     Checking ethabi v18.0.0
     Checking open-fastrlp v0.1.4
-    Checking strum v0.26.3
+    Checking cargo_metadata v0.18.1
+    Checking tokio-rustls v0.24.1
     Checking num_enum v0.7.3
+    Checking strum v0.26.3
     Checking serde_urlencoded v0.7.1
     Checking const-hex v1.14.1
-    Checking data-encoding v2.9.0
     Checking utf-8 v0.7.6
-    Checking ethers-core v2.0.14
+    Checking data-encoding v2.9.0
+    Checking hyper v0.14.32
     Checking pbkdf2 v0.12.2
    Compiling pin-project-internal v1.1.10
     Checking uint v0.10.0
     Checking rustls-pemfile v1.0.4
-    Checking ipnet v2.11.0
     Checking base64 v0.13.1
+    Checking ipnet v2.11.0
+    Checking ethers-core v2.0.14
     Checking webpki-roots v0.25.4
     Checking js-sys v0.3.77
-    Checking rustls-native-certs v0.6.3
     Checking pin-project v1.1.10
-    Checking hyper-tls v0.5.0
-    Checking hyper-rustls v0.24.2
+    Checking rustls-native-certs v0.6.3
     Checking impl-serde v0.5.0
-   Compiling async-trait v0.1.88
    Compiling ibc-derive v0.10.1
+   Compiling async-trait v0.1.88
    Compiling ring v0.16.20
     Checking sync_wrapper v0.1.2
-    Checking reqwest v0.11.27
     Checking primitive-types v0.13.1
     Checking aes v0.8.4
-    Checking toml v0.8.22
     Checking bs58 v0.5.1
+    Checking hyper-tls v0.5.0
+    Checking hyper-rustls v0.24.2
+    Checking untrusted v0.7.1
+    Checking spin v0.5.2
+    Checking reqwest v0.11.27
     Checking bech32 v0.9.1
     Checking same-file v1.0.6
-    Checking spin v0.5.2
-    Checking untrusted v0.7.1
-   Compiling walkdir v2.5.0
    Compiling Inflector v0.11.4
     Checking coins-core v0.8.7
+   Compiling walkdir v2.5.0
     Checking gloo-timers v0.2.6
     Checking pem v1.1.1
     Checking tungstenite v0.20.1
+   Compiling toml v0.8.22
     Checking simple_asn1 v0.6.3
     Checking salsa20 v0.10.2
-    Checking ibc-proto v0.51.1
     Checking pbkdf2 v0.11.0
     Checking fxhash v0.2.1
-    Checking send_wrapper v0.4.0
    Compiling dunce v1.0.5
-    Checking futures-timer v3.0.3
+    Checking send_wrapper v0.4.0
     Checking tokio-tungstenite v0.20.1
+    Checking futures-timer v3.0.3
     Checking hashers v1.0.1
     Checking scrypt v0.10.0
+    Checking jsonwebtoken v8.3.0
     Checking coins-bip32 v0.8.7
     Checking tracing-futures v0.2.5
-    Checking ctr v0.9.2
     Checking enr v0.10.0
     Checking uuid v0.8.2
+    Checking ctr v0.9.2
     Checking instant v0.1.13
-    Checking eth-keystore v0.5.0
     Checking coins-bip39 v0.8.7
-    Checking ethers-contract-abigen v2.0.14
    Compiling derive_more v0.99.20
    Compiling crossbeam-utils v0.8.21
-    Checking jsonwebtoken v8.3.0
-    Checking tinyvec_macros v0.1.1
+    Checking eth-keystore v0.5.0
    Compiling libm v0.2.15
+    Checking tinyvec_macros v0.1.1
     Checking tinyvec v1.9.0
-    Checking ethers-signers v2.0.14
     Checking ethers-providers v2.0.14
     Checking ethers-etherscan v2.0.14
+    Checking ethers-contract-abigen v2.0.14
+    Checking ethers-signers v2.0.14
     Checking serde-json-wasm v1.0.1
-    Checking tendermint-light-client-verifier v0.40.4
     Checking universal-hash v0.5.1
     Checking pairing v0.23.0
     Checking futures-locks v0.7.1
@@ -354,211 +350,215 @@ Running as unit: run-p138423-i4332168.scope; invocation ID: f6cc6b9b6ee54e3ca7ec
     Checking cbc v0.1.2
     Checking blake2s_simd v1.0.3
     Checking core2 v0.3.3
-   Compiling rayon-core v1.12.1
     Checking nonempty v0.7.0
+   Compiling rayon-core v1.12.1
     Checking zcash_encoding v0.2.2
-    Checking nam-jubjub v0.10.1-nam.0
     Checking fpe v0.6.1
+    Checking nam-jubjub v0.10.1-nam.0
     Checking crossbeam-deque v0.8.6
     Checking masp_note_encryption v1.4.0
     Checking bip0039 v0.12.0
     Checking incrementalmerkletree v0.3.1
     Checking nonempty v0.11.0
-    Checking bnum v0.5.0
-    Checking masp_primitives v1.4.0
    Compiling smooth-operator-impl v0.7.2
-    Checking ibc-primitives v0.57.0
+    Checking bnum v0.5.0
     Checking integer-sqrt v0.1.5
-    Checking ibc-core-host-types v0.57.0
-   Compiling ethers-contract-derive v2.0.14
    Compiling namada_core v0.149.1
+    Checking impl-num-traits v0.2.0
+    Checking rayon v1.10.0
+    Checking masp_primitives v1.4.0
+    Checking cosmos-sdk-proto v0.26.1
+    Checking tendermint v0.40.4
     Checking nam-sparse-merkle-tree v0.3.2-nam.0
    Compiling namada_macros v0.149.1
-    Checking impl-num-traits v0.2.0
     Checking smooth-operator v0.7.2
-    Checking rayon v1.10.0
     Checking wasmtimer v0.4.1
-    Checking num-rational v0.4.2
-    Checking usize-set v0.10.3
-    Checking ibc-core-commitment-types v0.57.0
-    Checking ibc-core-router-types v0.57.0
     Checking nam-indexmap v2.7.1-nam.0
-    Checking ibc-core-client-types v0.57.0
+    Checking usize-set v0.10.3
     Checking prost-types v0.13.5
+    Checking num-rational v0.4.2
     Checking bech32 v0.11.0
-    Checking num256 v0.6.0
-    Checking ethers-contract v2.0.14
    Compiling enum-ordinalize-derive v4.3.1
-    Checking ibc-core-connection-types v0.57.0
-    Checking ibc-client-tendermint-types v0.57.0
    Compiling enum-ordinalize v4.3.0
    Compiling ark-serialize-derive v0.5.0
-    Checking ibc-core-channel-types v0.57.0
+    Checking num256 v0.6.0
     Checking ark-std v0.5.0
    Compiling ahash v0.8.12
    Compiling fixedbitset v0.5.7
     Checking ark-serialize v0.5.0
-   Compiling petgraph v0.7.1
    Compiling educe v0.6.0
-   Compiling ark-ff-macros v0.5.0
+   Compiling petgraph v0.7.1
     Checking itertools v0.13.0
+   Compiling ethers-contract-derive v2.0.14
+   Compiling ark-ff-macros v0.5.0
+    Checking tendermint-light-client-verifier v0.40.4
    Compiling ark-ff-asm v0.5.0
-    Checking ibc-core-handler-types v0.57.0
-    Checking ibc-core-router v0.57.0
+    Checking ethers-contract v2.0.14
    Compiling multimap v0.10.1
-   Compiling prost-build v0.13.5
    Compiling typewit_proc_macros v1.8.1
-    Checking ibc-core-client-context v0.57.0
-    Checking ibc-core-host v0.57.0
-    Checking ibc-core-client v0.57.0
     Checking const_panic v0.2.12
-    Checking typewit v1.11.0
-    Checking ibc-client-wasm-types v0.57.0
-    Checking ibc-client-tendermint v0.57.0
-   Compiling tonic-build v0.12.3
-    Checking ibc-core-connection v0.57.0
-    Checking ark-ff v0.5.0
-    Checking ibc-clients v0.57.0
-    Checking konst_kernel v0.3.15
-    Checking ibc-core-channel v0.57.0
-    Checking konst v0.3.16
    Compiling num-derive v0.4.2
-    Checking ibc-core-handler v0.57.0
+    Checking typewit v1.11.0
     Checking patricia_tree v0.8.0
-    Checking ibc-core v0.57.0
-    Checking ibc-app-transfer-types v0.57.0
+    Checking konst_kernel v0.3.15
    Compiling derivative v2.2.0
-   Compiling namada_tx v0.149.1
+   Compiling prost-build v0.13.5
+    Checking konst v0.3.16
+    Checking ark-ff v0.5.0
     Checking clru v0.6.2
-    Checking ibc-app-nft-transfer-types v0.57.0
-    Checking ibc-app-transfer v0.57.0
-    Checking ibc-core-host-cosmos v0.57.0
    Compiling rust_decimal v1.37.1
     Checking minimal-lexical v0.2.1
-    Checking ibc-app-nft-transfer v0.57.0
-    Checking nom v7.1.3
-    Checking ibc-apps v0.57.0
-    Checking ibc v0.57.0
-    Checking ibc-middleware-module v0.2.0
     Checking bls12_381 v0.8.0
+    Checking nom v7.1.3
    Compiling ibc-middleware-module-macros v0.2.0
    Compiling peg-runtime v0.8.5
-   Compiling peg-macros v0.8.5
     Checking jubjub v0.10.0
-    Checking spin v0.9.8
+   Compiling tonic-build v0.12.3
+   Compiling peg-macros v0.8.5
     Checking pasta_curves v0.5.1
-   Compiling namada_ibc v0.149.1
+    Checking spin v0.9.8
+    Checking ethers-middleware v2.0.14
     Checking option-ext v0.2.0
-    Checking dirs-sys v0.4.1
-    Checking ibc-middleware-overflow-receive v0.5.0
+   Compiling namada_ibc v0.149.1
     Checking nam-reddsa v0.5.2-nam.0
+    Checking dirs-sys v0.4.1
     Checking tendermint-config v0.40.4
+   Compiling namada_tx v0.149.1
     Checking http-body v1.0.1
     Checking terminal_size v0.4.2
    Compiling ahash v0.7.8
-    Checking peg v0.8.5
    Compiling ucd-trie v0.1.7
+    Checking peg v0.8.5
     Checking fiat-crypto v0.2.9
-    Checking ct-codecs v1.1.5
-    Checking dur v0.5.3
     Checking atomic-waker v1.1.2
-    Checking uuid v1.16.0
     Checking rustc-hash v1.1.0
-    Checking base58 v0.2.0
     Checking memzero v0.1.0
+    Checking base58 v0.2.0
     Checking hmac-sha512 v0.1.9
-    Checking tendermint-rpc v0.40.4
+    Checking uuid v1.16.0
+    Checking ct-codecs v1.1.5
     Checking slip10_ed25519 v0.1.3
     Checking nam-tiny-hderive v0.3.1-nam.0
     Checking tiny-bip39 v2.0.0
-    Checking ibc-middleware-packet-forward v0.10.0
-    Checking h2 v0.4.10
-    Checking ark-poly v0.5.0
    Compiling pest v2.8.0
-    Checking ark-ec v0.5.0
+    Checking h2 v0.4.10
+    Checking tendermint-rpc v0.40.4
+    Checking dur v0.5.3
     Checking kdam v0.6.2
     Checking nam-redjubjub v0.7.1-nam.0
-    Checking ethers-middleware v2.0.14
     Checking directories v5.0.1
     Checking bellman v0.14.0
-    Checking ark-bls12-381 v0.5.0
     Checking bimap v0.6.3
    Compiling typed-builder-macro v0.20.1
-    Checking orion v0.17.10
+    Checking ark-poly v0.5.0
     Checking nanorand v0.7.0
-    Checking utf8parse v0.2.2
     Checking derivation-path v0.2.0
+    Checking ethers v2.0.14
+    Checking utf8parse v0.2.2
+    Checking ethbridge-structs v0.24.1
     Checking anstyle-parse v0.2.6
-    Checking masp_proofs v1.4.0
     Checking flume v0.11.1
-    Checking hyper v1.6.0
+    Checking typed-builder v0.20.1
+    Checking masp_proofs v1.4.0
    Compiling pest_meta v2.8.0
+    Checking ibc-proto v0.51.1
+    Checking ark-ec v0.5.0
     Checking xorf v0.11.0
-    Checking colorchoice v1.0.3
+    Checking hyper v1.6.0
     Checking is_terminal_polyfill v1.70.1
     Checking anstyle-query v1.1.2
-   Compiling unicase v2.8.1
     Checking tower-layer v0.3.3
-   Compiling portable-atomic v1.11.0
+   Compiling unicase v2.8.1
     Checking anstyle v1.0.10
-    Checking typed-builder v0.20.1
-   Compiling mime_guess v2.0.5
-    Checking hyper-util v0.1.11
-    Checking anstream v0.6.18
+   Compiling portable-atomic v1.11.0
+    Checking colorchoice v1.0.3
    Compiling pest_generator v2.8.0
+    Checking anstream v0.6.18
+   Compiling mime_guess v2.0.5
     Checking hashbrown v0.12.3
+    Checking orion v0.17.10
     Checking http-body-util v0.1.3
+    Checking hyper-util v0.1.11
     Checking rustls-pki-types v1.12.0
     Checking sync_wrapper v1.0.2
-   Compiling multer v2.1.0
    Compiling circular-queue v0.2.7
-    Checking clap_lex v0.7.4
-    Checking regex-syntax v0.6.29
+   Compiling multer v2.1.0
     Checking dlv-list v0.3.0
+    Checking clap_lex v0.7.4
    Compiling owo-colors v4.2.1
+    Checking regex-syntax v0.6.29
     Checking strsim v0.11.1
-    Checking clap_builder v4.5.38
     Checking ordered-multimap v0.4.3
-    Checking hyper-tls v0.6.0
-   Compiling pest_derive v2.8.0
-    Checking ethers v2.0.14
-    Checking ethbridge-structs v0.24.1
+    Checking clap_builder v4.5.38
     Checking rustls-pemfile v2.2.0
     Checking tower v0.5.2
+    Checking ark-bls12-381 v0.5.0
+   Compiling pest_derive v2.8.0
+    Checking ethbridge-bridge-events v0.24.1
     Checking tungstenite v0.21.0
     Checking wasmparser v0.121.2
-    Checking regex-automata v0.1.10
     Checking headers-core v0.2.0
    Compiling clap_derive v4.5.32
+    Checking hyper-tls v0.6.0
     Checking overload v0.1.1
     Checking winnow v0.6.26
+    Checking regex-automata v0.1.10
     Checking linked-hash-map v0.5.6
     Checking bitflags v1.3.2
     Checking ron v0.7.1
+    Checking ethbridge-bridge-contract v0.24.1
     Checking yaml-rust v0.4.5
-    Checking nu-ansi-term v0.46.0
     Checking matchers v0.1.0
-    Checking json5 v0.4.1
-    Checking ethbridge-bridge-events v0.24.1
-    Checking headers v0.3.9
-    Checking clap v4.5.38
     Checking tokio-tungstenite v0.21.0
-    Checking duration-str v0.12.0
+    Checking nu-ansi-term v0.46.0
     Checking reqwest v0.12.15
+    Checking headers v0.3.9
+    Checking json5 v0.4.1
     Checking init-once v0.6.1
     Checking rust-ini v0.18.0
+    Checking clap v4.5.38
     Checking sharded-slab v0.1.7
-    Checking tracing-log v0.2.0
     Checking toml v0.5.11
+    Checking tracing-log v0.2.0
     Checking thread_local v1.1.8
-    Checking scoped-tls v1.0.1
     Checking pathdiff v0.2.3
+    Checking scoped-tls v1.0.1
     Checking warp v0.3.7
-    Checking tracing-subscriber v0.3.19
     Checking tower v0.4.13
     Checking dotenvy v0.15.7
+    Checking tracing-subscriber v0.3.19
     Checking config v0.13.4
-    Checking ethbridge-bridge-contract v0.24.1
+    Checking duration-str v0.12.0
+    Checking ibc-primitives v0.57.0
+    Checking ibc-core-host-types v0.57.0
+    Checking ibc-core-commitment-types v0.57.0
+    Checking ibc-core-router-types v0.57.0
+    Checking ibc-core-client-types v0.57.0
+    Checking ibc-core-connection-types v0.57.0
+    Checking ibc-client-tendermint-types v0.57.0
+    Checking ibc-core-channel-types v0.57.0
+    Checking ibc-core-handler-types v0.57.0
+    Checking ibc-core-router v0.57.0
+    Checking ibc-middleware-module v0.2.0
+    Checking ibc-core-client-context v0.57.0
+    Checking ibc-core-host v0.57.0
+    Checking ibc-core-client v0.57.0
+    Checking ibc-client-wasm-types v0.57.0
+    Checking ibc-client-tendermint v0.57.0
+    Checking ibc-core-connection v0.57.0
+    Checking ibc-clients v0.57.0
+    Checking ibc-core-channel v0.57.0
+    Checking ibc-core-handler v0.57.0
+    Checking ibc-core v0.57.0
+    Checking ibc-app-transfer-types v0.57.0
+    Checking ibc-app-nft-transfer-types v0.57.0
+    Checking ibc-app-transfer v0.57.0
+    Checking ibc-core-host-cosmos v0.57.0
+    Checking ibc-middleware-packet-forward v0.10.0
+    Checking ibc-middleware-overflow-receive v0.5.0
+    Checking ibc-app-nft-transfer v0.57.0
+    Checking ibc-apps v0.57.0
+    Checking ibc v0.57.0
     Checking namada_events v0.149.1
     Checking namada_replay_protection v0.149.1
     Checking namada_merkle_tree v0.149.1
@@ -583,103 +583,145 @@ Running as unit: run-p138423-i4332168.scope; invocation ID: f6cc6b9b6ee54e3ca7ec
     Checking namada_token v0.149.1
     Checking namada_vm v0.149.1
     Checking namada_sdk v0.149.1
-    Checking namada-api v0.1.0 (/tmp/nix-shell.AaBijX/namadata_namada-api_9ovlez69)
-warning: unused import: `error`
- --> src/client.rs:2:15
-  |
-2 | use tracing::{error, info};
-  |               ^^^^^
-  |
-  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+error: internal compiler error: compiler/rustc_middle/src/middle/privacy.rs:187:21: DefId(0:2166 ~ namada_sdk[8827]::tx::{use#53}): reachable Public > nominal Restricted(DefId(0:2112 ~ namada_sdk[8827]::tx))
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/namada_sdk-0.149.1/src/tx.rs:43:30
+   |
+43 | use namada_core::key::{self, *};
+   |                              ^
 
-error[E0275]: overflow evaluating the requirement `<<warp::filter::recover::Recover<cors::internal::CorsFilter<warp::filter::or::Or<warp::filter::or::Or<warp::filter::or::Or<..., ...>, ...>, ...>>, ...> as warp::filter::FilterBase>::Future as futures_core::future::TryFuture>::Ok: Reply`
-   --> src/main.rs:202:25
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                         ^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
-note: required by a bound in `warp::Server::<F>::run`
-   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/warp-0.3.7/src/server.rs:127:35
-    |
-127 |     <F::Future as TryFuture>::Ok: Reply,
-    |                                   ^^^^^ required by this bound in `Server::<F>::run`
-...
-135 |     pub async fn run(self, addr: impl Into<SocketAddr>) {
-    |                  --- required by a bound in this associated function
 
-error[E0275]: overflow evaluating the requirement `<<warp::filter::recover::Recover<cors::internal::CorsFilter<warp::filter::or::Or<warp::filter::or::Or<warp::filter::or::Or<..., ...>, ...>, ...>>, ...> as warp::filter::FilterBase>::Future as futures_core::future::TryFuture>::Error: reject::sealed::IsReject`
-   --> src/main.rs:202:25
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                         ^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
-note: required by a bound in `warp::Server::<F>::run`
-   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/warp-0.3.7/src/server.rs:128:38
-    |
-128 |     <F::Future as TryFuture>::Error: IsReject,
-    |                                      ^^^^^^^^ required by this bound in `Server::<F>::run`
-...
-135 |     pub async fn run(self, addr: impl Into<SocketAddr>) {
-    |                  --- required by a bound in this associated function
+thread 'rustc' (1165129) panicked at compiler/rustc_middle/src/middle/privacy.rs:187:21:
+Box<dyn Any>
+stack backtrace:
+   0: std::panicking::begin_panic::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:761:5
+   1: std::panic::panic_any::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:260:5
+   2: <rustc_errors::diagnostic::BugAbort as rustc_errors::diagnostic::EmissionGuarantee>::emit_producing_guarantee
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:62:9
+   3: <rustc_errors::diagnostic::Diag<rustc_errors::diagnostic::BugAbort>>::emit
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:1359:9
+   4: <rustc_errors::DiagCtxtHandle>::span_bug::<rustc_span::span_encoding::Span, alloc::string::String>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/lib.rs:962:48
+   5: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:38:54
+   6: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:136:23
+   7: rustc_middle::ty::context::tls::with_context_opt::<rustc_middle::ty::context::tls::with_opt<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:79:18
+   8: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:134:5
+   9: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:33:5
+  10: rustc_middle::util::bug::span_bug_fmt::<rustc_span::span_encoding::Span>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:24:5
+  11: <rustc_middle::middle::privacy::EffectiveVisibilities>::check_invariants
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/macros.rs:34:9
+  12: rustc_privacy::effective_visibilities
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_privacy/src/lib.rs:1790:36
+      [... omitted 20 frames ...]
+  13: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  14: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::effective_visibilities
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  15: rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1161:33
+  16: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  17: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  18: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  19: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  20: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_interface::passes::analysis::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  21: rustc_interface::passes::analysis::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:87:27
+  22: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_interface::passes::analysis::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  23: rustc_interface::passes::analysis::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1159:9
+  24: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_interface::passes::analysis::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+  25: <rustc_session::session::Session>::time::<(), rustc_interface::passes::analysis::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+  26: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1158:10
+      [... omitted 20 frames ...]
+  27: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  28: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  29: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  30: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  31: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  32: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  33: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  34: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+  35: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+  36: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+  37: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+  38: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+  39: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+  40: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+  41: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+  42: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+  43: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+  44: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  45: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  46: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  47: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  48: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+  49: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+  50: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+  51: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+  52: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+  53: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
 
-error[E0275]: overflow evaluating the requirement `impl warp::Future<Output = ()> well-formed`
-   --> src/main.rs:202:5
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
 
-error[E0275]: overflow evaluating the requirement `impl warp::Future<Output = ()> well-formed`
-   --> src/main.rs:202:25
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                         ^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: please make sure that you have updated to the latest nightly
 
-error[E0275]: overflow evaluating the requirement `<impl warp::Future<Output = ()> as IntoFuture>::IntoFuture well-formed`
-   --> src/main.rs:202:35
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                                   ^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/namada_sdk-0.149.1/rustc-ice-2026-02-18T11_30_09-1165127.txt` to your bug report
 
-error[E0275]: overflow evaluating the requirement `impl warp::Future<Output = ()> well-formed`
-   --> src/main.rs:202:35
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                                   ^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
 
-error[E0275]: overflow evaluating the requirement `Pin<&mut impl warp::Future<Output = ()>> well-formed`
-   --> src/main.rs:202:35
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                                   ^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
 
-error[E0275]: overflow evaluating the requirement `&mut impl warp::Future<Output = ()> well-formed`
-   --> src/main.rs:202:35
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                                   ^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+note: some of the compiler flags provided by cargo are hidden
 
-error[E0275]: overflow evaluating the requirement `Poll<<impl warp::Future<Output = ()> as warp::Future>::Output> well-formed`
-   --> src/main.rs:202:35
-    |
-202 |     warp::serve(routes).run(addr).await;
-    |                                   ^^^^^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`namada_api`)
+query stack during panic:
+#0 [effective_visibilities] checking effective visibilities
+#1 [analysis] running analysis passes on crate `namada_sdk`
+end of query stack
+error: could not compile `namada_sdk` (lib)
 
-For more information about this error, try `rustc --explain E0275`.
-warning: `namada-api` (bin "namada-api") generated 1 warning
-error: could not compile `namada-api` (bin "namada-api") due to 9 previous errors; 1 warning emitted
+Caused by:
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc --crate-name namada_sdk --edition=2021 /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/namada_sdk-0.149.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arbitrary", "async-send", "benches", "default", "download-params", "fd-lock", "jubjub", "linkme", "mainnet", "masp", "migrations", "multicore", "namada-eth-bridge", "namada_migrations", "proptest", "std", "testing", "wasm-runtime"))' -C metadata=0338d48db617c73e -C extra-filename=-d1a86c3bb928de50 --out-dir /tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps --extern async_trait=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libasync_trait-8084000ab3a875e0.so --extern bech32=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libbech32-e8ccddb8926633d4.rmeta --extern bimap=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libbimap-c7e753375494ac75.rmeta --extern borsh=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libborsh-db1087c58a74b80f.rmeta --extern circular_queue=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libcircular_queue-427f0deb3019cad2.rmeta --extern clap=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libclap-90f4d30c99fa613e.rmeta --extern data_encoding=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libdata_encoding-5ae0b084db38c85a.rmeta --extern duration_str=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libduration_str-fe842ab4d3a0989d.rmeta --extern either=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libeither-8f274b3873749bf3.rmeta --extern ethbridge_bridge_contract=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libethbridge_bridge_contract-1c9b1b86b8cd64da.rmeta --extern ethers=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libethers-bdba4e6aaaa65178.rmeta --extern eyre=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libeyre-60af7458ac4e134c.rmeta --extern futures=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libfutures-c5b7ae885951ee10.rmeta --extern init_once=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libinit_once-0971d068e94b8dba.rmeta --extern itertools=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libitertools-533944d629de301f.rmeta --extern lazy_static=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/liblazy_static-4015ca65e8a65cd2.rmeta --extern masp_primitives=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libmasp_primitives-49ff2c491267149e.rmeta --extern masp_proofs=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libmasp_proofs-112dbdd1442d229d.rmeta --extern namada_account=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_account-7e83275cd90f5af1.rmeta --extern namada_core=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_core-d8930965ad445766.rmeta --extern namada_ethereum_bridge=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_ethereum_bridge-5258273c11b6789a.rmeta --extern namada_events=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_events-90fd2ee5a1b929d6.rmeta --extern namada_gas=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_gas-aa1023c97319b8be.rmeta --extern namada_governance=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_governance-8115aa213817f396.rmeta --extern namada_ibc=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_ibc-4b47fa2695b4a49c.rmeta --extern namada_io=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_io-3513939029f0d4d6.rmeta --extern namada_macros=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_macros-15ca5b4eef9d6dac.so --extern namada_parameters=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_parameters-1689eca6f1dea1a6.rmeta --extern namada_proof_of_stake=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_proof_of_stake-51f5b720b19d0a0f.rmeta --extern namada_state=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_state-d6ffe2ec909b7bc0.rmeta --extern namada_storage=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_storage-252179e10a8b8e5f.rmeta --extern namada_token=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_token-43dffccc4b9a34c0.rmeta --extern namada_tx=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_tx-6150bcc7ce1eb841.rmeta --extern namada_vm=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_vm-6c2f009acd0bbeb3.rmeta --extern namada_vote_ext=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_vote_ext-6d95aa86e23694a5.rmeta --extern namada_vp=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_vp-39cf91639667d8d7.rmeta --extern namada_wallet=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnamada_wallet-227a5dc05ffd2b15.rmeta --extern num_traits=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnum_traits-6e189898ab50238e.rmeta --extern num256=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libnum256-06dce5292427c6a8.rmeta --extern owo_colors=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libowo_colors-15b6bf649b43d587.rmeta --extern paste=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libpaste-2bcdd41184b975dc.so --extern patricia_tree=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libpatricia_tree-0afa4b158ce56820.rmeta --extern prost=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libprost-fff38acbd20e1580.rmeta --extern rand=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/librand-63f2e240d902fe9c.rmeta --extern rand_core=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/librand_core-580434c4eff7078f.rmeta --extern rayon=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/librayon-e327a1c49aeebcc9.rmeta --extern regex=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libregex-55f197d1d400b28d.rmeta --extern reqwest=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libreqwest-e08e89ff71458ef5.rmeta --extern rustversion=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/librustversion-c8b9a7b4a29a4c2f.so --extern serde=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libserde-c65818e84f9771d6.rmeta --extern serde_json=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libserde_json-0649fab0fc7a061d.rmeta --extern sha2=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libsha2-c6f96f91924aaf09.rmeta --extern smooth_operator=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libsmooth_operator-0edbc569ca34b01d.rmeta --extern tempfile=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libtempfile-6495d7f3db6ce0a1.rmeta --extern tendermint_rpc=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libtendermint_rpc-f128107d9a182624.rmeta --extern thiserror=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libthiserror-7cadffffbf638f8c.rmeta --extern bip39=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libbip39-1c97cf3e1434ed9a.rmeta --extern tokio=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libtokio-785db06b7bc8d6fd.rmeta --extern toml=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libtoml-fa1051dc0df725db.rmeta --extern tracing=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libtracing-87da31de175ddffc.rmeta --extern xorf=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libxorf-70d0b885545cdb1b.rmeta --extern zeroize=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/deps/libzeroize-52899ece59c70bb3.rmeta --cap-lints allow -Znext-solver -L native=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/build/ring-ae863011ad650669/out -L native=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/build/ring-d6a4632e68221118/out -L native=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/build/blake3-b8be8567d12490cf/out -L native=/tmp/nix-shell.AaBijX/namadata_namada-api_5i7spoq3/target/debug/build/blake3-b8be8567d12490cf/out -L native=/nix/store/byx7ahs386pskh8d5sdkrkpscfz9yyjp-openssl-3.4.1/lib` (exit status: 101)

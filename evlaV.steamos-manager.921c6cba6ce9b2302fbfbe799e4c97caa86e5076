@@ -1,133 +1,1716 @@
-Running as unit: run-p41953-i4235699.scope; invocation ID: 2f88d73c9e0c4a318b8fdbd27fd0f2ae
+Running as unit: run-p1678983-i5872674.scope; invocation ID: efb18c8106f54a879a8d2ebd18cb9b4d
    Compiling proc-macro2 v1.0.103
    Compiling quote v1.0.42
    Compiling unicode-ident v1.0.22
    Compiling winnow v0.7.14
    Compiling libc v0.2.178
    Compiling toml_datetime v0.7.5+spec-1.1.0
-    Checking pin-project-lite v0.2.16
-   Compiling serde_core v1.0.228
    Compiling hashbrown v0.16.1
-   Compiling heck v0.5.0
-   Compiling equivalent v1.0.2
+    Checking pin-project-lite v0.2.16
    Compiling serde v1.0.228
+   Compiling equivalent v1.0.2
+   Compiling serde_core v1.0.228
+   Compiling heck v0.5.0
    Compiling pkg-config v0.3.32
-   Compiling indexmap v2.12.1
-   Compiling syn v2.0.111
    Compiling target-lexicon v0.13.3
    Compiling cfg-if v1.0.4
     Checking futures-core v0.3.31
-   Compiling smallvec v1.15.1
    Compiling serde_spanned v1.0.4
+   Compiling indexmap v2.12.1
+   Compiling smallvec v1.15.1
+   Compiling syn v2.0.111
    Compiling cfg-expr v0.20.5
-   Compiling toml_parser v1.0.6+spec-1.1.0
    Compiling version-compare v0.2.1
-    Checking bitflags v2.10.0
     Checking memchr v2.7.6
+    Checking bitflags v2.10.0
    Compiling cfg_aliases v0.2.1
-   Compiling toml_edit v0.23.10+spec-1.0.0
-   Compiling toml v0.9.10+spec-1.1.0
    Compiling crunchy v0.2.4
-   Compiling system-deps v7.0.7
    Compiling glob v0.3.3
-   Compiling proc-macro-crate v3.4.0
-   Compiling clang-sys v1.8.1
    Compiling prettyplease v0.2.37
    Compiling crossbeam-utils v0.8.21
+   Compiling clang-sys v1.8.1
    Compiling tiny-keccak v2.0.2
    Compiling minimal-lexical v0.2.1
    Compiling regex-syntax v0.8.8
+   Compiling toml_parser v1.0.6+spec-1.1.0
    Compiling nom v7.1.3
-   Compiling glib-sys v0.21.5
-   Compiling getrandom v0.2.16
-   Compiling libloading v0.8.9
+   Compiling toml_edit v0.23.10+spec-1.0.0
+   Compiling toml v0.9.10+spec-1.1.0
+   Compiling system-deps v7.0.7
+   Compiling regex-automata v0.4.13
+   Compiling proc-macro-crate v3.4.0
     Checking socket2 v0.6.1
     Checking mio v1.1.1
-   Compiling regex-automata v0.4.13
+   Compiling glib-sys v0.21.5
     Checking signal-hook-registry v1.4.7
+   Compiling getrandom v0.2.16
+   Compiling libloading v0.8.9
+   Compiling either v1.15.0
+    Checking parking v2.2.1
     Checking once_cell v1.21.3
     Checking bytes v1.11.0
-    Checking parking v2.2.1
    Compiling autocfg v1.5.0
    Compiling bindgen v0.72.1
-   Compiling either v1.15.0
+   Compiling const-random-macro v0.1.16
    Compiling itertools v0.13.0
    Compiling memoffset v0.9.1
-   Compiling const-random-macro v0.1.16
-   Compiling cexpr v0.6.0
-   Compiling regex v1.12.2
-   Compiling serde_derive v1.0.228
-   Compiling enumflags2_derive v0.7.12
-   Compiling tokio-macros v2.6.0
-    Checking concurrent-queue v2.5.0
    Compiling gobject-sys v0.21.5
+    Checking concurrent-queue v2.5.0
     Checking endi v1.1.1
-    Checking tokio v1.48.0
    Compiling shlex v1.3.0
    Compiling rustc-hash v2.1.1
+   Compiling regex v1.12.2
    Compiling log v0.4.29
+   Compiling cexpr v0.6.0
     Checking event-listener v5.4.1
-   Compiling tracing-attributes v0.1.31
-   Compiling futures-macro v0.3.31
     Checking const-random v0.1.18
     Checking tracing-core v0.1.36
    Compiling gio-sys v0.21.5
     Checking aho-corasick v1.1.4
-   Compiling nix v0.30.1
    Compiling nix v0.29.0
-    Checking futures-task v0.3.31
-    Checking futures-io v0.3.31
+   Compiling nix v0.30.1
     Checking pin-utils v0.1.0
-    Checking static_assertions v1.1.0
-    Checking slab v0.4.11
+   Compiling static_assertions v1.1.0
     Checking fastrand v2.3.0
-    Checking enumflags2 v0.7.12
-   Compiling zvariant_utils v3.2.1
-   Compiling zvariant_derive v5.8.0
-    Checking futures-util v0.3.31
-    Checking tracing v0.1.44
-    Checking zvariant v5.8.0
+    Checking futures-io v0.3.31
+    Checking slab v0.4.11
+    Checking futures-task v0.3.31
     Checking dlv-list v0.5.2
     Checking event-listener-strategy v0.5.4
-   Compiling async-trait v0.1.89
    Compiling libudev-sys v0.1.4
-    Checking hashbrown v0.14.5
    Compiling rustix v1.1.2
-   Compiling rustversion v1.0.22
-   Compiling io-lifetimes v1.0.11
-   Compiling getrandom v0.3.4
     Checking lazy_static v1.5.0
-    Checking ordered-multimap v0.7.3
-    Checking futures-executor v0.3.31
+   Compiling rustversion v1.0.22
+    Checking hashbrown v0.14.5
+   Compiling getrandom v0.3.4
+   Compiling io-lifetimes v1.0.11
     Checking async-broadcast v0.7.2
-    Checking zbus_names v4.2.0
-    Checking futures-lite v2.6.1
-   Compiling serde_repr v0.1.20
+   Compiling serde_derive v1.0.228
+   Compiling enumflags2_derive v0.7.12
+   Compiling tokio-macros v2.6.0
+   Compiling futures-macro v0.3.31
+   Compiling tracing-attributes v0.1.31
+   Compiling async-trait v0.1.89
+    Checking tokio v1.48.0
+    Checking futures-util v0.3.31
+    Checking ordered-multimap v0.7.3
    Compiling glib-macros v0.21.5
+    Checking tracing v0.1.44
+   Compiling serde_repr v0.1.20
+    Checking futures-lite v2.6.1
+    Checking futures-executor v0.3.31
     Checking uuid v1.19.0
-   Compiling zbus_macros v5.12.0
     Checking ordered-stream v0.2.0
+   Compiling zvariant_utils v3.2.1
+   Compiling enumflags2 v0.7.12
     Checking futures-channel v0.3.31
-    Checking linux-raw-sys v0.11.0
-   Compiling speech-dispatcher-sys v0.7.0
+   Compiling anyhow v1.0.100
     Checking anstyle v1.0.13
-    Checking toml_writer v1.0.6+spec-1.1.0
+   Compiling zvariant_derive v5.8.0
     Checking clap_lex v0.7.6
     Checking hex v0.4.3
+    Checking toml_writer v1.0.6+spec-1.1.0
+    Checking linux-raw-sys v0.11.0
    Compiling serde_json v1.0.146
-   Compiling anyhow v1.0.100
     Checking clap_builder v4.5.53
-error: failed to run custom build command for `speech-dispatcher-sys v0.7.0`
+    Checking quick-xml v0.36.2
+    Checking glib v0.21.5
+   Compiling zvariant v5.8.0
+    Checking matchers v0.2.0
+    Checking input-linux-sys v0.9.0
+    Checking rust-ini v0.21.3
+   Compiling clap_derive v4.5.49
+   Compiling num_enum_derive v0.7.5
+   Compiling strum_macros v0.27.2
+   Compiling speech-dispatcher-sys v0.7.0
+    Checking sharded-slab v0.1.7
+    Checking inotify-sys v0.1.5
+    Checking thread_local v1.1.9
+    Checking itoa v1.0.16
+    Checking pathdiff v0.2.3
+    Checking ryu v1.0.21
+    Checking futures-sink v0.3.31
+    Checking tokio-util v0.7.17
+    Checking tracing-subscriber v0.3.22
+    Checking clap v4.5.53
+    Checking speech-dispatcher v0.16.0
+    Checking itertools v0.14.0
+    Checking config v0.15.19
+    Checking strum v0.27.2
+    Checking inotify v0.11.0
+    Checking zbus_names v4.2.0
+    Checking num_enum v0.7.5
+    Checking tempfile v3.23.0
+    Checking udev v0.9.3
+    Checking input-linux v0.7.1
+    Checking tokio-stream v0.1.17
+    Checking zbus_xml v5.0.2
+   Compiling steamos-manager-macros v25.12.0 (/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/steamos-manager-macros)
+    Checking sysinfo v0.37.2
+    Checking xdg v3.0.0
+   Compiling zbus_macros v5.12.0
+    Checking zbus v5.12.0
+    Checking gio v0.21.5
+
+thread 'rustc' (1681804) panicked at compiler/rustc_middle/src/hir/map.rs:989:9:
+assertion `left == right` failed
+  left: #0
+ right: #32
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_span::hygiene::SyntaxContext, rustc_span::hygiene::SyntaxContext>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: <rustc_middle::ty::context::TyCtxt>::hir_span
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:989:9
+   5: rustc_middle::hir::provide::{closure#5}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/mod.rs:422:44
+   6: <rustc_middle::hir::provide::{closure#5} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, rustc_span::def_id::LocalDefId)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+      [... omitted 20 frames ...]
+   7: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefIdCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+   8: <rustc_middle::query::plumbing::TyCtxtAt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+   9: <rustc_middle::ty::context::TyCtxt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  10: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1145:53
+  11: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1137:5
+  12: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:759:33
+  13: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:652:18
+  14: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:70:18
+  15: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  16: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  17: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  18: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  19: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  20: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  21: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  22: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  23: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  24: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  25: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  26: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  27: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  28: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  29: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  30: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  31: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  32: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  33: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  34: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_method_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1485:22
+  35: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:391:22
+  36: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  37: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  38: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  39: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  40: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  41: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:210:14
+  42: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:994:31
+  43: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  44: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  45: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  46: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  47: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  48: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  49: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  50: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  51: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  52: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_if
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1210:28
+  53: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:401:22
+  54: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  55: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  56: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  57: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  58: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  59: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_has_type_or_error::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:100:27
+  60: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:972:22
+  61: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  62: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  63: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  64: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  65: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  66: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  67: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  68: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  69: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  70: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_match::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/_match.rs:98:31
+  71: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_match
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/_match.rs:18:5
+  72: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:384:22
+  73: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  74: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  75: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  76: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  77: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  78: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_has_type_or_error::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:100:27
+  79: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:972:22
+  80: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  81: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  82: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  83: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_block_no_value
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1005:23
+  84: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_loop::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1447:18
+  85: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_loop::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  86: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_loop
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1446:31
+  87: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:381:22
+  88: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  89: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  90: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  91: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  92: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  93: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_match::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/_match.rs:98:31
+  94: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_match
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/_match.rs:18:5
+  95: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:384:22
+  96: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  97: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  98: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  99: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+ 100: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+ 101: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+ 102: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+ 103: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+ 104: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+ 105: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+ 106: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+ 107: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+ 108: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+ 109: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+ 110: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+ 111: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+ 112: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+ 113: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+ 114: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+ 115: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+ 116: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+ 117: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+ 118: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+ 119: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+ 120: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+ 121: rustc_hir_typeck::typeck_with_inspect::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:178:9
+ 122: rustc_hir_typeck::typeck_with_inspect
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:103:1
+      [... omitted 20 frames ...]
+ 123: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 124: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::typeck::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 125: rustc_hir_analysis::check_crate::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:250:29
+ 126: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+ 127: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+ 128: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 129: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 130: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 131: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 132: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+ 133: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+ 134: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+ 135: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+ 136: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+ 137: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+ 138: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+ 139: rustc_hir_analysis::check_crate
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:225:9
+ 140: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1086:5
+ 141: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+ 142: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 143: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 144: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+ 145: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+ 146: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+ 147: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+ 148: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+ 149: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 150: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 151: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 152: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 153: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 154: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 155: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 156: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 157: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 158: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 159: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 160: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 161: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 162: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 163: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 164: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 165: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 166: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 167: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 168: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/rustc-ice-2026-02-18T17_34_01-1681802.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `action_map::ActionMapExtManual::add_action_entries::{closure#0}`
+#1 [typeck] type-checking `action_map::ActionMapExtManual::add_action_entries`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (1681804) panicked at compiler/rustc_middle/src/hir/map.rs:989:9:
+assertion `left == right` failed
+  left: #0
+ right: #53
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_span::hygiene::SyntaxContext, rustc_span::hygiene::SyntaxContext>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: <rustc_middle::ty::context::TyCtxt>::hir_span
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:989:9
+   5: rustc_middle::hir::provide::{closure#5}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/mod.rs:422:44
+   6: <rustc_middle::hir::provide::{closure#5} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, rustc_span::def_id::LocalDefId)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+      [... omitted 20 frames ...]
+   7: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefIdCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+   8: <rustc_middle::query::plumbing::TyCtxtAt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+   9: <rustc_middle::ty::context::TyCtxt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  10: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1145:53
+  11: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1137:5
+  12: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:759:33
+  13: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:652:18
+  14: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:70:18
+  15: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  16: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  17: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  18: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  19: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  20: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  21: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  22: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  23: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  24: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  25: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  26: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  27: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  28: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  29: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  30: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  31: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  32: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  33: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  34: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_method_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1485:22
+  35: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:391:22
+  36: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  37: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  38: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  39: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  40: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  41: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  42: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  43: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  44: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  45: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  46: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  47: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  48: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  49: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  50: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  51: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  52: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:210:14
+  53: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:994:31
+  54: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  55: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  56: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  57: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  58: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  59: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  60: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  61: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  62: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  63: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+  64: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+  65: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+  66: rustc_hir_typeck::typeck_with_inspect::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:178:9
+  67: rustc_hir_typeck::typeck_with_inspect
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:103:1
+      [... omitted 20 frames ...]
+  68: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  69: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::typeck::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  70: rustc_hir_analysis::check_crate::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:250:29
+  71: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+  72: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  73: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  74: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  75: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  76: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  77: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  78: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+  79: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+  80: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+  81: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  82: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+  83: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+  84: rustc_hir_analysis::check_crate
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:225:9
+  85: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1086:5
+  86: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+  87: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  88: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  89: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  90: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  91: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  92: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  93: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  94: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+  95: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+  96: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+  97: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+  98: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+  99: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 100: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 101: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 102: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 103: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 104: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 105: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 106: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 107: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 108: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 109: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 110: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 111: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 112: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 113: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/rustc-ice-2026-02-18T17_34_01-1681802.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_type::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_type`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (1681804) panicked at compiler/rustc_middle/src/hir/map.rs:989:9:
+assertion `left == right` failed
+  left: #0
+ right: #60
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_span::hygiene::SyntaxContext, rustc_span::hygiene::SyntaxContext>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: <rustc_middle::ty::context::TyCtxt>::hir_span
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:989:9
+   5: rustc_middle::hir::provide::{closure#5}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/mod.rs:422:44
+   6: <rustc_middle::hir::provide::{closure#5} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, rustc_span::def_id::LocalDefId)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+      [... omitted 20 frames ...]
+   7: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefIdCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+   8: <rustc_middle::query::plumbing::TyCtxtAt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+   9: <rustc_middle::ty::context::TyCtxt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  10: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1145:53
+  11: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1137:5
+  12: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:759:33
+  13: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:652:18
+  14: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:70:18
+  15: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  16: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  17: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  18: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  19: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  20: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  21: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  22: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  23: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  24: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  25: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  26: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  27: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  28: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  29: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  30: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  31: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  32: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  33: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  34: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_method_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1485:22
+  35: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:391:22
+  36: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  37: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  38: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  39: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  40: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  41: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:210:14
+  42: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:994:31
+  43: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  44: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  45: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  46: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  47: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  48: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  49: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  50: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  51: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  52: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+  53: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+  54: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+  55: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:285:9
+  56: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  57: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  58: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  59: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  60: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  61: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  62: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  63: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  64: <rustc_hir_typeck::fn_ctxt::FnCtxt>::confirm_builtin_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:571:14
+  65: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:131:22
+  66: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:388:50
+  67: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  68: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  69: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  70: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  71: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  72: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  73: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  74: <rustc_hir_typeck::fn_ctxt::FnCtxt>::confirm_builtin_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:571:14
+  75: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:131:22
+  76: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:388:50
+  77: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  78: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  79: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  80: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  81: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  82: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  83: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  84: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  85: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  86: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  87: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  88: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  89: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  90: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  91: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  92: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  93: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  94: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  95: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  96: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  97: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  98: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  99: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+ 100: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+ 101: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+ 102: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+ 103: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+ 104: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+ 105: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+ 106: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+ 107: rustc_hir_typeck::typeck_with_inspect::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:178:9
+ 108: rustc_hir_typeck::typeck_with_inspect
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:103:1
+      [... omitted 20 frames ...]
+ 109: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 110: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::typeck::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 111: rustc_hir_analysis::check_crate::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:250:29
+ 112: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+ 113: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+ 114: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 115: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 116: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 117: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 118: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+ 119: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+ 120: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+ 121: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+ 122: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+ 123: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+ 124: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+ 125: rustc_hir_analysis::check_crate
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:225:9
+ 126: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1086:5
+ 127: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+ 128: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 129: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 130: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+ 131: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+ 132: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+ 133: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+ 134: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+ 135: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 136: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 137: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 138: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 139: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 140: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 141: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 142: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 143: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 144: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 145: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 146: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 147: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 148: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 149: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 150: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 151: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 152: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 153: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 154: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/rustc-ice-2026-02-18T17_34_01-1681802.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_type_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_type_future`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (1681804) panicked at compiler/rustc_middle/src/hir/map.rs:989:9:
+assertion `left == right` failed
+  left: #0
+ right: #67
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_span::hygiene::SyntaxContext, rustc_span::hygiene::SyntaxContext>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: <rustc_middle::ty::context::TyCtxt>::hir_span
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:989:9
+   5: rustc_middle::hir::provide::{closure#5}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/mod.rs:422:44
+   6: <rustc_middle::hir::provide::{closure#5} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, rustc_span::def_id::LocalDefId)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+      [... omitted 20 frames ...]
+   7: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefIdCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+   8: <rustc_middle::query::plumbing::TyCtxtAt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+   9: <rustc_middle::ty::context::TyCtxt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  10: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1145:53
+  11: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1137:5
+  12: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:759:33
+  13: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:652:18
+  14: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:70:18
+  15: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  16: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  17: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  18: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  19: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  20: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  21: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  22: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  23: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  24: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  25: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  26: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  27: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  28: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  29: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  30: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  31: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  32: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  33: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  34: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_method_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1485:22
+  35: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:391:22
+  36: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  37: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  38: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  39: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  40: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  41: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  42: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  43: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  44: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  45: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  46: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  47: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  48: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  49: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  50: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  51: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  52: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:210:14
+  53: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:994:31
+  54: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  55: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  56: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  57: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  58: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  59: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  60: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  61: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  62: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  63: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+  64: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+  65: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+  66: rustc_hir_typeck::typeck_with_inspect::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:178:9
+  67: rustc_hir_typeck::typeck_with_inspect
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:103:1
+      [... omitted 20 frames ...]
+  68: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  69: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::typeck::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  70: rustc_hir_analysis::check_crate::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:250:29
+  71: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+  72: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  73: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  74: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  75: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  76: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  77: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  78: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+  79: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+  80: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+  81: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  82: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+  83: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+  84: rustc_hir_analysis::check_crate
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:225:9
+  85: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1086:5
+  86: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+  87: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  88: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  89: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  90: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  91: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  92: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  93: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  94: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+  95: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+  96: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+  97: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+  98: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+  99: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 100: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 101: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 102: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 103: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 104: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 105: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 106: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 107: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 108: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 109: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 110: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 111: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 112: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 113: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/rustc-ice-2026-02-18T17_34_01-1681802.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_mut_values::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_mut_values`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (1681804) panicked at compiler/rustc_middle/src/hir/map.rs:989:9:
+assertion `left == right` failed
+  left: #0
+ right: #74
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_span::hygiene::SyntaxContext, rustc_span::hygiene::SyntaxContext>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: <rustc_middle::ty::context::TyCtxt>::hir_span
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:989:9
+   5: rustc_middle::hir::provide::{closure#5}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/mod.rs:422:44
+   6: <rustc_middle::hir::provide::{closure#5} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, rustc_span::def_id::LocalDefId)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+      [... omitted 20 frames ...]
+   7: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefIdCache<rustc_middle::query::erase::ErasedData<[u8; 8]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+   8: <rustc_middle::query::plumbing::TyCtxtAt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+   9: <rustc_middle::ty::context::TyCtxt>::def_span::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  10: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1145:53
+  11: <rustc_hir_typeck::fn_ctxt::FnCtxt>::closure_sigs
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:1137:5
+  12: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:759:33
+  13: <rustc_hir_typeck::fn_ctxt::FnCtxt>::sig_of_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:652:18
+  14: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:70:18
+  15: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  16: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  17: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  18: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  19: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  20: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  21: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  22: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  23: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  24: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  25: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  26: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  27: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  28: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  29: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  30: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  31: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  32: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  33: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  34: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_method_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:1485:22
+  35: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:391:22
+  36: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  37: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  38: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  39: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  40: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  41: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:210:14
+  42: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_stmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:994:31
+  43: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1043:22
+  44: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  45: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  46: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  47: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  48: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  49: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  50: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  51: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  52: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+  53: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+  54: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+  55: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_closure
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/closure.rs:285:9
+  56: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:386:48
+  57: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  58: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  59: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  60: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  61: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  62: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  63: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  64: <rustc_hir_typeck::fn_ctxt::FnCtxt>::confirm_builtin_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:571:14
+  65: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:131:22
+  66: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:388:50
+  67: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  68: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  69: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  70: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  71: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  72: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:378:35
+  73: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_argument_types
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:475:34
+  74: <rustc_hir_typeck::fn_ctxt::FnCtxt>::confirm_builtin_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:571:14
+  75: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_call
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/callee.rs:131:22
+  76: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:388:50
+  77: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  78: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  79: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  80: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  81: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  82: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  83: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  84: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  85: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  86: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  87: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  88: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+  89: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  90: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  91: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+  92: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+  93: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:49
+  94: <core::option::Option<&rustc_hir::hir::Expr>>::map::<(&rustc_hir::hir::Expr, rustc_middle::ty::Ty), <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/option.rs:1165:29
+  95: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1049:26
+  96: <rustc_hir_typeck::fn_ctxt::FnCtxt>::with_breakable_ctxt::<<rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/_impl.rs:1539:22
+  97: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/fn_ctxt/checks.rs:1041:31
+  98: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_kind
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:387:46
+  99: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:291:23
+ 100: stacker::maybe_grow::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+ 101: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_middle::ty::Ty, <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+ 102: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation_and_args
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:286:18
+ 103: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_expectation
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:231:14
+ 104: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_expr_with_hint
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:186:14
+ 105: <rustc_hir_typeck::fn_ctxt::FnCtxt>::check_return_or_body_tail
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/expr.rs:968:35
+ 106: rustc_hir_typeck::check::check_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/check.rs:130:9
+ 107: rustc_hir_typeck::typeck_with_inspect::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:178:9
+ 108: rustc_hir_typeck::typeck_with_inspect
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_typeck/src/lib.rs:103:1
+      [... omitted 20 frames ...]
+ 109: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 110: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::typeck::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 111: rustc_hir_analysis::check_crate::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:250:29
+ 112: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+ 113: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+ 114: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 115: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 116: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 117: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 118: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+ 119: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+ 120: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+ 121: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+ 122: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+ 123: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_hir_analysis::check_crate::{closure#2}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+ 124: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_hir_analysis::check_crate::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+ 125: rustc_hir_analysis::check_crate
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_hir_analysis/src/lib.rs:225:9
+ 126: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1086:5
+ 127: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+ 128: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 129: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 130: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+ 131: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+ 132: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+ 133: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+ 134: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+ 135: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 136: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 137: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 138: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 139: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 140: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 141: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 142: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 143: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 144: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 145: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 146: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 147: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 148: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 149: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 150: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 151: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 152: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 153: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 154: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/rustc-ice-2026-02-18T17_34_01-1681802.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [def_span] looking up span for `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_mut_values_future::{closure#0}::{closure#0}`
+#1 [typeck] type-checking `async_initable::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/async_initable.rs:10:1: 10:19>::with_mut_values_future`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+    Checking steamos-manager-proxy v25.12.0 (/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/steamos-manager-proxy)
+error: could not compile `gio` (lib)
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/evlaV_steamos-manager_u7dly2_2/target/debug/build/speech-dispatcher-sys-feed104d0a8809f9/build-script-build` (exit status: 101)
-  --- stdout
-  cargo:rustc-link-lib=speechd
-
-  --- stderr
-  wrapper.h:1:10: fatal error: 'speech-dispatcher/libspeechd.h' file not found
-
-  thread 'main' (44526) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/speech-dispatcher-sys-0.7.0/build.rs:22:10:
-  called `Result::unwrap()` on an `Err` value: ClangDiagnostic("wrapper.h:1:10: fatal error: 'speech-dispatcher/libspeechd.h' file not found\n")
-  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-warning: build failed, waiting for other jobs to finish...
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc --crate-name gio --edition=2021 /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gio-0.21.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("v2_58", "v2_60", "v2_62", "v2_64", "v2_66", "v2_68", "v2_70", "v2_72", "v2_74", "v2_76", "v2_78", "v2_80", "v2_82", "v2_84", "v2_86"))' -C metadata=89f3afaedb18d122 -C extra-filename=-ee79f6ff13cdd93c --out-dir /tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps --extern futures_channel=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libfutures_channel-fae5de2e4e8aa7d9.rmeta --extern futures_core=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libfutures_core-ba1dc5d43f46b75e.rmeta --extern futures_io=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libfutures_io-3045717b2de21e3f.rmeta --extern futures_util=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libfutures_util-2ee921bb6ef9e53b.rmeta --extern gio_sys=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libgio_sys-ff8552f4613e713f.rmeta --extern glib=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libglib-37cefd6590732b18.rmeta --extern libc=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/liblibc-a60260dae9bc5cef.rmeta --extern pin_project_lite=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libpin_project_lite-2a8d80d2e50f216e.rmeta --extern smallvec=/tmp/nix-shell.cigUv1/evlaV_steamos-manager_wxb8s3vt/target/debug/deps/libsmallvec-0cd5361ec11910e9.rmeta --cap-lints allow -Znext-solver -L native=/nix/store/8j6yqx8qfl0g1nwbshq3502hzv36gai6-glib-2.84.2/lib -L native=/nix/store/8j6yqx8qfl0g1nwbshq3502hzv36gai6-glib-2.84.2/lib -L native=/nix/store/8j6yqx8qfl0g1nwbshq3502hzv36gai6-glib-2.84.2/lib -L native=/nix/store/8j6yqx8qfl0g1nwbshq3502hzv36gai6-glib-2.84.2/lib` (exit status: 101)

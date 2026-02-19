@@ -1,33 +1,32 @@
-Running as unit: run-p384469-i4578183.scope; invocation ID: 9ef0b00f8c2f4d928305e620a9909dd8
+Running as unit: run-p1828564-i6022255.scope; invocation ID: a1fd2faeb9e34930b2621185d3986468
    Compiling proc-macro2 v1.0.103
    Compiling quote v1.0.42
    Compiling unicode-ident v1.0.22
    Compiling serde_core v1.0.228
    Compiling autocfg v1.5.0
    Compiling serde v1.0.228
-   Compiling serde_json v1.0.145
     Checking itoa v1.0.15
+   Compiling serde_json v1.0.145
+    Checking memchr v2.7.6
+   Compiling ref-cast v1.0.25
+   Compiling fnv v1.0.7
     Checking ryu v1.0.20
    Compiling strsim v0.11.1
-   Compiling fnv v1.0.7
-   Compiling num-traits v0.2.19
-   Compiling ref-cast v1.0.25
    Compiling ident_case v1.0.1
-    Checking memchr v2.7.6
    Compiling thiserror v2.0.17
    Compiling k8s-openapi v0.26.0
-   Compiling syn v2.0.111
-    Checking ordered-float v2.10.1
+   Compiling num-traits v0.2.19
+    Checking percent-encoding v2.3.2
 error: failed to run custom build command for `k8s-openapi v0.26.0`
 
 Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/kcr_planetscale_com-2.20251127.151906/target/debug/build/k8s-openapi-b1cc747713138067/build-script-build` (exit status: 101)
+  process didn't exit successfully: `/getea/tmp/crater-spurious/kcr_planetscale_com-2.20251127.151906/target/debug/build/k8s-openapi-e7ea242b7bd73a84/build-script-build` (exit status: 101)
   --- stdout
   cargo::rerun-if-env-changed=K8S_OPENAPI_ENABLED_VERSION
 
   --- stderr
 
-  thread 'main' (384994) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.26.0/build.rs:17:42:
+  thread 'main' (1829002) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.26.0/build.rs:17:42:
 
   None of the v1_* features are enabled on the k8s-openapi crate.
 

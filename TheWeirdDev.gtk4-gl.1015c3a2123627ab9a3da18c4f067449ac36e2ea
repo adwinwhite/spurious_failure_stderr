@@ -1,10 +1,13 @@
-Running as unit: run-p1362423-i13942559.scope; invocation ID: 4bad22be421a491ba5dd6b445f5715a8
+Running as unit: run-p1603642-i5797333.scope; invocation ID: a8f8a83c7ce84893b653a6b722478a03
    Compiling pkg-config v0.3.25
    Compiling serde v1.0.137
    Compiling smallvec v1.8.0
    Compiling heck v0.4.0
-   Compiling version-compare v0.1.0
    Compiling libc v0.2.126
+   Compiling version-compare v0.1.0
+   Compiling proc-macro2 v1.0.39
+   Compiling unicode-ident v1.0.0
+   Compiling log v0.4.17
 error: linker `/usr/bin/clang` not found
   |
   = note: No such file or directory (os error 2)
@@ -12,3 +15,5 @@ error: linker `/usr/bin/clang` not found
 error: could not compile `serde` (build script) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...
 error: could not compile `libc` (build script) due to 1 previous error
+error: could not compile `log` (build script) due to 1 previous error
+error: could not compile `proc-macro2` (build script) due to 1 previous error

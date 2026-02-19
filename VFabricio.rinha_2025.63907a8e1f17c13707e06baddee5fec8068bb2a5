@@ -1,4 +1,4 @@
-Running as unit: run-p3974683-i3974983.scope; invocation ID: 027aeb4dfd92432a8fa2256878b63d8b
+Running as unit: run-p1603768-i5797459.scope; invocation ID: 4e9138173f5b4e6086f9466b2609a6c4
    Compiling proc-macro2 v1.0.95
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.174
@@ -9,90 +9,90 @@ Running as unit: run-p3974683-i3974983.scope; invocation ID: 027aeb4dfd92432a8fa
     Checking bytes v1.10.1
    Compiling thiserror v2.0.14
    Compiling crunchy v0.2.4
-    Checking itoa v1.0.15
     Checking futures-core v0.3.31
-    Checking futures-sink v0.3.31
+    Checking itoa v1.0.15
    Compiling tiny-keccak v2.0.2
+    Checking futures-sink v0.3.31
+   Compiling cfg-if v1.0.1
     Checking writeable v0.6.1
     Checking litemap v0.8.0
-   Compiling cfg-if v1.0.1
-   Compiling icu_properties_data v2.0.1
-    Checking smallvec v1.15.1
-   Compiling autocfg v1.5.0
-   Compiling ucd-trie v0.1.7
    Compiling icu_normalizer_data v2.0.0
    Compiling once_cell v1.21.3
+   Compiling autocfg v1.5.0
+   Compiling ucd-trie v0.1.7
+    Checking smallvec v1.15.1
+   Compiling icu_properties_data v2.0.1
    Compiling quote v1.0.40
     Checking futures-channel v0.3.31
-   Compiling num-traits v0.2.19
-    Checking futures-task v0.3.31
-    Checking futures-io v0.3.31
-    Checking mio v1.0.4
-   Compiling syn v2.0.104
-    Checking socket2 v0.6.0
     Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
+   Compiling num-traits v0.2.19
+    Checking futures-io v0.3.31
     Checking slab v0.4.11
-   Compiling getrandom v0.2.16
-    Checking ryu v1.0.20
     Checking foldhash v0.1.5
-    Checking hashbrown v0.14.5
+    Checking ryu v1.0.20
+   Compiling syn v2.0.104
+    Checking mio v1.0.4
+    Checking socket2 v0.6.0
     Checking hashbrown v0.15.5
-   Compiling serde_json v1.0.142
-   Compiling const-random-macro v0.1.16
-   Compiling shlex v1.3.0
-    Checking fnv v1.0.7
    Compiling anyhow v1.0.99
+   Compiling getrandom v0.2.16
+   Compiling const-random-macro v0.1.16
+   Compiling serde_json v1.0.142
     Checking winnow v0.7.12
-   Compiling cc v1.2.32
+    Checking fnv v1.0.7
+    Checking hashbrown v0.14.5
+   Compiling shlex v1.3.0
+    Checking http v1.3.1
     Checking const-random v0.1.18
     Checking dlv-list v0.5.2
-    Checking http v1.3.1
+   Compiling cc v1.2.32
     Checking encoding_rs v0.8.35
-    Checking ordered-multimap v0.7.3
     Checking hashlink v0.10.0
+    Checking unicode-segmentation v1.12.0
+    Checking ordered-multimap v0.7.3
+   Compiling httparse v1.10.1
     Checking arraydeque v0.5.1
     Checking base64 v0.21.7
-    Checking percent-encoding v2.3.1
     Checking utf8_iter v1.0.4
-    Checking unicode-segmentation v1.12.0
-   Compiling httparse v1.10.1
-    Checking form_urlencoded v1.2.1
+    Checking percent-encoding v2.3.1
     Checking rust-ini v0.21.2
-    Checking http-body v1.0.1
     Checking convert_case v0.6.0
+    Checking form_urlencoded v1.2.1
+    Checking http-body v1.0.1
     Checking num-integer v0.1.46
-    Checking either v1.15.0
-    Checking try-lock v0.2.5
     Checking pathdiff v0.2.3
-    Checking tracing-core v0.1.34
+    Checking try-lock v0.2.5
+    Checking either v1.15.0
     Checking want v0.3.1
+    Checking tracing-core v0.1.34
+    Checking yaml-rust2 v0.10.3
     Checking num-bigint v0.4.6
     Checking itertools v0.13.0
-    Checking yaml-rust2 v0.10.3
+   Compiling tikv-jemalloc-sys v0.5.4+5.3.0-patched
     Checking socket2 v0.5.10
+    Checking httpdate v1.0.3
     Checking sha1_smol v1.0.1
     Checking arc-swap v1.7.1
-    Checking httpdate v1.0.3
     Checking tracing v0.1.41
     Checking tower-service v0.3.3
     Checking http-body-util v0.1.3
-   Compiling tikv-jemalloc-sys v0.5.4+5.3.0-patched
     Checking iana-time-zone v0.1.63
     Checking fastrand v2.3.0
     Checking toml_parser v1.0.2
    Compiling synstructure v0.13.2
-   Compiling zerofrom-derive v0.1.6
-   Compiling yoke-derive v0.8.0
    Compiling serde_derive v1.0.219
    Compiling zerovec-derive v0.11.1
    Compiling displaydoc v0.2.5
    Compiling thiserror-impl v2.0.14
    Compiling tokio-macros v2.5.0
-    Checking tokio v1.47.1
    Compiling futures-macro v0.3.31
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+    Checking tokio v1.47.1
+    Checking futures-util v0.3.31
    Compiling async-trait v0.1.88
    Compiling pest v2.8.1
-    Checking futures-util v0.3.31
     Checking zerofrom v0.1.6
     Checking yoke v0.8.0
     Checking zerovec v0.11.4
@@ -102,13 +102,13 @@ Running as unit: run-p3974683-i3974983.scope; invocation ID: 027aeb4dfd92432a8fa
     Checking potential_utf v0.1.2
     Checking icu_collections v2.0.0
     Checking icu_locale_core v2.0.0
-    Checking icu_provider v2.0.0
-   Compiling pest_generator v2.8.1
-    Checking icu_normalizer v2.0.0
-    Checking icu_properties v2.0.1
     Checking futures-executor v0.3.31
-   Compiling pest_derive v2.8.1
+   Compiling pest_generator v2.8.1
     Checking futures v0.3.31
+    Checking icu_provider v2.0.0
+    Checking icu_properties v2.0.1
+    Checking icu_normalizer v2.0.0
+   Compiling pest_derive v2.8.1
     Checking tokio-util v0.7.16
     Checking tokio-splice v0.2.1
     Checking hyper v1.6.0
@@ -125,23 +125,22 @@ Running as unit: run-p3974683-i3974983.scope; invocation ID: 027aeb4dfd92432a8fa
     Checking ron v0.8.1
     Checking toml v0.9.5
     Checking config v0.15.13
-    Checking queue v0.1.0 (/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/queue)
-    Checking redis v0.27.6
+    Checking queue v0.1.0 (/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/queue)
 error: failed to run custom build command for `tikv-jemalloc-sys v0.5.4+5.3.0-patched`
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-8e132b1af3557947/build-script-build` (exit status: 101)
+  process didn't exit successfully: `/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-9ce1ae179ed171e2/build-script-build` (exit status: 101)
   --- stdout
   TARGET=x86_64-unknown-linux-gnu
   HOST=x86_64-unknown-linux-gnu
   NUM_JOBS=8
-  OUT_DIR="/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out"
-  BUILD_DIR="/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build"
+  OUT_DIR="/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out"
+  BUILD_DIR="/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build"
   SRC_DIR="/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.5.4+5.3.0-patched"
   cargo:rustc-cfg=prefixed
   cargo:rerun-if-env-changed=JEMALLOC_OVERRIDE
   OPT_LEVEL = Some(0)
-  OUT_DIR = Some(/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out)
+  OUT_DIR = Some(/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out)
   TARGET = Some(x86_64-unknown-linux-gnu)
   HOST = Some(x86_64-unknown-linux-gnu)
   cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
@@ -179,7 +178,7 @@ Caused by:
   cargo:rerun-if-env-changed=JEMALLOC_SYS_WITH_LG_VADDR
   --with-jemalloc-prefix=_rjem_
   CARGO_FEATURE_DISABLE_INITIAL_EXEC_TLS set
-  running: cd "/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build" && CC="gcc" CFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" CPPFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" LDFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" "sh" "/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build/configure" "--disable-cxx" "--enable-doc=no" "--enable-shared=no" "--with-jemalloc-prefix=_rjem_" "--with-private-namespace=_rjem_" "--disable-initial-exec-tls" "--host=x86_64-unknown-linux-gnu" "--build=x86_64-unknown-linux-gnu" "--prefix=/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out"
+  running: cd "/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build" && CC="gcc" CFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" CPPFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" LDFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" "sh" "/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build/configure" "--disable-cxx" "--enable-doc=no" "--enable-shared=no" "--with-jemalloc-prefix=_rjem_" "--with-private-namespace=_rjem_" "--disable-initial-exec-tls" "--host=x86_64-unknown-linux-gnu" "--build=x86_64-unknown-linux-gnu" "--prefix=/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out"
   checking for xsltproc... false
   checking for x86_64-unknown-linux-gnu-gcc... gcc
   checking whether the C compiler works... yes
@@ -364,7 +363,7 @@ Caused by:
   jemalloc version   : 5.3.0-0-g54eaed1d8b56b1aa528be3bdd1877e59c56fa90c
   library revision   : 2
 
-  CONFIG             : --disable-cxx --enable-doc=no --enable-shared=no --with-jemalloc-prefix=_rjem_ --with-private-namespace=_rjem_ --disable-initial-exec-tls --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --prefix=/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out build_alias=x86_64-unknown-linux-gnu host_alias=x86_64-unknown-linux-gnu CC=gcc 'CFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'LDFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'CPPFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' CXX=g++
+  CONFIG             : --disable-cxx --enable-doc=no --enable-shared=no --with-jemalloc-prefix=_rjem_ --with-private-namespace=_rjem_ --disable-initial-exec-tls --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --prefix=/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out build_alias=x86_64-unknown-linux-gnu host_alias=x86_64-unknown-linux-gnu CC=gcc 'CFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'LDFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'CPPFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' CXX=g++
   CC                 : gcc
   CONFIGURE_CFLAGS   : -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops
   SPECIFIED_CFLAGS   : -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall
@@ -383,17 +382,17 @@ Caused by:
   XSLTPROC           : false
   XSLROOT            : 
 
-  PREFIX             : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out
-  BINDIR             : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/bin
-  DATADIR            : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/share
-  INCLUDEDIR         : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/include
-  LIBDIR             : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/lib
-  MANDIR             : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/share/man
+  PREFIX             : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out
+  BINDIR             : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/bin
+  DATADIR            : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/share
+  INCLUDEDIR         : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/include
+  LIBDIR             : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/lib
+  MANDIR             : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/share/man
 
   srcroot            : 
-  abs_srcroot        : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build/
+  abs_srcroot        : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build/
   objroot            : 
-  abs_objroot        : /tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build/
+  abs_objroot        : /tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build/
 
   JEMALLOC_PREFIX    : _rjem_
   JEMALLOC_PRIVATE_NAMESPACE
@@ -419,15 +418,15 @@ Caused by:
   cache-oblivious    : 1
   cxx                : 0
   ===============================================================================
-  running: cd "/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build" && "make" "-j" "8"
+  running: cd "/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build" && "make" "-j" "8"
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/jemalloc.sym.o src/jemalloc.c
+  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bin.sym.o src/bin.c
+  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/arena.sym.o src/arena.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/background_thread.sym.o src/background_thread.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/base.sym.o src/base.c
-  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bin.sym.o src/bin.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bin_info.sym.o src/bin_info.c
-  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/buf_writer.sym.o src/buf_writer.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/bitmap.sym.o src/bitmap.c
-  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/arena.sym.o src/arena.c
+  gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/buf_writer.sym.o src/buf_writer.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/cache_bin.sym.o src/cache_bin.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/ckh.sym.o src/ckh.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/counter.sym.o src/counter.c
@@ -462,39 +461,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/background_thread.c:1:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/jemalloc.c:2:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/bin.c:1:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
                    from src/bitmap.c:1:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/bin_info.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -510,7 +477,31 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/base.c:1:
+                   from src/bin.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/background_thread.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/bin_info.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/jemalloc.c:2:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -519,6 +510,14 @@ Caused by:
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
                    from src/buf_writer.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/base.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -590,7 +589,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/edata_cache.c:1:
+                   from src/ehooks.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -598,7 +597,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/ehooks.c:1:
+                   from src/edata_cache.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -662,7 +661,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/san_bump.c:1:
+                   from src/san.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -670,7 +669,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/san.c:1:
+                   from src/san_bump.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -750,11 +749,11 @@ Caused by:
   src/malloc_io.c:107:16: error: returning ‘char *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
     107 |         return strerror_r(err, buf, buflen);
         |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  make: *** [Makefile:479: src/malloc_io.sym.o] Error 1
+  make: *** [Makefile:480: src/malloc_io.sym.o] Error 1
   make: *** Waiting for unfinished jobs....
 
-  thread 'main' (3975692) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.5.4+5.3.0-patched/build.rs:351:9:
-  command did not execute successfully: cd "/tmp/nix-shell.AaBijX/VFabricio_rinha_2025_sjtp2kdb/target/debug/build/tikv-jemalloc-sys-aa15242e7b169de6/out/build" && "make" "-j" "8"
+  thread 'main' (1604654) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.5.4+5.3.0-patched/build.rs:351:9:
+  command did not execute successfully: cd "/tmp/nix-shell.cigUv1/VFabricio_rinha_2025_ttlvjawz/target/debug/build/tikv-jemalloc-sys-b067657c58867de0/out/build" && "make" "-j" "8"
   expected success, got: exit status: 2
   note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 warning: build failed, waiting for other jobs to finish...

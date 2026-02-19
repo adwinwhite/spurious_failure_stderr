@@ -1,4 +1,4 @@
-Running as unit: run-p1179213-i13759520.scope; invocation ID: d71ddfbdea654e9aa488daf3f407387d
+Running as unit: run-p1531388-i5725079.scope; invocation ID: e96d387cee784612829372505028ebc9
    Compiling proc-macro2 v1.0.93
    Compiling unicode-ident v1.0.16
    Compiling libc v0.2.169
@@ -6,11 +6,11 @@ Running as unit: run-p1179213-i13759520.scope; invocation ID: d71ddfbdea654e9aa4
     Checking stable_deref_trait v1.2.0
     Checking memchr v2.7.4
     Checking cfg-if v1.0.0
-   Compiling crossbeam-utils v0.8.21
+   Compiling version_check v0.9.5
 error[E0463]: can't find crate for `core`
   |
   = note: the `wasm32-wasip1` target may not be installed
-  = help: consider downloading the target with `rustup target add wasm32-wasip1`
+  = help: consider adding the standard library to the sysroot with `x build library --target wasm32-wasip1`
   = help: consider building the standard library from source with `cargo build -Zbuild-std`
 
 For more information about this error, try `rustc --explain E0463`.

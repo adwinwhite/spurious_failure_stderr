@@ -1,26 +1,26 @@
-Running as unit: run-p780630-i4974321.scope; invocation ID: 8d3780035b904e3ab434da617450da36
+Running as unit: run-p1717679-i5911370.scope; invocation ID: dcd72c8f48eb41f7b5064a7d42df3254
    Compiling proc-macro2 v1.0.87
    Compiling unicode-ident v1.0.13
    Compiling serde v1.0.210
    Compiling paste v1.0.15
    Compiling crossbeam-utils v0.8.20
     Checking cfg-if v1.0.0
-    Checking unicode-width v0.1.14
    Compiling shlex v1.3.0
-   Compiling cc v1.1.31
-    Checking getopts v0.2.21
+    Checking unicode-width v0.1.14
     Checking byteorder v1.5.0
    Compiling libc v0.2.161
-    Checking timely_bytes v0.12.0
+   Compiling cc v1.1.31
     Checking timely_logging v0.12.1
-    Checking columnation v0.1.0
+    Checking getopts v0.2.21
+    Checking timely_bytes v0.12.0
    Compiling random-trait v0.1.1
+    Checking fnv v1.0.7
+    Checking either v1.13.0
+    Checking columnation v0.1.0
+    Checking itertools v0.13.0
     Checking crossbeam-channel v0.5.13
    Compiling quote v1.0.37
-    Checking fnv v1.0.7
    Compiling syn v2.0.79
-    Checking either v1.13.0
-    Checking itertools v0.13.0
    Compiling tikv-jemalloc-sys v0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
     Checking random-fast-rng v0.1.1
    Compiling serde_derive v1.0.210
@@ -31,20 +31,20 @@ Running as unit: run-p780630-i4974321.scope; invocation ID: 8d3780035b904e3ab434
 error: failed to run custom build command for `tikv-jemalloc-sys v0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7`
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-e937525a550c06f4/build-script-build` (exit status: 101)
+  process didn't exit successfully: `/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-58fbfb89fae828c4/build-script-build` (exit status: 101)
   --- stdout
   TARGET=x86_64-unknown-linux-gnu
   HOST=x86_64-unknown-linux-gnu
-  NUM_JOBS=6
-  OUT_DIR="/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out"
-  BUILD_DIR="/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build"
+  NUM_JOBS=8
+  OUT_DIR="/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out"
+  BUILD_DIR="/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build"
   SRC_DIR="/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7"
   cargo:rustc-cfg=prefixed
   cargo:rerun-if-env-changed=X86_64_UNKNOWN_LINUX_GNU_JEMALLOC_OVERRIDE
   cargo:rerun-if-env-changed=JEMALLOC_OVERRIDE
   OPT_LEVEL = Some(0)
   TARGET = Some(x86_64-unknown-linux-gnu)
-  OUT_DIR = Some(/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out)
+  OUT_DIR = Some(/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out)
   HOST = Some(x86_64-unknown-linux-gnu)
   cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
   CC_x86_64-unknown-linux-gnu = None
@@ -85,7 +85,7 @@ Caused by:
   cargo:rerun-if-env-changed=JEMALLOC_SYS_WITH_LG_VADDR
   --with-jemalloc-prefix=_rjem_
   CARGO_FEATURE_STATS not set
-  running: cd "/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build" && CC="gcc" CFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" CPPFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" LDFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" "sh" "/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build/configure" "--with-version=5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7" "--disable-cxx" "--enable-doc=no" "--enable-shared=no" "--with-jemalloc-prefix=_rjem_" "--with-private-namespace=_rjem_" "--disable-stats" "--host=x86_64-unknown-linux-gnu" "--build=x86_64-unknown-linux-gnu" "--prefix=/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out"
+  running: cd "/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build" && CC="gcc" CFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" CPPFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" LDFLAGS="-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall" "sh" "/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build/configure" "--with-version=5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7" "--disable-cxx" "--enable-doc=no" "--enable-shared=no" "--with-jemalloc-prefix=_rjem_" "--with-private-namespace=_rjem_" "--disable-stats" "--host=x86_64-unknown-linux-gnu" "--build=x86_64-unknown-linux-gnu" "--prefix=/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out"
   checking for xsltproc... false
   checking for x86_64-unknown-linux-gnu-gcc... gcc
   checking whether the C compiler works... yes
@@ -270,7 +270,7 @@ Caused by:
   jemalloc version   : 5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
   library revision   : 2
 
-  CONFIG             : --with-version=5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7 --disable-cxx --enable-doc=no --enable-shared=no --with-jemalloc-prefix=_rjem_ --with-private-namespace=_rjem_ --disable-stats --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --prefix=/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out build_alias=x86_64-unknown-linux-gnu host_alias=x86_64-unknown-linux-gnu CC=gcc 'CFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'LDFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'CPPFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' CXX=g++
+  CONFIG             : --with-version=5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7 --disable-cxx --enable-doc=no --enable-shared=no --with-jemalloc-prefix=_rjem_ --with-private-namespace=_rjem_ --disable-stats --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --prefix=/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out build_alias=x86_64-unknown-linux-gnu host_alias=x86_64-unknown-linux-gnu CC=gcc 'CFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'LDFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' 'CPPFLAGS=-O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall' CXX=g++
   CC                 : gcc
   CONFIGURE_CFLAGS   : -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops
   SPECIFIED_CFLAGS   : -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall
@@ -289,17 +289,17 @@ Caused by:
   XSLTPROC           : false
   XSLROOT            : 
 
-  PREFIX             : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out
-  BINDIR             : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/bin
-  DATADIR            : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/share
-  INCLUDEDIR         : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/include
-  LIBDIR             : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/lib
-  MANDIR             : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/share/man
+  PREFIX             : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out
+  BINDIR             : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/bin
+  DATADIR            : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/share
+  INCLUDEDIR         : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/include
+  LIBDIR             : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/lib
+  MANDIR             : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/share/man
 
   srcroot            : 
-  abs_srcroot        : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build/
+  abs_srcroot        : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build/
   objroot            : 
-  abs_objroot        : /tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build/
+  abs_objroot        : /tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build/
 
   JEMALLOC_PREFIX    : _rjem_
   JEMALLOC_PRIVATE_NAMESPACE
@@ -325,7 +325,7 @@ Caused by:
   cache-oblivious    : 1
   cxx                : 0
   ===============================================================================
-  running: cd "/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build" && "make" "-j" "6"
+  running: cd "/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build" && "make" "-j" "8"
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/jemalloc.sym.o src/jemalloc.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/arena.sym.o src/arena.c
   gcc -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -Wno-missing-attributes -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -c -O0 -ffunction-sections -fdata-sections -fPIC -m64 -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -o src/background_thread.sym.o src/background_thread.c
@@ -369,14 +369,6 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/bin.c:1:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
                    from src/base.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
@@ -401,7 +393,23 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/background_thread.c:1:
+                   from src/bitmap.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/bin.c:1:
+  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+        |    ^~~~~~~
+  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
+                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
+                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
+                   from include/jemalloc/internal/jemalloc_preamble.h:5,
+                   from src/buf_writer.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -417,15 +425,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/bitmap.c:1:
-  /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
-    422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
-        |    ^~~~~~~
-  In file included from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/bits/libc-header-start.h:33,
-                   from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
-                   from include/jemalloc/internal/jemalloc_internal_decls.h:4,
-                   from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/buf_writer.c:1:
+                   from src/background_thread.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -601,7 +601,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/hpdata.c:1:
+                   from src/hpa_hooks.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -609,7 +609,7 @@ Caused by:
                    from /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/math.h:27,
                    from include/jemalloc/internal/jemalloc_internal_decls.h:4,
                    from include/jemalloc/internal/jemalloc_preamble.h:5,
-                   from src/hpa_hooks.c:1:
+                   from src/hpdata.c:1:
   /nix/store/x4cz3spvw0bwwz5sjsdn2qm4f89rcryn-glibc-2.40-66-dev/include/features.h:422:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
     422 | #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
         |    ^~~~~~~
@@ -668,8 +668,8 @@ Caused by:
   make: *** [Makefile:480: src/malloc_io.sym.o] Error 1
   make: *** Waiting for unfinished jobs....
 
-  thread 'main' (781054) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/build.rs:388:9:
-  command did not execute successfully: cd "/tmp/nix-shell.AaBijX/nooberfsh_dd_reduce_2a7_l8o3/target/debug/build/tikv-jemalloc-sys-a32d8fe362decfab/out/build" && "make" "-j" "6"
+  thread 'main' (1718063) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tikv-jemalloc-sys-0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7/build.rs:388:9:
+  command did not execute successfully: cd "/tmp/nix-shell.cigUv1/nooberfsh_dd_reduce_9f8nynb1/target/debug/build/tikv-jemalloc-sys-5a8c9d4621c69da7/out/build" && "make" "-j" "8"
   expected success, got: exit status: 2
   note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 warning: build failed, waiting for other jobs to finish...

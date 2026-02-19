@@ -1,6 +1,6 @@
-Running as unit: run-p1105229-i13685541.scope; invocation ID: e54b021dbb474ffb8b2e1d55dcfa3175
+Running as unit: run-p926547-i5120238.scope; invocation ID: 1a9487c034ff4f1e848dffff1c011833
     Updating `tuna` index
-     Locking 444 packages to latest compatible versions
+     Locking 443 packages to latest compatible versions
       Adding askama v0.12.1 (available: v0.15.4)
       Adding askama_axum v0.4.0 (available: v0.5.0+deprecated)
       Adding axum v0.7.9 (available: v0.8.8)
@@ -20,12 +20,10 @@ Running as unit: run-p1105229-i13685541.scope; invocation ID: e54b021dbb474ffb8b
       Adding tower-sessions-moka-store v0.13.0 (available: v0.15.0)
       Adding tower-sessions-redis-store v0.13.0 (available: v0.16.0)
       Adding validator v0.18.1 (available: v0.20.0)
- Downloading crates ...
-  Downloaded native-tls v0.2.15 (registry `tuna`)
    Compiling proc-macro2 v1.0.106
-   Compiling unicode-ident v1.0.23
+   Compiling unicode-ident v1.0.24
    Compiling quote v1.0.44
-   Compiling libc v0.2.181
+   Compiling libc v0.2.182
     Checking cfg-if v1.0.4
    Compiling serde_core v1.0.228
    Compiling serde v1.0.228
@@ -34,205 +32,204 @@ Running as unit: run-p1105229-i13685541.scope; invocation ID: e54b021dbb474ffb8b
    Compiling parking_lot_core v0.9.12
     Checking pin-project-lite v0.2.16
     Checking memchr v2.8.0
+    Checking futures-core v0.3.32
     Checking itoa v1.0.17
-    Checking futures-core v0.3.31
     Checking bytes v1.11.1
     Checking scopeguard v1.2.0
-   Compiling typenum v1.19.0
+    Checking futures-sink v0.3.32
     Checking log v0.4.29
-    Checking futures-sink v0.3.31
+   Compiling typenum v1.19.0
    Compiling generic-array v0.14.7
    Compiling autocfg v1.5.0
     Checking slab v0.4.12
-    Checking futures-channel v0.3.31
-    Checking pin-utils v0.1.0
-    Checking futures-io v0.3.31
-    Checking futures-task v0.3.31
+    Checking futures-channel v0.3.32
+    Checking futures-io v0.3.32
    Compiling num-traits v0.2.19
+    Checking futures-task v0.3.32
     Checking stable_deref_trait v1.2.1
-    Checking percent-encoding v2.3.2
+   Compiling syn v2.0.116
     Checking subtle v2.6.1
-    Checking powerfmt v0.2.0
+    Checking percent-encoding v2.3.2
    Compiling find-msvc-tools v0.1.9
-   Compiling syn v2.0.115
    Compiling time-core v0.1.8
-   Compiling num-conv v0.2.0
    Compiling shlex v1.3.0
+    Checking powerfmt v0.2.0
+   Compiling num-conv v0.2.0
+   Compiling cc v1.2.56
    Compiling time-macros v0.2.27
     Checking getrandom v0.2.17
-    Checking errno v0.3.14
-    Checking signal-hook-registry v1.4.8
-    Checking rand_core v0.6.4
     Checking once_cell v1.21.3
-    Checking mio v1.1.1
-    Checking socket2 v0.6.2
+    Checking rand_core v0.6.4
     Checking tracing-core v0.1.36
-   Compiling cc v1.2.55
-   Compiling zmij v1.0.21
+    Checking errno v0.3.14
+    Checking mio v1.1.1
+    Checking signal-hook-registry v1.4.8
+    Checking socket2 v0.6.2
     Checking num_threads v0.1.7
-   Compiling crossbeam-utils v0.8.21
+   Compiling zmij v1.0.21
    Compiling serde_json v1.0.149
-    Checking equivalent v1.0.2
-    Checking writeable v0.6.2
+   Compiling crossbeam-utils v0.8.21
     Checking litemap v0.8.1
+    Checking writeable v0.6.2
+    Checking equivalent v1.0.2
     Checking cpufeatures v0.2.17
-   Compiling icu_normalizer_data v2.1.1
-    Checking crypto-common v0.1.7
-    Checking block-buffer v0.10.4
    Compiling pkg-config v0.3.32
    Compiling icu_properties_data v2.1.2
    Compiling vcpkg v0.2.15
-    Checking digest v0.10.7
+   Compiling icu_normalizer_data v2.1.1
     Checking form_urlencoded v1.2.2
     Checking base64 v0.22.1
     Checking http v1.4.0
-    Checking deranged v0.5.6
     Checking hashbrown v0.16.1
     Checking num-integer v0.1.46
    Compiling rustversion v1.0.22
-   Compiling openssl-sys v0.9.111
     Checking tower-service v0.3.3
+   Compiling openssl-sys v0.9.111
+   Compiling getrandom v0.4.1
     Checking utf8_iter v1.0.4
-   Compiling getrandom v0.3.4
     Checking concurrent-queue v2.5.0
-    Checking http-body v1.0.1
-    Checking indexmap v2.13.0
-    Checking parking v2.2.1
    Compiling zerocopy v0.8.39
+    Checking parking v2.2.1
+    Checking deranged v0.5.6
+    Checking indexmap v2.13.0
     Checking tower-layer v0.3.3
+    Checking http-body v1.0.1
     Checking event-listener v5.4.1
     Checking num-bigint v0.4.6
-    Checking sha2 v0.10.9
-   Compiling heck v0.4.1
-   Compiling ident_case v1.0.1
    Compiling libm v0.2.16
    Compiling fnv v1.0.7
-    Checking mime v0.3.17
    Compiling strsim v0.11.1
-    Checking time v0.3.47
-    Checking uuid v1.20.0
+   Compiling ident_case v1.0.1
+    Checking mime v0.3.17
+   Compiling heck v0.4.1
+    Checking uuid v1.21.0
     Checking http-body-util v0.1.3
    Compiling bigdecimal v0.4.10
     Checking sync_wrapper v1.0.2
-   Compiling rust_decimal v1.40.0
-   Compiling openssl v0.10.75
     Checking ryu v1.0.23
-    Checking iana-time-zone v0.1.65
     Checking foreign-types-shared v0.1.1
-    Checking bitflags v2.10.0
+   Compiling openssl v0.10.75
+    Checking iana-time-zone v0.1.65
+   Compiling rust_decimal v1.40.0
+    Checking bitflags v2.11.0
     Checking foreign-types v0.3.2
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking time v0.3.47
     Checking crossbeam-queue v0.3.12
-    Checking arrayvec v0.7.6
-    Checking allocator-api2 v0.2.21
+    Checking digest v0.10.7
     Checking foldhash v0.1.5
    Compiling thiserror v1.0.69
-   Compiling native-tls v0.2.15
+    Checking sha2 v0.10.9
+    Checking arrayvec v0.7.6
+    Checking allocator-api2 v0.2.21
    Compiling thiserror v2.0.18
-    Checking hashbrown v0.15.5
+   Compiling native-tls v0.2.16
    Compiling libsqlite3-sys v0.30.1
-    Checking openssl-probe v0.1.6
+    Checking openssl-probe v0.2.1
+    Checking hashbrown v0.15.5
     Checking crc-catalog v2.4.0
     Checking crc v3.4.0
    Compiling unicase v2.9.0
-    Checking hashlink v0.10.0
     Checking atoi v2.0.0
     Checking aho-corasick v1.1.4
    Compiling proc-macro2-diagnostics v0.10.1
-   Compiling heck v0.5.0
     Checking regex-syntax v0.8.9
+   Compiling heck v0.5.0
     Checking inout v0.1.4
     Checking ordered-float v4.6.0
+    Checking hashlink v0.10.0
    Compiling proc-macro-error-attr2 v2.0.0
     Checking utf8parse v0.2.2
    Compiling yansi v1.0.1
-   Compiling synstructure v0.13.2
-   Compiling darling_core v0.20.11
-   Compiling proc-macro-error2 v2.0.1
     Checking anstyle-parse v0.2.7
     Checking cipher v0.4.4
     Checking universal-hash v0.5.1
     Checking opaque-debug v0.3.1
    Compiling unicode-xid v0.2.6
-    Checking anstyle v1.0.13
-    Checking is_terminal_polyfill v1.70.2
-    Checking anstyle-query v1.1.5
     Checking colorchoice v1.0.4
    Compiling httparse v1.10.1
+    Checking is_terminal_polyfill v1.70.2
+    Checking anstyle v1.0.13
+    Checking anstyle-query v1.1.5
     Checking polyval v0.6.2
-    Checking anstream v0.6.21
-    Checking lazy_static v1.5.0
-    Checking atomic-waker v1.1.2
-    Checking aliasable v0.1.3
-    Checking clap_lex v1.0.0
-    Checking httpdate v1.0.3
-    Checking unicode-width v0.2.2
     Checking static_assertions v1.1.0
-    Checking sharded-slab v0.1.7
-    Checking clap_builder v4.5.58
+    Checking clap_lex v1.0.0
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+   Compiling proc-macro-error2 v2.0.1
+    Checking anstream v0.6.21
+    Checking atomic-waker v1.1.2
+    Checking unicode-width v0.2.2
+    Checking lazy_static v1.5.0
+    Checking httpdate v1.0.3
     Checking regex-automata v0.4.14
+    Checking aliasable v0.1.3
+    Checking sharded-slab v0.1.7
+    Checking clap_builder v4.5.59
     Checking ghash v0.5.1
-    Checking aes v0.8.4
    Compiling serde_derive v1.0.228
    Compiling tracing-attributes v0.1.31
    Compiling tokio-macros v2.6.0
-   Compiling futures-macro v0.3.31
-   Compiling zerofrom-derive v0.1.6
-   Compiling yoke-derive v0.8.1
+   Compiling futures-macro v0.3.32
     Checking tracing v0.1.44
+   Compiling zerofrom-derive v0.1.6
+    Checking futures-util v0.3.32
+   Compiling yoke-derive v0.8.1
    Compiling zerovec-derive v0.11.2
-    Checking futures-util v0.3.31
    Compiling displaydoc v0.2.5
    Compiling async-trait v0.1.89
    Compiling thiserror-impl v2.0.18
+    Checking ppv-lite86 v0.2.21
     Checking zerofrom v0.1.6
    Compiling darling_macro v0.20.11
     Checking yoke v0.8.1
-    Checking ppv-lite86 v0.2.21
-    Checking zerovec v0.11.5
-    Checking zerotrie v0.2.3
    Compiling openssl-macros v0.1.1
    Compiling darling v0.20.11
-    Checking rand_chacha v0.3.1
    Compiling thiserror-impl v1.0.69
+    Checking zerovec v0.11.5
+    Checking zerotrie v0.2.3
+    Checking rand_chacha v0.3.1
     Checking rand v0.8.5
+   Compiling inherent v1.0.13
+   Compiling derive_more-impl v2.1.1
     Checking tinystr v0.8.2
-    Checking icu_locale_core v2.1.1
     Checking potential_utf v0.1.4
     Checking icu_collections v2.1.1
+    Checking icu_locale_core v2.1.1
    Compiling sea-query-derive v0.4.3
-    Checking icu_provider v2.1.1
-   Compiling inherent v1.0.13
     Checking lock_api v0.4.14
-    Checking icu_normalizer v2.1.1
-    Checking icu_properties v2.1.2
-    Checking parking_lot v0.12.5
-    Checking futures-executor v0.3.31
     Checking either v1.15.0
-    Checking futures v0.3.31
-    Checking tokio v1.49.0
     Checking serde_urlencoded v0.7.1
+    Checking parking_lot v0.12.5
     Checking chrono v0.4.43
+    Checking tokio v1.49.0
+    Checking icu_provider v2.1.1
+    Checking icu_properties v2.1.2
+    Checking icu_normalizer v2.1.1
+    Checking futures-executor v0.3.32
     Checking axum-core v0.4.5
+    Checking futures v0.3.32
     Checking futures-intrusive v0.5.0
     Checking spin v0.9.8
-    Checking idna_adapter v1.2.1
-    Checking idna v1.1.0
     Checking flume v0.11.1
-   Compiling derive_more-impl v2.1.1
-    Checking url v2.5.8
-    Checking sea-query v0.32.7
-   Compiling ouroboros_macro v0.18.5
    Compiling async-stream-impl v0.3.6
    Compiling sea-bae v0.2.1
-    Checking async-stream v0.3.6
-    Checking regex v1.12.3
+    Checking sea-query v0.32.7
+   Compiling ouroboros_macro v0.18.5
    Compiling sea-orm-macros v1.1.19
-    Checking matchers v0.2.0
-   Compiling clap_derive v4.5.55
-    Checking ouroboros v0.18.5
-    Checking ctr v0.9.2
-   Compiling mime_guess v2.0.5
+    Checking async-stream v0.3.6
     Checking derive_more v2.1.1
+    Checking matchers v0.2.0
+    Checking regex v1.12.3
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+   Compiling clap_derive v4.5.55
+    Checking ctr v0.9.2
+    Checking url v2.5.8
+    Checking aes v0.8.4
+    Checking ouroboros v0.18.5
+   Compiling mime_guess v2.0.5
     Checking hmac v0.12.1
     Checking aead v0.5.2
     Checking tracing-log v0.2.0
@@ -240,123 +237,925 @@ Running as unit: run-p1105229-i13685541.scope; invocation ID: e54b021dbb474ffb8b
    Compiling proc-macro-error-attr v1.0.4
     Checking thread_local v1.1.9
     Checking nu-ansi-term v0.50.3
-   Compiling syn v1.0.109
-    Checking minimal-lexical v0.2.1
     Checking strum v0.26.3
    Compiling crc16 v0.4.0
+    Checking minimal-lexical v0.2.1
+    Checking pin-utils v0.1.0
+   Compiling syn v1.0.109
     Checking nom v7.1.3
     Checking tracing-subscriber v0.3.22
     Checking aes-gcm v0.10.3
     Checking hkdf v0.12.4
    Compiling sea-schema-derive v0.3.0
+    Checking clap v4.5.59
    Compiling proc-macro-error v1.0.4
-    Checking dotenvy v0.15.7
-    Checking clap v4.5.58
    Compiling portable-atomic v1.13.1
-    Checking tinyvec_macros v0.1.1
     Checking glob v0.3.3
-    Checking tokio-stream v0.1.18
-    Checking tokio-util v0.7.18
-    Checking tower-sessions-core v0.12.3
-    Checking sea-orm-cli v1.1.19
-    Checking tower v0.5.3
-    Checking sqlx-core v0.8.6
-    Checking h2 v0.4.13
+    Checking tinyvec_macros v0.1.1
+    Checking dotenvy v0.15.7
     Checking tinyvec v1.10.0
     Checking bytes-utils v0.1.4
    Compiling axum-macros v0.4.2
     Checking event-listener-strategy v0.5.4
-   Compiling libmimalloc-sys v0.1.44
     Checking serde_path_to_error v0.1.20
-    Checking urlencoding v2.1.3
-    Checking matchit v0.7.3
+   Compiling libmimalloc-sys v0.1.44
     Checking base64ct v1.8.3
-   Compiling askama_parser v0.2.1
+    Checking urlencoding v2.1.3
     Checking cookie-factory v0.3.2
-    Checking password-hash v0.5.0
-    Checking async-lock v3.4.2
+    Checking tokio-stream v0.1.18
+    Checking tokio-util v0.7.18
+    Checking sea-orm-cli v1.1.19
+    Checking tower v0.5.3
+    Checking matchit v0.7.3
+    Checking tower-sessions-core v0.12.3
+    Checking sqlx-core v0.8.6
     Checking tower-cookies v0.10.0
     Checking redis-protocol v5.0.1
+    Checking h2 v0.4.13
+    Checking password-hash v0.5.0
+    Checking async-lock v3.4.2
     Checking unicode-normalization v0.1.25
     Checking tower-sessions-memory-store v0.12.3
+   Compiling askama_parser v0.2.1
    Compiling fred-macros v0.1.0
-    Checking arc-swap v1.8.1
     Checking blake2 v0.10.6
-    Checking crossbeam-channel v0.5.15
+    Checking arc-swap v1.8.2
     Checking crossbeam-epoch v0.9.18
-    Checking float-cmp v0.9.0
+    Checking crossbeam-channel v0.5.15
     Checking rmp v0.8.15
+    Checking float-cmp v0.9.0
     Checking socket2 v0.5.10
+    Checking semver v1.0.27
+    Checking tagptr v0.2.0
     Checking askama_escape v0.10.3
     Checking unicode-bidi v0.3.18
-    Checking tagptr v0.2.0
     Checking nonempty v0.7.0
-    Checking sqlx-sqlite v0.8.6
-    Checking semver v1.0.27
-    Checking moka v0.12.13
-    Checking forwarded-header-value v0.1.1
     Checking fred v9.4.0
     Checking rmp-serde v1.3.1
-    Checking idna v0.5.0
+    Checking moka v0.12.13
+    Checking forwarded-header-value v0.1.1
    Compiling validator_derive v0.18.2
+    Checking idna v0.5.0
     Checking argon2 v0.5.3
     Checking tower-sessions v0.12.3
-    Checking hyper v1.8.1
     Checking tower v0.4.13
     Checking ipnetwork v0.20.0
     Checking num-rational v0.4.2
     Checking num-iter v0.1.45
     Checking num-complex v0.4.6
-    Checking sqlx v0.8.6
-    Checking sea-query-binder v0.7.0
     Checking rtoolbox v0.0.3
     Checking http-range-header v0.4.2
-    Checking sea-orm v1.1.19
-    Checking sea-schema v0.16.2
-   Compiling shadyurl-rust v0.2.0 (/tmp/nix-shell.uUVugk/Elizafox_shadyurl-rust_x6ddpewq)
-    Checking num v0.4.3
+   Compiling shadyurl-rust v0.2.0 (/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg)
     Checking tower-http v0.5.2
-    Checking hyper-util v0.1.20
     Checking rpassword v7.4.0
     Checking validator v0.18.1
+    Checking num v0.4.3
     Checking axum-messages v0.6.1
-    Checking tower-sessions-moka-store v0.13.0
-    Checking axum v0.7.9
+    Checking sqlx-sqlite v0.8.6
     Checking password-auth v1.0.0
     Checking mimalloc v0.1.48
     Checking systemd-duration v0.2.0
     Checking itertools v0.13.0
     Checking envy v0.4.2
+    Checking tower-sessions-moka-store v0.13.0
     Checking proctitle v0.1.1
+    Checking hyper v1.8.1
    Compiling askama_derive v0.12.5
+    Checking sqlx v0.8.6
+    Checking sea-query-binder v0.7.0
+    Checking sea-orm v1.1.19
+    Checking sea-schema v0.16.2
+    Checking hyper-util v0.1.20
     Checking askama v0.12.1
     Checking askama_axum v0.4.0
+    Checking axum v0.7.9
     Checking sea-orm-migration v1.1.19
-    Checking entity v0.1.0 (/tmp/nix-shell.uUVugk/Elizafox_shadyurl-rust_x6ddpewq/entity)
-    Checking migration v0.1.0 (/tmp/nix-shell.uUVugk/Elizafox_shadyurl-rust_x6ddpewq/migration)
-    Checking service v0.1.0 (/tmp/nix-shell.uUVugk/Elizafox_shadyurl-rust_x6ddpewq/service)
-    Checking axum-login v0.15.3
+    Checking entity v0.1.0 (/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/entity)
+    Checking migration v0.1.0 (/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/migration)
+    Checking service v0.1.0 (/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/service)
     Checking axum-client-ip v0.6.1
-error[E0275]: overflow evaluating the requirement `{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/fred-9.4.0/src/runtime/_tokio.rs:203:18: 203:28}: std::marker::Send`
-   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/fred-9.4.0/src/runtime/_tokio.rs:203:5
-    |
-203 | /     tokio::spawn(async move {
-204 | |       utils::clear_backchannel_state(&inner).await;
-205 | |       let result = router_commands::start(&inner).await;
-...   |
-216 | |       result
-217 | |     })
-    | |______^
-    |
-    = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`fred`)
-note: required by a bound in `tokio::spawn`
-   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/tokio-1.49.0/src/task/spawn.rs:171:21
-    |
-169 |     pub fn spawn<F>(future: F) -> JoinHandle<F::Output>
-    |            ----- required by a bound in this function
-170 |     where
-171 |         F: Future + Send + 'static,
-    |                     ^^^^ required by this bound in `spawn`
+    Checking axum-login v0.15.3
 
-For more information about this error, try `rustc --explain E0275`.
-error: could not compile `fred` (lib) due to 1 previous error
+thread 'rustc' (930998) panicked at compiler/rustc_mir_build/src/builder/scope.rs:1969:21:
+assertion `left == right` failed
+  left: _12
+ right: _9
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_middle::mir::Local, rustc_middle::mir::Local>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: rustc_mir_build::builder::scope::build_scope_drops::<<rustc_mir_build::builder::Builder>::leave_top_scope::{closure#2}>
+   5: <rustc_mir_build::builder::Builder>::leave_top_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:1235:9
+   6: <rustc_mir_build::builder::Builder>::pop_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:740:22
+   7: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:702:22
+   8: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+   9: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  10: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  11: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  12: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:324:26
+  13: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  14: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  15: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  16: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  17: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  18: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  19: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  20: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  21: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  22: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  23: <rustc_mir_build::builder::Builder>::expr_into_pattern
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/matches/mod.rs:590:30
+  24: <rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:269:38
+  25: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  26: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:261:30
+  27: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  28: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  29: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  30: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  31: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  32: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  33: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  34: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  35: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  36: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  37: <rustc_mir_build::builder::Builder>::args_and_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:1160:18
+  38: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:540:29
+  39: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  40: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:539:30
+  41: <rustc_mir_build::builder::Builder>::in_breakable_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:557:33
+  42: rustc_mir_build::builder::construct_fn::{closure#3}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:538:14
+  43: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  44: rustc_mir_build::builder::construct_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:533:35
+  45: rustc_mir_build::builder::build_mir_inner_impl::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:85:45
+  46: rustc_mir_build::builder::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:94:13
+  47: <rustc_middle::ty::context::TyCtxt>::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hooks/mod.rs:23:17
+  48: rustc_mir_transform::mir_built
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_transform/src/lib.rs:392:24
+      [... omitted 20 frames ...]
+  49: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  50: <rustc_middle::query::plumbing::TyCtxtEnsureDone>::mir_built::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:402:17
+  51: <rustc_mir_build::check_unsafety::UnsafetyVisitor>::visit_inner_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:206:36
+  52: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  53: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  54: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  55: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  56: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  57: rustc_middle::thir::visit::walk_expr::<rustc_mir_build::check_unsafety::UnsafetyVisitor>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/thir/visit.rs:62:25
+  58: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  59: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  60: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  61: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  62: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  63: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  64: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  65: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  66: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  67: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  68: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  69: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  70: rustc_mir_build::check_unsafety::check_unsafety
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:1215:13
+      [... omitted 20 frames ...]
+  71: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 0]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  72: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::check_unsafety::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  73: rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1099:33
+  74: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+  75: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  76: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  77: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  78: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  79: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  80: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  81: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+  82: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+  83: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+  84: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  85: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+  86: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+  87: rustc_interface::passes::run_required_analyses::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1095:13
+  88: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+  89: <rustc_session::session::Session>::time::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+  90: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1094:10
+  91: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+  92: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  93: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  94: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  95: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  96: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  97: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  98: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  99: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 100: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 101: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 102: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 103: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 104: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 105: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 106: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 107: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 108: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 109: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 110: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 111: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 112: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 113: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 114: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 115: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 116: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 117: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 118: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/rustc-ice-2026-02-18T08_07_21-930995.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [mir_built] building MIR for `rudimental::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/rudimental.rs:232:1: 234:13>::from_request_parts::{closure#0}`
+#1 [check_unsafety] unsafety-checking `rudimental::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/rudimental.rs:232:1: 234:13>::from_request_parts`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (930998) panicked at compiler/rustc_mir_build/src/builder/scope.rs:1969:21:
+assertion `left == right` failed
+  left: _12
+ right: _9
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_middle::mir::Local, rustc_middle::mir::Local>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: rustc_mir_build::builder::scope::build_scope_drops::<<rustc_mir_build::builder::Builder>::leave_top_scope::{closure#2}>
+   5: <rustc_mir_build::builder::Builder>::leave_top_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:1235:9
+   6: <rustc_mir_build::builder::Builder>::pop_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:740:22
+   7: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:702:22
+   8: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+   9: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  10: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  11: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  12: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:324:26
+  13: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  14: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  15: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  16: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  17: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  18: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  19: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  20: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  21: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  22: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  23: <rustc_mir_build::builder::Builder>::expr_into_pattern
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/matches/mod.rs:590:30
+  24: <rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:269:38
+  25: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  26: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:261:30
+  27: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  28: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  29: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  30: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  31: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  32: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  33: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  34: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  35: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  36: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  37: <rustc_mir_build::builder::Builder>::args_and_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:1160:18
+  38: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:540:29
+  39: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  40: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:539:30
+  41: <rustc_mir_build::builder::Builder>::in_breakable_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:557:33
+  42: rustc_mir_build::builder::construct_fn::{closure#3}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:538:14
+  43: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  44: rustc_mir_build::builder::construct_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:533:35
+  45: rustc_mir_build::builder::build_mir_inner_impl::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:85:45
+  46: rustc_mir_build::builder::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:94:13
+  47: <rustc_middle::ty::context::TyCtxt>::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hooks/mod.rs:23:17
+  48: rustc_mir_transform::mir_built
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_transform/src/lib.rs:392:24
+      [... omitted 20 frames ...]
+  49: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  50: <rustc_middle::query::plumbing::TyCtxtEnsureDone>::mir_built::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:402:17
+  51: <rustc_mir_build::check_unsafety::UnsafetyVisitor>::visit_inner_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:206:36
+  52: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  53: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  54: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  55: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  56: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  57: rustc_middle::thir::visit::walk_expr::<rustc_mir_build::check_unsafety::UnsafetyVisitor>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/thir/visit.rs:62:25
+  58: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  59: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  60: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  61: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  62: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  63: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  64: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  65: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  66: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  67: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  68: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  69: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  70: rustc_mir_build::check_unsafety::check_unsafety
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:1215:13
+      [... omitted 20 frames ...]
+  71: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 0]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  72: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::check_unsafety::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  73: rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1099:33
+  74: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+  75: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  76: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  77: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  78: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  79: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  80: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  81: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+  82: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+  83: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+  84: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  85: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+  86: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+  87: rustc_interface::passes::run_required_analyses::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1095:13
+  88: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+  89: <rustc_session::session::Session>::time::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+  90: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1094:10
+  91: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+  92: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  93: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  94: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+  95: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  96: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  97: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  98: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  99: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 100: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 101: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 102: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 103: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 104: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 105: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 106: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 107: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 108: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 109: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 110: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 111: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 112: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 113: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 114: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 115: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 116: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 117: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 118: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/rustc-ice-2026-02-18T08_07_21-930995.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [mir_built] building MIR for `rudimental::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/rudimental.rs:274:1: 276:13>::from_request_parts::{closure#0}`
+#1 [check_unsafety] unsafety-checking `rudimental::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/rudimental.rs:274:1: 276:13>::from_request_parts`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+
+thread 'rustc' (930998) panicked at compiler/rustc_mir_build/src/builder/scope.rs:1969:21:
+assertion `left == right` failed
+  left: _28
+ right: _26
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:689:5
+   1: core::panicking::panic_fmt
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:80:14
+   2: core::panicking::assert_failed_inner
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:439:17
+   3: core::panicking::assert_failed::<rustc_middle::mir::Local, rustc_middle::mir::Local>
+             at /home/adwin/Code/rust/rust/base/library/core/src/panicking.rs:394:5
+   4: rustc_mir_build::builder::scope::build_scope_drops::<<rustc_mir_build::builder::Builder>::leave_top_scope::{closure#2}>
+   5: <rustc_mir_build::builder::Builder>::leave_top_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:1235:9
+   6: <rustc_mir_build::builder::Builder>::pop_scope
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:740:22
+   7: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:702:22
+   8: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+   9: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  10: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  11: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  12: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:324:26
+  13: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  14: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  15: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  16: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  17: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  18: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  19: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  20: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  21: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  22: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  23: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:115:37
+  24: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  25: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  26: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  27: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  28: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  29: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  30: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:324:26
+  31: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  32: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  33: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  34: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  35: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  36: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  37: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  38: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  39: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  40: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  41: <rustc_mir_build::builder::Builder>::expr_into_pattern
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/matches/mod.rs:590:30
+  42: <rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:269:38
+  43: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block_stmts::{closure#2}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  44: <rustc_mir_build::builder::Builder>::ast_block_stmts
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:261:30
+  45: <rustc_mir_build::builder::Builder>::ast_block::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:29:22
+  46: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::ast_block::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  47: <rustc_mir_build::builder::Builder>::ast_block
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/block.rs:23:14
+  48: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:58:22
+  49: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:53:30
+  50: <rustc_mir_build::builder::Builder>::in_scope::<<rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  51: <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:52:26
+  52: stacker::maybe_grow::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  53: rustc_data_structures::stack::ensure_sufficient_stack::<rustc_mir_build::builder::BlockAnd<()>, <rustc_mir_build::builder::Builder>::expr_into_dest::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  54: <rustc_mir_build::builder::Builder>::expr_into_dest
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/expr/into.rs:51:17
+  55: <rustc_mir_build::builder::Builder>::args_and_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:1160:18
+  56: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:540:29
+  57: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  58: rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:539:30
+  59: <rustc_mir_build::builder::Builder>::in_breakable_scope::<rustc_mir_build::builder::construct_fn::{closure#3}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:557:33
+  60: rustc_mir_build::builder::construct_fn::{closure#3}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:538:14
+  61: <rustc_mir_build::builder::Builder>::in_scope::<rustc_mir_build::builder::construct_fn::{closure#3}, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/scope.rs:701:34
+  62: rustc_mir_build::builder::construct_fn
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:533:35
+  63: rustc_mir_build::builder::build_mir_inner_impl::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:85:45
+  64: rustc_mir_build::builder::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/builder/mod.rs:94:13
+  65: <rustc_middle::ty::context::TyCtxt>::build_mir_inner_impl
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hooks/mod.rs:23:17
+  66: rustc_mir_transform::mir_built
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_transform/src/lib.rs:392:24
+      [... omitted 20 frames ...]
+  67: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 8]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  68: <rustc_middle::query::plumbing::TyCtxtEnsureDone>::mir_built::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:402:17
+  69: <rustc_mir_build::check_unsafety::UnsafetyVisitor>::visit_inner_body
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:206:36
+  70: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  71: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  72: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  73: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  74: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  75: rustc_middle::thir::visit::walk_expr::<rustc_mir_build::check_unsafety::UnsafetyVisitor>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/thir/visit.rs:62:25
+  76: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  77: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  78: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  79: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  80: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  81: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  82: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  83: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+  84: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:483:26
+  85: stacker::maybe_grow::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  86: rustc_data_structures::stack::ensure_sufficient_stack::<(), <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  87: <rustc_mir_build::check_unsafety::UnsafetyVisitor as rustc_middle::thir::visit::Visitor>::visit_expr
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:482:17
+  88: rustc_mir_build::check_unsafety::check_unsafety
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_mir_build/src/check_unsafety.rs:1215:13
+      [... omitted 20 frames ...]
+  89: rustc_middle::query::inner::query_ensure::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::LocalDefId, rustc_middle::query::erase::ErasedData<[u8; 0]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+  90: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::check_unsafety::<rustc_span::def_id::LocalDefId>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+  91: rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1099:33
+  92: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:79
+  93: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  94: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  95: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  96: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  97: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  98: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  99: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+ 100: <core::slice::iter::Iter<rustc_span::def_id::LocalDefId> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/slice/iter/macros.rs:301:21
+ 101: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+ 102: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+ 103: rustc_data_structures::sync::parallel::par_for_each_in::<&rustc_span::def_id::LocalDefId, &[rustc_span::def_id::LocalDefId], <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+ 104: <rustc_middle::ty::context::TyCtxt>::par_hir_body_owners::<rustc_interface::passes::run_required_analyses::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/hir/map.rs:339:9
+ 105: rustc_interface::passes::run_required_analyses::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1095:13
+ 106: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+ 107: <rustc_session::session::Session>::time::<(), rustc_interface::passes::run_required_analyses::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+ 108: rustc_interface::passes::run_required_analyses
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1094:10
+ 109: rustc_interface::passes::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1142:5
+      [... omitted 20 frames ...]
+ 110: rustc_middle::query::inner::query_ensure::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 0]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:45:9
+ 111: <rustc_middle::query::plumbing::TyCtxtEnsureOk>::analysis
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:188:9
+ 112: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:333:29
+ 113: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+ 114: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+ 115: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+ 116: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+ 117: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+ 118: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+ 119: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+ 120: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+ 121: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+ 122: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+ 123: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+ 124: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+ 125: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+ 126: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+ 127: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+ 128: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+ 129: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+ 130: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+ 131: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+ 132: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+ 133: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+ 134: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+ 135: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+ 136: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+
+error: the compiler unexpectedly panicked. This is a bug
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: please make sure that you have updated to the latest nightly
+
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/rustc-ice-2026-02-18T08_07_21-930995.txt` to your bug report
+
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
+
+note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+#0 [mir_built] building MIR for `secure::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/secure.rs:127:1: 129:13>::from_request_parts::{closure#0}`
+#1 [check_unsafety] unsafety-checking `secure::<impl at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/secure.rs:127:1: 129:13>::from_request_parts`
+... and 1 other queries... use `env RUST_BACKTRACE=1` to see the full query stack
+error: could not compile `axum-client-ip` (lib)
+
+Caused by:
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc --crate-name axum_client_ip --edition=2021 /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/axum-client-ip-0.6.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata -C embed-bitcode=no --deny=rust_2024_compatibility --deny=rust_2021_compatibility --deny=rust_2018_idioms --deny=rust_2018_compatibility --deny=refining_impl_trait --deny=nonstandard_style --deny=let_underscore --deny=keyword_idents --deny=future_incompatible --warn=unused --warn=unreachable_pub '--warn=clippy::all' --forbid=unsafe_code --deny=missing_docs --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=ad1958c4e6a2a96a -C extra-filename=-dc367023ebab04c1 --out-dir /tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/target/debug/deps --extern axum=/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/target/debug/deps/libaxum-d3aaf12d7961341e.rmeta --extern forwarded_header_value=/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/target/debug/deps/libforwarded_header_value-b8338048e11fc187.rmeta --extern serde=/tmp/nix-shell.AaBijX/Elizafox_shadyurl-rust_9iaf4yvg/target/debug/deps/libserde-16264e579f15b290.rmeta --cap-lints allow -Znext-solver` (exit status: 101)
+warning: build failed, waiting for other jobs to finish...

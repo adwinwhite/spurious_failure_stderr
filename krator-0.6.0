@@ -1,4 +1,4 @@
-Running as unit: run-p363414-i4557128.scope; invocation ID: 72163ae3fe6c4d37a26458542f2bb002
+Running as unit: run-p1829988-i6023679.scope; invocation ID: 3ee357cfa9344186839e1dda42617640
    Compiling autocfg v1.0.1
    Compiling proc-macro2 v1.0.32
    Compiling unicode-xid v0.2.2
@@ -7,66 +7,65 @@ Running as unit: run-p363414-i4557128.scope; invocation ID: 72163ae3fe6c4d37a264
     Checking cfg-if v1.0.0
    Compiling log v0.4.14
     Checking pin-project-lite v0.2.7
-   Compiling futures-core v0.3.17
     Checking once_cell v1.8.0
+   Compiling futures-core v0.3.17
    Compiling serde_derive v1.0.130
     Checking itoa v0.4.8
-    Checking bytes v1.1.0
-   Compiling proc-macro-hack v0.5.19
     Checking futures-sink v0.3.17
+   Compiling proc-macro-hack v0.5.19
+    Checking bytes v1.1.0
    Compiling serde v1.0.130
-   Compiling futures-macro v0.3.17
+    Checking slab v0.4.5
+   Compiling proc-macro-nested v0.1.7
    Compiling tokio v1.14.0
+   Compiling futures-macro v0.3.17
+   Compiling memchr v2.4.1
    Compiling futures-channel v0.3.17
    Compiling futures-task v0.3.17
-   Compiling quote v1.0.10
-    Checking slab v0.4.5
-   Compiling memchr v2.4.1
-   Compiling proc-macro-nested v0.1.7
-    Checking signal-hook-registry v1.4.0
-    Checking mio v0.7.14
-   Compiling indexmap v1.7.0
    Compiling futures-util v0.3.17
-   Compiling cc v1.0.72
+   Compiling indexmap v1.7.0
    Compiling pkg-config v0.3.22
+   Compiling cc v1.0.72
+    Checking mio v0.7.14
+    Checking signal-hook-registry v1.4.0
+   Compiling quote v1.0.10
    Compiling num-traits v0.2.14
+    Checking hashbrown v0.11.2
+   Compiling ryu v1.0.5
     Checking pin-utils v0.1.0
     Checking futures-io v0.3.17
     Checking lazy_static v1.4.0
-   Compiling ryu v1.0.5
-    Checking hashbrown v0.11.2
     Checking tracing-core v0.1.21
    Compiling serde_json v1.0.71
     Checking fnv v1.0.7
-   Compiling openssl-sys v0.9.71
     Checking http v0.2.5
    Compiling num-integer v0.1.44
-   Compiling httparse v1.5.1
     Checking tower-service v0.3.1
+   Compiling httparse v1.5.1
     Checking foreign-types-shared v0.1.1
    Compiling openssl v0.10.38
     Checking foreign-types v0.3.2
-   Compiling native-tls v0.2.8
     Checking try-lock v0.2.3
-    Checking bitflags v1.3.2
+   Compiling openssl-sys v0.9.71
     Checking base64 v0.13.0
+    Checking bitflags v1.3.2
+   Compiling native-tls v0.2.8
     Checking want v0.3.0
-    Checking ordered-float v2.8.0
-    Checking socket2 v0.4.2
     Checking time v0.1.44
-   Compiling k8s-openapi v0.13.1
+    Checking socket2 v0.4.2
     Checking openssl-probe v0.1.4
+   Compiling k8s-openapi v0.13.1
     Checking httpdate v1.0.2
     Checking linked-hash-map v0.5.4
     Checking regex-syntax v0.6.25
-    Checking percent-encoding v2.1.0
+    Checking matches v0.1.9
 error: failed to run custom build command for `k8s-openapi v0.13.1`
 
 Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/krator-0.6.0/target/debug/build/k8s-openapi-661d5ff6711d65d2/build-script-build` (exit status: 101)
+  process didn't exit successfully: `/getea/tmp/crater-spurious/krator-0.6.0/target/debug/build/k8s-openapi-5a26144617a814eb/build-script-build` (exit status: 101)
   --- stderr
 
-  thread 'main' (364664) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.13.1/build.rs:9:42:
+  thread 'main' (1831074) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.13.1/build.rs:9:42:
 
   None of the v1_* features are enabled on the k8s-openapi crate.
 

@@ -1,4 +1,4 @@
-Running as unit: run-p1089556-i13669868.scope; invocation ID: 730bb8526e0d43e2a8badba0bc4565fc
+Running as unit: run-p1555619-i5749310.scope; invocation ID: 1cbb32ec7599452ebe4e2f0b6c9b8fcd
    Compiling proc-macro2 v1.0.94
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.172
@@ -7,15 +7,14 @@ Running as unit: run-p1089556-i13669868.scope; invocation ID: 730bb8526e0d43e2a8
     Checking smallvec v1.15.0
     Checking memchr v2.7.4
    Compiling parking_lot_core v0.9.10
-    Checking stable_deref_trait v1.2.0
     Checking scopeguard v1.2.0
+    Checking stable_deref_trait v1.2.0
     Checking pin-project-lite v0.2.16
    Compiling shlex v1.3.0
 error: linker `x86_64-linux-gnu-gcc` not found
   |
   = note: No such file or directory (os error 2)
 
-    Checking bytes v1.10.1
 error: could not compile `parking_lot_core` (build script) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...
 error: could not compile `proc-macro2` (build script) due to 1 previous error

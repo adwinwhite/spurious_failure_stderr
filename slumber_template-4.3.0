@@ -1,0 +1,155 @@
+Running as unit: run-p880129-i5073820.scope; invocation ID: aec8aab6a861427a92ea993b1074fcfb
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling autocfg v1.4.0
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling libc v0.2.172
+    Checking foldhash v0.1.5
+    Checking pin-project-lite v0.2.16
+    Checking equivalent v1.0.2
+    Checking futures-sink v0.3.31
+    Checking itoa v1.0.15
+    Checking futures-core v0.3.31
+    Checking hashbrown v0.15.3
+    Checking hashbrown v0.16.1
+    Checking memchr v2.7.6
+    Checking futures-channel v0.3.31
+   Compiling num-traits v0.2.19
+   Compiling slab v0.4.9
+    Checking arraydeque v0.5.1
+    Checking option-ext v0.2.0
+   Compiling quote v1.0.40
+    Checking once_cell v1.21.3
+   Compiling thiserror v2.0.12
+    Checking hashlink v0.10.0
+    Checking futures-task v0.3.31
+    Checking ryu v1.0.20
+   Compiling syn v2.0.101
+    Checking pin-utils v0.1.0
+   Compiling unicode-xid v0.2.6
+    Checking cfg-if v1.0.0
+    Checking futures-io v0.3.31
+    Checking encoding_rs v0.8.35
+    Checking tracing-core v0.1.33
+    Checking dirs-sys v0.4.1
+    Checking regex-syntax v0.8.5
+   Compiling serde_json v1.0.145
+    Checking saphyr-parser v0.0.6
+    Checking either v1.15.0
+    Checking ordered-float v5.0.0
+    Checking unsafe-libyaml v0.2.11
+    Checking itertools v0.13.0
+    Checking dirs v5.0.1
+    Checking path-clean v1.0.1
+    Checking winnow v0.7.14
+    Checking saphyr v0.0.6
+    Checking regex-automata v0.4.13
+    Checking indexmap v2.12.1
+    Checking regex v1.12.2
+   Compiling serde_derive v1.0.228
+   Compiling futures-macro v0.3.31
+   Compiling derive_more-impl v1.0.0
+   Compiling thiserror-impl v2.0.12
+   Compiling tracing-attributes v0.1.28
+    Checking futures-util v0.3.31
+    Checking tracing v0.1.41
+    Checking derive_more v1.0.0
+    Checking serde_yaml v0.9.34+deprecated
+    Checking serde_path_to_error v0.1.17
+    Checking bytes v1.10.1
+    Checking futures-executor v0.3.31
+    Checking futures v0.3.31
+    Checking slumber_util v4.3.0
+    Checking slumber_template v4.3.0 (/getea/tmp/crater-spurious/slumber_template-4.3.0)
+warning: unused import: `tracing::error`
+  --> src/error.rs:12:5
+   |
+12 | use tracing::error;
+   |     ^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+error[E0275]: overflow evaluating the requirement `TryJoinAll<impl futures::Future<Output = Result<value::Value, RenderError>>>: std::marker::Send`
+   --> src/expression.rs:62:26
+    |
+ 62 |                         .boxed()
+    |                          ^^^^^
+    |
+note: required by a bound in `futures::FutureExt::boxed`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/future/mod.rs:516:23
+    |
+514 |     fn boxed<'a>(self) -> BoxFuture<'a, Self::Output>
+    |        ----- required by a bound in this associated function
+515 |     where
+516 |         Self: Sized + Send + 'a,
+    |                       ^^^^ required by this bound in `FutureExt::boxed`
+
+error[E0275]: overflow evaluating the requirement `impl futures::Future<Output = Result<value::Value, RenderError>>: std::marker::Send`
+   --> src/expression.rs:89:58
+    |
+ 89 |                         expression.render_value(context).boxed().await?;
+    |                                                          ^^^^^
+    |
+note: required by a bound in `futures::FutureExt::boxed`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/future/mod.rs:516:23
+    |
+514 |     fn boxed<'a>(self) -> BoxFuture<'a, Self::Output>
+    |        ----- required by a bound in this associated function
+515 |     where
+516 |         Self: Sized + Send + 'a,
+    |                       ^^^^ required by this bound in `FutureExt::boxed`
+
+error[E0277]: `TryMaybeDone<impl futures::Future<Output = Result<value::Value, RenderError>>>` cannot be sent between threads safely
+   --> src/expression.rs:79:22
+    |
+ 79 |                     .boxed() // Box for recursion
+    |                      ^^^^^ `TryMaybeDone<impl futures::Future<Output = Result<value::Value, RenderError>>>` cannot be sent between threads safely
+    |
+    = help: within `[TryMaybeDone<IntoFuture<TryJoin<..., ...>>>]`, the trait `std::marker::Send` is not implemented for `TryMaybeDone<impl futures::Future<Output = Result<value::Value, RenderError>>>`
+note: required because it appears within the type `TryJoin<{async block@src/expression.rs:69:46: 69:56}, impl Future<Output = ...>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/try_join.rs:94:6
+    |
+ 94 |     (TryJoin, <Fut1, Fut2>),
+    |      ^^^^^^^
+note: required because it appears within the type `IntoFuture<TryJoin<{async block@src/expression.rs:69:46: 69:56}, ...>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/try_future/into_future.rs:10:16
+    |
+ 10 |     pub struct IntoFuture<Fut> {
+    |                ^^^^^^^^^^
+note: required because it appears within the type `TryMaybeDone<IntoFuture<TryJoin<{async block@src/expression.rs:69:46: 69:56}, ...>>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/try_maybe_done.rs:14:10
+    |
+ 14 | pub enum TryMaybeDone<Fut: TryFuture> {
+    |          ^^^^^^^^^^^^
+    = note: required because it appears within the type `[TryMaybeDone<IntoFuture<TryJoin<..., ...>>>]`
+    = note: required for `Unique<[TryMaybeDone<IntoFuture<TryJoin<..., ...>>>]>` to implement `std::marker::Send`
+note: required because it appears within the type `Box<[TryMaybeDone<IntoFuture<TryJoin<..., ...>>>]>`
+   --> library/alloc/src/boxed.rs:234:11
+note: required because it appears within the type `Pin<Box<[TryMaybeDone<IntoFuture<TryJoin<..., ...>>>]>>`
+   --> library/core/src/pin.rs:1092:11
+note: required because it appears within the type `TryJoinAllKind<TryJoin<{async block@src/expression.rs:69:46: 69:56}, ...>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/try_join_all.rs:34:6
+    |
+ 34 | enum TryJoinAllKind<F>
+    |      ^^^^^^^^^^^^^^
+note: required because it appears within the type `TryJoinAll<TryJoin<{async block@src/expression.rs:69:46: 69:56}, ...>>`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/try_join_all.rs:27:12
+    |
+ 27 | pub struct TryJoinAll<F>
+    |            ^^^^^^^^^^
+note: required by a bound in `futures::FutureExt::boxed`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/futures-util-0.3.31/src/future/future/mod.rs:516:23
+    |
+514 |     fn boxed<'a>(self) -> BoxFuture<'a, Self::Output>
+    |        ----- required by a bound in this associated function
+515 |     where
+516 |         Self: Sized + Send + 'a,
+    |                       ^^^^ required by this bound in `FutureExt::boxed`
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/slumber_template-4.3.0/target/debug/deps/slumber_template-e74ec9a8784d4cee.long-type-1899611427352075212.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+Some errors have detailed explanations: E0275, E0277.
+For more information about an error, try `rustc --explain E0275`.
+warning: `slumber_template` (lib) generated 1 warning
+error: could not compile `slumber_template` (lib) due to 3 previous errors; 1 warning emitted

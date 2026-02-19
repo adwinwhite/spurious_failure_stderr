@@ -1,0 +1,851 @@
+Running as unit: run-p896183-i5089874.scope; invocation ID: 13f2976913c443ca84caa916270d3b06
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.42
+   Compiling unicode-ident v1.0.22
+   Compiling serde_core v1.0.228
+   Compiling libc v0.2.178
+    Checking cfg-if v1.0.4
+   Compiling serde v1.0.228
+   Compiling zerocopy v0.8.31
+   Compiling getrandom v0.3.4
+   Compiling semver v1.0.27
+   Compiling libm v0.2.15
+    Checking scopeguard v1.2.0
+   Compiling thiserror v2.0.17
+   Compiling autocfg v1.5.0
+    Checking lock_api v0.4.14
+   Compiling rustc_version v0.4.1
+    Checking memchr v2.7.6
+   Compiling num-traits v0.2.19
+    Checking byteorder v1.5.0
+   Compiling object v0.37.3
+   Compiling heapless v0.7.17
+    Checking hash32 v0.2.1
+    Checking spin v0.9.8
+    Checking thread_local v1.1.9
+    Checking gimli v0.32.3
+   Compiling syn v2.0.111
+   Compiling serde_json v1.0.145
+    Checking stable_deref_trait v1.2.1
+    Checking adler2 v2.0.1
+    Checking once_cell v1.21.3
+    Checking miniz_oxide v0.8.9
+    Checking tracing-core v0.1.35
+    Checking rand_core v0.9.3
+    Checking ryu v1.0.20
+    Checking oorandom v11.1.5
+    Checking pin-project-lite v0.2.16
+    Checking atomicbox v0.4.0
+    Checking append-only-vec v0.1.8
+    Checking bytemuck v1.24.0
+    Checking itoa v1.0.15
+    Checking rustc-demangle v0.1.26
+    Checking feanor-mempool v2.1.0
+    Checking debugit v0.2.0
+    Checking take_mut v0.2.2
+    Checking ppv-lite86 v0.2.21
+    Checking rand_chacha v0.9.0
+    Checking rand v0.9.2
+    Checking addr2line v0.25.1
+    Checking rand_distr v0.5.1
+    Checking serde_bytes v0.11.19
+    Checking backtrace v0.3.76
+   Compiling serde_derive v1.0.228
+   Compiling thiserror-impl v2.0.17
+   Compiling stability v0.2.1
+   Compiling tracing-attributes v0.1.31
+    Checking tracing v0.1.43
+    Checking cobs v0.3.0
+    Checking serde_assert v0.8.0
+    Checking feanor-serde v0.1.5
+    Checking feanor-math v3.5.11
+    Checking postcard v1.1.3
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+     |
+ 570 | ...       assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_...
+     |                                                                   ^^^^^^^ types differ
+...
+1482 | ...   assert_el_eq!(ring, a, ring.get_ring().map_in_ref(ring.get_ring(), a, &hom));
+     |       ---------------------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+     |
+ 570 | ...       assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_...
+     |                                                                   ^^^^^^^ types differ
+...
+1483 | ...   assert_el_eq!(ring, a, ring.get_ring().map_out(ring.get_ring(), ring.clone_el(a), &iso));
+     |       ---------------------------------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/field.rs:67:21
+    |
+ 67 |                     assert_el_eq!(R, a, R.mul_ref_fst(&b, R.div(&a, &b)));
+    |                     ----------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/pid.rs:245:17
+    |
+245 |                 assert_el_eq!(ring, a, ring.add(ring.mul(q, ring.clone_el(b)), r));
+    |                 ------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/integer.rs:688:17
+    |
+688 |                 assert_el_eq!(ring, b, a);
+    |                 ------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:401:21
+    |
+401 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:401:21
+    |
+401 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:416:21
+    |
+416 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:416:21
+    |
+416 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:449:21
+    |
+449 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:449:21
+    |
+449 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:463:21
+    |
+463 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:463:21
+    |
+463 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:477:21
+    |
+477 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:477:21
+    |
+477 |                     assert_el_eq!(&ring, &expected[i as usize], &actual[i as usize]);
+    |                     ---------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:492:21
+    |
+492 |                     assert_el_eq!(&ring, &ring.add_ref(&expected[i as usize], &expected[i as usize]), &actual[i as usize]);
+    |                     ------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:492:21
+    |
+492 |                     assert_el_eq!(&ring, &ring.add_ref(&expected[i as usize], &expected[i as usize]), &actual[i as usize]);
+    |                     ------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:507:21
+    |
+507 |                     assert_el_eq!(&ring, &ring.add_ref(&expected[i as usize], &expected[i as usize]), &actual[i as usize]);
+    |                     ------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/convolution/mod.rs:507:21
+    |
+507 |                     assert_el_eq!(&ring, &ring.add_ref(&expected[i as usize], &expected[i as usize]), &actual[i as usize]);
+    |                     ------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1059:13
+     |
+1059 |             assert_el_eq!(ring, ring.add_ref_fst(a, ring.mul_ref_fst(b, hom.map_ref(test_twiddle))), &x);
+     |             -------------------------------------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1060:13
+     |
+1060 |             assert_el_eq!(ring, ring.sub_ref_fst(a, ring.mul_ref_fst(b, hom.map_ref(test_twiddle))), &y);
+     |             -------------------------------------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1063:13
+     |
+1063 |             assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(a, 2), &x);
+     |             ------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1064:13
+     |
+1064 |             assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(b, 2), &y);
+     |             ------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1068:13
+     |
+1068 |             assert_el_eq!(ring, ring.add_ref(a, b), &x);
+     |             ------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1069:13
+     |
+1069 |             assert_el_eq!(ring, ring.mul(ring.sub_ref(a, b), hom.map_ref(test_twiddle)), &y);
+     |             -------------------------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1072:13
+     |
+1072 |             assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(a, 2), &x);
+     |             ------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val,...
+     |                                                                        ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/cooley_tuckey.rs:1073:13
+     |
+1073 |             assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(b, 2), &y);
+     |             ------------------------------------------------------------- in this macro invocation
+     |
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:647:21
+    |
+647 |                     assert_el_eq!(ring, ring.add_ref_fst(a, ring.mul_ref_snd(ring.add_ref_fst(b, ring.mul_ref(c, &t)), &t)), &x);
+    |                     ------------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:649:21
+    |
+649 |                     assert_el_eq!(ring, ring.add_ref_fst(a, ring.mul_ref_snd(ring.add_ref_fst(b, ring.mul_ref(c, &t)), &t)), &y);
+    |                     ------------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:651:21
+    |
+651 |                     assert_el_eq!(ring, ring.add_ref_fst(a, ring.mul_ref_snd(ring.add_ref_fst(b, ring.mul_ref(c, &t)), &t)), &z);
+    |                     ------------------------------------------------------------------------------------------------------------ in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:665:21
+    |
+665 |                     assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(a, 3), &x);
+    |                     ------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:666:21
+    |
+666 |                     assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(b, 3), &y);
+    |                     ------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/fft/radix3.rs:667:21
+    |
+667 |                     assert_el_eq!(ring, ring.int_hom().mul_ref_fst_map(c, 3), &z);
+    |                     ------------------------------------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<R as RingBase>::Element == &<R as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/lll/float.rs:217:43
+    |
+217 |         if RR.is_leq(&new_largest_max_mu, &eta) {
+    |                                           ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/poly_factor/factor_locally.rs:195:92
+    |
+195 |             for irred_factor in factorization.into_iter().map(|fi| unevaluate_aX(ZZX, &fi, &lc_factor)) {
+    |                                                                                            ^^^^^^^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-9529442439647749206.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<<P as RingStore>::Type as MultivariatePolyRing>::Monomial == &...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/buchberger.rs:148:119
+    |
+148 |             if S_c_val == 0 && order.eq_mon(ring, &ring.monomial_div(ring.clone_monomial(&S_m), &bi_m).ok().unwrap(), &bk_m) {
+    |                                                                                                                       ^^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-5926415263017783561.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<<P1 as RingStore>::Type as RingBase>::Element == &<<P1 as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/poly_gcd/hensel.rs:400:103
+    |
+400 |     let (g_lifted, h_lifted) = hensel_lift_quadratic(reduction_map, target_poly_ring, base_poly_ring, &f, (g, &h), controller.clone());
+    |                                                                                                       ^^ types differ
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/poly_gcd/squarefree_part.rs:220:56
+    |
+220 |         let mut result = unevaluate_aX(poly_ring, &fi, &lcf);
+    |                                                        ^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-3690977853353144690.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<<P as RingStore>::Type as RingBase>::Element == &<<P as RingStore>::Type as RingBase>::Element`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/newton.rs:51:37
+   |
+51 |     let f_prime = derive_poly(&CCX, &f);
+   |                                     ^^ types differ
+
+error[E0271]: type mismatch resolving `<<P as RingStore>::Type as RingBase>::Element == &<<P as RingStore>::Type as RingBase>::Element`
+  --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/algorithms/newton.rs:53:116
+   |
+53 |     let approx_radius = (CC.abs(CCX.evaluate(&f, &approx_root, CC.identity())) + absolute_error_of_poly_eval(&CCX, &f, poly_deg, approx_root, 0.)) / CC.abs(CCX.e...
+   |                                                                                                                    ^^ types differ
+
+error[E0271]: type mismatch resolving `<<<R as RingStore>::Type as ZnRing>::IntegerRingBase as RingBase>::Element == &...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/zn/mod.rs:588:28
+    |
+588 |         while ZZ.is_lt(&k, &n) {
+    |                            ^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-17321228240154525090.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<<<P as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == &...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:487:77
+    |
+487 |             (env > EnvBindingStrength::Product && !(ring.base_ring().is_one(&first_term.as_ref().unwrap().0) && first_term.as_ref().unwrap().1 == 1)) ||
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-4172696702692155247.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                 ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:621:21
+    |
+621 | / ...   assert_el_eq!(
+622 | | ...       &ring,
+623 | | ...       &ring.from_terms([(ring.base_ring().add_ref_fst(a, ring.base_ring().mul_ref_fst(b, ring.base_ring().pow(ring.base_ring().clone_el(c), 3))), 0)].into...
+624 | | ...       &rem
+625 | | ...   );
+    | |_______- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                          ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:621:21
+    |
+621 | / ...   assert_el_eq!(
+622 | | ...       &ring,
+623 | | ...       &ring.from_terms([(ring.base_ring().add_ref_fst(a, ring.base_ring().mul_ref_fst(b, ring.base_ring().pow(ring.base_ring().clone_el(c), 3))), 0)].into...
+624 | | ...       &rem
+625 | | ...   );
+    | |_______- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                 ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:626:21
+    |
+626 | /                     assert_el_eq!(
+627 | |                         &ring,
+628 | |                         &f,
+629 | |                         &ring.add(rem, ring.mul(quo, g))
+630 | |                     );
+    | |_____________________- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                          ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:626:21
+    |
+626 | /                     assert_el_eq!(
+627 | |                         &ring,
+628 | |                         &f,
+629 | |                         &ring.add(rem, ring.mul(quo, g))
+630 | |                     );
+    | |_____________________- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                 ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:656:13
+    |
+656 | / ...   assert_el_eq!(
+657 | | ...       &base_ring,
+658 | | ...       &base_ring.add(base_ring.one(), base_ring.add(base_ring.mul_ref_snd(hom.map(3), a), base_ring.mul(hom.map(7), base_ring.pow(base_ring.clone_el(a), 3...
+659 | | ...       &ring.evaluate(&f, a, &base_ring.identity())
+660 | | ...   )
+    | |_______- in this macro invocation
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-15067078665958578149.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val...
+    |                                                                          ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/poly/mod.rs:656:13
+    |
+656 | / ...   assert_el_eq!(
+657 | | ...       &base_ring,
+658 | | ...       &base_ring.add(base_ring.one(), base_ring.add(base_ring.mul_ref_snd(hom.map(3), a), base_ring.mul(hom.map(7), base_ring.pow(base_ring.clone_el(a), 3...
+659 | | ...       &ring.evaluate(&f, a, &base_ring.identity())
+660 | | ...   )
+    | |_______- in this macro invocation
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-17637521988581431698.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<I as RingStore>::Type as PolyGCDLocallyDomain>::LocalRing<'ring> == &...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/extension/number_field.rs:917:85
+    |
+917 |         let ZZ_to_Zpe = PolyGCDLocallyReductionMap::new(ZZ.get_ring(), &self.prime, &Zpe, e, 0);
+    |                                                                                     ^^^^ types differ
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-10092332755408462726.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+
+error[E0271]: type mismatch resolving `DensePolyRingEl<&<... as PolyGCDLocallyDomain>::LocalRing<'ring>> == ...`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+     |
+ 570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_va...
+     |                                                                 ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/extension/number_field.rs:1155:9
+     |
+1155 | /         assert_el_eq!(&ZpeX, &complete_product, &self.base.generating_poly(&ZpeX, ZZ_to_Zpe.compose(LambdaHom::new(QQ, ZZ, |QQ, ZZ, x| {
+1156 | |             assert!(ZZ.is_one(QQ.get_ring().den(&x)));
+1157 | |             ZZ.clone_el(QQ.get_ring().num(&x))
+1158 | |         }))));
+     | |_____________- in this macro invocation
+     |
+     = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-15672002287913407546.txt'
+     = note: consider using `--verbose` to print the full type name to the console
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `DensePolyRingEl<&<... as PolyGCDLocallyDomain>::LocalRing<'ring>> == ...`
+    --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+     |
+ 570 |   ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_va...
+     |                                                                          ^^^^^^^ types differ
+     |
+    ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/extension/number_field.rs:1155:9
+     |
+1155 | /         assert_el_eq!(&ZpeX, &complete_product, &self.base.generating_poly(&ZpeX, ZZ_to_Zpe.compose(LambdaHom::new(QQ, ZZ, |QQ, ZZ, x| {
+1156 | |             assert!(ZZ.is_one(QQ.get_ring().den(&x)));
+1157 | |             ZZ.clone_el(QQ.get_ring().num(&x))
+1158 | |         }))));
+     | |_____________- in this macro invocation
+     |
+     = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-14044450107319574757.txt'
+     = note: consider using `--verbose` to print the full type name to the console
+     = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:740:75
+    |
+740 |             self.terms(f).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                           ^^^^ types differ
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:740:81
+    |
+740 |             self.terms(f).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                                 ^^^^ types differ
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:753:175
+    |
+753 | ...n) == Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1));
+    |                                                                          ^^^^ types differ
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:753:181
+    |
+753 | ...Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1));
+    |                                                                          ^^^^ types differ
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:758:156
+    |
+758 | ...n) == Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                          ^^^^ types differ
+
+error[E0271]: type mismatch resolving `MonomialIdentifier == &MonomialIdentifier`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/multivariate_impl.rs:758:162
+    |
+758 | ...Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                          ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<Self as MultivariatePolyRing>::Monomial == &<Self as MultivariatePolyRing>::Monomial`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:119:71
+    |
+119 |         self.terms(f).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                       ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<Self as MultivariatePolyRing>::Monomial == &<Self as MultivariatePolyRing>::Monomial`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:119:77
+    |
+119 |         self.terms(f).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                             ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<Self as MultivariatePolyRing>::Monomial == &<Self as MultivariatePolyRing>::Monomial`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:126:152
+    |
+126 |         self.terms(f).filter(|(_, m)| order.compare(RingRef::new(self), m, lt_than) == Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                                                                                                        ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<Self as MultivariatePolyRing>::Monomial == &<Self as MultivariatePolyRing>::Monomial`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:126:158
+    |
+126 |         self.terms(f).filter(|(_, m)| order.compare(RingRef::new(self), m, lt_than) == Ordering::Less).max_by(|l, r| order.compare(RingRef::new(self), &l.1, &r.1))
+    |                                                                                                                                                              ^^^^ types differ
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:896:21
+    |
+896 |                     assert_el_eq!(&base_ring, &expected, &ring.evaluate(&f, values.into_clone_ring_els(base_ring), &base_ring.identity()));
+    |                     ---------------------------------------------------------------------------------------------------------------------- in this macro invocation
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-17814189725682564779.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<<... as RingExtension>::BaseRing as RingStore>::Type as RingBase>::Element == ...`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/rings/multivariate/mod.rs:896:21
+    |
+896 |                     assert_el_eq!(&base_ring, &expected, &ring.evaluate(&f, values.into_clone_ring_els(base_ring), &base_ring.identity()));
+    |                     ---------------------------------------------------------------------------------------------------------------------- in this macro invocation
+    |
+    = note: the full name for the type has been written to '/getea/tmp/crater-spurious/fheanor-0.10.5/target/debug/deps/feanor_math-1cc8629bec14d0a4.long-type-12065671402039074925.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/serialization.rs:143:13
+    |
+143 |             assert_el_eq!(ring, &result, &x);
+    |             -------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &&<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/serialization.rs:143:13
+    |
+143 |             assert_el_eq!(ring, &result, &x);
+    |             -------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:73
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                               ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/serialization.rs:151:13
+    |
+151 |             assert_el_eq!(ring, &result, &x);
+    |             -------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0271]: type mismatch resolving `<<R as RingStore>::Type as RingBase>::Element == &&<<R as RingStore>::Type as RingBase>::Element`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/ring.rs:570:82
+    |
+570 | ...   assert!(<_ as $crate::ring::RingStore>::eq_el(ring_val, lhs_val, rhs_val), "Assertion failed: {} != {}", <_ as $crate::ring::RingStore>::format(ring_val, ...
+    |                                                                        ^^^^^^^ types differ
+    |
+   ::: /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/feanor-math-3.5.11/src/serialization.rs:151:13
+    |
+151 |             assert_el_eq!(ring, &result, &x);
+    |             -------------------------------- in this macro invocation
+    |
+    = note: this error originates in the macro `assert_el_eq` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0271`.
+error: could not compile `feanor-math` (lib) due to 67 previous errors

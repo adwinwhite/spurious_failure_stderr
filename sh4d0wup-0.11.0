@@ -1,4 +1,4 @@
-Running as unit: run-p72760-i4266506.scope; invocation ID: 35aa5a5cc3144af6879bf12bb259b8ed
+Running as unit: run-p1883993-i6077680.scope; invocation ID: a22fbc22b9c1415cbcf64a832b7d42a7
    Compiling proc-macro2 v1.0.94
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.171
@@ -8,107 +8,151 @@ Running as unit: run-p72760-i4266506.scope; invocation ID: 35aa5a5cc3144af6879bf
    Compiling pkg-config v0.3.32
    Compiling autocfg v1.4.0
    Compiling serde v1.0.219
-   Compiling version_check v0.9.5
    Compiling typenum v1.18.0
+   Compiling version_check v0.9.5
     Checking log v0.4.27
    Compiling generic-array v0.14.7
     Checking itoa v1.0.15
-   Compiling quote v1.0.40
-   Compiling jobserver v0.1.33
    Compiling thiserror v2.0.12
-   Compiling syn v2.0.100
     Checking once_cell v1.21.3
-   Compiling cc v1.2.17
     Checking pin-project-lite v0.2.16
     Checking stable_deref_trait v1.2.0
-    Checking subtle v2.6.1
     Checking bytes v1.10.1
+    Checking subtle v2.6.1
     Checking smallvec v1.14.0
     Checking zeroize v1.8.1
-    Checking getrandom v0.2.15
     Checking bitflags v2.9.0
+   Compiling quote v1.0.40
     Checking fnv v1.0.7
-   Compiling lock_api v0.4.12
    Compiling slab v0.4.9
-   Compiling parking_lot_core v0.9.10
-    Checking futures-core v0.3.31
-    Checking writeable v0.5.5
-    Checking litemap v0.7.5
+   Compiling lock_api v0.4.12
+   Compiling jobserver v0.1.33
    Compiling icu_locid_transform_data v1.5.1
    Compiling vcpkg v0.2.15
     Checking futures-sink v0.3.31
+    Checking litemap v0.7.5
+   Compiling parking_lot_core v0.9.10
+   Compiling syn v2.0.100
+    Checking futures-core v0.3.31
+   Compiling cc v1.2.17
+    Checking writeable v0.5.5
     Checking aho-corasick v1.1.3
-    Checking cpufeatures v0.2.17
     Checking regex-syntax v0.8.5
    Compiling icu_properties_data v1.5.1
-   Compiling openssl-sys v0.9.106
-    Checking crypto-common v0.1.6
-    Checking block-buffer v0.10.4
+    Checking cpufeatures v0.2.17
     Checking futures-channel v0.3.31
-    Checking digest v0.10.7
-    Checking futures-task v0.3.31
-   Compiling icu_normalizer_data v1.5.1
     Checking futures-io v0.3.31
+   Compiling icu_normalizer_data v1.5.1
     Checking pin-utils v0.1.0
-    Checking mio v1.0.3
-    Checking socket2 v0.5.9
-    Checking signal-hook-registry v1.4.2
-    Checking equivalent v1.0.2
+    Checking futures-task v0.3.31
     Checking hashbrown v0.15.2
-   Compiling ring v0.17.14
+    Checking equivalent v1.0.2
     Checking http v0.2.12
-    Checking utf8_iter v1.0.4
-    Checking write16 v1.0.0
-   Compiling httparse v1.10.1
-    Checking regex-automata v0.4.9
+    Checking getrandom v0.2.15
+    Checking socket2 v0.5.9
+    Checking mio v1.0.3
+    Checking signal-hook-registry v1.4.2
    Compiling zerocopy v0.8.24
     Checking utf16_iter v1.0.5
-    Checking block-padding v0.3.3
+   Compiling httparse v1.10.1
+    Checking utf8_iter v1.0.4
+    Checking write16 v1.0.0
     Checking ryu v1.0.20
-   Compiling openssl v0.10.71
     Checking foreign-types-shared v0.1.1
+   Compiling openssl v0.10.71
     Checking foreign-types v0.3.2
-    Checking inout v0.1.4
     Checking rand_core v0.6.4
-   Compiling semver v1.0.26
+   Compiling openssl-sys v0.9.106
+   Compiling ring v0.17.14
    Compiling ident_case v1.0.1
     Checking percent-encoding v2.3.1
-   Compiling serde_json v1.0.140
-   Compiling strsim v0.11.1
    Compiling thiserror v1.0.69
     Checking untrusted v0.9.0
+   Compiling semver v1.0.26
+   Compiling strsim v0.11.1
+   Compiling serde_json v1.0.140
+    Checking regex-automata v0.4.9
     Checking form_urlencoded v1.2.1
-    Checking cipher v0.4.4
-    Checking tracing-core v0.1.33
-    Checking ppv-lite86 v0.2.21
    Compiling dirs-sys-next v0.1.2
-   Compiling crunchy v0.2.3
-    Checking byteorder v1.5.0
-    Checking adler2 v2.0.0
-   Compiling synstructure v0.13.1
-   Compiling darling_core v0.20.11
+    Checking tracing-core v0.1.33
     Checking rustls-pki-types v1.11.0
    Compiling scopeguard v1.2.0
+    Checking adler2 v2.0.0
+    Checking byteorder v1.5.0
     Checking base64 v0.21.7
+   Compiling crunchy v0.2.3
     Checking miniz_oxide v0.8.5
-    Checking rand_chacha v0.3.1
-   Compiling dirs-next v2.0.0
     Checking tracing v0.1.41
-   Compiling zstd-sys v2.0.15+zstd.1.5.7
+   Compiling dirs-next v2.0.0
    Compiling bzip2-sys v0.1.13+1.0.8
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
    Compiling cmake v0.1.54
-   Compiling native-tls v0.2.14
-   Compiling tiny-keccak v2.0.2
-   Compiling heck v0.5.0
-   Compiling dunce v1.0.5
-   Compiling fs_extra v1.3.0
-    Checking httpdate v1.0.3
-    Checking try-lock v0.2.5
-    Checking utf8parse v0.2.2
-    Checking mime v0.3.17
+    Checking ppv-lite86 v0.2.21
    Compiling siphasher v1.0.1
+   Compiling dunce v1.0.5
+    Checking utf8parse v0.2.2
+    Checking try-lock v0.2.5
+   Compiling heck v0.5.0
+   Compiling tiny-keccak v2.0.2
+   Compiling native-tls v0.2.14
+   Compiling fs_extra v1.3.0
+    Checking rand_chacha v0.3.1
+    Checking mime v0.3.17
+    Checking httpdate v1.0.3
+    Checking rand v0.8.5
+   Compiling aws-lc-sys v0.28.0
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking block-padding v0.3.3
+    Checking regex v1.11.1
+    Checking inout v0.1.4
+    Checking cipher v0.4.4
+   Compiling indexmap v2.8.0
+    Checking sha1 v0.10.6
    Compiling phf_shared v0.11.3
+    Checking want v0.3.1
     Checking anstyle-parse v0.2.6
+   Compiling rustc_version v0.4.1
+   Compiling term v0.7.0
+   Compiling parking_lot v0.12.3
+    Checking http-body v0.4.6
+    Checking crc32fast v1.4.2
+    Checking tower-service v0.3.3
+    Checking is_terminal_polyfill v1.70.1
+   Compiling either v1.15.0
+   Compiling rustix v1.0.5
+   Compiling ucd-trie v0.1.7
+    Checking colorchoice v1.0.3
+    Checking anstyle v1.0.10
+   Compiling bit-vec v0.6.3
+   Compiling precomputed-hash v0.1.1
+    Checking openssl-probe v0.1.6
+    Checking anstyle-query v1.1.2
+   Compiling same-file v1.0.6
+   Compiling rustls v0.22.4
+    Checking tinyvec_macros v0.1.1
+   Compiling rustversion v1.0.20
+   Compiling unicase v2.8.1
+   Compiling new_debug_unreachable v1.0.6
+   Compiling fixedbitset v0.4.2
+    Checking data-encoding v2.8.0
+   Compiling ena v0.14.3
+   Compiling bit-set v0.5.3
+   Compiling mime_guess v2.0.5
+   Compiling petgraph v0.6.5
+   Compiling string_cache v0.8.9
+    Checking anstream v0.6.18
+   Compiling walkdir v2.5.0
+   Compiling itertools v0.11.0
+    Checking tinyvec v1.9.0
+    Checking rustls-webpki v0.102.8
+   Compiling ascii-canvas v3.0.0
+   Compiling curve25519-dalek v4.1.3
+   Compiling synstructure v0.13.1
+   Compiling darling_core v0.20.11
+    Checking http v1.3.1
+   Compiling pcsc-sys v1.3.0
    Compiling serde_derive v1.0.219
    Compiling thiserror-impl v2.0.12
    Compiling zerofrom-derive v0.1.6
@@ -117,101 +161,60 @@ Running as unit: run-p72760-i4266506.scope; invocation ID: 35aa5a5cc3144af6879bf
    Compiling displaydoc v0.2.5
    Compiling icu_provider_macros v1.5.0
    Compiling futures-macro v0.3.31
-    Checking zerofrom v0.1.6
    Compiling tokio-macros v2.5.0
    Compiling openssl-macros v0.1.1
-    Checking yoke v0.7.5
-    Checking zerovec v0.10.4
-    Checking tokio v1.44.1
-    Checking futures-util v0.3.31
+    Checking zerofrom v0.1.6
    Compiling thiserror-impl v1.0.69
-    Checking tinystr v0.7.6
-    Checking icu_locid v1.5.0
-    Checking icu_provider v1.5.0
-    Checking icu_locid_transform v1.5.0
-    Checking icu_collections v1.5.0
-    Checking icu_properties v1.5.1
+    Checking yoke v0.7.5
+    Checking tokio v1.44.1
+    Checking zerovec v0.10.4
+    Checking futures-util v0.3.31
    Compiling darling_macro v0.20.11
    Compiling darling v0.20.11
-   Compiling indexmap v2.8.0
-    Checking want v0.3.1
-   Compiling aws-lc-sys v0.28.0
-    Checking icu_normalizer v1.5.0
-    Checking bstr v1.11.3
-   Compiling rustc_version v0.4.1
-    Checking idna_adapter v1.2.0
-    Checking idna v1.0.3
-    Checking rand v0.8.5
-   Compiling term v0.7.0
-    Checking url v2.5.4
-   Compiling parking_lot v0.12.3
-    Checking tokio-util v0.7.14
-    Checking regex v1.11.1
-    Checking http-body v0.4.6
-    Checking sha1 v0.10.6
-    Checking crc32fast v1.4.2
-   Compiling either v1.15.0
-   Compiling bit-vec v0.6.3
-   Compiling precomputed-hash v0.1.1
-   Compiling ucd-trie v0.1.7
-    Checking tower-service v0.3.3
-   Compiling same-file v1.0.6
-    Checking h2 v0.3.26
-    Checking tinyvec_macros v0.1.1
-    Checking anstyle v1.0.10
-   Compiling new_debug_unreachable v1.0.6
-    Checking anstyle-query v1.1.2
-    Checking is_terminal_polyfill v1.70.1
-    Checking data-encoding v2.8.0
-   Compiling rustix v1.0.5
-   Compiling rustls v0.22.4
-   Compiling fixedbitset v0.4.2
-   Compiling rustversion v1.0.20
-    Checking openssl-probe v0.1.6
-   Compiling unicase v2.8.1
-    Checking colorchoice v1.0.3
-    Checking anstream v0.6.18
-   Compiling mime_guess v2.0.5
-   Compiling petgraph v0.6.5
    Compiling pest v2.8.0
-   Compiling ena v0.14.3
-   Compiling string_cache v0.8.9
-   Compiling walkdir v2.5.0
-    Checking tinyvec v1.9.0
-   Compiling itertools v0.11.0
-   Compiling bit-set v0.5.3
-   Compiling ascii-canvas v3.0.0
-   Compiling curve25519-dalek v4.1.3
-    Checking faster-hex v0.9.0
    Compiling derive_builder_core v0.20.2
-    Checking rustls-webpki v0.102.8
-    Checking http v1.3.1
+    Checking tinystr v0.7.6
+    Checking icu_locid v1.5.0
+    Checking icu_collections v1.5.0
    Compiling multer v2.1.0
-   Compiling pcsc-sys v1.3.0
    Compiling num-traits v0.2.19
+    Checking icu_provider v1.5.0
     Checking encoding_rs v0.8.35
-   Compiling winapi v0.3.9
-   Compiling object v0.36.7
-    Checking base64 v0.22.1
-    Checking powerfmt v0.2.0
    Compiling zstd-safe v7.2.4
-    Checking linux-raw-sys v0.9.3
-    Checking fastrand v2.3.0
+    Checking powerfmt v0.2.0
+    Checking base64 v0.22.1
+    Checking icu_locid_transform v1.5.0
     Checking libbz2-rs-sys v0.1.3
-    Checking hyper v0.14.32
+    Checking fastrand v2.3.0
+    Checking icu_properties v1.5.1
    Compiling unicode-xid v0.2.6
-   Compiling lalrpop-util v0.20.2
+    Checking linux-raw-sys v0.9.3
     Checking utf-8 v0.7.6
+   Compiling object v0.36.7
+   Compiling lalrpop-util v0.20.2
+   Compiling winapi v0.3.9
+   Compiling pest_meta v2.8.0
    Compiling lalrpop v0.20.2
-    Checking tungstenite v0.21.0
     Checking bzip2 v0.5.2
     Checking deranged v0.4.1
-   Compiling pest_meta v2.8.0
    Compiling derive_builder_macro v0.20.2
+   Compiling pin-project-internal v1.1.10
+    Checking icu_normalizer v1.5.0
+    Checking tokio-util v0.7.14
+    Checking bstr v1.11.3
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+    Checking faster-hex v0.9.0
+    Checking gix-hash v0.16.0
+    Checking url v2.5.4
+    Checking tokio-native-tls v0.3.1
+    Checking h2 v0.3.26
+    Checking serde_urlencoded v0.7.1
+   Compiling curve25519-dalek-derive v0.1.1
 error: failed to run custom build command for `pcsc-sys v1.3.0`
 
 Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/sh4d0wup-0.11.0/target/debug/build/pcsc-sys-5a3dd143cfe2f20a/build-script-build` (exit status: 1)
+  process didn't exit successfully: `/getea/tmp/crater-spurious/sh4d0wup-0.11.0/target/debug/build/pcsc-sys-b919e32568d2479e/build-script-build` (exit status: 1)
   --- stdout
   cargo:rerun-if-env-changed=LIBPCSCLITE_NO_PKG_CONFIG
   cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
@@ -278,6 +281,54 @@ Caused by:
       - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig
       - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig
       - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig
+      - /nix/store/12g460v1ibwnj5ydsnpi9q6q4b3l76l5-gpgme-1.24.3-dev/lib/pkgconfig
+      - /nix/store/n0p0sgrl1c8kxf5k6r098vwrwniyi5f9-libassuan-3.0.2-dev/lib/pkgconfig
+      - /nix/store/abvps5mjmnj45y1l8jaaxlkyj70mfra4-gstreamer-1.26.0-dev/lib/pkgconfig
+      - /nix/store/l6bxx2dr0l7nj67kjlbxdg6myx054gqr-cairo-1.18.2-dev/lib/pkgconfig
+      - /nix/store/clyjdzxjmdvsk2bs7503i2qdvi9axcd8-pixman-0.46.0/lib/pkgconfig
+      - /nix/store/hfpjvlm361bp8clibvnrh8qgbpvxk4kg-libXext-1.3.6-dev/lib/pkgconfig
+      - /nix/store/8lggyvykw4wy2f7747g1nnadcxqgw291-libXau-1.0.12-dev/lib/pkgconfig
+      - /nix/store/dbr14hvrwzd3z65ixkyndyhwhgcr4b3f-libXrender-0.9.12-dev/lib/pkgconfig
+      - /nix/store/sd81bvmch7njdpwx3lkjslixcbj5mivz-python3-3.13.4/lib/pkgconfig
+      - /nix/store/a9nkmnva7vam9awlkn8ri3fa0kq93frn-ncurses-6.5-dev/lib/pkgconfig
+      - /nix/store/4x51i3nffvkp6whw1kz3kgr48hmz698h-gtk+3-3.24.49-dev/lib/pkgconfig
+      - /nix/store/54xhm20sdbdqpg3qcdxfilzm7727mn59-at-spi2-core-2.56.2-dev/lib/pkgconfig
+      - /nix/store/vm09wnigvif3hr6zk9p1vbqwk1ar93rf-fribidi-1.0.16-dev/lib/pkgconfig
+      - /nix/store/k4yfkx3g16jnwyrlm20ikrvwkmhdk9zg-gdk-pixbuf-2.42.12-dev/lib/pkgconfig
+      - /nix/store/rbqfyyhzbkz6m5lgc9srzcdnkv4fmsmz-libtiff-4.7.0-dev/lib/pkgconfig
+      - /nix/store/g745917xa9hsbvdm3gkhlb4hma1yms0d-libdeflate-1.24/lib/pkgconfig
+      - /nix/store/kgwz02zajkmgdj6p0n75kyy9d4kn0nxv-libjpeg-turbo-3.1.0-dev/lib/pkgconfig
+      - /nix/store/ga56rclicvjvr09ir247hhd991dpw2vg-libwebp-1.5.0/lib/pkgconfig
+      - /nix/store/sw32cxs33z40axz67x7iqllwjvvxcznx-xz-5.8.1-dev/lib/pkgconfig
+      - /nix/store/fx2957yk3h2js06jls40yaasi0pay7js-gsettings-desktop-schemas-48.0/share/pkgconfig
+      - /nix/store/rqjxvg7v6j49a463ka1f81aw592p8hkx-libICE-1.1.2-dev/lib/pkgconfig
+      - /nix/store/rv7n21ih1hz4pwavwawr2laf2kmb57rr-libSM-1.2.5-dev/lib/pkgconfig
+      - /nix/store/0mmlk5fnmnpb3v1lvynkcg6rvcpi2z7w-libXcomposite-0.4.6-dev/lib/pkgconfig
+      - /nix/store/v2925r1mj95ipxmb9dz5acmj907x0clg-libXfixes-6.0.1-dev/lib/pkgconfig
+      - /nix/store/4d11qczb3k391bin3rc6kbhs78v2xw8r-libXcursor-1.2.3-dev/lib/pkgconfig
+      - /nix/store/pln4qbh2srrhw7b9j2fhv0x3dxza6igw-libXdamage-1.1.6-dev/lib/pkgconfig
+      - /nix/store/3jxhqi6l9ngal99j9nz5jkhgk8rlg379-libXi-1.8.2-dev/lib/pkgconfig
+      - /nix/store/n04k2sr8gzh42kx2lv5mw5n4xbyljfl7-libXrandr-1.5.4-dev/lib/pkgconfig
+      - /nix/store/m2m8qx4x0m11mrvh9v1kirm1jrsbvnj8-pango-1.56.3-dev/lib/pkgconfig
+      - /nix/store/0c61qn93a48vgdmw8qf61drmcfp4j2c3-harfbuzz-10.2.0-dev/lib/pkgconfig
+      - /nix/store/rgx1727i6d65ag6s00r8npinafny208b-graphite2-1.3.14-dev/lib/pkgconfig
+      - /nix/store/7paa9dhrlzgvcx5w4qchnhlh6xr2f2qv-libXft-2.3.9-dev/lib/pkgconfig
+      - /nix/store/24nawc3jfnwvygh8pj2ns6wmjb3ji1v4-wayland-protocols-1.44/share/pkgconfig
+      - /nix/store/nxbp34v1fqqn1b2nb1ss7zq2bgr9y6pl-libXinerama-1.1.5-dev/lib/pkgconfig
+      - /nix/store/1qrklpslnsv116bl56px89f08cgy10jj-cups-2.4.11-dev/lib/pkgconfig
+      - /nix/store/6f6f151jdk2kawpr8ldy51nafgw8ya0v-libpq-17.5-dev/lib/pkgconfig
+      - /nix/store/89i9s1n0w6jxsld3ghbryddp5jjshglr-libxkbcommon-1.10.0-dev/lib/pkgconfig
+      - /nix/store/hwvp1ahqcb5syb08ys2j8mknd19pfcnj-mariadb-connector-c-3.3.5-dev/lib/pkgconfig
+      - /nix/store/wznrhnlrvamvihizpnizjfh5hs55z98n-curl-8.14.1-dev/lib/pkgconfig
+      - /nix/store/48wm9h7wf8ds4wkwgzzcqfrp7l722dm8-krb5-1.21.3-dev/lib/pkgconfig
+      - /nix/store/9pn6y4zlszr9w26rg2h52l3sd0wvzjvd-nghttp2-1.65.0-dev/lib/pkgconfig
+      - /nix/store/9j67k582x3vgcijfiyralx5bj1b33gdg-libidn2-2.3.8-dev/lib/pkgconfig
+      - /nix/store/y37r7yjyvnzzd648lpdgflynfj55hpns-libpsl-0.21.5-dev/lib/pkgconfig
+      - /nix/store/9wbcb5zbzgmih0y41qzhg6fz5zdsi085-libssh2-1.11.1-dev/lib/pkgconfig
+      - /nix/store/vfd9jq8hj63l2bibahswc0z1s6fxizw2-mate-settings-daemon-1.28.0/lib/pkgconfig
+      - /nix/store/kvvqnzfnk3dsfgb59588hxh12ij95jg6-capnproto-1.1.0/lib/pkgconfig
+      - /nix/store/7m8ws299hm57x6q6c8cnl2xxrajlcwin-speech-dispatcher-0.12.1/lib/pkgconfig
+      - /nix/store/5dc15pv52b1raq1lqbgrsqdjf2p02g0f-libjack2-1.9.22-dev/lib/pkgconfig
 
   HINT: you may need to install a package such as libpcsclite, libpcsclite-dev or libpcsclite-devel.
 

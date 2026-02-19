@@ -1,4 +1,4 @@
-Running as unit: run-p645644-i4839335.scope; invocation ID: 40943b7d75564469b1d351e65245d89b
+Running as unit: run-p1705445-i5899136.scope; invocation ID: f67018ab2bb944feba65e253d20cd462
    Compiling proc-macro2 v1.0.94
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.171
@@ -15,191 +15,273 @@ Running as unit: run-p645644-i4839335.scope; invocation ID: 40943b7d75564469b1d3
    Compiling shlex v1.3.0
     Checking futures-core v0.3.31
     Checking once_cell v1.21.0
+   Compiling pkg-config v0.3.32
    Compiling cc v1.2.16
     Checking fnv v1.0.7
-   Compiling pkg-config v0.3.32
    Compiling slab v0.4.9
     Checking futures-sink v0.3.31
    Compiling vcpkg v0.2.15
     Checking futures-channel v0.3.31
-    Checking futures-task v0.3.31
-    Checking litemap v0.7.5
     Checking writeable v0.5.5
     Checking pin-utils v0.1.0
+    Checking futures-task v0.3.31
     Checking futures-io v0.3.31
-    Checking tracing-core v0.1.33
+    Checking litemap v0.7.5
    Compiling quote v1.0.40
+    Checking tracing-core v0.1.33
    Compiling siphasher v1.0.1
+    Checking icu_locid_transform_data v1.5.0
    Compiling rand_core v0.6.4
     Checking socket2 v0.5.8
-   Compiling syn v2.0.100
     Checking mio v1.0.3
-    Checking icu_locid_transform_data v1.5.0
-   Compiling phf_shared v0.11.3
+   Compiling syn v2.0.100
    Compiling rand v0.8.5
+   Compiling phf_shared v0.11.3
     Checking equivalent v1.0.2
     Checking bitflags v2.9.0
-    Checking hashbrown v0.15.2
-    Checking icu_properties_data v1.5.0
    Compiling httparse v1.10.1
+    Checking icu_properties_data v1.5.0
+    Checking hashbrown v0.15.2
     Checking http v1.3.1
    Compiling num-traits v0.2.19
-    Checking icu_normalizer_data v1.5.0
     Checking write16 v1.0.0
     Checking utf8_iter v1.0.4
+    Checking icu_normalizer_data v1.5.0
     Checking utf16_iter v1.0.5
    Compiling lock_api v0.4.12
-   Compiling parking_lot_core v0.9.10
     Checking percent-encoding v2.3.1
-    Checking indexmap v2.8.0
-   Compiling phf_generator v0.11.3
    Compiling version_check v0.9.5
+   Compiling parking_lot_core v0.9.10
     Checking form_urlencoded v1.2.1
     Checking tracing v0.1.41
     Checking getrandom v0.2.15
-    Checking scopeguard v1.2.0
    Compiling openssl-sys v0.9.106
-   Compiling serde_json v1.0.140
+    Checking scopeguard v1.2.0
+   Compiling phf_generator v0.11.3
+    Checking indexmap v2.8.0
    Compiling zerocopy v0.8.23
-    Checking try-lock v0.2.5
+   Compiling serde_json v1.0.140
     Checking ryu v1.0.20
-    Checking want v0.3.1
+    Checking try-lock v0.2.5
     Checking parking_lot v0.12.3
+    Checking want v0.3.1
+    Checking rustls-pki-types v1.11.0
    Compiling openssl v0.10.71
+    Checking byteorder v1.5.0
     Checking tower-service v0.3.3
+   Compiling typenum v1.18.0
+   Compiling anyhow v1.0.97
    Compiling regex-syntax v0.8.5
     Checking foreign-types-shared v0.1.1
-   Compiling typenum v1.18.0
-    Checking byteorder v1.5.0
-    Checking rustls-pki-types v1.11.0
-   Compiling anyhow v1.0.97
     Checking foreign-types v0.3.2
-   Compiling aho-corasick v1.1.3
-   Compiling generic-array v0.14.7
-   Compiling ring v0.17.14
     Checking http-body v1.0.1
    Compiling phf_codegen v0.11.3
+   Compiling aho-corasick v1.1.3
+   Compiling ring v0.17.14
+   Compiling generic-array v0.14.7
+    Checking atomic-waker v1.1.2
     Checking mime v0.3.17
-   Compiling thiserror v2.0.12
    Compiling native-tls v0.2.14
    Compiling unicase v2.8.1
-    Checking atomic-waker v1.1.2
+   Compiling thiserror v2.0.12
    Compiling mime_guess v2.0.5
-    Checking ppv-lite86 v0.2.21
-   Compiling regex-automata v0.4.9
+    Checking utf-8 v0.7.6
     Checking iana-time-zone v0.1.61
     Checking base64 v0.22.1
+    Checking ppv-lite86 v0.2.21
     Checking openssl-probe v0.1.6
-    Checking new_debug_unreachable v1.0.6
-    Checking utf-8 v0.7.6
-   Compiling ident_case v1.0.1
    Compiling strsim v0.11.1
+    Checking new_debug_unreachable v1.0.6
+   Compiling ident_case v1.0.1
     Checking encoding_rs v0.8.35
-    Checking untrusted v0.9.0
-    Checking either v1.15.0
+   Compiling regex-automata v0.4.9
    Compiling getrandom v0.3.1
+    Checking either v1.15.0
+    Checking untrusted v0.9.0
     Checking itertools v0.14.0
     Checking http-body-util v0.1.3
     Checking rustls-pemfile v2.2.0
    Compiling string_cache_codegen v0.5.4
     Checking http v0.2.12
     Checking sync_wrapper v1.0.2
-    Checking precomputed-hash v0.1.1
-    Checking tower-layer v0.3.3
     Checking mac v0.1.1
-   Compiling synstructure v0.13.1
-   Compiling darling_core v0.20.10
+    Checking tower-layer v0.3.3
+    Checking precomputed-hash v0.1.1
     Checking futf v0.1.5
-   Compiling regex v1.11.1
    Compiling markup5ever v0.15.0
-    Checking block-buffer v0.10.4
-    Checking crypto-common v0.1.6
    Compiling libsqlite3-sys v0.31.0
    Compiling mysqlclient-sys v0.4.2
-    Checking ipnet v2.11.0
-    Checking powerfmt v0.2.0
-    Checking dtoa v1.0.10
-   Compiling num-conv v0.1.0
    Compiling time-core v0.1.3
+   Compiling num-conv v0.1.0
+    Checking dtoa v1.0.10
+    Checking ipnet v2.11.0
    Compiling heck v0.5.0
+    Checking regex v1.11.1
+    Checking powerfmt v0.2.0
     Checking dtoa-short v0.3.5
    Compiling time-macros v0.2.20
     Checking deranged v0.3.11
-error: failed to run custom build command for `mysqlclient-sys v0.4.2`
+    Checking tendril v0.4.3
+   Compiling selectors v0.26.0
+    Checking num-integer v0.1.46
+   Compiling synstructure v0.13.1
+   Compiling darling_core v0.20.10
+   Compiling diesel_table_macro_syntax v0.2.0
+    Checking scheduled-thread-pool v0.2.7
+    Checking alloc-no-stdlib v2.0.4
+    Checking cpufeatures v0.2.17
+   Compiling thiserror v1.0.69
+    Checking rand_chacha v0.3.1
+    Checking alloc-stdlib v0.2.2
+    Checking r2d2 v0.8.10
+    Checking time v0.3.39
+    Checking num-bigint v0.4.6
+    Checking rand_core v0.9.3
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking fxhash v0.2.1
+    Checking servo_arc v0.4.0
+    Checking unicode-width v0.1.14
+   Compiling rustls v0.22.4
+    Checking digest v0.10.7
+   Compiling rustix v1.0.2
+    Checking winnow v0.7.4
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.7.5
+   Compiling zerovec-derive v0.10.3
+   Compiling displaydoc v0.2.5
+   Compiling tokio-macros v2.5.0
+   Compiling futures-macro v0.3.31
+    Checking zerofrom v0.1.6
+    Checking yoke v0.7.5
+   Compiling icu_provider_macros v1.5.0
+    Checking tokio v1.44.1
+   Compiling openssl-macros v0.1.1
+    Checking zerovec v0.10.4
+   Compiling structmeta-derive v0.3.0
+    Checking futures-util v0.3.31
+   Compiling thiserror-impl v2.0.12
+   Compiling structmeta v0.3.0
+   Compiling parse-display-derive v0.10.0
+   Compiling phf_macros v0.11.3
+   Compiling darling_macro v0.20.10
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+    Checking icu_locid v1.5.0
+    Checking phf v0.11.3
+   Compiling num-derive v0.4.2
+   Compiling darling v0.20.10
+   Compiling dsl_auto_type v0.1.3
+    Checking icu_provider v1.5.0
+    Checking parse-display v0.10.0
+   Compiling cssparser-macros v0.6.1
+   Compiling diesel_derives v2.2.4
+    Checking icu_locid_transform v1.5.0
+    Checking sha1 v0.10.6
+    Checking cssparser v0.34.0
+   Compiling thiserror-impl v1.0.69
+    Checking icu_properties v1.5.1
+   Compiling match_token v0.1.0
+   Compiling derive_more v0.99.19
+    Checking adler2 v2.0.0
+    Checking option-ext v0.2.0
+    Checking dirs-sys v0.5.0
+    Checking futures-executor v0.3.31
+    Checking miniz_oxide v0.8.5
+    Checking futures v0.3.31
+    Checking simple_asn1 v0.6.3
+    Checking getopts v0.2.21
+    Checking rand_chacha v0.9.0
+    Checking brotli-decompressor v4.0.2
+    Checking rustls-webpki v0.102.8
+    Checking pem v3.0.5
+   Compiling multer v2.1.0
+    Checking crc32fast v1.4.2
+    Checking linux-raw-sys v0.9.2
+    Checking data-encoding v2.8.0
+    Checking subtle v2.6.1
+    Checking tokio-util v0.7.14
+    Checking tokio-native-tls v0.3.1
+    Checking tower v0.5.2
+    Checking zeroize v1.8.1
+    Checking httpdate v1.0.3
+    Checking ego-tree v0.10.0
+    Checking icu_normalizer v1.5.0
+    Checking h2 v0.4.8
+    Checking chrono v0.4.40
+    Checking serde_urlencoded v0.7.1
+    Checking idna_adapter v1.2.0
+    Checking envy v0.4.2
+    Checking idna v1.0.3
+    Checking string_cache v0.8.8
+    Checking url v2.5.4
+    Checking serde_spanned v0.6.8
+    Checking toml_datetime v0.6.8
+    Checking toml_edit v0.22.24
+    Checking tungstenite v0.21.0
+    Checking model v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/model)
+warning: unnecessary parentheses around closure body
+  --> crates/model/src/score/ranking.rs:29:47
+   |
+29 | ...                   .map(|detail| ((va.id, (va.name.clone(), detail))))
+   |                                     ^                                  ^
+   |
+   = note: `#[warn(unused_parens)]` (part of `#[warn(unused)]`) on by default
+help: remove these parentheses
+   |
+29 -                                 .map(|detail| ((va.id, (va.name.clone(), detail))))
+29 +                                 .map(|detail| (va.id, (va.name.clone(), detail)) )
+   |
 
-Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/katandps_beatoraja_play_recommend_okqtax62/target/debug/build/mysqlclient-sys-63b74a6d3cddec7a/build-script-build` (exit status: 101)
-  --- stdout
-  cargo::rerun-if-env-changed=MYSQLCLIENT_VERSION
-  cargo::rerun-if-env-changed=MYSQLCLIENT_INCLUDE_DIR
-  cargo::rerun-if-env-changed=MYSQLCLIENT_INCLUDE_DIR_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_DIR
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_DIR_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIBNAME
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIBNAME_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_STATIC
-  cargo::rerun-if-env-changed=MYSQLCLIENT_VERSION_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_STATIC_X86_64_UNKNOWN_LINUX_GNU
-  cargo:rerun-if-env-changed=MYSQLCLIENT_NO_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG
-  cargo:rerun-if-env-changed=MYSQLCLIENT_STATIC
-  cargo:rerun-if-env-changed=MYSQLCLIENT_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=LIBMARIADB_NO_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG
-  cargo:rerun-if-env-changed=LIBMARIADB_STATIC
-  cargo:rerun-if-env-changed=LIBMARIADB_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+    Checking html5ever v0.29.2
+    Checking jsonwebtoken v9.3.1
+    Checking h2 v0.3.26
+    Checking brotli v7.0.0
+    Checking diesel v2.2.8
+    Checking flate2 v1.1.0
+    Checking scraper v0.23.1
+warning: `model` (lib) generated 1 warning (run `cargo fix --lib -p model` to apply 1 suggestion)
+    Checking repository v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/repository)
+    Checking rand v0.9.0
+    Checking dirs v6.0.0
+   Compiling pin-project-internal v1.1.10
+    Checking headers-core v0.2.0
+    Checking http-body v0.4.6
+    Checking spin v0.9.8
+    Checking fastrand v2.3.0
+    Checking base64 v0.21.7
+    Checking lazy_static v1.5.0
+    Checking overload v0.1.1
+    Checking nu-ansi-term v0.46.0
+    Checking headers v0.3.9
+    Checking sharded-slab v0.1.7
+    Checking pin-project v1.1.10
+    Checking tempfile v3.18.0
+    Checking toml v0.8.20
+    Checking session v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/session)
+    Checking tokio-rustls v0.25.0
+    Checking tokio-tungstenite v0.21.0
+    Checking tracing-serde v0.2.0
+    Checking tracing-log v0.2.0
+    Checking thread_local v1.1.8
+    Checking hyper v1.6.0
+    Checking scoped-tls v1.0.1
+    Checking tracing-subscriber v0.3.19
+    Checking async-compression v0.4.20
+    Checking hyper-util v0.1.10
+    Checking hyper v0.14.32
+    Checking hyper-tls v0.6.0
+    Checking reqwest v0.12.14
+    Checking oauth_google v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/oauth_google)
+    Checking table v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/table)
+    Checking send_slack v0.1.0 (/tmp/nix-shell.cigUv1/katandps_beatoraja_play_recommend_b3g8yxkk/crates/send_slack)
+    Checking warp v0.3.7
+error[E0271]: type mismatch resolving `<DB as TypeMetadata>::MetadataLookup == &mut <DB as TypeMetadata>::MetadataLookup`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/diesel-2.2.8/src/query_builder/ast_pass.rs:220:51
+    |
+220 |             } => collector.push_bound_value(bind, metadata_lookup)?,
+    |                                                   ^^^^^^^^^^^^^^^ types differ
 
-  --- stderr
-
-  thread 'main' (647428) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/mysqlclient-sys-0.4.2/build.rs:95:5:
-  Did not find a compatible version of libmysqlclient.
-  Ensure that you installed one and teached mysqlclient-sys how to find it
-  You have the following options for that:
-
-  * Use `pkg_config` to automatically detect the right location
-  * Use vcpkg to automatically detect the right location. 
-  You also need to set `MYSQLCLIENT_VERSION` to specify which
-  version of libmysqlclient you are using
-  * Set the `MYSQLCLIENT_LIB_DIR` and `MYSQLCLIENT_VERSION` environment 
-  variables to point the compiler to the right directory and specify 
-  which version is used
-  * Make the `mysql_config` binary avaible in the environment that invokes
-  the compiler
-  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-warning: build failed, waiting for other jobs to finish...
+For more information about this error, try `rustc --explain E0271`.
+error: could not compile `diesel` (lib) due to 1 previous error

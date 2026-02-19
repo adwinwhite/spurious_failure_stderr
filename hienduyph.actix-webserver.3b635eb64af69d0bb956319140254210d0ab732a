@@ -1,111 +1,150 @@
-Running as unit: run-p105738-i4299483.scope; invocation ID: 01ae169a70f147dc9c0720481f1d9dc1
+Running as unit: run-p1691962-i5885653.scope; invocation ID: e0a8dd61bdb34111a218cbf31f52993a
    Compiling proc-macro2 v1.0.92
    Compiling unicode-ident v1.0.14
    Compiling libc v0.2.169
     Checking cfg-if v1.0.0
    Compiling serde v1.0.219
    Compiling autocfg v1.4.0
-    Checking bytes v1.9.0
    Compiling typeid v1.0.2
+    Checking bytes v1.9.0
    Compiling version_check v0.9.5
     Checking pin-project-lite v0.2.15
     Checking itoa v1.0.14
-   Compiling lock_api v0.4.12
-    Checking scopeguard v1.2.0
     Checking futures-core v0.3.31
+    Checking scopeguard v1.2.0
    Compiling parking_lot_core v0.9.10
     Checking memchr v2.7.4
-   Compiling typenum v1.17.0
     Checking futures-sink v0.3.31
+   Compiling typenum v1.17.0
    Compiling generic-array v0.14.7
-   Compiling quote v1.0.37
-    Checking getrandom v0.2.15
-    Checking socket2 v0.5.8
-    Checking signal-hook-registry v1.4.2
-    Checking rand_core v0.6.4
-   Compiling slab v0.4.9
     Checking once_cell v1.21.3
-   Compiling syn v2.0.91
     Checking pin-utils v0.1.0
-    Checking subtle v2.6.1
-    Checking futures-io v0.3.31
     Checking futures-task v0.3.31
+   Compiling lock_api v0.4.12
+   Compiling slab v0.4.9
+    Checking futures-io v0.3.31
+    Checking subtle v2.6.1
     Checking fnv v1.0.7
     Checking tracing-core v0.1.33
-    Checking stable_deref_trait v1.2.0
    Compiling shlex v1.3.0
+    Checking stable_deref_trait v1.2.0
     Checking foldhash v0.1.5
-    Checking equivalent v1.0.1
+   Compiling quote v1.0.37
     Checking allocator-api2 v0.2.21
+    Checking equivalent v1.0.1
     Checking cpufeatures v0.2.16
     Checking percent-encoding v2.3.1
-    Checking litemap v0.7.4
     Checking writeable v0.5.5
+    Checking getrandom v0.2.15
+    Checking signal-hook-registry v1.4.2
+    Checking socket2 v0.5.8
+   Compiling syn v2.0.91
+    Checking rand_core v0.6.4
+    Checking litemap v0.7.4
     Checking byteorder v1.5.0
     Checking icu_locid_transform_data v1.5.0
-   Compiling jobserver v0.1.32
-    Checking hashbrown v0.15.2
     Checking form_urlencoded v1.2.1
+    Checking hashbrown v0.15.2
     Checking icu_properties_data v1.5.0
     Checking utf16_iter v1.0.5
-    Checking utf8_iter v1.0.4
-   Compiling pkg-config v0.3.31
-   Compiling cc v1.2.5
-    Checking write16 v1.0.0
-   Compiling serde_json v1.0.140
-    Checking icu_normalizer_data v1.5.0
-   Compiling httparse v1.9.5
-    Checking indexmap v2.7.0
-    Checking crypto-common v0.1.6
-    Checking block-buffer v0.10.4
     Checking ryu v1.0.18
-    Checking digest v0.10.7
+   Compiling httparse v1.9.5
+   Compiling jobserver v0.1.32
+    Checking icu_normalizer_data v1.5.0
+    Checking write16 v1.0.0
+   Compiling pkg-config v0.3.31
+    Checking utf8_iter v1.0.4
+   Compiling serde_json v1.0.140
    Compiling getrandom v0.3.2
     Checking futures-channel v0.3.31
+   Compiling cc v1.2.5
     Checking httpdate v1.0.3
    Compiling crossbeam-utils v0.8.21
    Compiling num-traits v0.2.19
     Checking mime v0.3.17
-    Checking http v0.2.12
     Checking http v1.2.0
-    Checking base64 v0.22.1
+    Checking http v0.2.12
+    Checking indexmap v2.7.0
     Checking bitflags v2.6.0
-   Compiling ring v0.17.8
-    Checking sha1 v0.10.6
+    Checking base64 v0.22.1
     Checking spin v0.9.8
-   Compiling zstd-sys v2.0.13+zstd.1.5.6
-    Checking sha2 v0.10.8
-    Checking hmac v0.12.1
-   Compiling paste v1.0.15
    Compiling either v1.13.0
-    Checking hkdf v0.12.4
-    Checking inout v0.1.3
+   Compiling paste v1.0.15
+    Checking powerfmt v0.2.0
+    Checking local-waker v0.1.4
+   Compiling time-core v0.1.2
+    Checking untrusted v0.9.0
+   Compiling num-conv v0.1.0
    Compiling unicode-xid v0.2.6
     Checking rustls-pki-types v1.10.1
-    Checking local-waker v0.1.4
-    Checking powerfmt v0.2.0
-    Checking untrusted v0.9.0
-   Compiling time-core v0.1.2
-   Compiling num-conv v0.1.0
     Checking deranged v0.3.11
    Compiling time-macros v0.2.19
-    Checking cipher v0.4.4
-    Checking universal-hash v0.5.1
     Checking aho-corasick v1.1.3
-    Checking regex-syntax v0.8.5
-   Compiling synstructure v0.13.1
-    Checking alloc-no-stdlib v2.0.4
-   Compiling zstd-safe v7.2.1
-   Compiling zerocopy v0.8.24
+   Compiling ring v0.17.8
+   Compiling zstd-sys v2.0.13+zstd.1.5.6
     Checking opaque-debug v0.3.1
-    Checking polyval v0.6.2
-    Checking time v0.3.37
+    Checking alloc-no-stdlib v2.0.4
+    Checking regex-syntax v0.8.5
+   Compiling zerocopy v0.8.24
+   Compiling zstd-safe v7.2.1
     Checking alloc-stdlib v0.2.2
     Checking actix-service v2.0.2
-    Checking regex-automata v0.4.9
+    Checking time v0.3.37
     Checking actix-utils v3.0.1
     Checking rand_core v0.9.3
     Checking encoding_rs v0.8.35
+    Checking regex-automata v0.4.9
+   Compiling log v0.4.27
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking inout v0.1.3
+    Checking universal-hash v0.5.1
+    Checking digest v0.10.7
+    Checking cipher v0.4.4
+    Checking polyval v0.6.2
+    Checking adler2 v2.0.0
+    Checking try-lock v0.2.5
+    Checking tower-service v0.3.3
+   Compiling rustls v0.23.20
+    Checking sha1 v0.10.6
+    Checking hmac v0.12.1
+    Checking sha2 v0.10.8
+    Checking hkdf v0.12.4
+   Compiling anyhow v1.0.94
+    Checking ctr v0.9.2
+    Checking aes v0.8.4
+    Checking want v0.3.1
+    Checking miniz_oxide v0.8.2
+    Checking ghash v0.5.1
+    Checking aead v0.5.2
+   Compiling bytestring v1.4.0
+   Compiling tracing v0.1.41
+    Checking brotli-decompressor v4.0.1
+    Checking http-body v1.0.1
+   Compiling cookie v0.16.2
+    Checking crc32fast v1.4.2
+   Compiling regex-lite v0.1.6
+    Checking rustls-webpki v0.102.8
+    Checking zeroize v1.8.1
+    Checking iana-time-zone v0.1.61
+    Checking regex v1.11.1
+    Checking brotli v7.0.0
+    Checking flate2 v1.0.35
+    Checking aes-gcm v0.10.3
+    Checking local-channel v0.1.5
+   Compiling synstructure v0.13.1
+    Checking impl-more v0.1.8
+   Compiling thiserror v2.0.12
+   Compiling thiserror v1.0.69
+    Checking language-tags v0.3.2
+   Compiling strsim v0.11.1
+    Checking tinyvec_macros v0.1.1
+    Checking base64 v0.20.0
+    Checking atomic-waker v1.1.2
+   Compiling ident_case v1.0.1
+    Checking tinyvec v1.8.1
+   Compiling darling_core v0.20.10
+    Checking concurrent-queue v2.5.0
    Compiling serde_derive v1.0.219
    Compiling tokio-macros v2.5.0
    Compiling futures-macro v0.3.31
@@ -113,243 +152,201 @@ Running as unit: run-p105738-i4299483.scope; invocation ID: 01ae169a70f147dc9c07
    Compiling zerofrom-derive v0.1.5
     Checking futures-util v0.3.31
    Compiling yoke-derive v0.7.5
-   Compiling zerovec-derive v0.10.3
     Checking zerofrom v0.1.5
+   Compiling zerovec-derive v0.10.3
    Compiling displaydoc v0.2.5
    Compiling icu_provider_macros v1.5.0
    Compiling zerocopy-derive v0.7.35
+   Compiling derive_more-impl v2.0.1
+   Compiling actix-router v0.5.3
     Checking yoke v0.7.5
+   Compiling pin-project-internal v1.1.7
     Checking zerovec v0.10.4
     Checking zerocopy v0.7.35
-    Checking tower-service v0.3.3
-   Compiling log v0.4.27
-   Compiling rustls v0.23.20
-   Compiling anyhow v1.0.94
-    Checking tinystr v0.7.6
-    Checking icu_collections v1.5.0
-    Checking icu_locid v1.5.0
-    Checking ppv-lite86 v0.2.20
-    Checking try-lock v0.2.5
-    Checking adler2 v2.0.0
-    Checking want v0.3.1
-    Checking rand_chacha v0.3.1
-    Checking miniz_oxide v0.8.2
-    Checking rand_chacha v0.9.0
-    Checking rand v0.8.5
-    Checking icu_provider v1.5.0
-   Compiling tracing v0.1.41
-   Compiling bytestring v1.4.0
-    Checking rustls-webpki v0.102.8
-    Checking regex v1.11.1
-    Checking icu_locid_transform v1.5.0
-   Compiling derive_more-impl v2.0.1
-    Checking brotli-decompressor v4.0.1
-    Checking smallvec v1.13.2
-    Checking serde_fmt v1.0.3
-    Checking erased-serde v0.4.5
-    Checking parking_lot v0.12.3
-    Checking icu_properties v1.5.1
-    Checking value-bag-serde1 v1.10.0
-    Checking value-bag v1.10.0
-    Checking mio v1.0.3
-    Checking tokio v1.44.1
-    Checking serde_urlencoded v0.7.1
-    Checking ghash v0.5.1
-    Checking icu_normalizer v1.5.0
-    Checking idna_adapter v1.2.0
-    Checking aes v0.8.4
-    Checking idna v1.0.3
-    Checking ctr v0.9.2
-    Checking http-body v1.0.1
-    Checking aead v0.5.2
-    Checking url v2.5.4
-   Compiling cookie v0.16.2
-    Checking crc32fast v1.4.2
-    Checking iana-time-zone v0.1.61
-   Compiling regex-lite v0.1.6
-    Checking zeroize v1.8.1
-    Checking flate2 v1.0.35
-    Checking chrono v0.4.40
-    Checking aes-gcm v0.10.3
-    Checking rand v0.9.0
-   Compiling actix-router v0.5.3
-    Checking derive_more v2.0.1
-    Checking brotli v7.0.0
-    Checking local-channel v0.1.5
-    Checking tinyvec_macros v0.1.1
-    Checking atomic-waker v1.1.2
-    Checking base64 v0.20.0
-   Compiling strsim v0.11.1
-   Compiling thiserror v1.0.69
-    Checking language-tags v0.3.2
-    Checking impl-more v0.1.8
-   Compiling thiserror v2.0.12
-   Compiling ident_case v1.0.1
-    Checking tokio-util v0.7.13
-    Checking actix-rt v2.10.0
-   Compiling darling_core v0.20.10
-    Checking actix-server v2.5.0
-    Checking tokio-stream v0.1.17
-    Checking h2 v0.3.26
-    Checking actix-codec v0.5.2
-    Checking h2 v0.4.7
    Compiling actix-web-codegen v4.3.0
-    Checking tinyvec v1.8.1
-   Compiling pin-project-internal v1.1.7
-   Compiling actix-macros v0.2.4
+    Checking zstd v0.13.2
    Compiling thiserror-impl v1.0.69
    Compiling thiserror-impl v2.0.12
-    Checking concurrent-queue v2.5.0
-    Checking parking v2.2.1
-   Compiling rustversion v1.0.18
+    Checking ppv-lite86 v0.2.20
+   Compiling actix-macros v0.2.4
     Checking crc-catalog v2.4.0
-    Checking crc v3.2.1
-    Checking hyper v1.5.2
+   Compiling rustversion v1.0.18
+    Checking parking v2.2.1
     Checking event-listener v5.3.1
+    Checking rand_chacha v0.3.1
+    Checking tinystr v0.7.6
+    Checking icu_collections v1.5.0
+    Checking rand_chacha v0.9.0
+    Checking rand v0.8.5
+    Checking icu_locid v1.5.0
+    Checking rand v0.9.0
+    Checking crc v3.2.1
     Checking pin-project v1.1.7
    Compiling darling_macro v0.20.10
     Checking unicode-normalization v0.1.24
-    Checking futures-intrusive v0.5.0
-    Checking uuid v1.16.0
-    Checking webpki-roots v0.26.7
     Checking rustls-pemfile v2.2.0
+    Checking webpki-roots v0.26.7
+    Checking icu_provider v1.5.0
     Checking crossbeam-queue v0.3.12
     Checking hashlink v0.10.0
    Compiling proc-macro-error-attr2 v2.0.0
    Compiling proc-macro2-diagnostics v0.10.1
     Checking instant v0.1.13
-    Checking sync_wrapper v1.0.2
    Compiling heck v0.4.1
-    Checking unicode-bidi v0.3.18
-    Checking tower-layer v0.3.3
     Checking unicode-properties v0.1.3
-    Checking zstd v0.13.2
+    Checking sync_wrapper v1.0.2
+    Checking tower-layer v0.3.3
    Compiling unicase v2.8.0
+    Checking icu_locid_transform v1.5.0
+    Checking unicode-bidi v0.3.18
    Compiling proc-macro-error2 v2.0.1
-    Checking sqlx-core v0.8.3
+    Checking derive_more v2.0.1
    Compiling mime_guess v2.0.5
-    Checking hyper-util v0.1.10
-    Checking stringprep v0.1.5
-    Checking actix-http v3.10.0
    Compiling darling v0.20.10
     Checking http-body-util v0.1.2
+    Checking md-5 v0.10.6
    Compiling itertools v0.13.0
     Checking atoi v2.0.0
-    Checking md-5 v0.10.6
-    Checking home v0.5.11
-   Compiling yansi v1.0.1
-    Checking dotenvy v0.15.7
+    Checking stringprep v0.1.5
    Compiling arrayvec v0.4.12
-    Checking whoami v1.5.2
-   Compiling vcpkg v0.2.15
    Compiling parking_lot_core v0.8.6
-   Compiling convert_case v0.4.0
-    Checking hex v0.4.3
+   Compiling yansi v1.0.1
+    Checking home v0.5.11
+    Checking icu_properties v1.5.1
     Checking base64 v0.21.7
-   Compiling libsqlite3-sys v0.30.1
-   Compiling derive_more v0.99.18
-    Checking axum-core v0.5.2
-    Checking tower v0.5.2
-    Checking sqlx-postgres v0.8.3
-   Compiling prost-derive v0.13.5
-    Checking actix-web v4.10.2
-    Checking serde_path_to_error v0.1.16
-   Compiling inherent v1.0.11
+    Checking dotenvy v0.15.7
+    Checking hex v0.4.3
+    Checking whoami v1.5.2
+   Compiling convert_case v0.4.0
+   Compiling vcpkg v0.2.15
    Compiling derive_more-impl v1.0.0
+   Compiling inherent v1.0.11
+   Compiling derive_more v0.99.18
    Compiling itertools v0.12.1
     Checking ordered-float v3.9.2
+   Compiling libsqlite3-sys v0.30.1
     Checking num-integer v0.1.46
     Checking crossbeam-epoch v0.9.18
+    Checking smallvec v1.13.2
+    Checking serde_fmt v1.0.3
+    Checking erased-serde v0.4.5
+    Checking parking_lot v0.12.3
+    Checking serde_urlencoded v0.7.1
+    Checking chrono v0.4.40
+    Checking value-bag-serde1 v1.10.0
+    Checking value-bag v1.10.0
+    Checking icu_normalizer v1.5.0
+    Checking futures-intrusive v0.5.0
+    Checking uuid v1.16.0
+    Checking mio v1.0.3
+    Checking idna_adapter v1.2.0
+    Checking idna v1.0.3
+    Checking tokio v1.44.1
+    Checking axum-core v0.5.2
+   Compiling prost-derive v0.13.5
+    Checking serde_path_to_error v0.1.16
    Compiling mysqlclient-sys v0.4.2
+    Checking url v2.5.4
    Compiling multer v2.1.0
-    Checking nodrop v0.1.14
-    Checking data-encoding v2.6.0
    Compiling rayon-core v1.12.1
-    Checking utf-8 v0.7.6
-   Compiling v_htmlescape v0.15.8
+    Checking nodrop v0.1.14
    Compiling pq-sys v0.6.3
-    Checking matchit v0.8.4
    Compiling heck v0.5.0
+    Checking utf-8 v0.7.6
+    Checking matchit v0.8.4
+    Checking data-encoding v2.6.0
+   Compiling v_htmlescape v0.15.8
    Compiling dsl_auto_type v0.1.2
-    Checking axum v0.8.3
-   Compiling ouroboros_macro v0.18.4
     Checking tungstenite v0.21.0
+   Compiling ouroboros_macro v0.18.4
+    Checking sea-query v0.32.1
     Checking derive_more v1.0.0
-error: failed to run custom build command for `mysqlclient-sys v0.4.2`
+    Checking scheduled-thread-pool v0.2.7
+    Checking crossbeam-deque v0.8.6
+    Checking prost v0.13.5
+    Checking num-bigint v0.4.6
+   Compiling sea-bae v0.2.1
+   Compiling async-stream-impl v0.3.6
+   Compiling async-trait v0.1.88
+   Compiling diesel_table_macro_syntax v0.2.0
+    Checking headers-core v0.2.0
+    Checking http-body v0.4.6
+    Checking headers-core v0.3.0
+    Checking crossbeam-channel v0.5.14
+    Checking num_cpus v1.16.0
+    Checking static_assertions v1.1.0
+    Checking aliasable v0.1.3
+    Checking constant_time_eq v0.1.5
+    Checking threadpool v1.8.1
+    Checking blake2-rfc v0.2.18
+    Checking ouroboros v0.18.4
+    Checking headers v0.4.0
+    Checking headers v0.3.9
+   Compiling diesel_derives v2.2.3
+    Checking async-stream v0.3.6
+   Compiling sea-orm-macros v1.1.8
+    Checking simple_asn1 v0.6.2
+    Checking parking_lot v0.11.2
+    Checking r2d2 v0.8.10
+    Checking backoff v0.4.0
+    Checking pem v3.0.4
+    Checking scoped_threadpool v0.1.9
+    Checking lazy_static v1.5.0
+    Checking strum v0.26.3
+    Checking scoped-tls v1.0.1
+    Checking http-range v0.1.5
+    Checking actix-threadpool v0.3.3
+    Checking jsonwebtoken v9.3.1
+    Checking argon2rs v0.2.5
+    Checking rayon v1.10.0
+   Compiling validator_derive v0.20.0
+    Checking prost-types v0.13.5
+    Checking validator v0.20.0
+    Checking envy v0.4.2
+    Checking futures v0.3.31
+    Checking listenfd v1.0.2
+    Checking dotenv v0.15.0
+    Checking tokio-util v0.7.13
+    Checking actix-rt v2.10.0
+    Checking tokio-stream v0.1.17
+    Checking tokio-rustls v0.26.1
+    Checking actix-server v2.5.0
+    Checking tokio-tungstenite v0.21.0
+    Checking structured-logger v1.0.3
+    Checking h2 v0.3.26
+    Checking actix-codec v0.5.2
+    Checking h2 v0.4.7
+    Checking sqlx-core v0.8.3
+    Checking tower v0.5.2
+    Checking actix v0.13.5
+    Checking actix-tls v3.4.0
+    Checking redis-async v0.16.1
+    Checking redis-async v0.17.2
+    Checking diesel v2.2.8
+    Checking sqlx-postgres v0.8.3
+    Checking actix-http v3.10.0
+    Checking hyper v0.14.32
+    Checking hyper v1.5.2
+    Checking hyper-util v0.1.10
+    Checking sqlx v0.8.3
+    Checking sea-query-binder v0.7.0
+    Checking sea-orm v1.1.8
+    Checking axum v0.8.3
+    Checking hyper-timeout v0.5.2
+    Checking actix-web v4.10.2
+    Checking warp v0.3.7
+    Checking actix-session v0.10.1
+    Checking actix-redis v0.13.1+deprecated
+    Checking actix-cors v0.7.1
+    Checking actix-files v0.6.6
+    Checking actix-identity v0.8.0
+    Checking axum-extra v0.10.1
+    Checking tonic v0.13.0
+error[E0271]: type mismatch resolving `<DB as TypeMetadata>::MetadataLookup == &mut <DB as TypeMetadata>::MetadataLookup`
+   --> /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/diesel-2.2.8/src/query_builder/ast_pass.rs:220:51
+    |
+220 |             } => collector.push_bound_value(bind, metadata_lookup)?,
+    |                                                   ^^^^^^^^^^^^^^^ types differ
 
-Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.AaBijX/hienduyph_actix-webserver_1do89sv_/target/debug/build/mysqlclient-sys-3cde16b91bca1d3e/build-script-build` (exit status: 101)
-  --- stdout
-  cargo::rerun-if-env-changed=MYSQLCLIENT_VERSION
-  cargo::rerun-if-env-changed=MYSQLCLIENT_INCLUDE_DIR
-  cargo::rerun-if-env-changed=MYSQLCLIENT_INCLUDE_DIR_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_DIR
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_DIR_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIBNAME
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIBNAME_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_STATIC
-  cargo::rerun-if-env-changed=MYSQLCLIENT_VERSION_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_LIB_X86_64_UNKNOWN_LINUX_GNU
-  cargo::rerun-if-env-changed=MYSQLCLIENT_STATIC_X86_64_UNKNOWN_LINUX_GNU
-  cargo:rerun-if-env-changed=MYSQLCLIENT_NO_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG
-  cargo:rerun-if-env-changed=MYSQLCLIENT_STATIC
-  cargo:rerun-if-env-changed=MYSQLCLIENT_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=LIBMARIADB_NO_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
-  cargo:rerun-if-env-changed=PKG_CONFIG
-  cargo:rerun-if-env-changed=LIBMARIADB_STATIC
-  cargo:rerun-if-env-changed=LIBMARIADB_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
-  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
-  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
-
-  --- stderr
-
-  thread 'main' (109756) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/mysqlclient-sys-0.4.2/build.rs:95:5:
-  Did not find a compatible version of libmysqlclient.
-  Ensure that you installed one and teached mysqlclient-sys how to find it
-  You have the following options for that:
-
-  * Use `pkg_config` to automatically detect the right location
-  * Use vcpkg to automatically detect the right location. 
-  You also need to set `MYSQLCLIENT_VERSION` to specify which
-  version of libmysqlclient you are using
-  * Set the `MYSQLCLIENT_LIB_DIR` and `MYSQLCLIENT_VERSION` environment 
-  variables to point the compiler to the right directory and specify 
-  which version is used
-  * Make the `mysql_config` binary avaible in the environment that invokes
-  the compiler
-  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-warning: build failed, waiting for other jobs to finish...
+For more information about this error, try `rustc --explain E0271`.
+error: could not compile `diesel` (lib) due to 1 previous error

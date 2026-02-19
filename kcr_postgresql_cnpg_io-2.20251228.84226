@@ -1,33 +1,32 @@
-Running as unit: run-p375020-i4568734.scope; invocation ID: 1c9e13cf8fbb4bf6a320e044725714fc
+Running as unit: run-p1829044-i6022735.scope; invocation ID: 7d00e72e22ab49db8c8175863b3eff0d
    Compiling proc-macro2 v1.0.104
-   Compiling quote v1.0.42
    Compiling unicode-ident v1.0.22
+   Compiling quote v1.0.42
    Compiling serde_core v1.0.228
    Compiling autocfg v1.5.0
    Compiling serde v1.0.228
-    Checking itoa v1.0.17
    Compiling serde_json v1.0.148
-   Compiling num-traits v0.2.19
+    Checking itoa v1.0.17
    Compiling strsim v0.11.1
    Compiling fnv v1.0.7
     Checking zmij v1.0.0
    Compiling ident_case v1.0.1
    Compiling ref-cast v1.0.25
     Checking memchr v2.7.6
-   Compiling syn v2.0.111
    Compiling thiserror v2.0.17
    Compiling k8s-openapi v0.26.1
-    Checking ordered-float v2.10.1
+   Compiling num-traits v0.2.19
+    Checking bytes v1.11.0
 error: failed to run custom build command for `k8s-openapi v0.26.1`
 
 Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/kcr_postgresql_cnpg_io-2.20251228.84226/target/debug/build/k8s-openapi-0deb5815f2755ef4/build-script-build` (exit status: 101)
+  process didn't exit successfully: `/getea/tmp/crater-spurious/kcr_postgresql_cnpg_io-2.20251228.84226/target/debug/build/k8s-openapi-03133b72f4c7c692/build-script-build` (exit status: 101)
   --- stdout
   cargo::rerun-if-env-changed=K8S_OPENAPI_ENABLED_VERSION
 
   --- stderr
 
-  thread 'main' (375569) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.26.1/build.rs:17:42:
+  thread 'main' (1829500) panicked at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/k8s-openapi-0.26.1/build.rs:17:42:
 
   None of the v1_* features are enabled on the k8s-openapi crate.
 

@@ -1,8 +1,8 @@
-Running as unit: run-p2631975-i15212065.scope; invocation ID: 96ecb72c04c04fc596a7067ed0e396f7
+Running as unit: run-p1750589-i5944280.scope; invocation ID: c8c4421e089d4c0a8d0d2c1053b2e5eb
 error: failed to run `rustc` to learn about target-specific information
 
 Caused by:
-  process didn't exit successfully: `/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names -Znext-solver --target wasm32-wasi --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name --print=cfg -Wwarnings` (exit status: 1)
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc - --crate-name ___ --print=file-names -Znext-solver --target wasm32-wasi --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name --print=cfg -Wwarnings` (exit status: 1)
   --- stderr
   error: error loading target specification: could not find specification for target "wasm32-wasi"
     |

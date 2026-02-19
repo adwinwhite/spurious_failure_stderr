@@ -1,0 +1,12 @@
+Running as unit: run-p884426-i5078117.scope; invocation ID: 519d10b7037a4f74b02576debf18009a
+    Checking rs-small v0.1.0 (/tmp/nix-shell.AaBijX/zsakowitz_rs-oh-no_7930_skz)
+error[E0275]: overflow evaluating the requirement `<Seq<Inc, Seq<Inc, Seq<Inc, ...>>> as Instruction>::ApplyTo<...>: TapeTrait`
+  --> src/main.rs:34:23
+   |
+34 |     println!("{:?}", <Result as TapeTrait>::reify());
+   |                       ^^^^^^
+   |
+   = help: consider increasing the recursion limit by adding a `#![recursion_limit = "256"]` attribute to your crate (`rs_small`)
+
+For more information about this error, try `rustc --explain E0275`.
+error: could not compile `rs-small` (bin "rs-small") due to 1 previous error

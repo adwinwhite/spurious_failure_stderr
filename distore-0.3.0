@@ -1,107 +1,151 @@
-Running as unit: run-p499880-i4693576.scope; invocation ID: 289a21ea52f54f48b3c8b948cad3cae2
+Running as unit: run-p1801426-i5995117.scope; invocation ID: ca6c9fa211d44da58f987a42134afe6f
    Compiling proc-macro2 v1.0.86
    Compiling unicode-ident v1.0.12
    Compiling libc v0.2.158
    Compiling pkg-config v0.3.30
    Compiling serde v1.0.210
-   Compiling equivalent v1.0.1
    Compiling hashbrown v0.14.5
+   Compiling equivalent v1.0.1
    Compiling winnow v0.6.18
-    Checking pin-project-lite v0.2.14
    Compiling target-lexicon v0.12.16
-   Compiling indexmap v2.4.0
+    Checking pin-project-lite v0.2.14
    Compiling heck v0.5.0
-   Compiling quote v1.0.36
    Compiling smallvec v1.13.2
-   Compiling syn v2.0.75
    Compiling version-compare v0.2.0
-   Compiling autocfg v1.3.0
-   Compiling cfg-expr v0.16.0
     Checking futures-core v0.3.30
+   Compiling autocfg v1.3.0
     Checking memchr v2.7.4
+   Compiling cfg-expr v0.16.0
+   Compiling quote v1.0.36
    Compiling slab v0.4.9
     Checking cfg-if v1.0.0
     Checking futures-io v0.3.30
+   Compiling indexmap v2.4.0
     Checking value-bag v1.9.0
+   Compiling syn v2.0.75
    Compiling shlex v1.3.0
+    Checking log v0.4.22
    Compiling cc v1.1.13
     Checking futures-sink v0.3.30
     Checking pin-utils v0.1.0
-    Checking log v0.4.22
     Checking futures-channel v0.3.30
     Checking futures-task v0.3.30
     Checking bytes v1.7.1
-    Checking itoa v1.0.11
     Checking bitflags v2.6.0
+    Checking itoa v1.0.11
     Checking once_cell v1.19.0
    Compiling version_check v0.9.5
-    Checking mio v1.0.2
     Checking socket2 v0.5.7
+    Checking mio v1.0.2
     Checking fnv v1.0.7
     Checking getrandom v0.2.15
     Checking tracing-core v0.1.32
+   Compiling crossbeam-utils v0.8.20
     Checking spin v0.9.8
     Checking untrusted v0.9.0
-   Compiling crossbeam-utils v0.8.20
    Compiling httparse v1.9.4
-   Compiling ring v0.17.8
-   Compiling serde_spanned v0.6.7
-   Compiling toml_datetime v0.6.8
-    Checking concurrent-queue v2.5.0
-   Compiling toml_edit v0.22.20
     Checking http v1.1.0
-   Compiling vcpkg v0.2.15
+   Compiling ring v0.17.8
+    Checking concurrent-queue v2.5.0
     Checking parking v2.2.1
+   Compiling vcpkg v0.2.15
    Compiling typenum v1.17.0
    Compiling generic-array v0.14.7
-   Compiling openssl-sys v0.9.103
-    Checking tinyvec_macros v0.1.1
-    Checking rustls-pki-types v1.8.0
     Checking atomic-waker v1.1.2
+    Checking tinyvec_macros v0.1.1
     Checking try-lock v0.2.5
+    Checking rustls-pki-types v1.8.0
     Checking want v0.3.1
     Checking tinyvec v1.8.0
+   Compiling openssl-sys v0.9.103
    Compiling unicase v2.7.0
-   Compiling semver v1.0.23
     Checking percent-encoding v2.3.1
+   Compiling semver v1.0.23
    Compiling crunchy v0.2.2
     Checking tower-service v0.3.3
-    Checking unicode-normalization v0.1.23
     Checking form_urlencoded v1.2.1
     Checking event-listener v5.3.1
-   Compiling gio v0.20.1
    Compiling tiny-keccak v2.0.2
-    Checking fastrand v2.1.1
     Checking unicode-bidi v0.3.15
     Checking byteorder v1.5.0
+    Checking fastrand v2.1.1
+   Compiling gio v0.20.1
     Checking event-listener-strategy v0.5.2
-   Compiling toml v0.8.19
-   Compiling proc-macro-crate v3.2.0
-    Checking idna v0.5.0
-   Compiling system-deps v7.0.2
+    Checking unicode-normalization v0.1.23
     Checking http v0.2.12
+   Compiling rustls v0.22.4
+    Checking foreign-types-shared v0.1.1
+   Compiling openssl v0.10.66
+   Compiling rustls v0.21.12
+   Compiling rustix v0.38.36
+    Checking idna v0.5.0
+    Checking zeroize v1.8.1
+   Compiling serde_spanned v0.6.7
+   Compiling toml_datetime v0.6.8
+    Checking utf8parse v0.2.2
+    Checking anstyle-parse v0.2.5
+   Compiling toml_edit v0.22.20
+    Checking foreign-types v0.3.2
+    Checking futures-lite v2.3.0
+    Checking http-body v1.0.1
+    Checking rand_core v0.6.4
+    Checking aho-corasick v1.1.3
+    Checking sct v0.7.1
+    Checking rustls-webpki v0.102.6
+    Checking rustls-webpki v0.101.7
+    Checking linux-raw-sys v0.4.14
+    Checking is_terminal_polyfill v1.70.1
+    Checking anstyle-query v1.1.1
+    Checking anstyle v1.0.8
+   Compiling thiserror v1.0.63
+    Checking lazy_static v1.5.0
+    Checking colorchoice v1.0.2
+    Checking ryu v1.0.18
+    Checking regex-syntax v0.8.4
+   Compiling native-tls v0.2.12
+    Checking subtle v2.6.1
+    Checking anstream v0.6.15
+   Compiling const-random-macro v0.1.16
+   Compiling rustc_version v0.4.1
+   Compiling mime_guess v2.0.5
+    Checking http-body v0.4.6
+    Checking regex-automata v0.4.7
+   Compiling memoffset v0.9.1
+    Checking async-task v4.7.1
+    Checking cpufeatures v0.2.13
+    Checking mime v0.3.17
    Compiling futures-macro v0.3.30
    Compiling tokio-macros v2.4.0
    Compiling tracing-attributes v0.1.27
-   Compiling serde_derive v1.0.210
-   Compiling glib-sys v0.20.2
-    Checking futures-util v0.3.30
-   Compiling gobject-sys v0.20.1
     Checking tokio v1.40.0
-   Compiling gio-sys v0.20.1
-   Compiling cairo-sys-rs v0.20.0
+   Compiling serde_derive v1.0.210
+    Checking futures-util v0.3.30
+   Compiling zerocopy-derive v0.7.35
+   Compiling toml v0.8.19
+   Compiling proc-macro-crate v3.2.0
     Checking tracing v0.1.40
+    Checking zerocopy v0.7.35
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+   Compiling glib-macros v0.20.2
+   Compiling pin-project-internal v1.1.5
+   Compiling system-deps v7.0.2
+    Checking ppv-lite86 v0.2.20
+   Compiling glib-sys v0.20.2
+   Compiling gobject-sys v0.20.1
+   Compiling gio-sys v0.20.1
    Compiling gdk-pixbuf-sys v0.20.1
    Compiling pango-sys v0.20.1
-   Compiling glib-macros v0.20.2
-warning: pango-sys@0.20.1: 
-error: failed to run custom build command for `pango-sys v0.20.1`
+   Compiling cairo-sys-rs v0.20.0
+   Compiling graphene-sys v0.20.1
+   Compiling gdk4-sys v0.9.0
+error: failed to run custom build command for `gdk4-sys v0.9.0`
 
 Caused by:
-  process didn't exit successfully: `/getea/tmp/crater-spurious/distore-0.3.0/target/debug/build/pango-sys-82383010dfe24928/build-script-build` (exit status: 1)
+  process didn't exit successfully: `/getea/tmp/crater-spurious/distore-0.3.0/target/debug/build/gdk4-sys-783e3b4976643b65/build-script-build` (exit status: 1)
   --- stdout
-  cargo:rerun-if-changed=/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/pango-sys-0.20.1/Cargo.toml
-  cargo:rerun-if-env-changed=PANGO_NO_PKG_CONFIG
+  cargo:rerun-if-changed=/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gdk4-sys-0.9.0/Cargo.toml
+  cargo:rerun-if-env-changed=GTK4_NO_PKG_CONFIG
   cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
   cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
   cargo:rerun-if-env-changed=HOST_PKG_CONFIG
@@ -118,12 +162,14 @@ Caused by:
   cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
   cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
   cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
-  cargo:warning=
-  pkg-config exited with status code 1
-  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags pango pango >= 1.50
 
-  The system library `pango` required by crate `pango-sys` was not found.
-  The file `pango.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  --- stderr
+
+  pkg-config exited with status code 1
+  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags gtk4 gtk4 >= 4.14
+
+  The system library `gtk4` required by crate `gdk4-sys` was not found.
+  The file `gtk4.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
   PKG_CONFIG_PATH_FOR_TARGET contains the following:
       - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
       - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
@@ -158,7 +204,55 @@ Caused by:
       - /nix/store/z6m4xz2wy56ayqx2jmjiwjkjcv3lar5x-cyrus-sasl-2.1.28-dev/lib/pkgconfig
       - /nix/store/4xb12lr8fmh4jv1gp1c9f3qcvfwxfra9-protobuf-31.1/lib/pkgconfig
       - /nix/store/nws7sjgqpd76a6y00s9xqim2ndqdps54-abseil-cpp-20250127.1/lib/pkgconfig
+      - /nix/store/12g460v1ibwnj5ydsnpi9q6q4b3l76l5-gpgme-1.24.3-dev/lib/pkgconfig
+      - /nix/store/n0p0sgrl1c8kxf5k6r098vwrwniyi5f9-libassuan-3.0.2-dev/lib/pkgconfig
+      - /nix/store/abvps5mjmnj45y1l8jaaxlkyj70mfra4-gstreamer-1.26.0-dev/lib/pkgconfig
+      - /nix/store/l6bxx2dr0l7nj67kjlbxdg6myx054gqr-cairo-1.18.2-dev/lib/pkgconfig
+      - /nix/store/clyjdzxjmdvsk2bs7503i2qdvi9axcd8-pixman-0.46.0/lib/pkgconfig
+      - /nix/store/hfpjvlm361bp8clibvnrh8qgbpvxk4kg-libXext-1.3.6-dev/lib/pkgconfig
+      - /nix/store/8lggyvykw4wy2f7747g1nnadcxqgw291-libXau-1.0.12-dev/lib/pkgconfig
+      - /nix/store/dbr14hvrwzd3z65ixkyndyhwhgcr4b3f-libXrender-0.9.12-dev/lib/pkgconfig
+      - /nix/store/sd81bvmch7njdpwx3lkjslixcbj5mivz-python3-3.13.4/lib/pkgconfig
+      - /nix/store/a9nkmnva7vam9awlkn8ri3fa0kq93frn-ncurses-6.5-dev/lib/pkgconfig
+      - /nix/store/4x51i3nffvkp6whw1kz3kgr48hmz698h-gtk+3-3.24.49-dev/lib/pkgconfig
+      - /nix/store/54xhm20sdbdqpg3qcdxfilzm7727mn59-at-spi2-core-2.56.2-dev/lib/pkgconfig
+      - /nix/store/vm09wnigvif3hr6zk9p1vbqwk1ar93rf-fribidi-1.0.16-dev/lib/pkgconfig
+      - /nix/store/k4yfkx3g16jnwyrlm20ikrvwkmhdk9zg-gdk-pixbuf-2.42.12-dev/lib/pkgconfig
+      - /nix/store/rbqfyyhzbkz6m5lgc9srzcdnkv4fmsmz-libtiff-4.7.0-dev/lib/pkgconfig
+      - /nix/store/g745917xa9hsbvdm3gkhlb4hma1yms0d-libdeflate-1.24/lib/pkgconfig
+      - /nix/store/kgwz02zajkmgdj6p0n75kyy9d4kn0nxv-libjpeg-turbo-3.1.0-dev/lib/pkgconfig
+      - /nix/store/ga56rclicvjvr09ir247hhd991dpw2vg-libwebp-1.5.0/lib/pkgconfig
+      - /nix/store/sw32cxs33z40axz67x7iqllwjvvxcznx-xz-5.8.1-dev/lib/pkgconfig
+      - /nix/store/fx2957yk3h2js06jls40yaasi0pay7js-gsettings-desktop-schemas-48.0/share/pkgconfig
+      - /nix/store/rqjxvg7v6j49a463ka1f81aw592p8hkx-libICE-1.1.2-dev/lib/pkgconfig
+      - /nix/store/rv7n21ih1hz4pwavwawr2laf2kmb57rr-libSM-1.2.5-dev/lib/pkgconfig
+      - /nix/store/0mmlk5fnmnpb3v1lvynkcg6rvcpi2z7w-libXcomposite-0.4.6-dev/lib/pkgconfig
+      - /nix/store/v2925r1mj95ipxmb9dz5acmj907x0clg-libXfixes-6.0.1-dev/lib/pkgconfig
+      - /nix/store/4d11qczb3k391bin3rc6kbhs78v2xw8r-libXcursor-1.2.3-dev/lib/pkgconfig
+      - /nix/store/pln4qbh2srrhw7b9j2fhv0x3dxza6igw-libXdamage-1.1.6-dev/lib/pkgconfig
+      - /nix/store/3jxhqi6l9ngal99j9nz5jkhgk8rlg379-libXi-1.8.2-dev/lib/pkgconfig
+      - /nix/store/n04k2sr8gzh42kx2lv5mw5n4xbyljfl7-libXrandr-1.5.4-dev/lib/pkgconfig
+      - /nix/store/m2m8qx4x0m11mrvh9v1kirm1jrsbvnj8-pango-1.56.3-dev/lib/pkgconfig
+      - /nix/store/0c61qn93a48vgdmw8qf61drmcfp4j2c3-harfbuzz-10.2.0-dev/lib/pkgconfig
+      - /nix/store/rgx1727i6d65ag6s00r8npinafny208b-graphite2-1.3.14-dev/lib/pkgconfig
+      - /nix/store/7paa9dhrlzgvcx5w4qchnhlh6xr2f2qv-libXft-2.3.9-dev/lib/pkgconfig
+      - /nix/store/24nawc3jfnwvygh8pj2ns6wmjb3ji1v4-wayland-protocols-1.44/share/pkgconfig
+      - /nix/store/nxbp34v1fqqn1b2nb1ss7zq2bgr9y6pl-libXinerama-1.1.5-dev/lib/pkgconfig
+      - /nix/store/1qrklpslnsv116bl56px89f08cgy10jj-cups-2.4.11-dev/lib/pkgconfig
+      - /nix/store/6f6f151jdk2kawpr8ldy51nafgw8ya0v-libpq-17.5-dev/lib/pkgconfig
+      - /nix/store/89i9s1n0w6jxsld3ghbryddp5jjshglr-libxkbcommon-1.10.0-dev/lib/pkgconfig
+      - /nix/store/hwvp1ahqcb5syb08ys2j8mknd19pfcnj-mariadb-connector-c-3.3.5-dev/lib/pkgconfig
+      - /nix/store/wznrhnlrvamvihizpnizjfh5hs55z98n-curl-8.14.1-dev/lib/pkgconfig
+      - /nix/store/48wm9h7wf8ds4wkwgzzcqfrp7l722dm8-krb5-1.21.3-dev/lib/pkgconfig
+      - /nix/store/9pn6y4zlszr9w26rg2h52l3sd0wvzjvd-nghttp2-1.65.0-dev/lib/pkgconfig
+      - /nix/store/9j67k582x3vgcijfiyralx5bj1b33gdg-libidn2-2.3.8-dev/lib/pkgconfig
+      - /nix/store/y37r7yjyvnzzd648lpdgflynfj55hpns-libpsl-0.21.5-dev/lib/pkgconfig
+      - /nix/store/9wbcb5zbzgmih0y41qzhg6fz5zdsi085-libssh2-1.11.1-dev/lib/pkgconfig
+      - /nix/store/vfd9jq8hj63l2bibahswc0z1s6fxizw2-mate-settings-daemon-1.28.0/lib/pkgconfig
+      - /nix/store/kvvqnzfnk3dsfgb59588hxh12ij95jg6-capnproto-1.1.0/lib/pkgconfig
+      - /nix/store/7m8ws299hm57x6q6c8cnl2xxrajlcwin-speech-dispatcher-0.12.1/lib/pkgconfig
+      - /nix/store/5dc15pv52b1raq1lqbgrsqdjf2p02g0f-libjack2-1.9.22-dev/lib/pkgconfig
 
-  HINT: you may need to install a package such as pango, pango-dev or pango-devel.
+  HINT: you may need to install a package such as gtk4, gtk4-dev or gtk4-devel.
 
 warning: build failed, waiting for other jobs to finish...

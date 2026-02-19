@@ -1,6 +1,6 @@
-Running as unit: run-p1903614-i14483722.scope; invocation ID: f0f1dadeebbc4a079570477749f67fbb
+Running as unit: run-p1676866-i5870557.scope; invocation ID: c95febb948e44a91853b42b49b9f4935
     Updating git repository `https://github.com/endre90/micro_sp`
-error: failed to get `micro_sp` as a dependency of package `micro_sp_emulation v0.1.0 (/tmp/nix-shell.uUVugk/endre90_micro_sp_emulation_aj3jvr2i)`
+error: failed to get `micro_sp` as a dependency of package `micro_sp_emulation v0.1.0 (/tmp/nix-shell.cigUv1/endre90_micro_sp_emulation_906dlmhj)`
 
 Caused by:
   failed to load source for dependency `micro_sp`

@@ -1,5 +1,5 @@
-Running as unit: run-p1250490-i13830660.scope; invocation ID: 680bbf417b404e008cbfbeb99ba33860
-warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Cargo.toml: unused manifest key: dependencies.sea-orm-migration.cargo-husky
+Running as unit: run-p1588645-i5782336.scope; invocation ID: 5a66a0878b174e918711ce37b23ca22f
+warning: /tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/migration/Cargo.toml: unused manifest key: dependencies.sea-orm-migration.cargo-husky
    Compiling proc-macro2 v1.0.101
    Compiling unicode-ident v1.0.18
    Compiling libc v0.2.175
@@ -12,80 +12,117 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking pin-project-lite v0.2.16
     Checking scopeguard v1.2.0
     Checking futures-core v0.3.31
-   Compiling cc v1.2.34
    Compiling crossbeam-utils v0.8.21
-   Compiling lock_api v0.4.13
+   Compiling cc v1.2.34
     Checking once_cell v1.21.3
-   Compiling quote v1.0.40
     Checking bytes v1.10.1
-   Compiling syn v2.0.106
    Compiling typenum v1.18.0
+   Compiling lock_api v0.4.13
    Compiling zerocopy v0.8.26
    Compiling generic-array v0.14.7
     Checking memchr v2.7.5
    Compiling libm v0.2.15
    Compiling num-traits v0.2.19
-   Compiling icu_normalizer_data v2.0.0
     Checking itoa v1.0.15
+   Compiling quote v1.0.40
+   Compiling icu_normalizer_data v2.0.0
     Checking value-bag v1.11.1
    Compiling icu_properties_data v2.0.1
-    Checking mio v1.0.4
-    Checking socket2 v0.6.0
-    Checking signal-hook-registry v1.4.6
-    Checking log v0.4.27
     Checking futures-io v0.3.31
+    Checking signal-hook-registry v1.4.6
+    Checking socket2 v0.6.0
+   Compiling syn v2.0.106
+    Checking mio v1.0.4
    Compiling serde_json v1.0.143
     Checking slab v0.4.11
     Checking futures-sink v0.3.31
     Checking pin-utils v0.1.0
-    Checking futures-channel v0.3.31
     Checking getrandom v0.2.16
-   Compiling pkg-config v0.3.32
+    Checking log v0.4.27
+    Checking futures-channel v0.3.31
    Compiling vcpkg v0.2.15
-   Compiling ring v0.17.14
+   Compiling pkg-config v0.3.32
     Checking futures-task v0.3.31
    Compiling getrandom v0.3.3
     Checking stable_deref_trait v1.2.0
     Checking tracing-core v0.1.34
     Checking percent-encoding v2.3.2
    Compiling openssl v0.10.73
-   Compiling smallvec v1.15.1
     Checking litemap v0.8.0
     Checking writeable v0.6.1
-   Compiling openssl-sys v0.9.109
+   Compiling ring v0.17.14
+   Compiling smallvec v1.15.1
    Compiling thiserror v1.0.69
    Compiling fnv v1.0.7
-   Compiling num-conv v0.1.0
-   Compiling native-tls v0.2.14
+   Compiling openssl-sys v0.9.109
    Compiling time-core v0.1.4
     Checking parking v2.2.1
-   Compiling time-macros v0.2.22
+   Compiling native-tls v0.2.14
+   Compiling num-conv v0.1.0
     Checking concurrent-queue v2.5.0
-    Checking ryu v1.0.20
    Compiling syn v1.0.109
+   Compiling time-macros v0.2.22
+    Checking ryu v1.0.20
     Checking form_urlencoded v1.2.2
-    Checking utf8_iter v1.0.4
     Checking const-oid v0.9.6
+    Checking utf8_iter v1.0.4
    Compiling paste v1.0.15
-    Checking crypto-common v0.1.6
     Checking subtle v2.6.1
-    Checking block-buffer v0.10.4
-    Checking ppv-lite86 v0.2.21
-   Compiling synstructure v0.13.2
     Checking untrusted v0.9.0
-    Checking digest v0.10.7
+    Checking ppv-lite86 v0.2.21
+   Compiling parking_lot v0.12.4
     Checking rand_core v0.6.4
    Compiling ahash v0.8.12
-   Compiling parking_lot v0.12.4
-    Checking zeroize v1.8.1
    Compiling rustix v1.0.8
     Checking atomic-waker v1.1.2
    Compiling httparse v1.10.1
+    Checking zeroize v1.8.1
     Checking rand_chacha v0.3.1
    Compiling unicode-segmentation v1.12.0
     Checking rand v0.8.5
+   Compiling heck v0.4.1
     Checking cpufeatures v0.2.17
     Checking allocator-api2 v0.2.21
+    Checking foreign-types-shared v0.1.1
+    Checking equivalent v1.0.2
+   Compiling rust_decimal v1.37.2
+    Checking event-listener v2.5.3
+    Checking foreign-types v0.3.2
+   Compiling io-lifetimes v1.0.11
+   Compiling strsim v0.11.1
+    Checking powerfmt v0.2.0
+   Compiling polling v2.8.0
+   Compiling rustls v0.21.12
+   Compiling rustix v0.37.28
+    Checking byteorder v1.5.0
+    Checking openssl-probe v0.1.6
+   Compiling thiserror v2.0.16
+   Compiling ident_case v1.0.1
+    Checking num-integer v0.1.46
+   Compiling async-io v1.13.0
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking sct v0.7.1
+    Checking async-channel v1.9.0
+    Checking sha2 v0.10.9
+    Checking hmac v0.12.1
+    Checking tinyvec_macros v0.1.1
+    Checking tower-service v0.3.3
+    Checking fastrand v1.9.0
+    Checking crc-catalog v2.4.0
+    Checking waker-fn v1.2.0
+    Checking crc v3.3.0
+    Checking tinyvec v1.10.0
+    Checking futures-lite v1.13.0
+    Checking crossbeam-queue v0.3.12
+    Checking fastrand v2.3.0
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+    Checking unicode-normalization v0.1.24
+    Checking spin v0.9.8
+    Checking unicode-bidi v0.3.18
+    Checking hex v0.4.3
    Compiling serde_derive v1.0.219
    Compiling tokio-macros v2.5.0
    Compiling futures-macro v0.3.31
@@ -96,96 +133,59 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
    Compiling tracing-attributes v0.1.30
     Checking futures-util v0.3.31
    Compiling openssl-macros v0.1.1
-    Checking zerofrom v0.1.6
-    Checking yoke v0.8.0
    Compiling thiserror-impl v1.0.69
    Compiling tokio v1.47.1
-    Checking zerovec v0.11.4
-    Checking tracing v0.1.41
-    Checking zerotrie v0.2.2
-   Compiling heck v0.4.1
-    Checking tinystr v0.8.1
-    Checking potential_utf v0.1.3
    Compiling thiserror-impl v2.0.16
+    Checking zerofrom v0.1.6
+    Checking yoke v0.8.0
+    Checking zerovec v0.11.4
+    Checking zerotrie v0.2.2
+    Checking tracing v0.1.41
+   Compiling async-attributes v1.1.2
+   Compiling darling_macro v0.20.11
+   Compiling darling v0.20.11
+    Checking tinystr v0.8.1
     Checking icu_locale_core v2.0.0
+    Checking potential_utf v0.1.3
     Checking icu_collections v2.0.0
     Checking icu_provider v2.0.0
     Checking icu_properties v2.0.1
-    Checking sha2 v0.10.9
-    Checking equivalent v1.0.2
-    Checking foreign-types-shared v0.1.1
-    Checking event-listener v2.5.3
-   Compiling rust_decimal v1.37.2
-    Checking foreign-types v0.3.2
-   Compiling io-lifetimes v1.0.11
-    Checking powerfmt v0.2.0
-    Checking bitflags v2.9.3
-   Compiling strsim v0.11.1
-    Checking deranged v0.4.0
-   Compiling polling v2.8.0
-    Checking byteorder v1.5.0
-   Compiling rustix v0.37.28
-   Compiling rustls v0.21.12
-    Checking openssl-probe v0.1.6
-    Checking time v0.3.41
-    Checking hmac v0.12.1
-   Compiling ident_case v1.0.1
-   Compiling thiserror v2.0.16
-   Compiling darling_core v0.20.11
-   Compiling async-attributes v1.1.2
-    Checking num-integer v0.1.46
-   Compiling async-io v1.13.0
-    Checking async-channel v1.9.0
-   Compiling async-trait v0.1.89
    Compiling pin-project-internal v1.1.10
-    Checking sct v0.7.1
-    Checking tower-service v0.3.3
-    Checking tinyvec_macros v0.1.1
-    Checking fastrand v1.9.0
-    Checking waker-fn v1.2.0
-    Checking crc-catalog v2.4.0
-   Compiling darling_macro v0.20.11
-    Checking crc v3.3.0
-    Checking futures-lite v1.13.0
-    Checking tinyvec v1.10.0
-   Compiling darling v0.20.11
-    Checking uuid v1.18.0
-    Checking either v1.15.0
-    Checking crossbeam-queue v0.3.12
-    Checking fastrand v2.3.0
-    Checking unicode-normalization v0.1.24
-    Checking icu_normalizer v2.0.0
-    Checking spin v0.9.8
+   Compiling async-trait v0.1.89
     Checking bitflags v1.3.2
-    Checking unicode-bidi v0.3.18
-    Checking hex v0.4.3
-    Checking idna_adapter v1.2.1
     Checking futures-lite v2.6.1
-   Compiling num-bigint-dig v0.8.4
+   Compiling icu_normalizer v2.0.0
     Checking base64 v0.22.1
-    Checking idna v1.1.0
+   Compiling num-bigint-dig v0.8.4
     Checking num-bigint v0.4.6
     Checking linux-raw-sys v0.9.4
+    Checking bitflags v2.9.3
+    Checking deranged v0.4.0
+    Checking either v1.15.0
+    Checking uuid v1.18.0
+   Compiling idna_adapter v1.2.1
    Compiling getrandom v0.1.16
-    Checking url v2.5.7
+   Compiling idna v1.1.0
+    Checking time v0.3.41
     Checking futures-executor v0.3.31
+    Checking url v2.5.7
+    Checking async-task v4.7.1
     Checking dotenvy v0.15.7
     Checking try-lock v0.2.5
-    Checking async-task v4.7.1
     Checking unicode-properties v0.1.3
     Checking want v0.3.1
-    Checking piper v0.2.4
-    Checking stringprep v0.1.5
-    Checking hkdf v0.12.4
-    Checking http v1.3.1
    Compiling inherent v1.0.12
+    Checking stringprep v0.1.5
+    Checking piper v0.2.4
+    Checking hkdf v0.12.4
     Checking md-5 v0.10.6
+    Checking http v1.3.1
     Checking atoi v2.0.0
-    Checking tower-layer v0.3.3
+    Checking httpdate v1.0.3
     Checking whoami v1.6.1
+    Checking tower-layer v0.3.3
     Checking iana-time-zone v0.1.63
     Checking minimal-lexical v0.2.1
-    Checking httpdate v1.0.3
     Checking chrono v0.4.41
     Checking hashbrown v0.14.5
     Checking nom v7.1.3
@@ -200,13 +200,12 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking async-executor v1.13.3
     Checking arrayvec v0.7.6
     Checking bigdecimal v0.3.1
-    Checking polling v3.10.0
-    Checking sqlformat v0.2.6
     Checking lazy_static v1.5.0
     Checking rustls-pki-types v1.12.0
     Checking socket2 v0.4.10
-   Compiling rustversion v1.0.22
     Checking foldhash v0.1.5
+    Checking polling v3.10.0
+   Compiling rustversion v1.0.22
     Checking hashbrown v0.15.5
     Checking rustls-webpki v0.101.7
     Checking kv-log-macro v1.0.7
@@ -214,25 +213,26 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking linux-raw-sys v0.3.8
    Compiling anyhow v1.0.99
    Compiling sea-query-derive v0.4.3
-    Checking async-lock v2.8.0
+    Checking sqlformat v0.2.6
    Compiling derivative v2.2.0
-   Compiling parking_lot_core v0.8.6
-   Compiling semver v1.0.26
+    Checking async-lock v2.8.0
     Checking base64ct v1.8.0
+   Compiling semver v1.0.26
+   Compiling parking_lot_core v0.8.6
     Checking pem-rfc7468 v0.7.0
     Checking indexmap v2.11.0
     Checking futures v0.3.31
-    Checking home v0.5.11
     Checking webpki-roots v0.25.4
+    Checking home v0.5.11
    Compiling http-types v2.12.0
     Checking der v0.7.10
     Checking pin-project v1.1.10
     Checking sync_wrapper v1.0.2
    Compiling rustc_version v0.4.1
-    Checking spki v0.7.3
     Checking tokio-stream v0.1.17
-    Checking num-iter v0.1.45
+    Checking spki v0.7.3
     Checking sha1 v0.10.6
+    Checking num-iter v0.1.45
     Checking ipnet v2.11.0
     Checking pkcs8 v0.10.2
    Compiling azure_core v0.21.0
@@ -250,20 +250,20 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking flume v0.11.1
    Compiling indexmap v1.9.3
    Compiling ahash v0.7.8
+    Checking iri-string v0.7.8
     Checking urlencoding v2.1.3
    Compiling heck v0.5.0
-    Checking iri-string v0.7.8
     Checking rand_chacha v0.2.2
    Compiling axum-core v0.3.4
    Compiling webpki v0.22.4
     Checking http v0.2.12
     Checking ordered-float v3.9.2
    Compiling proc-macro-error-attr2 v2.0.0
-    Checking spin v0.5.2
     Checking untrusted v0.7.1
+    Checking spin v0.5.2
     Checking regex-syntax v0.8.6
-   Compiling proc-macro-error2 v2.0.1
     Checking sea-query v0.30.7
+   Compiling proc-macro-error2 v2.0.1
     Checking rand v0.7.3
     Checking regex-automata v0.4.10
     Checking async-channel v2.5.0
@@ -285,38 +285,38 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
    Compiling sea-schema-derive v0.2.0
    Compiling dirs-sys v0.3.7
    Compiling multer v3.1.0
-   Compiling tokio-rustls v0.23.4
-    Checking dyn-clone v1.0.20
     Checking utf8parse v0.2.2
    Compiling hashbrown v0.12.3
-    Checking anstyle-parse v0.2.7
+    Checking dyn-clone v1.0.20
+   Compiling tokio-rustls v0.23.4
    Compiling sqlx-rt v0.6.3
+    Checking anstyle-parse v0.2.7
    Compiling dirs v4.0.0
    Compiling futures-intrusive v0.4.2
     Checking async-std v1.13.2
    Compiling webpki-roots v0.22.6
    Compiling ouroboros_macro v0.17.2
    Compiling atoi v1.0.0
-    Checking anstyle v1.0.11
-    Checking is_terminal_polyfill v1.70.1
     Checking anstyle-query v1.1.4
     Checking colorchoice v1.0.4
-    Checking sqlx-core v0.7.4
+    Checking is_terminal_polyfill v1.70.1
+    Checking anstyle v1.0.11
    Compiling sqlx-core v0.6.3
     Checking anstream v0.6.20
-    Checking matchers v0.2.0
     Checking regex v1.11.2
-    Checking sharded-slab v0.1.7
+    Checking matchers v0.2.0
     Checking hyper v1.7.0
+    Checking sharded-slab v0.1.7
+    Checking sqlx-core v0.7.4
     Checking tracing-log v0.2.0
     Checking socket2 v0.5.10
     Checking thread_local v1.1.9
-    Checking aliasable v0.1.3
-    Checking clap_lex v0.7.5
     Checking nu-ansi-term v0.50.1
     Checking static_assertions v1.1.0
-    Checking clap_builder v4.5.46
+    Checking clap_lex v0.7.5
+    Checking aliasable v0.1.3
     Checking hyper-util v0.1.16
+    Checking clap_builder v4.5.46
    Compiling sea-orm-macros v0.12.15
    Compiling validator_derive v0.18.2
     Checking tower v0.5.2
@@ -327,34 +327,34 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking async-stream v0.3.6
     Checking tokio-native-tls v0.3.1
     Checking tower v0.4.13
-    Checking RustyXML v0.3.0
-    Checking matchit v0.7.3
     Checking glob v0.3.3
+    Checking matchit v0.7.3
     Checking sync_wrapper v0.1.2
+    Checking RustyXML v0.3.0
     Checking hyper-tls v0.6.0
-   Compiling sqlx-macros v0.6.3
     Checking sqlx-mysql v0.7.4
     Checking tower-http v0.6.7
-    Checking sqlx-sqlite v0.7.4
     Checking sqlx-postgres v0.7.4
+   Compiling sqlx-macros v0.6.3
+    Checking sqlx-sqlite v0.7.4
     Checking inout v0.1.4
     Checking encoding_rs v0.8.35
-    Checking http-range-header v0.3.1
    Compiling rustls v0.23.31
-    Checking tower-http v0.4.4
+    Checking http-range-header v0.3.1
     Checking cipher v0.4.4
+    Checking tower-http v0.4.4
     Checking reqwest v0.12.23
     Checking ouroboros v0.17.2
     Checking axum-core v0.5.2
+    Checking rustls-webpki v0.103.4
     Checking sqlx v0.7.4
     Checking webpki-roots v1.0.2
-    Checking rustls-webpki v0.103.4
+    Checking serde_path_to_error v0.1.17
     Checking pem v3.0.5
     Checking idna v0.5.0
-    Checking serde_path_to_error v0.1.17
-    Checking matchit v0.8.4
     Checking arc-swap v1.7.1
     Checking sha1_smol v1.0.1
+    Checking matchit v0.8.4
     Checking strum v0.25.0
     Checking webpki-roots v0.26.11
     Checking sea-query-binder v0.5.0
@@ -363,99 +363,246 @@ warning: /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/migration/Car
     Checking h2 v0.3.27
     Checking hashlink v0.10.0
     Checking deunicode v1.6.2
-    Checking sqlx-core v0.8.6
     Checking slug v0.1.6
+    Checking sqlx-core v0.8.6
     Checking bcrypt v0.15.1
-    Checking hyper v0.14.32
    Compiling proc-macro2-diagnostics v0.10.1
+    Checking hyper v0.14.32
+    Checking sea-schema v0.14.2
     Checking sqlx-postgres v0.8.6
     Checking sea-orm-codegen v0.12.15
-    Checking azure_svc_blobstorage v0.21.0
     Checking azure_storage v0.21.0
-    Checking sea-schema v0.14.2
+    Checking azure_svc_blobstorage v0.21.0
     Checking simple_asn1 v0.6.3
     Checking combine v4.6.7
     Checking tokio-retry v0.3.0
    Compiling sea-query-derive v1.0.0-rc.9
     Checking ordered-float v4.6.0
    Compiling yansi v1.0.1
-    Checking azure_storage_blobs v0.21.0
-    Checking sea-query v1.0.0-rc.12
     Checking sqlx v0.6.3
+    Checking sea-query v1.0.0-rc.12
     Checking jsonwebtoken v9.3.1
-    Checking sea-orm-cli v0.12.15
     Checking sqlx v0.8.6
-    Checking axum-extra v0.6.0
-    Checking sea-orm v0.12.15
+    Checking sea-orm-cli v0.12.15
     Checking axum v0.8.4
+    Checking sea-orm v0.12.15
+    Checking azure_storage_blobs v0.21.0
     Checking validator v0.18.1
     Checking redis v0.24.0
     Checking sea-query-sqlx v0.8.0-rc.8
    Compiling ouroboros_macro v0.18.5
-    Checking shared v0.1.0 (/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/shared)
-error: internal compiler error: /rustc-dev/fe98ddcfcfb6f185dbf4adeaf439d8a756da0273/compiler/rustc_monomorphize/src/lib.rs:45:13: invalid `CoerceUnsized` from Pin<std::boxed::Box<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/src/commands/generate.rs:233:22: 233:32}>> to Pin<std::boxed::Box<dyn std::future::Future<Output = Result<(), sqlx::Error>> + Send>>: impl_source: Err(Unimplemented)
+    Checking axum-extra v0.6.0
+    Checking shared v0.1.0 (/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/shared)
+error: internal compiler error: compiler/rustc_monomorphize/src/lib.rs:42:13: invalid `CoerceUnsized` from Pin<std::boxed::Box<{async block@/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/src/commands/generate.rs:233:22: 233:32}>> to Pin<std::boxed::Box<dyn std::future::Future<Output = Result<(), sqlx::Error>> + Send>>: impl_source: Err(Unimplemented)
 
 
-thread 'rustc' (1259429) panicked at /rustc-dev/fe98ddcfcfb6f185dbf4adeaf439d8a756da0273/compiler/rustc_monomorphize/src/lib.rs:45:13:
+thread 'rustc' (1597171) panicked at compiler/rustc_monomorphize/src/lib.rs:42:13:
 Box<dyn Any>
 stack backtrace:
-   0:     0x7ffff4c42f93 - <<std[7637d35b2e73f491]::sys::backtrace::BacktraceLock>::print::DisplayBacktrace as core[e59341b65d367131]::fmt::Display>::fmt
-   1:     0x7ffff520e2c8 - core[e59341b65d367131]::fmt::write
-   2:     0x7ffff4c59986 - <std[7637d35b2e73f491]::sys::stdio::unix::Stderr as std[7637d35b2e73f491]::io::Write>::write_fmt
-   3:     0x7ffff4c19008 - std[7637d35b2e73f491]::panicking::default_hook::{closure#0}
-   4:     0x7ffff4c366c3 - std[7637d35b2e73f491]::panicking::default_hook
-   5:     0x7ffff3c0b7fa - std[7637d35b2e73f491]::panicking::update_hook::<alloc[e4cd1c42012959c4]::boxed::Box<rustc_driver_impl[1a3eae45778b1a3a]::install_ice_hook::{closure#1}>>::{closure#0}
-   6:     0x7ffff4c369a2 - std[7637d35b2e73f491]::panicking::panic_with_hook
-   7:     0x7ffff3c48161 - std[7637d35b2e73f491]::panicking::begin_panic::<rustc_errors[61541e7795e0e52c]::ExplicitBug>::{closure#0}
-   8:     0x7ffff3c38586 - std[7637d35b2e73f491]::sys::backtrace::__rust_end_short_backtrace::<std[7637d35b2e73f491]::panicking::begin_panic<rustc_errors[61541e7795e0e52c]::ExplicitBug>::{closure#0}, !>
-   9:     0x7ffff3c35a59 - std[7637d35b2e73f491]::panicking::begin_panic::<rustc_errors[61541e7795e0e52c]::ExplicitBug>
-  10:     0x7ffff3c65e61 - <rustc_errors[61541e7795e0e52c]::diagnostic::BugAbort as rustc_errors[61541e7795e0e52c]::diagnostic::EmissionGuarantee>::emit_producing_guarantee
-  11:     0x7ffff4215df9 - rustc_middle[f49c2f37af7e8c7e]::util::bug::opt_span_bug_fmt::<rustc_span[d2f47af3535269a]::span_encoding::Span>::{closure#0}
-  12:     0x7ffff4215f82 - rustc_middle[f49c2f37af7e8c7e]::ty::context::tls::with_opt::<rustc_middle[f49c2f37af7e8c7e]::util::bug::opt_span_bug_fmt<rustc_span[d2f47af3535269a]::span_encoding::Span>::{closure#0}, !>::{closure#0}
-  13:     0x7ffff42075ab - rustc_middle[f49c2f37af7e8c7e]::ty::context::tls::with_context_opt::<rustc_middle[f49c2f37af7e8c7e]::ty::context::tls::with_opt<rustc_middle[f49c2f37af7e8c7e]::util::bug::opt_span_bug_fmt<rustc_span[d2f47af3535269a]::span_encoding::Span>::{closure#0}, !>::{closure#0}, !>
-  14:     0x7ffff1acb234 - rustc_middle[f49c2f37af7e8c7e]::util::bug::bug_fmt
-  15:     0x7ffff6eb545d - rustc_monomorphize[1bd6e091119877c6]::collector::find_tails_for_unsizing.cold
-  16:     0x7ffff5c12d0a - rustc_monomorphize[1bd6e091119877c6]::collector::items_of_instance
-  17:     0x7ffff5c0f732 - rustc_query_impl[f993d76296ac3ede]::plumbing::__rust_begin_short_backtrace::<rustc_query_impl[f993d76296ac3ede]::query_impl::items_of_instance::dynamic_query::{closure#2}::{closure#0}, rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 32usize]>>
-  18:     0x7ffff5ed62e0 - rustc_query_system[11b36a7129bd2e9f]::query::plumbing::try_execute_query::<rustc_query_impl[f993d76296ac3ede]::DynamicConfig<rustc_query_system[11b36a7129bd2e9f]::query::caches::DefaultCache<(rustc_middle[f49c2f37af7e8c7e]::ty::instance::Instance, rustc_middle[f49c2f37af7e8c7e]::mir::mono::CollectionMode), rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 32usize]>>, false, false, false>, rustc_query_impl[f993d76296ac3ede]::plumbing::QueryCtxt, false>
-  19:     0x7ffff5ed5ef1 - rustc_query_impl[f993d76296ac3ede]::query_impl::items_of_instance::get_query_non_incr::__rust_end_short_backtrace
-  20:     0x7ffff664e5d8 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_items_rec
-  21:     0x7ffff6650529 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_items_rec
-  22:     0x7ffff6650529 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_items_rec
-  23:     0x7ffff6650529 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_items_rec
-  24:     0x7ffff6650529 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_items_rec
-  25:     0x7ffff56860a1 - rustc_monomorphize[1bd6e091119877c6]::collector::collect_crate_mono_items::{closure#1}::{closure#0}
-  26:     0x7ffff5961cf6 - rustc_monomorphize[1bd6e091119877c6]::partitioning::collect_and_partition_mono_items
-  27:     0x7ffff59619a4 - rustc_query_impl[f993d76296ac3ede]::plumbing::__rust_begin_short_backtrace::<rustc_query_impl[f993d76296ac3ede]::query_impl::collect_and_partition_mono_items::dynamic_query::{closure#2}::{closure#0}, rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 24usize]>>
-  28:     0x7ffff5961989 - <rustc_query_impl[f993d76296ac3ede]::query_impl::collect_and_partition_mono_items::dynamic_query::{closure#2} as core[e59341b65d367131]::ops::function::FnOnce<(rustc_middle[f49c2f37af7e8c7e]::ty::context::TyCtxt, ())>>::call_once
-  29:     0x7ffff63f749b - rustc_query_system[11b36a7129bd2e9f]::query::plumbing::try_execute_query::<rustc_query_impl[f993d76296ac3ede]::DynamicConfig<rustc_query_system[11b36a7129bd2e9f]::query::caches::SingleCache<rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 24usize]>>, false, false, false>, rustc_query_impl[f993d76296ac3ede]::plumbing::QueryCtxt, false>
-  30:     0x7ffff63f7243 - rustc_query_impl[f993d76296ac3ede]::query_impl::collect_and_partition_mono_items::get_query_non_incr::__rust_end_short_backtrace
-  31:     0x7ffff5f4d537 - rustc_codegen_ssa[2f3a493e46e04e93]::back::symbol_export::exported_generic_symbols_provider_local
-  32:     0x7ffff612c435 - rustc_query_impl[f993d76296ac3ede]::plumbing::__rust_begin_short_backtrace::<rustc_query_impl[f993d76296ac3ede]::query_impl::exported_generic_symbols::dynamic_query::{closure#2}::{closure#0}, rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 16usize]>>
-  33:     0x7ffff612c40b - <rustc_query_impl[f993d76296ac3ede]::query_impl::exported_generic_symbols::dynamic_query::{closure#2} as core[e59341b65d367131]::ops::function::FnOnce<(rustc_middle[f49c2f37af7e8c7e]::ty::context::TyCtxt, rustc_span[d2f47af3535269a]::def_id::CrateNum)>>::call_once
-  34:     0x7ffff612a59c - rustc_query_system[11b36a7129bd2e9f]::query::plumbing::try_execute_query::<rustc_query_impl[f993d76296ac3ede]::DynamicConfig<rustc_data_structures[ab77da159d78a1fb]::vec_cache::VecCache<rustc_span[d2f47af3535269a]::def_id::CrateNum, rustc_middle[f49c2f37af7e8c7e]::query::erase::Erased<[u8; 16usize]>, rustc_query_system[11b36a7129bd2e9f]::dep_graph::graph::DepNodeIndex>, false, false, false>, rustc_query_impl[f993d76296ac3ede]::plumbing::QueryCtxt, false>
-  35:     0x7ffff612a0cc - rustc_query_impl[f993d76296ac3ede]::query_impl::exported_generic_symbols::get_query_non_incr::__rust_end_short_backtrace
-  36:     0x7ffff5cd5aa6 - <rustc_metadata[20361371e3f2a7bd]::rmeta::encoder::EncodeContext>::encode_crate_root
-  37:     0x7ffff66abbfc - <rustc_metadata[20361371e3f2a7bd]::rmeta::encoder::encode_metadata::{closure#3} as core[e59341b65d367131]::ops::function::FnOnce<(rustc_middle[f49c2f37af7e8c7e]::ty::context::TyCtxt, &std[7637d35b2e73f491]::path::Path)>>::call_once
-  38:     0x7ffff66a8e13 - rustc_metadata[20361371e3f2a7bd]::rmeta::encoder::encode_metadata
-  39:     0x7ffff617aa89 - rustc_metadata[20361371e3f2a7bd]::fs::encode_and_write_metadata
-  40:     0x7ffff641a6ab - <rustc_interface[70956b6af7f02b7a]::queries::Linker>::codegen_and_build_linker
-  41:     0x7ffff6417e99 - <rustc_interface[70956b6af7f02b7a]::passes::create_and_enter_global_ctxt<core[e59341b65d367131]::option::Option<rustc_interface[70956b6af7f02b7a]::queries::Linker>, rustc_driver_impl[1a3eae45778b1a3a]::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core[e59341b65d367131]::ops::function::FnOnce<(&rustc_session[ef90395b1d579b60]::session::Session, rustc_middle[f49c2f37af7e8c7e]::ty::context::CurrentGcx, alloc[e4cd1c42012959c4]::sync::Arc<rustc_data_structures[ab77da159d78a1fb]::jobserver::Proxy>, &std[7637d35b2e73f491]::sync::once_lock::OnceLock<rustc_middle[f49c2f37af7e8c7e]::ty::context::GlobalCtxt>, &rustc_data_structures[ab77da159d78a1fb]::sync::worker_local::WorkerLocal<rustc_middle[f49c2f37af7e8c7e]::arena::Arena>, &rustc_data_structures[ab77da159d78a1fb]::sync::worker_local::WorkerLocal<rustc_hir[78cba43770fa9cc1]::Arena>, rustc_driver_impl[1a3eae45778b1a3a]::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
-  42:     0x7ffff6398cf4 - rustc_interface[70956b6af7f02b7a]::interface::run_compiler::<(), rustc_driver_impl[1a3eae45778b1a3a]::run_compiler::{closure#0}>::{closure#1}
-  43:     0x7ffff6335dba - std[7637d35b2e73f491]::sys::backtrace::__rust_begin_short_backtrace::<rustc_interface[70956b6af7f02b7a]::util::run_in_thread_with_globals<rustc_interface[70956b6af7f02b7a]::util::run_in_thread_pool_with_globals<rustc_interface[70956b6af7f02b7a]::interface::run_compiler<(), rustc_driver_impl[1a3eae45778b1a3a]::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}, ()>
-  44:     0x7ffff6335b7e - <std[7637d35b2e73f491]::thread::lifecycle::spawn_unchecked<rustc_interface[70956b6af7f02b7a]::util::run_in_thread_with_globals<rustc_interface[70956b6af7f02b7a]::util::run_in_thread_pool_with_globals<rustc_interface[70956b6af7f02b7a]::interface::run_compiler<(), rustc_driver_impl[1a3eae45778b1a3a]::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}, ()>::{closure#1} as core[e59341b65d367131]::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
-  45:     0x7ffff6337944 - <std[7637d35b2e73f491]::sys::thread::unix::Thread>::new::thread_start
-  46:     0x7fffefc9af08 - start_thread
-  47:     0x7fffefd230ac - __clone3
-  48:                0x0 - <unknown>
+   0: std::panicking::begin_panic::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:761:5
+   1: std::panic::panic_any::<rustc_errors::ExplicitBug>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:260:5
+   2: <rustc_errors::diagnostic::BugAbort as rustc_errors::diagnostic::EmissionGuarantee>::emit_producing_guarantee
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:62:9
+   3: <rustc_errors::diagnostic::Diag<rustc_errors::diagnostic::BugAbort>>::emit
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/diagnostic.rs:1359:9
+   4: <rustc_errors::DiagCtxtHandle>::bug::<alloc::string::String>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_errors/src/lib.rs:948:30
+   5: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:39:48
+   6: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:136:23
+   7: rustc_middle::ty::context::tls::with_context_opt::<rustc_middle::ty::context::tls::with_opt<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:79:18
+   8: rustc_middle::ty::context::tls::with_opt::<rustc_middle::util::bug::opt_span_bug_fmt<rustc_span::span_encoding::Span>::{closure#0}, !>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:134:5
+   9: rustc_middle::util::bug::opt_span_bug_fmt::<rustc_span::span_encoding::Span>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:33:5
+  10: rustc_middle::util::bug::bug_fmt
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/util/bug.rs:16:5
+  11: rustc_monomorphize::custom_coerce_unsize_info
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/lib.rs:42:13
+  12: rustc_monomorphize::collector::find_tails_for_unsizing
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1173:23
+  13: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::visit_rvalue
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:754:21
+  14: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::super_assign
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:523:22
+  15: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::visit_assign
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:120:22
+  16: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::super_statement
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:432:30
+  17: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::visit_statement
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:111:22
+  18: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::super_basic_block_data
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:320:26
+  19: <rustc_monomorphize::collector::MirUsedCollector as rustc_middle::mir::visit::Visitor>::visit_basic_block_data
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/mir/visit.rs:88:22
+  20: rustc_monomorphize::collector::collect_items_of_instance
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1351:23
+  21: rustc_monomorphize::collector::items_of_instance
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1382:41
+      [... omitted 20 frames ...]
+  22: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::DefaultCache<(rustc_middle::ty::instance::Instance, rustc_middle::mir::mono::CollectionMode), rustc_middle::query::erase::ErasedData<[u8; 32]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+  23: <rustc_middle::query::plumbing::TyCtxtAt>::items_of_instance
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+  24: <rustc_middle::ty::context::TyCtxt>::items_of_instance
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  25: rustc_monomorphize::collector::collect_items_rec::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:481:49
+  26: stacker::maybe_grow::<(), rustc_monomorphize::collector::collect_items_rec::{closure#0}>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/stacker-0.1.21/src/lib.rs:57:9
+  27: rustc_data_structures::stack::ensure_sufficient_stack::<(), rustc_monomorphize::collector::collect_items_rec::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/stack.rs:21:5
+  28: rustc_monomorphize::collector::collect_items_rec
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:480:13
+  29: rustc_monomorphize::collector::collect_items_rec
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:596:13
+  30: rustc_monomorphize::collector::collect_items_rec
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:596:13
+  31: rustc_monomorphize::collector::collect_items_rec
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:596:13
+  32: rustc_monomorphize::collector::collect_items_rec
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:596:13
+  33: rustc_monomorphize::collector::collect_items_root
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:371:5
+  34: rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1827:13
+  35: rustc_data_structures::sync::parallel::par_for_each_in::<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:30
+  36: <core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  37: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  38: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  39: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  40: <rustc_data_structures::sync::parallel::ParallelGuard>::run::<(), rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:23:9
+  41: rustc_data_structures::sync::parallel::par_for_each_in::<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:181:23
+  42: core::iter::traits::iterator::Iterator::for_each::call::<rustc_middle::mir::mono::MonoItem, rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/iter/traits/iterator.rs:842:29
+  43: <alloc::vec::into_iter::IntoIter<rustc_middle::mir::mono::MonoItem> as core::iter::traits::iterator::Iterator>::fold::<(), core::iter::traits::iterator::Iterator::for_each::call<rustc_middle::mir::mono::MonoItem, rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/vec/into_iter.rs:329:25
+  44: <alloc::vec::into_iter::IntoIter<rustc_middle::mir::mono::MonoItem> as core::iter::traits::iterator::Iterator>::for_each::<rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/library/core/src/iter/traits/iterator.rs:845:14
+  45: rustc_data_structures::sync::parallel::par_for_each_in::<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:180:27
+  46: rustc_data_structures::sync::parallel::parallel_guard::<(), rustc_data_structures::sync::parallel::par_for_each_in<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:39:15
+  47: rustc_data_structures::sync::parallel::par_for_each_in::<rustc_middle::mir::mono::MonoItem, alloc::vec::Vec<rustc_middle::mir::mono::MonoItem>, rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/sync/parallel.rs:175:5
+  48: rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1826:9
+  49: <rustc_data_structures::profiling::VerboseTimingGuard>::run::<(), rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_data_structures/src/profiling.rs:844:9
+  50: <rustc_session::session::Session>::time::<(), rustc_monomorphize::collector::collect_crate_mono_items::{closure#1}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_session/src/utils.rs:17:50
+  51: rustc_monomorphize::collector::collect_crate_mono_items
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/collector.rs:1825:14
+  52: rustc_monomorphize::partitioning::collect_and_partition_mono_items
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_monomorphize/src/partitioning.rs:1138:30
+      [... omitted 20 frames ...]
+  53: rustc_middle::query::inner::query_get_at::<rustc_query_system::query::caches::SingleCache<rustc_middle::query::erase::ErasedData<[u8; 24]>>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+  54: <rustc_middle::query::plumbing::TyCtxtAt>::collect_and_partition_mono_items
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+  55: <rustc_middle::ty::context::TyCtxt>::collect_and_partition_mono_items
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  56: rustc_codegen_ssa::back::symbol_export::exported_generic_symbols_provider_local
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_codegen_ssa/src/back/symbol_export.rs:244:24
+      [... omitted 20 frames ...]
+  57: rustc_middle::query::inner::query_get_at::<rustc_data_structures::vec_cache::VecCache<rustc_span::def_id::CrateNum, rustc_middle::query::erase::ErasedData<[u8; 16]>, rustc_query_system::dep_graph::graph::DepNodeIndex>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/inner.rs:28:17
+  58: <rustc_middle::query::plumbing::TyCtxtAt>::exported_generic_symbols
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:429:42
+  59: <rustc_middle::ty::context::TyCtxt>::exported_generic_symbols
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/query/plumbing.rs:418:35
+  60: <rustc_metadata::rmeta::encoder::EncodeContext>::encode_crate_root::{closure#24}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:700:54
+  61: <rustc_metadata::rmeta::encoder::EncodeContext>::encode_crate_root
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:611:27
+  62: rustc_metadata::rmeta::encoder::encode_metadata::{closure#3}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:2480:32
+  63: rustc_metadata::rmeta::encoder::with_encode_metadata_header::<rustc_metadata::rmeta::encoder::encode_metadata::{closure#3}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:2537:25
+  64: rustc_metadata::rmeta::encoder::encode_metadata::{closure#3}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:2477:13
+  65: <rustc_metadata::rmeta::encoder::encode_metadata::{closure#3} as core::ops::function::FnOnce<(rustc_middle::ty::context::TyCtxt, &std::path::Path)>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+  66: <rustc_query_system::dep_graph::graph::DepGraph<rustc_middle::dep_graph::DepsType>>::with_task::<rustc_middle::ty::context::TyCtxt, &std::path::Path, ()>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_query_system/src/dep_graph/graph.rs:273:22
+  67: rustc_metadata::rmeta::encoder::encode_metadata
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/rmeta/encoder.rs:2472:19
+  68: rustc_metadata::fs::encode_and_write_metadata
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_metadata/src/fs.rs:58:9
+  69: rustc_interface::passes::start_codegen
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1250:20
+  70: <rustc_interface::queries::Linker>::codegen_and_build_linker
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/queries.rs:33:43
+  71: rustc_driver_impl::run_compiler::{closure#0}::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:349:18
+  72: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1018:27
+  73: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:37
+  74: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:60:9
+  75: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::try_with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:513:12
+  76: <std::thread::local::LocalKey<core::cell::Cell<*const ()>>>::with::<rustc_middle::ty::context::tls::enter_context<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/thread/local.rs:477:20
+  77: rustc_middle::ty::context::tls::enter_context::<<rustc_middle::ty::context::GlobalCtxt>::enter<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>::{closure#1}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context/tls.rs:57:9
+  78: <rustc_middle::ty::context::GlobalCtxt>::enter::<rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}, core::option::Option<rustc_interface::queries::Linker>>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1647:9
+  79: <rustc_middle::ty::context::TyCtxt>::create_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_middle/src/ty/context.rs:1854:13
+  80: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:985:9
+  81: <rustc_interface::passes::create_and_enter_global_ctxt<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>::{closure#2} as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once::{shim:vtable#0}
+             at /home/adwin/Code/rust/rust/base/library/core/src/ops/function.rs:250:5
+  82: <alloc::boxed::Box<dyn for<'a> core::ops::function::FnOnce<(&'a rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &'a std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena<'a>>, &'a rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena<'a>>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}), Output = core::option::Option<rustc_interface::queries::Linker>>> as core::ops::function::FnOnce<(&rustc_session::session::Session, rustc_middle::ty::context::CurrentGcx, alloc::sync::Arc<rustc_data_structures::jobserver::Proxy>, &std::sync::once_lock::OnceLock<rustc_middle::ty::context::GlobalCtxt>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_middle::arena::Arena>, &rustc_data_structures::sync::worker_local::WorkerLocal<rustc_hir::Arena>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2})>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/alloc/src/boxed.rs:2206:9
+  83: rustc_interface::passes::create_and_enter_global_ctxt::<core::option::Option<rustc_interface::queries::Linker>, rustc_driver_impl::run_compiler::{closure#0}::{closure#2}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/passes.rs:1026:5
+  84: rustc_driver_impl::run_compiler::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_driver_impl/src/lib.rs:306:22
+  85: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:80
+  86: <core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+             at /home/adwin/Code/rust/rust/base/library/core/src/panic/unwind_safe.rs:274:9
+  87: std::panicking::catch_unwind::do_call::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:581:40
+  88: std::panicking::catch_unwind::<(), core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panicking.rs:544:19
+  89: std::panic::catch_unwind::<core::panic::unwind_safe::AssertUnwindSafe<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}::{closure#0}>, ()>
+             at /home/adwin/Code/rust/rust/base/library/std/src/panic.rs:359:14
+  90: rustc_interface::interface::run_compiler::<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/interface.rs:515:23
+  91: rustc_interface::util::run_in_thread_pool_with_globals::<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:204:17
+  92: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:158:24
+  93: <scoped_tls::ScopedKey<rustc_span::SessionGlobals>>::set::<rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}, ()>
+             at /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/scoped-tls-1.0.1/src/lib.rs:137:9
+  94: rustc_span::create_session_globals_then::<(), rustc_interface::util::run_in_thread_with_globals<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}::{closure#0}>
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_span/src/lib.rs:142:21
+  95: rustc_interface::util::run_in_thread_with_globals::<rustc_interface::util::run_in_thread_pool_with_globals<rustc_interface::interface::run_compiler<(), rustc_driver_impl::run_compiler::{closure#0}>::{closure#1}, ()>::{closure#0}, ()>::{closure#0}::{closure#0}
+             at /home/adwin/Code/rust/rust/base/compiler/rustc_interface/src/util.rs:154:17
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
 
 note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
 
 note: please make sure that you have updated to the latest nightly
 
-note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/rustc-ice-2026-02-13T02_34_36-1259427.txt` to your bug report
+note: please attach the file at `/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/rustc-ice-2026-02-18T16_38_36-1597169.txt` to your bug report
 
-note: rustc 1.94.0-nightly (fe98ddcfc 2026-01-17) running on x86_64-unknown-linux-gnu
+note: rustc 1.95.0-dev running on x86_64-unknown-linux-gnu
 
 note: compiler flags: --crate-type lib -C embed-bitcode=no -C strip=debuginfo -Z next-solver
 
@@ -468,5 +615,5 @@ query stack during panic:
 error: could not compile `sea-orm-cli` (lib)
 
 Caused by:
-  process didn't exit successfully: `/home/adwin/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rustc --crate-name sea_orm_cli --edition=2021 /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no --cfg 'feature="async-std"' --cfg 'feature="clap"' --cfg 'feature="cli"' --cfg 'feature="codegen"' --cfg 'feature="default"' --cfg 'feature="dotenvy"' --cfg 'feature="runtime-async-std-native-tls"' --cfg 'feature="sea-orm-codegen"' --cfg 'feature="sqlx"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("async-std", "clap", "cli", "codegen", "default", "dotenvy", "runtime-actix-native-tls", "runtime-actix-rustls", "runtime-async-std-native-tls", "runtime-async-std-rustls", "runtime-tokio-native-tls", "runtime-tokio-rustls", "sea-orm-codegen", "sqlx"))' -C metadata=18f6223a0d9701d8 -C extra-filename=-d6d8d814d2c5d121 --out-dir /tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps --extern async_std=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libasync_std-041ed6ab530965e0.rmeta --extern chrono=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libchrono-fa55e34ea34292d0.rmeta --extern clap=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libclap-cd46e609d9834041.rmeta --extern dotenvy=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libdotenvy-3fa70dfa45d0bcad.rmeta --extern glob=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libglob-650979ec67475045.rmeta --extern regex=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libregex-21708081c1583c59.rmeta --extern sea_orm_codegen=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libsea_orm_codegen-26ea7b30dbb46e7d.rmeta --extern sea_schema=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libsea_schema-340efcd110098926.rmeta --extern sqlx=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libsqlx-b8869a2565738bcc.rmeta --extern tracing=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libtracing-7c9d23585b1c043a.rmeta --extern tracing_subscriber=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/libtracing_subscriber-d91da9ad9cdf0fbb.rmeta --extern url=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/deps/liburl-918a001247e5dadf.rmeta --cap-lints allow -Znext-solver -L native=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/build/ring-5fc7106aef0e057b/out -L native=/tmp/nix-shell.uUVugk/LucaLucareli_cast-rust-api_vaa_93nn/target/debug/build/libsqlite3-sys-edb4c2a83d5d15cf/out -L native=/nix/store/byx7ahs386pskh8d5sdkrkpscfz9yyjp-openssl-3.4.1/lib` (exit status: 101)
+  process didn't exit successfully: `/home/adwin/.rustup/toolchains/next-solver-globally-cherry-picked/bin/rustc --crate-name sea_orm_cli --edition=2021 /home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/sea-orm-cli-0.12.15/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no --cfg 'feature="async-std"' --cfg 'feature="clap"' --cfg 'feature="cli"' --cfg 'feature="codegen"' --cfg 'feature="default"' --cfg 'feature="dotenvy"' --cfg 'feature="runtime-async-std-native-tls"' --cfg 'feature="sea-orm-codegen"' --cfg 'feature="sqlx"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("async-std", "clap", "cli", "codegen", "default", "dotenvy", "runtime-actix-native-tls", "runtime-actix-rustls", "runtime-async-std-native-tls", "runtime-async-std-rustls", "runtime-tokio-native-tls", "runtime-tokio-rustls", "sea-orm-codegen", "sqlx"))' -C metadata=e0f6966520f337f8 -C extra-filename=-b3db22c30e73ad3a --out-dir /tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps -C strip=debuginfo -L dependency=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps --extern async_std=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libasync_std-43181657461bf425.rmeta --extern chrono=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libchrono-635051c7a52e80f5.rmeta --extern clap=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libclap-8455bd6bc21a3423.rmeta --extern dotenvy=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libdotenvy-780eadd849d39171.rmeta --extern glob=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libglob-8ba9395ecbb3a98a.rmeta --extern regex=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libregex-d2d12c933d84f46f.rmeta --extern sea_orm_codegen=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libsea_orm_codegen-1b2aab50b02a47d6.rmeta --extern sea_schema=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libsea_schema-370514a0b6a334c1.rmeta --extern sqlx=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libsqlx-4d1c45042f21b05c.rmeta --extern tracing=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libtracing-b08c4c1459e7772c.rmeta --extern tracing_subscriber=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/libtracing_subscriber-8ec51cc6622ffb41.rmeta --extern url=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/deps/liburl-10293c0affac6d6e.rmeta --cap-lints allow -Znext-solver -L native=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/build/ring-bbffd51d63b47479/out -L native=/tmp/nix-shell.cigUv1/LucaLucareli_cast-rust-api_dhv14a56/target/debug/build/libsqlite3-sys-c6a2386fe611bf9a/out -L native=/nix/store/byx7ahs386pskh8d5sdkrkpscfz9yyjp-openssl-3.4.1/lib` (exit status: 101)
 warning: build failed, waiting for other jobs to finish...
