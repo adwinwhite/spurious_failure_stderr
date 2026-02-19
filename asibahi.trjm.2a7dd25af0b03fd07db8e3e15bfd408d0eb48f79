@@ -1,16 +1,12 @@
-Running as unit: run-p1551464-i14131572.scope; invocation ID: 1d773baf20da49e3920fffc4666e8b28
+Running as unit: run-p1992001-i6185677.scope; invocation ID: 716df98b00aa44038c39aecfbb533a53
    Compiling libc v0.2.170
-   Compiling anyhow v1.0.97
     Checking memchr v2.7.4
+   Compiling anyhow v1.0.97
     Checking hashbrown v0.15.2
     Checking once_cell v1.20.3
     Checking equivalent v1.0.2
-error[E0463]: can't find crate for `std`
-  |
-  = note: the `x86_64-apple-darwin` target may not be installed
-  = help: consider downloading the target with `rustup target add x86_64-apple-darwin`
-  = help: consider building the standard library from source with `cargo build -Zbuild-std`
-
+    Checking rustc-hash v2.1.1
+    Checking either v1.14.0
 error[E0463]: can't find crate for `core`
   |
   = note: the `x86_64-apple-darwin` target may not be installed
@@ -18,8 +14,16 @@ error[E0463]: can't find crate for `core`
   = help: consider building the standard library from source with `cargo build -Zbuild-std`
 
 For more information about this error, try `rustc --explain E0463`.
-error: could not compile `once_cell` (lib) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `equivalent` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error[E0463]: can't find crate for `std`
+  |
+  = note: the `x86_64-apple-darwin` target may not be installed
+  = help: consider downloading the target with `rustup target add x86_64-apple-darwin`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+error: could not compile `rustc-hash` (lib) due to 1 previous error
+error: could not compile `once_cell` (lib) due to 1 previous error
+error: could not compile `either` (lib) due to 1 previous error
 error: could not compile `memchr` (lib) due to 1 previous error
 error: could not compile `hashbrown` (lib) due to 1 previous error
