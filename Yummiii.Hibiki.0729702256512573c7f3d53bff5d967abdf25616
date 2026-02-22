@@ -1,4 +1,4 @@
-Running as unit: run-p1609232-i5802923.scope; invocation ID: 5a7c439cd48d40059af98ed7bfb5bc68
+Running as unit: run-p2175308-i6368984.scope; invocation ID: 2bdd800d853d425f824c82540347219e
    Compiling serde v1.0.208
    Compiling hashbrown v0.14.5
    Compiling equivalent v1.0.1
@@ -13,19 +13,19 @@ Running as unit: run-p1609232-i5802923.scope; invocation ID: 5a7c439cd48d40059af
    Compiling autocfg v1.3.0
    Compiling libc v0.2.158
     Checking pin-project-lite v0.2.14
-   Compiling winnow v0.5.40
    Compiling slab v0.4.9
-   Compiling cfg-expr v0.16.0
+   Compiling winnow v0.5.40
     Checking futures-core v0.3.30
+   Compiling cfg-expr v0.16.0
     Checking futures-io v0.3.30
     Checking memchr v2.7.4
    Compiling indexmap v2.4.0
    Compiling quote v1.0.36
    Compiling syn v2.0.75
     Checking bitflags v2.6.0
-    Checking futures-sink v0.3.30
-    Checking pin-utils v0.1.0
     Checking futures-task v0.3.30
+    Checking pin-utils v0.1.0
+    Checking futures-sink v0.3.30
    Compiling crossbeam-utils v0.8.20
     Checking futures-channel v0.3.30
     Checking parking v2.2.0
@@ -46,20 +46,20 @@ Running as unit: run-p1609232-i5802923.scope; invocation ID: 5a7c439cd48d40059af
     Checking futures-lite v2.3.0
    Compiling rustix v0.38.34
    Compiling rustc_version v0.4.0
-    Checking unicode-normalization v0.1.23
     Checking tracing-core v0.1.32
+    Checking unicode-normalization v0.1.23
+    Checking byteorder v1.5.0
     Checking percent-encoding v2.3.1
     Checking unicode-bidi v0.3.15
-    Checking byteorder v1.5.0
-    Checking atomic-waker v1.1.2
     Checking linux-raw-sys v0.4.14
+    Checking atomic-waker v1.1.2
     Checking async-task v4.7.1
     Checking piper v0.2.4
-    Checking idna v0.5.0
     Checking form_urlencoded v1.2.1
    Compiling field-offset v0.3.6
-    Checking async-lock v3.4.0
     Checking async-channel v2.3.1
+    Checking async-lock v3.4.0
+    Checking idna v0.5.0
     Checking getrandom v0.2.15
    Compiling num-traits v0.2.19
    Compiling cfg_aliases v0.2.1
@@ -67,12 +67,12 @@ Running as unit: run-p1609232-i5802923.scope; invocation ID: 5a7c439cd48d40059af
     Checking rand_core v0.6.4
     Checking blocking v1.6.1
     Checking aho-corasick v1.1.3
-    Checking static_assertions v1.1.0
-    Checking endi v1.1.0
    Compiling toml_datetime v0.6.8
    Compiling serde_spanned v0.6.7
-    Checking regex-syntax v0.8.4
    Compiling paste v1.0.15
+    Checking endi v1.1.0
+    Checking static_assertions v1.1.0
+    Checking regex-syntax v0.8.4
    Compiling toml_edit v0.22.20
    Compiling toml_edit v0.21.1
     Checking cpufeatures v0.2.13
@@ -86,51 +86,65 @@ Running as unit: run-p1609232-i5802923.scope; invocation ID: 5a7c439cd48d40059af
     Checking async-broadcast v0.7.1
     Checking xdg-home v1.3.0
     Checking ordered-stream v0.2.0
-   Compiling xdg v2.5.2
-    Checking crypto-common v0.1.6
     Checking block-buffer v0.10.4
-    Checking digest v0.10.7
+    Checking crypto-common v0.1.6
     Checking log v0.4.22
-    Checking is_terminal_polyfill v1.70.1
+    Checking digest v0.10.7
+    Checking either v1.13.0
+    Checking sha1 v0.10.6
     Checking hex v0.4.3
     Checking colorchoice v1.0.2
-    Checking sha1 v0.10.6
-    Checking either v1.13.0
-    Checking anstyle v1.0.8
     Checking anstyle-query v1.1.1
+   Compiling xdg v2.5.2
+    Checking anstyle v1.0.8
    Compiling zvariant_utils v2.1.0
-    Checking itertools v0.13.0
+    Checking is_terminal_polyfill v1.70.1
     Checking anstream v0.6.15
+    Checking itertools v0.13.0
     Checking option-operations v0.5.0
     Checking num-rational v0.4.2
    Compiling proc-macro-crate v3.1.0
-    Checking regex v1.10.6
-    Checking humantime v2.1.0
    Compiling toml v0.8.19
+    Checking regex v1.10.6
    Compiling futures-macro v0.3.30
    Compiling serde_derive v1.0.208
-   Compiling zerocopy-derive v0.7.35
-   Compiling glib-macros v0.20.1
    Compiling tracing-attributes v0.1.27
+   Compiling glib-macros v0.20.1
    Compiling system-deps v7.0.2
+   Compiling zerocopy-derive v0.7.35
    Compiling enumflags2_derive v0.7.10
     Checking futures-util v0.3.30
-    Checking zerocopy v0.7.35
    Compiling glib-sys v0.20.1
    Compiling gobject-sys v0.20.1
    Compiling gio-sys v0.20.1
-   Compiling gdk-pixbuf-sys v0.20.1
    Compiling cairo-sys-rs v0.20.0
    Compiling pango-sys v0.20.1
+   Compiling gdk-pixbuf-sys v0.20.1
    Compiling gdk4-sys v0.9.0
    Compiling graphene-sys v0.20.1
-error: failed to run custom build command for `gdk4-sys v0.9.0`
+   Compiling gsk4-sys v0.9.0
+   Compiling gtk4-sys v0.9.0
+    Checking tracing v0.1.40
+    Checking zerocopy v0.7.35
+    Checking polling v3.7.3
+   Compiling gdk4-x11-sys v0.9.0
+   Compiling gdk4-wayland-sys v0.9.0
+   Compiling zvariant_derive v4.2.0
+    Checking ppv-lite86 v0.2.20
+    Checking rand_chacha v0.3.1
+    Checking async-io v2.3.4
+   Compiling libadwaita-sys v0.7.0
+   Compiling gstreamer-sys v0.23.0
+   Compiling gtk4-macros v0.9.0
+   Compiling futures-executor v0.3.30
+warning: libadwaita-sys@0.7.0: 
+error: failed to run custom build command for `libadwaita-sys v0.7.0`
 
 Caused by:
-  process didn't exit successfully: `/tmp/nix-shell.cigUv1/Yummiii_Hibiki_xlxveupj/target/debug/build/gdk4-sys-0a252e2b55545376/build-script-build` (exit status: 1)
+  process didn't exit successfully: `/tmp/nix-shell.gfTR4V/Yummiii_Hibiki_6gi1o7uy/target/debug/build/libadwaita-sys-06908ea9a524bc82/build-script-build` (exit status: 1)
   --- stdout
-  cargo:rerun-if-changed=/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/gdk4-sys-0.9.0/Cargo.toml
-  cargo:rerun-if-env-changed=GTK4_NO_PKG_CONFIG
+  cargo:rerun-if-changed=/home/adwin/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/libadwaita-sys-0.7.0/Cargo.toml
+  cargo:rerun-if-env-changed=LIBADWAITA_1_NO_PKG_CONFIG
   cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
   cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
   cargo:rerun-if-env-changed=HOST_PKG_CONFIG
@@ -147,14 +161,12 @@ Caused by:
   cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
   cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
   cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
-
-  --- stderr
-
+  cargo:warning=
   pkg-config exited with status code 1
-  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags gtk4 gtk4 >= 4.0.0
+  > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libadwaita-1 libadwaita-1 >= 1
 
-  The system library `gtk4` required by crate `gdk4-sys` was not found.
-  The file `gtk4.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
+  The system library `libadwaita-1` required by crate `libadwaita-sys` was not found.
+  The file `libadwaita-1.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory.
   PKG_CONFIG_PATH_FOR_TARGET contains the following:
       - /nix/store/k40s12q2hyg0hwqcjg12rx6xb6jl52ar-alsa-lib-1.2.13-dev/lib/pkgconfig
       - /nix/store/k0699a27nkj4c2xn67bjcpfa08nqn9l4-openssl-3.4.1-dev/lib/pkgconfig
@@ -237,7 +249,16 @@ Caused by:
       - /nix/store/kvvqnzfnk3dsfgb59588hxh12ij95jg6-capnproto-1.1.0/lib/pkgconfig
       - /nix/store/7m8ws299hm57x6q6c8cnl2xxrajlcwin-speech-dispatcher-0.12.1/lib/pkgconfig
       - /nix/store/5dc15pv52b1raq1lqbgrsqdjf2p02g0f-libjack2-1.9.22-dev/lib/pkgconfig
+      - /nix/store/cyjhqrysk4xwncdv3ka95i3ni0r6rkmn-webkitgtk-2.48.3+abi=4.1-dev/lib/pkgconfig
+      - /nix/store/i8d1gzpdi90s1ag1fg2qzd1n7ywz1fj8-libsoup-3.6.5-dev/lib/pkgconfig
+      - /nix/store/znjj2ydgji4la9yhc7smibj6xkg4qxd9-libelf-0.8.13/lib/pkgconfig
+      - /nix/store/qw38p671303rs4j1dkdlf70y6zzp1j1b-libbpf-1.5.1/lib/pkgconfig
+      - /nix/store/hz7sc0vp8pw4lk2vldb1g3jnris70k8y-graphene-1.10.8-dev/lib/pkgconfig
+      - /nix/store/qvcmn87fyra9a0rvps1f37fr2lx1lpfs-gtk4-4.18.5-dev/lib/pkgconfig
+      - /nix/store/s14lgiq7bdl1bjvd69kvd112wfl59g16-vulkan-loader-1.4.313.0-dev/lib/pkgconfig
+      - /nix/store/yr2jw7zaw7wxld638v1m76cdbi0ciibg-libXtst-1.2.5/lib/pkgconfig
+      - /nix/store/rdnx32wkaz273f643sv1m1hbd5gh56bz-libxml2-2.14.3-dev/lib/pkgconfig
 
-  HINT: you may need to install a package such as gtk4, gtk4-dev or gtk4-devel.
+  HINT: you may need to install a package such as libadwaita-1, libadwaita-1-dev or libadwaita-1-devel.
 
 warning: build failed, waiting for other jobs to finish...
